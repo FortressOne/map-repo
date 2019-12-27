@@ -12,4 +12,4 @@ $ zip -r map-repo.zip fortress/
 
 ## Deploy
 
-GitHub actions automatically syncs to S3. See `.git/workflows/workflow.yml`.
+GitHub actions automatically syncs to S3. See `.github/workflows/workflow.yml`.
