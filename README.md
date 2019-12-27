@@ -12,9 +12,4 @@ $ zip -r map-repo.zip fortress/
 
 ## Deploy
 
-You will need the credentials for the storage user on the zel+storage AWS account.
-
-```
-$ aws configure
-$ aws s3 sync . s3://map-repo --exclude ".git/*" --exclude tags --exclude README.md --dryrun
-```
+GitHub actions automatically syncs to S3. See `.git/workflows/workflow.yml`.
