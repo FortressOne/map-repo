@@ -5,9 +5,7 @@ Contains all known QWTF maps and their assets, as well as lits, locs and skins. 
 
 ## Compile for GitHub release
 
-```
-$ zip -r map-repo.zip fortress/
-```
+  ./build.sh
 
 
 ## Deploy
