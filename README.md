@@ -3,11 +3,26 @@
 Contains all known QWTF maps and their assets, as well as lits, locs and skins. If any are missing please submit a PR.
 
 
-## Compile for GitHub release
+## Docker
+
+### Build map-repo
 
 ```
-$ zip -r map-repo.zip fortress/
+docker build --tag=map-repo .
 ```
+
+
+### Deploy fortressonesv
+
+```
+docker tag fortressonesv fortressone/map-repo:latest
+docker push fortressone/map-repo:latest
+```
+
+
+## Compile for GitHub release
+
+    ./build.sh
 
 
 ## Deploy
