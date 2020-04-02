@@ -15,7 +15,7 @@ docker build --tag=map-repo .
 ### Deploy fortressonesv
 
 ```
-docker tag fortressonesv fortressone/map-repo:latest
+docker tag map-repo fortressone/map-repo:latest
 docker push fortressone/map-repo:latest
 ```
 
