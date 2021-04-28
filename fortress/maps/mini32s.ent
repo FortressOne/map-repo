@@ -1,0 +1,576 @@
+{
+"message" "mini 32smooth\nby [REV6]Freebie\nEnts by [REV6]John Zorn\nbased on 32smooth by DrSmooth\n"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"netname" "info_player_start"
+"classname" "info_player_start"
+"origin" "0 432 256"
+"angle" "90"
+}
+{
+"netname" "info_player_teamspawn blue"
+"classname" "i_p_t"
+"origin" "-320 1984 384"
+"playerclass" "0"
+"team_no" "1"
+"angle" "270"
+}
+{
+"netname" "info_player_teamspawn red"
+"classname" "i_p_t"
+"origin" "-320 -1760 384"
+"playerclass" "0"
+"team_no" "2"
+"angle" "90"
+}
+{
+"display_item_status1" "1"
+"n_s_c" "ֵמוםש flag is carried by"
+"display_item_status2" "2"
+"netname" "TF Detector"
+"impulse" "64"
+"b_n" "Mini 32smooth\nby [REV6]Freebie\nEnts by [REV6]John Zorn\nbased on 32smooth by DrSmooth\n"
+"t_s_h" "Your flag is at base."
+"classname" "info_tfdetect"
+"origin" "0 -208 320"
+"t_s_c" "Your flag is carried by"
+"n_s_h" "ֵמוםש flag is at base."
+"b_b" "TeamFortress v2.5"
+"n_s_m" "ֵמוםש flag is down."
+"t_s_m" "Your flag is down."
+"angle" "270"
+}
+{
+"g_a" "4789"
+"owned_by" "1"
+"netname" "team one flag"
+"message" "You have their flag.\nTake it home!\n"
+"d_n_n" " העןננוה גלץו§ף זלבח®\n"
+"classname" "item_tfgoal"
+"origin" "0 1728 352"
+"n_b" " חןפ גלץו§ף זלבח®\n"
+"noise" "shambler/ssight.wav"
+"d_n_t" " העןננוה גלץו§ף זלבח®\n"
+"b_t" "Your team got their flag.\n"
+"d_t" "The enemy lost your flag.\n"
+"b_o" "Your flag was taken.\n"
+"goal_no" "1"
+"items" "131072"
+"noise3" "Your flag returned.\n"
+"delay" "30"
+"noise4" "Their flag returned.\n"
+"team_no" "2"
+"pausetime" "30"
+"skin" "1"
+"d_n" "Your team lost their flag.\n"
+"mdl" "progs/tf_flag.mdl"
+"angle" "90"
+}
+{
+"g_a" "1"
+"items_allowed" "2"
+"target" "cap1"
+"owned_by" "2"
+"message" "You captured their flag.\n"
+"netname" "team one dropoff"
+"axhitme" "2"
+"classname" "i_t_g"
+"origin" "0 928 208"
+"noise" "misc/secret.wav"
+"n_b" " דבנפץעוה עוה§ף זלבח®\n"
+"b_t" "Your team captured their flag.\n"
+"g_e" "3"
+"count" "10"
+"b_o" "Your flag was captured.\n"
+"frags" "10"
+"goal_result" "2"
+"team_no" "1"
+}
+{
+"g_a" "4789"
+"owned_by" "2"
+"message" "You have their flag.\nTake it home!\n"
+"netname" "team two flag"
+"d_n_n" " העןננוה עוה§ף זלבח®\n"
+"classname" "item_tfgoal"
+"origin" "0 -1504 352"
+"noise" "ogre/ogwake.wav"
+"n_b" " חןפ עוה§ף זלבח®\n"
+"d_n_t" " העןננוה עוה§ף זלבח®\n"
+"b_t" "Your team got their flag.\n"
+"d_t" "The enemy lost your flag.\n"
+"b_o" "Your flag was taken.\n"
+"noise3" "Your flag returned.\n"
+"items" "262144"
+"goal_no" "2"
+"noise4" "Their flag returned.\n"
+"delay" "30"
+"pausetime" "30"
+"team_no" "1"
+"skin" "2"
+"mdl" "progs/tf_flag.mdl"
+"d_n" "Your team lost their flag.\n"
+"angle" "90"
+}
+{
+"g_a" "1"
+"target" "cap2"
+"items_allowed" "1"
+"owned_by" "1"
+"message" "You captured their flag.\n"
+"netname" "team two dropoff"
+"axhitme" "1"
+"classname" "i_t_g"
+"origin" "0 -704 208"
+"noise" "misc/secret.wav"
+"n_b" " דבנפץעוה גלץו§ף זלבח®\n"
+"b_t" "Your team captured their flag.\n"
+"g_e" "3"
+"count" "10"
+"b_o" "Your flag was captured.\n"
+"frags" "10"
+"goal_result" "2"
+"team_no" "2"
+}
+{
+"classname" "item_artifact_super_damage"
+"origin" "368 496 32"
+}
+{
+"classname" "item_artifact_super_damage"
+"origin" "-368 -272 32"
+}
+{
+"speed" "200"
+"model" "*1"
+"sounds" "2"
+"classname" "func_door"
+"wait" "2"
+"lip" "-4"
+"targetname" "redquaddoor"
+"angle" "-2"
+}
+{
+"speed" "200"
+"model" "*2"
+"sounds" "2"
+"classname" "func_door"
+"wait" "2"
+"lip" "-4"
+"targetname" "bluequaddoor"
+"angle" "-2"
+}
+{
+"target" "bluequaddoor"
+"model" "*3"
+"classname" "trigger_multiple"
+"wait" "2"
+"style" "32"
+"delay" "0"
+}
+{
+"target" "redquaddoor"
+"model" "*4"
+"classname" "trigger_multiple"
+"wait" "2"
+"style" "32"
+"delay" "0"
+}
+{
+"classname" "light_flame_small_yellow"
+"origin" "-1 -1952 468"
+}
+{
+"classname" "light_flame_small_yellow"
+"origin" "-1 2176 468"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-240 532 304"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "240 532 304"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-240 -308 304"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "240 -308 304"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-360 -816 320"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "360 -816 320"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "360 1040 320"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-360 1040 320"
+}
+{
+"classname" "light"
+"origin" "0 1728 384"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "0 -1504 384"
+"light" "400"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "360 -1520 256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-360 -1520 256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-360 1744 256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "360 1744 256"
+}
+{
+"ammo_shells" "200"
+"netname" "Team 2 Cap refill"
+"classname" "i_t_g"
+"origin" "0 -1120 176"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "100"
+"armorvalue" "300"
+"health" "100"
+"targetname" "cap2"
+"ammo_cells" "200"
+"ammo_rockets" "60"
+"ammo_detpack" "1"
+}
+{
+"ammo_shells" "200"
+"netname" "Team 1 Cap refill"
+"classname" "i_t_g"
+"origin" "0 1344 176"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"no_grenades_2" "0"
+"g_e" "1"
+"ammo_medikit" "100"
+"ammo_nails" "200"
+"armorvalue" "300"
+"health" "100"
+"ammo_cells" "200"
+"targetname" "cap1"
+"ammo_detpack" "1"
+"ammo_rockets" "60"
+}
+{
+"g_a" "1"
+"owned_by" "1"
+"ammo_shells" "100"
+"message" "You're loaded.\n"
+"netname" "BackPack"
+"classname" "i_t_g"
+"origin" "-320 1760 256"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"noise" "weapons/lock4.wav"
+"wait" "1"
+"g_e" "17"
+"ammo_medikit" "150"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"owned_by" "2"
+"ammo_shells" "100"
+"message" "You're loaded.\n"
+"netname" "BackPack"
+"classname" "i_t_g"
+"origin" "-320 -1536 256"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"noise" "weapons/lock4.wav"
+"wait" "1"
+"g_e" "17"
+"ammo_medikit" "150"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"target" "redteledest"
+"model" "*5"
+"classname" "trigger_teleport"
+}
+{
+"target" "blueteledest"
+"model" "*6"
+"classname" "trigger_teleport"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-272 -112 256"
+"targetname" "blueteledest"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "272 336 256"
+"targetname" "redteledest"
+"angle" "180"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-1 1104 256"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-1 -880 256"
+}
+{
+"classname" "light"
+"origin" "0 976 288"
+}
+{
+"classname" "light"
+"origin" "0 -752 288"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-1 127 310"
+"angle" "-1"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "0 128 256"
+"angle" "-2"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "0 704 256"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "0 -480 256"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "0 1216 64"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -992 64"
+"light" "300"
+}
+{
+"speed" "200"
+"model" "*7"
+"sounds" "4"
+"classname" "func_door"
+"wait" "8"
+"lip" "-4"
+"targetname" "redbars"
+"angle" "90"
+}
+{
+"speed" "200"
+"model" "*8"
+"sounds" "4"
+"classname" "func_door"
+"wait" "8"
+"lip" "-4"
+"targetname" "bluebars"
+"angle" "270"
+}
+{
+"speed" "100"
+"target" "redbars"
+"model" "*9"
+"sounds" "1"
+"classname" "func_button"
+"delay" "0"
+"health" "1"
+"angle" "90"
+}
+{
+"speed" "100"
+"target" "bluebars"
+"model" "*10"
+"sounds" "1"
+"classname" "func_button"
+"delay" "0"
+"health" "1"
+"angle" "270"
+}
+{
+"classname" "light"
+"origin" "352 1472 352"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-352 1472 352"
+"light" "350"
+}
+{
+"netname" "info_player_teamspawn blue"
+"classname" "i_p_t"
+"origin" "320 1984 384"
+"playerclass" "0"
+"team_no" "1"
+"angle" "270"
+}
+{
+"g_a" "1"
+"owned_by" "1"
+"ammo_shells" "100"
+"message" "You're loaded.\n"
+"netname" "BackPack"
+"classname" "i_t_g"
+"origin" "320 1760 256"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"noise" "weapons/lock4.wav"
+"wait" "1"
+"g_e" "17"
+"ammo_medikit" "150"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"owned_by" "2"
+"ammo_shells" "100"
+"message" "You're loaded.\n"
+"netname" "BackPack"
+"classname" "i_t_g"
+"origin" "320 -1536 256"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"noise" "weapons/lock4.wav"
+"wait" "1"
+"g_e" "17"
+"ammo_medikit" "150"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"netname" "info_player_teamspawn red"
+"classname" "i_p_t"
+"origin" "320 -1760 384"
+"playerclass" "0"
+"team_no" "2"
+"angle" "90"
+}
+{
+"classname" "light"
+"origin" "352 -1248 352"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-352 -1248 352"
+"light" "350"
+}
+{
+"speed" "200"
+"model" "*11"
+"sounds" "4"
+"classname" "func_door"
+"wait" "8"
+"lip" "-4"
+"targetname" "bluebars"
+"angle" "270"
+}
+{
+"speed" "200"
+"model" "*12"
+"sounds" "4"
+"classname" "func_door"
+"wait" "8"
+"lip" "-4"
+"targetname" "bluebars"
+"angle" "270"
+}
+{
+"speed" "200"
+"model" "*13"
+"sounds" "4"
+"classname" "func_door"
+"wait" "8"
+"lip" "-4"
+"targetname" "bluebars"
+"angle" "270"
+}
+{
+"speed" "200"
+"model" "*14"
+"sounds" "4"
+"classname" "func_door"
+"wait" "8"
+"lip" "-4"
+"targetname" "redbars"
+"angle" "90"
+}
+{
+"speed" "200"
+"model" "*15"
+"sounds" "4"
+"classname" "func_door"
+"wait" "8"
+"lip" "-4"
+"targetname" "redbars"
+"angle" "90"
+}
+{
+"speed" "200"
+"model" "*16"
+"sounds" "4"
+"classname" "func_door"
+"wait" "8"
+"lip" "-4"
+"targetname" "redbars"
+"angle" "90"
+}

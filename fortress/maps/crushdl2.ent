@@ -1,0 +1,414 @@
+{
+"sounds" "4"
+"worldtype" "1"
+"message" "Crush Dual"
+"wad" "C:\Program Files\Qoole\work\crushdl2.wad"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"team_no" "1"
+"angle" "-1"
+"lip" "10"
+"wait" "3"
+"sounds" "1"
+"speed" "100"
+"classname" "func_door"
+}
+{
+"angle" "0"
+"origin" "-344 -576 112"
+"classname" "info_player_start"
+}
+{
+"light" "300"
+"origin" "-384 -448 0"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "384 -448 0"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-256 0 128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "256 0 128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 480 32"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "256 0 32"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-256 0 32"
+"classname" "light"
+}
+{
+"team_no" "1"
+"origin" "0 576 0"
+"classname" "info_player_teamspawn"
+}
+{
+"non_team_broadcast" "Kill the other guy!"
+"hook_out" "1"
+"origin" "0 0 0"
+"classname" "info_tfdetect"
+}
+{
+"goal_effects" "1"
+"noise" "fish/bite.wav"
+"team_no" "1"
+"netname" "blue resuplypack"
+"ammo_cells" "20"
+"ammo_nails" "20"
+"ammo_shells" "20"
+"wait" "5"
+"goal_activation" "1"
+"message" "you got mail"
+"mdl" "progs/backpack.mdl"
+"origin" "-240 360 0"
+"classname" "info_tfgoal"
+}
+{
+"model" "*2"
+"wait" "5"
+"message" "going somewhere?"
+"team_no" "2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*3"
+"team_no" "2"
+"target" "tele"
+"classname" "trigger_teleport"
+}
+{
+"light" "100"
+"origin" "0 1856 128"
+"classname" "light"
+}
+{
+"model" "*4"
+"delay" "5"
+"target" "crusher"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "tele"
+"angle" "90"
+"origin" "0 1856 -8"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*5"
+"dmg" "50"
+"angle" "-2"
+"targetname" "crusher"
+"lip" "-145"
+"wait" "3"
+"sounds" "4"
+"speed" "20"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"delay" "18"
+"target" "backpackclear"
+"classname" "trigger_multiple"
+}
+{
+"model" "*7"
+"dmg" "1000"
+"wait" "3"
+"targetname" "backpackclear"
+"angle" "270"
+"lip" "-1248"
+"sounds" "2"
+"speed" "500"
+"classname" "func_door"
+}
+{
+"team_no" "1"
+"origin" "128 576 0"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "192 576 0"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "256 576 0"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "-64 576 0"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "-128 576 0"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "-192 576 0"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "-256 576 0"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "64 576 0"
+"classname" "info_player_teamspawn"
+}
+{
+"goal_effects" "1"
+"no_grenades_2" "1"
+"no_grenades_1" "2"
+"noise" "fish/bite.wav"
+"team_no" "1"
+"netname" "blue resuplypack"
+"ammo_rockets" "20"
+"wait" "10"
+"goal_activation" "1"
+"message" "you got mail"
+"mdl" "progs/backpack.mdl"
+"origin" "208 416 0"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-136 360 -24"
+"classname" "item_armorInv"
+}
+{
+"angle" "90"
+"origin" "144 352 -24"
+"classname" "item_health"
+}
+{
+"model" "*8"
+"delay" "3"
+"team_no" "2"
+"angle" "-1"
+"lip" "10"
+"wait" "3"
+"sounds" "1"
+"speed" "100"
+"classname" "func_door"
+}
+{
+"light" "300"
+"origin" "384 -832 0"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 -640 0"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-384 -832 0"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "256 -1280 128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-256 -1280 128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 -1760 32"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-256 -1280 32"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "256 -1280 32"
+"classname" "light"
+}
+{
+"activate_goal_no" "1"
+"team_no" "2"
+"origin" "-256 -1856 0"
+"classname" "info_player_teamspawn"
+}
+{
+"goal_effects" "1"
+"noise" "fish/bite.wav"
+"team_no" "2"
+"netname" "red resuplypack"
+"ammo_cells" "20"
+"ammo_nails" "20"
+"ammo_shells" "20"
+"wait" "5"
+"goal_activation" "1"
+"message" "you got mail"
+"mdl" "progs/backpack.mdl"
+"origin" "240 -1640 0"
+"classname" "info_tfgoal"
+}
+{
+"model" "*9"
+"wait" "5"
+"message" "going somewhere?"
+"team_no" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"team_no" "1"
+"target" "tele2"
+"classname" "trigger_teleport"
+}
+{
+"light" "100"
+"origin" "0 -3136 128"
+"classname" "light"
+}
+{
+"model" "*11"
+"delay" "5"
+"target" "crusher2"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "tele2"
+"angle" "270"
+"origin" "0 -3136 -8"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*12"
+"dmg" "50"
+"angle" "-2"
+"targetname" "crusher2"
+"lip" "-145"
+"wait" "3"
+"sounds" "4"
+"speed" "20"
+"classname" "func_door"
+}
+{
+"model" "*13"
+"delay" "18"
+"target" "backpackclear2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*14"
+"dmg" "1000"
+"wait" "3"
+"targetname" "backpackclear2"
+"angle" "90"
+"lip" "-1248"
+"sounds" "2"
+"speed" "500"
+"classname" "func_door"
+}
+{
+"activate_goal_no" "1"
+"team_no" "2"
+"origin" "-128 -1856 0"
+"classname" "info_player_teamspawn"
+}
+{
+"activate_goal_no" "1"
+"team_no" "2"
+"origin" "-64 -1856 0"
+"classname" "info_player_teamspawn"
+}
+{
+"activate_goal_no" "1"
+"team_no" "2"
+"origin" "0 -1856 0"
+"classname" "info_player_teamspawn"
+}
+{
+"activate_goal_no" "1"
+"team_no" "2"
+"origin" "64 -1856 0"
+"classname" "info_player_teamspawn"
+}
+{
+"activate_goal_no" "1"
+"team_no" "2"
+"origin" "128 -1856 0"
+"classname" "info_player_teamspawn"
+}
+{
+"activate_goal_no" "1"
+"team_no" "2"
+"origin" "192 -1856 0"
+"classname" "info_player_teamspawn"
+}
+{
+"activate_goal_no" "1"
+"team_no" "2"
+"origin" "256 -1856 0"
+"classname" "info_player_teamspawn"
+}
+{
+"activate_goal_no" "1"
+"team_no" "2"
+"origin" "-192 -1856 0"
+"classname" "info_player_teamspawn"
+}
+{
+"goal_effects" "1"
+"no_grenades_2" "1"
+"no_grenades_1" "2"
+"noise" "fish/bite.wav"
+"team_no" "2"
+"netname" "red resuplypack"
+"ammo_rockets" "20"
+"wait" "10"
+"goal_activation" "1"
+"message" "you got mail"
+"mdl" "progs/backpack.mdl"
+"origin" "-120 -1656 0"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-216 -1664 -24"
+"classname" "item_armorInv"
+}
+{
+"angle" "90"
+"origin" "184 -1672 -24"
+"classname" "item_health"
+}
+{
+"netname" "test"
+"noise" "enforcer/enfire.wav"
+"goal_no" "1"
+"origin" "-48 -1744 8"
+"classname" "info_tfgoal"
+}

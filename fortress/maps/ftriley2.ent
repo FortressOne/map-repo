@@ -1,0 +1,795 @@
+{
+"classname" "worldspawn"
+"wad" "FtRiley2.qwf"
+"message" "Fort Riley\nBy Baldridge\nkerry@southwind.net"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"targetname" "pushwest"
+"speed" "400"
+"angle" "180"
+"model" "*1"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"targetname" "pusheast"
+"speed" "400"
+"angle" "360"
+"model" "*2"
+}
+{
+"classname" "info_player_start"
+"origin" "674 -18 -62"
+"angle" "180"
+}
+{
+"classname" "light"
+"origin" "-2544 -28 66"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-3602 -30 82"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-3300 -804 -14"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-1968 -802 -14"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-3302 740 -14"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-1906 740 -14"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-3400 -28 -12"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-3740 488 76"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "info_tfdetect"
+"origin" "-2514 155 0"
+"broadcast" "TeamFortress v2.5"
+"impulse" "80"
+"hook_out" "1"
+"non_team_broadcast" "Take contol of the only FLAG\nYour Well 5 Frags\nEnemy's Well 15 Frags"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-2112 -24 -276"
+"netname" "Frag Goal Blue"
+"message" "You activated the Frag Flag"
+"noise" "items/inv1.wav"
+"goal_no" "1"
+"goal_activation" "1"
+"items_allowed" "1"
+"team_no" "1"
+"frags" "5"
+"invincible_finished" "10"
+"maxammo_shells" "1"
+"wait" "3"
+"netname_broadcast" "--GAVE FRAGS TO THE BLUE TEAM!!"
+}
+{
+"style" "32"
+"classname" "item_tfgoal"
+"origin" "0 4 -84"
+"netname" "Flag"
+"message" "You have the Frag Flag\nYour well-5 frags\nTheir well 15 frags:-)"
+"target" "YardLight"
+"noise" "ogre/ogwake.wav"
+"mdl" "/progs/tf_flag.mdl"
+"goal_no" "1"
+"group_no" "1"
+"goal_activation" "527"
+"items" "262144"
+"pausetime" "3"
+"netname_broadcast" "--HAS THE FRAG FLAG!!!"
+}
+{
+"style" "32"
+"classname" "info_tfgoal"
+"origin" "-2672 -28 57"
+"netname" "ReturnFlagInfo"
+"target" "YardLight"
+"goal_no" "2"
+"netname_broadcast" "SOMEONE DIED AND LET THE FRAG FLAG RETURN!"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1450 356 -88"
+"netname" "BlueReloadOne"
+"message" "I bet you needed that"
+"mdl" "progs/backpack.mdl"
+"goal_no" "3"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "1"
+"armorclass" "21"
+"armorvalue" "100"
+"health" "100"
+"ammo_shells" "50"
+"ammo_nails" "100"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_medikit" "2"
+"no_grenades_1" "1"
+"super_damage_finished" "5"
+"wait" "3"
+}
+{
+"classname" "light"
+"origin" "-2672 -28 0"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "info_tfgoal"
+"origin" "2092 -12 -280"
+"netname" "Frag Goal Red"
+"message" "You activated the Frag Flag"
+"noise" "items/inv1.wav"
+"goal_no" "4"
+"goal_activation" "1"
+"items_allowed" "1"
+"team_no" "2"
+"frags" "5"
+"invincible_finished" "10"
+"maxammo_shells" "2"
+"wait" "3"
+"netname_broadcast" "--GAVE FRAGS TO THE RED TEAM!!"
+}
+{
+"classname" "ambient_drip"
+"origin" "-2620 -32 -300"
+}
+{
+"classname" "light"
+"origin" "-3758 -474 76"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-1452 410 -44"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "2536 -4 66"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "3594 -2 82"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "3292 772 -14"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "1960 770 -14"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "3294 -772 -14"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "1898 -772 -14"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "3392 -4 -12"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "3732 -520 76"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "info_tfgoal"
+"origin" "1442 -388 -88"
+"netname" "RedReloadOne"
+"message" "I bet you needed that"
+"mdl" "progs/backpack.mdl"
+"goal_no" "13"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "2"
+"armorclass" "21"
+"armorvalue" "100"
+"health" "100"
+"ammo_shells" "50"
+"ammo_nails" "100"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_medikit" "2"
+"no_grenades_1" "1"
+"super_damage_finished" "5"
+"wait" "3"
+}
+{
+"classname" "light"
+"origin" "2664 -4 0"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "ambient_drip"
+"origin" "2612 0 -300"
+}
+{
+"classname" "light"
+"origin" "3750 442 76"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "1444 -442 -44"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-1108 0 28"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "1104 0 24"
+"light" "500"
+"style" "0"
+}
+{
+"style" "32"
+"classname" "light"
+"origin" "0 24 284"
+"targetname" "YardLight"
+"spawnflags" "1"
+"light" "1250"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "50"
+"angle" "-1"
+"model" "*3"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "50"
+"angle" "-1"
+"model" "*4"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "50"
+"angle" "-1"
+"model" "*5"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "50"
+"angle" "-1"
+"model" "*6"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "75"
+"angle" "-1"
+"model" "*7"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "75"
+"angle" "-1"
+"model" "*8"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "75"
+"angle" "-1"
+"model" "*9"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "75"
+"angle" "-1"
+"model" "*10"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "100"
+"angle" "360"
+"model" "*11"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "100"
+"angle" "270"
+"model" "*12"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "100"
+"angle" "360"
+"model" "*13"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "100"
+"angle" "180"
+"model" "*14"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "100"
+"angle" "270"
+"model" "*15"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "100"
+"angle" "180"
+"model" "*16"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "100"
+"angle" "360"
+"model" "*17"
+}
+{
+"classname" "func_illusionary"
+"origin" "0 0 0"
+"model" "*18"
+}
+{
+"classname" "func_illusionary"
+"origin" "0 0 0"
+"model" "*19"
+}
+{
+"classname" "func_illusionary"
+"origin" "0 0 0"
+"model" "*20"
+}
+{
+"classname" "trigger_push"
+"origin" "0 0 0"
+"speed" "100"
+"angle" "180"
+"model" "*21"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1128 -868 252"
+"netname" "BlueReloadOne"
+"message" "I bet you needed that"
+"mdl" "progs/backpack.mdl"
+"goal_no" "3"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "1"
+"armorclass" "21"
+"armorvalue" "100"
+"health" "100"
+"ammo_shells" "50"
+"ammo_nails" "100"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_medikit" "2"
+"no_grenades_1" "1"
+"super_damage_finished" "5"
+"wait" "3"
+}
+{
+"classname" "item_armor2"
+"origin" "1656 134 -80"
+}
+{
+"classname" "item_armor2"
+"origin" "1656 274 -88"
+}
+{
+"classname" "item_armor2"
+"origin" "1656 376 -84"
+}
+{
+"classname" "item_armor2"
+"origin" "1656 516 -92"
+}
+{
+"classname" "item_armor2"
+"origin" "-1684 -647 -78"
+}
+{
+"classname" "item_armor2"
+"origin" "-1684 -507 -86"
+}
+{
+"classname" "item_armor2"
+"origin" "-1684 -405 -82"
+}
+{
+"classname" "item_armor2"
+"origin" "-1684 -265 -90"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1692 -492 -8"
+"netname" "StandardRedSpawn"
+"message" "Hello Red Team Mate"
+"goal_activation" "2"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1692 -396 -8"
+"netname" "StandardRedSpawn"
+"message" "Hello Red Team Mate"
+"goal_activation" "2"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1692 -300 -8"
+"netname" "StandardRedSpawn"
+"message" "Hello Red Team Mate"
+"goal_activation" "2"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1692 -183 -8"
+"netname" "StandardRedSpawn"
+"message" "Hello Red Team Mate"
+"goal_activation" "2"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1588 -343 -12"
+"netname" "StandardRedSpawn"
+"message" "Hello Red Team Mate"
+"goal_activation" "2"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1588 -226 -12"
+"netname" "StandardRedSpawn"
+"message" "Hello Red Team Mate"
+"goal_activation" "2"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1588 -535 -12"
+"netname" "StandardRedSpawn"
+"message" "Hello Red Team Mate"
+"goal_activation" "2"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1588 -439 -12"
+"netname" "StandardRedSpawn"
+"message" "Hello Red Team Mate"
+"goal_activation" "2"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-2186 -70 -64"
+"netname" "StandardRedSpawn"
+"message" "Welcome to the Enemy's Fort"
+"goal_activation" "2"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-2186 26 -64"
+"netname" "StandardRedSpawn"
+"message" "Welcome to the Enemy's Fort"
+"goal_activation" "2"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_tfgoal"
+"origin" "1126 802 250"
+"netname" "RedReloadOne"
+"message" "I bet you needed that"
+"mdl" "progs/backpack.mdl"
+"goal_no" "13"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "2"
+"armorclass" "21"
+"armorvalue" "100"
+"health" "100"
+"ammo_shells" "50"
+"ammo_nails" "100"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_medikit" "2"
+"no_grenades_1" "1"
+"super_damage_finished" "5"
+"wait" "3"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1678 427 0"
+"netname" "StandardBlueSpawn"
+"message" "Hello Blue Team Mate"
+"goal_activation" "2"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1678 342 0"
+"netname" "StandardBlueSpawn"
+"message" "Hello Blue Team Mate"
+"goal_activation" "2"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1678 264 0"
+"netname" "StandardBlueSpawn"
+"message" "Hello Blue Team Mate"
+"goal_activation" "2"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1678 179 0"
+"netname" "StandardBlueSpawn"
+"message" "Hello Blue Team Mate"
+"goal_activation" "2"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1584 464 0"
+"netname" "StandardBlueSpawn"
+"message" "Hello Blue Team Mate"
+"goal_activation" "2"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1584 379 0"
+"netname" "StandardBlueSpawn"
+"message" "Hello Blue Team Mate"
+"goal_activation" "2"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1584 301 0"
+"netname" "StandardBlueSpawn"
+"message" "Hello Blue Team Mate"
+"goal_activation" "2"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1584 216 0"
+"netname" "StandardBlueSpawn"
+"message" "Hello Blue Team Mate"
+"goal_activation" "2"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "2158 35 -110"
+"netname" "StandardBlueSpawn"
+"message" "Welcome to the Enemy's Fort"
+"goal_activation" "2"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "2158 -51 -110"
+"netname" "StandardBlueSpawn"
+"message" "Welcome to the Enemy's Fort"
+"goal_activation" "2"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-472 -24 -276"
+"netname" "Frag Goal Red-15"
+"message" "15 FRAGS!"
+"noise" "items/inv1.wav"
+"goal_no" "5"
+"goal_activation" "1"
+"items_allowed" "1"
+"team_no" "2"
+"frags" "15"
+"invincible_finished" "10"
+"maxammo_shells" "2"
+"wait" "3"
+"netname_broadcast" "--GAVE FRAGS TO THE BLUE TEAM!!"
+}
+{
+"classname" "info_tfgoal"
+"origin" "474 -10 -280"
+"netname" "Frag Goal Blue-15"
+"message" "15 FRAGS!"
+"noise" "items/inv1.wav"
+"goal_no" "6"
+"goal_activation" "1"
+"items_allowed" "1"
+"team_no" "1"
+"frags" "15"
+"invincible_finished" "10"
+"maxammo_shells" "1"
+"wait" "3"
+"netname_broadcast" "--GAVE FRAGS TO THE BLUE TEAM!!"
+}
+{
+"classname" "info_player_coop"
+"origin" "432 64 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "432 160 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "432 -112 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "432 -16 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "544 16 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "544 112 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "544 -160 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "544 -64 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "544 376 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "544 472 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "544 200 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "544 296 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "432 -304 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "432 -208 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "432 -480 -56"
+"angle" "180"
+}
+{
+"classname" "info_player_coop"
+"origin" "432 -384 -56"
+"angle" "180"
+}
+{
+"classname" "info_intermission"
+"origin" "800 0 168"
+"mangle" "15 180 0"
+}

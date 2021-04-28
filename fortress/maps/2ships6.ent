@@ -1,0 +1,546 @@
+{
+"classname" "worldspawn"
+"message" "2 Ships"
+"worldtype" "0"
+"sounds" "1"
+}
+{
+"classname" "info_player_start"
+"origin" "-904 120 200"
+}
+{
+"classname" "ambient_drip"
+"origin" "-904 -271 128"
+}
+{
+"classname" "func_door"
+"speed" "75"
+"sounds" "2"
+"wait" "0"
+"lip" "0"
+"team_no" "2"
+"dmg" "0"
+"health" "0"
+"model" "*1"
+}
+{
+"classname" "func_plat"
+"angle" "-2"
+"height" "115"
+"sounds" "2"
+"model" "*2"
+}
+{
+"classname" "func_door"
+"speed" "80"
+"sounds" "2"
+"wait" "1"
+"lip" "5"
+"dmg" "10"
+"health" "0"
+"model" "*3"
+}
+{
+"classname" "ambient_drip"
+"origin" "-904 128 128"
+}
+{
+"classname" "ambient_drone"
+"origin" "-1032 -184 16"
+}
+{
+"classname" "ambient_drone"
+"origin" "-780 -185 16"
+}
+{
+"classname" "ambient_drip"
+"origin" "872 -93 124"
+}
+{
+"classname" "func_plat"
+"angle" "-2"
+"height" "115"
+"sounds" "2"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"speed" "75"
+"sounds" "2"
+"wait" "0"
+"lip" "0"
+"team_no" "1"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"speed" "80"
+"sounds" "2"
+"wait" "1"
+"lip" "5"
+"dmg" "10"
+"health" "0"
+"model" "*6"
+}
+{
+"classname" "ambient_drone"
+"origin" "1000 171 12"
+}
+{
+"classname" "ambient_drone"
+"origin" "748 172 12"
+}
+{
+"classname" "info_intermission"
+"origin" "0 0 192"
+}
+{
+"classname" "info_intermission"
+"angle" "273"
+"origin" "-768 336 192"
+}
+{
+"classname" "info_tfdetect"
+"hook_out" "1"
+"impulse" "192"
+"ammo_shells" "0"
+"ammo_nails" "0"
+"ammo_rockets" "0"
+"ammo_cells" "0"
+"ammo_medikit" "0"
+"ammo_detpack" "0"
+"maxammo_medikit" "0"
+"maxammo_detpack" "0"
+"display_item_status11" "1"
+"display_item_status22" "2"
+"team_broadcast" "Welcome to 2 Ships\nChoose your Teammates\n1. Blue\n2. Red\n\n\n"
+"origin" "-16 392 200"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "912 240 168"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "1"
+"origin" "984 25 168"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"team_no" "1"
+"origin" "984 -48 168"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "1"
+"origin" "872 -39 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "183"
+"team_no" "1"
+"origin" "872 -344 184"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"origin" "-1008 -40 184"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"origin" "-904 -7 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"origin" "-1008 9 184"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"origin" "-904 320 192"
+}
+{
+"classname" "item_tfgoal"
+"angle" "182"
+"netname" "2redflag"
+"message" "You have Red Ship's Flag!\nReturn to your Captain's Cabin!\n"
+"team_broadcast" "Your team has the Red flag!\n"
+"non_team_broadcast" "Your Ship's Flag has been stolen!\n"
+"noise3" "Your Flag Waves On...\n"
+"noise4" "Their Flag Waves On...\n"
+"mdl" "progs/tf_flag.mdl"
+"skin" "1"
+"goal_no" "2"
+"goal_activation" "181"
+"pausetime" "30"
+"team_no" "1"
+"owned_by" "2"
+"delay" "30"
+"goal_effects" "0"
+"origin" "-908 -380 126"
+}
+{
+"classname" "info_tfgoal"
+"netname" "2reddropoff"
+"team_broadcast" "Your team saves the ship!\n"
+"non_team_broadcast" "They saved their ship!\n"
+"message" "You saved the Red ship!\n"
+"count" "10"
+"goal_activation" "1"
+"goal_result" "2"
+"goal_effects" "3"
+"items_allowed" "1"
+"team_no" "2"
+"axhitme" "1"
+"frags" "10"
+"origin" "-904 -32 128"
+}
+{
+"classname" "info_tfgoal"
+"netname" "1bluedropoff"
+"team_broadcast" "Your team saves the ship!\n"
+"non_team_broadcast" "They saved their ship!\n"
+"message" "You saved the Blue ship!\n"
+"count" "10"
+"goal_activation" "1"
+"goal_result" "2"
+"goal_effects" "3"
+"items_allowed" "2"
+"team_no" "1"
+"axhitme" "2"
+"frags" "10"
+"origin" "864 8 128"
+}
+{
+"classname" "item_tfgoal"
+"netname" "1blueflag"
+"message" "You have the Blue Ship's Flag!\nReturn to your Captains Cabin!\n"
+"team_broadcast" "Your team has the Blue Flag!\n"
+"non_team_broadcast" "Your Ship's Flag has been stolen!\n"
+"noise3" "Your Flag Waves On...\n"
+"noise4" "Their Flag Waves On...\n"
+"mdl" "progs/tf_flag.mdl"
+"skin" "4"
+"goal_no" "1"
+"goal_activation" "181"
+"pausetime" "30"
+"team_no" "2"
+"owned_by" "1"
+"delay" "30"
+"goal_effects" "0"
+"origin" "876 366 128"
+}
+{
+"classname" "item_health"
+"origin" "-808 264 168"
+}
+{
+"classname" "item_health"
+"origin" "-808 304 168"
+}
+{
+"classname" "item_rockets"
+"origin" "-848 384 168"
+}
+{
+"classname" "item_rockets"
+"origin" "-848 344 168"
+}
+{
+"classname" "item_rockets"
+"origin" "-848 304 168"
+}
+{
+"classname" "item_rockets"
+"origin" "-848 264 168"
+}
+{
+"classname" "item_spikes"
+"origin" "-888 264 168"
+}
+{
+"classname" "item_spikes"
+"origin" "-888 304 168"
+}
+{
+"classname" "item_spikes"
+"origin" "-888 344 168"
+}
+{
+"classname" "item_spikes"
+"origin" "-888 384 168"
+}
+{
+"classname" "item_shells"
+"origin" "-928 264 168"
+}
+{
+"classname" "item_shells"
+"origin" "-928 304 168"
+}
+{
+"classname" "item_shells"
+"origin" "-928 344 168"
+}
+{
+"classname" "item_shells"
+"origin" "-928 384 168"
+}
+{
+"classname" "item_armor2"
+"origin" "-808 384 176"
+}
+{
+"classname" "item_armor2"
+"origin" "-1008 384 176"
+}
+{
+"classname" "item_armor1"
+"origin" "-808 344 176"
+}
+{
+"classname" "item_armor1"
+"origin" "-1008 344 176"
+}
+{
+"classname" "item_health"
+"origin" "-1008 304 168"
+}
+{
+"classname" "item_health"
+"origin" "-1008 264 168"
+}
+{
+"classname" "item_health"
+"origin" "776 -328 160"
+}
+{
+"classname" "item_health"
+"origin" "776 -288 160"
+}
+{
+"classname" "item_rockets"
+"origin" "816 -408 160"
+}
+{
+"classname" "item_rockets"
+"origin" "816 -368 160"
+}
+{
+"classname" "item_rockets"
+"origin" "816 -328 160"
+}
+{
+"classname" "item_rockets"
+"origin" "816 -288 160"
+}
+{
+"classname" "item_spikes"
+"origin" "856 -288 160"
+}
+{
+"classname" "item_spikes"
+"origin" "856 -328 160"
+}
+{
+"classname" "item_spikes"
+"origin" "856 -368 160"
+}
+{
+"classname" "item_spikes"
+"origin" "856 -408 160"
+}
+{
+"classname" "item_shells"
+"origin" "896 -288 160"
+}
+{
+"classname" "item_shells"
+"origin" "896 -328 160"
+}
+{
+"classname" "item_shells"
+"origin" "896 -368 160"
+}
+{
+"classname" "item_shells"
+"origin" "896 -408 160"
+}
+{
+"classname" "item_armor2"
+"origin" "776 -408 168"
+}
+{
+"classname" "item_armor2"
+"origin" "976 -408 168"
+}
+{
+"classname" "item_armor1"
+"origin" "776 -368 168"
+}
+{
+"classname" "item_armor1"
+"origin" "976 -368 168"
+}
+{
+"classname" "item_health"
+"origin" "976 -288 160"
+}
+{
+"classname" "item_health"
+"origin" "976 -328 160"
+}
+{
+"classname" "func_plat"
+"angle" "-2"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"height" "50"
+"team_no" "1"
+"model" "*7"
+}
+{
+"classname" "func_plat"
+"angle" "-2"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"height" "50"
+"team_no" "1"
+"model" "*8"
+}
+{
+"classname" "func_plat"
+"angle" "-2"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"height" "50"
+"team_no" "2"
+"model" "*9"
+}
+{
+"classname" "func_plat"
+"angle" "-2"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"height" "50"
+"team_no" "2"
+"model" "*10"
+}
+{
+"classname" "item_cells"
+"origin" "936 -368 160"
+}
+{
+"classname" "item_cells"
+"origin" "936 -408 160"
+}
+{
+"classname" "item_cells"
+"origin" "936 -328 160"
+}
+{
+"classname" "item_cells"
+"origin" "936 -288 160"
+}
+{
+"classname" "item_cells"
+"origin" "-968 304 168"
+}
+{
+"classname" "item_cells"
+"origin" "-968 344 168"
+}
+{
+"classname" "item_cells"
+"origin" "-968 384 168"
+}
+{
+"classname" "item_cells"
+"origin" "-968 264 168"
+}
+{
+"classname" "light"
+"angle" "327"
+"light" "600"
+"style" "0"
+"origin" "640 -27 160"
+}
+{
+"classname" "light"
+"angle" "216"
+"light" "600"
+"style" "0"
+"origin" "-672 -27 160"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-904 -88 68"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "872 72 68"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "-906 52 164"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "876 -64 160"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "872 352 44"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-906 -364 48"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-908 -384 128"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "876 356 128"
+}

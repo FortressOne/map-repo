@@ -1,0 +1,1959 @@
+{
+"message" "ÄÉÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÉÇ\nÄÉ   RÔ„ÎÂÙÖJıÌÖEXTÚÂÌÂ   ÉÇ\nÄÉ          V.           ÉÇ\nÄÉ      by:é“ende“Ö      ÉÇ\nÄÉÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÅÉÇ\n\n  http://toetag.webjump.com"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Pseidon Pack"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-1856 2624 -448"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Pseidon Pack"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-2368 2624 -448"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-2464 2524 -90"
+"angle" "0"
+"targetname" "pseidonrestart"
+}
+{
+"goal_activation" "1"
+"netname" "Pseidon Info"
+"message" "Poseidon's Adventure\n\nGJ to moving Plat\nRJ or RJ+Gren combo\nup into the hole\n"
+"classname" "info_tfgoal"
+"origin" "-2113 2513 -528"
+"wait" "2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-2112 2496 -80"
+"angle" "90"
+"targetname" "pseidonstart"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1728 2524 -86"
+"angle" "180"
+"targetname" "pseidonrestart1"
+}
+{
+"goal_activation" "1"
+"netname" "Pseidon Start"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"origin" "-2112 2496 -64"
+"netname_broadcast" " has joined Jack & Jill for a threesome!\n"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+}
+{
+"speed" "300"
+"model" "*1"
+"classname" "trigger_push"
+"angle" "-2"
+}
+{
+"speed" "500"
+"model" "*2"
+"classname" "trigger_push"
+"angle" "-2"
+}
+{
+"speed" "300"
+"model" "*3"
+"classname" "trigger_push"
+"angle" "-2"
+}
+{
+"target" "pwater1"
+"classname" "path_corner"
+"origin" "-2156 2968 34"
+"wait" "0.000000"
+"angle" "90"
+"targetname" "pwater2"
+}
+{
+"target" "pwater2"
+"classname" "path_corner"
+"origin" "-2156 3254 34"
+"wait" "0.000000"
+"angle" "90"
+"targetname" "pwater1"
+}
+{
+"speed" "100"
+"target" "pwater1"
+"model" "*4"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "0"
+}
+{
+"target" "infernostart"
+"model" "*5"
+"classname" "trigger_teleport"
+}
+{
+"target" "pseidonrestart"
+"model" "*6"
+"classname" "trigger_teleport"
+}
+{
+"target" "pseidonrestart1"
+"model" "*7"
+"classname" "trigger_teleport"
+}
+{
+"target" "infernorestart1"
+"model" "*8"
+"classname" "trigger_teleport"
+}
+{
+"target" "infernorestart2"
+"model" "*9"
+"classname" "trigger_teleport"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1216 1856 -296"
+"angle" "0"
+"targetname" "infernorestart1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-448 1856 -296"
+"angle" "180"
+"targetname" "infernorestart2"
+}
+{
+"goal_activation" "1"
+"netname" "Inferno Start"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"origin" "-336 1808 -216"
+"netname_broadcast" " decided NOT to sleep with the fishes!\n"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-336 1808 -232"
+"angle" "180"
+"targetname" "infernostart"
+}
+{
+"goal_activation" "1"
+"netname" "Inferno Info"
+"message" "The Inferno\n\nGrenade to top of wall\nRJ off wall to lower plat\nGren or RJ+GJ\nto moving plat\n"
+"classname" "info_tfgoal"
+"origin" "-511 1826 -512"
+"wait" "2"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Inferno Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-832 1792 -520"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"target" "infernoend"
+"model" "*10"
+"sounds" "2"
+"classname" "func_button"
+"wait" "2"
+"health" "1"
+"lip" "1"
+"angle" "270"
+}
+{
+"target" "fire3"
+"classname" "path_corner"
+"origin" "-720 3360 280"
+"wait" "0.000000"
+"angle" "90"
+"targetname" "fire4"
+}
+{
+"target" "fire4"
+"classname" "path_corner"
+"origin" "-1008 3360 280"
+"wait" "0.000000"
+"angle" "90"
+"targetname" "fire3"
+}
+{
+"speed" "75"
+"target" "fire3"
+"model" "*11"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "0"
+}
+{
+"target" "offwallstart"
+"model" "*12"
+"classname" "trigger_teleport"
+"targetname" "infernoend"
+}
+{
+"goal_activation" "1"
+"netname" "Inferno Hint"
+"message" "Shoot when you\nare centered\nwith button\n\nIt's best to use shotgun\n"
+"classname" "info_tfgoal"
+"origin" "-833 3409 313"
+"wait" "1"
+}
+{
+"target" "fire1"
+"classname" "path_corner"
+"origin" "-880 2784 -376"
+"wait" "0.000000"
+"angle" "90"
+"targetname" "fire2"
+}
+{
+"target" "fire2"
+"classname" "path_corner"
+"origin" "-880 2544 -376"
+"wait" "0.000000"
+"angle" "90"
+"targetname" "fire1"
+}
+{
+"speed" "100"
+"target" "fire2"
+"model" "*13"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "0"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Inferno Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-832 2592 -344"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"netname" "Off Wall Start"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"origin" "360 2992 -288"
+"netname_broadcast" " escaped the Volcano God!\n"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "360 2992 -304"
+"angle" "315"
+"targetname" "offwallstart"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "360 2864 -304"
+"angle" "338"
+"targetname" "offwallrestart2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "360 2736 -304"
+"angle" "0"
+"targetname" "offwallrestart1"
+}
+{
+"speed" "300"
+"model" "*14"
+"classname" "trigger_push"
+"angle" "360"
+}
+{
+"goal_activation" "1"
+"netname" "OffWall Info"
+"message" "Off The Wall\n\nRJ while priming\nRJ off wall\njust before gren dets\nor\nGJ and Curl around\nShoot button\n"
+"classname" "info_tfgoal"
+"origin" "823 2721 -328"
+"wait" "2"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Off the Wall Pack"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "712 2928 -336"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"speed" "800"
+"model" "*15"
+"sounds" "0"
+"classname" "func_door"
+"wait" "1"
+"lip" "0"
+"angle" "-1"
+"targetname" "offwalldoor"
+}
+{
+"target" "offwalldoor"
+"model" "*16"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "1"
+}
+{
+"target" "squeezestart"
+"model" "*17"
+"classname" "trigger_teleport"
+"targetname" "offwallend"
+}
+{
+"target" "offwallend"
+"model" "*18"
+"sounds" "3"
+"classname" "func_button"
+"wait" "2"
+"health" "1"
+"lip" "1"
+"angle" "180"
+}
+{
+"target" "offwallrestart1"
+"model" "*19"
+"classname" "trigger_teleport"
+}
+{
+"target" "offwallrestart2"
+"model" "*20"
+"classname" "trigger_teleport"
+}
+{
+"target" "squeezerestart"
+"model" "*21"
+"classname" "trigger_teleport"
+}
+{
+"target" "faithstart"
+"model" "*22"
+"classname" "trigger_teleport"
+}
+{
+"goal_activation" "1"
+"netname" "Squeeze Info"
+"message" "The Squeeze\n\nGren through opening to plat\nGren through sliding doors\n"
+"classname" "info_tfgoal"
+"origin" "2383 2305 -272"
+"wait" "2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "2512 2304 -56"
+"angle" "270"
+"targetname" "squeezestart"
+}
+{
+"goal_activation" "1"
+"netname" "Squeeze Start"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"origin" "2512 2304 -40"
+"netname_broadcast" " can ricochet with the best of them!\n"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "2512 1792 -136"
+"angle" "90"
+"targetname" "squeezerestart"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Squeeze Pack"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "2528 2000 -264"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "-50"
+}
+{
+"target" "2b"
+"classname" "path_corner"
+"origin" "1504 1856 104"
+"wait" "0.500000"
+"angle" "90"
+"targetname" "2a"
+}
+{
+"target" "2a"
+"classname" "path_corner"
+"origin" "1504 1952 104"
+"wait" "0.000000"
+"angle" "90"
+"targetname" "2b"
+}
+{
+"target" "1a"
+"classname" "path_corner"
+"origin" "1504 2048 104"
+"wait" "0.000000"
+"angle" "90"
+"targetname" "1b"
+}
+{
+"target" "1b"
+"classname" "path_corner"
+"origin" "1504 2144 104"
+"wait" "0.500000"
+"angle" "90"
+"targetname" "1a"
+}
+{
+"speed" "100"
+"target" "1a"
+"model" "*23"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "2"
+}
+{
+"speed" "100"
+"target" "2a"
+"model" "*24"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "2"
+}
+{
+"target" "faithrestart2"
+"model" "*25"
+"classname" "trigger_teleport"
+}
+{
+"target" "faithrestart1"
+"model" "*26"
+"classname" "trigger_teleport"
+}
+{
+"target" "faithrestart3"
+"model" "*27"
+"classname" "trigger_teleport"
+}
+{
+"target" "galestart"
+"model" "*28"
+"classname" "trigger_teleport"
+}
+{
+"target" "faithrestart3"
+"model" "*29"
+"classname" "trigger_teleport"
+}
+{
+"speed" "800"
+"model" "*30"
+"sounds" "0"
+"classname" "func_door"
+"wait" "2"
+"dmg" "0"
+"lip" "0"
+"angle" "-1"
+"targetname" "faithdoor"
+}
+{
+"target" "faithdoor"
+"model" "*31"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "1"
+"targetname" "faithdoorknob"
+}
+{
+"goal_activation" "1"
+"netname" "Faith Start"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"origin" "-1408 1440 -144"
+"netname_broadcast" " escaped the Jaws of Death!\n"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1408 1440 -160"
+"angle" "180"
+"targetname" "faithstart"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1168 1104 -384"
+"angle" "180"
+"targetname" "faithrestart2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1056 1104 -384"
+"angle" "180"
+"targetname" "faithrestart3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-928 1104 -384"
+"angle" "180"
+"targetname" "faithrestart1"
+}
+{
+"goal_activation" "1"
+"netname" "Faith Info"
+"message" "Leap of Faith\n\nGren through opening\nthen RJ back off wall into exit\n"
+"classname" "info_tfgoal"
+"origin" "-1441 897 -392"
+"wait" "2"
+}
+{
+"speed" "300"
+"model" "*32"
+"classname" "trigger_push"
+"angle" "270"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Gale Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-1392 1296 -400"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"model" "*33"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "999999999"
+"delay" "0"
+"health" "1"
+"targetname" "glass"
+}
+{
+"model" "*34"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "999999999"
+"delay" "0"
+"health" "1"
+"targetname" "glass"
+}
+{
+"model" "*35"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "999999999"
+"delay" "0"
+"health" "1"
+"targetname" "glass"
+}
+{
+"target" "uturnrestart1"
+"model" "*36"
+"classname" "trigger_teleport"
+}
+{
+"target" "uturnrestart2"
+"model" "*37"
+"classname" "trigger_teleport"
+}
+{
+"target" "uturnrestart3"
+"model" "*38"
+"classname" "trigger_teleport"
+}
+{
+"target" "uturnrestart4"
+"model" "*39"
+"classname" "trigger_teleport"
+}
+{
+"target" "maprestart1"
+"model" "*40"
+"classname" "trigger_teleport"
+}
+{
+"speed" "25"
+"model" "*41"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"lip" "155"
+"angle" "180"
+"targetname" "hatch"
+}
+{
+"speed" "25"
+"model" "*42"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"lip" "79"
+"angle" "135"
+"targetname" "hatch"
+}
+{
+"speed" "25"
+"model" "*43"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"lip" "155"
+"angle" "90"
+"targetname" "hatch"
+}
+{
+"speed" "25"
+"model" "*44"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"lip" "203"
+"angle" "45"
+"targetname" "hatch"
+}
+{
+"speed" "25"
+"model" "*45"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"lip" "155"
+"targetname" "hatch"
+}
+{
+"speed" "25"
+"model" "*46"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"lip" "79"
+"angle" "315"
+"targetname" "hatch"
+}
+{
+"speed" "25"
+"model" "*47"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"dmg" "0"
+"lip" "155"
+"health" "0"
+"angle" "270"
+"targetname" "hatch"
+}
+{
+"speed" "25"
+"model" "*48"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"lip" "203"
+"angle" "225"
+"targetname" "hatch"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Gale Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "0"
+"armortype" "0.8"
+"origin" "-520 -1328 56"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "0"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Gale Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "88 -1264 40"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Gale Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"origin" "88 -1392 40"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Gale Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "728 -1584 152"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"ammo_rockets" "-50"
+}
+{
+"speed" "0"
+"target" "uturnplat1"
+"model" "*49"
+"sounds" "3"
+"classname" "func_button"
+"wait" "10"
+"health" "1"
+"angle" "270"
+}
+{
+"speed" "50"
+"model" "*50"
+"sounds" "1"
+"classname" "func_door"
+"wait" "3"
+"lip" "0"
+"angle" "90"
+"targetname" "uturnplat1"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Gale Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "0"
+"armortype" "0.8"
+"origin" "1672 -1824 48"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "5"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "0"
+}
+{
+"target" "hatch"
+"model" "*51"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "4"
+"style" "32"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Gale Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "1528 -1056 -168"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"speed" "25"
+"model" "*52"
+"sounds" "0"
+"classname" "func_door"
+"wait" "3"
+"lip" "256"
+"angle" "-1"
+}
+{
+"goal_activation" "1"
+"netname" "Uturn Info"
+"message" "The HairPin\n\nYou can figure it out\nCan't you? :)\n"
+"classname" "info_tfgoal"
+"origin" "3119 -847 -16"
+"wait" "2"
+}
+{
+"goal_activation" "1"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"origin" "3224 -848 296"
+"netname_broadcast" " has chosen to learn the HARD way!\n"
+"no_grenades_1" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "3224 -848 280"
+"angle" "270"
+"targetname" "uturnstart"
+}
+{
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "3432 -912 -8"
+"no_grenades_1" "-4"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "3512 -912 -8"
+"no_grenades_1" "-4"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "3592 -912 -8"
+"no_grenades_1" "-4"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "3672 -912 -8"
+"no_grenades_1" "-4"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "3672 -912 -24"
+"angle" "180"
+"targetname" "uturnrestart4"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "3592 -912 -24"
+"angle" "180"
+"targetname" "uturnrestart3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "3512 -912 -24"
+"angle" "180"
+"targetname" "uturnrestart2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "3432 -912 -24"
+"angle" "180"
+"targetname" "uturnrestart1"
+}
+{
+"target" "uturndoor"
+"model" "*53"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "1"
+"targetname" "uturndoorknob"
+}
+{
+"speed" "800"
+"model" "*54"
+"sounds" "0"
+"classname" "func_door"
+"wait" "2"
+"lip" "0"
+"angle" "-1"
+"targetname" "uturndoor"
+}
+{
+"speed" "300"
+"model" "*55"
+"classname" "trigger_push"
+"angle" "270"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Uturn Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"origin" "3224 -1072 -24"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"target" "maprestart2"
+"model" "*56"
+"classname" "trigger_teleport"
+}
+{
+"target" "gauntrestart3"
+"model" "*57"
+"classname" "trigger_teleport"
+}
+{
+"target" "gauntrestart3"
+"model" "*58"
+"classname" "trigger_teleport"
+}
+{
+"target" "gauntrestart3"
+"model" "*59"
+"classname" "trigger_teleport"
+}
+{
+"target" "gauntrestart3"
+"model" "*60"
+"classname" "trigger_teleport"
+}
+{
+"model" "*61"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "999999999"
+"delay" "0"
+"health" "1"
+"targetname" "glass"
+}
+{
+"target" "gauntrestart1"
+"model" "*62"
+"classname" "trigger_teleport"
+}
+{
+"target" "gauntrestart3"
+"model" "*63"
+"classname" "trigger_teleport"
+}
+{
+"target" "gauntrestart2"
+"model" "*64"
+"classname" "trigger_teleport"
+}
+{
+"target" "gauntrestart1"
+"model" "*65"
+"classname" "trigger_teleport"
+}
+{
+"target" "gauntrestart1"
+"model" "*66"
+"classname" "trigger_teleport"
+}
+{
+"target" "gauntrestart1"
+"model" "*67"
+"classname" "trigger_teleport"
+}
+{
+"target" "gauntrestart2"
+"model" "*68"
+"classname" "trigger_teleport"
+}
+{
+"target" "nmdoor"
+"model" "*69"
+"classname" "trigger_multiple"
+"wait" "2"
+}
+{
+"goal_activation" "1"
+"netname" "NM Stripper"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"origin" "-2304 -3088 -956"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"ammo_rockets" "-50"
+}
+{
+"goal_activation" "1"
+"netname" "NM Stripper"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"origin" "-2304 -3136 -956"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"ammo_rockets" "-50"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "NM Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-2816 -2864 -1008"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "-50"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "NM Pack 2"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-2464 -2864 448"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "5"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "10"
+}
+{
+"goal_activation" "1"
+"netname" "Gauntlet Info"
+"message" "The Gauntlet\n\nFar be it from me\nTo spoil your fun\nin figuring this one out!\nGood Luck!!\n"
+"classname" "info_tfgoal"
+"origin" "-2465 -3103 -1000"
+"wait" "2"
+}
+{
+"goal_activation" "1"
+"netname" "NightMare Start"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"origin" "-2400 -3104 -640"
+"netname_broadcast" " must be Psychotic for trying Nightmare!\n"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"ammo_rockets" "-50"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "NM Pack 3"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-2240 -2592 -496"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "-50"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-2400 -3104 -656"
+"angle" "180"
+"targetname" "gauntstart"
+}
+{
+"goal_activation" "1"
+"netname" "NM Stripper"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"origin" "-2144 -2912 -956"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"ammo_rockets" "-50"
+}
+{
+"goal_activation" "1"
+"netname" "NM Stripper"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"origin" "-2048 -2912 -956"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"ammo_rockets" "-50"
+}
+{
+"goal_activation" "1"
+"netname" "NM Stripper"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"origin" "-1952 -2912 -956"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"ammo_rockets" "-50"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1952 -2912 -976"
+"angle" "180"
+"targetname" "gauntrestart3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-2048 -2912 -976"
+"angle" "180"
+"targetname" "gauntrestart2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-2144 -2912 -976"
+"angle" "180"
+"targetname" "gauntrestart1"
+}
+{
+"speed" "300"
+"model" "*70"
+"classname" "trigger_push"
+"angle" "270"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "NM Pack 4"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-224 -2864 -752"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"speed" "800"
+"model" "*71"
+"sounds" "0"
+"classname" "func_door"
+"wait" "1"
+"lip" "0"
+"angle" "-1"
+"targetname" "nmdoor"
+}
+{
+"classname" "info_player_start"
+"origin" "2864 316 -144"
+"angle" "90"
+}
+{
+"target" "maprestart"
+"model" "*72"
+"classname" "trigger_teleport"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "0"
+"netname" "NightMare Frag Award"
+"message" "25 Frags added to Score\n"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"origin" "2288 304 -8"
+"netname_broadcast" " has beaten NightMare! ... Now he'll be really cocky! :-)\n"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"frags" "25"
+"health" "100"
+"ammo_rockets" "-50"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "0"
+"netname" "Hard Frag Award"
+"message" "10 Frags added to Score\n"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"origin" "2096 304 -8"
+"netname_broadcast" " has beaten the Hard Level! ... He's getting better!\n"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"frags" "10"
+"health" "100"
+"ammo_rockets" "-50"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "2096 304 -24"
+"angle" "90"
+"targetname" "maprestart1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "2288 304 -24"
+"angle" "90"
+"targetname" "maprestart2"
+}
+{
+"goal_activation" "1"
+"netname" "Choices Start"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"origin" "2864 304 -8"
+"netname_broadcast" " has invented a new swimming stroke....the Bunny-Paddle!\n"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "2864 304 -24"
+"angle" "90"
+"targetname" "choices"
+}
+{
+"impulse" "68"
+"non_team_broadcast" "DUH!\n"
+"classname" "info_tfdetect"
+"origin" "2864 676 -48"
+"maxammo_shells" "1019"
+"noise1" "ÄÉÖCËÔÈ„ÂÛÖAÚÂÖFÂ˜ÖÉÇ\n\nêïë..”oldier\n"
+}
+{
+"goal_activation" "1"
+"netname" "Hard Choice Info"
+"message" "Hard Level straight ahead!\nOnce through the portal\nthere's no turning back\n...or is there? ;P\n"
+"classname" "info_tfgoal"
+"origin" "2735 753 -224"
+"wait" "2"
+}
+{
+"goal_activation" "1"
+"netname" "NightMare Choice Info"
+"message" "NightMare Level!\nAre you prepared\nto face the challenge?!\n"
+"classname" "info_tfgoal"
+"origin" "2991 753 -224"
+"wait" "2"
+}
+{
+"target" "gauntstart"
+"model" "*73"
+"classname" "trigger_teleport"
+}
+{
+"target" "uturnstart"
+"model" "*74"
+"classname" "trigger_teleport"
+}
+{
+"target" "wcuberestart1"
+"model" "*75"
+"classname" "trigger_teleport"
+}
+{
+"target" "wcuberestart2"
+"model" "*76"
+"classname" "trigger_teleport"
+}
+{
+"target" "wcuberestart3"
+"model" "*77"
+"classname" "trigger_teleport"
+}
+{
+"target" "wcuberestart1"
+"model" "*78"
+"classname" "trigger_teleport"
+}
+{
+"target" "wcuberestart3"
+"model" "*79"
+"classname" "trigger_teleport"
+}
+{
+"target" "wcuberestart2"
+"model" "*80"
+"classname" "trigger_teleport"
+}
+{
+"target" "choices"
+"model" "*81"
+"classname" "trigger_teleport"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Watercube Pack 2"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-344 -2272 -112"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Watercube Pack 2"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-1408 -2168 -408"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Watercube Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-3808 -2208 -712"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"speed" "300"
+"model" "*82"
+"classname" "trigger_push"
+"angle" "-2"
+}
+{
+"goal_activation" "1"
+"netname" "Wcube Info"
+"message" "Water Cubes\n\nGren+RJ to each cube of water\nand into exit!\n"
+"classname" "info_tfgoal"
+"origin" "-3617 -2399 -800"
+"wait" "2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-3808 -2128 -392"
+"angle" "0"
+"targetname" "wcuberestart3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-3808 -2272 -392"
+"angle" "0"
+"targetname" "wcuberestart2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-3808 -2368 -392"
+"angle" "0"
+"targetname" "wcuberestart1"
+}
+{
+"goal_activation" "1"
+"netname" "Wcube Start"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"origin" "-3808 -2032 -368"
+"netname_broadcast" " must be kin to Betsy Ross!\n"
+"armortype" "0.8"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-3808 -2032 -392"
+"angle" "0"
+"targetname" "wcubestart"
+}
+{
+"model" "*83"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "999999999"
+"delay" "0"
+"health" "1"
+"targetname" "glass"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Thread Pack"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-1464 16 -304"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "-50"
+}
+{
+"target" "threadrestart3"
+"model" "*84"
+"classname" "trigger_teleport"
+}
+{
+"target" "threadrestart"
+"model" "*85"
+"classname" "trigger_teleport"
+}
+{
+"target" "glass"
+"model" "*86"
+"classname" "trigger_once"
+"delay" "0"
+}
+{
+"speed" "50"
+"target" "glassdoor"
+"model" "*87"
+"sounds" "3"
+"classname" "func_button"
+"wait" "3"
+"delay" "0"
+"health" "1"
+"lip" "1"
+"angle" "180"
+}
+{
+"target" "wcubestart"
+"model" "*88"
+"classname" "trigger_teleport"
+}
+{
+"speed" "800"
+"model" "*89"
+"sounds" "0"
+"classname" "func_door"
+"wait" "5"
+"dmg" "0"
+"lip" "0"
+"angle" "-1"
+"targetname" "glassdoor"
+}
+{
+"target" "threadrestart2"
+"model" "*90"
+"classname" "trigger_teleport"
+}
+{
+"target" "threadrestart2"
+"model" "*91"
+"classname" "trigger_teleport"
+}
+{
+"goal_activation" "1"
+"netname" "Thread Start"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"origin" "696 352 -128"
+"netname_broadcast" " must have worn his windbreaker!\n"
+"armortype" "0.8"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"ammo_rockets" "-50"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "696 352 -144"
+"angle" "0"
+"targetname" "threadstart"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "50"
+"message" "Lock & Load\n"
+"netname" "Thread Pack with Shells"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "968 16 -432"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "-50"
+}
+{
+"goal_activation" "1"
+"netname" "Thread Info"
+"message" "Thread the Needle\n\nGren thru opening\nshoot button in flight\nGJ from door to plat\nGren to exit\n"
+"classname" "info_tfgoal"
+"origin" "911 -303 -424"
+"wait" "2"
+}
+{
+"speed" "800"
+"model" "*92"
+"sounds" "0"
+"classname" "func_door"
+"wait" "2"
+"dmg" "0"
+"lip" "0"
+"angle" "-1"
+"targetname" "threaddoor"
+}
+{
+"target" "threaddoor"
+"model" "*93"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "1"
+"targetname" "threaddoorknob"
+}
+{
+"speed" "200"
+"model" "*94"
+"classname" "trigger_push"
+"angle" "270"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1160 -64 -416"
+"angle" "180"
+"targetname" "threadrestart2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1272 -64 -416"
+"angle" "180"
+"targetname" "threadrestart"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1368 -64 -416"
+"angle" "180"
+"targetname" "threadrestart3"
+}
+{
+"target" "galerestart"
+"model" "*95"
+"classname" "trigger_teleport"
+}
+{
+"speed" "100"
+"model" "*96"
+"classname" "trigger_push"
+"angle" "-1"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Gale Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "712 1088 720"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"netname" "Gale Forces Info"
+"message" "Gale Forces\n\nGJ+RJ through opening\nPrime gren in tunnel\nRJ off wall before\ngren explodes to plat\nGJ to exit\n"
+"classname" "info_tfgoal"
+"origin" "799 1089 -744"
+"wait" "2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1176 848 -576"
+"angle" "90"
+"targetname" "galerestart"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Gale Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "1224 1088 -752"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"target" "threadstart"
+"model" "*97"
+"classname" "trigger_teleport"
+}
+{
+"speed" "25"
+"model" "*98"
+"classname" "trigger_push"
+"angle" "180"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1176 1312 -576"
+"angle" "270"
+"targetname" "galestart"
+}
+{
+"goal_activation" "1"
+"netname" "Gale Start Info"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"origin" "1175 1313 -559"
+"netname_broadcast" " is a born-again Christian!\n"
+"armortype" "0.8"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3072 3392 -1380"
+"team_no" "1"
+"angle" "270"
+}
+{
+"goal_activation" "1"
+"netname" "Gale Strip"
+"message" "Patience is a Virtue\nSo Take Turns!\n"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"origin" "-3200 3392 -1376"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "0"
+"health" "0"
+"ammo_rockets" "0"
+}
+{
+"goal_activation" "1"
+"netname" "Gale Strip"
+"message" "Be Patient\nYour Turn Will Come!\n"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"origin" "-3328 3392 -1376"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "0"
+"health" "0"
+"ammo_rockets" "0"
+}
+{
+"target" "pseidonstart"
+"model" "*99"
+"classname" "trigger_teleport"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3200 3392 -1380"
+"team_no" "1"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3328 3392 -1380"
+"team_no" "1"
+"angle" "270"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Well Pack 1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-3200 2816 -1728"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"netname" "The Well Info"
+"message" "The Well\n\nRJ+Gren+RJ+RJ up and off the wall\nonto plat\nGJ+RJ into Exit\n"
+"classname" "info_tfgoal"
+"origin" "-3201 3233 -1592"
+"wait" "2"
+}
+{
+"goal_activation" "1"
+"netname" "Gale Strip"
+"message" "Be Courteous\nTake Turns!\n"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"origin" "-3072 3392 -1376"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "0"
+"health" "0"
+"ammo_rockets" "0"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-3200 3024 -1408"
+"angle" "270"
+"targetname" "maprestart"
+}
+{
+"goal_activation" "1"
+"message" "Lock & Load\n"
+"netname" "Well Pack 2"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-3200 2816 -16"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"target" "offwallrestart1"
+"model" "*100"
+"classname" "trigger_teleport"
+}
+{
+"target" "offwallrestart1"
+"model" "*101"
+"classname" "trigger_teleport"
+}
+{
+"target" "uturn3"
+"speed" "100"
+"model" "*102"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "0"
+}
+{
+"target" "uturn4"
+"classname" "path_corner"
+"origin" "2184 -1312 -472"
+"wait" "0.000000"
+"targetname" "uturn3"
+"angle" "90"
+}
+{
+"target" "uturn2"
+"classname" "path_corner"
+"origin" "2184 -1312 -472"
+"wait" "0.000000"
+"targetname" "uturn1"
+"angle" "90"
+}
+{
+"target" "uturn3"
+"classname" "path_corner"
+"origin" "2104 -1312 -472"
+"wait" "1.000000"
+"targetname" "uturn2"
+"angle" "90"
+}
+{
+"target" "uturn1"
+"classname" "path_corner"
+"origin" "2184 -1312 24"
+"wait" "1.000000"
+"targetname" "uturn4"
+"angle" "90"
+}
+{
+"target" "sq3a"
+"speed" "100"
+"model" "*103"
+"sounds" "1"
+"classname" "func_train"
+"dmg" "0"
+}
+{
+"target" "sq3b"
+"classname" "path_corner"
+"origin" "128 1952 -168"
+"targetname" "sq3a"
+"angle" "90"
+}
+{
+"target" "sq3a"
+"classname" "path_corner"
+"origin" "128 1856 -168"
+"targetname" "sq3b"
+"angle" "90"
+}

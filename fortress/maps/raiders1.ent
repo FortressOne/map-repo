@@ -1,0 +1,2213 @@
+{
+"classname" "worldspawn"
+"message" "Tomb Raiders v1.0\nby Dreadnought\n\nArtifact Models\nby Dox"
+"sounds" "11"
+"worldtype" "0"
+"wad" "f:\worldcraft\rogue.wad;f:\worldcraft\quake.wad;f:\worldcraft\alpha.wad;f:\worldcraft\h2-"
+}
+{
+"classname" "item_tfgoal"
+"non_team_str_carried" "The Ark is carried by"
+"goal_activation" "245"
+"netname" "Ark of the Covenant"
+"has_item_from_group" "1"
+"netname_broadcast" " has the Ark of the Covenant.\n"
+"noise" "misc/runekey.wav"
+"non_team_str_home" "The Ark is in the tomb."
+"goal_effects" "1"
+"goal_no" "1"
+"non_team_str_moved" "The Ark is lying about."
+"items" "262144"
+"noise4" "The Ark has returned to the tomb.\n"
+"goal_result" "16"
+"pausetime" "10"
+"group_no" "1"
+"mdl" "progs/tr_ark.mdl"
+"origin" "0 -2496 32"
+}
+{
+"classname" "item_tfgoal"
+"non_team_str_carried" "The Stone is carried by"
+"goal_activation" "245"
+"netname" "Sankara Stone"
+"has_item_from_group" "1"
+"netname_broadcast" " has the Sankara Stone.\n"
+"noise" "misc/runekey.wav"
+"non_team_str_home" "The Stone is in the tomb."
+"goal_effects" "1"
+"non_team_str_moved" "The Stone is lying about."
+"items" "262144"
+"goal_no" "2"
+"noise4" "The Stone has returned to the tomb.\n"
+"goal_result" "16"
+"pausetime" "20"
+"mdl" "progs/tr_stone.mdl"
+"group_no" "1"
+"origin" "0 -1792 -608"
+}
+{
+"classname" "item_tfgoal"
+"non_team_str_carried" "The Grail is carried by"
+"goal_activation" "245"
+"netname" "Holy Grail"
+"has_item_from_group" "1"
+"netname_broadcast" " has the Holy Grail.\n"
+"noise" "misc/runekey.wav"
+"non_team_str_home" "The Grail is in the tomb."
+"goal_effects" "1"
+"non_team_str_moved" "The Grail is lying about."
+"items" "262144"
+"goal_no" "3"
+"noise4" "The Grail has returned to the tomb.\n"
+"goal_result" "16"
+"pausetime" "30"
+"mdl" "progs/tr_grail2.mdl"
+"group_no" "1"
+"origin" "2304 1056 -1120"
+"skin" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "315"
+"netname" "red"
+"team_no" "2"
+"origin" "-1344 -512 32"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "-64 -736 -1120"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-1408 -320 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-896 -320 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-1664 -1088 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-640 -1088 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-1152 -1536 672"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "75"
+"origin" "-1152 -1088 128"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "75"
+"origin" "-1888 -832 128"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "75"
+"origin" "-416 -832 128"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"message" "grenade resupply\n"
+"netname" "red grenades"
+"noise" "weapons/pkup.wav"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"wait" "15"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"team_no" "2"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "1"
+"origin" "-1152 -256 32"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "25"
+"message" "rescue the ark\n"
+"netname" "red resupply 1"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "3"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"ammo_nails" "50"
+"armorvalue" "100"
+"team_no" "2"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "50"
+"ammo_detpack" "1"
+"ammo_rockets" "25"
+"goal_no" "201"
+"origin" "-1472 -896 32"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "25"
+"message" "sieze the stone\n"
+"netname" "red resupply 2"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "3"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"ammo_nails" "50"
+"armorvalue" "100"
+"team_no" "2"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "50"
+"ammo_detpack" "1"
+"ammo_rockets" "25"
+"goal_no" "202"
+"origin" "-1152 -512 32"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "25"
+"message" "capture the grail\n"
+"netname" "red resupply 3"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "3"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"ammo_nails" "50"
+"armorvalue" "100"
+"team_no" "2"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "50"
+"ammo_detpack" "1"
+"ammo_rockets" "25"
+"goal_no" "203"
+"origin" "-832 -896 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "315"
+"netname" "red"
+"team_no" "2"
+"origin" "-1408 -576 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "315"
+"netname" "red"
+"team_no" "2"
+"origin" "-1472 -640 32"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "red"
+"team_no" "2"
+"origin" "-1600 -1024 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"netname" "red"
+"team_no" "2"
+"origin" "-704 -1024 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "225"
+"netname" "red"
+"team_no" "2"
+"origin" "-832 -640 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "225"
+"netname" "red"
+"team_no" "2"
+"origin" "-960 -512 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "225"
+"netname" "red"
+"team_no" "2"
+"origin" "-896 -576 32"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "3"
+"netname" "red capture grail"
+"axhitme" "3"
+"has_item_from_group" "1"
+"broadcast" "Red Raiders have Captured the Grail.\n"
+"goal_effects" "3"
+"count" "12"
+"ammo_medikit" "50"
+"invincible_finished" "3"
+"health" "100"
+"team_no" "2"
+"origin" "-1152 -356 32"
+}
+{
+"classname" "info_tfgoal"
+"invisible_finished" "3"
+"goal_activation" "1"
+"items_allowed" "2"
+"netname" "red sieze stone"
+"axhitme" "2"
+"armorclass" "16"
+"has_item_from_group" "1"
+"armortype" "0.8"
+"broadcast" "Red Raiders have Siezed the Stone.\n"
+"goal_effects" "3"
+"count" "5"
+"armorvalue" "300"
+"team_no" "2"
+"origin" "-1152 -356 32"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"items_allowed" "1"
+"netname" "red rescue ark"
+"has_item_from_group" "1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"super_damage_finished" "3"
+"broadcast" "Red Raiders have Rescued the Ark.\n"
+"goal_effects" "3"
+"count" "2"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"remove_item_group" "1"
+"team_no" "2"
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_rockets" "200"
+"origin" "-1152 -356 32"
+}
+{
+"classname" "item_health"
+"origin" "-1600 -736 0"
+}
+{
+"classname" "item_health"
+"origin" "-1648 -752 0"
+}
+{
+"classname" "item_health"
+"origin" "-736 -736 0"
+}
+{
+"classname" "item_health"
+"origin" "-688 -752 0"
+}
+{
+"classname" "item_armorInv"
+"origin" "-1568 -800 32"
+}
+{
+"classname" "item_armorInv"
+"origin" "-736 -800 32"
+}
+{
+"classname" "item_health"
+"origin" "-672 -800 0"
+}
+{
+"classname" "item_health"
+"origin" "-1664 -800 0"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "315"
+"netname" "blue"
+"team_no" "1"
+"origin" "960 -512 32"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "896 -320 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "1408 -320 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "640 -1088 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "1664 -1088 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "1152 -1536 672"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "75"
+"origin" "1152 -1088 128"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "75"
+"origin" "416 -832 128"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "75"
+"origin" "1888 -832 128"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"message" "grenade resupply\n"
+"netname" "blue grenades"
+"noise" "weapons/pkup.wav"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"wait" "15"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"team_no" "1"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "1"
+"origin" "1152 -256 32"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "25"
+"message" "rescue the ark\n"
+"netname" "blue resupply 1"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "3"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"ammo_nails" "50"
+"armorvalue" "100"
+"team_no" "1"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "50"
+"ammo_detpack" "1"
+"ammo_rockets" "25"
+"goal_no" "101"
+"origin" "832 -896 32"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "25"
+"message" "sieze the stone\n"
+"netname" "blue resupply 2"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "3"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"ammo_nails" "50"
+"armorvalue" "100"
+"team_no" "1"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "50"
+"ammo_detpack" "1"
+"ammo_rockets" "25"
+"goal_no" "102"
+"origin" "1152 -512 32"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "25"
+"message" "capture the grail\n"
+"netname" "blue resupply 3"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "3"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"ammo_nails" "50"
+"armorvalue" "100"
+"team_no" "1"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "50"
+"ammo_detpack" "1"
+"ammo_rockets" "25"
+"goal_no" "103"
+"origin" "1472 -896 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "315"
+"netname" "blue"
+"team_no" "1"
+"origin" "896 -576 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "315"
+"netname" "blue"
+"team_no" "1"
+"origin" "832 -640 32"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "blue"
+"team_no" "1"
+"origin" "704 -1024 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"netname" "blue"
+"team_no" "1"
+"origin" "1600 -1024 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "225"
+"netname" "blue"
+"team_no" "1"
+"origin" "1344 -512 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "225"
+"netname" "blue"
+"team_no" "1"
+"origin" "1408 -576 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "225"
+"netname" "blue"
+"team_no" "1"
+"origin" "1472 -640 32"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "3"
+"netname" "blue capture grail"
+"axhitme" "3"
+"has_item_from_group" "1"
+"broadcast" "Blue Raiders have Captured the Grail.\n"
+"goal_effects" "3"
+"count" "12"
+"ammo_medikit" "50"
+"invincible_finished" "3"
+"health" "100"
+"team_no" "1"
+"origin" "1152 -356 32"
+}
+{
+"classname" "info_tfgoal"
+"invisible_finished" "3"
+"goal_activation" "1"
+"items_allowed" "2"
+"netname" "blue sieze stone"
+"axhitme" "2"
+"armorclass" "16"
+"has_item_from_group" "1"
+"armortype" "0.8"
+"broadcast" "Blue Raiders have Siezed the Stone.\n"
+"goal_effects" "3"
+"count" "5"
+"armorvalue" "300"
+"team_no" "1"
+"origin" "1152 -356 32"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"items_allowed" "1"
+"netname" "blue rescue ark"
+"has_item_from_group" "1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"super_damage_finished" "3"
+"broadcast" "Blue Raiders have Rescued the Ark.\n"
+"goal_effects" "3"
+"count" "2"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"remove_item_group" "1"
+"team_no" "1"
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_rockets" "200"
+"origin" "1152 -356 32"
+}
+{
+"classname" "item_health"
+"origin" "704 -736 0"
+}
+{
+"classname" "item_health"
+"origin" "656 -752 0"
+}
+{
+"classname" "item_health"
+"origin" "1616 -752 0"
+}
+{
+"classname" "item_health"
+"origin" "1568 -736 0"
+}
+{
+"classname" "item_armorInv"
+"origin" "736 -800 32"
+}
+{
+"classname" "item_armorInv"
+"origin" "1568 -800 32"
+}
+{
+"classname" "item_health"
+"origin" "1632 -800 0"
+}
+{
+"classname" "item_health"
+"origin" "640 -800 0"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-1408 -2496 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-1152 -2176 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-896 -2496 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-1152 -2816 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-1728 -2336 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-1728 -2656 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "1728 -2656 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "1728 -2336 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "1408 -2496 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "896 -2496 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "1152 -2176 672"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "1152 -2816 672"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "400"
+"origin" "-520 -2496 128"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "400"
+"origin" "520 -2496 128"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-160 -3776 384"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "160 -3776 384"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "416 -3776 384"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "250"
+"origin" "-416 -3776 384"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "-192 -3712 -272"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "-192 -3856 -272"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "192 -3712 -272"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "192 -3856 -272"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "-384 -3888 -272"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "0 -3888 -272"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "384 -3888 -272"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "-496 -3776 -272"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "496 -3776 -272"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "-384 -3664 -272"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "384 -3664 -272"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "0 -3664 -272"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "500"
+"origin" "504 -3200 192"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "500"
+"origin" "-504 -3200 192"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "1.2"
+"light" "300"
+"origin" "0 -1992 192"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "400"
+"origin" "760 -3008 -512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "400"
+"origin" "-760 -3008 -512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "300"
+"origin" "760 -3648 -192"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "300"
+"origin" "-760 -3648 -192"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "400"
+"origin" "-192 -1864 -512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "400"
+"origin" "192 -1864 -512"
+}
+{
+"classname" "light"
+"wait" "3"
+"light" "600"
+"origin" "0 -1792 -512"
+}
+{
+"classname" "light"
+"wait" ".3"
+"light" "150"
+"origin" "0 -1920 -512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "500"
+"origin" "960 -1992 -640"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "2"
+"light" "500"
+"origin" "960 -2488 -640"
+}
+{
+"classname" "item_health"
+"spawnflags" "1"
+"origin" "1056 -2672 -768"
+}
+{
+"classname" "item_health"
+"spawnflags" "1"
+"origin" "1136 -2672 -768"
+}
+{
+"classname" "item_health"
+"spawnflags" "1"
+"origin" "1216 -2672 -768"
+}
+{
+"classname" "item_armor1"
+"origin" "1152 -2720 -736"
+}
+{
+"classname" "item_armor1"
+"origin" "1232 -2720 -736"
+}
+{
+"classname" "item_armor1"
+"origin" "1072 -2720 -736"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" "1"
+"light" "300"
+"origin" "1152 -2744 -640"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-192 -2448 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-112 -2368 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-192 -2288 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-272 -2368 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-192 -2544 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-112 -2624 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-272 -2624 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-192 -2704 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-368 -2496 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-448 -2416 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-528 -2496 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "-448 -2576 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "192 -2448 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "272 -2368 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "112 -2368 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "192 -2288 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "192 -2544 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "112 -2624 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "272 -2624 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "192 -2704 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "448 -2416 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "528 -2496 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "368 -2496 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "448 -2576 -752"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "150"
+"origin" "288 -1888 -704"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "150"
+"origin" "-288 -1888 -704"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "100"
+"origin" "0 -3776 -192"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "100"
+"origin" "-384 -3776 -192"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "100"
+"origin" "384 -3776 -192"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "2"
+"netname" "stone trap"
+"goal_effects" "1"
+"deathtype" " got stoned.\n"
+"health" "-3"
+"origin" "0 -1792 -608"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "200"
+"origin" "832 -2240 -576"
+}
+{
+"classname" "item_armor2"
+"origin" "-448 -2048 32"
+}
+{
+"classname" "item_armor2"
+"origin" "448 -2048 32"
+}
+{
+"classname" "light"
+"wait" ".25"
+"light" "150"
+"origin" "1152 -2048 192"
+}
+{
+"classname" "light"
+"wait" ".25"
+"light" "150"
+"origin" "-1152 -2048 192"
+}
+{
+"classname" "func_illusionary"
+"model" "*1"
+}
+{
+"classname" "func_illusionary"
+"model" "*2"
+}
+{
+"classname" "func_illusionary"
+"model" "*3"
+}
+{
+"classname" "func_illusionary"
+"model" "*4"
+}
+{
+"classname" "func_illusionary"
+"model" "*5"
+}
+{
+"classname" "func_illusionary"
+"model" "*6"
+}
+{
+"classname" "func_illusionary"
+"model" "*7"
+}
+{
+"classname" "func_illusionary"
+"model" "*8"
+}
+{
+"classname" "func_illusionary"
+"model" "*9"
+}
+{
+"classname" "func_illusionary"
+"model" "*10"
+}
+{
+"classname" "func_illusionary"
+"model" "*11"
+}
+{
+"classname" "func_illusionary"
+"model" "*12"
+}
+{
+"classname" "func_illusionary"
+"model" "*13"
+}
+{
+"classname" "func_illusionary"
+"model" "*14"
+}
+{
+"classname" "func_illusionary"
+"model" "*15"
+}
+{
+"classname" "func_illusionary"
+"model" "*16"
+}
+{
+"classname" "func_illusionary"
+"model" "*17"
+}
+{
+"classname" "func_illusionary"
+"model" "*18"
+}
+{
+"classname" "func_illusionary"
+"model" "*19"
+}
+{
+"classname" "func_illusionary"
+"model" "*20"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " strayed from the path.\n"
+"health" "-250"
+"origin" "832 -1248 -864"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "200"
+"origin" "800 -1592 -512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "200"
+"origin" "672 -1592 -512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "200"
+"origin" "544 -1592 -512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "200"
+"origin" "416 -1592 -512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "200"
+"origin" "480 -1096 -512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "200"
+"origin" "600 -1096 -512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "200"
+"origin" "736 -1096 -512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "200"
+"origin" "864 -1096 -512"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "75"
+"origin" "320 -1344 -576"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "132"
+"non_team_broadcast" "Raid the artifacts from the tomb and take them back to your base.\n"
+"maxammo_shells" "1"
+"hook_out" "1"
+"team_broadcast" "CHOOSEÖYOURÖRAIDINGÖPARTY\nê1ëÖBLUEÖRAIDERS\nê2ëÖÖREDÖRAIDERS\n"
+"maxammo_nails" "1"
+"origin" "-1664 -384 320"
+"ammo_medikit" "16"
+"ammo_detpack" "16"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "75"
+"origin" "960 -1344 -576"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "250"
+"origin" "1032 -1856 -640"
+}
+{
+"classname" "item_health"
+"spawnflags" "1"
+"origin" "1840 -2064 256"
+}
+{
+"classname" "item_health"
+"spawnflags" "1"
+"origin" "-1872 -2064 256"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " strayed from the path.\n"
+"health" "-250"
+"origin" "864 -1312 -864"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " strayed from the path.\n"
+"health" "-250"
+"origin" "736 -1248 -864"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " strayed from the path.\n"
+"health" "-250"
+"origin" "832 -1440 -864"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " strayed from the path.\n"
+"health" "-250"
+"origin" "736 -1440 -864"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " strayed from the path.\n"
+"health" "-250"
+"origin" "736 -1376 -864"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " strayed from the path.\n"
+"health" "-250"
+"origin" "608 -1312 -864"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " strayed from the path.\n"
+"health" "-250"
+"origin" "640 -1408 -864"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " strayed from the path.\n"
+"health" "-250"
+"origin" "544 -1440 -864"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " strayed from the path.\n"
+"health" "-250"
+"origin" "448 -1440 -864"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " strayed from the path.\n"
+"health" "-250"
+"origin" "448 -1280 -864"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " tried to make his own path.\n"
+"health" "-250"
+"origin" "800 -1120 -544"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " tried to make his own path.\n"
+"health" "-250"
+"origin" "480 -1568 -544"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " tried to make his own path.\n"
+"health" "-250"
+"origin" "480 -1504 -480"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " tried to make his own path.\n"
+"health" "-250"
+"origin" "800 -1184 -480"
+}
+{
+"classname" "info_intermission"
+"mangle" "30 180 0"
+"origin" "1184 -1344 -544"
+}
+{
+"classname" "item_armorInv"
+"origin" "-64 896 -1120"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-224 -1088 -832"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "96 -960 -960"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-224 -832 -1088"
+}
+{
+"classname" "light"
+"wait" "1"
+"style" "5"
+"origin" "-160 -1344 -640"
+}
+{
+"classname" "light"
+"light" "-300"
+"origin" "-640 -1344 -640"
+}
+{
+"classname" "trigger_push"
+"angle" "180"
+"speed" "500"
+"sounds" "3"
+"style" "32"
+"delay" "2"
+"model" "*21"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "500"
+"sounds" "3"
+"style" "32"
+"delay" "2"
+"model" "*22"
+}
+{
+"classname" "trigger_push"
+"angle" "270"
+"speed" "500"
+"sounds" "3"
+"style" "32"
+"delay" "2"
+"model" "*23"
+}
+{
+"classname" "trigger_push"
+"angle" "1"
+"speed" "500"
+"sounds" "3"
+"style" "32"
+"delay" "2"
+"model" "*24"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "5"
+"items_allowed" "3"
+"netname" "choose kill"
+"goal_effects" "1"
+"deathtype" " chose poorly.\n"
+"health" "-250"
+"mdl" "progs/tr_grail1.mdl"
+"origin" "2432 800 -1120"
+"skin" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "150"
+"origin" "2240 1176 -960"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "150"
+"origin" "2240 296 -960"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "150"
+"origin" "2552 736 -960"
+}
+{
+"classname" "light"
+"wait" ".3"
+"light" "100"
+"origin" "2400 960 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2400 1088 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2528 1088 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2528 960 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2080 960 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2080 1088 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "1952 1088 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "1952 960 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2400 384 -1184"
+}
+{
+"classname" "light"
+"wait" ".3"
+"light" "100"
+"origin" "2400 512 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2528 512 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2528 384 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2080 512 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2080 384 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "1952 384 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "1952 512 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2240 320 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2528 736 -1184"
+}
+{
+"classname" "light"
+"wait" ".5"
+"light" "100"
+"origin" "2240 1152 -1184"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "5"
+"items_allowed" "3"
+"netname" "choose kill"
+"goal_effects" "1"
+"deathtype" " chose poorly.\n"
+"health" "-250"
+"mdl" "progs/tr_grail3.mdl"
+"origin" "2176 1056 -1120"
+"skin" "0"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "5"
+"items_allowed" "3"
+"netname" "choose kill"
+"goal_effects" "1"
+"deathtype" " chose poorly.\n"
+"health" "-250"
+"mdl" "progs/tr_grail3.mdl"
+"origin" "2304 416 -1120"
+"skin" "1"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "5"
+"items_allowed" "3"
+"netname" "choose kill"
+"goal_effects" "1"
+"deathtype" " chose poorly.\n"
+"health" "-250"
+"mdl" "progs/tr_grail2.mdl"
+"origin" "2432 672 -1120"
+"skin" "1"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "5"
+"items_allowed" "3"
+"netname" "choose kill"
+"goal_effects" "1"
+"deathtype" " chose poorly.\n"
+"health" "-250"
+"mdl" "progs/tr_grail1.mdl"
+"origin" "2176 416 -1120"
+"skin" "1"
+}
+{
+"classname" "light"
+"origin" "1984 736 -1024"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".3"
+"light" "100"
+"origin" "120 -512 -1088"
+}
+{
+"classname" "trigger_push"
+"angle" "-2"
+"speed" "5"
+"style" "32"
+"delay" "2"
+"model" "*25"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "636 -768 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "704 -700 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "772 -768 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "704 -836 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-1668 -768 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-1600 -700 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-1532 -768 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-1600 -836 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-704 -700 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-636 -768 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-704 -836 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-772 -768 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "1600 -700 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "1668 -768 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "1600 -836 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "1532 -768 32"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "200"
+"origin" "1152 -64 640"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "200"
+"origin" "-1152 -64 640"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-1200 -272 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-1104 -272 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-1104 -368 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-1200 -368 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "1104 -272 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "1200 -272 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "1200 -368 32"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "1104 -368 32"
+}
+{
+"classname" "trigger_push"
+"angle" "270"
+"speed" "500"
+"sounds" "3"
+"style" "32"
+"delay" "2"
+"model" "*26"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".3"
+"light" "100"
+"origin" "-248 -512 -1088"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".3"
+"light" "100"
+"origin" "120 -224 -1088"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".3"
+"light" "100"
+"origin" "-248 -224 -1088"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".3"
+"light" "100"
+"origin" "-248 96 -1088"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".3"
+"light" "100"
+"origin" "120 96 -1088"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".3"
+"light" "100"
+"origin" "-248 416 -1088"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".3"
+"light" "100"
+"origin" "120 416 -1088"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".3"
+"light" "100"
+"origin" "-248 736 -1088"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "150"
+"origin" "-64 952 -1088"
+}
+{
+"classname" "light"
+"origin" "1216 2048 -1920"
+}
+{
+"classname" "light"
+"origin" "1088 1728 -1920"
+}
+{
+"classname" "light"
+"origin" "896 1472 -1920"
+}
+{
+"classname" "light"
+"origin" "704 1280 -1920"
+}
+{
+"classname" "light"
+"origin" "448 1088 -1920"
+}
+{
+"classname" "light"
+"origin" "1088 1344 -1920"
+}
+{
+"classname" "light"
+"origin" "1408 1152 -1920"
+}
+{
+"classname" "light"
+"origin" "1664 960 -1920"
+}
+{
+"classname" "light"
+"origin" "1728 704 -1920"
+}
+{
+"classname" "light"
+"origin" "320 896 -1920"
+}
+{
+"classname" "light"
+"origin" "320 512 -1920"
+}
+{
+"classname" "light"
+"origin" "640 384 -1920"
+}
+{
+"classname" "light"
+"origin" "960 320 -1920"
+}
+{
+"classname" "light"
+"origin" "1344 192 -1920"
+}
+{
+"classname" "light"
+"origin" "1600 384 -1920"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "150"
+"origin" "832 640 128"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "150"
+"origin" "1152 896 128"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " took a leap without faith.\n"
+"health" "-250"
+"origin" "416 736 -1312"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "tf kill"
+"goal_effects" "1"
+"deathtype" " took a leap without faith.\n"
+"health" "-250"
+"origin" "1632 736 -1312"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".3"
+"light" "120"
+"origin" "216 -2496 160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".3"
+"light" "120"
+"origin" "-248 -2496 160"
+}
+{
+"classname" "light"
+"origin" "128 -2624 8"
+}
+{
+"classname" "light"
+"origin" "-128 -2624 8"
+}
+{
+"classname" "light"
+"origin" "-128 -2368 8"
+}
+{
+"classname" "light"
+"origin" "128 -2368 8"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "40"
+"origin" "0 -2912 96"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "150"
+"origin" "-192 -2824 160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"wait" ".5"
+"light" "150"
+"origin" "192 -2824 160"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "768 736 -1088"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "1280 736 -1088"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "100"
+"origin" "96 736 -1004"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "100"
+"origin" "416 736 -1376"
+}
+{
+"classname" "light"
+"wait" ".2"
+"light" "100"
+"origin" "1632 736 -1376"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "50"
+"origin" "576 -2176 64"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "50"
+"origin" "-576 -2176 64"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "50"
+"origin" "-576 -2624 448"
+}
+{
+"classname" "light"
+"wait" ".1"
+"light" "50"
+"origin" "576 -2624 448"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "red tent 2"
+"deathtype" " destroyed some of red's artifacts!\n"
+"team_no" "1"
+"increase_team2" "-10"
+"remove_goal_no" "202"
+"wait" "305"
+"origin" "-1216 -320 128"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "blue tent 2"
+"deathtype" " destroyed some of blue's artifacts!\n"
+"team_no" "2"
+"increase_team1" "-10"
+"remove_goal_no" "102"
+"wait" "305"
+"origin" "1216 -320 128"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "red tent 2 restore"
+"team_no" "1"
+"delay_time" "300"
+"restore_goal_no" "202"
+"wait" "305"
+"origin" "-1216 -320 128"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "blue tent 2 restore"
+"team_no" "2"
+"delay_time" "300"
+"restore_goal_no" "102"
+"wait" "305"
+"origin" "1216 -320 64"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "blue tent 3"
+"team_no" "2"
+"increase_team1" "-5"
+"remove_goal_no" "103"
+"wait" "305"
+"origin" "1664 -832 112"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "blue tent 3 restore"
+"team_no" "2"
+"delay_time" "300"
+"restore_goal_no" "103"
+"wait" "305"
+"origin" "1664 -832 112"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "blue tent 1"
+"team_no" "2"
+"increase_team1" "-5"
+"wait" "305"
+"remove_goal_no" "101"
+"origin" "640 -832 112"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "blue tent 1 restore"
+"team_no" "2"
+"delay_time" "300"
+"wait" "305"
+"restore_goal_no" "101"
+"origin" "640 -832 112"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "red tent 3"
+"team_no" "1"
+"increase_team2" "-5"
+"remove_goal_no" "203"
+"wait" "305"
+"origin" "-640 -832 112"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "red tent 3 restore"
+"team_no" "1"
+"delay_time" "300"
+"restore_goal_no" "203"
+"wait" "305"
+"origin" "-640 -832 112"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "red tent 1"
+"team_no" "1"
+"increase_team2" "-5"
+"remove_goal_no" "201"
+"wait" "305"
+"origin" "-1664 -832 112"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"netname" "red tent 1 restore"
+"team_no" "1"
+"delay_time" "300"
+"restore_goal_no" "201"
+"wait" "305"
+"origin" "-1664 -832 112"
+}

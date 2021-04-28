@@ -1,0 +1,402 @@
+{
+"classname" "worldspawn"
+"message" "The Third Rectangle \nNow with boxes!!! \nBy CaptSpeed\n"
+"sounds" "0"
+"wad" "C:\Program Files\Qoole\work\sqmaze3.wad"
+"worldtype" "2"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"spawnflags" "0"
+"sounds" "2"
+"wait" "3"
+"dmg" "10"
+"health" "0"
+"lip" "4"
+"angle" "-1"
+"targetname" "reddoor"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"spawnflags" "0"
+"sounds" "2"
+"wait" "3"
+"dmg" "10"
+"lip" "4"
+"angle" "-1"
+"targetname" "reddoor"
+"model" "*2"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"sounds" "2"
+"wait" "3"
+"dmg" "10"
+"lip" "4"
+"angle" "-1"
+"targetname" "bluedoor"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"sounds" "2"
+"wait" "3"
+"dmg" "10"
+"lip" "4"
+"angle" "-1"
+"targetname" "bluedoor"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"spawnflags" "0"
+"sounds" "2"
+"wait" "3"
+"dmg" "10"
+"lip" "4"
+"angle" "-2"
+"targetname" "reddoor"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"spawnflags" "0"
+"sounds" "2"
+"wait" "3"
+"dmg" "10"
+"lip" "4"
+"angle" "-2"
+"targetname" "reddoor"
+"model" "*6"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"spawnflags" "0"
+"sounds" "2"
+"wait" "3"
+"dmg" "10"
+"lip" "4"
+"angle" "-2"
+"targetname" "bluedoor"
+"model" "*7"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"sounds" "2"
+"wait" "3"
+"dmg" "10"
+"lip" "4"
+"angle" "-2"
+"targetname" "bluedoor"
+"model" "*8"
+}
+{
+"classname" "func_button"
+"speed" "1000"
+"target" "reddoor"
+"sounds" "1"
+"wait" "3"
+"delay" "0"
+"lip" "4"
+"health" "5"
+"team_no" "2"
+"angle" "0"
+"model" "*9"
+}
+{
+"classname" "info_player_start"
+"origin" "-848 464 440"
+"angle" "300"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-976 216 56"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-976 136 56"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-976 56 56"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-976 -8 56"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-976 -80 56"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-976 -176 56"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "trigger_multiple"
+"target" "reddoor"
+"wait" "1"
+"delay" "0"
+"model" "*10"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "976 176 56"
+"team_no" "2"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "976 120 56"
+"team_no" "2"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "976 48 56"
+"team_no" "2"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "976 -16 56"
+"team_no" "2"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "976 -80 56"
+"team_no" "2"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "976 -136 56"
+"team_no" "2"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "976 -208 56"
+"team_no" "2"
+"angle" "0"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "64"
+"non_team_broadcast" "Take the enemy flag and return \nit to your cap point pad \n(below resupply)\n"
+"origin" "0 0 208"
+"hook_out" "1"
+"broadcast" "version 1.0"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"message" "Restocking\n"
+"netname" "re-supply_pack"
+"origin" "-1088 0 32"
+"no_grenades_1" "6"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "-10"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"message" "Restocking\n"
+"netname" "re-supply_pack2"
+"origin" "1088 0 32"
+"no_grenades_1" "6"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "-10"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"classname" "light"
+"origin" "-848 0 192"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "848 0 192"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "448 432 16"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "448 -432 16"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -192 16"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 192 16"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-448 448 16"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-448 -432 16"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1120 0 464"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "1120 0 464"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "0 0 144"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 368 144"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -368 144"
+"light" "300"
+}
+{
+"classname" "trigger_push"
+"speed" "100"
+"team_no" "1"
+"angle" "180"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"target" "reddoor"
+"wait" "1"
+"delay" "0"
+"model" "*12"
+}
+{
+"classname" "trigger_multiple"
+"target" "reddoor"
+"wait" "1"
+"delay" "0"
+"model" "*13"
+}
+{
+"classname" "trigger_multiple"
+"target" "reddoor"
+"wait" "1"
+"delay" "0"
+"model" "*14"
+}
+{
+"classname" "trigger_multiple"
+"target" "bluedoor"
+"wait" "1"
+"delay" "0"
+"model" "*15"
+}
+{
+"classname" "trigger_multiple"
+"target" "bluedoor"
+"wait" "1"
+"delay" "0"
+"model" "*16"
+}
+{
+"classname" "trigger_multiple"
+"target" "bluedoor"
+"wait" "1"
+"delay" "0"
+"model" "*17"
+}
+{
+"classname" "trigger_multiple"
+"target" "bluedoor"
+"wait" "1"
+"delay" "0"
+"model" "*18"
+}
+{
+"classname" "trigger_multiple"
+"target" "bluedoor"
+"wait" "1"
+"delay" "0"
+"model" "*19"
+}
+{
+"classname" "func_button"
+"speed" "1000"
+"target" "bluedoor"
+"sounds" "1"
+"wait" "3"
+"delay" "0"
+"lip" "4"
+"health" "5"
+"team_no" "1"
+"angle" "180"
+"model" "*20"
+}
+{
+"classname" "trigger_push"
+"speed" "100"
+"team_no" "2"
+"angle" "360"
+"model" "*21"
+}

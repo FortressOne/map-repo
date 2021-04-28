@@ -1,0 +1,2439 @@
+{
+"classname" "worldspawn"
+"light" "15"
+"message" "Rocket Jump Race\nPart ][][\nPublic Beta\n"
+"wad" "f:\worldcraft\textures.wad;f:\quake\fortress\maps\tf2k.wad"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"targetname" "bluepad1"
+"speed" "500"
+"sounds" "2"
+"wait" "3"
+"lip" "-8"
+"dmg" "0"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"target" "bluepad1"
+"style" "32"
+"sounds" "4"
+"delay" "2"
+"wait" "3"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "bluepad2"
+"style" "32"
+"sounds" "4"
+"delay" "2"
+"wait" "3"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"angle" "272"
+"targetname" "bluepad2"
+"speed" "500"
+"sounds" "2"
+"wait" "3"
+"lip" "-8"
+"dmg" "0"
+"model" "*4"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br1"
+"model" "*5"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "1"
+"origin" "-3264 320 -480"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "introduction\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "bp1"
+"origin" "-3744 352 -640"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 768 -256"
+}
+{
+"classname" "light"
+"light" "700"
+"origin" "-3392 1792 -256"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "br1"
+"origin" "-3808 288 -416"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack1"
+"origin" "-3008 320 -640"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"targetname" "redpad1"
+"speed" "500"
+"sounds" "2"
+"wait" "3"
+"lip" "-8"
+"dmg" "0"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"target" "redpad1"
+"style" "32"
+"sounds" "4"
+"delay" "2"
+"wait" "3"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"target" "redpad2"
+"style" "32"
+"sounds" "4"
+"delay" "2"
+"wait" "3"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"angle" "272"
+"targetname" "redpad2"
+"speed" "500"
+"sounds" "2"
+"wait" "3"
+"lip" "-8"
+"dmg" "0"
+"model" "*9"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr1"
+"model" "*10"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"origin" "-2560 320 -480"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "introduction\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "rp1"
+"origin" "-2080 352 -640"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 768 -256"
+}
+{
+"classname" "light"
+"light" "700"
+"origin" "-2432 1792 -256"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "rr1"
+"origin" "-2016 288 -416"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "rpack1"
+"origin" "-2816 320 -640"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*11"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "-2912 288 -416"
+}
+{
+"classname" "info_tfdetect"
+"team_broadcast" "1.. Blue racer\n2.. Red racer \n"
+"netname" "tf detector"
+"hook_out" "1"
+"non_team_broadcast" "10 jumps. no secrets, sorry.\nreport bugs to mistfaux@gmail.com\n"
+"origin" "-2912 288 -384"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "precision timing\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "rp2"
+"origin" "-2080 352 1312"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr2"
+"model" "*12"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "rr2"
+"origin" "-2016 288 1536"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "rpack2"
+"origin" "-2816 320 1312"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "rj2"
+"origin" "-2848 288 1536"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " completes the trial of swiftness.\n"
+"wait" "2"
+"count" "1"
+"netname" "red completes jump 1"
+"origin" "-2848 288 1568"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "rj2"
+"model" "*13"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "bj2"
+"model" "*14"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 768 1376"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 1408 1376"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-2432 1792 2272"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "precision timing\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "bp2"
+"origin" "-3744 352 1312"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br2"
+"model" "*15"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "br2"
+"origin" "-3808 288 1536"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack2"
+"origin" "-3008 320 1312"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 768 1376"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 1408 1376"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-3392 1792 2272"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "bj2"
+"origin" "-2976 288 1536"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " completes the trial of swiftness.\n"
+"wait" "2"
+"count" "1"
+"netname" "blue completes jump 1"
+"origin" "-2976 288 1568"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*16"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*17"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "precision\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "bp3"
+"origin" "-3040 768 2528"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "bj3"
+"origin" "-3808 832 3264"
+}
+{
+"classname" "i_t_g"
+"netname_broadcast" " completes the trial of timing.\n"
+"count" "1"
+"g_e" "1"
+"g_a" "1"
+"wait" "2"
+"netname" "blue completes jump 2"
+"origin" "-3808 832 3296"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 544 2912"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack3"
+"origin" "-3712 768 2528"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "precision\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "rp3"
+"origin" "-2784 768 2528"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "rj3"
+"origin" "-2016 832 3264"
+}
+{
+"classname" "i_t_g"
+"netname_broadcast" " completes the trial of timing.\n"
+"count" "1"
+"g_e" "1"
+"g_a" "1"
+"wait" "2"
+"netname" "red completes jump 2"
+"origin" "-2016 832 3296"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 544 2912"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "rpack3"
+"origin" "-2112 768 2528"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*18"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "bj3"
+"model" "*19"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rj3"
+"model" "*20"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack3"
+"origin" "-3808 320 2848"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack3"
+"origin" "-2976 320 2848"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack3"
+"origin" "-2848 320 2848"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack3"
+"origin" "-2016 320 2848"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack3"
+"origin" "-3392 320 3008"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack3"
+"origin" "-2432 320 3008"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br4"
+"model" "*21"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br4"
+"model" "*22"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack4"
+"origin" "-3008 1088 3552"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "introduction\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "bp4"
+"origin" "-3744 1120 3552"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "br4"
+"origin" "-3808 1056 3648"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "bj4"
+"origin" "-2976 1056 3648"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " gels in style!\n"
+"count" "1"
+"wait" "2"
+"netname" "blue completes jump 3"
+"origin" "-2976 1056 3680"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 1792 3264"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 1792 2752"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 2304 3264"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 2304 2752"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 3520 3264"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 3520 2752"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "2"
+"target" "bj4health"
+"style" "32"
+"delay" "0"
+"model" "*23"
+}
+{
+"classname" "i_t_g"
+"targetname" "bj4health"
+"g_e" "1"
+"health" "100"
+"netname" "bj4health"
+"ammo_rockets" "-50"
+"no_grenades_1" "-4"
+"origin" "-3808 2784 3136"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr4"
+"model" "*24"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr4"
+"model" "*25"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "rpack4"
+"origin" "-2816 1088 3552"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "introduction\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "rp4"
+"origin" "-2080 1120 3552"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "rr4"
+"origin" "-2016 1056 3648"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "rj4"
+"origin" "-2848 1056 3648"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " gels in style!\n"
+"count" "1"
+"wait" "2"
+"netname" "red completes jump 3"
+"origin" "-2848 1056 3680"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 1792 3264"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 1792 2752"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 2304 3264"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 2304 2752"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 3520 3264"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 3520 2752"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "2"
+"target" "rj4health"
+"style" "32"
+"delay" "0"
+"model" "*26"
+}
+{
+"classname" "i_t_g"
+"targetname" "rj4health"
+"g_e" "1"
+"health" "100"
+"netname" "rj4health"
+"no_grenades_1" "-4"
+"ammo_rockets" "-50"
+"origin" "-2016 2784 3136"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*27"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*28"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*29"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*30"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*31"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "bj4"
+"model" "*32"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "rj4"
+"model" "*33"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br5"
+"model" "*34"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br5"
+"model" "*35"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 2144 576"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 896 448"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 1408 448"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br5"
+"model" "*36"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "introduction\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "bp5"
+"origin" "-3744 352 352"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "br5"
+"origin" "-3808 288 544"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "bj5"
+"origin" "-2976 288 544"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " takes a blast in the past!\n"
+"count" "1"
+"wait" "2"
+"netname" "blue completes jump 4"
+"origin" "-2976 288 576"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "-50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack5"
+"origin" "-3008 320 352"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr5"
+"model" "*37"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr5"
+"model" "*38"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 2144 576"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 896 448"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 1408 448"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr5"
+"model" "*39"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "introduction\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "rp5"
+"origin" "-2080 352 352"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "rr5"
+"origin" "-2016 288 544"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "rj5"
+"origin" "-2848 288 544"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " takes a blast in the past!\n"
+"count" "1"
+"wait" "2"
+"netname" "red completes jump 4"
+"origin" "-2848 288 576"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "-50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "rpack5"
+"origin" "-2816 320 352"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*40"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*41"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*42"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*43"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*44"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*45"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "bj5"
+"model" "*46"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "rj5"
+"model" "*47"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " shows off his/her perfect air control!\n"
+"count" "1"
+"wait" "2"
+"netname" "blue completes jump 5"
+"origin" "-2976 288 -1632"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "bj6"
+"origin" "-2976 288 -1664"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "br6"
+"origin" "-3808 288 -1664"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "introduction\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "bp6"
+"origin" "-3744 352 -1760"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack6"
+"origin" "-3008 320 -1760"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br6"
+"model" "*48"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br6"
+"model" "*49"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 832 -1760"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 1344 -1760"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3392 1472 -1344"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " shows off his/her perfect air control!\n"
+"count" "1"
+"wait" "2"
+"netname" "red completes jump 5"
+"origin" "-2848 288 -1632"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "rj6"
+"origin" "-2848 288 -1664"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "rr6"
+"origin" "-2016 288 -1664"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "introduction\n\nthe basics. keep light on your feet here.\n"
+"wait" "1"
+"netname" "rp6"
+"origin" "-2080 352 -1760"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "rpack6"
+"origin" "-2816 320 -1760"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr6"
+"model" "*50"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr6"
+"model" "*51"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 832 -1760"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 1344 -1760"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2432 1472 -1344"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*52"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*53"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*54"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*55"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*56"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*57"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "bj6"
+"model" "*58"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "rj6"
+"model" "*59"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br7"
+"model" "*60"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br7"
+"model" "*61"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br7"
+"model" "*62"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br7"
+"model" "*63"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br7"
+"model" "*64"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2176 2048 -2592"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3456 2048 -2592"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3456 1408 -2592"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3456 736 -2592"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2656 736 -2592"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-1696 736 -2592"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "br7"
+"origin" "-2592 1248 -2688"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "bj7"
+"origin" "-1760 1248 -2688"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " keeps his/her head down and flies away!\n"
+"message" "Half-way there...\nNext up - The challenge jumps.\n"
+"wait" "2"
+"frags" "3"
+"count" "3"
+"netname" "blue completes jump 6"
+"origin" "-1760 1248 -2656"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br7"
+"model" "*65"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack7"
+"origin" "-2432 1312 -2912"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr7"
+"model" "*66"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr7"
+"model" "*67"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr7"
+"model" "*68"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr7"
+"model" "*69"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr7"
+"model" "*70"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-1216 2048 -2592"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "64 2048 -2592"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "64 1408 -2592"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "64 736 -2592"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-736 736 -2592"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "rr7"
+"origin" "-800 1248 -2688"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "rj7"
+"origin" "-1632 1248 -2688"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " keeps his/her head down and flies away!\n"
+"message" "Half-way there...\nNext up - The challenge jumps.\n"
+"wait" "2"
+"frags" "3"
+"count" "3"
+"netname" "red completes jump 6"
+"origin" "-1632 1248 -2656"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr7"
+"model" "*71"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "rpack7"
+"origin" "-960 1312 -2912"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*72"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*73"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*74"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*75"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*76"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "rpack7"
+"origin" "-896 1088 -2912"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack7"
+"origin" "-2496 1088 -2912"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "rj7"
+"model" "*77"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "bj7"
+"model" "*78"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack3"
+"origin" "-2976 320 3072"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack3"
+"origin" "-2848 320 3072"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack3"
+"origin" "-2016 320 3072"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack3"
+"origin" "-3808 320 3072"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack8"
+"origin" "-3136 3552 -3040"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "bj8"
+"origin" "-3296 3616 -2816"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " solves my 4th law of impossible possibilities!\n"
+"count" "1"
+"wait" "2"
+"netname" "blue completes jump 7"
+"origin" "-3296 3616 -2784"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3008 3328 -2560"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3008 3328 256"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "rpack8"
+"origin" "-2176 3104 -3040"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "rj8"
+"origin" "-2016 3040 -2816"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " solves my 4th law of impossible possibilities!\n"
+"count" "1"
+"wait" "2"
+"netname" "red completes jump 7"
+"origin" "-2016 3040 -2784"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2304 3328 -2560"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2304 3328 256"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*79"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rj8"
+"model" "*80"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "bj8"
+"model" "*81"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br9"
+"model" "*82"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br9"
+"model" "*83"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br9"
+"model" "*84"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br9"
+"model" "*85"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br9"
+"model" "*86"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*87"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*88"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*89"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*90"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "br9"
+"origin" "-3424 2080 2240"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "bj9"
+"origin" "-2592 2080 2240"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " completes my fifth law of impossible possibilities!\n"
+"count" "1"
+"netname" "blue completes jump 8"
+"wait" "2"
+"origin" "-2592 2080 2272"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack9"
+"origin" "-2624 2144 2080"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3008 2688 1984"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3008 3200 1984"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3008 3200 1536"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3008 2688 1536"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-3488 2304 1536"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr9"
+"model" "*91"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr9"
+"model" "*92"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr9"
+"model" "*93"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr9"
+"model" "*94"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr9"
+"model" "*95"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "rr9"
+"origin" "-1632 2080 2240"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "rj9"
+"origin" "-2464 2080 2240"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " completes my fifth law of impossible possibilities!\n"
+"count" "1"
+"netname" "red completes jump 8"
+"wait" "2"
+"origin" "-2464 2080 2272"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack9"
+"origin" "-2432 2144 2080"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2048 2688 1984"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2048 3200 1984"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2048 3200 1536"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2048 2688 1536"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-1568 2304 1536"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-2528 2240 2240"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br10"
+"model" "*96"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br10"
+"model" "*97"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr10"
+"model" "*98"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "br10"
+"origin" "-1760 288 256"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "bj10"
+"origin" "-928 288 256"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " steps back in time to one of the greatest jumps ever made...\n"
+"wait" "2"
+"count" "1"
+"netname" "blue completes jump 9"
+"origin" "-928 288 288"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack10"
+"origin" "-992 352 96"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack10"
+"origin" "-992 352 480"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr10"
+"model" "*99"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "rr10"
+"model" "*100"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "br10"
+"model" "*101"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "rr10"
+"origin" "32 288 256"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "1"
+"targetname" "rj10"
+"origin" "-800 288 256"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"g_a" "1"
+"netname_broadcast" " steps back in time to one of the greatest jumps ever made...\n"
+"wait" "2"
+"count" "1"
+"netname" "red completes jump 9"
+"origin" "-800 288 288"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack10"
+"origin" "-736 352 96"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"a_r" "50"
+"a_s" "50"
+"a_n" "-500"
+"a_c" "-500"
+"noise" "items/armor1.wav"
+"mdl" "progs/armor.mdl"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"wait" "1"
+"message" "glhf\n"
+"netname" "bpack10"
+"origin" "-736 352 480"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*102"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*103"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*104"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*105"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*106"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-1344 800 288"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-384 800 288"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-1344 768 544"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "-384 768 544"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "2"
+"origin" "-1344 528 1184"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "2"
+"origin" "-384 528 1184"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "rj10"
+"model" "*107"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "bj10"
+"model" "*108"
+}
+{
+"classname" "trigger_teleport"
+"angle" "1"
+"spawnflags" "3"
+"target" "rj9"
+"model" "*109"
+}
+{
+"classname" "trigger_teleport"
+"angle" "182"
+"spawnflags" "3"
+"target" "bj9"
+"model" "*110"
+}

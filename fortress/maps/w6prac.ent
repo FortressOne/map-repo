@@ -1,0 +1,885 @@
+{
+"classname" "worldspawn"
+"wad" "well6.wad"
+}
+{
+"delay" "0"
+"sounds" "3"
+"speed" "20"
+"wait" "3"
+"health" "1"
+"target" "t1"
+"netname" "func_button 5"
+"angle" "90"
+"classname" "func_button"
+"targetname" "but"
+"model" "*1"
+}
+{
+"dmg" "0"
+"lip" "5"
+"sounds" "4"
+"speed" "100"
+"wait" "2"
+"targetname" "t1"
+"netname" "func_door 14"
+"angle" "-1"
+"classname" "func_door"
+"model" "*2"
+}
+{
+"origin" "416 -3576 364"
+"angle" "135"
+"classname" "info_player_start"
+}
+{
+"origin" "0 -3064 344"
+"style" "0"
+"light" "1000"
+"angle" "-2"
+"classname" "light"
+}
+{
+"origin" "-200 -2776 12"
+"style" "0"
+"light" "400"
+"angle" "-2"
+"classname" "light"
+}
+{
+"origin" "200 -3376 12"
+"style" "0"
+"light" "400"
+"angle" "-2"
+"classname" "light"
+}
+{
+"origin" "-200 -3376 12"
+"style" "0"
+"light" "400"
+"angle" "-2"
+"classname" "light"
+}
+{
+"origin" "200 -2776 -11"
+"style" "0"
+"light" "400"
+"angle" "-2"
+"classname" "light"
+}
+{
+"origin" "0 -3718 348"
+"style" "0"
+"light" "200"
+"classname" "light"
+}
+{
+"armorvalue" "200"
+"ammo_shells" "250"
+"ammo_rockets" "50"
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "1"
+"netname" "team1_spawn"
+"origin" "368 -2152 383"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "424 -3576 -145"
+"health" "-25"
+}
+{
+"armorvalue" "200"
+"ammo_shells" "250"
+"ammo_rockets" "50"
+"origin" "-360 -2144 383"
+"netname" "team1_spawn"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "-312 -3104 -209"
+"health" "-25"
+}
+{
+"origin" "-168 -3104 -209"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+"health" "-25"
+}
+{
+"origin" "168 -3104 -209"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+"health" "-25"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "312 -3104 -209"
+"health" "-25"
+}
+{
+"origin" "-32 -3736 367"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "368 -2208 369"
+"mdl" "progs/backpack.mdl"
+"netname" "re-supply_pack"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "300"
+"health" "100"
+"ammo_shells" "500"
+"ammo_nails" "500"
+"ammo_rockets" "100"
+"ammo_cells" "500"
+"ammo_medikit" "50"
+"no_grenades_1" "4"
+"goal_activation" "1"
+"wait" "2"
+"no_grenades_2" "-1"
+"classname" "info_tfgoal"
+}
+{
+"team_no" "1"
+"classname" "info_tfgoal"
+"no_grenades_2" "-1"
+"wait" "2"
+"goal_activation" "1"
+"no_grenades_1" "4"
+"ammo_medikit" "50"
+"ammo_cells" "500"
+"ammo_rockets" "100"
+"ammo_nails" "500"
+"ammo_shells" "500"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"goal_effects" "1"
+"netname" "re-supply_pack"
+"mdl" "progs/backpack.mdl"
+"origin" "-368 -2208 369"
+}
+{
+"movedir" "0.5 1 1"
+"sounds" "3"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+"model" "*3"
+}
+{
+"movedir" "0.25 1 1"
+"sounds" "3"
+"style" "32"
+"speed" "95"
+"classname" "trigger_push"
+"model" "*4"
+}
+{
+"movedir" "-0.08 1 1"
+"sounds" "3"
+"style" "32"
+"speed" "95"
+"classname" "trigger_push"
+"model" "*5"
+}
+{
+"movedir" "0.25 1 1"
+"sounds" "3"
+"style" "32"
+"speed" "95"
+"classname" "trigger_push"
+"model" "*6"
+}
+{
+"movedir" "-0.5 1 1"
+"sounds" "3"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+"model" "*7"
+}
+{
+"classname" "trigger_push"
+"speed" "80"
+"style" "32"
+"sounds" "3"
+"movedir" "-1 1 0.5"
+"model" "*8"
+}
+{
+"movedir" "1 1 0.6"
+"sounds" "3"
+"style" "32"
+"speed" "80"
+"classname" "trigger_push"
+"model" "*9"
+}
+{
+"classname" "trigger_push"
+"speed" "100"
+"style" "32"
+"sounds" "3"
+"movedir" "0 0.6 1"
+"model" "*10"
+}
+{
+"movedir" "-1 0.8 1.6"
+"sounds" "3"
+"style" "32"
+"speed" "80"
+"classname" "trigger_push"
+"model" "*11"
+}
+{
+"movedir" "0 0.6 1"
+"sounds" "3"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+"model" "*12"
+}
+{
+"classname" "trigger_push"
+"speed" "80"
+"style" "32"
+"sounds" "3"
+"movedir" "1 0.8 1.4"
+"model" "*13"
+}
+{
+"classname" "info_tfdetect"
+"hook_out" "1"
+"origin" "0 -2864 144"
+"maxammo_nails" "-1"
+}
+{
+"frags" "1"
+"goal_max" "180 8 32"
+"goal_min" "-180 -8 -24"
+"classname" "info_tfgoal"
+"wait" "1"
+"goal_activation" "1"
+"health" "-100"
+"goal_effects" "1"
+"origin" "376 -2064 369"
+"team_no" "2"
+"deathtype" " made it through\n"
+}
+{
+"frags" "1"
+"team_no" "2"
+"origin" "-376 -2064 369"
+"goal_effects" "1"
+"health" "-100"
+"goal_activation" "1"
+"wait" "1"
+"classname" "info_tfgoal"
+"goal_min" "-180 -8 -24"
+"goal_max" "180 8 32"
+"deathtype" " made it through\n"
+}
+{
+"team_no" "2"
+"origin" "376 -2064 -183"
+"goal_effects" "1"
+"health" "-100"
+"goal_activation" "1"
+"wait" "1"
+"classname" "info_tfgoal"
+"goal_min" "-180 -8 -24"
+"goal_max" "180 8 32"
+"increase_team1" "1"
+"deathtype" " was denied\n"
+}
+{
+"goal_max" "180 8 32"
+"goal_min" "-180 -8 -24"
+"classname" "info_tfgoal"
+"wait" "1"
+"goal_activation" "1"
+"health" "-100"
+"goal_effects" "1"
+"origin" "-376 -2064 -183"
+"team_no" "2"
+"increase_team1" "1"
+"deathtype" " was denied\n"
+}
+{
+"team_no" "2"
+"origin" "0 -3080 -327"
+"goal_effects" "1"
+"health" "-100"
+"goal_activation" "1"
+"wait" "1"
+"classname" "info_tfgoal"
+"goal_min" "-512 -512 -8"
+"goal_max" "512 512 8"
+"increase_team1" "1"
+"deathtype" " was denied\n"
+}
+{
+"goal_max" "512 850 8"
+"goal_min" "-512 -850 -8"
+"classname" "info_tfgoal"
+"wait" "1"
+"goal_activation" "1"
+"health" "-100"
+"goal_effects" "1"
+"origin" "-8 -2840 -207"
+"team_no" "1"
+"deathtype" " has no coordination\n"
+}
+{
+"increase_team1" "1"
+"goal_max" "192 8 8"
+"goal_min" "-198 -8 -8"
+"classname" "info_tfgoal"
+"wait" "1"
+"goal_activation" "1"
+"health" "-100"
+"goal_effects" "1"
+"origin" "0 -2496 -207"
+"team_no" "2"
+"deathtype" " was denied\n"
+}
+{
+"team_no" "2"
+"origin" "0 -3576 -183"
+"goal_effects" "1"
+"goal_activation" "1"
+"wait" "1"
+"classname" "info_tfgoal"
+"goal_min" "-512 -8 -8"
+"goal_max" "512 8 8"
+"armorvalue" "-25"
+}
+{
+"armorvalue" "-25"
+"goal_max" "512 8 8"
+"goal_min" "-512 -8 -8"
+"classname" "info_tfgoal"
+"wait" "1"
+"goal_activation" "1"
+"goal_effects" "1"
+"origin" "0 -3104 -255"
+"team_no" "2"
+}
+{
+"team_no" "2"
+"origin" "0 -2496 369"
+"goal_effects" "1"
+"goal_activation" "1"
+"wait" "1"
+"classname" "info_tfgoal"
+"goal_min" "-45 -8 -24"
+"goal_max" "45 8 32"
+"target" "but"
+}
+{
+"deathtype" " made it through\n"
+"team_no" "2"
+"origin" "0 -2384 369"
+"goal_effects" "1"
+"health" "-100"
+"goal_activation" "1"
+"wait" "1"
+"classname" "info_tfgoal"
+"goal_min" "-56 -8 -24"
+"goal_max" "56 8 32"
+"frags" "2"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "370"
+"style" "0"
+"origin" "0 -2212 392"
+}
+{
+"health" "-25"
+"origin" "-280 -2760 -209"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"movedir" "-0.1 0 1.1"
+"sounds" "3"
+"style" "32"
+"speed" "95"
+"classname" "trigger_push"
+"model" "*14"
+}
+{
+"classname" "trigger_push"
+"speed" "95"
+"style" "32"
+"sounds" "3"
+"movedir" "0 0.4 1.1"
+"model" "*15"
+}
+{
+"classname" "trigger_push"
+"speed" "100"
+"style" "32"
+"sounds" "3"
+"movedir" "-0.5 1 1"
+"model" "*16"
+}
+{
+"movedir" "-0.5 1 1"
+"sounds" "3"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+"model" "*17"
+}
+{
+"classname" "trigger_push"
+"speed" "95"
+"style" "32"
+"sounds" "3"
+"movedir" "0.25 1 1"
+"model" "*18"
+}
+{
+"movedir" "0.25 1 1"
+"sounds" "3"
+"style" "32"
+"speed" "95"
+"classname" "trigger_push"
+"model" "*19"
+}
+{
+"classname" "trigger_push"
+"speed" "95"
+"style" "32"
+"sounds" "3"
+"movedir" "0.08 1 1"
+"model" "*20"
+}
+{
+"movedir" "0 1 1"
+"sounds" "3"
+"style" "32"
+"speed" "95"
+"classname" "trigger_push"
+"model" "*21"
+}
+{
+"classname" "trigger_push"
+"speed" "95"
+"style" "32"
+"sounds" "3"
+"movedir" "0.25 1 1"
+"model" "*22"
+}
+{
+"movedir" "0.25 1 1"
+"sounds" "3"
+"style" "32"
+"speed" "95"
+"classname" "trigger_push"
+"model" "*23"
+}
+{
+"classname" "trigger_push"
+"speed" "100"
+"style" "32"
+"sounds" "3"
+"movedir" "0.5 1 1"
+"model" "*24"
+}
+{
+"movedir" "0.5 1 1"
+"sounds" "3"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+"model" "*25"
+}
+{
+"classname" "trigger_push"
+"speed" "100"
+"style" "32"
+"sounds" "3"
+"movedir" "-0.5 1 1"
+"model" "*26"
+}
+{
+"classname" "trigger_push"
+"speed" "100"
+"style" "32"
+"sounds" "3"
+"movedir" "0.5 1 1"
+"model" "*27"
+}
+{
+"movedir" "0 0.6 1"
+"sounds" "3"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+"model" "*28"
+}
+{
+"classname" "trigger_push"
+"speed" "100"
+"style" "32"
+"sounds" "3"
+"movedir" "0 0.6 1"
+"model" "*29"
+}
+{
+"classname" "trigger_push"
+"speed" "80"
+"style" "32"
+"sounds" "3"
+"movedir" "-1 0.8 1.6"
+"model" "*30"
+}
+{
+"movedir" "1 0.8 1.4"
+"sounds" "3"
+"style" "32"
+"speed" "80"
+"classname" "trigger_push"
+"model" "*31"
+}
+{
+"classname" "trigger_push"
+"speed" "100"
+"style" "32"
+"sounds" "3"
+"movedir" "0 0.6 1"
+"model" "*32"
+}
+{
+"movedir" "0 0.6 1"
+"sounds" "3"
+"style" "32"
+"speed" "100"
+"classname" "trigger_push"
+"model" "*33"
+}
+{
+"classname" "trigger_push"
+"speed" "95"
+"style" "32"
+"sounds" "3"
+"movedir" "0.1 0 1.1"
+"model" "*34"
+}
+{
+"movedir" "0 0.4 1.1"
+"sounds" "3"
+"style" "32"
+"speed" "95"
+"classname" "trigger_push"
+"model" "*35"
+}
+{
+"health" "-25"
+"origin" "376 -3576 -137"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "328 -3576 -129"
+"health" "-25"
+}
+{
+"health" "-25"
+"origin" "280 -3576 -121"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "232 -3576 -113"
+"health" "-25"
+}
+{
+"health" "-25"
+"origin" "184 -3576 -105"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "136 -3576 -97"
+"health" "-25"
+}
+{
+"health" "-25"
+"origin" "88 -3576 -89"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "44 -3576 -81"
+"health" "-25"
+}
+{
+"classname" "trigger_push"
+"speed" "95"
+"style" "32"
+"sounds" "3"
+"movedir" "0.3 1 1"
+"model" "*36"
+}
+{
+"movedir" "-0.3 1 1"
+"sounds" "3"
+"style" "32"
+"speed" "95"
+"classname" "trigger_push"
+"model" "*37"
+}
+{
+"health" "-25"
+"origin" "0 -3576 -73"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"health" "-25"
+"origin" "-424 -3576 -145"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "-376 -3576 -137"
+"health" "-25"
+}
+{
+"health" "-25"
+"origin" "-328 -3576 -129"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "-280 -3576 -121"
+"health" "-25"
+}
+{
+"health" "-25"
+"origin" "-232 -3576 -113"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "-184 -3576 -105"
+"health" "-25"
+}
+{
+"health" "-25"
+"origin" "-136 -3576 -97"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "-88 -3576 -89"
+"health" "-25"
+}
+{
+"health" "-25"
+"origin" "-44 -3576 -81"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "-232 -2760 -209"
+"health" "-25"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "232 -2776 -209"
+"health" "-25"
+}
+{
+"health" "-25"
+"origin" "280 -2776 -209"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"health" "-25"
+"origin" "360 -3104 -209"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"health" "-25"
+"origin" "264 -3104 -209"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"health" "-25"
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "216 -3104 -209"
+}
+{
+"health" "-25"
+"origin" "-360 -3104 -209"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"health" "-25"
+"origin" "-216 -3104 -209"
+"netname" "team2_spawn"
+"team_no" "2"
+"goal_effects" "0"
+"angle" "271"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "-264 -3104 -209"
+"health" "-25"
+}
+{
+"movedir" "0 0 1"
+"sounds" "3"
+"style" "32"
+"speed" "95"
+"classname" "trigger_push"
+"model" "*38"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"goal_effects" "0"
+"team_no" "2"
+"netname" "team2_spawn"
+"origin" "32 -3736 367"
+}

@@ -1,0 +1,933 @@
+{
+"classname" "worldspawn"
+"message" "Doom Castle"
+"worldtype" "0"
+"sounds" "1"
+"light" "200"
+}
+{
+"classname" "info_player_start"
+"origin" "-720 32 -24"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "-552 0 224"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "door1"
+"speed" "200"
+"sounds" "1"
+"wait" "4"
+"lip" "-500"
+"dmg" "0"
+"health" "0"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "-636 -244 224"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "-668 336 220"
+}
+{
+"classname" "light_torch_small_walltorch"
+"spawnflags" "1"
+"light" "500"
+"style" "0"
+"targetname" "light1"
+"origin" "-266 -346 152"
+}
+{
+"classname" "light_torch_small_walltorch"
+"spawnflags" "1"
+"light" "500"
+"style" "0"
+"targetname" "light1"
+"origin" "-264 408 148"
+}
+{
+"classname" "trigger_once"
+"speed" "100"
+"sounds" "4"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "light1"
+"style" "32"
+"delay" "1"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "5"
+"dmg" "0"
+"message" "The Throne Room"
+"health" "0"
+"model" "*2"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "5"
+"dmg" "0"
+"health" "0"
+"model" "*3"
+}
+{
+"classname" "light_torch_small_walltorch"
+"spawnflags" "1"
+"light" "500"
+"style" "0"
+"targetname" "light1"
+"origin" "-3 380 152"
+}
+{
+"classname" "light_torch_small_walltorch"
+"spawnflags" "1"
+"light" "500"
+"style" "0"
+"targetname" "light1"
+"origin" "1 -313 152"
+}
+{
+"classname" "light_torch_small_walltorch"
+"spawnflags" "1"
+"light" "500"
+"style" "0"
+"targetname" "light1"
+"origin" "175 -312 152"
+}
+{
+"classname" "light_torch_small_walltorch"
+"spawnflags" "1"
+"light" "500"
+"style" "0"
+"targetname" "light1"
+"origin" "176 377 152"
+}
+{
+"classname" "light_globe"
+"angle" "-2"
+"light" "300"
+"style" "0"
+"origin" "184 26 296"
+}
+{
+"classname" "light_torch_small_walltorch"
+"spawnflags" "1"
+"light" "500"
+"style" "0"
+"targetname" "light1"
+"origin" "352 -313 148"
+}
+{
+"classname" "light_torch_small_walltorch"
+"spawnflags" "1"
+"light" "500"
+"style" "0"
+"targetname" "light1"
+"origin" "356 379 144"
+}
+{
+"classname" "func_door_secret"
+"speed" "500"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "5"
+"targetname" "trap_door"
+"model" "*4"
+}
+{
+"classname" "trigger_once"
+"speed" "100"
+"sounds" "4"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "multiple"
+"style" "32"
+"delay" "0"
+"message" "Down into the Aquaduct"
+"model" "*5"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "268 70 -332"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "544 -22 -332"
+}
+{
+"classname" "func_door"
+"angle" "272"
+"targetname" "trap_door1"
+"speed" "100"
+"sounds" "1"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"model" "*6"
+}
+{
+"classname" "trigger_once"
+"speed" "100"
+"sounds" "4"
+"wait" "0"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"style" "32"
+"delay" "0"
+"targetname" "multiple"
+"killtarget" "trap_door"
+"model" "*7"
+}
+{
+"classname" "trigger_once"
+"speed" "100"
+"sounds" "4"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"style" "32"
+"delay" "4"
+"targetname" "multiple"
+"target" "trap_door1"
+"model" "*8"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "586 266 -332"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "506 522 -332"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "200"
+"style" "6"
+"origin" "378 -132 78"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "200"
+"style" "1"
+"origin" "378 198 78"
+}
+{
+"classname" "trigger_multiple"
+"speed" "100"
+"sounds" "4"
+"wait" ".1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "trap_shooter1"
+"style" "32"
+"delay" "0"
+"model" "*9"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "270"
+"targetname" "trap_shooter1"
+"origin" "872 728 -300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "266 730 -284"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "674 786 -252"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "798 678 -296"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "1018 730 -296"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "420 792 -260"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "38 842 -264"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "38 566 -252"
+}
+{
+"classname" "item_armor2"
+"origin" "-24 704 -348"
+}
+{
+"classname" "item_key1"
+"origin" "-56 824 -348"
+}
+{
+"classname" "info_intermission"
+"mangle" "0,15,0"
+"origin" "-728 28 328"
+}
+{
+"classname" "item_health"
+"origin" "-28 616 -344"
+}
+{
+"classname" "item_health"
+"origin" "100 808 -344"
+}
+{
+"classname" "weapon_supernailgun"
+"origin" "104 608 -352"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "270"
+"targetname" "trap_shooter1"
+"origin" "904 728 -300"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "270"
+"targetname" "trap_shooter1"
+"origin" "936 728 -300"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "2064"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"message" "Out of the Aquaduct"
+"health" "0"
+"model" "*10"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "1608 504 -24"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "1816 504 -24"
+}
+{
+"classname" "light_flame_small_yellow"
+"light" "200"
+"style" "1"
+"origin" "1590 602 -134"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1708 548 -52"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "1930 586 -28"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "1702 874 -20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "1478 698 -4"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "6"
+"origin" "1370 678 -180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "1"
+"origin" "1242 730 -252"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "-74 698 -268"
+}
+{
+"classname" "item_health"
+"spawnflags" "2"
+"origin" "1704 488 -136"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "1930 842 -28"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "teleport1"
+"origin" "1192 -140 -872"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "20"
+"sounds" "4"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"message" "Up the ladder..."
+"health" "0"
+"style" "32"
+"delay" "1"
+"model" "*11"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "35"
+"sounds" "4"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"message" "Up the ladder..."
+"health" "0"
+"style" "32"
+"delay" "0"
+"model" "*12"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "20"
+"sounds" "4"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"message" "Up the ladder..."
+"health" "0"
+"style" "32"
+"delay" "0"
+"model" "*13"
+}
+{
+"classname" "trigger_push"
+"angle" "90"
+"speed" "50"
+"sounds" "4"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"message" "Up the ladder..."
+"health" "0"
+"style" "32"
+"delay" "0"
+"model" "*14"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "dungeon1"
+"speed" "100"
+"sounds" "1"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"message" "Escape while you can!"
+"health" "0"
+"model" "*15"
+}
+{
+"classname" "func_button"
+"speed" "100"
+"sounds" "2"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "dungeon1"
+"delay" "0"
+"model" "*16"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "teleport1"
+"model" "*17"
+}
+{
+"classname" "info_intermission"
+"angle" "316"
+"mangle" "20,316,5"
+"origin" "952 40 -520"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"style" "0"
+"origin" "902 -182 -532"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"style" "0"
+"origin" "886 186 -532"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"style" "0"
+"origin" "1222 182 -540"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"style" "0"
+"origin" "634 186 -540"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"style" "0"
+"origin" "634 -182 -540"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "1194 -182 -812"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "846 -58 -820"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "1066 56 -812"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "100"
+"style" "0"
+"origin" "842 56 -828"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "614 60 -812"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "646 -102 -812"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "550 -182 -812"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "554 186 -812"
+}
+{
+"classname" "item_spikes"
+"origin" "560 144 -864"
+}
+{
+"classname" "item_spikes"
+"origin" "560 -144 -864"
+}
+{
+"classname" "item_health"
+"origin" "560 -96 -864"
+}
+{
+"classname" "item_health"
+"origin" "560 96 -864"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"target" "spot1"
+"origin" "1304 120 -700"
+}
+{
+"classname" "path_corner"
+"targetname" "spot1"
+"origin" "1160 132 -840"
+}
+{
+"style" "32"
+"classname" "monster_hell_knight"
+"angle" "168"
+"target" "multiple1"
+"origin" "904 -8 -612"
+}
+{
+"classname" "item_armorInv"
+"origin" "928 -136 -856"
+}
+{
+"classname" "trigger_changelevel"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"map" "start"
+"model" "*18"
+}
+{
+"classname" "func_rain"
+"angle" "-2"
+"origin" "1424 96 -488"
+}
+{
+"classname" "func_rain"
+"angle" "-2"
+"origin" "1418 -134 -488"
+}
+{
+"classname" "func_rain"
+"angle" "-2"
+"origin" "1418 -26 -488"
+}
+{
+"classname" "func_rain"
+"angle" "-2"
+"origin" "1558 -118 -488"
+}
+{
+"classname" "func_rain"
+"angle" "-2"
+"origin" "1558 -22 -488"
+}
+{
+"classname" "func_rain"
+"angle" "-2"
+"origin" "1530 106 -488"
+}
+{
+"classname" "func_rain"
+"angle" "-2"
+"origin" "1686 -118 -488"
+}
+{
+"classname" "func_rain"
+"angle" "-2"
+"origin" "1674 -22 -488"
+}
+{
+"classname" "func_rain"
+"angle" "-2"
+"origin" "1670 122 -488"
+}
+{
+"classname" "ambient_thunder"
+"origin" "1480 72 -488"
+}
+{
+"classname" "ambient_thunder"
+"origin" "1692 -68 -488"
+}
+{
+"classname" "ambient_thunder"
+"origin" "1596 0 -588"
+}
+{
+"classname" "ambient_rain"
+"origin" "1672 4 -536"
+}
+{
+"classname" "ambient_rain"
+"origin" "1464 -8 -532"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"targetname" "door2"
+"speed" "100"
+"sounds" "1"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"model" "*19"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "1492 -64 -568"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "1688 56 -560"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "1078 -58 -812"
+}
+{
+"classname" "monster_knight"
+"angle" "180"
+"origin" "956 132 -604"
+}
+{
+"classname" "monster_knight"
+"angle" "180"
+"origin" "780 -136 -620"
+}
+{
+"classname" "monster_knight"
+"angle" "188"
+"origin" "1208 116 -624"
+}
+{
+"classname" "monster_knight"
+"angle" "183"
+"target" "path2"
+"origin" "720 0 -856"
+}
+{
+"classname" "monster_shambler"
+"angle" "182"
+"origin" "1760 44 -624"
+}
+{
+"classname" "monster_knight"
+"angle" "212"
+"origin" "260 220 28"
+}
+{
+"classname" "monster_knight"
+"angle" "148"
+"origin" "264 -212 40"
+}
+{
+"classname" "monster_hell_knight"
+"angle" "177"
+"origin" "288 24 88"
+}
+{
+"classname" "monster_fish"
+"origin" "544 448 -356"
+}
+{
+"classname" "monster_fish"
+"origin" "540 272 -360"
+}
+{
+"classname" "monster_zombie"
+"angle" "270"
+"spawnflags" "1"
+"origin" "1184 184 -856"
+}
+{
+"classname" "monster_zombie"
+"origin" "1016 128 -868"
+}
+{
+"classname" "monster_wizard"
+"angle" "270"
+"origin" "532 792 -212"
+}
+{
+"classname" "monster_dog"
+"angle" "180"
+"origin" "1888 488 -132"
+}
+{
+"classname" "monster_knight"
+"angle" "278"
+"origin" "1696 832 -120"
+}
+{
+"classname" "monster_knight"
+"angle" "147"
+"origin" "1856 660 -128"
+}
+{
+"classname" "monster_knight"
+"angle" "79"
+"origin" "1728 688 -124"
+}
+{
+"classname" "trigger_hurt"
+"speed" "100"
+"sounds" "4"
+"wait" "4"
+"lip" "0"
+"dmg" "20"
+"health" "0"
+"style" "32"
+"delay" "0"
+"message" "You have been captured!"
+"model" "*20"
+}
+{
+"classname" "trigger_once"
+"speed" "100"
+"sounds" "4"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"message" "Freedom!!!"
+"health" "0"
+"target" "door2"
+"style" "32"
+"delay" "2"
+"targetname" "multiple1"
+"model" "*21"
+}
+{
+"classname" "weapon_supershotgun"
+"origin" "-584 28 0"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "1984 656 -128"
+}
+{
+"classname" "item_artifact_super_damage"
+"origin" "164 24 -448"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "1274 -6 -820"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"style" "0"
+"origin" "966 -182 -816"
+}
+{
+"classname" "item_rockets"
+"spawnflags" "1"
+"origin" "708 -128 -864"
+}
+{
+"classname" "path_corner"
+"targetname" "path2"
+"target" "path3"
+"origin" "688 -20 -856"
+}
+{
+"classname" "path_corner"
+"targetname" "path3"
+"target" "path2"
+"origin" "860 -16 -860"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "48 620 -348"
+}
+{
+"classname" "trigger_once"
+"speed" "100"
+"sounds" "4"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"message" "You have been found!"
+"health" "0"
+"style" "32"
+"delay" "0"
+"model" "*22"
+}
+{
+"classname" "info_intermission"
+"mangle" "0,30,0"
+"origin" "-56 24 256"
+}
+{
+"classname" "item_rockets"
+"origin" "768 -108 -856"
+}

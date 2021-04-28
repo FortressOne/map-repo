@@ -1,0 +1,175 @@
+{
+"wad" "stag.wad;toowong.wad;cyber2.wad"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"classname" "func_door"
+"health" "1"
+"angle" "-1"
+"lip" "4"
+}
+{
+"model" "*2"
+"classname" "func_button"
+"style" "32"
+"health" "100"
+"target" "bscore"
+"speed" "512"
+"lip" "64"
+}
+{
+"model" "*3"
+"dmg" "1000"
+"lip" "144"
+"angle" "-1"
+"targetname" "door1"
+"wait" "10"
+"classname" "func_door"
+"goal_no" "1"
+}
+{
+"goal_effects" "3"
+"classname" "info_tfgoal"
+"targetname" "bscore"
+"increase_team2" "10"
+"broadcast" "message\n"
+"origin" "212 3876 612"
+"target" "bexpl"
+"maxammo_shells" "2"
+"frags" "10"
+}
+{
+"model" "*4"
+"wait" "3"
+"classname" "func_button"
+"angle" "90"
+"team_no" "2"
+"target" "door1"
+}
+{
+"model" "*5"
+"classname" "func_door"
+"angle" "0"
+"targetname" "bcrush"
+"speed" "1000"
+"lip" "16"
+"dmg" "1000"
+}
+{
+"model" "*6"
+"classname" "trigger_push"
+"speed" "80"
+"angle" "90"
+}
+{
+"model" "*7"
+"classname" "trigger_push"
+"angle" "180"
+"speed" "80"
+}
+{
+"model" "*8"
+"classname" "trigger_push"
+"speed" "80"
+"angle" "1"
+}
+{
+"model" "*9"
+"classname" "trigger_multiple"
+"health" "100"
+}
+{
+"model" "*10"
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "75"
+}
+{
+"model" "*11"
+"classname" "func_wall"
+}
+{
+"origin" "560 1536 200"
+"classname" "info_player_start"
+}
+{
+"model" "*12"
+"angle" "-1"
+"classname" "trigger_push"
+"speed" "75"
+}
+{
+"model" "*13"
+"speed" "80"
+"classname" "trigger_push"
+"angle" "1"
+}
+{
+"model" "*14"
+"speed" "80"
+"angle" "180"
+"classname" "trigger_push"
+}
+{
+"model" "*15"
+"speed" "200"
+"angle" "90"
+"classname" "trigger_push"
+}
+{
+"model" "*16"
+"dmg" "1000"
+"lip" "16"
+"speed" "1000"
+"targetname" "bcrush"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*17"
+"dmg" "1000"
+"lip" "16"
+"speed" "1000"
+"targetname" "bcrush"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"classname" "func_door"
+"angle" "90"
+"targetname" "bcrush"
+"speed" "1000"
+"lip" "16"
+"dmg" "1000"
+}
+{
+"hook_out" "1"
+"origin" "336 464 448"
+"b_n" "open the enemy's shield and destroy their box. \n"
+"classname" "info_tfdetect"
+}
+{
+"if_goal_is_active" "1"
+"origin" "544 3616 544"
+"classname" "info_tfgoal"
+"goal_effects" "9"
+"t_length" "200"
+"health" "-100"
+"targetname" "bexpl2"
+}
+{
+"wait" "13"
+"goal_no" "1"
+"targetname" "door1"
+"classname" "info_tfgoal"
+"origin" "584 3696 544"
+}
+{
+"model" "*19"
+"lip" "4"
+"angle" "-1"
+"health" "1"
+"classname" "func_door"
+}

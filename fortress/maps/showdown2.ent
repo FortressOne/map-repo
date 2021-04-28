@@ -1,0 +1,371 @@
+{
+"classname" "worldspawn"
+"message" "úâ”»œ◊downâú v 2.0\nA ú‘ŒúX˘R·EÏﬁ design\nConstructed by ú‘ŒúÃaÓcÂr\n07.15.99"
+"worldtype" "0"
+"wad" "TEXTURES.wad;c:\program files\worldcraft\textures1.wad;c:\program files\worldcraft\textur"
+}
+{
+"classname" "light"
+"light" "950"
+"origin" "192 -64 128"
+}
+{
+"classname" "info_player_start"
+"origin" "192 -57 -592"
+}
+{
+"classname" "light"
+"origin" "192 469 256"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "68"
+"hook_out" "1"
+"team_broadcast" "ÄÅ”»œ˜DOWNÅÇ\nÄÅìåâBLUEâÅÇ\nÄÅîåá“≈ƒáÅÇ\nÄÅóåà¡U‘OàÅÇ\n"
+"origin" "185 -57 384"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "176 1120 -128"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"sounds" "1"
+"height" "425"
+"playerclass" "0"
+"team_no" "0"
+"model" "*1"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "176 1056 -512"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "2"
+"wait" "2"
+"dmg" "2"
+"lip" "4"
+"health" "10000000000000000000000000000000000000000000000000000000000000000000000000"
+"team_no" "1"
+"targetname" "bludoor1"
+"model" "*2"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "192 843 288"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "192 763 -192"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "192 629 -576"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-448 -64 -608"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "192 -704 -576"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "739 -64 -608"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "2"
+"wait" "2"
+"dmg" "2"
+"lip" "4"
+"health" "10000000000000000000000000000000000000000000000000000000000000000000000000"
+"team_no" "2"
+"targetname" "reddoor1"
+"model" "*3"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "208 -1248 -128"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"sounds" "1"
+"height" "425"
+"playerclass" "0"
+"team_no" "0"
+"model" "*4"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "208 -1184 -512"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "192 -891 -184"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "192 -971 288"
+}
+{
+"classname" "light"
+"light" "900"
+"origin" "-501 -64 128"
+}
+{
+"classname" "light"
+"light" "900"
+"origin" "885 -64 160"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "2"
+"wait" "2"
+"dmg" "2"
+"lip" "4"
+"health" "10000000000000000000000000000000000000000000000000000000000000000000000000"
+"team_no" "2"
+"targetname" "reddoor2"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "2"
+"wait" "2"
+"dmg" "2"
+"lip" "4"
+"health" "10000000000000000000000000000000000000000000000000000000000000000000000000"
+"team_no" "1"
+"targetname" "bludoor2"
+"model" "*6"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "140"
+"netname" "Red Upper Respawn"
+"playerclass" "0"
+"team_no" "2"
+"origin" "384 -1280 -256"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "140"
+"netname" "Red Lower Respawn"
+"team_no" "2"
+"origin" "384 -1280 -576"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "315"
+"netname" "Blue Upper Respawn"
+"team_no" "1"
+"origin" "0 1152 -256"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "315"
+"netname" "Blue Lower Respawn"
+"team_no" "1"
+"origin" "0 1152 -576"
+}
+{
+"classname" "trigger_multiple"
+"target" "bludoor1"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"team_no" "1"
+"model" "*7"
+}
+{
+"classname" "func_button"
+"angle" "90"
+"speed" "100"
+"target" "bludoor1"
+"sounds" "1"
+"wait" "0"
+"delay" "0"
+"team_no" "1"
+"health" "1"
+"model" "*8"
+}
+{
+"classname" "func_button"
+"angle" "90"
+"speed" "100"
+"target" "bludoor2"
+"sounds" "1"
+"wait" "0"
+"delay" "0"
+"team_no" "1"
+"health" "1"
+"model" "*9"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"speed" "100"
+"target" "reddoor2"
+"sounds" "1"
+"wait" "0"
+"delay" "0"
+"team_no" "2"
+"health" "1"
+"model" "*10"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"speed" "100"
+"target" "reddoor1"
+"sounds" "1"
+"wait" "0"
+"delay" "0"
+"team_no" "2"
+"health" "1"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"target" "reddoor1"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"team_no" "2"
+"model" "*12"
+}
+{
+"classname" "trigger_multiple"
+"target" "bludoor2"
+"sounds" "3"
+"wait" "0"
+"playerclass" "0"
+"style" "32"
+"delay" "0"
+"team_no" "1"
+"model" "*13"
+}
+{
+"classname" "trigger_multiple"
+"target" "reddoor2"
+"sounds" "3"
+"wait" "0"
+"playerclass" "0"
+"style" "32"
+"delay" "0"
+"team_no" "2"
+"model" "*14"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "1"
+"ammo_shells" "100"
+"netname" "blue upper pack"
+"message" "Loading Up\n"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "1"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "100"
+"armorvalue" "200"
+"team_no" "1"
+"health" "100"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"origin" "368 1104 -272"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "100"
+"owned_by" "1"
+"message" "Loading Up\n"
+"netname" "blue lower pack"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"goal_effects" "1"
+"ammo_medikit" "100"
+"ammo_nails" "200"
+"armorvalue" "200"
+"health" "100"
+"team_no" "1"
+"skin" "0"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+"origin" "368 1088 -704"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "100"
+"owned_by" "2"
+"message" "Loading Up\n"
+"netname" "red upper pack"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"goal_effects" "1"
+"ammo_medikit" "100"
+"ammo_nails" "200"
+"armorvalue" "200"
+"health" "100"
+"team_no" "2"
+"skin" "0"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+"origin" "32 -1216 -272"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "100"
+"owned_by" "2"
+"message" "Loading Up\n"
+"netname" "red lower pack"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"goal_effects" "1"
+"ammo_medikit" "100"
+"ammo_nails" "200"
+"armorvalue" "200"
+"health" "100"
+"team_no" "2"
+"skin" "0"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+"origin" "32 -1216 -704"
+}

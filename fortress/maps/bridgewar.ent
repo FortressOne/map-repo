@@ -1,0 +1,365 @@
+{
+"classname" "worldspawn"
+"message" "\n\nBridge War by xDF‘ÁcÉd…ÄaeÍoÎËÁ\n\n"
+"worldtype" "0"
+"wad" "gfx/QuArK.wad"
+}
+{
+"classname" "info_player_start"
+"origin" "222 0 -1167"
+"angle" "360"
+}
+{
+"classname" "light"
+"origin" "510 39 -777"
+"light" "2000"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "564 840 -1272"
+"light" "500"
+"style" "0"
+}
+{
+"maxammo_shells" "544"
+"maxammo_nails" "544"
+"team_broadcast" "Bridge War\n==Choose team==\n\n1 Blue\n2 Red\n"
+"non_team_broadcast" "Blue vs. Red"
+"impulse" "0"
+"hook_out" "1"
+"origin" "421 8 -1035"
+"classname" "info_tfdetect"
+"message" "localinfo cr_sn 1\nlocalinfo cr_sp 2\n"
+"noise1" "> Welcome to Bridge War <\n\n 1‘ Scout  \n 2‘ Sniper  \n 3‘ Soldier\n 4‘ Demoman\n 5‘ Medic  \n 7‘ Pyro   \n 8‘ Spy    "
+"noise2" "> Welcome to Bridge War <\n\n 1‘ Scout  \n 2‘ Sniper  \n 3‘ Soldier\n 4‘ Demoman\n 5‘ Medic  \n 7‘ Pyro   \n 8‘ Spy    "
+}
+{
+"classname" "light"
+"origin" "633 -657 -1107"
+"light" "500"
+"style" "0"
+}
+{
+"origin" "523 48 -1237"
+"goal_activation" "1"
+"team_no" "1"
+"goal_effects" "3"
+"goal_result" "2"
+"count" "5"
+"message" "You have the bridge!\n"
+"netname" "Team 1 bridge"
+"classname" "info_tfgoal"
+"wait" "15"
+"broadcast" "Blue has taken the bridge.\n"
+"ammo_shells" "50"
+"ammo_nails" "50"
+"ammo_rockets" "50"
+"ammo_cells" "50"
+"ammo_medikit" "50"
+"ammo_detpack" "1"
+"no_grenades_1" "2"
+}
+{
+"origin" "523 48 -1237"
+"goal_activation" "1"
+"team_no" "2"
+"goal_effects" "3"
+"goal_result" "2"
+"count" "5"
+"message" "You have the bridge!\n"
+"netname" "Team 2 bridge"
+"classname" "info_tfgoal"
+"wait" "15"
+"broadcast" "Red has taken the bridge.\n"
+"ammo_shells" "50"
+"ammo_nails" "50"
+"ammo_rockets" "50"
+"ammo_cells" "50"
+"ammo_medikit" "50"
+"ammo_detpack" "1"
+"no_grenades_1" "2"
+}
+{
+"origin" "-440 39 -1238"
+"goal_effects" "1"
+"goal_result" "1"
+"goal_activation" "2"
+"target" "bluebridge"
+"message" "You destroyed part of the bridge!"
+"broadcast" "Part of the bridgeis blown"
+"netname" "blue_det"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1570 39 -1239"
+"goal_effects" "1"
+"goal_result" "1"
+"goal_activation" "2"
+"target" "redbridge"
+"message" "You destroyed part of the bridge!"
+"broadcast" "Part of the bridgeis blown"
+"netname" "blue_det"
+"classname" "info_tfgoal"
+}
+{
+"classname" "func_door"
+"angle" "360"
+"speed" "1000"
+"sounds" "1"
+"wait" "-1"
+"targetname" "bluebridge"
+"lip" "-100"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "1000"
+"sounds" "1"
+"wait" "-1"
+"targetname" "redbridge"
+"lip" "-100"
+"model" "*2"
+}
+{
+"origin" "184 -576 -1249"
+"goal_activation" "2049"
+"goal_effects" "1"
+"goal_result" "2"
+"message" "You've found the protection armor!\n"
+"netname" "armor"
+"classname" "info_tfgoal"
+"wait" "300"
+"netname_broadcast" " has the protection armor!\n"
+"mdl" "progs/protarm.mdl"
+"armortype" "0.8"
+"armorvalue" "300"
+"armorclass" "31"
+"invincible_finished" "30"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele2"
+"model" "*3"
+}
+{
+"origin" "-2049.8 119.8 -1216.8"
+"message" "Take the Bridge!"
+"wait" "1"
+"team_no" "2"
+"angle" "91"
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+}
+{
+"origin" "-1987.4 -465.5 -1218.1"
+"message" "Take the Bridge!"
+"wait" "1"
+"team_no" "2"
+"angle" "92"
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+}
+{
+"origin" "-1997 -116.4 -1228"
+"message" "Take the Bridge!"
+"wait" "1"
+"team_no" "2"
+"angle" "92"
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+}
+{
+"classname" "light"
+"origin" "174 -594 -1230"
+"light" "200"
+"style" "0"
+}
+{
+"classname" "info_intermission"
+"origin" "-450.6 553.0 -962.6"
+"mangle" "23 -38 0"
+}
+{
+"classname" "func_illusionary"
+"model" "*4"
+}
+{
+"classname" "item_artifact_super_damage"
+"origin" "40.9 61.5 -1792.0"
+}
+{
+"classname" "item_armorInv"
+"origin" "911.3 61.5 -1792.0"
+}
+{
+"classname" "item_health"
+"origin" "593.9 184.4 -1792"
+"spawnflags" "2"
+}
+{
+"classname" "item_artifact_invisibility"
+"origin" "532.5 -143.3 -1792"
+}
+{
+"classname" "light"
+"origin" "194.5 10.2 -1628.2"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "931.8 10.2 -1628.2"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "532.4 51.2 -1638.4"
+"light" "700"
+"style" "0"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele1"
+"model" "*5"
+}
+{
+"origin" "3009.0 92.9 -1033.3"
+"message" "Take the Bridge!"
+"wait" "1"
+"team_no" "1"
+"angle" "91"
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+}
+{
+"origin" "3071.4 -492.4 -1034.6"
+"message" "Take the Bridge!"
+"wait" "1"
+"team_no" "1"
+"angle" "92"
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+}
+{
+"origin" "3061.8 -143.3 -1044.5"
+"message" "Take the Bridge!"
+"wait" "1"
+"team_no" "1"
+"angle" "92"
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-788.5 61.5 -1187.9"
+"angle" "2"
+"targetname" "tele1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1873.9 30.7 -1228.8"
+"angle" "178"
+"targetname" "tele2"
+}
+{
+"classname" "light"
+"origin" "-2017.3 -51.2 -1126.4"
+"light" "1000"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "3061.8 -41.0 -1044.5"
+"light" "1000"
+"style" "0"
+}
+{
+"classname" "misc_fireball"
+"origin" "163.8 -583.7 -1228.8"
+"speed" "500"
+}
+{
+"classname" "misc_fireball"
+"origin" "184.3 -552.9 -1218.5"
+"speed" "500"
+}
+{
+"classname" "misc_fireball"
+"origin" "153.6 -542.7 -1218.6"
+"speed" "500"
+}
+{
+"classname" "misc_fireball"
+"origin" "215.0 -593.9 -1218.6"
+"speed" "500"
+}
+{
+"classname" "misc_fireball"
+"origin" "143.3 -593.9 -1218.6"
+"speed" "500"
+}
+{
+"classname" "monster_fish"
+"origin" "409.6 665.6 -1372.1"
+"angle" "236"
+}
+{
+"classname" "monster_fish"
+"origin" "890.9 -593.9 -1372.1"
+"angle" "37"
+}
+{
+"classname" "monster_fish"
+"origin" "1157.1 389.1 -1372.1"
+"angle" "208"
+}
+{
+"classname" "monster_fish"
+"origin" "-10.3 -645.1 -1372.1"
+"angle" "41"
+}
+{
+"origin" "-1945.6 133.1 -1218.6"
+"goal_activation" "1"
+"team_no" "2"
+"goal_effects" "3"
+"goal_result" "2"
+"message" "Loading up..."
+"netname" "Team 2 supply"
+"classname" "info_tfgoal"
+"wait" "2"
+"ammo_shells" "50"
+"ammo_nails" "50"
+"ammo_rockets" "50"
+"ammo_cells" "50"
+"ammo_medikit" "50"
+"no_grenades_1" "2"
+"mdl" "progs/backpack.mdl"
+}
+{
+"origin" "3102.7 71.7 -1034.3"
+"goal_activation" "1"
+"team_no" "1"
+"goal_effects" "3"
+"goal_result" "2"
+"message" "Loading up..."
+"netname" "Team 2 supply"
+"classname" "info_tfgoal"
+"wait" "2"
+"ammo_shells" "50"
+"ammo_nails" "50"
+"ammo_rockets" "50"
+"ammo_cells" "50"
+"ammo_medikit" "50"
+"no_grenades_1" "2"
+"mdl" "progs/backpack.mdl"
+}
+{
+"origin" "2027.5 604.2 -1259.5"
+"mdl" "progs/treet.mdl"
+"team_no" "3"
+"classname" "item_tfgoal"
+}

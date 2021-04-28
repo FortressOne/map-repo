@@ -1,0 +1,634 @@
+{
+"message" "Blue Light Special\n By VenoM\n"
+"wad" "D:\Qoole\work\store.wad"
+"classname" "worldspawn"
+"worldtype" "2"
+"light" "100"
+}
+{
+"speed" "100"
+"model" "*1"
+"sounds" "1"
+"classname" "func_door"
+"wait" "3"
+"lip" "8"
+"angle" "180"
+}
+{
+"speed" "100"
+"model" "*2"
+"sounds" "1"
+"classname" "func_door"
+"wait" "3"
+"lip" "8"
+"angle" "0"
+}
+{
+"goal_activation" "1"
+"items_allowed" "3"
+"owned_by" "2"
+"netname_team_broadcast" "has checked out!\n"
+"message" "You got the groceries\n"
+"netname" "red checkout"
+"axhitme" "3"
+"classname" "info_tfgoal"
+"origin" "96 688 16"
+"maxammo_shells" "2"
+"broadcast" "Red has checked out!\n"
+"count" "5"
+"goal_no" "2"
+"team_no" "2"
+}
+{
+"goal_activation" "2741"
+"message" "Head to the checkout!\n"
+"netname" "groceries"
+"classname" "item_tfgoal"
+"noise" "ogre/ogwake.wav"
+"origin" "0 2224 32"
+"playerclass" "0"
+"broadcast" "The groceries have been taken!\n"
+"items" "131072"
+"goal_no" "3"
+"pausetime" "120"
+"mdl" "progs/tf_flag.mdl"
+}
+{
+"goal_activation" "1"
+"netname_team_broadcast" "has checked out!\n"
+"owned_by" "1"
+"items_allowed" "3"
+"netname" "blue checkout"
+"message" "You got the groceries!\n"
+"axhitme" "3"
+"classname" "info_tfgoal"
+"origin" "-96 688 16"
+"maxammo_shells" "1"
+"broadcast" "Blue checked out!\n"
+"count" "5"
+"goal_no" "1"
+"team_no" "1"
+}
+{
+"speed" "150"
+"model" "*3"
+"sounds" "1"
+"classname" "func_plat"
+"height" "239"
+}
+{
+"speed" "100"
+"netname" "red2"
+"model" "*4"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "8"
+"team_no" "2"
+"targetname" "red2"
+"angle" "270"
+}
+{
+"speed" "100"
+"netname" "red1"
+"model" "*5"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "8"
+"team_no" "2"
+"targetname" "red1"
+"angle" "270"
+}
+{
+"speed" "100"
+"netname" "red3"
+"model" "*6"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "8"
+"team_no" "2"
+"targetname" "red3"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"netname" "RedSpawn1"
+"message" "Lets go Shopping!\n"
+"classname" "info_player_teamspawn"
+"origin" "1400 1144 16"
+"team_no" "2"
+"angle" "0"
+}
+{
+"goal_activation" "2"
+"netname" "RedSpawn2"
+"message" "Lets go Shopping!\n"
+"classname" "info_player_teamspawn"
+"origin" "1400 1016 16"
+"team_no" "2"
+"angle" "0"
+}
+{
+"goal_activation" "2"
+"netname" "RedSpawn4"
+"message" "Lets go Shoping!\n"
+"classname" "info_player_teamspawn"
+"origin" "1400 760 16"
+"team_no" "2"
+"angle" "0"
+}
+{
+"goal_activation" "2"
+"netname" "RedSpawn5"
+"message" "Lets go Shopping!\n"
+"classname" "info_player_teamspawn"
+"origin" "1400 632 16"
+"team_no" "2"
+"angle" "0"
+}
+{
+"netname" "playerstart"
+"classname" "info_player_start"
+"origin" "0 -384 32"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"netname" "RedSpawn7"
+"message" "Lets go Shopping!\n"
+"classname" "info_player_teamspawn"
+"origin" "1128 -360 16"
+"team_no" "2"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"netname" "RedSpawn6"
+"message" "Lets go Shopping!\n"
+"classname" "info_player_teamspawn"
+"origin" "1144 264 16"
+"team_no" "2"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"netname" "BlueSpawn6"
+"message" "Lets go shopping!\n"
+"classname" "info_player_teamspawn"
+"origin" "-1144 264 16"
+"team_no" "1"
+"angle" "0"
+}
+{
+"goal_activation" "2"
+"netname" "BlueSpawn7"
+"message" "Lets go Shopping!\n"
+"classname" "info_player_teamspawn"
+"origin" "-1128 -360 16"
+"team_no" "1"
+"angle" "90"
+}
+{
+"speed" "150"
+"model" "*7"
+"sounds" "1"
+"classname" "func_plat"
+"height" "239"
+}
+{
+"speed" "100"
+"netname" "blue2"
+"model" "*8"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "8"
+"team_no" "1"
+"targetname" "blue2"
+"angle" "270"
+}
+{
+"speed" "100"
+"netname" "blue1"
+"model" "*9"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "8"
+"team_no" "1"
+"targetname" "blue1"
+"angle" "270"
+}
+{
+"speed" "100"
+"netname" "blue3"
+"model" "*10"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "8"
+"team_no" "1"
+"targetname" "blue3"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"spawnflags" "2048"
+"message" "Lets go Shopping!\n"
+"netname" "BlueSpawn1"
+"classname" "info_player_teamspawn"
+"origin" "-1400 1144 16"
+"team_no" "1"
+"angle" "0"
+}
+{
+"goal_activation" "2"
+"spawnflags" "2048"
+"netname" "BlueSpawn2"
+"message" "Lets go Shopping!\n"
+"classname" "info_player_teamspawn"
+"origin" "-1400 1016 16"
+"team_no" "1"
+"angle" "0"
+}
+{
+"goal_activation" "2"
+"netname" "BlueSpawn4"
+"message" "Lets go shopping!\n"
+"classname" "info_player_teamspawn"
+"origin" "-1400 760 16"
+"team_no" "1"
+"angle" "180"
+}
+{
+"goal_activation" "2"
+"netname" "BlueSpawn5"
+"message" "Lets go Shopping!\n"
+"classname" "info_player_teamspawn"
+"origin" "-1400 632 16"
+"team_no" "1"
+"angle" "180"
+}
+{
+"message" "Welcome to the Store!\n"
+"impulse" "68"
+"classname" "info_tfdetect"
+"origin" "0 -464 448"
+"hook_out" "1"
+"maxammo_shells" "657"
+"team_broadcast" "WELCOME SHOPPERS\nTEAM 1....BLUE\nTEAM 2....RED\n"
+"broadcast" "Blue Light Special!\nBy VenoM\n"
+"maxammo_nails" "657"
+"noise1" "=== Choose your class ===\n\n2.. Sniper  \n3.. Soldier \n4.. Demoman \n6.. Hvwep   \n7.. Pyro    \n9.. Engineer\n"
+"noise2" "=== Choose your class ===\n\n2.. Sniper  \n3.. Soldier \n4.. Demoman \n6.. Hvwep   \n7.. Pyro    \n9.. Engineer\n"
+}
+{
+"goal_activation" "2"
+"message" "Lets go Shopping!\n"
+"netname" "BlueSpawn3"
+"classname" "info_player_teamspawn"
+"origin" "-1400 888 16"
+"team_no" "1"
+"angle" "180"
+}
+{
+"goal_activation" "2"
+"message" "Lets go Shopping!\n"
+"netname" "RedSpawn3"
+"classname" "info_player_teamspawn"
+"origin" "1400 880 16"
+"team_no" "2"
+"angle" "0"
+}
+{
+"classname" "item_health"
+"origin" "1840 512 0"
+"angle" "90"
+}
+{
+"classname" "item_health"
+"origin" "1776 512 0"
+"angle" "90"
+}
+{
+"classname" "item_health"
+"origin" "1840 576 0"
+"angle" "90"
+}
+{
+"classname" "item_health"
+"origin" "1776 576 0"
+"angle" "90"
+}
+{
+"classname" "item_health"
+"origin" "1712 512 0"
+"angle" "90"
+}
+{
+"classname" "item_health"
+"origin" "1712 576 0"
+"angle" "90"
+}
+{
+"classname" "item_armor2"
+"origin" "1816 672 0"
+}
+{
+"classname" "item_armor2"
+"origin" "1720 672 0"
+}
+{
+"classname" "item_shells"
+"origin" "1836 748 0"
+"angle" "90"
+}
+{
+"classname" "item_shells"
+"origin" "1788 748 0"
+"angle" "90"
+}
+{
+"classname" "item_shells"
+"origin" "1740 748 0"
+"angle" "90"
+}
+{
+"classname" "item_shells"
+"origin" "1692 748 0"
+"angle" "90"
+}
+{
+"classname" "item_spikes"
+"origin" "1836 828 0"
+"angle" "90"
+}
+{
+"classname" "item_spikes"
+"origin" "1788 828 0"
+"angle" "90"
+}
+{
+"classname" "item_spikes"
+"origin" "1740 828 0"
+"angle" "90"
+}
+{
+"classname" "item_spikes"
+"origin" "1692 828 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "1744 912 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "1744 960 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "1840 912 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "1840 960 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "1792 912 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "1792 960 0"
+"angle" "90"
+}
+{
+"classname" "item_cells"
+"origin" "1835 1013 0"
+"angle" "90"
+}
+{
+"classname" "item_cells"
+"origin" "1771 1013 0"
+"angle" "90"
+}
+{
+"classname" "item_cells"
+"origin" "1707 1013 0"
+"angle" "90"
+}
+{
+"classname" "item_health"
+"origin" "-1840 512 0"
+"angle" "90"
+}
+{
+"classname" "item_health"
+"origin" "-1776 512 0"
+"angle" "90"
+}
+{
+"classname" "item_health"
+"origin" "-1712 512 0"
+"angle" "90"
+}
+{
+"classname" "item_health"
+"origin" "-1840 576 0"
+"angle" "90"
+}
+{
+"classname" "item_health"
+"origin" "-1776 576 0"
+"angle" "90"
+}
+{
+"classname" "item_health"
+"origin" "-1712 576 0"
+"angle" "90"
+}
+{
+"classname" "item_armor2"
+"origin" "-1848 672 0"
+}
+{
+"classname" "item_armor2"
+"origin" "-1752 672 0"
+}
+{
+"classname" "item_shells"
+"origin" "-1852 748 0"
+"angle" "90"
+}
+{
+"classname" "item_shells"
+"origin" "-1804 748 0"
+"angle" "90"
+}
+{
+"classname" "item_shells"
+"origin" "-1756 748 0"
+"angle" "90"
+}
+{
+"classname" "item_shells"
+"origin" "-1708 748 0"
+"angle" "90"
+}
+{
+"classname" "item_spikes"
+"origin" "-1852 828 0"
+"angle" "90"
+}
+{
+"classname" "item_spikes"
+"origin" "-1804 828 0"
+"angle" "90"
+}
+{
+"classname" "item_spikes"
+"origin" "-1756 828 0"
+"angle" "90"
+}
+{
+"classname" "item_spikes"
+"origin" "-1708 828 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "-1856 912 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "-1808 912 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "-1760 912 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "-1856 960 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "-1808 960 0"
+"angle" "90"
+}
+{
+"classname" "item_rockets"
+"origin" "-1760 960 0"
+"angle" "90"
+}
+{
+"classname" "item_cells"
+"origin" "-1829 1013 0"
+"angle" "90"
+}
+{
+"classname" "item_cells"
+"origin" "-1765 1013 0"
+"angle" "90"
+}
+{
+"classname" "item_cells"
+"origin" "-1701 1013 0"
+"angle" "90"
+}
+{
+"target" "red3"
+"netname" "r3"
+"model" "*11"
+"classname" "trigger_multiple"
+"team_no" "2"
+}
+{
+"target" "red3"
+"netname" "r3"
+"model" "*12"
+"classname" "trigger_multiple"
+"team_no" "2"
+}
+{
+"target" "red2"
+"netname" "r2"
+"model" "*13"
+"classname" "trigger_multiple"
+"team_no" "2"
+}
+{
+"target" "red2"
+"netname" "r2"
+"model" "*14"
+"classname" "trigger_multiple"
+"team_no" "2"
+}
+{
+"target" "red1"
+"netname" "r1"
+"model" "*15"
+"classname" "trigger_multiple"
+"team_no" "2"
+}
+{
+"target" "red1"
+"netname" "r1"
+"model" "*16"
+"classname" "trigger_multiple"
+"team_no" "2"
+}
+{
+"target" "blue2"
+"netname" "b2"
+"model" "*17"
+"classname" "trigger_multiple"
+"team_no" "1"
+}
+{
+"target" "blue2"
+"netname" "b2"
+"model" "*18"
+"classname" "trigger_multiple"
+"team_no" "1"
+}
+{
+"target" "blue1"
+"netname" "b1"
+"model" "*19"
+"classname" "trigger_multiple"
+"team_no" "1"
+}
+{
+"target" "blue1"
+"netname" "b1"
+"model" "*20"
+"classname" "trigger_multiple"
+"team_no" "1"
+}
+{
+"target" "blue3"
+"netname" "b3"
+"model" "*21"
+"classname" "trigger_multiple"
+"team_no" "1"
+}
+{
+"target" "blue3"
+"netname" "b3"
+"model" "*22"
+"classname" "trigger_multiple"
+"team_no" "1"
+}

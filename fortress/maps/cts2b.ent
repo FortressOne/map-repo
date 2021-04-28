@@ -1,0 +1,798 @@
+{
+"light" "300"
+"worldtype" "0"
+"classname" "worldspawn"
+"wad" "C:\my documents\cts1.wad"
+"message" "Ãapture Ôhe Óheep\n revision b\n By: ÍwhahahÁ\n mwhahaha@planetfortress.com"
+"spawnflags" "0"
+}
+{
+"model" "*1"
+"height" "120"
+"classname" "func_plat"
+"speed" "150"
+}
+{
+"model" "*2"
+"height" "120"
+"classname" "func_plat"
+"speed" "150"
+}
+{
+"model" "*3"
+"height" "120"
+"classname" "func_plat"
+"speed" "150"
+}
+{
+"model" "*4"
+"height" "120"
+"classname" "func_plat"
+"speed" "150"
+}
+{
+"model" "*5"
+"angle" "-1"
+"lip" "1"
+"team_no" "2"
+"wait" "1"
+"classname" "func_door"
+"sounds" "1"
+"speed" "1000"
+}
+{
+"model" "*6"
+"angle" "-1"
+"lip" "1"
+"team_no" "2"
+"wait" "1"
+"classname" "func_door"
+"sounds" "1"
+"speed" "1000"
+}
+{
+"model" "*7"
+"angle" "-1"
+"lip" "1"
+"team_no" "2"
+"wait" "1"
+"classname" "func_door"
+"sounds" "1"
+"speed" "1000"
+}
+{
+"model" "*8"
+"angle" "-1"
+"lip" "1"
+"team_no" "2"
+"wait" "1"
+"classname" "func_door"
+"sounds" "1"
+"speed" "1000"
+}
+{
+"model" "*9"
+"angle" "-2"
+"lip" "4"
+"wait" "3"
+"classname" "func_door"
+"sounds" "1"
+"spawnflags" "0"
+"speed" "300"
+}
+{
+"model" "*10"
+"height" "230"
+"classname" "func_plat"
+"sounds" "0"
+"speed" "150"
+}
+{
+"model" "*11"
+"height" "120"
+"classname" "func_plat"
+"speed" "150"
+}
+{
+"model" "*12"
+"height" "120"
+"classname" "func_plat"
+"speed" "150"
+}
+{
+"model" "*13"
+"height" "120"
+"classname" "func_plat"
+"speed" "150"
+}
+{
+"model" "*14"
+"height" "120"
+"classname" "func_plat"
+"speed" "150"
+}
+{
+"model" "*15"
+"angle" "-1"
+"lip" "1"
+"team_no" "1"
+"wait" "1"
+"classname" "func_door"
+"sounds" "1"
+"speed" "1000"
+}
+{
+"model" "*16"
+"angle" "-1"
+"lip" "1"
+"team_no" "1"
+"wait" "1"
+"classname" "func_door"
+"sounds" "1"
+"speed" "1000"
+}
+{
+"model" "*17"
+"angle" "-1"
+"lip" "1"
+"team_no" "1"
+"wait" "1"
+"classname" "func_door"
+"sounds" "1"
+"speed" "1000"
+}
+{
+"model" "*18"
+"angle" "-1"
+"lip" "1"
+"team_no" "1"
+"wait" "1"
+"classname" "func_door"
+"sounds" "1"
+"speed" "1000"
+}
+{
+"model" "*19"
+"angle" "-2"
+"lip" "4"
+"wait" "3"
+"classname" "func_door"
+"sounds" "1"
+"speed" "300"
+}
+{
+"model" "*20"
+"angle" "-2"
+"lip" "4"
+"wait" "3"
+"classname" "func_door"
+"sounds" "1"
+"spawnflags" "0"
+"speed" "300"
+}
+{
+"model" "*21"
+"height" "230"
+"classname" "func_plat"
+"sounds" "0"
+"speed" "150"
+}
+{
+"mdl" "progs/ssheep.mdl"
+"pausetime" "60"
+"team_no" "2"
+"noise4" "The enemy sheep was returned to base!\n"
+"delay" "60"
+"noise3" "Your sheep has been returned.\n"
+"items" "131072"
+"goal_no" "1"
+"team_broadcast" "Your team has the enemy sheep!\n"
+"netname_non_team_broadcast" "has taken your sheep.\n"
+"netname_broadcast" " has taken the ÂÌÕÅ sheep.\n"
+"noise" "items/sheep1.wav"
+"origin" "0 -2368 392"
+"non_team_broadcast" "Your sheep has been taken!\n"
+"classname" "item_tfgoal"
+"netname" "team one flag"
+"message" "You have the ÂÌÕÅ sheep\nRun back and ªuNFª it\n"
+"owned_by" "1"
+"netname_team_broadcast" "grabbed the enemy sheep.\n"
+"goal_activation" "693"
+}
+{
+"mdl" "progs/ssheep.mdl"
+"pausetime" "60"
+"team_no" "1"
+"noise4" "The enemy sheep was returned to base!"
+"delay" "60"
+"noise3" "Your sheep has been returned."
+"items" "262144"
+"goal_no" "2"
+"team_broadcast" "Your team has the enemy sheep!\n"
+"netname_non_team_broadcast" "has taken your sheep.\n"
+"netname_broadcast" " has taken the ÒÅÄ sheep.\n"
+"noise" "items/sheep1.wav"
+"origin" "0 2368 392"
+"non_team_broadcast" "Your sheep has been taken!\n"
+"classname" "item_tfgoal"
+"netname" "team two flag"
+"message" "You have the ÒÅÄ sheep\nRun! Go back and ªuNFª it\n"
+"owned_by" "2"
+"netname_team_broadcast" "grabbed the enemy sheep.\n"
+"goal_activation" "693"
+}
+{
+"team_str_moved" "Your sheep is off grazing."
+"non_team_str_moved" "The enemy sheep is off grazing."
+"broadcast" "TeamFortress v2.9"
+"hook_out" "1"
+"non_team_str_home" "The enemy sheep is home."
+"team_str_carried" "Your sheep has been stolen by"
+"origin" "0 0 0"
+"team_str_home" "Your sheep is home."
+"non_team_broadcast" "ªuNFª the enemy sheep! Return it to you tower and ªuNFª!\n"
+"classname" "info_tfdetect"
+"netname" "TFdetect"
+"impulse" "4"
+"spawnflags" "0"
+"display_item_status2" "2"
+"display_item_status1" "1"
+"non_team_str_carried" "The enemy sheep has been stolen by"
+}
+{
+"model" "*22"
+"angle" "-2"
+"lip" "4"
+"wait" "3"
+"classname" "func_door"
+"sounds" "1"
+"speed" "300"
+}
+{
+"ammo_rockets" "60"
+"ammo_detpack" "1"
+"ammo_cells" "200"
+"team_no" "1"
+"health" "100"
+"frags" "10"
+"goal_result" "2"
+"armorvalue" "200"
+"ammo_nails" "200"
+"count" "10"
+"goal_effects" "3"
+"team_broadcast" "ÒÅÄ is no match for the mighty ÂÌÕÅ!\n"
+"no_grenades_2" "4"
+"origin" "0 -2096 392"
+"noise" "misc/score.wav"
+"no_grenades_1" "4"
+"netname_broadcast" " has ªuNFªed the ÒÅÄ sheep.\n"
+"non_team_broadcast" "ÂÌÕÅ has ªuNFªed your sheep...\n"
+"classname" "info_tfgoal"
+"axhitme" "2"
+"message" "Do it again!\nHarder!\n"
+"netname" "team one dropoff"
+"netname_team_broadcast" " has ªuNFªed the enemy sheep.\n"
+"items_allowed" "2"
+"ammo_shells" "100"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "60"
+"ammo_detpack" "1"
+"ammo_cells" "200"
+"team_no" "2"
+"goal_result" "2"
+"frags" "10"
+"armorvalue" "200"
+"ammo_nails" "200"
+"count" "10"
+"goal_effects" "3"
+"team_broadcast" "ÂÌÕÅ is no match for the mighty ÒÅÄ!\n"
+"no_grenades_2" "4"
+"noise" "misc/score.wav"
+"origin" "0 2096 392"
+"no_grenades_1" "4"
+"netname_broadcast" " has ªuNFªed the ÂÌÕÅ sheep.\n"
+"non_team_broadcast" "ÒÅÄ has ªuNFªed your sheep...\n"
+"classname" "info_tfgoal"
+"axhitme" "1"
+"netname" "team two dropoff"
+"message" "Do it again!\nHarder!\n"
+"items_allowed" "1"
+"ammo_shells" "100"
+"goal_activation" "1"
+}
+{
+"angle" "90"
+"origin" "0 -384 16"
+"classname" "info_player_start"
+}
+{
+"light" "1000"
+"origin" "0 -1984 480"
+"classname" "light_fluoro"
+}
+{
+"light" "1000"
+"origin" "0 -1984 224"
+"classname" "light_fluoro"
+}
+{
+"light" "750"
+"origin" "0 0 232"
+"classname" "light_fluoro"
+}
+{
+"light" "300"
+"origin" "0 -928 480"
+"classname" "light"
+}
+{
+"light" "1000"
+"origin" "0 1984 480"
+"classname" "light_fluoro"
+}
+{
+"light" "1000"
+"origin" "0 1984 224"
+"classname" "light_fluoro"
+}
+{
+"light" "300"
+"origin" "0 928 480"
+"classname" "light"
+}
+{
+"ammo_rockets" "10"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"health" "25"
+"armorvalue" "50"
+"ammo_medikit" "1"
+"ammo_nails" "50"
+"goal_effects" "1"
+"no_grenades_2" "1"
+"wait" "10"
+"no_grenades_1" "2"
+"origin" "184 1120 408"
+"noise" "weapons/pkup.wav"
+"classname" "info_tfgoal"
+"message" "Kick Ass!\n"
+"netname" "red resup 4"
+"ammo_shells" "50"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "10"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"health" "25"
+"armorvalue" "50"
+"ammo_medikit" "1"
+"ammo_nails" "50"
+"goal_effects" "1"
+"wait" "10"
+"no_grenades_2" "1"
+"no_grenades_1" "2"
+"origin" "-184 1120 408"
+"noise" "weapons/pkup.wav"
+"classname" "info_tfgoal"
+"message" "Sheeeeeeep!\n"
+"netname" "red resup 3"
+"ammo_shells" "50"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "10"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"health" "25"
+"armorvalue" "50"
+"ammo_medikit" "1"
+"ammo_nails" "50"
+"goal_effects" "1"
+"no_grenades_2" "1"
+"wait" "10"
+"no_grenades_1" "2"
+"origin" "-184 -1120 408"
+"noise" "weapons/pkup.wav"
+"classname" "info_tfgoal"
+"message" "Kick ass!\n"
+"netname" "bloo resup 4"
+"ammo_shells" "50"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "10"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"health" "25"
+"armorvalue" "50"
+"ammo_nails" "50"
+"ammo_medikit" "1"
+"goal_effects" "1"
+"wait" "10"
+"no_grenades_2" "1"
+"origin" "184 -1120 408"
+"no_grenades_1" "2"
+"noise" "weapons/pkup.wav"
+"classname" "info_tfgoal"
+"message" "Sheeeeeeep!\n"
+"netname" "bloo resup 3"
+"ammo_shells" "50"
+"goal_activation" "1"
+}
+{
+"light" "300"
+"origin" "128 -384 -192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "128 -1120 -136"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "128 -2032 -80"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-128 384 -192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-128 1120 -136"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-128 2032 -80"
+"classname" "light"
+}
+{
+"angle" "90"
+"team_no" "1"
+"origin" "-472 -1608 72"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "90"
+"team_no" "1"
+"origin" "-528 -1552 72"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "90"
+"team_no" "1"
+"origin" "-584 -1608 72"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "90"
+"team_no" "1"
+"origin" "584 -1608 72"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "90"
+"team_no" "1"
+"origin" "528 -1552 72"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "90"
+"team_no" "1"
+"origin" "472 -1608 72"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "584 1608 72"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "528 1552 72"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "472 1608 72"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "-472 1608 72"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "-528 1552 72"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "-584 1608 72"
+"classname" "info_player_teamspawn"
+}
+{
+"ammo_detpack" "1"
+"ammo_rockets" "60"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "200"
+"health" "100"
+"team_no" "1"
+"armorvalue" "300"
+"ammo_medikit" "5"
+"ammo_nails" "200"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"no_grenades_1" "4"
+"origin" "-528 -1416 48"
+"classname" "info_tfgoal"
+"netname" "bloo resup 1"
+"message" "Go Go Go!\n"
+"ammo_shells" "100"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "60"
+"ammo_detpack" "1"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"health" "100"
+"armorvalue" "300"
+"ammo_nails" "200"
+"ammo_medikit" "5"
+"goal_effects" "1"
+"wait" "2"
+"no_grenades_2" "4"
+"origin" "528 -1416 48"
+"no_grenades_1" "4"
+"noise" "weapons/pkup.wav"
+"classname" "info_tfgoal"
+"message" "Kill Kill Kill!\n"
+"netname" "bloo resup 2"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"ammo_detpack" "1"
+"ammo_rockets" "60"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"health" "100"
+"team_no" "2"
+"armorvalue" "300"
+"ammo_medikit" "5"
+"ammo_nails" "200"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"wait" "2"
+"no_grenades_1" "4"
+"origin" "528 1416 48"
+"noise" "weapons/pkup.wav"
+"classname" "info_tfgoal"
+"message" "Go Go Go!\n"
+"netname" "red resup 1"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"ammo_detpack" "1"
+"ammo_rockets" "60"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"health" "100"
+"team_no" "2"
+"armorvalue" "300"
+"ammo_medikit" "5"
+"ammo_nails" "200"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"wait" "2"
+"no_grenades_1" "4"
+"origin" "-528 1416 48"
+"noise" "weapons/pkup.wav"
+"classname" "info_tfgoal"
+"message" "Kill Kill Kill!\n"
+"netname" "red resup 2"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"light" "300"
+"origin" "-528 -1648 128"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-224 -1312 464"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-224 -1008 464"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "224 -1312 464"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "224 -1248 464"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "0 -1568 256"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "0 -2400 256"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "528 -1648 128"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "224 -1312 96"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-224 -1312 224"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "224 -1312 224"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "500"
+"origin" "0 -592 192"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-224 -1312 96"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "500"
+"origin" "-432 -928 192"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-624 -592 192"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "500"
+"origin" "432 -928 192"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "624 -592 192"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "600"
+"origin" "224 -1248 288"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "600"
+"origin" "-368 -1008 288"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "224 1312 464"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "224 1008 464"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-224 1312 464"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-224 1248 464"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "0 1568 256"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "0 2400 256"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-224 1312 96"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "224 1312 224"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-224 1312 224"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "500"
+"origin" "0 592 192"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "224 1312 96"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "500"
+"origin" "432 928 192"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "624 592 192"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "500"
+"origin" "-432 928 192"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-624 592 192"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "600"
+"origin" "-224 1248 288"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "600"
+"origin" "368 1008 288"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "528 1648 128"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-528 1648 128"
+"classname" "light_torch_small_walltorch"
+}

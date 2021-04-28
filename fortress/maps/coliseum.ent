@@ -1,0 +1,98 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "info_player_start"
+"origin" "0 64 0"
+}
+{
+"classname" "light"
+"angle" "-2"
+"style" "0"
+"light" "800"
+"origin" "0 0 -64"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "68"
+"maxammo_rockets" "-1"
+"hook_out" "1"
+"team_broadcast" "THE COLISEUM\nBY MASTERCAM - ENTS BY AIKIBOI\n\n   [1] TEAM ONE   \n[2] TEAM TWO\n  [3] TEAM THREE\n\n [5] AUTO TEAM\n"
+".. Engineer\n0.. Randompc\n" "=== Choose your class ===\n\n1.. Scout   \n2.. Sniper  \n4.. Demoman \n5.. Medic   \n6.. Hvwep   \n7.. Pyro    \n8.. Spy     \n9.. Engineer\n0.. Randompc\n"
+"origin" "192 128 128"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "Blue spawn"
+"team_no" "1"
+"goal_state" "1"
+"origin" "192 192 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "Red Spawn"
+"playerclass" "0"
+"team_no" "2"
+"goal_state" "1"
+"origin" "-192 -192 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+"message" "WATCH your STEP!\n"
+"netname" "Civ Spawn"
+"team_no" "3"
+"goal_state" "1"
+"origin" "0 544 0"
+}
+{
+"classname" "light"
+"angle" "-2"
+"style" "0"
+"light" "800"
+"origin" "0 640 -384"
+}
+{
+"classname" "light"
+"angle" "-2"
+"style" "0"
+"light" "800"
+"origin" "0 -640 -384"
+}
+{
+"classname" "light"
+"angle" "-2"
+"style" "0"
+"light" "800"
+"origin" "-576 0 -384"
+}
+{
+"classname" "light"
+"angle" "-2"
+"style" "0"
+"light" "800"
+"origin" "640 136 -384"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname" "maim_sound"
+"netname_broadcast" "THREW HIMSELF to the LIONS!!  (OMG what a dumbass!!)\n"
+"noise" "sound\puddytat.wav"
+"wait" "1"
+"goal_effects" "17"
+"t_length" "5000"
+"goal_state" "1"
+"targetname" "maim"
+"origin" "832 64 -384"
+}
+{
+"classname" "trigger_hurt"
+"target" "autokill"
+"sounds" "4"
+"dmg" "5000"
+"style" "32"
+"delay" "2"
+"team_no" "3"
+"model" "*1"
+}

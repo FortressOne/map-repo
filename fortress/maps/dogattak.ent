@@ -1,0 +1,402 @@
+{
+"classname" "worldspawn"
+"message" "   ƒÔÁ ¡ÙÙ·„Î \nA Mega-TF Only Map\n  By é–…Œ≈¡––Ã≈é"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "480 -384 384"
+}
+{
+"classname" "item_tfgoal"
+"angle" "315"
+"goal_no" "1"
+"owned_by" "1"
+"netname" "Blue Dog"
+"team_no" "2"
+"goal_result" "18"
+"goal_effects" "17"
+"goal_activation" "541"
+"items" "131072"
+"netname_team_drop" "Dropped the dog!\n"
+"netname_non_team_drop" "Dropped the dog!\n"
+"noise3" "Your dog was returned!\n"
+"noise4" "The blue dog was returned!\n"
+"mdl" "progs/dog.mdl"
+"message" "You have the dog!\n"
+"owners_team_broadcast" "Your dog has been stolen!\n"
+"noise" "ogre/ogwake.wav"
+"frame" "73"
+"origin" "-214 1388 -315"
+}
+{
+"classname" "light"
+"light" "2000"
+"style" "0"
+"origin" "1024 -416 256"
+}
+{
+"classname" "light"
+"light" "2000"
+"style" "0"
+"origin" "512 768 0"
+}
+{
+"classname" "item_tfgoal"
+"angle" "233"
+"goal_no" "2"
+"owned_by" "2"
+"netname" "Red Dog"
+"team_no" "1"
+"goal_result" "18"
+"goal_effects" "17"
+"goal_activation" "541"
+"items" "262144"
+"netname_team_drop" "Dropped the dog!\n"
+"netname_non_team_drop" "Dropped the dog!\n"
+"noise3" "Your dog was returned!\n"
+"noise4" "The red dog was returned!\n"
+"mdl" "progs/dog.mdl"
+"message" "You have the dog!!\n"
+"owners_team_broadcast" "Your dog has been stolen!\n"
+"noise" "ogre/ogwake.wav"
+"frame" "73"
+"origin" "1170 1392 -315"
+}
+{
+"classname" "info_tfgoal"
+"owned_by" "2"
+"goal_activation" "1"
+"team_no" "2"
+"goal_effects" "19"
+"goal_no" "2"
+"netname" "Red capture"
+"items_allowed" "1"
+"axhitme" "1"
+"frags" "11"
+"broadcast" "Red team released the dogs... RUN!\n"
+"netname_broadcast" "captured the dog!\n"
+"non_team_broadcast" "Red team made a capture!\n"
+"owners_team_broadcast" "Red team made a capture!\n"
+"team_broadcast" "Your team made a capture!\n"
+"noise" "boss2/pop2.wav"
+"increase_team2" "10"
+"target" "skycover"
+"origin" "1152 1376 -272"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Blue capture"
+"owned_by" "1"
+"goal_activation" "1"
+"team_no" "1"
+"items_allowed" "2"
+"axhitme" "2"
+"goal_effects" "19"
+"frags" "11"
+"team_broadcast" "Your team made a capture!\n"
+"netname_broadcast" "captured the dog!\n"
+"broadcast" "Blue team released the dogs... RUN!\n"
+"owners_team_broadcast" "Blue team made a capture!\n"
+"non_team_broadcast" "Blue team made a capture!\n"
+"noise" "boss2/pop2.wav"
+"increase_team1" "10"
+"target" "skycover"
+"origin" "-208 1376 -272"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "182"
+"team_no" "2"
+"netname" "Redteam"
+"origin" "1312 544 96"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"netname" "blueteam"
+"origin" "-352 544 96"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"netname" "blueteam"
+"origin" "-352 480 96"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "182"
+"team_no" "2"
+"netname" "Redteam"
+"origin" "1312 480 96"
+}
+{
+"classname" "ambient_brook"
+"origin" "480 -384 -304"
+}
+{
+"classname" "info_tfgoal"
+"netname" "backpack"
+"skin" "0"
+"mdl" "/progs/backpack.mdl"
+"goal_activation" "1"
+"wait" "2"
+"goal_result" "2"
+"goal_effects" "17"
+"armortype" "0.8"
+"armorvalue" "200"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "100"
+"ammo_cells" "200"
+"message" "Resupplying\n"
+"health" "100"
+"team_no" "2"
+"origin" "1264 512 -32"
+"noise" "weapons/lock4.wav"
+"ammo_detpack" "-2"
+}
+{
+"classname" "info_tfgoal"
+"netname" "backpack"
+"skin" "0"
+"mdl" "/progs/backpack.mdl"
+"goal_activation" "1"
+"wait" "2"
+"goal_result" "2"
+"goal_effects" "17"
+"armortype" "0.8"
+"armorvalue" "200"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "100"
+"ammo_cells" "200"
+"message" "Resupplying\n"
+"health" "100"
+"team_no" "1"
+"origin" "-336 512 -32"
+"noise" "weapons/lock4.wav"
+"ammo_detpack" "-2"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "928 -352 -320"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "480 -360 -400"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "32 -352 -320"
+}
+{
+"classname" "light"
+"light" "2000"
+"style" "0"
+"origin" "480 736 -288"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "4"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"non_team_str_home" "Dog base"
+"non_team_str_moved" "Dog down"
+"non_team_str_carried" "Dog is being carried by"
+"team_str_home" "Dog base"
+"team_str_moved" "Dog down"
+"team_str_carried" "Dog is being carried by"
+"origin" "472 656 360"
+"maxammo_shells" "1536"
+"maxammo_nails" "1536"
+"b_t" "\n\n\n\nƒÔÁ ¡ÙÙ·„Î\n\n 1 Blue Team\n2 Red team"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/dtree.mdl"
+"origin" "864 768 -352"
+}
+{
+"classname" "func_door"
+"targetname" "skycover"
+"speed" "400"
+"wait" "2"
+"lip" "0"
+"dmg" "100"
+"health" "0"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "600"
+"wait" "0"
+"lip" "-16"
+"dmg" "1000"
+"sounds" "1"
+"health" "1"
+"model" "*2"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/dtree.mdl"
+"origin" "-32 32 -352"
+}
+{
+"classname" "monster_dog"
+"origin" "1152 -16 480"
+}
+{
+"classname" "monster_dog"
+"origin" "990 -14 480"
+}
+{
+"classname" "monster_dog"
+"origin" "660 -14 480"
+}
+{
+"classname" "monster_dog"
+"origin" "822 -16 480"
+}
+{
+"classname" "monster_dog"
+"origin" "-2 -12 480"
+}
+{
+"classname" "monster_dog"
+"origin" "160 -14 480"
+}
+{
+"classname" "monster_dog"
+"origin" "328 -12 480"
+}
+{
+"classname" "monster_dog"
+"origin" "490 -14 480"
+}
+{
+"classname" "monster_dog"
+"origin" "76 314 478"
+}
+{
+"classname" "monster_dog"
+"origin" "238 312 478"
+}
+{
+"classname" "monster_dog"
+"origin" "488 312 478"
+}
+{
+"classname" "monster_dog"
+"origin" "658 312 478"
+}
+{
+"classname" "monster_dog"
+"origin" "820 310 478"
+}
+{
+"classname" "monster_dog"
+"origin" "988 312 478"
+}
+{
+"classname" "monster_dog"
+"origin" "1150 310 478"
+}
+{
+"classname" "monster_dog"
+"origin" "-32 776 476"
+}
+{
+"classname" "monster_dog"
+"origin" "130 774 476"
+}
+{
+"classname" "monster_dog"
+"origin" "298 776 476"
+}
+{
+"classname" "monster_dog"
+"origin" "460 774 476"
+}
+{
+"classname" "monster_dog"
+"origin" "630 774 476"
+}
+{
+"classname" "monster_dog"
+"origin" "792 772 476"
+}
+{
+"classname" "monster_dog"
+"origin" "960 774 476"
+}
+{
+"classname" "monster_dog"
+"origin" "1122 772 476"
+}
+{
+"classname" "monster_zombie"
+"origin" "928 -352 -448"
+}
+{
+"classname" "monster_zombie"
+"origin" "32 -352 -448"
+}
+{
+"classname" "info_tfgoal"
+"netname" "backpack"
+"skin" "0"
+"mdl" "/progs/backpack.mdl"
+"goal_activation" "1"
+"wait" "2"
+"goal_result" "2"
+"goal_effects" "17"
+"armortype" "0.8"
+"armorvalue" "50"
+"ammo_shells" "50"
+"ammo_nails" "50"
+"ammo_rockets" "25"
+"ammo_cells" "50"
+"message" "Resupplying\n"
+"health" "30"
+"no_grenades_1" "1"
+"no_grenades_2" "1"
+"origin" "462 -355 -463"
+"noise" "weapons/lock4.wav"
+"ammo_detpack" "-2"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "480 64 -256"
+}
+{
+"classname" "effect_lightning"
+"spawnflags" "512"
+"origin" "479 512 304"
+}
+{
+"classname" "ambient_nightpond"
+"origin" "480 -384 -240"
+}
+{
+"classname" "item_artifact_super_damage"
+"origin" "481 752 -313"
+}
+{
+"classname" "ambient_drip"
+"origin" "457 -376 -401"
+}
+{
+"classname" "info_intermission"
+"origin" "-180 84 -288"
+"angle" "30"
+}

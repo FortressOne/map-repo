@@ -1,0 +1,350 @@
+{
+"classname" "worldspawn"
+"message" "Hippos! by Terata/JStatz /nModified."
+"wad" "d:\quest\quake101.wad"
+}
+{
+"classname" "info_player_start"
+"angle" "120"
+"origin" "72 -400 24"
+}
+{
+"classname" "func_train"
+"model" "*1"
+"target" "target1"
+"wait" "1"
+"speed" "196"
+"sounds" "0"
+"dmg" "99"
+}
+{
+"classname" "path_corner"
+"target" "target3"
+"targetname" "target1"
+"origin" "-280 -546 -32"
+}
+{
+"classname" "path_corner"
+"wait" "1.02"
+"target" "target5"
+"targetname" "target3"
+"origin" "-280 -490 32"
+}
+{
+"classname" "path_corner"
+"target" "target1"
+"targetname" "target5"
+"origin" "-280 -490 -32"
+}
+{
+"classname" "func_train"
+"model" "*2"
+"target" "target6"
+"wait" "1"
+"speed" "192"
+"sounds" "0"
+"dmg" "99"
+}
+{
+"classname" "path_corner"
+"target" "target8"
+"targetname" "target6"
+"origin" "42 -186 -32"
+}
+{
+"classname" "path_corner"
+"target" "target6"
+"targetname" "target10"
+"origin" "-14 -186 -32"
+}
+{
+"classname" "path_corner"
+"wait" "0.92"
+"target" "target10"
+"targetname" "target8"
+"origin" "-14 -186 32"
+}
+{
+"classname" "func_train"
+"model" "*3"
+"target" "target13"
+"wait" "1"
+"speed" "192"
+"sounds" "0"
+"dmg" "99"
+}
+{
+"classname" "path_corner"
+"target" "target15"
+"targetname" "target13"
+"origin" "-280 139 -32"
+}
+{
+"classname" "path_corner"
+"target" "target13"
+"targetname" "target17"
+"origin" "-280 83 -32"
+}
+{
+"classname" "path_corner"
+"wait" ".97"
+"target" "target17"
+"targetname" "target15"
+"origin" "-280 83 32"
+}
+{
+"classname" "func_train"
+"model" "*4"
+"target" "target20"
+"wait" "1"
+"speed" "192"
+"sounds" "0"
+"dmg" "99"
+}
+{
+"classname" "path_corner"
+"target" "target22"
+"targetname" "target20"
+"origin" "-641 -186 -32"
+}
+{
+"classname" "path_corner"
+"target" "target20"
+"targetname" "target24"
+"origin" "-585 -186 -32"
+}
+{
+"classname" "path_corner"
+"wait" "1"
+"target" "target24"
+"targetname" "target22"
+"origin" "-585 -186 32"
+}
+{
+"classname" "trigger_push"
+"model" "*5"
+"speed" "100"
+"angle" "360"
+}
+{
+"classname" "trigger_push"
+"model" "*6"
+"speed" "100"
+"angle" "90"
+}
+{
+"classname" "trigger_push"
+"model" "*7"
+"speed" "100"
+"angle" "180"
+}
+{
+"classname" "trigger_push"
+"model" "*8"
+"speed" "100"
+"angle" "270"
+}
+{
+"classname" "trigger_hurt"
+"model" "*9"
+"dmg" "500"
+}
+{
+"classname" "trigger_hurt"
+"model" "*10"
+"dmg" "500"
+}
+{
+"classname" "trigger_hurt"
+"model" "*11"
+"dmg" "500"
+}
+{
+"classname" "trigger_hurt"
+"model" "*12"
+"dmg" "500"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "-428 -346 88"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "-420 142 88"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "36 102 88"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "44 -330 88"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "-180 -114 88"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "-572 -250 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "-556 54 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "285"
+"origin" "-316 254 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "285"
+"origin" "-68 254 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "165"
+"origin" "156 46 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "165"
+"origin" "156 -234 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "-60 -410 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "-316 -410 24"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-460 -362 20"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-180 -114 20"
+}
+{
+"classname" "weapon_supershotgun"
+"origin" "52 150 20"
+}
+{
+"classname" "weapon_supernailgun"
+"origin" "-452 166 20"
+}
+{
+"classname" "weapon_nailgun"
+"origin" "68 -354 20"
+}
+{
+"classname" "info_tfdetect"
+"t_s_c" "Your key is carried by"
+"n_s_c" "blues key is at base."
+"hook_out" "1"
+"broadcast" "21?tf2.9"
+"n_s_m" "blues key is down."
+"t_s_m" "your key is down."
+"team_broadcast" "èHippos keep awayè ê2004ë\n\red or blue\n\n[1] Blue\n[2] Red\n\n"
+"non_team_broadcast" "keepaway: 1 pt per 5 seconds held by a team.\n"
+"impulse" "64"
+"origin" "0 -384 128"
+}
+{
+"classname" "item_tfgoal"
+"g_a" "693"
+"g_e" "0"
+"owned_by" "0"
+"goal_no" "1"
+"team_no" "0"
+"goal_result" "0"
+"items" "262144"
+"pausetime" "3"
+"skin" "4"
+"impulse" "9"
+"message" "Welcome!\n"
+"netname_non_team_drop" " lost the flag somehow...\n"
+"activate_goal_no" "6"
+"noise" "shalrath/attack2.wav"
+"noise4" "The flag was returned.\n"
+"netname" "The Flag"
+"mdl" "progs/tf_flag.mdl"
+"origin" "-192 -64 0"
+"angle" "-1"
+}
+{
+"classname" "info_intermission"
+"angle" "272"
+"origin" "0 384 96"
+}
+{
+"classname" "i_t_g"
+"non_team_broadcast" "The other team still has the flag!...\n"
+"team_broadcast" "You still have the flag! Hold on to it!\n"
+"restore_goal_no" "3"
+"goal_effects" "1"
+"remove_goal_no" "2"
+"goal_no" "5"
+"team_no" "2"
+"origin" "544 -896 576"
+}
+{
+"classname" "i_t_g"
+"non_team_broadcast" "The other team still has the flag!...\n"
+"team_broadcast" "You still have the flag! Hold on to it!\n"
+"restore_goal_no" "2"
+"goal_effects" "1"
+"remove_goal_no" "3"
+"else_goal" "5"
+"goal_no" "6"
+"team_no" "1"
+"origin" "544 -864 576"
+}
+{
+"classname" "i_t_g"
+"remove_group_no" "7"
+"goal_no" "9"
+"origin" "544 -832 576"
+}
+{
+"classname" "info_tfgoal_timer"
+"items_allowed" "1"
+"increase_team1" "1"
+"noise" "boss2/pop2.wav"
+"maxammo_shells" "1"
+"broadcast" "They have your flag!\nGet them! They are getting points!...\n"
+"goal_no" "2"
+"frags" "1"
+"search_time" "20"
+"team_no" "1"
+"group_no" "7"
+"goal_state" "3"
+"origin" "544 -800 576"
+}
+{
+"classname" "info_tfgoal_timer"
+"items_allowed" "1"
+"increase_team2" "1"
+"noise" "boss2/pop2.wav"
+"maxammo_shells" "2"
+"broadcast" "They have your flag!\nGet them! They are getting points!...\n"
+"goal_no" "3"
+"frags" "1"
+"search_time" "20"
+"team_no" "2"
+"group_no" "7"
+"goal_state" "3"
+"origin" "576 -800 576"
+}

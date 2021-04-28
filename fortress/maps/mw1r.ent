@@ -1,0 +1,947 @@
+{
+"classname" "worldspawn"
+"sounds" "1"
+"light" "0"
+"message" "Welcome to Medieval Wars 1\nMade by IcE‘…SðáäE\nEmail SpadeICE@hotmail.com\n"
+}
+{
+"classname" "info_player_start"
+"origin" "-272 64 -480"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-720 -256 -64"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-720 384 -64"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "176 384 -64"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "176 -256 -64"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "240 64 -224"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-784 64 -224"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-1168 64 -448"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "624 64 -448"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "1328 64 -304"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-1872 64 -304"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-2768 448 0"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-2768 -320 0"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "-2256 -320 -160"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "-2256 448 -160"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "2224 -320 0"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "2224 448 0"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "1712 448 -160"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "1712 -320 -160"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "-1824 -512 -32"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "-1824 656 -32"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "1280 640 -32"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "1280 -512 -32"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "2928 -544 -256"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "2656 64 -64"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "2928 -1424 -256"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "-3472 -1424 -272"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "-3472 -544 -272"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "-3200 64 -64"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-1168 -208 -48"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-1168 336 -48"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "624 -208 -32"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "624 352 -32"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "1280 64 -32"
+}
+{
+"classname" "light"
+"light" "450"
+"origin" "-1824 64 -32"
+}
+{
+"classname" "item_tfgoal"
+"angle" "90"
+"netname" "Red Flag"
+"g_a" "693"
+"message" "You have the flag\nReturn it to your battlement\n"
+"b_t" "Your team has the enemy flag!\n"
+"b_n" "Your flag has been taken!\n"
+"noise3" "Your flag was returned to base!\n"
+"noise4" "The enemy flag was returned to base!\n"
+"noise" "items/health1.wav"
+"skin" "2"
+"goal_no" "2"
+"pausetime" "60"
+"team_no" "1"
+"owned_by" "2"
+"delay" "60"
+"d_t" "\n\n\nThe enemy lost your flag\n"
+"d_n_t" " lost your flag\n"
+"d_n" "\n\n\nYour team lost the enemy flag\n"
+"d_n_n" " lost the enemy flag\n"
+"n_t" " took the enemy flag!\n"
+"n_n" " took your flag!\n"
+"items" "262144"
+"mdl" "progs/tf_flag.mdl"
+"origin" "-3464 -1592 -320"
+}
+{
+"classname" "item_tfgoal"
+"angle" "90"
+"netname" "Blue Flag"
+"message" "Your have the enemy flag!\nReturn it to your battlement.\n"
+"b_t" "Your team has the enemy flag!\n"
+"b_n" "Your flag has been taken!\n"
+"noise3" "Your flag was returned to base!\n"
+"noise4" "The enemy flag was returned to base!\n"
+"noise" "items/health1.wav"
+"mdl" "progs/tf_flag.mdl"
+"skin" "1"
+"g_a" "693"
+"goal_no" "1"
+"pausetime" "60"
+"team_no" "2"
+"owned_by" "1"
+"delay" "60"
+"d_n_t" " lost your flag\n"
+"d_n_n" " lost the enemy flag\n"
+"d_t" "\n\n\nThe enemy lost your flag!\n"
+"d_n" "\n\n\nYour team lost the enemy flag!\n"
+"n_t" " took the enemy flag!\n"
+"n_n" " took your flag!\n"
+"items" "131072"
+"origin" "2920 -1584 -320"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Red Cap"
+"noise" "items/cap2.wav"
+"b_t" "Your team captured the enemy flag!\n"
+"b_n" "Your flag was captured!\n"
+"message" "Touchdown!\n"
+"count" "10"
+"g_a" "1"
+"g_e" "3"
+"items_allowed" "1"
+"team_no" "2"
+"axhitme" "1"
+"model" "*6"
+"n_t" " captured the enemy flag!\n"
+"n_n" " captured your flag\n"
+"owned_by" "2"
+"frags" "10"
+"origin" "-952 64 -248"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Blue Cap"
+"b_t" "Your team captured the enemy flag!\n"
+"b_n" "Your flag was captured!\n"
+"message" "Touchdown!\n"
+"count" "10"
+"g_a" "1"
+"noise" "items/cap1.wav"
+"g_e" "3"
+"items_allowed" "2"
+"team_no" "1"
+"axhitme" "2"
+"model" "*5"
+"n_t" " captured the enemy flag!\n"
+"n_n" " captured your flag\n"
+"owned_by" "1"
+"frags" "10"
+"origin" "408 64 -248"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t2 1"
+"team_no" "2"
+"origin" "-1952 576 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t2 2"
+"team_no" "2"
+"origin" "-2048 576 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t2 3"
+"team_no" "2"
+"origin" "-1696 576 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t2 4"
+"team_no" "2"
+"origin" "-1600 576 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"netname" "t2 5"
+"team_no" "2"
+"origin" "-1696 -448 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"netname" "t2 6"
+"team_no" "2"
+"origin" "-1600 -448 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"netname" "t2 7"
+"team_no" "2"
+"origin" "-1952 -448 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"netname" "t2 8"
+"team_no" "2"
+"origin" "-2048 -448 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"netname" "t2 9"
+"team_no" "2"
+"origin" "-1120 384 -448"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"netname" "t2 10"
+"team_no" "2"
+"origin" "-1216 384 -448"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t2 11"
+"team_no" "2"
+"origin" "-1120 -256 -448"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t2 12"
+"team_no" "2"
+"origin" "-1216 -256 -448"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "t1 2"
+"team_no" "1"
+"origin" "1504 -448 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "t1 1"
+"team_no" "1"
+"origin" "1408 -448 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "t1 3"
+"team_no" "1"
+"origin" "1152 -448 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "t1 4"
+"team_no" "1"
+"origin" "1056 -448 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t1 5"
+"team_no" "1"
+"origin" "1504 576 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t1 6"
+"team_no" "1"
+"origin" "1408 576 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t1 7"
+"team_no" "1"
+"origin" "1152 576 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t1 8"
+"team_no" "1"
+"origin" "1056 576 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"netname" "t1 9"
+"team_no" "1"
+"origin" "672 384 -448"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"netname" "t1 10"
+"team_no" "1"
+"origin" "576 384 -448"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "93"
+"netname" "t1 11"
+"team_no" "1"
+"origin" "672 -256 -448"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "93"
+"netname" "t1 12"
+"team_no" "1"
+"origin" "576 -256 -448"
+}
+{
+"classname" "info_tfdetect"
+"b_b" "TeamFortress v2.6"
+"impulse" "192"
+"b_t" "…‘ Choose Your Team …‘\n\n1‘ Blue Team\n2‘ Red Team \n"
+"b_n" "Medieval Wars 1: Get enemy key and bring it to your battlement\n"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"t_s_h" "Your flag: in your base"
+"t_s_m" "Your flag: lying around"
+"t_s_c" "Your flag: carried by"
+"n_s_h" "Enemy flag: in their base"
+"n_s_m" "Enemy flag: lying around"
+"n_s_c" "Enemy flag: carried by"
+"hook_out" "1"
+"origin" "-192 64 -448"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1344 64 -32"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "800 64 -32"
+}
+{
+"classname" "func_plat"
+"speed" "500"
+"height" "250"
+"wait" "0"
+"model" "*1"
+}
+{
+"classname" "func_plat"
+"speed" "500"
+"height" "250"
+"wait" "0"
+"model" "*2"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "2"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "2"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "1"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "1"
+"model" "*6"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "1"
+"model" "*7"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "1"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "2"
+"model" "*9"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "2"
+"model" "*10"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "2"
+"model" "*11"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "2"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "1"
+"model" "*13"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"wait" "1"
+"speed" "400"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"health" "0"
+"team_no" "1"
+"model" "*14"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "1"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "1456 688 -80"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "1"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "1280 688 -80"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "1"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "1104 688 -80"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "1"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "1456 -576 -80"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "1"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "1280 -576 -80"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "1"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "1104 -576 -80"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "1"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "0"
+"origin" "624 -192 -480"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "1"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "0"
+"origin" "624 304 -480"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "2"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "0"
+"origin" "-1168 -192 -480"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "2"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "0"
+"origin" "-1168 288 -480"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "2"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "-1648 704 -80"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "2"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "-1824 704 -80"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "2"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "-2000 704 -80"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "2"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "-1648 -592 -80"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "2"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "-1824 -592 -80"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "Resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"goal_activation" "1"
+"team_no" "2"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "30"
+"ammo_nails" "80"
+"ammo_rockets" "15"
+"ammo_cells" "50"
+"ammo_medikit" "40"
+"wait" "2"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"origin" "-2000 -592 -80"
+}

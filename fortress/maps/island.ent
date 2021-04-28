@@ -1,0 +1,285 @@
+{
+"wad" "island.wad"
+"origin" "0 0 0"
+"message" "Island by €ðá³ÂðÁôÈü¯üË‚"
+"classname" "worldspawn"
+}
+{
+"origin" "0 0 -16"
+"impulse" "64"
+"hook_out" "1"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"n_s_h" "Enemy flag: base."
+"n_s_m" "Enemy flag: down."
+"n_s_c" "Enemy flag: carried by"
+"t_s_h" "Your flag: base."
+"t_s_m" "Your flag: down."
+"t_s_c" "Your flag: carried by"
+"non_team_broadcast" "Cap, kill, have fun\n"
+"team_broadcast" "Mach Death"
+"classname" "info_tfdetect"
+}
+{
+"origin" "0 0 432"
+"non_team_drop" "Your team lost the Enemy flag!\n"
+"team_drop" "The enemy lost Your flag!\n"
+"noise" "shambler/ssight.wav"
+"items" "131072"
+"owners_team_broadcast" "\n\n\nYour flag has been Taken!\n"
+"skin" "1"
+"netname" "Blue Flag"
+"message" "You have the Enemy flag!\nTake it Home!"
+"team_broadcast" "\n\n\nYour team has the Enemy flag!\n"
+"noise3" "Your flag was returned to base!\n"
+"noise4" "The Enemy flag was returned to base!\n"
+"mdl" "progs/tf_flag.mdl"
+"goal_no" "1"
+"goal_activation" "693"
+"pausetime" "30"
+"team_no" "2"
+"owned_by" "1"
+"angle" "270"
+"classname" "item_tfgoal"
+}
+{
+"origin" "2560 256 448"
+"noise" "ogre/ogwake.wav"
+"owners_team_broadcast" "\n\n\nYour flag has been Taken!\n"
+"items" "262144"
+"team_drop" "The Enemy lost Your flag!\n"
+"non_team_drop" "Your team lost the Enemy flag!\n"
+"skin" "2"
+"netname" "Red Flag"
+"message" "You have the Enemy flag!\nTake it home!"
+"team_broadcast" "\n\n\nYour team has the Enemy flag!\n"
+"noise3" "Your flag returned to base!\n"
+"noise4" "The Enemy flag returned to base!\n"
+"mdl" "progs/tf_flag.mdl"
+"goal_no" "2"
+"goal_activation" "693"
+"pausetime" "30"
+"team_no" "1"
+"owned_by" "2"
+"delay" "30"
+"angle" "90"
+"classname" "item_tfgoal"
+}
+{
+"origin" "2176 -208 176"
+"non_team_broadcast" "Your flag was Captured!\n"
+"owned_by" "2"
+"noise" "items/cap2.wav"
+"message" "You Captured the Enemy flag!\n"
+"count" "10"
+"goal_effects" "19"
+"items_allowed" "1"
+"team_no" "2"
+"axhitme" "1"
+"frags" "10"
+"netname_team_broadcast" " Captured the Enemy flag!\n"
+"goal_activation" "1"
+"team_broadcast" "Your team Captured the Enemy flag!\n"
+"netname" "Team 2 Cap"
+"classname" "info_tfgoal"
+}
+{
+"origin" "384 464 176"
+"non_team_broadcast" "Your flag was Captured!\n"
+"noise" "items/cap1.wav"
+"message" "You Captured the Enemy flag!\n"
+"count" "10"
+"goal_effects" "19"
+"items_allowed" "2"
+"team_no" "1"
+"axhitme" "2"
+"frags" "10"
+"goal_activation" "1"
+"netname_team_broadcast" " Captured the Enemy flag!\n"
+"team_broadcast" "Your team Captured the Enemy flag!\n"
+"netname" "Team 1 Cap"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-304 768 608"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2864 768 656"
+"team_no" "2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1280 160 96"
+"angle" "90"
+"classname" "info_player_start"
+}
+{
+"origin" "-304 -464 592"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2864 -464 624"
+"team_no" "2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "752 32 496"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1856 208 496"
+"team_no" "2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2176 560 80"
+"mdl" "progs/backpack.mdl"
+"noise" "weapons/lock4.wav"
+"netname" "backpack"
+"goal_activation" "1"
+"team_no" "2"
+"wait" "4"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "25"
+"ammo_cells" "100"
+"ammo_medikit" "100"
+"no_grenades_1" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "384 -304 80"
+"mdl" "progs/backpack.mdl"
+"noise" "weapons/lock4.wav"
+"netname" "backpack"
+"goal_activation" "1"
+"team_no" "1"
+"wait" "4"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "100"
+"health" "50"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "25"
+"ammo_cells" "100"
+"ammo_medikit" "100"
+"no_grenades_1" "1"
+"classname" "info_tfgoal"
+}
+{
+"model" "*1"
+"speed" "150"
+"angle" "-1"
+"classname" "trigger_push"
+}
+{
+"model" "*2"
+"speed" "150"
+"angle" "-1"
+"classname" "trigger_push"
+}
+{
+"origin" "2784 768 656"
+"team_no" "2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2864 688 656"
+"team_no" "2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2864 -384 624"
+"team_no" "2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2624 -272 288"
+"team_no" "2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "2624 -128 288"
+"team_no" "2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1856 128 496"
+"team_no" "2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1856 288 496"
+"team_no" "2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "752 112 496"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "752 -48 496"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "752 -32 480"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "16 384 288"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "16 528 288"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-224 768 608"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-304 688 608"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-304 -384 592"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}

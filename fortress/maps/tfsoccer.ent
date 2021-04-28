@@ -1,0 +1,1058 @@
+{
+"classname" "worldspawn"
+"message" "TFSoccer 1.1 - 6 players\n gushen@uol.com.br"
+"sounds" "4"
+}
+{
+"classname" "info_player_start"
+"angle" "89"
+"origin" "560 -1136 64"
+}
+{
+"classname" "light"
+"angle" "271"
+"light" "500"
+"style" "0"
+"origin" "-64 448 320"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "500"
+"style" "0"
+"origin" "448 448 320"
+}
+{
+"classname" "light"
+"angle" "272"
+"light" "500"
+"style" "0"
+"origin" "448 -704 320"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "500"
+"style" "0"
+"origin" "-64 -704 320"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "500"
+"style" "0"
+"origin" "448 448 128"
+}
+{
+"classname" "light"
+"angle" "271"
+"light" "500"
+"style" "0"
+"origin" "-64 448 128"
+}
+{
+"classname" "light"
+"angle" "272"
+"light" "500"
+"style" "0"
+"origin" "448 -704 128"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "500"
+"style" "0"
+"origin" "-64 -704 128"
+}
+{
+"classname" "light"
+"angle" "271"
+"light" "500"
+"style" "0"
+"origin" "448 -128 320"
+}
+{
+"classname" "light"
+"angle" "271"
+"light" "500"
+"style" "0"
+"origin" "-64 -128 320"
+}
+{
+"classname" "light"
+"angle" "271"
+"light" "500"
+"style" "0"
+"origin" "-64 -128 128"
+}
+{
+"classname" "light"
+"angle" "271"
+"light" "500"
+"style" "0"
+"origin" "448 -128 128"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "300"
+"style" "0"
+"origin" "-64 -1152 320"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "300"
+"style" "0"
+"origin" "448 -1152 320"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "300"
+"style" "0"
+"origin" "448 832 320"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "300"
+"style" "0"
+"origin" "-64 832 320"
+}
+{
+"classname" "info_tfdetect"
+"hook_out" "1"
+"impulse" "1"
+"team_broadcast" "Select what u want\n\n1 - Blue players\n2 - Red players\n\n3 -  The ball\n\n4 - The cheerleaders :]"
+"maxammo_shells" "1019"
+"maxammo_nails" "1019"
+"ammo_medikit" "3"
+"ammo_detpack" "3"
+"maxammo_medikit" "1"
+"maxammo_rockets" "-1"
+"noise1" "Blue players\n\n3 - Soldier"
+"noise2" "Red players\n\n3 - Soldier"
+"noise4" "1 - Scout\n2 - Sniper\n3 - Soldier\n4 - Demo\n5 - Doctor\n6 - Big guy\n7 - Fireman\n8 - James Bond\n9 - Engineer"
+"origin" "528 -1136 64"
+}
+{
+"classname" "light"
+"angle" "90"
+"light" "300"
+"style" "0"
+"origin" "-400 416 192"
+}
+{
+"classname" "light"
+"angle" "90"
+"light" "300"
+"style" "0"
+"origin" "-400 -160 192"
+}
+{
+"classname" "light"
+"angle" "90"
+"light" "300"
+"style" "0"
+"origin" "-400 -736 192"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "50"
+"dmg" "1"
+"wait" "10"
+"lip" "0"
+"health" "0"
+"targetname" "door1"
+"sounds" "3"
+"message" "Wanna play? Ask them..."
+"model" "*1"
+}
+{
+"classname" "func_button"
+"sounds" "3"
+"target" "door1"
+"delay" "2"
+"wait" "5"
+"speed" "5"
+"health" "0"
+"model" "*2"
+}
+{
+"classname" "trigger_once"
+"style" "32"
+"delay" "1"
+"sounds" "2"
+"message" "Ready to play TFSoccer??"
+"target" "door1"
+"model" "*3"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"team_no" "1"
+"message" "TFSoccer by Gus"
+"goal_activation" "2"
+"origin" "-464 632 104"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"team_no" "1"
+"message" "TFSoccer by Gus"
+"goal_activation" "2"
+"origin" "-328 632 104"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"team_no" "2"
+"message" "Comments to\ngushen@uol.com.br"
+"goal_activation" "2"
+"origin" "-464 528 104"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"team_no" "2"
+"message" "Comments to\ngushen@uol.com.br"
+"goal_activation" "2"
+"origin" "-328 528 104"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"armorclass" "4"
+"invincible_finished" "9999"
+"ammo_rockets" "50"
+"goal_effects" "1"
+"armorvalue" "100"
+"no_grenades_2" "-2"
+"origin" "-464 624 104"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"armorclass" "4"
+"invincible_finished" "9999"
+"ammo_rockets" "50"
+"goal_effects" "1"
+"armorvalue" "100"
+"no_grenades_2" "-2"
+"origin" "-328 624 104"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"armorclass" "4"
+"invincible_finished" "9999"
+"ammo_rockets" "50"
+"goal_effects" "1"
+"armorvalue" "100"
+"no_grenades_2" "-2"
+"origin" "-464 520 104"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"armorclass" "4"
+"invincible_finished" "9999"
+"ammo_rockets" "50"
+"goal_effects" "1"
+"armorvalue" "100"
+"no_grenades_2" "-2"
+"origin" "-328 520 104"
+}
+{
+"classname" "trigger_teleport"
+"target" "middle_grass"
+"model" "*4"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "87"
+"targetname" "middle_grass"
+"origin" "192 -152 536"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"armorclass" "4"
+"invincible_finished" "9999"
+"ammo_rockets" "50"
+"goal_effects" "1"
+"armorvalue" "100"
+"team_no" "3"
+"broadcast" "\nGet ready, the ball is coming!"
+"pausetime" "10"
+"origin" "768 -608 -96"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "3"
+"message" "Your are the ball !"
+"goal_activation" "2"
+"origin" "760 -608 -96"
+}
+{
+"classname" "light"
+"angle" "90"
+"light" "300"
+"style" "0"
+"origin" "680 528 104"
+}
+{
+"classname" "light"
+"angle" "90"
+"light" "300"
+"style" "0"
+"origin" "680 -160 104"
+}
+{
+"classname" "light"
+"angle" "90"
+"light" "300"
+"style" "0"
+"origin" "680 -848 104"
+}
+{
+"classname" "info_tfgoal"
+"team_no" "4"
+"ammo_nails" "-200"
+"ammo_rockets" "-50"
+"ammo_shells" "-100"
+"goal_effects" "1"
+"goal_activation" "1"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"origin" "672 -8 96"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "4"
+"message" "TFSoccer by Gus"
+"goal_activation" "2"
+"origin" "656 -8 112"
+}
+{
+"classname" "item_tfgoal"
+"goal_activation" "258"
+"owned_by" "4"
+"origin" "1224 -608 -184"
+}
+{
+"classname" "item_tfgoal"
+"goal_activation" "258"
+"owned_by" "4"
+"origin" "768 -608 -96"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "-2"
+"targetname" "out1"
+"origin" "192 -152 536"
+}
+{
+"classname" "trigger_teleport"
+"target" "out1"
+"team_no" "3"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"target" "out1"
+"team_no" "3"
+"model" "*6"
+}
+{
+"classname" "trigger_teleport"
+"target" "out1"
+"team_no" "3"
+"model" "*7"
+}
+{
+"classname" "trigger_teleport"
+"target" "out1"
+"team_no" "3"
+"model" "*8"
+}
+{
+"classname" "trigger_teleport"
+"target" "out1"
+"team_no" "3"
+"model" "*9"
+}
+{
+"classname" "trigger_teleport"
+"target" "out1"
+"team_no" "3"
+"model" "*10"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "500"
+"message" "GOAL!"
+"style" "32"
+"delay" "0"
+"team_no" "3"
+"frags" "1"
+"increase_team2" "1"
+"target" "golred"
+"model" "*11"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "50 770 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "98 770 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "146 770 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "194 770 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "242 770 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "290 770 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "338 770 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "50 770 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "98 770 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "146 770 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "194 770 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "242 770 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "290 770 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "338 770 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "194 770 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "242 770 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "290 770 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "338 770 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "146 770 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "98 770 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "50 770 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "50 770 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "98 770 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "146 770 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "194 770 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "242 770 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "290 770 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "338 770 -38"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"delay" "2"
+"health" "1"
+"model" "*12"
+}
+{
+"classname" "info_tfgoal"
+"team_no" "1"
+"frags" "1"
+"goal_effects" "2"
+"targetname" "golblue"
+"ammo_rockets" "50"
+"increase_team1" "1"
+"origin" "544 864 -90"
+}
+{
+"classname" "info_tfgoal"
+"team_no" "2"
+"frags" "1"
+"goal_effects" "2"
+"targetname" "golred"
+"ammo_rockets" "50"
+"increase_team2" "1"
+"origin" "592 864 -90"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "500"
+"message" "GOAL!"
+"style" "32"
+"delay" "0"
+"team_no" "3"
+"frags" "1"
+"target" "golblue"
+"model" "*13"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "50 -1090 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "50 -1090 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "50 -1090 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "50 -1090 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "98 -1090 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "98 -1090 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "98 -1090 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "98 -1090 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "146 -1090 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "194 -1090 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "146 -1090 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "146 -1090 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "146 -1090 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "242 -1090 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "290 -1090 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "290 -1090 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "290 -1090 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "242 -1090 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "338 -1090 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "338 -1090 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "338 -1090 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOOOOOAAAALLLLLL !!!!!!!!"
+"origin" "194 -1090 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "194 -1090 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOOALLL!!!!!!"
+"origin" "242 -1090 -38"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "194 -1090 18"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "242 -1090 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "290 -1090 74"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"invincible_finished" "0.01"
+"team_no" "3"
+"wait" "3"
+"broadcast" "GOAL!!"
+"origin" "338 -1090 74"
+}
+{
+"classname" "light"
+"angle" "87"
+"light" "200"
+"style" "0"
+"origin" "192 880 272"
+}
+{
+"classname" "light"
+"angle" "271"
+"light" "200"
+"style" "0"
+"origin" "192 -1200 272"
+}
+{
+"classname" "info_tfgoal"
+"ammo_rockets" "50"
+"goal_effects" "1"
+"goal_activation" "1"
+"no_grenades_1" "5"
+"wait" "10"
+"mdl" "progs/backpack.mdl"
+"origin" "192 848 -80"
+}
+{
+"classname" "info_tfgoal"
+"ammo_rockets" "50"
+"goal_effects" "1"
+"no_grenades_1" "5"
+"goal_activation" "1"
+"wait" "10"
+"mdl" "progs/backpack.mdl"
+"origin" "192 -1168 -80"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"delay" "2"
+"health" "1"
+"model" "*14"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"delay" "2"
+"health" "1"
+"model" "*15"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"delay" "2"
+"health" "1"
+"model" "*16"
+}
+ 

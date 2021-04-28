@@ -1,0 +1,1817 @@
+{
+"_tb_def" "builtin:Teamfortress.fgd"
+"classname" "worldspawn"
+"message" "The Well\n1on1 version by klown (2020)\nDiscord: www.quakeworldteamfortress.com\n"
+"sounds" "4"
+"wad" "/home/danni/Games/QuakeDev/wads/well6-aus.wad;C:/Quakes/Quake/wad/well6.wad"
+"worldtype" "0"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"lip" "15"
+"model" "*1"
+"netname" "tower_door_blue"
+"sounds" "1"
+"speed" "300"
+"team_no" "1"
+"wait" "1"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"dmg" "0"
+"lip" "0"
+"model" "*2"
+"netname" "trigger_multiple 4"
+"sounds" "4"
+"speed" "100"
+"style" "32"
+"target" "liftb1"
+"wait" "11"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"dmg" "0"
+"lip" "0"
+"model" "*3"
+"netname" "trigger_multiple 5"
+"sounds" "4"
+"speed" "100"
+"style" "32"
+"target" "liftb2"
+"wait" "11"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"lip" "200"
+"model" "*4"
+"netname" "func_door 6"
+"sounds" "1"
+"speed" "170"
+"targetname" "liftb2"
+"wait" "4"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"lip" "200"
+"model" "*5"
+"netname" "func_door 7"
+"sounds" "1"
+"speed" "170"
+"targetname" "liftb1"
+"wait" "4"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"lip" "5"
+"model" "*6"
+"netname" "func_door 3"
+"sounds" "4"
+"speed" "100"
+"targetname" "blues_bars1"
+"wait" "4"
+}
+{
+"angle" "270"
+"classname" "func_button"
+"delay" "0"
+"health" "1"
+"model" "*7"
+"netname" "func_button 5"
+"sounds" "3"
+"speed" "20"
+"target" "blues_bars1"
+"wait" "5"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"lip" "15"
+"model" "*8"
+"netname" "tower_door_red"
+"sounds" "1"
+"speed" "300"
+"team_no" "2"
+"wait" "1"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"dmg" "0"
+"lip" "0"
+"model" "*9"
+"netname" "trigger_multiple 11"
+"sounds" "4"
+"speed" "100"
+"style" "32"
+"target" "liftr1"
+"wait" "11"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"dmg" "0"
+"lip" "0"
+"model" "*10"
+"netname" "trigger_multiple 10"
+"sounds" "4"
+"speed" "100"
+"style" "32"
+"target" "liftr2"
+"wait" "11"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"lip" "200"
+"model" "*11"
+"netname" "func_door 10"
+"sounds" "1"
+"speed" "170"
+"targetname" "liftr2"
+"wait" "4"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"lip" "5"
+"model" "*12"
+"netname" "func_door 14"
+"sounds" "4"
+"speed" "100"
+"targetname" "reds_bars1"
+"wait" "4"
+}
+{
+"angle" "90"
+"classname" "func_button"
+"delay" "0"
+"health" "1"
+"model" "*13"
+"netname" "func_button 5"
+"sounds" "3"
+"speed" "20"
+"target" "reds_bars1"
+"wait" "5"
+}
+{
+"angle" "90"
+"classname" "light_flame_small_yellow"
+"light" "200"
+"origin" "98 614 -332"
+"style" "0"
+}
+{
+"angle" "135"
+"b_o" "Your flag was taken.\n"
+"b_t" "Your team got their flag.\n"
+"classname" "item_tfgoal"
+"d_n" "Your team lost their flag.\n"
+"d_n_n" " dropped blue's flag.\n"
+"d_t" "The enemy lost your flag.\n"
+"delay" "10"
+"g_a" "4789"
+"goal_no" "1"
+"items" "131072"
+"mdl" "progs/tf_flag.mdl"
+"message" "You have their flag.\nTake it home!\n"
+"n_b" " got blue's flag.\n"
+"netname" "blue's flag"
+"noise" "ogre/ogwake.wav"
+"noise3" "Your flag returned.\n"
+"noise4" "Their flag returned.\n"
+"origin" "-2 650 240"
+"owned_by" "1"
+"pausetime" "10"
+"skin" "1"
+"team_no" "2"
+}
+{
+"axhitme" "2"
+"classname" "info_tfgoal"
+"count" "10"
+"frags" "10"
+"goal_activation" "1"
+"goal_effects" "3"
+"goal_result" "2"
+"items_allowed" "2"
+"message" "You captured their flag.\n"
+"netname" "team one dropoff"
+"netname_broadcast" " captured red's flag.\n"
+"noise" "misc/secret.wav"
+"origin" "-12 922 -335"
+"owned_by" "2"
+"owners_team_broadcast" "Your flag was captured.\n"
+"target" "cap1"
+"team_broadcast" "Your team captured their flag.\n"
+"team_no" "1"
+}
+{
+"angle" "90"
+"classname" "light_flame_small_yellow"
+"light" "200"
+"origin" "-96 614 -332"
+"style" "0"
+}
+{
+"angle" "90"
+"classname" "light_flame_small_yellow"
+"light" "200"
+"origin" "96 -614 -332"
+"style" "0"
+}
+{
+"angle" "90"
+"classname" "light_flame_small_yellow"
+"light" "200"
+"origin" "-98 -614 -332"
+"style" "0"
+}
+{
+"angle" "315"
+"b_o" "Your flag was taken.\n"
+"b_t" "Your team got their flag.\n"
+"classname" "item_tfgoal"
+"d_n" "Your team lost their flag.\n"
+"d_n_n" " dropped red's flag.\n"
+"d_t" "The enemy lost your flag.\n"
+"delay" "10"
+"g_a" "4789"
+"goal_no" "2"
+"items" "262144"
+"mdl" "progs/tf_flag.mdl"
+"message" "You have their flag.\nTake it home!\n"
+"n_b" " got red's flag.\n"
+"netname" "red's flag"
+"noise" "ogre/ogwake.wav"
+"noise3" "Your flag returned.\n"
+"noise4" "Their flag returned.\n"
+"origin" "0 -662 240"
+"owned_by" "2"
+"pausetime" "10"
+"skin" "2"
+"team_no" "1"
+}
+{
+"axhitme" "1"
+"classname" "info_tfgoal"
+"count" "10"
+"frags" "10"
+"goal_activation" "1"
+"goal_effects" "3"
+"goal_result" "2"
+"items_allowed" "1"
+"message" "You captured their flag.\n"
+"netname" "team two dropoff"
+"netname_broadcast" " captured blue's flag.\n"
+"noise" "misc/secret.wav"
+"origin" "-12 -947 -335"
+"owned_by" "1"
+"owners_team_broadcast" "Your flag was captured.\n"
+"target" "cap2"
+"team_broadcast" "Your team captured their flag.\n"
+"team_no" "2"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "400"
+"origin" "-3 -880 -104"
+"style" "0"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "400"
+"origin" "197 -292 -140"
+"style" "0"
+}
+{
+"angle" "270"
+"classname" "light"
+"light" "300"
+"origin" "-383 -1240 -258"
+"style" "0"
+}
+{
+"angle" "270"
+"classname" "light"
+"light" "300"
+"origin" "385 -1240 -258"
+"style" "0"
+}
+{
+"angle" "270"
+"classname" "light"
+"light" "350"
+"origin" "381 -1276 280"
+"style" "0"
+}
+{
+"angle" "270"
+"classname" "light"
+"light" "350"
+"origin" "-387 -1276 280"
+"style" "0"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "370"
+"origin" "-3 -880 240"
+"style" "0"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "400"
+"origin" "-203 -292 -140"
+"style" "0"
+}
+{
+"_tb_group" "3"
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"lip" "200"
+"model" "*14"
+"netname" "func_door 11"
+"sounds" "1"
+"speed" "170"
+"targetname" "liftr1"
+"wait" "4"
+}
+{
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_medikit" "100"
+"ammo_nails" "200"
+"ammo_rockets" "60"
+"ammo_shells" "200"
+"armortype" "0.8"
+"armorvalue" "300"
+"classname" "i_t_g"
+"g_e" "1"
+"health" "100"
+"netname" "Team 1 Cap refill"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"origin" "-84 -334 -2"
+"targetname" "cap1"
+}
+{
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_medikit" "100"
+"ammo_nails" "200"
+"ammo_rockets" "60"
+"ammo_shells" "200"
+"armortype" "0.8"
+"armorvalue" "300"
+"classname" "i_t_g"
+"g_e" "1"
+"health" "100"
+"netname" "Team 2 Cap refill"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"origin" "-164 -430 -2"
+"targetname" "cap2"
+}
+{
+"angle" "96"
+"classname" "info_intermission"
+"origin" "4 -506 -100"
+}
+{
+"angle" "244"
+"classname" "info_player_start"
+"origin" "-8 -58 106"
+}
+{
+"broadcast" "TeamFortress v2.0"
+"classname" "info_tfdetect"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"hook_out" "1"
+"non_team_broadcast" "Take the enemy key from their well tower back to the door on the bottom of yours.\n"
+"non_team_str_carried" "The enemy key is being carried by"
+"non_team_str_home" "The enemy key is in their base."
+"non_team_str_moved" "The enemy key is lying around."
+"origin" "-8 -390 -2"
+"team_str_carried" "Your key is being carried by"
+"team_str_home" "Your key is in your base."
+"team_str_moved" "Your key is lying around."
+}
+{
+"angle" "-2"
+"classname" "light"
+"light" "400"
+"origin" "0 882 -104"
+"style" "0"
+}
+{
+"angle" "-2"
+"classname" "light"
+"light" "400"
+"origin" "-200 294 -140"
+"style" "0"
+}
+{
+"angle" "-2"
+"classname" "light"
+"light" "950"
+"origin" "-4 -14 192"
+"style" "0"
+}
+{
+"angle" "-2"
+"classname" "light"
+"light" "400"
+"origin" "200 294 -163"
+"style" "0"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "300"
+"origin" "381 1241 -258"
+"style" "0"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "300"
+"origin" "-388 1242 -258"
+"style" "0"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "350"
+"origin" "-384 1276 280"
+"style" "0"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "350"
+"origin" "385 1269 280"
+"style" "0"
+}
+{
+"angle" "-2"
+"classname" "light"
+"light" "370"
+"origin" "0 882 240"
+"style" "0"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "250"
+"origin" "1144 -10 -482"
+"style" "0"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "250"
+"origin" "862 -10 -482"
+"style" "0"
+}
+{
+"ammo_cells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "40"
+"ammo_shells" "100"
+"armortype" "0.8"
+"armorvalue" "100"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "50"
+"mdl" "progs/backpack.mdl"
+"netname" "ammo_pak"
+"origin" "0 -764 -360"
+"team_no" "2"
+"wait" "5"
+}
+{
+"angle" "245"
+"classname" "info_player_teamspawn"
+"origin" "112.352 836.85 -280"
+"team_no" "1"
+}
+{
+"angle" "-65"
+"classname" "info_player_teamspawn"
+"origin" "-127.648 836.85 -280"
+"team_no" "1"
+}
+{
+"angle" "245"
+"classname" "info_player_teamspawn"
+"origin" "112.352 900.85 -280"
+"team_no" "1"
+}
+{
+"angle" "-65"
+"classname" "info_player_teamspawn"
+"origin" "-127.648 900.85 -280"
+"team_no" "1"
+}
+{
+"angle" "245"
+"classname" "info_player_teamspawn"
+"origin" "160.352 836.85 -280"
+"team_no" "1"
+}
+{
+"angle" "-65"
+"classname" "info_player_teamspawn"
+"origin" "-175.648 836.85 -280"
+"team_no" "1"
+}
+{
+"angle" "245"
+"classname" "info_player_teamspawn"
+"origin" "160.352 900.85 -280"
+"team_no" "1"
+}
+{
+"angle" "65"
+"classname" "info_player_teamspawn"
+"origin" "-160 -836.85 -304"
+"team_no" "2"
+}
+{
+"angle" "65"
+"classname" "info_player_teamspawn"
+"origin" "-112 -836.85 -304"
+"team_no" "2"
+}
+{
+"angle" "115"
+"classname" "info_player_teamspawn"
+"origin" "128 -836.85 -304"
+"team_no" "2"
+}
+{
+"angle" "115"
+"classname" "info_player_teamspawn"
+"origin" "176 -836.85 -304"
+"team_no" "2"
+}
+{
+"angle" "65"
+"classname" "info_player_teamspawn"
+"origin" "-160 -900.85 -304"
+"team_no" "2"
+}
+{
+"angle" "65"
+"classname" "info_player_teamspawn"
+"origin" "-112 -900.85 -304"
+"team_no" "2"
+}
+{
+"angle" "115"
+"classname" "info_player_teamspawn"
+"origin" "128 -900.85 -304"
+"team_no" "2"
+}
+{
+"angle" "115"
+"classname" "info_player_teamspawn"
+"origin" "176 -900.85 -304"
+"team_no" "2"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "-32 -28 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "40 -28 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "bridge wire"
+"origin" "-96 4 -168"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "bridge wire"
+"origin" "80 12 -168"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "40 76 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "-32 76 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "bridge wire"
+"origin" "-88 124 -168"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "bridge wire"
+"origin" "88 132 -168"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "-32 164 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "40 164 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "bridge wire"
+"origin" "96 220 -240"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "40 244 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "-32 244 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "-32 348 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "40 348 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "40 444 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "-32 444 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "-32 -124 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "40 -124 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "-32 -212 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "40 -212 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "-32 -316 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "40 -316 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "-32 -420 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "courtyard bridge"
+"origin" "40 -420 -344"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "bridge wire"
+"origin" "88 -116 -168"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "bridge wire"
+"origin" "-88 -124 -168"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "bridge wire"
+"origin" "96 -248 -264"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "bridge wire"
+"origin" "-96 -256 -264"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "bridge wire"
+"origin" "-96 212 -240"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue left lift"
+"origin" "-296 396 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue left lift"
+"origin" "-176 404 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue left lift"
+"origin" "-168 524 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue left lift"
+"origin" "-312 532 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue courtyard respawn door"
+"origin" "0 572 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue right lift"
+"origin" "184 524 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue right lift"
+"origin" "192 404 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue right lift"
+"origin" "328 532 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue right lift"
+"origin" "312 396 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue right lift"
+"origin" "408 676 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue bottom right flagroom"
+"origin" "384 788 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue bottom right flagroom"
+"origin" "384 956 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue bottom right flagroom"
+"origin" "384 1092 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue bottom right flagroom"
+"origin" "320 1172 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue bottom right flagroom"
+"origin" "280 1132 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue bottom right flagroom"
+"origin" "160 1236 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue bottom right flagroom"
+"origin" "48 1236 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue bottom left flagroom"
+"origin" "-48 1236 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue bottom left flagroom"
+"origin" "-160 1236 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue bottom left flagroom"
+"origin" "-320 1172 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue bottom left flagroom"
+"origin" "-280 1132 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue bottom left flagroom"
+"origin" "-384 1092 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue bottom left flagroom"
+"origin" "-384 956 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue bottom left flagroom"
+"origin" "-384 788 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue left lift"
+"origin" "-392 676 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue water"
+"origin" "368 252 -488"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue water"
+"origin" "224 252 -488"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue water"
+"origin" "352 52 -560"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue water"
+"origin" "208 52 -560"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue water under bridge"
+"origin" "32 36 -560"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue water under bridge"
+"origin" "-40 36 -560"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue water"
+"origin" "-184 52 -560"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue water"
+"origin" "-328 52 -560"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue water"
+"origin" "-208 260 -480"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue water"
+"origin" "-352 260 -480"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue courtyard respawn"
+"origin" "-8 700 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue courtyard respawn"
+"origin" "-168 796 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue courtyard respawn"
+"origin" "-168 940 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue courtyard respawn"
+"origin" "-8 844 -376"
+}
+{
+"ammo_cells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "40"
+"ammo_shells" "100"
+"armortype" "0.8"
+"armorvalue" "100"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "50"
+"mdl" "progs/backpack.mdl"
+"netname" "ammo_pak"
+"origin" "1 764 -360"
+"team_no" "1"
+"wait" "5"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue courtyard respawn"
+"origin" "160 772 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue courtyard respawn"
+"origin" "160 916 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue courtyard respawn"
+"origin" "120 1036 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "blue courtyard respawn"
+"origin" "-64 1036 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "408 76 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "408 300 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "-424 76 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "-424 300 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "-424 492 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "-424 684 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue top left flagroom entry"
+"origin" "-392 844 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "-296 684 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "-168 588 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "-72 556 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "8 540 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "88 556 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "184 588 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "408 492 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "408 684 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue catwalk"
+"origin" "280 684 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue top right flagroom entry"
+"origin" "400 892 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue top right flagroom entry"
+"origin" "400 1036 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue top right flagroom entry"
+"origin" "384 1212 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom window"
+"origin" "8 604 214"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "88 684 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "152 732 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "24 764 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "-88 684 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "-152 748 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "8 668 214"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "168 828 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "168 924 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "136 1052 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom entry"
+"origin" "0 1228 190"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom entry"
+"origin" "8 1100 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "8 1052 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "8 956 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "8 860 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "-136 1052 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "-184 940 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue flagroom"
+"origin" "-184 844 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue top right flagroom entry"
+"origin" "184 1228 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue top left flagroom entry"
+"origin" "-216 1228 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue top left flagroom entry"
+"origin" "-376 1212 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue top left flagroom entry"
+"origin" "-376 1116 198"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "blue top left flagroom entry"
+"origin" "-392 956 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red left lift"
+"origin" "168 -524 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red courtyard respawn door"
+"origin" "0 -572 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red right lift"
+"origin" "-184 -524 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red right lift"
+"origin" "-328 -532 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red right lift"
+"origin" "-408 -676 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red bottom right flagroom"
+"origin" "-384 -788 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red left lift"
+"origin" "312 -532 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red left lift"
+"origin" "176 -404 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red left lift"
+"origin" "296 -396 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red right lift"
+"origin" "-192 -404 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red right lift"
+"origin" "-312 -396 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red courtyard respawn"
+"origin" "8 -700 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red courtyard respawn"
+"origin" "168 -796 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red courtyard respawn"
+"origin" "168 -940 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red courtyard respawn"
+"origin" "-120 -1036 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red courtyard respawn"
+"origin" "-160 -916 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red courtyard respawn"
+"origin" "-160 -772 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red courtyard respawn"
+"origin" "8 -844 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red courtyard respawn"
+"origin" "64 -1036 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red left lift"
+"origin" "392 -676 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red bottom left flagroom"
+"origin" "384 -788 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red bottom left flagroom"
+"origin" "384 -956 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red bottom left flagroom"
+"origin" "384 -1092 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red bottom left flagroom"
+"origin" "320 -1172 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red bottom left flagroom"
+"origin" "280 -1132 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red bottom left flagroom"
+"origin" "160 -1236 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red bottom left flagroom"
+"origin" "48 -1236 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red bottom right flagroom"
+"origin" "-48 -1236 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red bottom right flagroom"
+"origin" "-160 -1236 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red bottom right flagroom"
+"origin" "-320 -1172 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red bottom right flagroom"
+"origin" "-280 -1132 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red bottom right flagroom"
+"origin" "-384 -1092 -376"
+}
+{
+"angle" "0"
+"classname" "target_location"
+"message" "red bottom right flagroom"
+"origin" "-384 -956 -376"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red water"
+"origin" "-208 -52 -560"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red water"
+"origin" "-352 -52 -560"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red water"
+"origin" "-368 -252 -488"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red water"
+"origin" "-224 -252 -488"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red water under bridge"
+"origin" "-32 -36 -560"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red water under bridge"
+"origin" "40 -36 -560"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red water"
+"origin" "184 -52 -560"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red water"
+"origin" "328 -52 -560"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red water"
+"origin" "208 -260 -480"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red water"
+"origin" "352 -260 -480"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "-408 -76 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "-408 -300 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "-408 -492 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "-280 -684 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "-408 -684 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red top right flagroom entry"
+"origin" "-400 -892 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red top right flagroom entry"
+"origin" "-400 -1036 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red top right flagroom entry"
+"origin" "-384 -1212 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "-184 -588 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "-88 -556 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "-8 -540 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "72 -556 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "168 -588 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "296 -684 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red top left flagroom entry"
+"origin" "392 -844 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "424 -684 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "424 -492 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "424 -76 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red catwalk"
+"origin" "424 -300 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red top left flagroom entry"
+"origin" "392 -956 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red top left flagroom entry"
+"origin" "376 -1116 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red top left flagroom entry"
+"origin" "376 -1212 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red top left flagroom entry"
+"origin" "216 -1228 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom entry"
+"origin" "0 -1228 190"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red top right flagroom entry"
+"origin" "-184 -1228 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom entry"
+"origin" "-8 -1100 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "-8 -1052 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "-8 -956 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "-8 -860 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "-136 -1052 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "-168 -924 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "-168 -828 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "184 -844 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "184 -940 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "136 -1052 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "152 -748 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "88 -684 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "-24 -764 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "-88 -684 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "-152 -732 198"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom"
+"origin" "-8 -668 214"
+}
+{
+"angle" "180"
+"classname" "target_location"
+"message" "red flagroom window"
+"origin" "-8 -604 214"
+}

@@ -1,0 +1,189 @@
+{
+"classname" "worldspawn"
+"angle" "90"
+"message" "Roman Colosseum \nBy [REV6]Freebie\n"
+"sounds" "1"
+"worldtype" "0"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "750"
+"origin" "0 0 800"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "600"
+"origin" "448 448 800"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "500"
+"origin" "-1088 0 800"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "0 -768 528"
+}
+{
+"classname" "info_tfdetect"
+"angle" "90"
+"impulse" "4"
+"hook_out" "1"
+"b_t" "Select your team\n\n1- Blue\n2- Red\n\n"
+"origin" "0 -768 650"
+}
+{
+"classname" "light"
+"angle" "-2"
+"style" "0"
+"light" "600"
+"origin" "-448 448 800"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "500"
+"origin" "1088 0 800"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "500"
+"origin" "0 640 800"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "500"
+"origin" "0 -640 800"
+}
+{
+"classname" "light"
+"angle" "-2"
+"style" "0"
+"light" "600"
+"origin" "-448 -448 800"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "600"
+"origin" "448 -448 800"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "500"
+"origin" "-672 0 800"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "500"
+"origin" "672 0 800"
+}
+{
+"classname" "i_p_t"
+"netname" "team1_spawn"
+"team_no" "1"
+"origin" "-1216 0 512"
+}
+{
+"classname" "i_p_t"
+"angle" "180"
+"netname" "team2_spawn"
+"team_no" "2"
+"origin" "1216 0 512"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "100"
+"owned_by" "1"
+"netname" "BackPack"
+"message" "You're loaded.\n"
+"noise" "weapons/lock4.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "1"
+"g_e" "17"
+"ammo_nails" "200"
+"ammo_medikit" "150"
+"armorvalue" "300"
+"health" "100"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "100"
+"origin" "-992 0 512"
+}
+{
+"classname" "trigger_multiple"
+"target" "bluedoor"
+"sounds" "3"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"owned_by" "1"
+"sounds" "3"
+"wait" "1"
+"dmg" "0"
+"team_no" "1"
+"lip" "64"
+"health" "1"
+"targetname" "bluedoor"
+"model" "*2"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "100"
+"owned_by" "2"
+"netname" "BackPack"
+"message" "You're loaded.\n"
+"noise" "weapons/lock4.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "1"
+"g_e" "17"
+"ammo_nails" "200"
+"ammo_medikit" "150"
+"armorvalue" "300"
+"health" "100"
+"team_no" "2"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "100"
+"origin" "992 0 512"
+}
+{
+"classname" "trigger_multiple"
+"target" "reddoor"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"owned_by" "2"
+"sounds" "3"
+"wait" "1"
+"lip" "64"
+"health" "1"
+"team_no" "2"
+"targetname" "reddoor"
+"model" "*4"
+}

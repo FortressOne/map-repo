@@ -1,0 +1,3149 @@
+// worldspawn
+{
+ "classname" "worldspawn"
+ "wad" "e:\rock1.wad;e:\rock3.wad;e:\signs.wad"
+ "light" "0"
+ "sounds" "6"
+ "worldtype" "2"
+ "message" "  Gaze into the Dark Heart of * AOE CP\n\nRock2 Coop\nAOE Creation (Mega coop suck)\n"
+}
+// Entities:g[1] -> func_door:b[1]
+{
+ "classname" "func_door"
+ "model" "*1"
+ "health" "0"
+ "dmg" "0"
+ "lip" "1"
+ "wait" "3"
+ "sounds" "1"
+ "speed" "200"
+ "angle" "-2"
+ "spawnflags" "16"
+}
+{
+"classname" "item_key1"
+"origin" "-2624 1824 768"
+}
+{
+"classname" "monster_army"
+"origin" "-2592 1888 736"
+"angle" "0"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_dog"
+"origin" "-2240 1792 800"
+"angle" "0"
+"respawn_time" "10"
+"lives" "5"
+}
+{
+"classname" "monster_shambler"
+"origin" "-2592 1760 736"
+"angle" "0"
+"respawn_time" "5"
+"lives" "5"
+}
+// Entities:g[1] -> func_plat:b[6]
+{
+ "classname" "func_plat"
+ "model" "*2"
+ "height" "508"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "2"
+ "sounds" "1"
+ "speed" "350"
+}
+// Entities:g[1] -> func_plat:b[7]
+{
+ "classname" "func_plat"
+ "model" "*3"
+ "height" "508"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "2"
+ "sounds" "1"
+ "speed" "350"
+}
+// Entities:g[1] -> func_door:b[8]
+{
+ "classname" "func_door"
+ "model" "*4"
+ "health" "0"
+ "dmg" "0"
+ "lip" "1"
+ "wait" "3"
+ "sounds" "1"
+ "speed" "200"
+ "angle" "-2"
+ "spawnflags" "8"
+}
+{
+"classname" "item_key2"
+"origin" "864 -864 448"
+}
+{
+"classname" "monster_wizard"
+"origin" "1056 -320 480"
+"angle" "0"
+"lives" "5"
+"respawn_time" "5"
+}
+// Entities:g[1] -> func_plat:b[11]
+{
+ "classname" "func_plat"
+ "model" "*5"
+ "height" "508"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "2"
+ "sounds" "1"
+ "speed" "350"
+}
+// Entities:g[1] -> func_plat:b[12]
+{
+ "classname" "func_plat"
+ "model" "*6"
+ "height" "508"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "2"
+ "sounds" "1"
+ "speed" "350"
+}
+// Entities:g[1] -> func_door:b[13]
+{
+ "classname" "func_door"
+ "model" "*7"
+ "team_no" "2"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "4"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[14]
+{
+ "classname" "func_door"
+ "model" "*8"
+ "team_no" "2"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "4"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[15]
+{
+ "classname" "func_door"
+ "model" "*9"
+ "team_no" "1"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "4"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[16]
+{
+ "classname" "func_door"
+ "model" "*10"
+ "team_no" "1"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "4"
+ "speed" "200"
+ "angle" "-1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1784 3449 730"
+"team_no" "1"
+"netname" "b"
+"angle" "198"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1784 3337 730"
+"team_no" "1"
+"netname" "b"
+"angle" "177"
+}
+{
+"classname" "info_player_start"
+"origin" "208 -716 488"
+"angle" "99"
+}
+{
+"classname" "light"
+"origin" "-176 2168 736"
+"targetname" "bspot1main"
+"target" "bspot1null"
+"light" "1600"
+"spawnflags" "1"
+"style" "32"
+}
+{
+"classname" "info_null"
+"origin" "-64 1768 616"
+"targetname" "bspot1null"
+}
+// Entities:g[1] -> trigger_multiple:b[22]
+{
+ "classname" "trigger_multiple"
+ "model" "*11"
+ "team_no" "2"
+ "delay" "0"
+ "style" "32"
+ "target" "brelay1a"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "11"
+ "sounds" "4"
+ "speed" "100"
+}
+{
+"classname" "light"
+"origin" "-572 2852 920"
+"speed" "100"
+"targetname" "bspot1main"
+"light" "400"
+"spawnflags" "1"
+"style" "32"
+}
+{
+"classname" "light"
+"origin" "560 2860 920"
+"targetname" "bspot2main"
+"light" "400"
+"spawnflags" "1"
+"style" "33"
+}
+{
+"classname" "info_null"
+"origin" "-552 2360 604"
+"targetname" "bspot2null"
+}
+{
+"classname" "light"
+"origin" "-120 2516 736"
+"targetname" "bspot2main"
+"target" "bspot2null"
+"light" "1600"
+"spawnflags" "1"
+"style" "33"
+}
+// Entities:g[1] -> trigger_multiple:b[27]
+{
+ "classname" "trigger_multiple"
+ "model" "*12"
+ "team_no" "2"
+ "delay" "0"
+ "style" "32"
+ "target" "brelay2a"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "11"
+ "sounds" "4"
+ "speed" "100"
+}
+{
+"classname" "light"
+"origin" "2088 2736 748"
+"targetname" "blite1"
+"light" "250"
+"spawnflags" "1"
+"style" "34"
+}
+{
+"classname" "light"
+"origin" "2360 2944 744"
+"targetname" "blite1"
+"light" "250"
+"spawnflags" "1"
+"style" "34"
+}
+{
+"classname" "light"
+"origin" "2360 2736 744"
+"targetname" "blite1"
+"light" "250"
+"spawnflags" "1"
+"style" "34"
+}
+{
+"classname" "light"
+"origin" "2216 2736 748"
+"targetname" "blite1"
+"light" "250"
+"spawnflags" "1"
+"style" "34"
+}
+{
+"classname" "light"
+"origin" "2360 2312 744"
+"targetname" "blite1"
+"light" "250"
+"spawnflags" "1"
+"style" "34"
+}
+{
+"classname" "light"
+"origin" "2360 2104 744"
+"targetname" "blite1"
+"light" "250"
+"spawnflags" "1"
+"style" "34"
+}
+{
+"classname" "light"
+"origin" "2360 1952 744"
+"targetname" "blite1"
+"light" "250"
+"spawnflags" "1"
+"style" "34"
+}
+{
+"classname" "light"
+"origin" "2088 1952 748"
+"targetname" "blite1"
+"light" "250"
+"spawnflags" "1"
+"style" "34"
+}
+{
+"classname" "light"
+"origin" "2216 1952 748"
+"targetname" "blite1"
+"light" "250"
+"spawnflags" "1"
+"style" "34"
+}
+{
+"classname" "light"
+"origin" "2360 2524 744"
+"targetname" "blite1"
+"light" "250"
+"spawnflags" "1"
+"style" "34"
+}
+// Entities:g[1] -> trigger_multiple:b[38]
+{
+ "classname" "trigger_multiple"
+ "model" "*13"
+ "team_no" "2"
+ "target" "bliter1a"
+ "delay" "0"
+ "style" "32"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "11"
+ "sounds" "4"
+ "speed" "100"
+}
+// Entities:g[1] -> trigger_teleport:b[39]
+{
+ "classname" "trigger_teleport"
+ "model" "*14"
+ "team_no" "2"
+ "target" "bcell1"
+ "spawnflags" "3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1464 2472 736"
+"targetname" "bcell1"
+"angle" "90"
+}
+// Entities:g[1] -> func_door:b[41]
+{
+ "classname" "func_door"
+ "model" "*15"
+ "health" "0"
+ "dmg" "500"
+ "lip" "25"
+ "sounds" "0"
+ "speed" "1000"
+ "wait" "4"
+ "targetname" "bci2"
+ "netname" "brock"
+ "spawnflags" "32"
+ "angle" "-2"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-876 1908 482"
+"goal_effects" "1"
+"goal_activation" "2"
+"target" "bci1"
+"netname" "bcave1"
+"angle" "97"
+"style" "32"
+}
+// Entities:g[1] -> trigger_hurt:b[43]
+{
+ "classname" "trigger_hurt"
+ "model" "*16"
+ "axhitme" "1"
+ "delay" "1"
+ "dmg" "500"
+ "sounds" "4"
+}
+// Entities:g[1] -> trigger_multiple:b[44]
+{
+ "classname" "trigger_multiple"
+ "model" "*17"
+ "targetname" "bci1"
+ "delay" "0"
+ "style" "32"
+ "target" "bci2"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "8"
+ "sounds" "4"
+ "speed" "100"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-882 2102 460"
+"goal_effects" "1"
+"goal_activation" "2"
+"target" "bci1"
+"netname" "bcave1"
+"angle" "272"
+"style" "32"
+}
+{
+"classname" "trigger_relay"
+"origin" "-448 2976 816"
+"targetname" "brelay1"
+"delay" "10"
+"style" "32"
+"target" "bspot1main"
+"health" "0"
+"dmg" "0"
+"lip" "0"
+"wait" "4"
+"sounds" "4"
+"speed" "100"
+}
+{
+"classname" "trigger_relay"
+"origin" "-400 2976 816"
+"targetname" "brelay1"
+"target" "bspot1main"
+"delay" "0"
+"style" "32"
+"health" "0"
+"dmg" "0"
+"lip" "0"
+"wait" "4"
+"sounds" "4"
+"speed" "100"
+}
+{
+"classname" "trigger_relay"
+"origin" "-352 2976 816"
+"targetname" "brelay2"
+"delay" "10"
+"style" "33"
+"target" "bspot2main"
+"health" "0"
+"dmg" "0"
+"lip" "0"
+"wait" "4"
+"sounds" "4"
+"speed" "100"
+}
+{
+"classname" "trigger_relay"
+"origin" "-304 2976 816"
+"targetname" "brelay2"
+"target" "bspot2main"
+"delay" "0"
+"style" "33"
+"health" "0"
+"dmg" "0"
+"lip" "0"
+"wait" "4"
+"sounds" "4"
+"speed" "100"
+}
+{
+"classname" "trigger_relay"
+"origin" "2352 1648 752"
+"target" "blite1"
+"targetname" "bliter1"
+"delay" "0"
+"sounds" "4"
+"style" "34"
+}
+{
+"classname" "trigger_relay"
+"origin" "2320 1648 752"
+"targetname" "bliter1"
+"delay" "10"
+"sounds" "4"
+"style" "34"
+"target" "blite1"
+}
+// Entities:g[1] -> func_door:b[52]
+{
+ "classname" "func_door"
+ "model" "*18"
+ "team_no" "1"
+ "health" "0"
+ "dmg" "300"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "4"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[53]
+{
+ "classname" "func_door"
+ "model" "*19"
+ "health" "0"
+ "dmg" "500"
+ "lip" "-200"
+ "wait" "-1"
+ "sounds" "0"
+ "speed" "1000"
+ "targetname" "bhole"
+ "angle" "-2"
+}
+{
+"classname" "i_t_g"
+"netname" "Blue Path Cleared"
+"n_b" " blew a hole in Blues yard!\n"
+"team_no" "2"
+"frags" "2"
+"count" "2"
+"g_a" "2"
+"g_e" "3"
+"goal_result" "1"
+"message" "You cleared the path!\n"
+"target" "bhole"
+"origin" "-480 2440 448"
+}
+{
+"classname" "item_tfgoal"
+"origin" "1701 3636 753"
+"team_no" "3"
+"mdl" "progs/nerve1.mdl"
+}
+{
+"classname" "item_tfgoal"
+"origin" "1697 3644 753"
+"team_no" "3"
+"mdl" "progs/nerve1.mdl"
+}
+{
+"classname" "item_tfgoal"
+"origin" "1706 3643 753"
+"team_no" "3"
+"mdl" "progs/nerve1.mdl"
+}
+// Entities:g[1] -> trigger_once:b[58]
+{
+ "classname" "trigger_once"
+ "model" "*20"
+ "delay" "2"
+ "sounds" "4"
+ "style" "32"
+ "health" "1874919423"
+ "target" "glass1"
+ "netname" "trigger_once 1"
+}
+// Entities:g[1] -> func_door:b[59]
+{
+ "classname" "func_door"
+ "model" "*21"
+ "health" "0"
+ "dmg" "300"
+ "lip" "8"
+ "sounds" "0"
+ "speed" "16"
+ "wait" "10"
+ "targetname" "bluegas"
+ "netname" "brise2"
+ "angle" "-2"
+}
+// Entities:g[1] -> func_door:b[60]
+{
+ "classname" "func_door"
+ "model" "*22"
+ "health" "0"
+ "dmg" "300"
+ "lip" "0"
+ "sounds" "4"
+ "speed" "200"
+ "wait" "18"
+ "targetname" "gas"
+ "netname" "bblock"
+ "spawnflags" "1"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[61]
+{
+ "classname" "func_door"
+ "model" "*23"
+ "netname" "bhand"
+ "targetname" "bluegas"
+ "health" "0"
+ "dmg" "0"
+ "lip" "-11"
+ "wait" "13"
+ "sounds" "1"
+ "speed" "50"
+ "angle" "-2"
+}
+// Entities:g[1] -> func_door:b[62]
+{
+ "classname" "func_door"
+ "model" "*24"
+ "health" "0"
+ "dmg" "300"
+ "lip" "8"
+ "sounds" "0"
+ "speed" "16"
+ "wait" "10"
+ "targetname" "bluegas"
+ "netname" "brise1"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[63]
+{
+ "classname" "func_door"
+ "model" "*25"
+ "netname" "brise3"
+ "targetname" "bluegas"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "8"
+ "sounds" "4"
+ "speed" "12"
+ "spawnflags" "1"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[64]
+{
+ "classname" "func_door"
+ "model" "*26"
+ "team_no" "1"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "1"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> trigger_teleport:b[65]
+{
+ "classname" "trigger_teleport"
+ "model" "*27"
+ "team_no" "2"
+ "target" "bcell1"
+ "spawnflags" "3"
+}
+// Entities:g[1] -> func_door:b[66]
+{
+ "classname" "func_door"
+ "model" "*28"
+ "team_no" "1"
+ "health" "0"
+ "dmg" "300"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "4"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[67]
+{
+ "classname" "func_door"
+ "model" "*29"
+ "health" "0"
+ "dmg" "0"
+ "lip" "-2"
+ "wait" "4"
+ "sounds" "1"
+ "speed" "40"
+}
+{
+"classname" "light"
+"origin" "-1528 1840 744"
+"targetname" "blite2"
+"light" "250"
+"spawnflags" "1"
+"style" "35"
+}
+{
+"classname" "light"
+"origin" "-1736 1840 744"
+"targetname" "blite2"
+"light" "250"
+"spawnflags" "1"
+"style" "35"
+}
+{
+"classname" "light"
+"origin" "-2160 1840 744"
+"targetname" "blite2"
+"light" "250"
+"spawnflags" "1"
+"style" "35"
+}
+{
+"classname" "light"
+"origin" "-2368 1840 744"
+"targetname" "blite2"
+"light" "250"
+"spawnflags" "1"
+"style" "35"
+}
+{
+"classname" "light"
+"origin" "-1948 1840 744"
+"targetname" "blite2"
+"light" "250"
+"spawnflags" "1"
+"style" "35"
+}
+{
+"classname" "trigger_relay"
+"origin" "-2372 1716 848"
+"target" "blite2"
+"targetname" "bliter2"
+"delay" "0"
+"sounds" "4"
+"style" "35"
+}
+{
+"classname" "trigger_relay"
+"origin" "-2372 1716 832"
+"targetname" "bliter2"
+"delay" "10"
+"sounds" "4"
+"style" "35"
+"target" "blite2"
+}
+// Entities:g[1] -> trigger_multiple:b[75]
+{
+ "classname" "trigger_multiple"
+ "model" "*30"
+ "team_no" "2"
+ "target" "bliter2a"
+ "delay" "0"
+ "style" "32"
+ "wait" "11"
+ "sounds" "4"
+}
+// Entities:g[1] -> trigger_teleport:b[76]
+{
+ "classname" "trigger_teleport"
+ "model" "*31"
+ "team_no" "2"
+ "target" "bcell1"
+ "spawnflags" "3"
+}
+// Entities:g[1] -> func_door:b[77]
+{
+ "classname" "func_door"
+ "model" "*32"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[78]
+{
+ "classname" "func_door"
+ "model" "*33"
+ "team_no" "1"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "4"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[79]
+{
+ "classname" "func_door"
+ "model" "*34"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-2"
+}
+{
+"classname" "info_intermission"
+"origin" "-336 176 800"
+"mangle" "0 -77 0"
+"angle" "289"
+}
+{
+"classname" "info_tfdetect"
+"b_n" "   \nTake the enemy key to their gas chamber!\n"
+"ammo_detpack" "16"
+"ammo_medikit" "16"
+"impulse" "80"
+"hook_out" "1"
+"n_s_c" "Give fire support to"
+"n_s_m" "Their key is down."
+"n_s_h" "Their key is in the wardens office."
+"t_s_c" "You'd better stop"
+"t_s_m" "Your key is down."
+"t_s_h" "Your key is in the wardens office."
+"display_item_status2" "2"
+"display_item_status1" "1"
+"origin" "24 -8 864"
+}
+// Entities:g[1] -> func_door:b[82]
+{
+ "classname" "func_door"
+ "model" "*35"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[83]
+{
+ "classname" "func_door"
+ "model" "*36"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[84]
+{
+ "classname" "func_door"
+ "model" "*37"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[85]
+{
+ "classname" "func_door"
+ "model" "*38"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-1"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-432 2976 816"
+"targetname" "brelay1a"
+"group_no" "55"
+"target" "brelay1"
+"netname" "bpower1"
+"style" "32"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-336 2976 816"
+"targetname" "brelay2a"
+"group_no" "55"
+"target" "brelay2"
+"netname" "bpower2"
+"style" "33"
+}
+{
+"classname" "info_tfgoal"
+"origin" "2380 1628 748"
+"targetname" "bliter1a"
+"group_no" "55"
+"target" "bliter1"
+"netname" "bpower4"
+"style" "34"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-2384 1708 856"
+"targetname" "bliter2a"
+"group_no" "55"
+"target" "bliter2"
+"netname" "bpower3"
+"style" "35"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-808 1532 432"
+"team_no" "2"
+"playerclass" "6"
+"goal_activation" "1"
+"goal_effects" "1"
+"target" "bplu2"
+"wait" "40"
+"netname" "bplu1"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-864 1992 404"
+"netname" "bpow"
+"health" "-500"
+"t_length" "192"
+"noise" "weapons/detpack.wav"
+"targetname" "bci2"
+}
+// Entities:g[1] -> func_door:b[92]
+{
+ "classname" "func_door"
+ "model" "*39"
+ "health" "1"
+ "dmg" "0"
+ "lip" "1"
+ "wait" "5"
+ "sounds" "1"
+ "speed" "200"
+ "angle" "180"
+}
+// Entities:g[1] -> func_door:b[93]
+{
+ "classname" "func_door"
+ "model" "*40"
+ "sounds" "1"
+ "netname" "bplu2"
+ "target" "bci2"
+ "health" "0"
+ "dmg" "0"
+ "lip" "4"
+ "wait" "20"
+ "speed" "30"
+ "targetname" "bplu2"
+ "angle" "-2"
+}
+{
+"classname" "i_t_g"
+"target" "bplite"
+"netname" "bpoweroff"
+"message" "You have knocked out their Power!\n"
+"wait" "60"
+"remove_group_no" "55"
+"noise" "misc/power.wav"
+"g_e" "3"
+"b_b" "Blues Power is Down!\n"
+"activate_goal_no" "93"
+"frags" "2"
+"count" "2"
+"targetname" "bstart1"
+"origin" "864 3888 880"
+"style" "36"
+}
+{
+"classname" "i_t_g"
+"target" "bplite"
+"netname" "bpoweron"
+"wait" "1"
+"b_b" "Blues Power is Restored!"
+"goal_no" "93"
+"delay_time" "60"
+"restore_group_no" "55"
+"origin" "832 3888 880"
+"style" "36"
+}
+{
+"classname" "light"
+"origin" "928 3760 768"
+"light" "280"
+"targetname" "bplite"
+"style" "36"
+}
+{
+"classname" "i_t_g"
+"netname" "bkil"
+"group_no" "55"
+"goal_effects" "1"
+"targetname" "bgdr1"
+"health" "-500"
+"noise" "weapons/lhit.wav"
+"origin" "1240 3920 836"
+}
+// Entities:g[1] -> trigger_multiple:b[98]
+{
+ "classname" "trigger_multiple"
+ "model" "*41"
+ "health" "6500"
+ "team_no" "2"
+ "target" "bstart1"
+ "delay" "0"
+ "style" "36"
+ "wait" "60"
+ "sounds" "3"
+}
+{
+"classname" "light"
+"origin" "1400 3848 760"
+"light" "250"
+"targetname" "bplite"
+"style" "36"
+}
+// Entities:g[1] -> trigger_multiple:b[100]
+{
+ "classname" "trigger_multiple"
+ "model" "*42"
+ "netname" "bbeamtrig"
+ "wait" "0"
+ "sounds" "4"
+ "delay" "0"
+ "style" "32"
+ "target" "bgdr1"
+}
+{
+"classname" "light"
+"origin" "176 -2168 736"
+"targetname" "rspot1main"
+"target" "rspot1null"
+"light" "1600"
+"spawnflags" "1"
+"style" "37"
+}
+{
+"classname" "info_null"
+"origin" "64 -1768 616"
+"targetname" "rspot1null"
+}
+// Entities:g[1] -> trigger_multiple:b[103]
+{
+ "classname" "trigger_multiple"
+ "model" "*43"
+ "team_no" "1"
+ "delay" "0"
+ "style" "32"
+ "target" "rrelay1a"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "11"
+ "sounds" "4"
+ "speed" "100"
+}
+{
+"classname" "light"
+"origin" "572 -2852 920"
+"speed" "100"
+"targetname" "rspot1main"
+"light" "400"
+"spawnflags" "1"
+"style" "37"
+}
+{
+"classname" "light"
+"origin" "-560 -2860 920"
+"targetname" "rspot2main"
+"light" "400"
+"spawnflags" "1"
+"style" "38"
+}
+{
+"classname" "info_null"
+"origin" "552 -2360 604"
+"targetname" "rspot2null"
+}
+{
+"classname" "light"
+"origin" "120 -2516 736"
+"targetname" "rspot2main"
+"target" "rspot2null"
+"light" "1600"
+"spawnflags" "1"
+"style" "38"
+}
+// Entities:g[1] -> trigger_multiple:b[108]
+{
+ "classname" "trigger_multiple"
+ "model" "*44"
+ "team_no" "1"
+ "delay" "0"
+ "style" "32"
+ "target" "rrelay2a"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "11"
+ "sounds" "4"
+ "speed" "100"
+}
+{
+"classname" "light"
+"origin" "-2088 -2736 748"
+"targetname" "rlite1"
+"light" "250"
+"spawnflags" "1"
+"style" "39"
+}
+{
+"classname" "light"
+"origin" "-2360 -2944 744"
+"targetname" "rlite1"
+"light" "250"
+"spawnflags" "1"
+"style" "39"
+}
+{
+"classname" "light"
+"origin" "-2360 -2736 744"
+"targetname" "rlite1"
+"light" "250"
+"spawnflags" "1"
+"style" "39"
+}
+{
+"classname" "light"
+"origin" "-2216 -2736 748"
+"targetname" "rlite1"
+"light" "250"
+"spawnflags" "1"
+"style" "39"
+}
+{
+"classname" "light"
+"origin" "-2360 -2312 744"
+"targetname" "rlite1"
+"light" "250"
+"spawnflags" "1"
+"style" "39"
+}
+{
+"classname" "light"
+"origin" "-2360 -2104 744"
+"targetname" "rlite1"
+"light" "250"
+"spawnflags" "1"
+"style" "39"
+}
+{
+"classname" "light"
+"origin" "-2360 -1952 744"
+"targetname" "rlite1"
+"light" "250"
+"spawnflags" "1"
+"style" "39"
+}
+{
+"classname" "light"
+"origin" "-2088 -1952 748"
+"targetname" "rlite1"
+"light" "250"
+"spawnflags" "1"
+"style" "39"
+}
+{
+"classname" "light"
+"origin" "-2216 -1952 748"
+"targetname" "rlite1"
+"light" "250"
+"spawnflags" "1"
+"style" "39"
+}
+{
+"classname" "light"
+"origin" "-2360 -2524 744"
+"targetname" "rlite1"
+"light" "250"
+"spawnflags" "1"
+"style" "39"
+}
+// Entities:g[1] -> trigger_multiple:b[119]
+{
+ "classname" "trigger_multiple"
+ "model" "*45"
+ "team_no" "1"
+ "target" "rliter1a"
+ "delay" "0"
+ "style" "32"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "11"
+ "sounds" "4"
+ "speed" "100"
+}
+// Entities:g[1] -> trigger_teleport:b[120]
+{
+ "classname" "trigger_teleport"
+ "model" "*46"
+ "team_no" "1"
+ "target" "rcell1"
+ "spawnflags" "3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1464 -2472 736"
+"targetname" "rcell1"
+"angle" "270"
+}
+// Entities:g[1] -> func_door:b[122]
+{
+ "classname" "func_door"
+ "model" "*47"
+ "health" "0"
+ "dmg" "500"
+ "lip" "25"
+ "sounds" "0"
+ "speed" "1000"
+ "wait" "4"
+ "targetname" "rci2"
+ "netname" "rrock"
+ "spawnflags" "32"
+ "angle" "-2"
+}
+{
+"classname" "info_tfgoal"
+"origin" "876 -1908 482"
+"goal_effects" "1"
+"goal_activation" "2"
+"target" "rci1"
+"netname" "rcave1"
+"angle" "97"
+"style" "32"
+}
+// Entities:g[1] -> trigger_hurt:b[124]
+{
+ "classname" "trigger_hurt"
+ "model" "*48"
+ "axhitme" "2"
+ "delay" "1"
+ "dmg" "500"
+ "sounds" "4"
+}
+// Entities:g[1] -> trigger_multiple:b[125]
+{
+ "classname" "trigger_multiple"
+ "model" "*49"
+ "targetname" "rci1"
+ "delay" "0"
+ "style" "32"
+ "target" "rci2"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "8"
+ "sounds" "4"
+ "speed" "100"
+}
+{
+"classname" "info_tfgoal"
+"origin" "882 -2102 460"
+"goal_effects" "1"
+"goal_activation" "2"
+"target" "rci1"
+"netname" "rcave1"
+"angle" "272"
+"style" "32"
+}
+{
+"classname" "trigger_relay"
+"origin" "448 -2976 816"
+"targetname" "rrelay1"
+"delay" "10"
+"style" "37"
+"target" "rspot1main"
+"health" "0"
+"dmg" "0"
+"lip" "0"
+"wait" "4"
+"sounds" "4"
+"speed" "100"
+}
+{
+"classname" "trigger_relay"
+"origin" "400 -2976 816"
+"targetname" "rrelay1"
+"target" "rspot1main"
+"delay" "0"
+"style" "37"
+"health" "0"
+"dmg" "0"
+"lip" "0"
+"wait" "4"
+"sounds" "4"
+"speed" "100"
+}
+{
+"classname" "trigger_relay"
+"origin" "352 -2976 816"
+"targetname" "rrelay2"
+"delay" "10"
+"style" "38"
+"target" "rspot2main"
+"health" "0"
+"dmg" "0"
+"lip" "0"
+"wait" "4"
+"sounds" "4"
+"speed" "100"
+}
+{
+"classname" "trigger_relay"
+"origin" "304 -2976 816"
+"targetname" "rrelay2"
+"target" "rspot2main"
+"delay" "0"
+"style" "38"
+"health" "0"
+"dmg" "0"
+"lip" "0"
+"wait" "4"
+"sounds" "4"
+"speed" "100"
+}
+{
+"classname" "trigger_relay"
+"origin" "-2352 -1648 752"
+"target" "rlite1"
+"targetname" "rliter1"
+"delay" "0"
+"sounds" "4"
+"style" "39"
+}
+{
+"classname" "trigger_relay"
+"origin" "-2320 -1648 752"
+"targetname" "rliter1"
+"delay" "10"
+"sounds" "4"
+"style" "39"
+"target" "rlite1"
+}
+// Entities:g[1] -> func_door:b[133]
+{
+ "classname" "func_door"
+ "model" "*50"
+ "team_no" "2"
+ "health" "0"
+ "dmg" "300"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "4"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[134]
+{
+ "classname" "func_door"
+ "model" "*51"
+ "health" "0"
+ "dmg" "500"
+ "lip" "-200"
+ "wait" "-1"
+ "sounds" "0"
+ "speed" "1000"
+ "targetname" "rhole"
+ "angle" "-2"
+}
+{
+"classname" "i_t_g"
+"n_b" " punched a hole thru Reds yard!\n"
+"netname" "Red Path Cleared"
+"message" "You cleared the path!\n"
+"target" "rhole"
+"team_no" "1"
+"frags" "2"
+"count" "2"
+"g_a" "2"
+"g_e" "3"
+"goal_result" "1"
+"origin" "480 -2440 448"
+}
+{
+"classname" "item_tfgoal"
+"origin" "-1701 -3636 753"
+"team_no" "3"
+"mdl" "progs/nerve1.mdl"
+}
+{
+"classname" "item_tfgoal"
+"origin" "-1697 -3644 753"
+"team_no" "3"
+"mdl" "progs/nerve1.mdl"
+}
+{
+"classname" "item_tfgoal"
+"origin" "-1706 -3643 753"
+"team_no" "3"
+"mdl" "progs/nerve1.mdl"
+}
+// Entities:g[1] -> trigger_once:b[139]
+{
+ "classname" "trigger_once"
+ "model" "*52"
+ "delay" "2"
+ "sounds" "4"
+ "style" "32"
+ "health" "1874919423"
+ "target" "glass1"
+ "netname" "trigger_once 1"
+}
+// Entities:g[1] -> func_door:b[140]
+{
+ "classname" "func_door"
+ "model" "*53"
+ "health" "0"
+ "dmg" "300"
+ "lip" "8"
+ "sounds" "0"
+ "speed" "16"
+ "wait" "10"
+ "targetname" "redgas"
+ "netname" "rrise2"
+ "angle" "-2"
+}
+// Entities:g[1] -> func_door:b[141]
+{
+ "classname" "func_door"
+ "model" "*54"
+ "health" "0"
+ "dmg" "300"
+ "lip" "0"
+ "sounds" "4"
+ "speed" "200"
+ "wait" "18"
+ "targetname" "gas"
+ "netname" "rblock"
+ "spawnflags" "1"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[142]
+{
+ "classname" "func_door"
+ "model" "*55"
+ "netname" "rhand"
+ "targetname" "redgas"
+ "health" "0"
+ "dmg" "0"
+ "lip" "-11"
+ "wait" "13"
+ "sounds" "1"
+ "speed" "50"
+ "angle" "-2"
+}
+// Entities:g[1] -> func_door:b[143]
+{
+ "classname" "func_door"
+ "model" "*56"
+ "health" "0"
+ "dmg" "300"
+ "lip" "8"
+ "sounds" "0"
+ "speed" "16"
+ "wait" "10"
+ "targetname" "redgas"
+ "netname" "rrise1"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[144]
+{
+ "classname" "func_door"
+ "model" "*57"
+ "netname" "rrise3"
+ "targetname" "redgas"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "8"
+ "sounds" "4"
+ "speed" "12"
+ "spawnflags" "1"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[145]
+{
+ "classname" "func_door"
+ "model" "*58"
+ "team_no" "2"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "1"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> trigger_teleport:b[146]
+{
+ "classname" "trigger_teleport"
+ "model" "*59"
+ "team_no" "1"
+ "target" "rcell1"
+ "spawnflags" "3"
+}
+// Entities:g[1] -> func_door:b[147]
+{
+ "classname" "func_door"
+ "model" "*60"
+ "team_no" "2"
+ "health" "0"
+ "dmg" "300"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "4"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[148]
+{
+ "classname" "func_door"
+ "model" "*61"
+ "health" "0"
+ "dmg" "0"
+ "lip" "-2"
+ "wait" "4"
+ "sounds" "1"
+ "speed" "40"
+ "angle" "180"
+}
+{
+"classname" "light"
+"origin" "1528 -1840 744"
+"targetname" "rlite2"
+"light" "250"
+"spawnflags" "1"
+"style" "40"
+}
+{
+"classname" "light"
+"origin" "1736 -1840 744"
+"targetname" "rlite2"
+"light" "250"
+"spawnflags" "1"
+"style" "40"
+}
+{
+"classname" "light"
+"origin" "2160 -1840 744"
+"targetname" "rlite2"
+"light" "250"
+"spawnflags" "1"
+"style" "40"
+}
+{
+"classname" "light"
+"origin" "2368 -1840 744"
+"targetname" "rlite2"
+"light" "250"
+"spawnflags" "1"
+"style" "40"
+}
+{
+"classname" "light"
+"origin" "1948 -1840 744"
+"targetname" "rlite2"
+"light" "250"
+"spawnflags" "1"
+"style" "40"
+}
+{
+"classname" "trigger_relay"
+"origin" "2372 -1716 848"
+"target" "rlite2"
+"targetname" "rliter2"
+"delay" "0"
+"sounds" "4"
+"style" "40"
+}
+{
+"classname" "trigger_relay"
+"origin" "2372 -1716 832"
+"targetname" "rliter2"
+"delay" "10"
+"sounds" "4"
+"style" "40"
+"target" "rlite2"
+}
+// Entities:g[1] -> trigger_multiple:b[156]
+{
+ "classname" "trigger_multiple"
+ "model" "*62"
+ "team_no" "1"
+ "target" "rliter2a"
+ "delay" "0"
+ "style" "32"
+ "wait" "11"
+ "sounds" "4"
+}
+// Entities:g[1] -> trigger_teleport:b[157]
+{
+ "classname" "trigger_teleport"
+ "model" "*63"
+ "team_no" "1"
+ "target" "rcell1"
+ "spawnflags" "3"
+}
+// Entities:g[1] -> func_door:b[158]
+{
+ "classname" "func_door"
+ "model" "*64"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[159]
+{
+ "classname" "func_door"
+ "model" "*65"
+ "team_no" "2"
+ "health" "0"
+ "dmg" "0"
+ "lip" "0"
+ "wait" "1"
+ "sounds" "4"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[160]
+{
+ "classname" "func_door"
+ "model" "*66"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-2"
+}
+// Entities:g[1] -> func_door:b[161]
+{
+ "classname" "func_door"
+ "model" "*67"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[162]
+{
+ "classname" "func_door"
+ "model" "*68"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[163]
+{
+ "classname" "func_door"
+ "model" "*69"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-1"
+}
+// Entities:g[1] -> func_door:b[164]
+{
+ "classname" "func_door"
+ "model" "*70"
+ "targetname" "1gas"
+ "health" "0"
+ "dmg" "500"
+ "lip" "0"
+ "wait" "5"
+ "sounds" "0"
+ "speed" "200"
+ "angle" "-1"
+}
+{
+"classname" "info_tfgoal"
+"origin" "432 -2976 816"
+"targetname" "rrelay1a"
+"group_no" "56"
+"target" "rrelay1"
+"netname" "rpower1"
+"style" "37"
+}
+{
+"classname" "info_tfgoal"
+"origin" "336 -2976 816"
+"targetname" "rrelay2a"
+"group_no" "56"
+"target" "rrelay2"
+"netname" "rpower2"
+"style" "38"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-2380 -1628 748"
+"targetname" "rliter1a"
+"group_no" "56"
+"target" "rliter1"
+"netname" "rpower4"
+"style" "39"
+}
+{
+"classname" "info_tfgoal"
+"origin" "2384 -1708 856"
+"targetname" "rliter2a"
+"group_no" "56"
+"target" "rliter2"
+"netname" "rpower3"
+"style" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "808 -1532 432"
+"team_no" "1"
+"playerclass" "6"
+"goal_activation" "1"
+"goal_effects" "1"
+"target" "rplu2"
+"wait" "40"
+"netname" "rplu1"
+}
+{
+"classname" "info_tfgoal"
+"origin" "864 -1992 404"
+"netname" "rpow"
+"health" "-500"
+"t_length" "192"
+"noise" "weapons/detpack.wav"
+"targetname" "rci2"
+}
+// Entities:g[1] -> func_door:b[171]
+{
+ "classname" "func_door"
+ "model" "*71"
+ "health" "1"
+ "dmg" "0"
+ "lip" "1"
+ "wait" "5"
+ "sounds" "1"
+ "speed" "200"
+}
+// Entities:g[1] -> func_door:b[172]
+{
+ "classname" "func_door"
+ "model" "*72"
+ "sounds" "1"
+ "netname" "rplu2"
+ "target" "rci2"
+ "health" "0"
+ "dmg" "0"
+ "lip" "4"
+ "wait" "20"
+ "speed" "30"
+ "targetname" "rplu2"
+ "angle" "-2"
+}
+{
+"classname" "i_t_g"
+"target" "rplite"
+"netname" "rpoweroff"
+"message" "You have knocked out their Power!\n"
+"wait" "60"
+"remove_group_no" "56"
+"noise" "misc/power.wav"
+"g_e" "3"
+"b_b" "Reds Power is Down!\n"
+"activate_goal_no" "94"
+"frags" "2"
+"count" "2"
+"targetname" "rstart1"
+"origin" "-864 -3888 880"
+"style" "41"
+}
+{
+"classname" "i_t_g"
+"target" "rplite"
+"netname" "rpoweron"
+"wait" "1"
+"b_b" "Reds Power is Restored!"
+"goal_no" "94"
+"delay_time" "60"
+"restore_group_no" "56"
+"origin" "-832 -3888 880"
+"style" "41"
+}
+{
+"classname" "light"
+"origin" "-928 -3760 768"
+"light" "280"
+"targetname" "rplite"
+"style" "41"
+}
+{
+"classname" "i_t_g"
+"netname" "rkil"
+"group_no" "56"
+"goal_effects" "1"
+"targetname" "rgdr1"
+"health" "-500"
+"noise" "weapons/lhit.wav"
+"origin" "-1240 -3920 836"
+}
+// Entities:g[1] -> trigger_multiple:b[177]
+{
+ "classname" "trigger_multiple"
+ "model" "*73"
+ "health" "6500"
+ "team_no" "1"
+ "target" "rstart1"
+ "delay" "0"
+ "style" "41"
+ "wait" "60"
+ "sounds" "3"
+}
+{
+"classname" "light"
+"origin" "-1400 -3848 760"
+"light" "250"
+"targetname" "rplite"
+"style" "41"
+}
+// Entities:g[1] -> trigger_multiple:b[179]
+{
+ "classname" "trigger_multiple"
+ "model" "*74"
+ "netname" "rbeamtrig"
+ "wait" "0"
+ "sounds" "4"
+ "delay" "0"
+ "style" "32"
+ "target" "rgdr1"
+}
+{
+"classname" "info_null"
+"origin" "1792 3756 848"
+"targetname" "glass1"
+}
+{
+"classname" "i_t_g"
+"netname" "4"
+"origin" "-1472 -3520 739"
+"b_b" "4.....\n"
+"targetname" "gas"
+"delay_time" "7"
+}
+{
+"classname" "i_t_g"
+"netname" "3"
+"origin" "-1473 -3520 739"
+"b_b" "3.....\n"
+"targetname" "gas"
+"delay_time" "8"
+}
+{
+"classname" "i_t_g"
+"netname" "2"
+"origin" "-1474 -3520 739"
+"b_b" "2.....\n"
+"targetname" "gas"
+"delay_time" "9"
+}
+{
+"classname" "i_t_g"
+"netname" "1"
+"origin" "-1475 -3520 739"
+"b_b" "1.....\n"
+"targetname" "gas"
+"delay_time" "10"
+}
+{
+"classname" "i_t_g"
+"netname" "don"
+"origin" "-1478 -3520 739"
+"b_b" "Better get a gasmask!\nThey're going fast..\n"
+"targetname" "gas"
+"delay_time" "5"
+}
+{
+"classname" "i_t_g"
+"netname" "sdeath"
+"angle" "290"
+"b_b" " \n"
+"targetname" "gaskill"
+"goal_no" "7"
+"health" "-50"
+"g_e" "38"
+"origin" "0 0 736"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"delay" "11"
+"target" "gaskill"
+"targetname" "gas"
+"origin" "1869 3440 772"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"delay" "12"
+"target" "gaskill"
+"targetname" "gas"
+"origin" "1870 3440 772"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"delay" "13"
+"target" "gaskill"
+"targetname" "gas"
+"origin" "1871 3440 772"
+}
+{
+"classname" "item_tfgoal"
+"g_e" "1"
+"n_o" "   key!\n"
+"b_o" " key has been !\n"
+"n_t" "  the  key!\n"
+"message" " have the  key!\nTake it to their gas chamber!\n"
+"noise3" " key was returned to base!\n"
+"d_n" " team  the  key!\n"
+"d_t" "The    key!\n"
+"netname" "Blue Keycard"
+"goal_result" "16"
+"delay" "60"
+"noise" "misc/chink.wav"
+"mdl" "progs/b_s_key.mdl"
+"items" "131072"
+"goal_no" "1"
+"g_a" "181"
+"owned_by" "1"
+"team_no" "2"
+"pausetime" "60"
+"noise4" "The  key was returned to base!\n"
+"b_t" " team has the  key!\n"
+"origin" "-2568 2084 728"
+}
+{
+"classname" "item_tfgoal"
+"g_e" "1"
+"n_o" "   key!\n"
+"b_o" " key has been !\n"
+"n_t" "  the  key!\n"
+"message" " have the  key!\nTake it to their gas chamber!\n"
+"d_n" " team  the  key!\n"
+"d_t" "The    key!\n"
+"netname" "Red Keycard"
+"goal_result" "16"
+"noise" "misc/chink.wav"
+"mdl" "progs/b_g_key.mdl"
+"goal_no" "2"
+"g_a" "181"
+"team_no" "1"
+"items" "262144"
+"pausetime" "60"
+"delay" "60"
+"owned_by" "2"
+"noise4" "The  key returned to base!\n"
+"noise3" " key returned to base!\n"
+"b_t" " team has the  key!\n"
+"origin" "2568 -2084 728"
+}
+{
+"classname" "i_t_g"
+"noise" "misc/vapeur2.wav"
+"netname" "bgas"
+"b_b" " \nBlue Gas Release Imminent!\n"
+"message" "Now the scum will die!\n"
+"target" "bluegas"
+"goal_no" "4"
+"g_a" "1"
+"g_e" "3"
+"items_allowed" "1"
+"team_no" "2"
+"frags" "15"
+"count" "15"
+"axhitme" "1"
+"origin" "1870 3356 720"
+}
+{
+"classname" "i_t_g"
+"noise" "misc/vapeur2.wav"
+"netname" "rgas"
+"b_b" " \nRed Gas Release Imminent!\n"
+"message" "Now the bastards will pay!\n"
+"target" "redgas"
+"goal_no" "39"
+"g_a" "1"
+"g_e" "3"
+"items_allowed" "2"
+"team_no" "1"
+"count" "15"
+"frags" "15"
+"axhitme" "2"
+"origin" "-1880 -3376 720"
+}
+{
+"classname" "i_t_g"
+"message" "Now the scum will die!\n"
+"netname" "bgas2"
+"origin" "-1476 -3520 739"
+"b_b" " \nBlue Gas Release Imminent!\n"
+"targetname" "bluegas"
+"delay_time" "2"
+}
+{
+"classname" "i_t_g"
+"message" "Now the bastards will pay!\n"
+"netname" "rgas2"
+"origin" "-1477 -3520 739"
+"b_b" " \nRed Gas Release Imminent!\n"
+"targetname" "redgas"
+"delay_time" "2"
+}
+{
+"classname" "trigger_relay"
+"target" "1gas"
+"targetname" "gas"
+"style" "32"
+"delay" "7"
+"origin" "-1668 -3680 800"
+}
+{
+"classname" "trigger_relay"
+"target" "gas"
+"targetname" "bluegas"
+"style" "32"
+"delay" "0"
+"origin" "-1668 -3680 816"
+}
+{
+"classname" "trigger_relay"
+"target" "gas"
+"targetname" "redgas"
+"style" "32"
+"delay" "0"
+"origin" "-1672 -3680 816"
+}
+{
+"classname" "i_t_g"
+"netname" "binvul"
+"origin" "1448 3496 751"
+"targetname" "bluegas"
+"g_e" "16"
+"invincible_finished" "5"
+"t_length" "600"
+"delay_time" "10"
+}
+{
+"classname" "i_t_g"
+"netname" "rinvul"
+"origin" "-1472 -3520 739"
+"targetname" "redgas"
+"g_e" "16"
+"invincible_finished" "5"
+"t_length" "600"
+"delay_time" "10"
+}
+{
+"classname" "i_t_g"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"netname" "mask"
+"angle" "180"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "2472 1702 746"
+}
+{
+"classname" "i_t_g"
+"netname" "mask"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "-1188 3014 634"
+}
+{
+"classname" "i_t_g"
+"netname" "mask"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "-2472 -1702 746"
+}
+{
+"classname" "i_t_g"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"netname" "mask"
+"angle" "180"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "1188 -3014 634"
+}
+{
+"classname" "i_t_g"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"netname" "mask"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "-704 1426 946"
+}
+{
+"classname" "i_t_g"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"netname" "mask"
+"angle" "180"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "696 -1414 946"
+}
+{
+"classname" "i_t_g"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"netname" "mask"
+"angle" "270"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "1210 2496 634"
+}
+{
+"classname" "i_t_g"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"netname" "mask"
+"angle" "180"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "-2032 -3058 746"
+}
+{
+"classname" "i_t_g"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"netname" "mask"
+"angle" "90"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "-1206 -2495 634"
+}
+{
+"classname" "i_t_g"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"netname" "mask"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "2032 3058 746"
+}
+{
+"classname" "i_t_g"
+"netname" "mask"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"angle" "90"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "-1286 1488 746"
+}
+{
+"classname" "i_t_g"
+"health" "250"
+"frags" "1"
+"armorvalue" "300"
+"armortype" "0.8"
+"netname" "mask"
+"angle" "270"
+"mdl" "progs/mask1.mdl"
+"g_a" "1"
+"g_e" "1"
+"invincible_finished" "10"
+"wait" "30"
+"origin" "1294 -1488 746"
+}
+{
+"classname" "i_t_g"
+"netname" "pack"
+"armortype" "0.8"
+"message" "Lock and load!\n"
+"mdl" "progs/backpack.mdl"
+"g_a" "1"
+"g_e" "1"
+"armorvalue" "300"
+"health" "250"
+"ammo_shells" "200"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_medikit" "100"
+"wait" "3"
+"origin" "1232 2288 616"
+}
+{
+"classname" "i_t_g"
+"netname" "pack"
+"armortype" "0.8"
+"mdl" "progs/backpack.mdl"
+"message" "Lock and load!\n"
+"g_a" "1"
+"g_e" "1"
+"armorvalue" "300"
+"health" "250"
+"ammo_shells" "200"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_medikit" "100"
+"wait" "3"
+"origin" "0 1396 928"
+}
+{
+"classname" "i_t_g"
+"netname" "pack"
+"message" "Lock and load!\n"
+"armortype" "0.8"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"g_a" "1"
+"g_e" "1"
+"armorvalue" "300"
+"health" "250"
+"ammo_shells" "200"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_medikit" "100"
+"wait" "3"
+"origin" "-972 3064 616"
+}
+{
+"classname" "i_t_g"
+"netname" "pack"
+"armortype" "0.8"
+"message" "Lock and load!\n"
+"mdl" "progs/backpack.mdl"
+"g_a" "1"
+"g_e" "1"
+"armorvalue" "300"
+"health" "250"
+"ammo_shells" "200"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_medikit" "100"
+"wait" "3"
+"origin" "-1232 -2288 616"
+}
+{
+"classname" "i_t_g"
+"netname" "pack"
+"armortype" "0.8"
+"message" "Lock and load!\n"
+"mdl" "progs/backpack.mdl"
+"g_a" "1"
+"g_e" "1"
+"armorvalue" "300"
+"health" "250"
+"ammo_shells" "200"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_medikit" "100"
+"wait" "3"
+"origin" "0 -1400 928"
+}
+{
+"classname" "i_t_g"
+"netname" "pack"
+"armortype" "0.8"
+"message" "Lock and load!\n"
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"g_a" "1"
+"g_e" "1"
+"armorvalue" "300"
+"health" "250"
+"ammo_shells" "200"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "100"
+"ammo_medikit" "100"
+"wait" "3"
+"origin" "972 -3064 616"
+}
+{
+"classname" "i_t_g"
+"netname" "grenpack"
+"message" "Stock up!\n"
+"mdl" "progs/backpack.mdl"
+"g_a" "1"
+"g_e" "1"
+"wait" "20"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"ammo_detpack" "1"
+"origin" "1770 2304 664"
+}
+{
+"classname" "i_t_g"
+"netname" "grenpack"
+"message" "Stock up!\n"
+"mdl" "progs/backpack.mdl"
+"g_a" "1"
+"g_e" "1"
+"wait" "20"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"ammo_detpack" "1"
+"origin" "-1770 -2304 664"
+}
+{
+"classname" "i_t_g"
+"axhitme" "1"
+"message" "You're busted!\n"
+"netname" "Jail Blue"
+"goal_result" "16"
+"origin" "1464 2472 736"
+"g_a" "1"
+"g_e" "1"
+"team_no" "1"
+"armorvalue" "-300"
+"ammo_shells" "-200"
+"ammo_nails" "-200"
+"ammo_rockets" "-100"
+"ammo_cells" "-200"
+"ammo_detpack" "-2"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "5"
+}
+{
+"classname" "i_t_g"
+"axhitme" "2"
+"netname" "Jail Red"
+"origin" "-1464 -2472 736"
+"message" "You're busted!\n"
+"goal_result" "16"
+"g_a" "1"
+"g_e" "1"
+"team_no" "1"
+"armorvalue" "-300"
+"ammo_shells" "-200"
+"ammo_nails" "-200"
+"ammo_rockets" "-100"
+"ammo_cells" "-200"
+"ammo_detpack" "-2"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "5"
+}
+{
+"classname" "i_t_g"
+"netname" "bsoap"
+"message" "Oops! Dropped your soap\n"
+"g_a" "1"
+"g_e" "1"
+"wait" "8"
+"origin" "1445 2076 720"
+}
+{
+"classname" "i_t_g"
+"netname" "rsoap"
+"message" "Bend over and pick it up!\n"
+"g_a" "1"
+"g_e" "1"
+"wait" "8"
+"origin" "-1445 -2076 720"
+}
+{
+"classname" "trigger_changelevel"
+"map" "cosm"
+"origin" "-1808 -3376 771"
+"targetname" "endgame"
+"message" " captured the flag!"
+}
+{
+"classname" "trigger_changelevel"
+"map" "cosm"
+"origin" "-1808 -3376 755"
+"targetname" "endgame"
+"message" " captured the flag!"
+}
+{
+"classname" "trigger_changelevel"
+"map" "cosm"
+"origin" "-1792 -3376 723"
+"targetname" "endgame"
+"message" " captured the flag!"
+}
+{
+"classname" "trigger_changelevel"
+"map" "cosm"
+"origin" "-1808 -3408 787"
+"targetname" "endgame"
+"message" " captured the flag!"
+}
+{
+"classname" "trigger_changelevel"
+"map" "cosm"
+"origin" "-1792 -3408 723"
+"targetname" "endgame"
+"message" " captured the flag!"
+}
+{
+"classname" "monster_wizard"
+"origin" "-32 304 496"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_knight"
+"origin" "-96 -1136 480"
+"angle" "90"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_hell_knight"
+"origin" "80 -1152 432"
+"angle" "88"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_knight"
+"origin" "-256 -2176 624"
+"angle" "90"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_knight"
+"origin" "1808 -1856 768"
+"angle" "148"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shalrath"
+"origin" "1040 -1952 720"
+"angle" "90"
+"lives" "5"
+"respawn_time" "15"
+}
+{
+"classname" "monster_knight"
+"origin" "-368 1152 432"
+"angle" "-2"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_wizard"
+"origin" "-192 2304 704"
+"angle" "90"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_knight"
+"origin" "-960 1888 624"
+"angle" "90"
+}
+{
+"classname" "monster_knight"
+"origin" "592 2976 816"
+"angle" "-2"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_knight"
+"origin" "1600 3808 736"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_enforcer"
+"origin" "368 -816 928"
+"angle" "-2"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_ogre"
+"origin" "192 -2848 640"
+"angle" "-2"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_shambler"
+"origin" "-528 -2320 640"
+"angle" "344"
+}
+{
+"classname" "monster_shambler"
+"origin" "1008 -2096 624"
+"angle" "344"
+"lives" "5"
+"respawn_time" "15"
+}
+{
+"classname" "monster_demon1"
+"origin" "240 1168 480"
+"angle" "344"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_shambler"
+"origin" "80 960 576"
+"lives" "5"
+"respawn_time" "15"
+}
+{
+"classname" "monster_enforcer"
+"origin" "64 2720 656"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_demon1"
+"origin" "336 2192 640"
+"angle" "344"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_army"
+"origin" "-96 2608 640"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "1888 1856 736"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "992 1840 624"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_army"
+"origin" "416 2096 656"
+"angle" "344"
+}
+{
+"classname" "monster_enforcer"
+"origin" "48 2192 672"
+"angle" "344"
+}
+{
+"classname" "monster_army"
+"origin" "128 2160 624"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_enforcer"
+"origin" "208 2352 640"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shalrath"
+"origin" "240 2688 608"
+"angle" "344"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_army"
+"origin" "944 2640 656"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_army"
+"origin" "16 2416 704"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_hell_knight"
+"origin" "704 2560 832"
+"angle" "-2"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_knight"
+"origin" "-16 2240 624"
+"angle" "344"
+}
+{
+"classname" "monster_army"
+"origin" "368 1856 672"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shalrath"
+"origin" "288 1600 816"
+"angle" "344"
+}
+{
+"classname" "monster_wizard"
+"origin" "128 2176 752"
+"angle" "344"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_wizard"
+"origin" "96 224 496"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_fish"
+"origin" "-240 176 112"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "-32 -320 512"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "-176 48 480"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "-16 -224 496"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "-144 48 400"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "112 -608 448"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "112 416 432"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_fish"
+"origin" "0 112 96"
+"angle" "344"
+"lives" "15"
+"respawn_time" "5"
+}
+{
+"classname" "monster_fish"
+"origin" "-224 -96 96"
+"angle" "344"
+"lives" "15"
+"respawn_time" "5"
+}
+{
+"classname" "monster_fish"
+"origin" "-208 -32 -48"
+"angle" "344"
+"lives" "15"
+"respawn_time" "5"
+}
+{
+"classname" "monster_fish"
+"origin" "-176 0 64"
+"angle" "344"
+"lives" "15"
+"respawn_time" "5"
+}
+{
+"classname" "monster_fish"
+"origin" "-176 -64 160"
+"angle" "344"
+"lives" "15"
+"respawn_time" "5"
+}
+{
+"classname" "monster_fish"
+"origin" "-16 592 320"
+"angle" "344"
+"lives" "15"
+"respawn_time" "5"
+}
+{
+"classname" "monster_fish"
+"origin" "-16 96 192"
+"angle" "344"
+"lives" "15"
+"respawn_time" "5"
+}
+{
+"classname" "monster_fish"
+"origin" "-48 -224 288"
+"angle" "344"
+}
+{
+"classname" "monster_fish"
+"origin" "-32 32 -48"
+"angle" "344"
+"lives" "15"
+"respawn_time" "5"
+}
+{
+"classname" "monster_hell_knight"
+"origin" "-176 -2208 640"
+"angle" "344"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_shambler"
+"origin" "-80 -1840 656"
+"angle" "344"
+}
+{
+"classname" "monster_shalrath"
+"origin" "704 -1920 832"
+"angle" "-2"
+"lives" "5"
+"respawn_time" "10"
+}
+{
+"classname" "monster_knight"
+"origin" "64 -2032 640"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_demon1"
+"origin" "-32 -2672 704"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shalrath"
+"origin" "-368 -2048 432"
+"angle" "344"
+"lives" "10"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "-1568 -1872 768"
+"angle" "344"
+"lives" "10"
+"respawn_time" "5"
+}
+{
+"classname" "monster_army"
+"origin" "-1904 -2032 752"
+"angle" "344"
+"spawnflags" "1"
+"lives" "11"
+"respawn_time" "5"
+}
+{
+"classname" "monster_hell_knight"
+"origin" "-576 -3328 720"
+"angle" "344"
+"respawn_time" "5"
+"lives" "5"
+}
+{
+"classname" "monster_shambler"
+"origin" "-1712 -3808 768"
+"angle" "344"
+"respawn_time" "5"
+"lives" "5"
+"spawnflags" "1"
+}
+{
+"classname" "monster_shalrath"
+"origin" "-1776 -3408 720"
+"angle" "344"
+"respawn_time" "5"
+"lives" "5"
+}
+{
+"classname" "monster_army"
+"origin" "256 -2464 672"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shalrath"
+"origin" "112 -2640 640"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+"spawnflags" "1"
+}
+{
+"classname" "monster_knight"
+"origin" "-16 -2464 656"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shalrath"
+"origin" "1472 -2720 752"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_hell_knight"
+"origin" "2112 -2464 768"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shambler"
+"origin" "2576 -1792 736"
+"angle" "-2"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shalrath"
+"origin" "2544 -1920 752"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_hell_knight"
+"origin" "2544 -1824 768"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_knight"
+"origin" "2224 -1808 768"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_ogre"
+"origin" "2080 -1856 784"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_army"
+"origin" "704 -2336 848"
+"angle" "-2"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_army"
+"origin" "384 -2256 768"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_army"
+"origin" "224 -2192 672"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shambler"
+"origin" "-2320 -2352 800"
+"angle" "344"
+"lives" "5"
+"respawn_time" "15"
+"spawnflags" "1"
+}
+{
+"classname" "monster_ogre"
+"origin" "-1488 -1696 864"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shalrath"
+"origin" "-2336 -2736 752"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_hell_knight"
+"origin" "-2384 -2912 736"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_ogre"
+"origin" "-1760 -2736 736"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_ogre"
+"origin" "-1536 -2736 736"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_ogre"
+"origin" "-1536 -2740 736"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_demon1"
+"origin" "-192 -2704 640"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "-208 -2512 832"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_enforcer"
+"origin" "-272 -1616 832"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "-240 -1136 704"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shalrath"
+"origin" "112 -944 640"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_shalrath"
+"origin" "48 -912 544"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "-976 -1936 736"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "-1232 -2704 704"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "976 -2576 704"
+"angle" "344"
+"lives" "10"
+"respawn_time" "3"
+}
+{
+"classname" "monster_hell_knight"
+"origin" "1136 -2704 736"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_wizard"
+"origin" "1392 -1840 768"
+"angle" "344"
+"lives" "5"
+"respawn_time" "5"
+}
+{
+"classname" "monster_hell_knight"
+"origin" "-2320 -2192 768"
+"angle" "143"
+"lives" "5"
+"respawn_time" "5"
+}
+ 

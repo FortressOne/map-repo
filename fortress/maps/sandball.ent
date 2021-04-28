@@ -1,0 +1,494 @@
+{
+"wad" "c:\wad\redwall.wad;c:\wad\tex2.wad;c:\program files\worldcraft\silvfort.wad"
+"message" "Sandball!\nfor Ambush, MD. by DyerMaker\n"
+"light" "0"
+"sounds" "0"
+"classname" "worldspawn"
+}
+{
+"origin" "0 0 -16"
+"classname" "info_player_start"
+}
+{
+"origin" "564 -528 94"
+"light" "50"
+"angle" "3"
+"classname" "light"
+}
+{
+"origin" "184 -528 94"
+"light" "50"
+"angle" "3"
+"classname" "light"
+}
+{
+"origin" "-196 -528 94"
+"light" "50"
+"angle" "3"
+"classname" "light"
+}
+{
+"origin" "-576 -528 94"
+"light" "50"
+"angle" "3"
+"classname" "light"
+}
+{
+"origin" "-572 528 94"
+"light" "50"
+"angle" "3"
+"classname" "light"
+}
+{
+"origin" "-192 528 94"
+"light" "50"
+"angle" "3"
+"classname" "light"
+}
+{
+"origin" "188 528 94"
+"light" "50"
+"angle" "3"
+"classname" "light"
+}
+{
+"origin" "568 528 94"
+"light" "50"
+"angle" "3"
+"classname" "light"
+}
+{
+"origin" "578 174 -118"
+"targetname" "2light"
+"classname" "info_null"
+}
+{
+"origin" "200 168 -114"
+"targetname" "4light"
+"classname" "info_null"
+}
+{
+"origin" "-180 168 -114"
+"targetname" "6light"
+"classname" "info_null"
+}
+{
+"origin" "-558 168 -114"
+"targetname" "8light"
+"classname" "info_null"
+}
+{
+"origin" "-564 -194 -116"
+"targetname" "7light"
+"classname" "info_null"
+}
+{
+"origin" "-186 -194 -116"
+"targetname" "5light"
+"classname" "info_null"
+}
+{
+"origin" "572 -188 -120"
+"targetname" "1light"
+"classname" "info_null"
+}
+{
+"origin" "194 -194 -116"
+"targetname" "3light"
+"classname" "info_null"
+}
+{
+"origin" "-572 484 98"
+"target" "7light"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-194 484 98"
+"target" "5light"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "186 484 98"
+"target" "3light"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "564 490 94"
+"target" "1light"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-582 -490 94"
+"target" "8light"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-204 -490 94"
+"target" "6light"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "176 -490 94"
+"target" "4light"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "554 -484 90"
+"target" "2light"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "976 1080 -80"
+"effects" "8"
+"speed" "1000"
+"target" "stopa"
+"light" "100"
+"classname" "light_move"
+}
+{
+"origin" "1092 1050 -78"
+"speed" "600"
+"target" "stopb"
+"targetname" "stopa"
+"classname" "path_rotate"
+}
+{
+"origin" "1092 426 -104"
+"speed" "600"
+"target" "stopc"
+"targetname" "stopb"
+"classname" "path_rotate"
+}
+{
+"origin" "1030 402 12"
+"speed" "600"
+"target" "stopd"
+"targetname" "stopc"
+"classname" "path_rotate"
+}
+{
+"origin" "1068 1068 8"
+"speed" "600"
+"target" "stopa"
+"targetname" "stopd"
+"classname" "path_rotate"
+}
+{
+"origin" "980 772 -80"
+"angle" "2"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "1032 366 24"
+"effects" "8"
+"speed" "1000"
+"target" "stopc"
+"light" "100"
+"classname" "light_move"
+}
+{
+"model" "*1"
+"targetname" "bluedoor"
+"lip" "0"
+"wait" "1"
+"sounds" "2"
+"speed" "500"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"lip" "0"
+"wait" "1"
+"sounds" "2"
+"speed" "500"
+"targetname" "bluedoor"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"origin" "922 490 -112"
+"wait" "1"
+"g_e" "0"
+"target" "bluedoor"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "932 1146 236"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-12 2 80"
+"non_team_broadcast" "kick the sandball between your flags!\n"
+"maxammo_nails" "-1"
+"maxammo_shells" "-1"
+"classname" "info_tfdetect"
+}
+{
+"origin" "932 1210 236"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1008 1210 236"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1008 1146 234"
+"team_no" "1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"model" "*3"
+"delay" "0"
+"style" "32"
+"sounds" "0"
+"speed" "100"
+"spawnflags" "2"
+"angle" "270"
+"classname" "trigger_push"
+}
+{
+"origin" "-786 -50 -102"
+"skin" "2"
+"mdl" "progs/tf_flag.mdl"
+"angle" "180"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-786 50 -102"
+"skin" "2"
+"mdl" "progs/tf_flag.mdl"
+"angle" "180"
+"classname" "info_tfgoal"
+}
+{
+"origin" "786 -50 -102"
+"skin" "1"
+"mdl" "progs/tf_flag.mdl"
+"angle" "180"
+"classname" "info_tfgoal"
+}
+{
+"origin" "786 50 -102"
+"skin" "1"
+"mdl" "progs/tf_flag.mdl"
+"angle" "180"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-976 -1080 -80"
+"effects" "8"
+"speed" "1000"
+"target" "stop1"
+"light" "100"
+"classname" "light_move"
+}
+{
+"origin" "-1092 -1050 -78"
+"speed" "600"
+"target" "stop2"
+"targetname" "stop1"
+"classname" "path_rotate"
+}
+{
+"origin" "-1092 -426 -104"
+"speed" "600"
+"target" "stop3"
+"targetname" "stop2"
+"classname" "path_rotate"
+}
+{
+"origin" "-1030 -402 12"
+"speed" "600"
+"target" "stop4"
+"targetname" "stop3"
+"classname" "path_rotate"
+}
+{
+"origin" "-1068 -1068 8"
+"speed" "600"
+"target" "stop1"
+"targetname" "stop4"
+"classname" "path_rotate"
+}
+{
+"origin" "-980 -772 -80"
+"angle" "2"
+"light" "50"
+"classname" "light"
+}
+{
+"origin" "-1032 -366 24"
+"effects" "8"
+"speed" "1000"
+"target" "stop3"
+"light" "100"
+"classname" "light_move"
+}
+{
+"model" "*4"
+"targetname" "reddoor"
+"lip" "0"
+"wait" "1"
+"sounds" "2"
+"speed" "500"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"lip" "0"
+"wait" "1"
+"sounds" "2"
+"speed" "500"
+"targetname" "reddoor"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"origin" "-922 -490 -112"
+"wait" "1"
+"g_e" "0"
+"target" "reddoor"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-932 -1146 236"
+"team_no" "2"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-932 -1210 236"
+"team_no" "2"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1008 -1210 236"
+"team_no" "2"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1008 -1146 234"
+"team_no" "2"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"model" "*6"
+"delay" "0"
+"style" "32"
+"sounds" "0"
+"speed" "100"
+"spawnflags" "2"
+"angle" "90"
+"classname" "trigger_push"
+}
+{
+"origin" "-980 -1190 200"
+"g_e" "1"
+"gravity" ".5"
+"wait" "1"
+"goal_max" "64 64 64"
+"g_a" "1"
+"goal_min" "-64 -64 -64"
+"classname" "info_tfgoal"
+}
+{
+"origin" "960 1166 196"
+"g_e" "1"
+"gravity" ".5"
+"wait" "1"
+"goal_max" "64 64 64"
+"g_a" "1"
+"goal_min" "-64 -64 -64"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1004 1044 -90"
+"g_e" "1"
+"gravity" "1"
+"wait" "1"
+"goal_max" "64 64 64"
+"g_a" "1"
+"goal_min" "-64 -64 -64"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1002 -1078 -98"
+"g_e" "1"
+"gravity" "1"
+"wait" "1"
+"goal_max" "64 64 64"
+"g_a" "1"
+"goal_min" "-64 -64 -64"
+"classname" "info_tfgoal"
+}
+{
+"classname" "ball"
+"origin" "0 0 80"
+}
+{
+"classname" "ballstart"
+"origin" "0 0 80"
+}
+{
+"classname" "sandball_goal"
+"origin" "-816 0 -102"
+"team_no" "1"
+"frags" "5"
+}
+{
+"classname" "sandball_goal"
+"origin" "816 0 -102"
+"team_no" "2"
+"frags" "5"
+}
+{
+"classname" "ambient_sound"
+"spawnflags" "4"
+"volume" "1"
+"noise" "sandball/crowd.wav"
+"origin" "375 558 33"
+}
+{
+"classname" "ambient_sound"
+"spawnflags" "4"
+"volume" "1"
+"noise" "sandball/crowd.wav"
+"origin" "-375 -558 33"
+}
+{
+"classname" "ambient_sound"
+"spawnflags" "4"
+"volume" "1"
+"noise" "sandball/crowd.wav"
+"origin" "-375 558 33"
+}
+{
+"classname" "ambient_sound"
+"spawnflags" "4"
+"volume" "1"
+"noise" "sandball/crowd.wav"
+"origin" "375 -558 33"
+}

@@ -1,0 +1,1364 @@
+{
+"classname" "worldspawn"
+"worldtype" "1"
+"sounds" "1"
+"light" "350"
+"message" "Welcome To Hangars By Sly Fox  slyfox01@globalnet.co.uk"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "10"
+"origin" "432 -40 -136"
+}
+{
+"classname" "light_fluoro"
+"light" "400"
+"style" "0"
+"origin" "432 -168 -136"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "-278 -442 34"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "-338 -1364 -16"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "750"
+"style" "0"
+"origin" "790 -442 34"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "312 -1492 -84"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "846 -1362 -18"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"origin" "16 -48 -131"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"origin" "11 -167 -131"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "-256 -2014 -180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "-160 -1810 -180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "-64 -2012 -180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"origin" "-342 -1554 -166"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"origin" "852 -1554 -166"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "328 -1840 -228"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "1262 -2422 -152"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "-728 -2422 -152"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "320"
+"targetname" "turbolift"
+"origin" "-491 -2054 -228"
+}
+{
+"classname" "trigger_teleport"
+"netname" "trigger_teleport 1"
+"target" "turbolift"
+"model" "*1"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "250"
+"origin" "-18 -2158 174"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"origin" "1052 -2422 158"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "10"
+"origin" "104 332 -136"
+}
+{
+"classname" "light_fluoro"
+"light" "400"
+"style" "0"
+"origin" "104 460 -136"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"origin" "520 340 -131"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"origin" "525 459 -131"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "792 2302 -180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "696 2106 -188"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "600 2304 -180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "309 2308 180"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "tubelift"
+"origin" "1028 2347 -225"
+}
+{
+"classname" "trigger_teleport"
+"netname" "trigger_teleport 2"
+"target" "tubelift"
+"model" "*2"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "232 2500 186"
+}
+{
+"classname" "light_torch_small_walltorch"
+"angle" "-2"
+"light" "300"
+"style" "6"
+"origin" "-70 -786 -168"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"style" "0"
+"origin" "612 1062 -166"
+}
+{
+"classname" "info_tfgoal"
+"netname" "blue flag dropoff"
+"broadcast" "Blues Have Captured The Flag - 10 Points!\n"
+"message" "Touchdown!\n"
+"noise" "items/protect.wav"
+"goal_activation" "1"
+"goal_result" "2"
+"goal_effects" "2"
+"items_allowed" "1"
+"team_no" "1"
+"count" "10"
+"frags" "10"
+"return_item_no" "1"
+"increase_team1" "10"
+"g_a" "1"
+"origin" "612 1108 -204"
+}
+{
+"classname" "item_tfgoal"
+"angle" "90"
+"netname" "blue flag"
+"broadcast" "Blue's Flag Has Been Stolen!\n"
+"message" "You have the blue flag!\nTake It To The DopeFish Truck \nFor Your Points!!\n"
+"noise" "boss1/sight1.wav"
+"mdl" "progs/tf_flag.mdl"
+"goal_no" "2"
+"goal_activation" "37"
+"goal_effects" "1"
+"team_no" "2"
+"items" "131072"
+"pausetime" "30"
+"delay" "60"
+"skin" "1"
+"g_a" "677"
+"owned_by" "1"
+"noise3" "Your flag has returned back to base\n"
+"noise4" "The Blue flag has been returned back to their base\n"
+"team_drop" "The Red's have dropped your flag!\n"
+"non_team_drop" "Your team has dropped the Blue flag\n"
+"origin" "512 2496 104"
+}
+{
+"classname" "item_tfgoal"
+"angle" "90"
+"netname" "red flag"
+"broadcast" "Red's Flag Has Been Stolen!\n"
+"message" "You have the red flag!\nTake It To The DopeFish Truck For Your Points!!\n"
+"noise" "boss1/sight1.wav"
+"mdl" "progs/tf_flag.mdl"
+"goal_no" "1"
+"goal_activation" "37"
+"goal_effects" "1"
+"team_no" "1"
+"items" "262144"
+"pausetime" "30"
+"delay" "60"
+"skin" "2"
+"g_a" "677"
+"owned_by" "2"
+"noise3" "Your flag has returned back to base\n"
+"noise4" "The Red flag has been returned to their base\n"
+"team_drop" "The Blue's have dropped your flag!\n"
+"non_team_drop" "Your team has dropped the Red flag\n"
+"origin" "40 -2208 100"
+}
+{
+"classname" "info_tfgoal"
+"netname" "redflag dropoff"
+"broadcast" "Reds Have Captured The Flag - 10 Points!\n"
+"message" "Touchdown!\n"
+"noise" "items/protect.wav"
+"goal_activation" "1"
+"goal_result" "2"
+"goal_effects" "2"
+"items_allowed" "2"
+"team_no" "2"
+"count" "10"
+"frags" "10"
+"return_item_no" "2"
+"g_a" "1"
+"increase_team2" "10"
+"origin" "-72 -832 -204"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 2"
+"sounds" "4"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 3"
+"sounds" "4"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 4"
+"sounds" "4"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 5"
+"sounds" "4"
+"model" "*6"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "spawndoor1red"
+"team_no" "2"
+"wait" "4"
+"speed" "100"
+"sounds" "4"
+"lip" "0"
+"dmg" "0"
+"model" "*7"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "spawndoor1blue"
+"team_no" "1"
+"speed" "100"
+"sounds" "4"
+"lip" "-1"
+"dmg" "0"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 8"
+"wait" "4"
+"speed" "100"
+"sounds" "4"
+"lip" "0"
+"dmg" "0"
+"model" "*9"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 9"
+"sounds" "4"
+"model" "*10"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 10"
+"targetname" "lift1"
+"wait" "4"
+"speed" "100"
+"lip" "-315"
+"dmg" "50"
+"sounds" "1"
+"model" "*11"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "spawndoor2blue"
+"team_no" "1"
+"sounds" "4"
+"lip" "-1"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "spawndoor2red"
+"team_no" "2"
+"wait" "2"
+"speed" "100"
+"sounds" "1"
+"lip" "-1"
+"dmg" "0"
+"model" "*13"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"netname" "func_plat 1"
+"height" "144"
+"model" "*14"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"netname" "func_plat 2"
+"height" "144"
+"model" "*15"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"netname" "func_plat 3"
+"height" "150"
+"model" "*16"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"netname" "func_plat 4"
+"height" "150"
+"sounds" "1"
+"model" "*17"
+}
+{
+"classname" "func_door"
+"netname" "sniperdoorblue"
+"team_no" "1"
+"wait" "4"
+"speed" "100"
+"lip" "-1"
+"dmg" "0"
+"sounds" "1"
+"model" "*18"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"netname" "sniperdoorred"
+"team_no" "2"
+"speed" "100"
+"model" "*19"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 15"
+"sounds" "4"
+"lip" "-1"
+"model" "*20"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 16"
+"sounds" "4"
+"speed" "100"
+"lip" "-1"
+"dmg" "0"
+"health" "0"
+"model" "*21"
+}
+{
+"classname" "light_globe"
+"angle" "180"
+"light" "300"
+"style" "0"
+"origin" "657 969 -220"
+}
+{
+"classname" "light_globe"
+"angle" "180"
+"light" "300"
+"style" "0"
+"origin" "565 969 -220"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "108 -1840 -228"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "250"
+"origin" "-18 -2262 174"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"origin" "-518 -2422 158"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"origin" "230 -2422 158"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"style" "0"
+"origin" "145 -2020 247"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"style" "0"
+"origin" "302 -2019 246"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "678 -1052 -120"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "540 -1052 -120"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "6 -1052 -120"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "-134 -1052 -120"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"origin" "76 -1554 -166"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "852 -378 262"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "-340 -378 260"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "250"
+"origin" "-336 -1990 260"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "250"
+"origin" "850 -1990 260"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "224 -2020 174"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"origin" "248 -310 262"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"origin" "244 596 258"
+}
+{
+"classname" "light_globe"
+"angle" "180"
+"light" "150"
+"style" "0"
+"origin" "-119 -693 -222"
+}
+{
+"classname" "light_globe"
+"angle" "180"
+"light" "150"
+"style" "0"
+"origin" "-25 -693 -222"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "-726 -1052 -194"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "1260 -1050 -194"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "1262 -100 -182"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "-726 -100 -182"
+}
+{
+"classname" "func_button"
+"angle" "90"
+"netname" "func_button 1"
+"target" "lift1"
+"wait" "3"
+"speed" "100"
+"delay" "0"
+"model" "*22"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 17"
+"wait" "5"
+"speed" "200"
+"lip" "-305"
+"sounds" "1"
+"dmg" "100"
+"model" "*23"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"wait" "-1"
+"speed" "10000"
+"sounds" "1"
+"lip" "-1"
+"dmg" "0"
+"health" "0"
+"targetname" "grate2"
+"team_no" "0"
+"message" "Blow The Grate"
+"model" "*24"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"netname" "func_button 2"
+"target" "lift2"
+"wait" "3"
+"speed" "100"
+"delay" "0"
+"model" "*25"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 19"
+"targetname" "lift2"
+"wait" "4"
+"speed" "100"
+"lip" "-315"
+"dmg" "50"
+"sounds" "1"
+"model" "*26"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 20"
+"wait" "5"
+"speed" "200"
+"lip" "-305"
+"sounds" "1"
+"dmg" "100"
+"model" "*27"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "16 -1777 -212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"origin" "466 -1554 -166"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"origin" "852 -1772 -190"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"origin" "852 -2097 -190"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"origin" "406 -1772 -190"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"origin" "406 -2098 -190"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "619 -1940 -166"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"origin" "244 118 260"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"origin" "244 178 260"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"origin" "-308 2062 -176"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"origin" "-308 2388 -180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"origin" "126 2388 -180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"origin" "128 2064 -180"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-66 2226 -164"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"origin" "1050 2712 180"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"origin" "374 2712 182"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "400"
+"origin" "-514 2714 182"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "250"
+"origin" "550 2552 138"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "250"
+"origin" "554 2450 136"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "552 2062 -196"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "240 2134 -212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "426 2134 -212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"origin" "-309 1846 -166"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"origin" "66 1846 -166"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"origin" "462 1846 -166"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"origin" "854 1846 -166"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "1258 388 -186"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "-722 388 -186"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "1258 1342 -176"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "-712 1342 -176"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "1258 2712 -176"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "450"
+"origin" "-722 2712 -176"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "-254 734 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "814 734 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "876 672 259"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "-309 672 259"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "250"
+"origin" "872 2270 248"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "250"
+"origin" "-306 2268 248"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "268 1785 -80"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "team1"
+"message" "Now Go Kill'em All!!"
+"goal_activation" "2"
+"team_no" "1"
+"origin" "36 2100 -220"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "-142 1342 -120"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "-2 1342 -120"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "-314 1668 -6"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "877 1669 -5"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"style" "0"
+"origin" "392 2317 253"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "500"
+"style" "0"
+"origin" "230 2317 242"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "team1"
+"message" "Now Go Kill'em All!!"
+"goal_activation" "2"
+"team_no" "1"
+"origin" "314 2648 113"
+}
+{
+"classname" "item_armor2"
+"netname" "item_armor2 1"
+"armorclass" "31"
+"origin" "838 -2073 -230"
+}
+{
+"classname" "item_armor2"
+"netname" "item_armor2 2"
+"armorclass" "31"
+"origin" "838 -2040 -230"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "790 -2040 -237"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "790 -2073 -237"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "757 -2040 -237"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "757 -2073 -237"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"netname" "item_cells 1"
+"origin" "724 -2040 -237"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"netname" "item_cells 2"
+"origin" "724 -2073 -237"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"netname" "item_cells 3"
+"origin" "691 -2040 -237"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"netname" "item_cells 4"
+"origin" "691 -2073 -237"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"netname" "item_shells 1"
+"origin" "658 -2040 -237"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"netname" "item_shells 2"
+"origin" "658 -2073 -237"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"netname" "item_shells 3"
+"origin" "625 -2040 -237"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"netname" "item_shells 4"
+"origin" "625 -2073 -237"
+}
+{
+"classname" "item_rockets"
+"angle" "270"
+"spawnflags" "1"
+"netname" "item_rockets 1"
+"origin" "608 -2008 -237"
+}
+{
+"classname" "item_rockets"
+"angle" "270"
+"spawnflags" "1"
+"netname" "item_rockets 2"
+"origin" "608 -2040 -237"
+}
+{
+"classname" "item_rockets"
+"angle" "270"
+"spawnflags" "1"
+"netname" "item_rockets 3"
+"origin" "592 -2008 -237"
+}
+{
+"classname" "item_rockets"
+"angle" "270"
+"spawnflags" "1"
+"netname" "item_rockets 4"
+"origin" "592 -2040 -237"
+}
+{
+"classname" "item_rockets"
+"angle" "270"
+"spawnflags" "1"
+"netname" "item_rockets 5"
+"origin" "576 -2040 -237"
+}
+{
+"classname" "item_rockets"
+"angle" "270"
+"spawnflags" "1"
+"netname" "item_rockets 6"
+"origin" "576 -2008 -237"
+}
+{
+"classname" "item_health"
+"netname" "item_health 1"
+"origin" "542 -2040 -237"
+}
+{
+"classname" "item_health"
+"netname" "item_health 2"
+"origin" "542 -2073 -237"
+}
+{
+"classname" "item_health"
+"netname" "item_health 3"
+"origin" "509 -2073 -237"
+}
+{
+"classname" "item_health"
+"netname" "item_health 4"
+"origin" "509 -2040 -222"
+}
+{
+"classname" "item_armor2"
+"netname" "item_armor2 3"
+"armorclass" "31"
+"origin" "458 -2040 -229"
+}
+{
+"classname" "item_armor2"
+"netname" "item_armor2 4"
+"armorclass" "31"
+"origin" "458 -2073 -229"
+}
+{
+"classname" "item_armor2"
+"netname" "item_armor2 5"
+"armorclass" "31"
+"origin" "-288 2359 -229"
+}
+{
+"classname" "item_armor2"
+"netname" "item_armor2 6"
+"armorclass" "31"
+"origin" "-288 2325 -229"
+}
+{
+"classname" "item_armor2"
+"netname" "item_armor2 7"
+"armorclass" "31"
+"origin" "106 2358 -229"
+}
+{
+"classname" "item_armor2"
+"netname" "item_armor2 8"
+"armorclass" "31"
+"origin" "106 2325 -229"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "-244 2358 -236"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "-244 2325 -236"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "-210 2325 -236"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "-210 2358 -236"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"netname" "item_cells 5"
+"origin" "-176 2358 -236"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"netname" "item_cells 6"
+"origin" "-176 2325 -236"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"netname" "item_cells 7"
+"origin" "-143 2325 -236"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"netname" "item_cells 8"
+"origin" "-143 2358 -236"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"netname" "item_shells 5"
+"origin" "-110 2358 -237"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"netname" "item_shells 6"
+"origin" "-110 2325 -236"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"netname" "item_shells 7"
+"origin" "-77 2358 -237"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"netname" "item_shells 8"
+"origin" "-77 2325 -237"
+}
+{
+"classname" "item_rockets"
+"spawnflags" "1"
+"netname" "item_rockets 7"
+"origin" "-44 2358 -237"
+}
+{
+"classname" "item_rockets"
+"spawnflags" "1"
+"netname" "item_rockets 8"
+"origin" "-44 2325 -237"
+}
+{
+"classname" "item_rockets"
+"spawnflags" "1"
+"netname" "item_rockets 9"
+"origin" "-11 2358 -237"
+}
+{
+"classname" "item_rockets"
+"spawnflags" "1"
+"netname" "item_rockets 10"
+"origin" "-11 2325 -237"
+}
+{
+"classname" "item_health"
+"netname" "item_health 5"
+"origin" "22 2358 -237"
+}
+{
+"classname" "item_health"
+"netname" "item_health 6"
+"origin" "55 2358 -237"
+}
+{
+"classname" "item_health"
+"netname" "item_health 7"
+"origin" "55 2325 -237"
+}
+{
+"classname" "item_health"
+"netname" "item_health 8"
+"origin" "22 2325 -237"
+}
+{
+"classname" "info_player_start"
+"origin" "244 146 -224"
+}
+{
+"classname" "info_tfdetect"
+"broadcast" "TeamFortress v2.0"
+"playerclass" "128"
+"impulse" "132"
+"origin" "232 136 -226"
+}
+{
+"classname" "info_tfgoal"
+"Goal_no" "200"
+"team_no" "0"
+"playerclass" "0"
+"maxammo_shells" "0"
+"maxammo_nails" "0"
+"netname_broadcast" "Has Blown Blues Grate"
+"target" "grate1"
+"goal_activation" "2"
+"goal_result" "1"
+"origin" "792 736 -218"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "team2"
+"message" "Now Go Kill'em All!!!"
+"goal_activation" "2"
+"team_no" "2"
+"origin" "514 -1806 -230"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "team2"
+"message" "Now Go Kill'em All"
+"goal_activation" "2"
+"team_no" "2"
+"origin" "284 -2340 114"
+}
+{
+"classname" "info_tfgoal"
+"netname" "recharger"
+"message" "Bombing Up!.... \n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "2"
+"armorvalue" "150"
+"health" "150"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "50"
+"ammo_cells" "50"
+"ammo_medikit" "50"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"wait" "3"
+"g_a" "1"
+"origin" "560 -1074 -216"
+}
+{
+"classname" "info_tfgoal"
+"netname" "recharger"
+"message" "Bombing Up!.... \n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "2"
+"armorvalue" "150"
+"health" "150"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "50"
+"ammo_cells" "50"
+"ammo_medikit" "50"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"wait" "3"
+"g_a" "1"
+"origin" "634 -1074 -216"
+}
+{
+"classname" "info_tfgoal"
+"netname" "recharger"
+"message" "Bombing Up!.... \n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "1"
+"armorvalue" "150"
+"health" "150"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "50"
+"ammo_cells" "50"
+"ammo_medikit" "50"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"wait" "3"
+"g_a" "1"
+"origin" "-124 1342 -218"
+}
+{
+"classname" "info_tfgoal"
+"netname" "recharger"
+"message" "Bombing Up!.... \n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "1"
+"armorvalue" "150"
+"health" "150"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "50"
+"ammo_cells" "50"
+"ammo_medikit" "50"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"wait" "3"
+"g_a" "1"
+"origin" "-42 1342 -218"
+}
+{
+"classname" "info_tfgoal"
+"goal_no" "100"
+"team_no" "0"
+"player_class" "0"
+"maxammo_shells" "0"
+"maxammo_nails" "0"
+"netname_broadcast" "Has Blown The Reds Grate"
+"target" "grate2"
+"goal_activation" "2"
+"goal_result" "1"
+"origin" "-278 -472 -222"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "team2"
+"message" "Now Go Kill'em All!!!"
+"goal_activation" "2"
+"team_no" "2"
+"origin" "704 -1880 -226"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "team1"
+"message" "Now go Kill'em All!!"
+"goal_activation" "2"
+"team_no" "1"
+"origin" "-76 2162 -220"
+}
+{
+"classname" "func_door"
+"wait" "-1"
+"speed" "10000"
+"sounds" "1"
+"lip" "-1"
+"dmg" "0"
+"health" "0"
+"targetname" "grate1"
+"team_no" "0"
+"message" "Blow The Grate"
+"model" "*28"
+}

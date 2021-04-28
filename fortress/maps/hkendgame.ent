@@ -1,0 +1,686 @@
+// worldspawn
+{
+ "classname" "worldspawn"
+ "message" "Our unholy union"
+ "light" "10"
+ "sounds" "1"
+ "worldtype" "2"
+ "wad" "gfx/QuArK.wad"
+}
+{
+"classname" "light"
+"light" "200"
+"angle" "360"
+"origin" "419 -192 -265"
+"netname" "redall"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "360"
+"origin" "419 108 -265"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "360"
+"origin" "119 108 -265"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "360"
+"origin" "-181 108 -265"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "360"
+"origin" "419 -492 -265"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "360"
+"origin" "119 -492 -265"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "360"
+"origin" "-181 -492 -265"
+}
+{
+"classname" "light"
+"light" "200"
+"angle" "360"
+"origin" "119 -192 -265"
+}
+{
+"classname" "light"
+"light" "200"
+"angle" "360"
+"origin" "-100 -192 -265"
+"_color" ".9 .1 .9"
+}
+{
+"classname" "light"
+"light" "250"
+"angle" "360"
+"origin" "-181-192 -265"
+"netname" "redall"
+}
+// Entities:g[1] -> trigger_teleport:b[11]
+{
+ "classname" "trigger_teleport"
+ "target" "redspawn"
+ "team_no" "2"
+ "model" "*1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-217 -204 22"
+"targetname" "redspawn"
+"angle" "0"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "-217 -204 22"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-125 -200 27"
+"angle" "0"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-25 -200 27"
+"angle" "0"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "75 -200 27"
+"angle" "0"
+"team_no" "2"
+}
+{
+"classname" "light"
+"light" "100"
+"angle" "360"
+"origin" "300 -130 10"
+"netname" "redbag1"
+"_color" ".9 .7 .2"
+}
+{
+"classname" "light"
+"light" "100"
+"angle" "360"
+"origin" "300 -270 10"
+"netname" "redbag2"
+"_color" ".9 .7 .2"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "360"
+"origin" "30 -178 17"
+"netname" "redbag2"
+"_color" ".9 .7 .2"
+}
+// Entities:g[1] -> trigger_teleport:b[20]
+{
+ "classname" "trigger_teleport"
+ "target" "redchurch"
+ "model" "*2"
+}
+{
+"classname" "info_player_start"
+"origin" "361 -293 -236"
+"angle" "0"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "171 -184 -304"
+"angle" "180"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "410 -159 -223"
+"targetname" "redchurch"
+"angle" "180"
+}
+{
+"classname" "light"
+"light" "100"
+"angle" "360"
+"origin" "447 -190 23"
+"_color" ".6 .3 .1"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "-600 -200 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "-600 200 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "-300 400 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "100 400 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "500 400 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "900 400 -240"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "360"
+"origin" "900 -100 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "-600 -600 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "-300 -800 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "100 -800 -240"
+}
+{
+"classname" "info_tfdetect"
+"display_item_status1" "1"
+"n_s_c" "Enemy flag is carried by "
+"display_item_status2" "2"
+"impulse" "12"
+"t_s_h" "Your flag is safe"
+"b_n" "Cap the flag stupid\n"
+"t_s_c" "Your flag is carried by "
+"origin" "361 -293 -236"
+"hook_out" "1"
+"n_s_h" "Enemy flag is safe"
+"b_t" "€‚\nWelcome‘ Ž To The‘ Ž Jungle‘\n€‚\n“‘ TEAMœ“\n”‘ TEAMœ”\n€‚\n"
+"n_s_m" "Enemy flag is lost"
+"t_s_m" "Your flag is lost"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "500 -800 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "360"
+"origin" "900 -800 -240"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "360"
+"origin" "900 -300 -240"
+}
+{
+"classname" "light"
+"light" "250"
+"angle" "180"
+"origin" "-181-192 -265"
+"netname" "redall"
+}
+{
+"classname" "light"
+"light" "200"
+"angle" "180"
+"origin" "1987 -192 -265"
+"netname" "blueall"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "180"
+"origin" "1987 108 -265"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "180"
+"origin" "2287 108 -265"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "180"
+"origin" "2587 108 -265"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "180"
+"origin" "1987 -492 -265"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "180"
+"origin" "2287 -492 -265"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "180"
+"origin" "2587 -492 -265"
+}
+{
+"classname" "light"
+"light" "200"
+"angle" "180"
+"origin" "2287 -192 -265"
+}
+{
+"classname" "light"
+"light" "200"
+"angle" "180"
+"origin" "2506 -192 -265"
+"_color" ".9 .1 .9"
+}
+{
+"classname" "light"
+"light" "250"
+"angle" "180"
+"origin" "-181-192 -265"
+"netname" "redall"
+}
+// Entities:g[1] -> trigger_teleport:b[50]
+{
+ "classname" "trigger_teleport"
+ "target" "bluespawn"
+ "team_no" "1"
+ "model" "*3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "2623 -204 22"
+"targetname" "bluespawn"
+"angle" "180"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "2623 -204 22"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "2531 -200 27"
+"angle" "180"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "2431 -200 27"
+"angle" "180"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "2331 -200 27"
+"angle" "180"
+"team_no" "1"
+}
+{
+"classname" "light"
+"light" "100"
+"angle" "180"
+"origin" "2106 -130 10"
+"netname" "bluebag1"
+"_color" ".9 .7 .2"
+}
+{
+"classname" "light"
+"light" "100"
+"angle" "180"
+"origin" "2106 -270 10"
+"netname" "bluebag2"
+"_color" ".9 .7 .2"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "180"
+"origin" "2376 -178 17"
+"netname" "redbag2"
+"_color" ".9 .7 .2"
+}
+// Entities:g[1] -> trigger_teleport:b[59]
+{
+ "classname" "trigger_teleport"
+ "target" "bluechurch"
+ "model" "*4"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "2235 -184 -304"
+"angle" "360"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1996 -159 -223"
+"targetname" "bluechurch"
+"angle" "360"
+}
+{
+"classname" "light"
+"light" "100"
+"angle" "180"
+"origin" "1959 -190 23"
+"_color" ".6 .3 .1"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "3006 -200 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "3006 200 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "2706 400 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "2306 400 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "1906 400 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "1506 400 -240"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "180"
+"origin" "1506 -100 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "3006 -600 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "2706 -800 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "2306 -800 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "1906 -800 -240"
+}
+{
+"classname" "light"
+"light" "350"
+"angle" "180"
+"origin" "1506 -800 -240"
+}
+{
+"classname" "light"
+"light" "300"
+"angle" "180"
+"origin" "1506 -300 -240"
+}
+{
+"classname" "light"
+"light" "250"
+"angle" "360"
+"origin" "-181-192 -265"
+"netname" "redall"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "Resupply Bag Blue"
+"message" "You are now loaded\n"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"noise" "lustmord/ithp.wav"
+"origin" "2106 -130 10"
+"no_grenades_2" "4"
+"wait" "1"
+"g_e" "1"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"goal_result" "16"
+"armorvalue" "300"
+"health" "100"
+"team_no" "1"
+"ammo_cells" "200"
+"mdl" "progs/invisibl.mdl"
+"ammo_rockets" "100"
+"ammo_detpack" "1"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"ammo_shells" "200"
+"message" "You are now loaded\n"
+"netname" "Resupply Bag Blue"
+"origin" "2106 -270 10"
+"noise" "lustmord/ihtp.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "4"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "200"
+"armorvalue" "300"
+"goal_result" "16"
+"team_no" "1"
+"health" "100"
+"mdl" "progs/invisibl.mdl"
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_rockets" "100"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "Resupply Bag Red"
+"message" "You are now loaded\n"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"noise" "lustmord/ihtp.wav"
+"origin" "300 -270 10"
+"no_grenades_2" "4"
+"wait" "1"
+"g_e" "1"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"goal_result" "16"
+"armorvalue" "300"
+"health" "100"
+"team_no" "2"
+"ammo_cells" "200"
+"mdl" "progs/invisibl.mdl"
+"ammo_rockets" "100"
+"ammo_detpack" "1"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"ammo_shells" "200"
+"message" "You are now loaded\n"
+"netname" "Resupply Bag Red"
+"origin" "300 -130 10"
+"noise" "lustmord/ihtp.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "4"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "200"
+"armorvalue" "300"
+"goal_result" "16"
+"team_no" "2"
+"health" "100"
+"mdl" "progs/invisibl.mdl"
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_rockets" "100"
+}
+{
+"classname" "info_tfgoal"
+"netname" "bluekill"
+"origin" "1987 -192 -265"
+"g_e" "5"
+"health" "-500"
+"group_no" "55"
+"targetname" "bluekill"
+}
+{
+"classname" "info_tfgoal"
+"netname" "redkill"
+"origin" "419 -192 -265"
+"g_e" "5"
+"health" "-500"
+"group_no" "55"
+"targetname" "redkill"
+}
+{
+"classname" "item_tfgoal"
+"g_a" "693"
+"owned_by" "1"
+"netname" "blue_flag"
+"d_n_n" " Dropped the Blue Flag.\n"
+"origin" "1987 -192 -265"
+"n_b" " Has the Blue Flag\n"
+"noise" "lustmord/hs.wav"
+"d_n_t" " Dropped the Blue Flag.\n"
+"g_e" "1"
+"noise3" "Blue flag has returned.\n"
+"items" "131072"
+"goal_no" "1"
+"noise4" "Blue flag has returned.\n"
+"goal_result" "18"
+"pausetime" "60"
+"team_no" "2"
+"skin" "1"
+"mdl" "progs/hk_flag.mdl"
+}
+{
+"classname" "item_tfgoal"
+"g_a" "693"
+"owned_by" "2"
+"netname" "red_flag"
+"d_n_n" " Dropped the Red Flag.\n"
+"origin" "419 -192 -265"
+"n_b" " Has the Red Flag\n"
+"noise" "lustmord/hs.wav"
+"d_n_t" " Dropped the Red Flag.\n"
+"g_e" "1"
+"noise3" "Red flag has returned.\n"
+"items" "262144"
+"goal_no" "2"
+"noise4" "Red flag has returned.\n"
+"goal_result" "18"
+"pausetime" "60"
+"team_no" "1"
+"skin" "0"
+"mdl" "progs/hk_flag.mdl"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"owned_by" "1"
+"items_allowed" "2"
+"netname" "blue_cap"
+"increase_team1" "10"
+"axhitme" "2"
+"target" "bluekill"
+"n_b" " Cap's the flag for the Blue team.\n"
+"origin" "1987 -192 -265"
+"noise" "lustmord/darkness.wav"
+"b_b" "Blue Team Captures The Flag.\n"
+"g_e" "3"
+"frags" "10"
+"goal_result" "2"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"owned_by" "2"
+"items_allowed" "1"
+"netname" "red_cap"
+"axhitme" "1"
+"target" "redkill"
+"increase_team2" "10"
+"n_b" " Cap's the flag for the Red team.\n"
+"origin" "419 -192 -265"
+"noise" "lustmord/darkness.wav"
+"b_b" "Red Team Captures The Flag.\n"
+"g_e" "3"
+"frags" "10"
+"goal_result" "2"
+}

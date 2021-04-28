@@ -1,0 +1,578 @@
+{
+"message" "House Battle"
+"classname" "worldspawn"
+"worldtype" "2"
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn2"
+"classname" "info_player_teamspawn"
+"origin" "256 -2176 64"
+"team_no" "2"
+"goal_state" "1"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn2"
+"classname" "info_player_teamspawn"
+"origin" "256 -2112 64"
+"team_no" "2"
+"goal_state" "1"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn2"
+"classname" "info_player_teamspawn"
+"origin" "320 -2112 64"
+"team_no" "2"
+"goal_state" "1"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn2"
+"classname" "info_player_teamspawn"
+"origin" "384 -2112 64"
+"team_no" "2"
+"goal_state" "1"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn2"
+"classname" "info_player_teamspawn"
+"origin" "448 -2112 64"
+"team_no" "2"
+"goal_state" "1"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn2"
+"classname" "info_player_teamspawn"
+"origin" "448 -2176 64"
+"team_no" "2"
+"goal_state" "1"
+"angle" "90"
+}
+{
+"goal_activation" "701"
+"non_team_str_carried" "The enemy flag is being carried by"
+"owned_by" "2"
+"netname_team_broadcast" " is carrying your flag to the house.\n"
+"netname" "team2flag"
+"message" "You have your flag!  Carry it to the center house.\n"
+"netname_non_team_drop" " dropped the enemy flag!\n"
+"team_str_home" "Your flag is back at start."
+"classname" "item_tfgoal"
+"origin" "320 -2304 64"
+"noise" "dlf/secure.wav"
+"team_str_carried" "Your flag is being carried by"
+"netname_team_drop" " dropped your flag.\n"
+"non_team_str_home" "The enemy flag is back at start."
+"goal_no" "201"
+"noise3" "Your flag was returned to start.\n"
+"items" "131072"
+"non_team_str_moved" "The enemy flag has been moved."
+"noise4" "Enemy flag was returned to start.\n"
+"goal_result" "16"
+"team_no" "2"
+"pausetime" "10"
+"skin" "2"
+"group_no" "30"
+"mdl" "progs/tf_flag.mdl"
+"team_str_moved" "Your flag has been moved."
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn1"
+"classname" "info_player_teamspawn"
+"origin" "-448 2176 64"
+"team_no" "1"
+"goal_state" "1"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn1"
+"classname" "info_player_teamspawn"
+"origin" "-448 2112 64"
+"team_no" "1"
+"goal_state" "1"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn1"
+"classname" "info_player_teamspawn"
+"origin" "-384 2112 64"
+"team_no" "1"
+"goal_state" "1"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn1"
+"classname" "info_player_teamspawn"
+"origin" "-320 2112 64"
+"team_no" "1"
+"goal_state" "1"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn1"
+"classname" "info_player_teamspawn"
+"origin" "-256 2112 64"
+"team_no" "1"
+"goal_state" "1"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"message" "Carry Flag to Center of House!\n"
+"netname" "respawn1"
+"classname" "info_player_teamspawn"
+"origin" "-256 2176 64"
+"team_no" "1"
+"goal_state" "1"
+"angle" "270"
+}
+{
+"goal_activation" "541"
+"non_team_str_carried" "The enemy flag is being carried by"
+"owned_by" "1"
+"netname_team_broadcast" " is carrying your flag to the house.\n"
+"netname" "team1flag"
+"message" "You have your flag!  Carry it to the center house.\n"
+"netname_non_team_drop" " dropped the enemy flag!\n"
+"team_str_home" "Your flag is awaiting pickup at start."
+"classname" "item_tfgoal"
+"origin" "-320 2304 64"
+"noise" "dlf/secure.wav"
+"team_str_carried" "Your flag is being carried by"
+"netname_team_drop" " dropped the flag.\n"
+"non_team_str_home" "The enemy flag is still at start."
+"goal_no" "101"
+"noise3" "Your Flag returned to start.\n"
+"items" "131072"
+"non_team_str_moved" "The enemy flag has been moved."
+"noise4" "Enemy Flag returned to start.\n"
+"goal_result" "16"
+"team_no" "1"
+"skin" "1"
+"group_no" "30"
+"mdl" "progs/tf_flag.mdl"
+"team_str_moved" "Your flag has been moved."
+}
+{
+"goal_activation" "1"
+"netname_team_broadcast" " (friendly) carried the flag to the house.\n"
+"message" "You captured the house!\n"
+"netname" "capturespot"
+"has_item_from_group" "30"
+"classname" "info_tfgoal"
+"origin" "-12 -12 -152"
+"noise" "dlf/secured.wav"
+"netname_non_team_broadcast" " (enemy) carried the flag to the house.\n"
+"wait" "60"
+"broadcast" "The HOUSE has been captured!\n"
+"goal_effects" "2"
+"count" "10"
+"goal_no" "301"
+"frags" "10"
+"remove_item_group" "30"
+}
+{
+"netname" "detectent"
+"impulse" "64"
+"non_team_broadcast" "Carry your flag to the center house.\n"
+"classname" "info_tfdetect"
+"origin" "544 164 -184"
+"team_broadcast" "-= HOUSE BATTLE =-\nBY [DLF] VOODOOCHILD\n\n1.    TEAM ONE\n2.    TEAM TWO\n"
+}
+{
+"classname" "light"
+"origin" "-152 192 -216"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "136 272 -136"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-168 232 -112"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "148 48 -112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "160 112 -200"
+"light" "250"
+}
+{
+"classname" "info_player_start"
+"origin" "-320 2368 64"
+"angle" "270"
+}
+{
+"classname" "light"
+"origin" "-340 2000 112"
+"light" "750"
+}
+{
+"classname" "light"
+"origin" "-968 2008 -36"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1792 2176 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-1852 1752 112"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1616 1312 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-2068 420 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-792 868 112"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "476 1808 112"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "1072 1772 112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "584 664 112"
+"light" "750"
+}
+{
+"classname" "light"
+"origin" "24 496 112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "512 216 112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1416 736 112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1648 192 -20"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-2096 188 -160"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-1276 448 -20"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-504 372 -8"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "2116 168 -160"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1852 1032 -160"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1848 1700 -160"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-1048 1472 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-464 1340 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-128 1008 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-1920 692 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "828 1280 112"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "1468 1280 0"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-1756 420 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "152 -192 -216"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-136 -272 -136"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "168 -232 -112"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-148 -48 -112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-160 -112 -200"
+"light" "250"
+}
+{
+"classname" "info_player_start"
+"origin" "320 -2368 64"
+"angle" "270"
+}
+{
+"classname" "light"
+"origin" "340 -2000 112"
+"light" "750"
+}
+{
+"classname" "light"
+"origin" "968 -2008 -36"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1792 -2176 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1852 -1752 112"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1616 -1312 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "2068 -420 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "792 -868 112"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-476 -1808 112"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-1072 -1772 112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-584 -664 112"
+"light" "750"
+}
+{
+"classname" "light"
+"origin" "-24 -496 112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-512 -216 112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1416 -736 112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1648 -192 -20"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "2096 -188 -160"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1276 -448 -20"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "504 -372 -8"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2116 -168 -160"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-1852 -1032 -160"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-1848 -1700 -160"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1048 -1472 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "464 -1340 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "128 -1008 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1920 -692 112"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-828 -1280 112"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-1468 -1280 0"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "1756 -420 112"
+"light" "250"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "200"
+"netname" "blueback"
+"message" "Fully Resupplied.\n"
+"classname" "info_tfgoal"
+"origin" "-320 2240 32"
+"noise" "dlf/blood.wav"
+"armortype" "0.8"
+"no_grenades_1" "200"
+"wait" "1"
+"no_grenades_2" "200"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "200"
+"armorvalue" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "200"
+"ammo_detpack" "200"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "200"
+"netname" "redback"
+"message" "Fully resupplied.\n"
+"classname" "info_tfgoal"
+"origin" "352 -2208 32"
+"noise" "dlf/blood.wav"
+"armortype" "0.8"
+"no_grenades_1" "200"
+"wait" "1"
+"no_grenades_2" "200"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "200"
+"armorvalue" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "200"
+"ammo_detpack" "200"
+}

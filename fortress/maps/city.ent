@@ -1,0 +1,878 @@
+{
+"classname" "worldspawn"
+"wad" "C:\Programfiler\Qoole\work\city.wad"
+"message" "THE CITY \n Made by and elf and his zippo \n go.to/haralkar"
+"worldtype" "1"
+"sounds" "2"
+"light" "200"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "300"
+"sounds" "2"
+"wait" "3"
+"lip" "8"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"message" "Bullet-proof glass \n"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "1"
+"model" "*3"
+}
+{
+"classname" "i_p_t"
+"angle" "90"
+"g_a" "2"
+"netname" "bluespawn"
+"message" "Welcome to a...different citytrip \n"
+"team_no" "1"
+"origin" "-224 -896 264"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"model" "*4"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "camper1"
+"origin" "192 -608 16"
+}
+{
+"classname" "i_p_t"
+"angle" "90"
+"g_a" "2"
+"netname" "redspawn"
+"message" "Welcome to a...different citytrip \n"
+"team_no" "2"
+"origin" "1584 416 352"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "blue_ammo"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"wait" "1"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_medikit" "50"
+"ammo_nails" "200"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+"ammo_detpack" "-2"
+"origin" "-224 -800 256"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "-200"
+"message" "Thief!\n"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "20"
+"g_e" "1"
+"ammo_nails" "-200"
+"armorvalue" "-300"
+"ammo_cells" "-200"
+"ammo_rockets" "-100"
+"ammo_detpack" "-2"
+"origin" "192 -608 56"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "blue_ammo"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"wait" "1"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_medikit" "50"
+"ammo_nails" "200"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+"ammo_detpack" "-2"
+"origin" "-320 -800 256"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "blue_ammo"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"wait" "1"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_medikit" "50"
+"ammo_nails" "200"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+"ammo_detpack" "-2"
+"origin" "-320 -896 256"
+}
+{
+"classname" "trigger_multiple"
+"message" "Bullet-proof glass \n"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"health" "1"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "40"
+"sounds" "4"
+"wait" "2"
+"dmg" "0"
+"lip" "0"
+"health" "0"
+"targetname" "jaildoor"
+"model" "*6"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"speed" "100"
+"target" "jaildoor"
+"sounds" "2"
+"wait" "2"
+"delay" "0"
+"team_no" "2"
+"health" "0"
+"model" "*7"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"speed" "100"
+"target" "jaildoor"
+"sounds" "2"
+"wait" "2"
+"delay" "0"
+"team_no" "1"
+"health" "0"
+"model" "*8"
+}
+{
+"classname" "trigger_multiple"
+"message" "Bullet-proof glass \n"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"health" "1"
+"model" "*9"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-272 -848 304"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-304 -992 336"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "192 -384 144"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "1344 1056 192"
+}
+{
+"classname" "light_fluorospark"
+"light" "300"
+"origin" "-528 -256 64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "-704 -766 272"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "-704 -672 272"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "272 980 352"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-16 980 352"
+}
+{
+"classname" "light_globe"
+"light" "300"
+"origin" "64 -576 144"
+}
+{
+"classname" "light_globe"
+"light" "300"
+"origin" "320 -576 144"
+}
+{
+"classname" "light_globe"
+"light" "300"
+"origin" "-808 -128 42"
+}
+{
+"classname" "light_globe"
+"light" "300"
+"origin" "-920 -128 42"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"model" "*10"
+}
+{
+"classname" "func_door"
+"speed" "100"
+"sounds" "2"
+"wait" "3"
+"lip" "8"
+"model" "*11"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "3028 160 384"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "3168 768 100"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "3168 640 100"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "3168 512 100"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "3168 368 100"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "3168 240 100"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "2880 768 100"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "2880 640 100"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "2880 512 100"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "2880 368 100"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "300"
+"origin" "2880 240 100"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "192 -78 190"
+}
+{
+"classname" "light_globe"
+"style" "6"
+"light" "400"
+"origin" "465 -864 190"
+}
+{
+"classname" "light_globe"
+"light" "500"
+"origin" "-704 -720 304"
+}
+{
+"classname" "light_globe"
+"light" "500"
+"origin" "-704 -416 304"
+}
+{
+"classname" "light_globe"
+"light" "300"
+"origin" "-192 -256 304"
+}
+{
+"classname" "trigger_multiple"
+"message" "Oh my god, it's a church..."
+"wait" "20"
+"model" "*12"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "465 -608 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "-192 -78 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "465 160 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "465 416 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "465 672 190"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-544 -512 80"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "3024 480 80"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "-384 1636 56"
+}
+{
+"classname" "trigger_multiple"
+"target" "booze"
+"wait" "5"
+"model" "*13"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"model" "*14"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "40"
+"sounds" "4"
+"wait" "2"
+"dmg" "0"
+"lip" "0"
+"health" "0"
+"targetname" "jaildoor"
+"model" "*15"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "40"
+"sounds" "4"
+"wait" "2"
+"dmg" "0"
+"lip" "0"
+"health" "0"
+"targetname" "jaildoor"
+"model" "*16"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"model" "*17"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"model" "*18"
+}
+{
+"classname" "item_tfgoal"
+"netname" "Here will the church bell sound be!!!"
+"origin" "3032 916 480"
+}
+{
+"classname" "info_tfdetect"
+"team_broadcast" "Chose your team, \n but chose visely \n \n 1 =BLUE 2 = RED"
+"origin" "0 0 416"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"model" "*19"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/tf_flag.mdl"
+"origin" "2496 -304 48"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/tf_flag.mdl"
+"origin" "2496 -1040 48"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/tf_flag.mdl"
+"origin" "1184 -1040 48"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/tf_flag.mdl"
+"origin" "1184 -304 48"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "-200"
+"message" "Welcome to the soccerfield \n no weapons \n"
+"wait" "1"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "-300"
+"ammo_cells" "-200"
+"ammo_rockets" "-100"
+"origin" "2608 -1056 32"
+"ammo_detpack" "-2"
+"noise" "misc/putdown.wav"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "-200"
+"message" "Welcome to the soccerfield \n no weapons \n"
+"wait" "1"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "-300"
+"ammo_cells" "-200"
+"ammo_rockets" "-100"
+"origin" "2608 -1056 64"
+"ammo_detpack" "-2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "-200"
+"message" "Welcome to the soccerfield \n no weapons \n"
+"wait" "1"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "-300"
+"ammo_cells" "-200"
+"ammo_rockets" "-100"
+"origin" "2608 -1056 96"
+"noise" "misc/putdown.wav"
+"ammo_detpack" "-2"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"model" "*20"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "1"
+"origin" "2528 -608 66"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "1"
+"origin" "2528 -672 66"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "1"
+"origin" "2528 -736 66"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "1"
+"origin" "2528 -608 34"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "1"
+"origin" "2528 -672 34"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "1"
+"origin" "2528 -736 34"
+}
+{
+"classname" "light"
+"origin" "1936 -672 496"
+"light" "300"
+}
+{
+"classname" "info_tfgoal"
+"netname" "health"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "1"
+"origin" "1400 1056 36"
+}
+{
+"classname" "func_illusionary"
+"model" "*21"
+}
+{
+"classname" "info_tfgoal"
+"netname" "health"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "1"
+"origin" "3024 880 84"
+}
+{
+"classname" "light"
+"origin" "1768 588 102"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "2326 448 102"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "2442 740 102"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "2344 838 102"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-384 1696 176"
+"light" "300"
+}
+{
+"classname" "trigger_teleport"
+"target" "camper1"
+"team_no" "2"
+"model" "*22"
+}
+{
+"classname" "info_tfgoal"
+"origin" "2144 528 48"
+"noise" "misc/booze.wav"
+"goal_effects" "1"
+"goal_activation" "1"
+"wait" "1"
+"mdl" "progs/zombie.mdl"
+"angle" "180"
+}
+{
+"classname" "light"
+"origin" "1664 544 384"
+"light" "300"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "blue_ammo"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"wait" "1"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_medikit" "50"
+"ammo_nails" "200"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+"ammo_detpack" "-2"
+"origin" "1664 512 352"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "blue_ammo"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"wait" "1"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_medikit" "50"
+"ammo_nails" "200"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+"ammo_detpack" "-2"
+"origin" "1664 416 352"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "blue_ammo"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"wait" "1"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_medikit" "50"
+"ammo_nails" "200"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+"ammo_detpack" "-2"
+"origin" "1552 512 352"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "465 -352 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "2368 -79 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "2112 -79 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "1856 -79 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "1600 -79 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "2799 -352 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "2799 -608 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "2799 -864 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "2641 352 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "2641 608 190"
+}
+{
+"classname" "light_globe"
+"light" "400"
+"origin" "2641 864 190"
+"style" "5"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "2"
+"origin" "1152 -672 34"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "2"
+"origin" "1152 -608 34"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "2"
+"origin" "1152 -736 34"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "2"
+"origin" "1152 -672 66"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "2"
+"origin" "1152 -608 66"
+}
+{
+"classname" "sandball_goal"
+"frags" "0"
+"team_no" "2"
+"origin" "1152 -736 66"
+}
+{
+"classname" "trigger_teleport"
+"target" "camper1"
+"team_no" "1"
+"model" "*23"
+}
+{
+"classname" "light"
+"origin" "1168 0 264"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "976 0 264"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1168 0 64"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "976 0 64"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1936 -672 102"
+"light" "1000"
+}
+{
+"classname" "ballstart"
+"origin" "1936 -672 96"
+}
+{
+"classname" "ball"
+"origin" "1936 -672 96"
+}
+{
+"classname" "info_tfgoal"
+"netname" "health"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "1"
+"origin" "-656 -992 36"
+}
+{
+"classname" "func_illusionary"
+"model" "*24"
+}
+{
+"classname" "light"
+"origin" "2048 544 384"
+"light" "300"
+}

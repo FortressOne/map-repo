@@ -1,0 +1,171 @@
+{
+"wad" "gfx/QuArK.wad"
+"message" "Sky Battle       By: Saboteur"
+"classname" "worldspawn"
+}
+{
+"light" "100"
+"style" "0"
+"origin" "-608 864 96"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "100"
+"style" "0"
+"origin" "608 864 96"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "100"
+"style" "0"
+"origin" "-608 -864 96"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "100"
+"style" "0"
+"origin" "608 -864 96"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "1000"
+"style" "0"
+"origin" "0 0 480"
+"classname" "light_globe"
+}
+{
+"angle" "270"
+"origin" "-544 800 96"
+"classname" "monster_knight"
+}
+{
+"angle" "270"
+"origin" "544 800 96"
+"classname" "monster_knight"
+}
+{
+"angle" "90"
+"origin" "0 0 128"
+"classname" "info_player_start"
+}
+{
+"angle" "90"
+"origin" "-544 -800 96"
+"classname" "monster_hell_knight"
+}
+{
+"angle" "90"
+"origin" "544 -800 96"
+"classname" "monster_hell_knight"
+}
+{
+"targetname" "t1"
+"origin" "0 768 64"
+"classname" "info_teleport_destination"
+}
+{
+"targetname" "t2"
+"origin" "0 -768 64"
+"classname" "info_teleport_destination"
+}
+{
+"team_no" "2"
+"angle" "180"
+"origin" "-1376 -1024 416"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"angle" "180"
+"origin" "-1376 -256 416"
+"classname" "info_player_teamspawn"
+}
+{
+"model" "*1"
+"spawnflags" "1"
+"target" "t1"
+"angle" "270"
+"origin" "0 0 0"
+"classname" "trigger_teleport"
+}
+{
+"model" "*2"
+"spawnflags" "1"
+"target" "t2"
+"angle" "91"
+"origin" "0 0 0"
+"classname" "trigger_teleport"
+}
+{
+"style" "0"
+"light" "300"
+"origin" "-1792 -1024 416"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "300"
+"origin" "-1792 -256 416"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "300"
+"origin" "-1536 -1024 416"
+"classname" "light"
+}
+{
+"style" "0"
+"light" "300"
+"origin" "-1536 -256 416"
+"classname" "light"
+}
+{
+"origin" "-1548 -264 308"
+"wait" "2"
+"message" "Fight!"
+"goal_activation" "1"
+"no_grenades_1" "4"
+"ammo_medikit" "100"
+"ammo_cells" "500"
+"ammo_rockets" "100"
+"ammo_nails" "500"
+"ammo_shells" "500"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"goal_effects" "1"
+"netname" "re-supply_pack"
+"mdl" "progs/backpack.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1548 -1032 308"
+"wait" "2"
+"message" "Fight!"
+"goal_activation" "1"
+"no_grenades_1" "4"
+"ammo_medikit" "100"
+"ammo_cells" "500"
+"ammo_rockets" "100"
+"ammo_nails" "500"
+"ammo_shells" "500"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"goal_effects" "1"
+"netname" "re-supply_pack"
+"mdl" "progs/backpack.mdl"
+"classname" "info_tfgoal"
+}
+{
+"model" "*3"
+"dmg" "9999"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "trigger_hurt"
+}
+{
+"origin" "-1280 -640 256"
+"classname" "info_tfdetect"
+}

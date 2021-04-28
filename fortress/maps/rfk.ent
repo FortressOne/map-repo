@@ -1,0 +1,169 @@
+{
+"classname" "worldspawn"
+"wad" "rfk.wad"
+}
+{
+"classname" "info_player_start"
+"origin" "707 459 528"
+"angle" "90"
+}
+{
+"classname" "info_tfgoal"
+"origin" "672 -176 592"
+"netname" "Resupply Bag"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "1"
+"wait" "4"
+"message" "fuck him up!!! \n"
+"no_grenades_2" "2"
+"ammo_cells" "100"
+"ammo_rockets" "50"
+"ammo_nails" "100"
+"ammo_shells" "50"
+"invincible_finished" "4"
+"armorvalue" "200"
+"health" "100"
+"no_grenades_1" "999"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "678 -168 624"
+"team_no" "1"
+"angle" "90"
+}
+{
+"classname" "info_tfdetect"
+"origin" "1075 126 400"
+"impulse" "64"
+"team_broadcast" "Choose your team, faggot. \n\n1.. Blue Team\n2.. Red Team\n"
+"hook_out" "1"
+}
+{
+"classname" "info_tfgoal"
+"origin" "688 1152 592"
+"netname" "Resupply Bag"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "2"
+"wait" "4"
+"message" "fuck him up!!! \n"
+"no_grenades_2" "2"
+"ammo_cells" "100"
+"ammo_rockets" "50"
+"ammo_nails" "100"
+"ammo_shells" "50"
+"invincible_finished" "4"
+"armorvalue" "200"
+"health" "100"
+"no_grenades_1" "999"
+"noise" "items/backpack.wav"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "688 1136 608"
+"team_no" "2"
+"angle" "260"
+}
+{
+"classname" "light"
+"origin" "692 1044 160"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "678 -54 176"
+"light" "300"
+}
+{
+"classname" "light_fluorospark"
+"origin" "1049 459 192"
+"light" "400w"
+"style" "0"
+}
+{
+"classname" "light_fluorospark"
+"origin" "393 459 144"
+"light" "400"
+"style" "0"
+"spawnflags" "0"
+}
+{
+"classname" "light_fluorospark"
+"origin" "735 488 128"
+"light" "380"
+"style" "0"
+}
+{
+"classname" "light_fluorospark"
+"origin" "1449 417 256"
+"light" "430"
+"style" "0"
+}
+{
+"classname" "light_fluorospark"
+"origin" "128 64 144"
+"light" "400"
+"style" "0"
+}
+{
+"classname" "light_fluorospark"
+"origin" "1248 64 144"
+"light" "400"
+"style" "0"
+}
+{
+"classname" "light_fluorospark"
+"origin" "1408 464 208"
+"light" "430"
+"style" "0"
+}
+{
+"classname" "light_fluorospark"
+"origin" "1248 896 144"
+"light" "400"
+"style" "0"
+}
+{
+"classname" "light_fluorospark"
+"origin" "128 928 128"
+"light" "400"
+"style" "0"
+}
+{
+"classname" "light_fluorospark"
+"origin" "-35 502 208"
+"light" "430"
+"style" "0"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "688 1120 576"
+"angle" "90"
+"targetname" "check2"
+"spawnflags" "0"
+}
+{
+"classname" "trigger_push"
+"speed" "75"
+"angle" "-1"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "check2"
+"spawnflags" "3"
+"model" "*2"
+}
+{
+"classname" "func_door_secret"
+"speed" "50"
+"sounds" "3"
+"wait" "1"
+"lip" "0"
+"angle" "180"
+"targetname" "none"
+"spawnflags" "16"
+"model" "*3"
+}

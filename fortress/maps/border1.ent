@@ -1,0 +1,281 @@
+{
+"message" "-Cross the Border-\n by RECSomeone "
+"classname" "worldspawn"
+}
+{
+"origin" "-64 -576 -272"
+"angle" "90"
+"classname" "info_player_start"
+}
+{
+"origin" "-256 -576 -304"
+"classname" "light_flame_large_yellow"
+}
+{
+"origin" "24 -544 -128"
+"classname" "light_torch_small_walltorch"
+}
+{
+"model" "*1"
+"team_no" "1"
+"health" "0"
+"dmg" "0"
+"lip" "-8"
+"wait" "0"
+"speed" "100"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"wait" "2"
+"health" "0"
+"dmg" "500"
+"lip" "-3600"
+"speed" "300"
+"targetname" "truck"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"team_no" "2"
+"delay" "2"
+"style" "32"
+"target" "truck"
+"wait" "4"
+"sounds" "4"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-224 128 -256"
+"classname" "info_tfgoal"
+"noise" "items/cars.wav"
+"targetname" "truck"
+}
+{
+"origin" "-224 192 -272"
+"target" "gate"
+"targetname" "truck"
+"delay" "2"
+"sounds" "4"
+"style" "32"
+"classname" "trigger_relay"
+}
+{
+"model" "*4"
+"health" "0"
+"dmg" "0"
+"lip" "-4000"
+"wait" "-1"
+"sounds" "1"
+"speed" "300"
+"targetname" "gate"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"origin" "-224 208 -272"
+"target" "gate2"
+"targetname" "gate"
+"delay" "2"
+"sounds" "4"
+"style" "32"
+"classname" "trigger_relay"
+}
+{
+"origin" "-224 224 -272"
+"targetname" "gate2"
+"killtarget" "gate"
+"delay" "10"
+"sounds" "4"
+"classname" "trigger_relay"
+}
+{
+"model" "*5"
+"team_no" "2"
+"wait" "0"
+"target" "kill2"
+"delay" "0"
+"sounds" "4"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-128 -576 -256"
+"team_no" "2"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-192 -608 -256"
+"message" "Cross the Border!"
+"wait" "1"
+"team_no" "2"
+"angle" "66"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-368 -560 -256"
+"team_no" "2"
+"message" "Cross the Border!"
+"wait" "1"
+"angle" "25"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-16 -544 -96"
+"message" "Cross the Border!"
+"wait" "1"
+"team_no" "2"
+"angle" "138"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-160 -560 -150"
+"message" "Cross the Border!"
+"wait" "1"
+"team_no" "2"
+"angle" "112"
+"classname" "info_player_teamspawn"
+}
+{
+"model" "*6"
+"delay" "0"
+"team_no" "2"
+"style" "32"
+"target" "win"
+"wait" "0"
+"sounds" "4"
+"classname" "trigger_multiple"
+}
+{
+"origin" "320 3200 -32"
+"team_no" "1"
+"message" "Enforce Border Policies!"
+"wait" "1"
+"angle" "233"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "320 3008 -32"
+"team_no" "1"
+"message" "Enforce Border Policies!"
+"wait" "1"
+"angle" "233"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "320 2816 -32"
+"team_no" "1"
+"message" "Enforce Border Policies!"
+"wait" "1"
+"angle" "233"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-736 2464 -64"
+"team_no" "1"
+"message" "Enforce Border Policies!"
+"wait" "1"
+"angle" "292"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-736 2304 -64"
+"message" "Enforce Border Policies!"
+"wait" "1"
+"team_no" "1"
+"angle" "284"
+"classname" "info_player_teamspawn"
+}
+{
+"model" "*7"
+"team_no" "1"
+"delay" "0"
+"style" "32"
+"target" "kill"
+"wait" "0"
+"sounds" "4"
+"classname" "trigger_multiple"
+}
+{
+"netname_broadcast" " died a horrible, horrible death\n"
+"goal_effects" "1"
+"origin" "-224 912 -256"
+"health" "-340"
+"targetname" "kill"
+"classname" "info_tfgoal"
+}
+{
+"netname_broadcast" " hit the road\n"
+"goal_effects" "1"
+"origin" "-224 896 -256"
+"health" "-50"
+"targetname" "kill2"
+"classname" "info_tfgoal"
+}
+{
+"netname_broadcast" " crossed the border!\n"
+"broadcast" "Some men made it to America!\n"
+"frags" "5"
+"goal_effects" "1"
+"noise" "items/yh.wav"
+"increase_team3" "1"
+"increase_team2" "1"
+"origin" "-224 3280 -256"
+"targetname" "win"
+"health" "-50"
+"classname" "info_tfgoal"
+}
+{
+"maxammo_medikit" "2"
+"maxammo_nails" "-1"
+"ammo_medikit" "2"
+"team_broadcast" "Cross the Border - Someone\n==Choose your side==\n\n1 Border Patrol\n2 Immigrants   \n3 MIB          \n"
+"non_team_broadcast" "Blue = Border Patrol, Red = Hispanic Immigrants Yellow = MiB = hispanic immigrant helpers\n"
+"impulse" "0"
+"hook_out" "1"
+"origin" "-224 512 -288"
+"classname" "info_tfdetect"
+}
+{
+"origin" "-912 -416 -272"
+"team_no" "3"
+"wait" "1"
+"message" "Protect the Immigrants!"
+"angle" "74"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-912 -352 -240"
+"team_no" "3"
+"wait" "1"
+"message" "Protect the Immigrants!"
+"angle" "74"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-784 -256 -240"
+"team_no" "3"
+"wait" "1"
+"message" "Protect the Immigrants!"
+"angle" "75"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-912 -400 -64"
+"wait" "1"
+"message" "Protect the Immigrants!"
+"team_no" "3"
+"angle" "84"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-912 -240 -182"
+"wait" "1"
+"message" "Protect the Immigrants!"
+"team_no" "3"
+"angle" "35"
+"classname" "info_player_teamspawn"
+}

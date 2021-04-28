@@ -1,0 +1,203 @@
+{
+"classname" "worldspawn"
+"_sunlight" "0"
+"sounds" "1"
+"worldtype" "0"
+"light" "0"
+"message" " defend the castle\n last man standing mtfcoop version\n by ss"
+"wad" "d:\games\quake\mapeditor\textures\kell_apocrypha.wad;d:\games\quake\mapeditor\textures\1on1r.wad"
+}
+{
+"classname" "info_player_start"
+"angle" "125"
+"origin" "160 -720 -240"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "115"
+"netname" "blue_spawn_floor"
+"playerclass" "0"
+"team_no" "1"
+"origin" "-464 -720 -288"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "349"
+"netname" "blue_spawn_ledge"
+"playerclass" "0"
+"team_no" "1"
+"origin" "-256 -192 -128"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "60"
+"netname" "blue_spawn_ledge"
+"team_no" "1"
+"origin" "320 -512 -128"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "333"
+"netname" "blue_spawn_floor"
+"playerclass" "0"
+"team_no" "1"
+"origin" "-128 -464 -128"
+}
+{
+"classname" "item_armorInv"
+"origin" "256 -256 -160"
+}
+{
+"classname" "info_lmsdetect"
+"wait" "0"
+"nextthink" "0"
+"origin" "64 -544 112"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "64"
+"non_team_broadcast" "must be played with xavior's"
+"hook_out" "1"
+"maxammo_shells" "512"
+"team_broadcast" "\n\nDefeat The Monster Attack Waves\n«ood Ãuck!\n\nê±ë ƒefense\n"
+".. Spy     \n9.. Engineer\n" "=== Choose your class ===\n\n1.. Scout   \n2.. Sniper  \n3.. Soldier \n4.. Demoman \n5.. Medic "
+"origin" "64 -592 112"
+}
+{
+"classname" "func_monsterspawn"
+"angle" "201"
+"target" "blue_target"
+"origin" "752 -624 -224"
+}
+{
+"classname" "func_monsterspawn"
+"angle" "208"
+"target" "blue_target"
+"origin" "848 -208 -240"
+}
+{
+"classname" "func_monsterspawn"
+"angle" "248"
+"target" "blue_target"
+"origin" "-256 96 -176"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "60"
+"netname" "blue_resupply"
+"message" " defend your base!\n"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "1"
+"no_grenades_2" "2"
+"goal_effects" "17"
+"ammo_nails" "60"
+"armorvalue" "100"
+"team_no" "1"
+"health" "100"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "60"
+"ammo_rockets" "10"
+"origin" "-176 -544 -320"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "256 -512 -304"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-128 -256 -304"
+}
+{
+"classname" "light"
+"delay" "1"
+"origin" "-128 -208 -288"
+}
+{
+"classname" "light"
+"delay" "1"
+"origin" "320 -512 -304"
+}
+{
+"classname" "light"
+"wait" "1"
+"delay" "1"
+"light" "460"
+"origin" "-96 -512 -224"
+}
+{
+"classname" "light"
+"light" "415"
+"origin" "736 -256 -128"
+}
+{
+"classname" "light"
+"light" "415"
+"origin" "432 -16 -96"
+}
+{
+"classname" "light"
+"light" "415"
+"origin" "-144 80 -128"
+}
+{
+"classname" "light"
+"light" "415"
+"origin" "624 -608 -144"
+}
+{
+"classname" "light"
+"delay" "1"
+"light" "200"
+"origin" "-32 -208 -96"
+}
+{
+"classname" "light"
+"delay" "1"
+"light" "200"
+"origin" "272 -384 -96"
+}
+{
+"classname" "light"
+"light" "50"
+"origin" "-480 -80 -176"
+}
+{
+"classname" "light"
+"light" "50"
+"origin" "400 -752 -144"
+}
+{
+"classname" "path_corner"
+"targetname" "blue_target"
+"origin" "-240 -576 -288"
+}
+{
+"classname" "func_monsterspawn"
+"angle" "210"
+"target" "blue_target"
+"origin" "272 80 -240"
+}
+{
+"classname" "func_monsterspawn"
+"angle" "208"
+"target" "blue_target"
+"origin" "592 -192 -272"
+}
+{
+"classname" "trigger_monsterjump"
+"angle" "191"
+"height" "675"
+"speed" "275"
+"model" "*1"
+}
+{
+"classname" "trigger_monsterjump"
+"angle" "270"
+"speed" "300"
+"height" "800"
+"model" "*2"
+}

@@ -1,0 +1,679 @@
+{
+"classname" "worldspawn"
+"message" "Voting IIa"
+"worldtype" "0"
+}
+{
+"classname" "info_tfdetect"
+"broadcast" "DedokTF 0.04 compatible."
+"impulse" "192"
+"noise1" "Push to Start\n\n-= 1 =-\n"
+"team_broadcast" "Push to Start\n\n-= 1 =-\n"
+"maxammo_shells" "1022"
+"maxammo_nails" "1023"
+"maxammo_rockets" "1023"
+"maxammo_cells" "1023"
+}
+{
+"classname" "info_player_start"
+"origin" "-64 0 192"
+"angle" "180"
+}
+{
+"classname" "trigger_once"
+"target" "threec"
+"sounds" "2"
+"message" "Main door triggered\nWaiting for 20 sec."
+"model" "*1"
+}
+{
+"classname" "info_tfgoal"
+"origin" "0 0 426"
+"broadcast" "3..."
+"targetname" "threec"
+"target" "twoc"
+"delay_time" "17"
+}
+{
+"classname" "info_tfgoal"
+"origin" "0 0 426"
+"broadcast" "2..."
+"targetname" "twoc"
+"target" "onec"
+"delay_time" "1"
+}
+{
+"classname" "info_tfgoal"
+"origin" "0 0 426"
+"broadcast" "1..."
+"targetname" "onec"
+"target" "startmsg"
+"delay_time" "1"
+}
+{
+"classname" "info_tfgoal"
+"origin" "0 0 426"
+"broadcast" "GO!"
+"targetname" "startmsg"
+"target" "startdoors"
+"delay_time" "1"
+}
+{
+"classname" "light"
+"origin" "-640 128 120"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "640 -128 120"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "640 128 120"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-640 -128 120"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "0 0 288"
+"light" "600"
+"style" "0"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"sounds" "3"
+"targetname" "startdoors"
+"wait" "-1"
+"model" "*2"
+}
+{
+"classname" "trigger_teleport"
+"target" "t1"
+"model" "*3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-768 1728 256"
+"angle" "90"
+"targetname" "t1"
+}
+{
+"classname" "trigger_teleport"
+"target" "t2"
+"model" "*4"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-512 1728 256"
+"angle" "270"
+"targetname" "t2"
+}
+{
+"classname" "trigger_teleport"
+"target" "t3"
+"model" "*5"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-256 1728 256"
+"angle" "90"
+"targetname" "t3"
+}
+{
+"classname" "trigger_teleport"
+"target" "t4"
+"model" "*6"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "256 1728 64"
+"angle" "270"
+"targetname" "t4"
+}
+{
+"classname" "trigger_teleport"
+"target" "t5"
+"model" "*7"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "512 1728 256"
+"angle" "90"
+"targetname" "t5"
+}
+{
+"classname" "trigger_teleport"
+"target" "t6"
+"model" "*8"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "768 1728 256"
+"angle" "270"
+"targetname" "t6"
+}
+{
+"classname" "light"
+"origin" "-448 1728 480"
+"light" "1000"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "448 1728 480"
+"light" "1000"
+"style" "0"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*9"
+}
+{
+"classname" "trigger_changelevel"
+"map" "wellgl1"
+"model" "*10"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "WELLGL1"
+"wait" "5"
+"model" "*11"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*12"
+}
+{
+"classname" "trigger_changelevel"
+"map" "qdeth3"
+"model" "*13"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "QDETH3"
+"wait" "5"
+"model" "*14"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*15"
+}
+{
+"classname" "trigger_changelevel"
+"map" "oppose1"
+"model" "*16"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "OPPOSE1"
+"wait" "5"
+"model" "*17"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*18"
+}
+{
+"classname" "trigger_changelevel"
+"map" "2fort5"
+"model" "*19"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "2FORT5"
+"wait" "5"
+"model" "*20"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*21"
+}
+{
+"classname" "trigger_changelevel"
+"map" "sk_fort2"
+"model" "*22"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "SK_FORT2"
+"wait" "5"
+"model" "*23"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*24"
+}
+{
+"classname" "trigger_changelevel"
+"map" "2fort4r"
+"max_players" "16"
+"model" "*25"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "2FORT4R\n Max Players Limit = 16"
+"wait" "5"
+"model" "*26"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*27"
+}
+{
+"classname" "trigger_changelevel"
+"map" "rock2"
+"model" "*28"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "ROCK2"
+"wait" "5"
+"model" "*29"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*30"
+}
+{
+"classname" "trigger_changelevel"
+"map" "rock1"
+"model" "*31"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "ROCK1"
+"wait" "5"
+"model" "*32"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*33"
+}
+{
+"classname" "trigger_changelevel"
+"map" "muskrat4"
+"model" "*34"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "MUSKRAT4"
+"wait" "5"
+"model" "*35"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*36"
+}
+{
+"classname" "trigger_changelevel"
+"map" "warehau1"
+"model" "*37"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "WAREHAU1"
+"wait" "5"
+"model" "*38"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*39"
+}
+{
+"classname" "trigger_changelevel"
+"map" "demoz"
+"model" "*40"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "DEMOZ"
+"wait" "5"
+"model" "*41"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*42"
+}
+{
+"classname" "trigger_changelevel"
+"map" "2force1"
+"model" "*43"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "2FORCE1"
+"wait" "5"
+"model" "*44"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*45"
+}
+{
+"classname" "trigger_changelevel"
+"map" "z7"
+"model" "*46"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "Z7"
+"wait" "5"
+"model" "*47"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*48"
+}
+{
+"classname" "trigger_changelevel"
+"map" "demoz2a"
+"model" "*49"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "Demoz2a"
+"wait" "5"
+"model" "*50"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*51"
+}
+{
+"classname" "trigger_changelevel"
+"map" "tfvstf"
+"max_players" "6"
+"model" "*52"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "TFVSTF\n Max Players Limit = 6"
+"wait" "5"
+"model" "*53"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "-1"
+"health" "2500"
+"model" "*54"
+}
+{
+"classname" "trigger_changelevel"
+"map" "sniprwar"
+"max_players" "6"
+"model" "*55"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"message" "Sniper War\n Max Players Limit = 6"
+"wait" "5"
+"model" "*56"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "632 1752 88"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "336 -336 88"
+}
+{
+"classname" "ambient_drip"
+"origin" "1016 2296 88"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "128 -160 288"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_tfgoal"
+"origin" "128 -160 288"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorvalue" "200"
+"invincible_finished" "5"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "128 0 288"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_tfgoal"
+"origin" "128 0 288"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorvalue" "200"
+"invincible_finished" "5"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "128 160 288"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_tfgoal"
+"origin" "128 160 288"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorvalue" "200"
+"invincible_finished" "5"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 160 288"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_tfgoal"
+"origin" "0 160 288"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorvalue" "200"
+"invincible_finished" "5"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 0 288"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_tfgoal"
+"origin" "0 0 288"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorvalue" "200"
+"invincible_finished" "5"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-128 -160 288"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-128 -160 288"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorvalue" "200"
+"invincible_finished" "5"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-128 0 288"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-128 0 288"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorvalue" "200"
+"invincible_finished" "5"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 -160 288"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_tfgoal"
+"origin" "0 -160 288"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorvalue" "200"
+"invincible_finished" "5"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-128 160 288"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-128 160 288"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorvalue" "200"
+"invincible_finished" "5"
+}
+{
+"classname" "info_intermission"
+"origin" "224 0 288"
+"mangle" "6 180 0"
+}

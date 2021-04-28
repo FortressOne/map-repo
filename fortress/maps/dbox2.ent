@@ -1,0 +1,403 @@
+{
+"light" "5"
+"worldtype" "0"
+"classname" "worldspawn"
+"sounds" "6"
+"message" "‘he ƒevil`s ¬ox v2.0\n By: ‘heŒamelessê‘ÀŒë-√-\n Ent Help: ”ailor”cout\n"
+"spawnflags" "0"
+}
+{
+"origin" "0 0 136"
+"classname" "item_artifact_super_damage"
+}
+{
+"angle" "90"
+"origin" "-512 0 -8"
+"classname" "info_player_start"
+}
+{
+"maxammo_nails" "960"
+"maxammo_shells" "960"
+"hook_out" "1"
+"origin" "-512 128 0"
+"classname" "info_tfdetect"
+"non_team_broadcast" "You're sad if you need help on this map!\n"
+"impulse" "68"
+"spawnflags" "0"
+}
+{
+"model" "*1"
+"team_no" "1"
+"height" "310"
+"classname" "func_plat"
+"sounds" "1"
+"speed" "500"
+}
+{
+"model" "*2"
+"team_no" "2"
+"height" "310"
+"classname" "func_plat"
+"sounds" "1"
+"speed" "500"
+}
+{
+"model" "*3"
+"team_no" "2"
+"height" "310"
+"classname" "func_plat"
+"sounds" "1"
+"speed" "500"
+}
+{
+"model" "*4"
+"team_no" "1"
+"height" "310"
+"classname" "func_plat"
+"sounds" "1"
+"speed" "500"
+}
+{
+"model" "*5"
+"targetname" "bloo1"
+"angle" "-2"
+"lip" "-152"
+"wait" "3"
+"classname" "func_door"
+"sounds" "2"
+"speed" "150"
+}
+{
+"model" "*6"
+"classname" "trigger_multiple"
+"target" "bloo1"
+}
+{
+"team_no" "1"
+"origin" "-568 -296 264"
+"classname" "info_player_teamspawn"
+"netname" "bloo_spawn 4"
+"message" "Gibs!!\n"
+}
+{
+"team_no" "1"
+"origin" "-568 -184 264"
+"classname" "info_player_teamspawn"
+"message" "Red Sucks!\n"
+"netname" "bloo_spawn 5"
+}
+{
+"team_no" "1"
+"origin" "-568 -72 264"
+"classname" "info_player_teamspawn"
+"message" "Red Sucks!\n"
+"netname" "bloo_spawn 6"
+}
+{
+"team_no" "2"
+"origin" "-568 72 264"
+"classname" "info_player_teamspawn"
+"netname" "red_spawn 6"
+"message" "Go Kick Blue's ass!\n"
+}
+{
+"team_no" "2"
+"origin" "-568 184 264"
+"classname" "info_player_teamspawn"
+"netname" "red_spawn 5"
+"message" "Gibs!!\n"
+}
+{
+"team_no" "2"
+"origin" "-568 296 264"
+"classname" "info_player_teamspawn"
+"message" "Go Kick Blue's ass!\n"
+"netname" "red_spawn 4"
+}
+{
+"team_no" "2"
+"origin" "568 296 264"
+"classname" "info_player_teamspawn"
+"message" "Go Kick Blue's ass!\n"
+"netname" "red_spawn 1"
+}
+{
+"team_no" "2"
+"origin" "568 184 264"
+"classname" "info_player_teamspawn"
+"netname" "red_spawn 2"
+"message" "Gibs!!\n"
+}
+{
+"team_no" "2"
+"origin" "568 72 264"
+"classname" "info_player_teamspawn"
+"netname" "red_spawn 3"
+"message" "Go Kick Blue's ass!\n"
+}
+{
+"team_no" "1"
+"origin" "568 -72 264"
+"classname" "info_player_teamspawn"
+"message" "Red Sucks!\n"
+"netname" "bloo_spawn 3"
+}
+{
+"team_no" "1"
+"origin" "568 -184 264"
+"classname" "info_player_teamspawn"
+"message" "Red Sucks!\n"
+"netname" "bloo_spawn 2"
+}
+{
+"team_no" "1"
+"origin" "568 -296 264"
+"classname" "info_player_teamspawn"
+"netname" "bloo_spawn 1"
+"message" "Gibs!!\n"
+}
+{
+"ammo_rockets" "50"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "10"
+"health" "100"
+"team_no" "2"
+"delay" "5"
+"armorvalue" "200"
+"ammo_nails" "20"
+"ammo_medikit" "20"
+"goal_effects" "1"
+"wait" "5"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"origin" "520 456 248"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "resup4"
+"message" "Load up!\n"
+"ammo_shells" "25"
+"goal_activation" "1"
+}
+{
+"model" "*7"
+"targetname" "bloo2"
+"angle" "-2"
+"lip" "-152"
+"wait" "3"
+"classname" "func_door"
+"sounds" "2"
+"speed" "150"
+}
+{
+"model" "*8"
+"classname" "trigger_multiple"
+"target" "bloo2"
+}
+{
+"model" "*9"
+"targetname" "red1"
+"angle" "-2"
+"lip" "-152"
+"wait" "3"
+"classname" "func_door"
+"sounds" "2"
+"speed" "150"
+}
+{
+"model" "*10"
+"classname" "trigger_multiple"
+"target" "red1"
+}
+{
+"model" "*11"
+"targetname" "red2"
+"angle" "-2"
+"lip" "-152"
+"wait" "3"
+"classname" "func_door"
+"sounds" "2"
+"speed" "150"
+}
+{
+"model" "*12"
+"classname" "trigger_multiple"
+"target" "red2"
+}
+{
+"model" "*13"
+"team_no" "1"
+"dmg" "600"
+"classname" "trigger_hurt"
+"target" "red2"
+}
+{
+"model" "*14"
+"team_no" "1"
+"dmg" "600"
+"classname" "trigger_hurt"
+"target" "red2"
+}
+{
+"model" "*15"
+"team_no" "2"
+"dmg" "600"
+"classname" "trigger_hurt"
+"target" "red2"
+}
+{
+"model" "*16"
+"team_no" "2"
+"dmg" "600"
+"classname" "trigger_hurt"
+"target" "red2"
+}
+{
+"ammo_rockets" "50"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "10"
+"health" "100"
+"team_no" "2"
+"delay" "5"
+"armorvalue" "200"
+"ammo_nails" "20"
+"ammo_medikit" "20"
+"goal_effects" "1"
+"wait" "5"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"origin" "-520 456 248"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "resup3"
+"message" "Load up!\n"
+"ammo_shells" "25"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "50"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "10"
+"health" "100"
+"team_no" "1"
+"delay" "5"
+"armorvalue" "200"
+"ammo_nails" "20"
+"ammo_medikit" "20"
+"goal_effects" "1"
+"wait" "5"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"origin" "-520 -456 248"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "resup2"
+"message" "Load up!\n"
+"ammo_shells" "25"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "50"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "10"
+"health" "100"
+"team_no" "1"
+"delay" "5"
+"armorvalue" "200"
+"ammo_nails" "20"
+"ammo_medikit" "20"
+"goal_effects" "1"
+"wait" "5"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"origin" "520 -456 248"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "resup1"
+"message" "Load up!\n"
+"ammo_shells" "25"
+"goal_activation" "1"
+}
+{
+"model" "*17"
+"team_no" "1"
+"dmg" "600"
+"classname" "trigger_hurt"
+"target" "red2"
+}
+{
+"light" "550"
+"origin" "-496 -328 200"
+"classname" "light_fluoro"
+}
+{
+"light" "550"
+"origin" "-496 336 200"
+"classname" "light_fluoro"
+}
+{
+"light" "550"
+"origin" "496 336 200"
+"classname" "light_fluoro"
+}
+{
+"light" "550"
+"origin" "496 -328 200"
+"classname" "light_fluoro"
+}
+{
+"light" "300"
+"origin" "608 24 264"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "608 -24 264"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-608 24 264"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-608 -24 264"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "608 -352 264"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-608 -352 264"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "-608 360 264"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "608 360 264"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "300"
+"origin" "0 480 312"
+"classname" "light_fluoro"
+}
+{
+"light" "300"
+"origin" "0 -480 312"
+"classname" "light_fluoro"
+}
+{
+"model" "*18"
+"team_no" "2"
+"dmg" "600"
+"classname" "trigger_hurt"
+"target" "red2"
+}

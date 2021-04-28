@@ -1,0 +1,2058 @@
+{
+"message" "•xtr•me Rock•t Jump“ng\nVersion ”\nBETA •\nBy MiNiL’Rd\ngamesnet #bar\n"
+"classname" "worldspawn"
+}
+{
+"target" "r1"
+"spawnflags" "2"
+"model" "*1"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "r1"
+"spawnflags" "2"
+"model" "*2"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "r1"
+"spawnflags" "2"
+"model" "*3"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "j1_stop1"
+"speed" "100"
+"model" "*4"
+"sounds" "1"
+"classname" "func_train"
+"dmg" "0"
+}
+{
+"target" "j1_stop2"
+"classname" "path_corner"
+"origin" "0 -3456 -32"
+"targetname" "j1_stop1"
+}
+{
+"target" "j1_stop3"
+"classname" "path_corner"
+"origin" "160 -3456 -32"
+"targetname" "j1_stop2"
+}
+{
+"target" "j1_stop1"
+"classname" "path_corner"
+"origin" "-176 -3456 -32"
+"targetname" "j1_stop3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "192 -4000 320"
+"targetname" "r1"
+"angle" "182"
+}
+{
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"armorclass" "200"
+"no_grenades_1" "-4"
+"armortype" "200"
+"origin" "160 -4000 320"
+"wait" "1"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"ammo_rockets" "-50"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-192 -4000 320"
+"team_no" "1"
+}
+{
+"goal_activation" "1"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-160 -4000 320"
+"armortype" "200"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "1"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"ammo_rockets" "-50"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "0 -4000 64"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "-50"
+}
+{
+"classname" "info_player_start"
+"origin" "-1920 -1760 1600"
+"angle" "90"
+}
+{
+"netname" "TF Detector"
+"maxammo_detpack" "0"
+"non_team_broadcast" "\nCourse Frags: 5\nHard   Frags: 10\nNight  Frags: 20\nSecret Frags: 30\n\n"
+"classname" "info_tfdetect"
+"origin" "-1920 -1760 1600"
+"hook_out" "1"
+"maxammo_shells" "1019"
+"team_broadcast" "Extreme RocketJumping Version ”\n\n“.. Blue Team\n"
+"broadcast" "Team Fortress v2.5"
+"maxammo_medikit" "0"
+}
+{
+"classname" "light"
+"origin" "0 -3872 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "0 -3872 352"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "0 -3632 352"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "0 -3392 352"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "0 -3392 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "0 -3392 32"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "16 -3232 80"
+"light" "100"
+}
+{
+"target" "r1"
+"spawnflags" "2"
+"model" "*5"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "r1"
+"spawnflags" "2"
+"model" "*6"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "jump2_1_stop1"
+"speed" "80"
+"model" "*7"
+"classname" "func_train"
+}
+{
+"target" "jump2_1_stop2"
+"classname" "path_corner"
+"origin" "800 -3200 -160"
+"targetname" "jump2_1_stop1"
+}
+{
+"target" "jump2_1_stop3"
+"classname" "path_corner"
+"origin" "672 -3168 -96"
+"targetname" "jump2_1_stop2"
+}
+{
+"target" "jump2_1_stop1"
+"classname" "path_corner"
+"origin" "512 -3296 -224"
+"targetname" "jump2_1_stop3"
+}
+{
+"target" "jump2_2_stop1"
+"speed" "80"
+"model" "*8"
+"classname" "func_train"
+}
+{
+"target" "jump2_2_stop2"
+"classname" "path_corner"
+"origin" "768 -2816 0"
+"targetname" "jump2_2_stop1"
+}
+{
+"target" "jump2_2_stop3"
+"classname" "path_corner"
+"origin" "800 -2944 0"
+"targetname" "jump2_2_stop2"
+}
+{
+"target" "jump2_2_stop4"
+"classname" "path_corner"
+"origin" "640 -2720 -256"
+"targetname" "jump2_2_stop3"
+}
+{
+"target" "jump2_2_stop1"
+"classname" "path_corner"
+"origin" "544 -2848 -64"
+"targetname" "jump2_2_stop4"
+}
+{
+"target" "jump2_3_stop1"
+"speed" "80"
+"model" "*9"
+"classname" "func_train"
+}
+{
+"target" "jump2_3_stop2"
+"classname" "path_corner"
+"origin" "672 -2368 32"
+"targetname" "jump2_3_stop1"
+}
+{
+"target" "jump2_3_stop3"
+"classname" "path_corner"
+"origin" "768 -2528 -128"
+"targetname" "jump2_3_stop2"
+}
+{
+"target" "jump2_3_stop4"
+"classname" "path_corner"
+"origin" "576 -2464 -160"
+"targetname" "jump2_3_stop3"
+}
+{
+"target" "jump2_3_stop1"
+"classname" "path_corner"
+"origin" "768 -2176 96"
+"targetname" "jump2_3_stop4"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "672 -4000 64"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "928 -4000 160"
+"targetname" "j2"
+"angle" "182"
+}
+{
+"goal_activation" "1"
+"netname" "jump1_broadcast"
+"message" "You beat jump1.\nCan you rj onto moving pads\nto the other side\nwithout dying?"
+"classname" "info_tfgoal"
+"origin" "928 -4000 192"
+"netname_broadcast" " can gren jump! Calm down people, the excitement has just begun!\n"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"goal_activation" "1"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "896 -4000 160"
+"armortype" "200"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "1"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"ammo_rockets" "-50"
+}
+{
+"target" "j2"
+"spawnflags" "2"
+"model" "*10"
+"classname" "trigger_teleport"
+"targetname" "button1"
+"angle" "182"
+}
+{
+"target" "button1"
+"speed" "100"
+"model" "*11"
+"sounds" "3"
+"classname" "func_button"
+"delay" "1"
+"health" "1"
+"angle" "90"
+}
+{
+"classname" "light"
+"origin" "672 -3872 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -3872 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "832 -3872 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "672 -3712 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -3488 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "832 -3488 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -3488 -192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "832 -3488 -192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -3200 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "832 -3200 -192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -2880 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -2496 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "832 -2496 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -2496 -192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "832 -2496 -192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -2112 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "832 -2112 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -2112 -192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "832 -2112 -192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -1888 -32"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "832 -1888 -32"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -1888 192"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "832 -1888 192"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "672 -1888 192"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "832 -2880 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "832 -2880 -192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -2880 -192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "832 -3200 192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "512 -3200 -192"
+"light" "350"
+}
+{
+"target" "jump3_1_stop1"
+"speed" "100"
+"model" "*12"
+"classname" "func_train"
+}
+{
+"target" "jump3_1_stop2"
+"classname" "path_corner"
+"origin" "2080 -3168 256"
+"targetname" "jump3_1_stop1"
+}
+{
+"target" "jump3_1_stop3"
+"classname" "path_corner"
+"origin" "1952 -3072 256"
+"targetname" "jump3_1_stop2"
+}
+{
+"target" "jump3_1_stop4"
+"classname" "path_corner"
+"origin" "2176 -3232 256"
+"targetname" "jump3_1_stop3"
+}
+{
+"target" "jump3_1_stop1"
+"classname" "path_corner"
+"origin" "1984 -3360 256"
+"targetname" "jump3_1_stop4"
+}
+{
+"target" "reset3"
+"spawnflags" "2"
+"model" "*13"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset3"
+"spawnflags" "2"
+"model" "*14"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset3"
+"spawnflags" "2"
+"model" "*15"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset3"
+"spawnflags" "2"
+"model" "*16"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1760 -4000 832"
+"targetname" "reset3"
+"angle" "182"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1568 -4000 832"
+"targetname" "j3"
+}
+{
+"goal_activation" "1"
+"message" "You beat two of my jumps, but\ncan you beat the third?\nI hope you can curve!\n"
+"classname" "info_tfgoal"
+"origin" "1568 -4000 864"
+"netname_broadcast" " has excellent timing! *CLAP* *CLAP*\n"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "1664 -4000 736"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"target" "j3"
+"model" "*17"
+"classname" "trigger_teleport"
+}
+{
+"classname" "light"
+"origin" "1664 -3904 832"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1664 -3664 832"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1408 -3664 832"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1408 -3424 832"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1408 -3184 832"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1664 -3184 832"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "2064 -3328 784"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "2064 -3040 784"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "2064 -3040 416"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "2064 -3328 416"
+"light" "350"
+}
+{
+"target" "reset2"
+"spawnflags" "2"
+"model" "*18"
+"classname" "trigger_teleport"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "416 -4000 160"
+"targetname" "reset2"
+}
+{
+"target" "jump4_1_stop1"
+"speed" "150"
+"model" "*19"
+"classname" "func_train"
+}
+{
+"target" "jump4_1_stop2"
+"classname" "path_corner"
+"origin" "1424 -1568 64"
+"targetname" "jump4_1_stop1"
+}
+{
+"target" "jump4_1_stop3"
+"classname" "path_corner"
+"origin" "1344 -1472 64"
+"targetname" "jump4_1_stop2"
+}
+{
+"target" "jump4_1_stop4"
+"classname" "path_corner"
+"origin" "1632 -1664 64"
+"targetname" "jump4_1_stop3"
+}
+{
+"target" "jump4_1_stop1"
+"classname" "path_corner"
+"origin" "1248 -1664 64"
+"targetname" "jump4_1_stop4"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*20"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*21"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*22"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*23"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*24"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*25"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*26"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "1408 -2912 64"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "-50"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "1440 -1536 96"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1120 -2912 192"
+"targetname" "j4"
+}
+{
+"goal_activation" "1"
+"message" "Only 3 out of 8!\nCan you beat them all?\nHahahaha!\n"
+"classname" "info_tfgoal"
+"origin" "1120 -2912 224"
+"netname_broadcast" " enjoys his curves... A lot. Good Job!\n"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1696 -2912 192"
+"targetname" "reset4"
+"angle" "182"
+}
+{
+"target" "jump4_teleporter_from_jump3"
+"speed" "100"
+"model" "*27"
+"classname" "func_button"
+"delay" "4"
+"health" "1"
+"angle" "182"
+}
+{
+"target" "j4"
+"spawnflags" "2"
+"model" "*28"
+"classname" "trigger_teleport"
+"targetname" "jump4_teleporter_from_jump3"
+}
+{
+"classname" "light"
+"origin" "1408 -2752 256"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1408 -2368 256"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1408 -1984 256"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1408 -1568 256"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1248 -1152 256"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "928 -896 256"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1248 -640 256"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1536 -416 192"
+"light" "350"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*29"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*30"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*31"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*32"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset4"
+"spawnflags" "2"
+"model" "*33"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset5"
+"spawnflags" "2"
+"model" "*34"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "jump5_1_stop1"
+"speed" "150"
+"model" "*35"
+"classname" "func_train"
+}
+{
+"target" "jump5_1_stop2"
+"classname" "path_corner"
+"origin" "-64 -448 1664"
+"targetname" "jump5_1_stop1"
+}
+{
+"target" "jump5_1_stop3"
+"classname" "path_corner"
+"origin" "160 -448 1664"
+"targetname" "jump5_1_stop2"
+}
+{
+"target" "jump5_1_stop1"
+"classname" "path_corner"
+"origin" "-224 -448 1664"
+"targetname" "jump5_1_stop3"
+}
+{
+"target" "reset5"
+"spawnflags" "2"
+"model" "*36"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset5"
+"spawnflags" "2"
+"model" "*37"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset5"
+"spawnflags" "2"
+"model" "*38"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset5"
+"spawnflags" "2"
+"model" "*39"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset5"
+"spawnflags" "2"
+"model" "*40"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset5"
+"spawnflags" "2"
+"model" "*41"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset5"
+"spawnflags" "2"
+"model" "*42"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset5"
+"spawnflags" "2"
+"model" "*43"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset5"
+"spawnflags" "2"
+"model" "*44"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "288 -1664 928"
+"targetname" "reset5"
+"angle" "182"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-288 -1664 928"
+"targetname" "j5"
+}
+{
+"goal_activation" "1"
+"message" "That's 4! Your half way there!\nShow me what you got!\n"
+"classname" "info_tfgoal"
+"origin" "-288 -1664 960"
+"netname_broadcast" " is making me mad, but knows his/her timing!\n"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "0 -1664 832"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-160 -736 864"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-192 -1024 1824"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"classname" "light"
+"origin" "0 -1504 960"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "0 -928 960"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "0 -832 1376"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "0 -832 1920"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "0 -768 2272"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "0 -448 2272"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "0 -448 1856"
+"light" "400"
+}
+{
+"target" "j5"
+"model" "*45"
+"classname" "trigger_teleport"
+}
+{
+"target" "reset6"
+"spawnflags" "2"
+"model" "*46"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset6"
+"spawnflags" "2"
+"model" "*47"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset6"
+"spawnflags" "2"
+"model" "*48"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset6"
+"spawnflags" "2"
+"model" "*49"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset6"
+"spawnflags" "2"
+"model" "*50"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset6"
+"spawnflags" "2"
+"model" "*51"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset6"
+"spawnflags" "2"
+"model" "*52"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset6"
+"spawnflags" "2"
+"model" "*53"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "jump6_1_stop1"
+"speed" "200"
+"model" "*54"
+"classname" "func_train"
+}
+{
+"target" "jump6_1_stop2"
+"classname" "path_corner"
+"origin" "-800 -3248 1248"
+"targetname" "jump6_1_stop1"
+}
+{
+"target" "jump6_1_stop3"
+"classname" "path_corner"
+"origin" "-576 -3248 1248"
+"targetname" "jump6_1_stop2"
+}
+{
+"target" "jump6_1_stop1"
+"classname" "path_corner"
+"origin" "-1008 -3248 1248"
+"targetname" "jump6_1_stop3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-480 -3808 2016"
+"targetname" "reset6"
+"angle" "182"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1056 -3808 2016"
+"targetname" "j6"
+}
+{
+"goal_activation" "1"
+"message" "Ready for my all-time favorite...\n\n\n\nHARDCORE JUMPS\n\n??????????????\n"
+"classname" "info_tfgoal"
+"origin" "-1056 -3808 2048"
+"netname_broadcast" "! Enough goofing around! Here come the HardCore Jumps!\n"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-960 -3808 1888"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-576 -3808 1888"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"classname" "light"
+"origin" "-768 -3520 2112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-768 -2944 2240"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-768 -3072 1792"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-768 -3264 1504"
+"light" "500"
+}
+{
+"target" "j6"
+"model" "*55"
+"classname" "trigger_teleport"
+"targetname" "jump6_activation_from_jump5"
+}
+{
+"goal_activation" "1"
+"message" "Shoot\nThe\nButton\n"
+"classname" "info_tfgoal"
+"origin" "-32 -416 1696"
+"wait" "1"
+"goal_effects" "1"
+}
+{
+"target" "jump6_activation_from_jump5"
+"speed" "100"
+"model" "*56"
+"classname" "func_button"
+"delay" "0"
+"health" "1"
+"angle" "272"
+}
+{
+"speed" "500"
+"model" "*57"
+"sounds" "2"
+"classname" "func_door"
+"wait" "2"
+"dmg" "0"
+"health" "0"
+"lip" "0"
+"targetname" "door_special"
+}
+{
+"target" "door_special"
+"model" "*58"
+"sounds" "3"
+"classname" "trigger_multiple"
+"wait" "4"
+"style" "32"
+"delay" "0"
+}
+{
+"speed" "400"
+"model" "*59"
+"sounds" "3"
+"classname" "trigger_push"
+"style" "32"
+"delay" "0"
+"angle" "-1"
+}
+{
+"speed" "400"
+"model" "*60"
+"sounds" "3"
+"classname" "trigger_push"
+"style" "32"
+"delay" "0"
+"angle" "-1"
+}
+{
+"speed" "400"
+"model" "*61"
+"sounds" "3"
+"classname" "trigger_push"
+"style" "32"
+"delay" "0"
+"angle" "-1"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*62"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*63"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*64"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*65"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*66"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*67"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*68"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*69"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*70"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*71"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*72"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*73"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "reset7"
+"spawnflags" "2"
+"model" "*74"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "jump7_1_stop1"
+"speed" "150"
+"model" "*75"
+"classname" "func_train"
+}
+{
+"target" "jump7_1_stop2"
+"classname" "path_corner"
+"origin" "-2176 -3232 2592"
+"targetname" "jump7_1_stop1"
+}
+{
+"target" "jump7_1_stop1"
+"classname" "path_corner"
+"origin" "-2176 -3520 2592"
+"targetname" "jump7_1_stop2"
+}
+{
+"classname" "light"
+"origin" "-1536 -2816 1664"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-1536 -2816 2048"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-1536 -2928 2464"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-1536 -2928 2560"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-1536 -2928 2656"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-1536 -2928 2752"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-1536 -2928 2368"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-1536 -2880 2912"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-1664 -2688 2672"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-1408 -2688 2672"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-1664 -2688 2496"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-1408 -2688 2496"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-1664 -2944 2560"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-1408 -2944 2560"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-1536 -3360 1920"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1536 -3360 2304"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1536 -3360 2688"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2080 -3344 2720"
+"light" "500"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1312 -3040 1536"
+"targetname" "reset7"
+"angle" "182"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1760 -3040 1536"
+"targetname" "j7"
+}
+{
+"goal_activation" "1"
+"message" "That's 6! 80% There!\nCan you do the last 2?\n"
+"classname" "info_tfgoal"
+"origin" "-1760 -3040 1568"
+"netname_broadcast" " has smooth rockets!\n"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-1536 -3040 1344"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-1536 -2928 2752"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-1376 -3296 1888"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "4"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"target" "jump7_activation"
+"speed" "100"
+"model" "*76"
+"classname" "func_button"
+"delay" "0"
+"health" "1"
+"angle" "90"
+}
+{
+"target" "j7"
+"model" "*77"
+"classname" "trigger_teleport"
+"targetname" "jump7_activation"
+}
+{
+"target" "reset8"
+"spawnflags" "2"
+"model" "*78"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"target" "jump8_1_stop1"
+"speed" "250"
+"model" "*79"
+"classname" "func_train"
+}
+{
+"target" "jump8_1_stop2"
+"classname" "path_corner"
+"origin" "-656 1472 1792"
+"targetname" "jump8_1_stop1"
+}
+{
+"target" "jump8_1_stop3"
+"classname" "path_corner"
+"origin" "-1184 1472 1792"
+"targetname" "jump8_1_stop2"
+}
+{
+"target" "jump8_1_stop4"
+"classname" "path_corner"
+"origin" "-928 1632 1856"
+"targetname" "jump8_1_stop3"
+}
+{
+"target" "jump8_1_stop5"
+"classname" "path_corner"
+"origin" "-1120 1216 1856"
+"targetname" "jump8_1_stop4"
+}
+{
+"target" "jump8_1_stop1"
+"classname" "path_corner"
+"origin" "-768 1216 1664"
+"targetname" "jump8_1_stop5"
+}
+{
+"goal_activation" "1"
+"message" "You have completed the course.\n"
+"classname" "info_tfgoal"
+"origin" "-912 2272 2080"
+"netname_broadcast" " has completed the course!\n"
+"wait" "2"
+"goal_effects" "1"
+"frags" "5"
+}
+{
+"target" "reset8"
+"spawnflags" "2"
+"model" "*80"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-544 -2272 2688"
+"targetname" "reset8"
+"angle" "182"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1248 -2272 2688"
+"targetname" "j8"
+}
+{
+"goal_activation" "1"
+"message" "1 more jump!\nCan you handle the pressure?\n"
+"classname" "info_tfgoal"
+"origin" "-1248 -2272 2720"
+"netname_broadcast" " is almost there!\n"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-896 -2272 2624"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-896 -416 2144"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-640 1504 1824"
+"noise" "can1.wav"
+"armortype" "200"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "2"
+"goal_effects" "1"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-100"
+"ammo_rockets" "50"
+}
+{
+"classname" "light"
+"origin" "-1024 -2048 2688"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-768 -2048 2688"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-896 -1408 2432"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-896 -896 2304"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-896 -352 2176"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-896 256 1920"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-896 896 1920"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-896 1536 1920"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-912 2240 2112"
+"style" "2"
+"light" "200"
+}
+{
+"target" "j8"
+"spawnflags" "2"
+"model" "*81"
+"classname" "trigger_teleport"
+"targetname" "jump8_trigger"
+}
+{
+"target" "jump8_trigger"
+"speed" "100"
+"model" "*82"
+"sounds" "1"
+"classname" "func_button"
+"wait" "3"
+"delay" "0"
+"health" "1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "-50"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-1792 2336 2880"
+"armortype" "200"
+"no_grenades_1" "-4"
+"wait" "1"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"ammo_nails" "-50"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-50"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1792 2336 2944"
+"targetname" "hard"
+"angle" "90"
+}
+{
+"goal_activation" "1"
+"message" "You completed hard.\n\nWell Done!\n"
+"classname" "info_tfgoal"
+"origin" "-1792 2840 3456"
+"netname_broadcast" " completes hard.\n"
+"wait" "10"
+"goal_effects" "1"
+"count" "3"
+"frags" "10"
+"health" "-100"
+}
+{
+"classname" "light"
+"origin" "-1888 2464 3040"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1696 2464 3232"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1888 2464 3232"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1696 2464 3040"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1792 2624 3488"
+"light" "300"
+}
+{
+"target" "rnite1"
+"spawnflags" "2"
+"model" "*83"
+"classname" "trigger_teleport"
+}
+{
+"target" "rnite1"
+"spawnflags" "2"
+"model" "*84"
+"classname" "trigger_teleport"
+}
+{
+"target" "rnite1"
+"spawnflags" "2"
+"model" "*85"
+"classname" "trigger_teleport"
+}
+{
+"target" "rnite1"
+"spawnflags" "2"
+"model" "*86"
+"classname" "trigger_teleport"
+}
+{
+"target" "nitestop1"
+"speed" "150"
+"model" "*87"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "0"
+}
+{
+"target" "nitestop2"
+"classname" "path_corner"
+"origin" "-1952 1536 2656"
+"targetname" "nitestop1"
+}
+{
+"target" "nitestop3"
+"classname" "path_corner"
+"origin" "-1664 1536 2656"
+"targetname" "nitestop2"
+}
+{
+"target" "nitestop4"
+"classname" "path_corner"
+"origin" "-2240 1536 2656"
+"targetname" "nitestop3"
+}
+{
+"target" "nitestop1"
+"classname" "path_corner"
+"origin" "-1952 1344 2656"
+"targetname" "nitestop4"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "-50"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-1728 800 2624"
+"armortype" "200"
+"no_grenades_1" "4"
+"wait" "1"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"ammo_nails" "-50"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-50"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "-50"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-1920 1376 2688"
+"armortype" "200"
+"no_grenades_1" "4"
+"wait" "1"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"ammo_nails" "-50"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-50"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "50"
+}
+{
+"target" "hard"
+"model" "*88"
+"classname" "trigger_teleport"
+"angle" "90"
+}
+{
+"invisible_finished" "120"
+"goal_activation" "1"
+"message" "You have beaten Nightmare!\n\nCongratulations!\n"
+"classname" "info_tfgoal"
+"origin" "-2000 1584 3673"
+"netname_broadcast" " smiles after completing nightmare.\n"
+"wait" "10"
+"super_damage_finished" "5"
+"goal_effects" "1"
+"count" "6"
+"frags" "20"
+"invincible_finished" "5"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1920 800 2688"
+"targetname" "nightmare"
+}
+{
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "-1920 800 2720"
+"netname_broadcast" " will now attempt nightmare.\n"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"goal_activation" "1"
+"message" "you have to figure it out\non your own :)\njust don't hit the sky.\n"
+"classname" "info_tfgoal"
+"origin" "-1632 864 2624"
+"wait" "1"
+"goal_effects" "1"
+}
+{
+"classname" "light"
+"origin" "-1920 960 2944"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1920 1408 3168"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1920 1568 2816"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-2000 1584 3520"
+"style" "1"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-1920 1568 3232"
+"light" "300"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-2176 800 2688"
+"targetname" "rnite1"
+}
+{
+"target" "choose_your_skill"
+"model" "*89"
+"classname" "trigger_teleport"
+"angle" "90"
+}
+{
+"speed" "400"
+"model" "*90"
+"sounds" "4"
+"classname" "trigger_push"
+"style" "32"
+"delay" "0"
+"angle" "90"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-768 2432 2336"
+"targetname" "choose_your_skill"
+"angle" "90"
+}
+{
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "-768 2432 2368"
+"netname_broadcast" " values his/her life.\n"
+"wait" "2"
+"goal_effects" "1"
+}
+{
+"target" "hard"
+"spawnflags" "2"
+"model" "*91"
+"classname" "trigger_teleport"
+"angle" "90"
+}
+{
+"target" "nightmare"
+"spawnflags" "2"
+"model" "*92"
+"classname" "trigger_teleport"
+"angle" "90"
+}
+{
+"classname" "light_globe"
+"origin" "-768 2968 2336"
+"style" "1"
+"angle" "272"
+"light" "300"
+}
+{
+"target" "reset3"
+"spawnflags" "2"
+"model" "*93"
+"classname" "trigger_teleport"
+"angle" "182"
+}
+{
+"classname" "light"
+"origin" "-1929 -1344 1600"
+"style" "1"
+"light" "400"
+}

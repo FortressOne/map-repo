@@ -1,0 +1,296 @@
+{
+"message" "Slam-Ball.\nBy Jonan."
+"wad" "C:\Jono\Qoole\work\slam.wad"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"classname" "info_player_start"
+"origin" "0 128 576"
+"angle" "90"
+}
+{
+"speed" "50"
+"model" "*1"
+"classname" "trigger_push"
+"angle" "-1"
+}
+{
+"speed" "50"
+"model" "*2"
+"classname" "trigger_push"
+"angle" "-1"
+}
+{
+"speed" "1"
+"model" "*3"
+"classname" "trigger_push"
+"angle" "-1"
+}
+{
+"speed" "100"
+"model" "*4"
+"sounds" "2"
+"classname" "func_door"
+"wait" "60"
+"lip" "32"
+"health" "1000"
+"angle" "-2"
+}
+{
+"speed" "100"
+"model" "*5"
+"sounds" "2"
+"classname" "func_door"
+"wait" "60"
+"lip" "32"
+"health" "1000"
+"angle" "-2"
+}
+{
+"speed" "100"
+"model" "*6"
+"sounds" "2"
+"classname" "func_door"
+"wait" "60"
+"lip" "32"
+"health" "1000"
+"angle" "-2"
+}
+{
+"speed" "100"
+"model" "*7"
+"sounds" "2"
+"classname" "func_door"
+"wait" "60"
+"lip" "32"
+"health" "1000"
+"angle" "-2"
+}
+{
+"impulse" "64"
+"b_n" "Grab the SLAM-BALL, and capture it in your enemy's goal.\n"
+"classname" "info_tfdetect"
+"origin" "0 128 512"
+"hook_out" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-576 576 448"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-576 448 448"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-576 320 448"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-576 192 448"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-576 64 448"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-576 -64 448"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-576 -192 448"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-576 -320 448"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "576 -320 448"
+"team_no" "2"
+}
+{
+"classname" "i_p_t"
+"origin" "576 -192 448"
+"team_no" "2"
+}
+{
+"classname" "i_p_t"
+"origin" "576 -64 448"
+"team_no" "2"
+}
+{
+"classname" "i_p_t"
+"origin" "576 64 448"
+"team_no" "2"
+}
+{
+"classname" "i_p_t"
+"origin" "576 192 448"
+"team_no" "2"
+}
+{
+"classname" "i_p_t"
+"origin" "576 320 448"
+"team_no" "2"
+}
+{
+"classname" "i_p_t"
+"origin" "576 448 448"
+"team_no" "2"
+}
+{
+"classname" "i_p_t"
+"origin" "576 576 448"
+"team_no" "2"
+}
+{
+"classname" "item_armorInv"
+"origin" "64 576 272"
+}
+{
+"classname" "item_armorInv"
+"origin" "-64 -320 272"
+}
+{
+"spawnflags" "2"
+"classname" "item_health"
+"origin" "80 -336 256"
+"angle" "90"
+}
+{
+"spawnflags" "2"
+"classname" "item_health"
+"origin" "-48 560 256"
+"angle" "90"
+}
+{
+"classname" "light"
+"origin" "0 128 448"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-64 -320 448"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "64 -320 448"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "64 576 448"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-64 576 448"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "576 384 448"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "576 -128 448"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "928 128 448"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-576 -128 448"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-576 384 448"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-928 128 448"
+"light" "500"
+}
+{
+"speed" "100"
+"model" "*8"
+"classname" "trigger_push"
+"angle" "180"
+}
+{
+"speed" "100"
+"model" "*9"
+"classname" "trigger_push"
+"angle" "360"
+}
+{
+"g_a" "1"
+"items_allowed" "1"
+"netname" "bluecap"
+"axhitme" "1"
+"classname" "i_t_g"
+"n_b" " scored for BLUE\n"
+"noise" "items/cap1.wav"
+"origin" "928 128 256"
+"b_t" "your team scored\n"
+"g_e" "19"
+"count" "5"
+"frags" "5"
+"team_no" "1"
+}
+{
+"g_a" "4789"
+"n_s_c" "BALL is with "
+"netname" "slamball"
+"message" "you have the BALL\n"
+"classname" "item_tfgoal"
+"t_s_h" "the BALL is waiting"
+"origin" "0 128 176"
+"noise" "shambler/ssight.wav"
+"n_b" " has the BALL\n"
+"t_s_c" "BALL is with "
+"b_t" "your team got the BALL\n"
+"d_t" "you DROPPED the ball\n"
+"items" "393216"
+"goal_no" "1"
+"noise4" "the SLAM-BALL returned\n"
+"delay" "60"
+"pausetime" "10"
+"mdl" "progs/ball2.mdl"
+"angle" "135"
+"d_n" "the ball is DROPPED\n"
+"t_s_m" "BALL is around"
+}
+{
+"g_a" "1"
+"items_allowed" "1"
+"netname" "redcap"
+"axhitme" "1"
+"classname" "i_t_g"
+"origin" "-928 128 256"
+"noise" "items/cap2.wav"
+"n_b" " scored for RED\n"
+"b_t" "your team scored\n"
+"g_e" "19"
+"count" "5"
+"frags" "5"
+"team_no" "2"
+}

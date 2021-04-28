@@ -1,0 +1,977 @@
+{
+"classname" "worldspawn"
+"message" "Demoman Escape\nBy Soul\n"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "bombsecret"
+"speed" "1000"
+"sounds" "0"
+"wait" "-1"
+"lip" "500"
+"dmg" "0"
+"health" "0"
+"model" "*1"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"wait" "-1"
+"target" "bombsecret"
+"origin" "-96 -1376 -544"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "-288 -1376 -544"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "-544 -1280 -544"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "-660 -1088 -552"
+}
+{
+"classname" "light"
+"origin" "128 -1536 -480"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "128 -1216 -512"
+}
+{
+"classname" "light"
+"origin" "124 -1440 -210"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "128 -1440 -64"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"wait" "120"
+"target" "bombstart"
+"broadcast" "A wall has been opened..\n"
+"origin" "128 -1216 -544"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "bombstart"
+"speed" "1000"
+"sounds" "1"
+"wait" "120"
+"lip" "1000"
+"dmg" "500"
+"health" "0"
+"model" "*2"
+}
+{
+"classname" "light"
+"origin" "128 -896 -480"
+}
+{
+"classname" "light"
+"origin" "128 -384 -480"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "-576 -576 -544"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "-608 -288 -608"
+}
+{
+"classname" "light"
+"origin" "-160 -128 -416"
+}
+{
+"classname" "light"
+"origin" "416 -96 -416"
+}
+{
+"classname" "light"
+"origin" "128 288 -352"
+}
+{
+"classname" "light"
+"origin" "-224 448 -544"
+}
+{
+"classname" "light"
+"origin" "448 416 -640"
+}
+{
+"classname" "light"
+"origin" "128 512 -672"
+}
+{
+"classname" "light"
+"origin" "416 1312 -416"
+}
+{
+"classname" "light"
+"origin" "-160 1280 -416"
+}
+{
+"classname" "light"
+"origin" "128 896 -352"
+}
+{
+"classname" "light"
+"origin" "-192 768 -640"
+}
+{
+"classname" "light"
+"origin" "-576 544 -608"
+}
+{
+"classname" "light"
+"origin" "-608 128 -608"
+}
+{
+"classname" "light"
+"origin" "128 2048 -480"
+}
+{
+"classname" "light"
+"origin" "128 1536 -480"
+}
+{
+"classname" "func_door"
+"angle" "181"
+"speed" "1000"
+"sounds" "1"
+"wait" "-1"
+"lip" "500"
+"targetname" "bombsecret2"
+"dmg" "0"
+"health" "0"
+"model" "*3"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"wait" "-1"
+"target" "bombsecret2"
+"origin" "-224 1395 -512"
+}
+{
+"classname" "light"
+"origin" "-224 1664 -673"
+}
+{
+"classname" "light"
+"origin" "-384 2432 -814"
+}
+{
+"classname" "light"
+"origin" "544 2464 -480"
+}
+{
+"classname" "light"
+"origin" "1056 2464 -480"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "500"
+"wait" "2"
+"lip" "600"
+"dmg" "500"
+"team_no" "1"
+"model" "*4"
+}
+{
+"classname" "light"
+"origin" "128 2560 -480"
+}
+{
+"classname" "light"
+"origin" "128 2848 -480"
+}
+{
+"classname" "light"
+"origin" "128 3136 -416"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"message" "Teamwork, Teamwork...\n"
+"origin" "96 -1376 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"message" "Teamwork, Teamwork...\n"
+"origin" "96 -1472 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"message" "Teamwork, Teamwork...\n"
+"origin" "192 -1472 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "235"
+"team_no" "2"
+"message" "Teamwork, Teamwork...\n"
+"origin" "192 -1376 -64"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "6"
+"hook_out" "1"
+"maxammo_shells" "509"
+"team_broadcast" "=== Select Your Team ===\n1. Guard\n2. Demoman\n"
+"noise1" "=== Choose your class ===\n\n2. Sniper  \n9. Engineer\n"
+"maxammo_nails" "1015"
+"ammo_medikit" "6"
+"noise2" "=== Choose your class ===\n\n4.. Demoman \n"
+"ammo_detpack" "4"
+"origin" "128 -1440 -32"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"ammo_shells" "500"
+"ammo_nails" "500"
+"ammo_rockets" "500"
+"ammo_cells" "500"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"team_no" "2"
+"wait" "1"
+"delay" "1"
+"health" "100"
+"armorclass" "200"
+"armorvalue" "300"
+"armortype" "0.8"
+"ammo_medikit" "500"
+"invincible_finished" "5"
+"ammo_detpack" "1"
+"origin" "96 -1376 -57"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"ammo_shells" "500"
+"ammo_nails" "500"
+"ammo_rockets" "500"
+"ammo_cells" "500"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"team_no" "2"
+"wait" "1"
+"delay" "1"
+"health" "100"
+"armorclass" "200"
+"armorvalue" "300"
+"armortype" "0.8"
+"ammo_medikit" "500"
+"invincible_finished" "5"
+"ammo_detpack" "1"
+"origin" "192 -1380 -56"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"ammo_shells" "500"
+"ammo_nails" "500"
+"ammo_rockets" "500"
+"ammo_cells" "500"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"team_no" "2"
+"wait" "1"
+"delay" "1"
+"health" "100"
+"armorclass" "200"
+"armorvalue" "300"
+"armortype" "0.8"
+"ammo_medikit" "500"
+"invincible_finished" "5"
+"ammo_detpack" "1"
+"origin" "96 -1470 -56"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"ammo_shells" "500"
+"ammo_nails" "500"
+"ammo_rockets" "500"
+"ammo_cells" "500"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"team_no" "2"
+"wait" "1"
+"delay" "1"
+"health" "100"
+"armorclass" "200"
+"armorvalue" "300"
+"armortype" "0.8"
+"ammo_medikit" "500"
+"invincible_finished" "5"
+"ammo_detpack" "1"
+"origin" "188 -1472 -52"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"ammo_shells" "500"
+"ammo_nails" "500"
+"ammo_rockets" "500"
+"ammo_cells" "500"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"team_no" "1"
+"wait" "1"
+"delay" "1"
+"health" "100"
+"armorclass" "200"
+"armorvalue" "300"
+"armortype" "0.8"
+"ammo_medikit" "500"
+"origin" "128 3119 -510"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "1.8"
+"message" "You are Currently at\nThe Bridge Respawn..\nAmmo has been given..\n"
+"style" "32"
+"delay" "0"
+"model" "*5"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "1.8"
+"message" "To the Courtyard Respawn\n(In the Loft up top)\n"
+"style" "32"
+"delay" "0"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "1.8"
+"message" "To the Entrance Respawn\n(Gate to Boat)\n"
+"style" "32"
+"delay" "0"
+"model" "*7"
+}
+{
+"classname" "light"
+"origin" "32 2592 -832"
+}
+{
+"classname" "light"
+"origin" "448 2592 -832"
+}
+{
+"classname" "light"
+"origin" "736 2432 -832"
+}
+{
+"classname" "light"
+"origin" "1216 2432 -832"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "1184 1792 -160"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "1184 3136 -160"
+}
+{
+"classname" "light"
+"origin" "1504 1632 -128"
+}
+{
+"classname" "light"
+"origin" "1024 2048 -128"
+}
+{
+"classname" "light"
+"origin" "1024 2848 -128"
+}
+{
+"classname" "light"
+"origin" "1504 3296 -128"
+}
+{
+"classname" "light"
+"origin" "2032 3296 -128"
+}
+{
+"classname" "light"
+"origin" "2032 1632 -128"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "2880 3136 -160"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "2880 1792 -160"
+}
+{
+"classname" "light"
+"origin" "2560 3296 -128"
+}
+{
+"classname" "light"
+"origin" "2560 1632 -128"
+}
+{
+"classname" "light"
+"origin" "3040 2880 -128"
+}
+{
+"classname" "light"
+"origin" "3040 2080 -128"
+}
+{
+"classname" "func_door"
+"targetname" "bombsecret3"
+"speed" "1000"
+"sounds" "0"
+"wait" "-1"
+"lip" "1000"
+"model" "*8"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"wait" "-1"
+"target" "bombsecret3"
+"origin" "2016 2516 -608"
+}
+{
+"classname" "light"
+"origin" "1664 2528 -736"
+}
+{
+"classname" "light"
+"origin" "1984 2528 -608"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "bomber22"
+"speed" "1000"
+"wait" "120"
+"lip" "1000"
+"dmg" "500"
+"model" "*9"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"wait" "120"
+"target" "bomber22"
+"broadcast" "A wall has been opened..\n"
+"origin" "0 2464 -480"
+}
+{
+"classname" "light"
+"origin" "-448 2432 -448"
+}
+{
+"classname" "light"
+"origin" "-736 2784 -480"
+}
+{
+"classname" "light"
+"origin" "-736 3424 -480"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "32 2784 -448"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "bomber33"
+"speed" "1000"
+"wait" "120"
+"lip" "1000"
+"dmg" "500"
+"model" "*10"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"wait" "120"
+"target" "bomber33"
+"broadcast" "A wall has been opened..\n"
+"origin" "1024 2464 -448"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "2560 2912 -352"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "2048 2944 -448"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "1504 2912 -480"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "1408 2496 -448"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "2784 2496 -448"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "2560 2080 -448"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "2016 2016 -448"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "1536 2048 -448"
+}
+{
+"classname" "light"
+"origin" "-576 3648 -512"
+}
+{
+"classname" "light"
+"origin" "-96 3648 -352"
+}
+{
+"classname" "light"
+"origin" "448 3648 -160"
+}
+{
+"classname" "light"
+"origin" "800 3616 -96"
+}
+{
+"classname" "light"
+"origin" "1344 3712 -96"
+}
+{
+"classname" "light"
+"origin" "1728 3840 -96"
+}
+{
+"classname" "light"
+"origin" "2048 3584 -96"
+}
+{
+"classname" "light"
+"origin" "2592 3552 -128"
+}
+{
+"classname" "light"
+"origin" "2880 3552 -64"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"ammo_shells" "500"
+"ammo_nails" "500"
+"ammo_rockets" "500"
+"ammo_cells" "500"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"team_no" "1"
+"wait" "1"
+"delay" "1"
+"health" "100"
+"armorclass" "200"
+"armorvalue" "300"
+"armortype" "0.8"
+"ammo_medikit" "500"
+"origin" "2863 3552 -158"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "1.8"
+"message" "You are Currently at\nThe Courtyard Respawn..\nAmmo has been given..\n"
+"style" "32"
+"delay" "0"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "1.8"
+"message" "To the Bridge Respawn\n(In Hall)"
+"style" "32"
+"delay" "0"
+"model" "*12"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "1.8"
+"message" "To the Entrance Respawn\n(Gate to Boat)\n"
+"style" "32"
+"delay" "0"
+"model" "*13"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "2528 3648 -96"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "500"
+"wait" "2"
+"lip" "600"
+"dmg" "500"
+"team_no" "1"
+"model" "*14"
+}
+{
+"classname" "light"
+"origin" "2272 3680 -96"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "183"
+"targetname" "loft"
+"origin" "2848 3552 -96"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"target" "loft"
+"team_no" "1"
+"model" "*15"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "273"
+"targetname" "bridge"
+"origin" "128 3104 -448"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"target" "bridge"
+"team_no" "1"
+"model" "*16"
+}
+{
+"classname" "light"
+"origin" "2048 3520 -448"
+}
+{
+"classname" "light"
+"origin" "2272 3840 -352"
+}
+{
+"classname" "light"
+"origin" "2912 3808 -320"
+}
+{
+"classname" "light"
+"origin" "2624 3776 -192"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "500"
+"wait" "2"
+"lip" "800"
+"dmg" "500"
+"team_no" "1"
+"model" "*17"
+}
+{
+"classname" "light"
+"origin" "2032 1152 -480"
+}
+{
+"classname" "light"
+"origin" "2032 1664 -480"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "1824 -128 -288"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "2240 -128 -288"
+}
+{
+"classname" "light"
+"origin" "2240 32 -480"
+}
+{
+"classname" "light"
+"origin" "1824 32 -480"
+}
+{
+"classname" "light"
+"origin" "2048 352 -480"
+}
+{
+"classname" "light"
+"origin" "2048 736 -480"
+}
+{
+"classname" "light"
+"origin" "2032 -164 -480"
+}
+{
+"classname" "light"
+"origin" "2032 -128 -256"
+}
+{
+"classname" "light"
+"origin" "2368 64 -256"
+}
+{
+"classname" "light"
+"origin" "1696 64 -256"
+}
+{
+"classname" "light"
+"origin" "1760 640 -256"
+}
+{
+"classname" "light"
+"origin" "2304 640 -256"
+}
+{
+"classname" "light"
+"origin" "2368 256 -256"
+}
+{
+"classname" "light"
+"origin" "1696 256 -256"
+}
+{
+"classname" "light"
+"origin" "2624 576 -256"
+}
+{
+"classname" "light"
+"origin" "2816 864 -288"
+}
+{
+"classname" "light"
+"origin" "2816 1152 -224"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"ammo_shells" "500"
+"ammo_nails" "500"
+"ammo_rockets" "500"
+"ammo_cells" "500"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"team_no" "1"
+"wait" "1"
+"delay" "1"
+"health" "100"
+"armorclass" "200"
+"armorvalue" "300"
+"armortype" "0.8"
+"ammo_medikit" "500"
+"origin" "2816 1135 -318"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "1.8"
+"message" "You are Currently at\nThe Entrance Respawn..\nAmmo has been given..\n"
+"style" "32"
+"delay" "0"
+"model" "*18"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "1.8"
+"message" "To the Bridge Respawn\n(In Hall)"
+"style" "32"
+"delay" "0"
+"model" "*19"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "1.8"
+"message" "To the Courtyard Respawn\n(In the Loft up top)\n"
+"style" "32"
+"delay" "0"
+"model" "*20"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "2720 800 -256"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "500"
+"wait" "2"
+"lip" "600"
+"dmg" "500"
+"team_no" "1"
+"model" "*21"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "272"
+"targetname" "exit"
+"origin" "2816 1120 -256"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"target" "bridge"
+"team_no" "1"
+"model" "*22"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"target" "exit"
+"team_no" "1"
+"model" "*23"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"target" "exit"
+"team_no" "1"
+"model" "*24"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"target" "loft"
+"team_no" "1"
+"model" "*25"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "157"
+"team_no" "1"
+"origin" "2912 800 -256"
+}
+{
+"classname" "light"
+"origin" "1600 -416 -480"
+}
+{
+"classname" "light"
+"origin" "2048 -352 -480"
+}
+{
+"classname" "light"
+"origin" "2464 -448 -480"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"targetname" "boat"
+"speed" "100"
+"sounds" "0"
+"wait" "60"
+"lip" "2500"
+"dmg" "0"
+"health" "0"
+"model" "*26"
+}
+{
+"classname" "light"
+"origin" "2048 -768 -528"
+}
+{
+"classname" "trigger_multiple"
+"target" "boat"
+"style" "32"
+"delay" "60"
+"sounds" "4"
+"message" "You have started the boat.\n"
+"wait" "120"
+"team_no" "2"
+"model" "*27"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1.8"
+"message" "To start boat touch front on\ninside. Engines take 60 seconds\nto start up.\n"
+"style" "32"
+"delay" "0"
+"sounds" "0"
+"team_no" "2"
+"model" "*28"
+}
+{
+"classname" "info_tfgoal"
+"increase_team2" "5"
+"broadcast" "A Demoman Escaped!\n"
+"goal_effects" "1"
+"frags" "5"
+"health" "-150"
+"targetname" "winner"
+"origin" "2336 -2976 -502"
+}
+{
+"classname" "trigger_multiple"
+"target" "winner"
+"sounds" "4"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"team_no" "2"
+"model" "*29"
+}

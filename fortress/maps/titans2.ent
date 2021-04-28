@@ -1,0 +1,2246 @@
+{
+"classname" "worldspawn"
+"message" "designed, created and proudly brought to you by \n             Endiku >X<"
+"worldtype" "0"
+"sounds" "1"
+"wad" "c:\progra~1\qed2\qedmain.wad"
+}
+{
+"classname" "info_tfdetect"
+"broadcast" "TeamFortress v2.65"
+"impulse" "16"
+"ammo_shells" "0"
+"ammo_nails" "0"
+"b_t" "-----Titans 2 ----- \n \n [1] The Order of Destruction \n  [2]  The Defenders of the Crown"
+"b_n" "Join both the Red and Blue Shards together \n Once joined your team countinues to score"
+"hook_out" "1"
+"angle" "0"
+"display_item_status1" "21"
+"display_item_status2" "22"
+"team_str_home" "Your Shard is gaurded at home"
+"team_str_moved" "You Shard is outside"
+"team_str_carried" "You Shard is carried by "
+"non_team_str_home" "The enemy's Shard is defended"
+"non_team_str_moved" "The enemy Shard is out in the open"
+"non_team_str_carried" "The enemy Shard is carried by"
+"origin" "-1008 -800 240"
+}
+{
+"classname" "info_player_start"
+"angle" "120"
+"origin" "634 -2457 304"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"sounds" "2"
+"targetname" "det4"
+"angle" "-1"
+"spawnflags" "32"
+"model" "*1"
+}
+{
+"classname" "info_tfgoal"
+"angle" "0"
+"g_a" "2"
+"goal_result" "1"
+"target" "det4"
+"origin" "-1856 -2112 496"
+}
+{
+"classname" "func_door"
+"speed" "300"
+"sounds" "2"
+"wait" "0"
+"dmg" "50"
+"lip" "8"
+"angle" "0"
+"team_no" "2"
+"model" "*2"
+}
+{
+"classname" "func_door"
+"speed" "300"
+"sounds" "2"
+"wait" "0"
+"dmg" "50"
+"lip" "8"
+"angle" "180"
+"team_no" "2"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"speed" "300"
+"sounds" "2"
+"wait" "0"
+"dmg" "50"
+"lip" "8"
+"angle" "180"
+"team_no" "2"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"speed" "300"
+"sounds" "2"
+"wait" "0"
+"dmg" "50"
+"lip" "8"
+"angle" "0"
+"team_no" "2"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"sounds" "2"
+"targetname" "det1"
+"angle" "-2"
+"spawnflags" "32"
+"model" "*6"
+}
+{
+"classname" "info_tfgoal"
+"angle" "0"
+"g_a" "2"
+"goal_result" "1"
+"target" "det1"
+"origin" "-1546 -1344 228"
+}
+{
+"classname" "func_door"
+"speed" "2000"
+"sounds" "2"
+"targetname" "det2"
+"angle" "-2"
+"spawnflags" "32"
+"model" "*7"
+}
+{
+"classname" "info_tfgoal"
+"angle" "0"
+"g_a" "2"
+"goal_result" "1"
+"target" "det2"
+"origin" "-1440 -1342 224"
+}
+{
+"classname" "func_door"
+"speed" "50"
+"sounds" "3"
+"wait" "3"
+"targetname" "g1"
+"health" "0"
+"angle" "270"
+"spawnflags" "33"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"speed" "50"
+"sounds" "3"
+"wait" "4"
+"targetname" "g2"
+"dmg" "200"
+"angle" "-2"
+"delay" "5"
+"toggle" "1"
+"spawnflags" "32"
+"model" "*9"
+}
+{
+"classname" "func_button"
+"sounds" "2"
+"target" "g1"
+"wait" "60"
+"delay" "10"
+"speed" "40"
+"angle" "90"
+"model" "*10"
+}
+{
+"classname" "func_button"
+"sounds" "2"
+"target" "g2"
+"wait" "60"
+"delay" "10"
+"speed" "40"
+"angle" "-2"
+"model" "*11"
+}
+{
+"classname" "ambient_suck_wind"
+"angle" "0"
+"origin" "-1026 -1134 526"
+}
+{
+"classname" "ambient_suck_wind"
+"angle" "0"
+"origin" "-1364 -1162 526"
+}
+{
+"classname" "ambient_suck_wind"
+"angle" "0"
+"origin" "-712 -1186 526"
+}
+{
+"classname" "ambient_suck_wind"
+"angle" "0"
+"origin" "-1020 -824 254"
+}
+{
+"classname" "ambient_suck_wind"
+"angle" "0"
+"origin" "-1026 -592 260"
+}
+{
+"classname" "ambient_suck_wind"
+"angle" "0"
+"origin" "-1616 -398 652"
+}
+{
+"classname" "ambient_suck_wind"
+"angle" "0"
+"origin" "-466 -428 746"
+}
+{
+"classname" "item_tfgoal"
+"angle" "0"
+"mdl" "progs/armor6.mdl"
+"goal_no" "5"
+"team_no" "1"
+"playerclass" "7"
+"pausetime" "8"
+"owned_by" "1"
+"noise3" "Team 2 has destroyed the Armor Wearer"
+"noise4" "The Armor wearer is banished"
+"message" "you are now a Champion"
+"else_goal" "203"
+"g_a" "693"
+"noise" "armor2.wav"
+"d_n_t" " of the Great Armor fell to the enemy \n"
+"d_n_n" " was knocked out of the Armor \n"
+"n_b" " dons the Armor of Power \n"
+"d_t" "The Armor has fallen to the ground"
+"group_no" "2"
+"origin" "2384 2688 42"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"search_time" "2"
+"items_allowed" "5"
+"maxammo_shells" "1"
+"health" "3"
+"angle" "0"
+"g_e" "64"
+"armorvalue" "3"
+"armortype" ".8"
+"armorclass" "16"
+"origin" "2442 2584 38"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"search_time" "4"
+"items_allowed" "5"
+"maxammo_shells" "1"
+"invincible_finished" "2"
+"angle" "0"
+"g_e" "64"
+"ammo_rockets" "1"
+"ammo_cells" "2"
+"origin" "2444 2592 46"
+}
+{
+"classname" "info_tfgoal"
+"goal_no" "203"
+"message" "Pyro can wear the Armor of the Gods"
+"angle" "0"
+"g_e" "1"
+"origin" "2440 2584 40"
+}
+{
+"classname" "item_tfgoal"
+"angle" "0"
+"mdl" "progs/crown6.mdl"
+"health" "200"
+"goal_no" "1"
+"team_no" "2"
+"message" "You are now the Lord of the Castle"
+"noise" "crown2.wav"
+"g_a" "541"
+"n_b" " is Lord of the castle \n"
+"d_n_t" " has fallen to the enemy \n"
+"d_n_n" " Lord of the Castle is no more \n"
+"b_b" "The Lord of the Manor is chosen"
+"g_e" "1"
+"axhitme" "7"
+"group_no" "1"
+"origin" "-1473 -2544 528"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"items_allowed" "1"
+"goal_effects" "64"
+"maxammo_shells" "2"
+"search_time" "7"
+"health" "10"
+"angle" "0"
+"origin" "-1414 -2608 538"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"items_allowed" "1"
+"goal_effects" "64"
+"maxammo_shells" "2"
+"search_time" "30"
+"armortype" ".8"
+"armorclass" "23"
+"armorvalue" "100"
+"angle" "0"
+"origin" "-1412 -2600 540"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"items_allowed" "1"
+"goal_effects" "64"
+"maxammo_shells" "2"
+"search_time" "42"
+"invincible_finished" "12"
+"angle" "0"
+"origin" "-1410 -2592 538"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"items_allowed" "1"
+"goal_effects" "64"
+"maxammo_shells" "2"
+"search_time" "18"
+"invisible_finished" "7"
+"angle" "0"
+"origin" "-1414 -2584 534"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"items_allowed" "1"
+"goal_effects" "64"
+"maxammo_shells" "2"
+"search_time" "32"
+"super_damage_finished" "6"
+"angle" "0"
+"origin" "-1412 -2576 534"
+}
+{
+"classname" "item_tfgoal"
+"angle" "0"
+"mdl" "progs/axe1.mdl"
+"goal_no" "2"
+"team_no" "1"
+"playerclass" "5"
+"pausetime" "8"
+"owned_by" "1"
+"noise3" "Team 2 has destroyed the Axe Bearer"
+"noise4" "The Axe Weilder is banished"
+"message" "you are now a Champion"
+"else_goal" "200"
+"g_a" "693"
+"noise" "axe2.wav"
+"d_n_n" " the Axe Bearer has been killed \n"
+"d_n_t" " has lost the Axe of Death \n"
+"n_b" " has the Axe of Death \n"
+"d_t" "The Axe is dropped"
+"targetname" "items2"
+"group_no" "2"
+"origin" "2181 2823 49"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"search_time" "1"
+"items_allowed" "2"
+"maxammo_shells" "1"
+"health" "7"
+"angle" "0"
+"ammo_nails" "5"
+"ammo_shells" "5"
+"g_e" "64"
+"armorvalue" "1"
+"armortype" ".8"
+"origin" "2209 2704 44"
+}
+{
+"classname" "info_tfgoal"
+"goal_no" "200"
+"message" "Medic can weild the Axe of Death"
+"angle" "0"
+"g_e" "1"
+"origin" "2207 2708 40"
+}
+{
+"classname" "info_tfgoal"
+"goal_no" "202"
+"message" "HWGuy can hold the Sheild of Power"
+"g_e" "1"
+"origin" "2304 2944 32"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"search_time" "15"
+"items_allowed" "4"
+"maxammo_shells" "1"
+"health" "15"
+"g_e" "64"
+"origin" "2304 2944 32"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"search_time" "10"
+"items_allowed" "4"
+"maxammo_shells" "1"
+"armortype" ".8"
+"armorclass" "23"
+"armorvalue" "50"
+"angle" "0"
+"g_e" "64"
+"ammo_shells" "50"
+"ammo_cells" "5"
+"origin" "2302 2952 48"
+}
+{
+"classname" "item_tfgoal"
+"angle" "0"
+"mdl" "progs/sheild1.mdl"
+"goal_no" "4"
+"team_no" "1"
+"playerclass" "6"
+"pausetime" "8"
+"owned_by" "1"
+"noise3" "Team 2 has destroyed the Shield Holder"
+"noise4" "The Shield Holder is banished"
+"message" "you are now a Champion"
+"else_goal" "202"
+"g_a" "693"
+"noise" "sheild2.wav"
+"d_n_t" " has lost the Shield of Power \n"
+"d_n_n" " owner of the Shield has been killed \n"
+"n_b" " has the Shield of Power \n"
+"d_t" "The Shield is dropped"
+"group_no" "2"
+"origin" "2336 3010 50"
+}
+{
+"classname" "info_tfgoal"
+"goal_no" "204"
+"message" "Sniper can use the Skull of Cunning"
+"angle" "0"
+"g_e" "1"
+"origin" "2506 2864 46"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"search_time" "2"
+"items_allowed" "6"
+"maxammo_shells" "1"
+"health" "3"
+"angle" "0"
+"g_e" "64"
+"origin" "2502 2864 46"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"search_time" "25"
+"items_allowed" "6"
+"maxammo_shells" "1"
+"invisible_finished" "18"
+"angle" "0"
+"g_e" "64"
+"origin" "2510 2856 50"
+}
+{
+"classname" "item_tfgoal"
+"angle" "0"
+"mdl" "progs/skull.mdl"
+"goal_no" "6"
+"team_no" "1"
+"playerclass" "2"
+"pausetime" "8"
+"owned_by" "1"
+"noise3" "Team 2 has destroyed the Skull Bearrer"
+"noise4" "The Skull Bearer is banished"
+"message" "you are now a Champion"
+"else_goal" "204"
+"g_a" "692"
+"noise" "skull2.wav"
+"d_n_t" " lost the Skull of Cunning \n"
+"d_n_n" " lost the Skull \n"
+"n_b" " has the Skull of Cunning \n"
+"d_t" "The Skull is dropped"
+"group_no" "2"
+"origin" "2566 2968 52"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"search_time" "1"
+"items_allowed" "7"
+"maxammo_shells" "2"
+"health" "5"
+"angle" "0"
+"ammo_shells" "-200"
+"ammo_rockets" "-200"
+"ammo_nails" "-200"
+"ammo_cells" "-200"
+"g_e" "64"
+"no_grenades_2" "-4"
+"no_grenades_1" "-4"
+"origin" "-1214 -2608 546"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"search_time" "10"
+"items_allowed" "7"
+"maxammo_shells" "2"
+"invincible_finished" "6"
+"angle" "0"
+"super_damage_finished" "10"
+"armortype" ".8"
+"armorclass" "23"
+"armorvalue" "300"
+"g_e" "64"
+"origin" "-1212 -2600 550"
+}
+{
+"classname" "item_tfgoal"
+"angle" "0"
+"mdl" "progs/sword6.mdl"
+"goal_no" "7"
+"team_no" "2"
+"pausetime" "8"
+"owned_by" "2"
+"noise3" "Team 1 has killed the Lord at Arms"
+"noise4" "The Lord at Arms is banished"
+"message" "you are now the Lord at Arms"
+"noise" "sword2.wav"
+"g_a" "693"
+"d_n_t" " lost the Lord's Sword \n"
+"d_n_n" " was robbed of the Lord's Sword \n"
+"n_t" " has taken up the duty of Lord at Arms \n"
+"d_t" "the Sword is dropped"
+"b_t" "The Lord at Arms is chosen"
+"axhitme" "1"
+"g_e" "1"
+"group_no" "1"
+"origin" "-1168 -2544 528"
+}
+{
+"classname" "item_tfgoal"
+"angle" "0"
+"mdl" "progs/spear1.mdl"
+"goal_no" "3"
+"team_no" "1"
+"playerclass" "3"
+"pausetime" "8"
+"owned_by" "1"
+"noise3" "Team 2 has destroyed the Spear Weilder"
+"noise4" "The Spear Carier is banished"
+"message" "you are now a Champion"
+"else_goal" "201"
+"g_a" "693"
+"noise" "spear2.wav"
+"d_n_t" " has lost the Spear of Destruction \n"
+"d_n_n" " owner of the Spear has been killed \n"
+"n_b" " has the Spear of Destruction \n"
+"d_t" "The Spear is dropped"
+"group_no" "2"
+"origin" "2570 2764 48"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"search_time" "3"
+"items_allowed" "3"
+"maxammo_shells" "1"
+"health" "2"
+"angle" "0"
+"g_e" "64"
+"armorvalue" "2"
+"armortype" ".8"
+"ammo_rockets" "1"
+"origin" "2632 2584 38"
+}
+{
+"classname" "info_tfgoal_timer"
+"goal_state" "2"
+"search_time" "6"
+"items_allowed" "3"
+"maxammo_shells" "1"
+"super_damage_finished" "2"
+"g_e" "64"
+"origin" "2640 2576 32"
+}
+{
+"classname" "info_tfgoal"
+"goal_no" "201"
+"message" "Soldier weilds the Spear of Destruction"
+"angle" "0"
+"g_e" "1"
+"origin" "2630 2588 38"
+}
+{
+"classname" "info_tfgoal"
+"items_allowed" "22"
+"g_a" "1"
+"g_e" "1"
+"frags" "5"
+"count" "5"
+"angle" "0"
+"restore_group_no" "42"
+"noise" "order2.wav"
+"if_item_hasnt_moved" "21"
+"message" "Chaos reigns supreme"
+"b_t" "The Gods of Chaos smile apon you all"
+"b_n" "Retreive the Shards!"
+"items" "99"
+"axhitme" "22"
+"origin" "2144 3184 192"
+}
+{
+"classname" "info_tfgoal_timer"
+"group_no" "42"
+"goal_no" "42"
+"goal_state" "3"
+"search_time" "30"
+"maxammo_shells" "1"
+"frags" "2"
+"increase_team1" "2"
+"b_b" "The Order of Destruction gathers power"
+"activate_goal_no" "94"
+"origin" "2144 3184 192"
+}
+{
+"classname" "item_tfgoal"
+"angle" "0"
+"mdl" "progs/shard.mdl"
+"goal_no" "21"
+"team_no" "2"
+"pausetime" "40"
+"owned_by" "1"
+"noise3" "The Blue Shard has returned"
+"noise4" "The Blue Shard has returned to the enemy"
+"message" "You have the Blue Shard \n Join it with the Red"
+"g_a" "677"
+"noise" "items/r_item1.wav"
+"d_n_t" " Dropped the Blue Shard \n"
+"d_n_n" " dropped the Blue Shard \n"
+"n_b" " has the Blue Shard \n"
+"skin" "2"
+"group_no" "21"
+"origin" "2144 3184 192"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"mdl" "progs/shard.mdl"
+"skin" "1"
+"team_no" "2"
+"goal_state" "3"
+"angle" "180"
+"return_item_no" "22"
+"g_e" "1"
+"items" "22"
+"group_no" "42"
+"remove_goal_no" "42"
+"maxammo_shells" "2"
+"goal_result" "1"
+"message" "You have shattered the Shards"
+"b_b" "The Shards are shattered"
+"origin" "2144 3184 192"
+}
+{
+"classname" "info_tfgoal"
+"goal_no" "94"
+"noise" "items/suit.wav"
+"origin" "2144 3184 192"
+}
+{
+"classname" "item_tfgoal"
+"goal_no" "99"
+"g_a" "12"
+"angle" "0"
+"health" "-500"
+"origin" "2644 3541 442"
+}
+{
+"classname" "info_tfgoal_timer"
+"angle" "0"
+"goal_state" "2"
+"search_time" "1"
+"items_allowed" "99"
+"g_e" "64"
+"maxammo_shells" "1"
+"maxammo_nails" "1"
+"health" "-500"
+"origin" "2144 3185 443"
+}
+{
+"classname" "info_tfgoal"
+"items_allowed" "21"
+"g_a" "1"
+"g_e" "1"
+"frags" "5"
+"count" "5"
+"angle" "0"
+"restore_group_no" "43"
+"noise" "valour2.wav"
+"if_item_hasnt_moved" "22"
+"message" "You have joined the Shards of Onyx Bree"
+"b_t" "Your Master is pleased with your Valour"
+"b_n" "The high and mighty cretins \n have both Shards"
+"items" "99"
+"axhitme" "21"
+"origin" "-1319 -3216 767"
+}
+{
+"classname" "info_tfgoal_timer"
+"group_no" "43"
+"goal_no" "43"
+"goal_state" "3"
+"search_time" "30"
+"maxammo_shells" "2"
+"frags" "2"
+"increase_team2" "2"
+"b_b" "The Defenders retain \n the joined Shards"
+"activate_goal_no" "95"
+"origin" "-1312 -3232 767"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"mdl" "progs/shard.mdl"
+"skin" "2"
+"team_no" "1"
+"goal_state" "3"
+"angle" "270"
+"return_item_no" "21"
+"g_e" "1"
+"group_no" "43"
+"remove_goal_no" "43"
+"maxammo_shells" "1"
+"items" "21"
+"goal_result" "1"
+"message" "You have shattered the Shards"
+"b_b" "The Shards are shattered"
+"origin" "-1319 -3216 767"
+}
+{
+"classname" "item_tfgoal"
+"angle" "90"
+"mdl" "progs/shard.mdl"
+"goal_no" "22"
+"team_no" "1"
+"pausetime" "40"
+"owned_by" "2"
+"noise3" "The Red Shard has returned"
+"noise4" "The Red Shard has returned to the enemy"
+"message" "You have the Red Shard \n Join it with the Blue"
+"g_a" "677"
+"noise" "misc/secret.wav"
+"d_n_t" " Dropped the Red Shard \n"
+"d_n_n" " dropped the Red Shard \n"
+"n_b" " has the Red Shard \n"
+"skin" "1"
+"group_no" "22"
+"origin" "-1319 -3216 767"
+}
+{
+"classname" "info_tfgoal"
+"goal_no" "95"
+"noise" "items/suit2.wav"
+"origin" "-1312 -3232 767"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"origin" "-1554 -2449 319"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"origin" "-1088 -2447 319"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"origin" "-1323 -2821 319"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "0"
+"team_no" "2"
+"origin" "-1650 -2110 319"
+}
+{
+"classname" "info_tfgoal"
+"angle" "0"
+"mdl" "progs/pack.mdl"
+"ammo_shells" "200"
+"ammo_rockets" "25"
+"no_grenades_1" "4"
+"ammo_detpack" "1"
+"ammo_nails" "200"
+"g_a" "1"
+"g_e" "1"
+"wait" "10"
+"health" "50"
+"noise" "weapons/pkup.wav"
+"team_no" "2"
+"ammo_cells" "100"
+"armorvalue" "100"
+"armortype" ".8"
+"origin" "-1456 -2896 193"
+}
+{
+"classname" "info_tfgoal"
+"angle" "0"
+"mdl" "progs/pack.mdl"
+"ammo_shells" "200"
+"ammo_rockets" "25"
+"no_grenades_1" "4"
+"ammo_detpack" "1"
+"ammo_nails" "200"
+"g_a" "1"
+"g_e" "1"
+"wait" "10"
+"health" "50"
+"noise" "weapons/pkup.wav"
+"team_no" "2"
+"ammo_cells" "100"
+"armorvalue" "100"
+"armortype" ".8"
+"origin" "-1184 -2893 193"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "2"
+"origin" "-1430 -1781 287"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "2"
+"origin" "-1206 -1781 287"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"angle" "64"
+"origin" "1120 1744 432"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"angle" "64"
+"origin" "1280 1808 432"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"angle" "64"
+"origin" "1328 1648 432"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"angle" "64"
+"origin" "1168 1632 432"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"angle" "64"
+"origin" "1504 1792 432"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"angle" "64"
+"origin" "1584 1648 432"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"angle" "64"
+"origin" "1696 1776 432"
+}
+{
+"classname" "info_tfgoal"
+"angle" "0"
+"mdl" "progs/pack.mdl"
+"ammo_shells" "200"
+"ammo_rockets" "25"
+"no_grenades_1" "4"
+"ammo_detpack" "1"
+"ammo_nails" "200"
+"g_a" "1"
+"g_e" "1"
+"wait" "10"
+"health" "50"
+"noise" "weapons/pkup.wav"
+"team_no" "1"
+"ammo_cells" "100"
+"armorvalue" "100"
+"armortype" ".8"
+"origin" "1568 1728 432"
+}
+{
+"classname" "info_tfgoal"
+"angle" "0"
+"mdl" "progs/pack.mdl"
+"ammo_shells" "200"
+"ammo_rockets" "25"
+"no_grenades_1" "4"
+"ammo_detpack" "1"
+"ammo_nails" "200"
+"g_a" "1"
+"g_e" "1"
+"wait" "10"
+"health" "50"
+"noise" "weapons/pkup.wav"
+"team_no" "1"
+"ammo_cells" "100"
+"armorvalue" "100"
+"armortype" ".8"
+"origin" "1280 1728 432"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "1568 1728 496"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "1280 1728 496"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "1312 2240 352"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "1376 2720 272"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "1376 3072 192"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "1424 3568 256"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "1872 3696 256"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "2528 3536 208"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "2272 3056 208"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "2736 2912 208"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "2272 2672 208"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "2912 2416 272"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "2848 2128 336"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "2560 2112 448"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "2192 2112 480"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "2128 2336 416"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "2112 1808 416"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "2064 1376 384"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "1680 944 384"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "1312 592 384"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "832 608 384"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "784 144 384"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "704 1088 384"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "352 1216 384"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "368 1760 384"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "720 2080 384"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-64 1120 384"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "1680 2112 416"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "2704 3184 272"
+}
+{
+"classname" "light"
+"light" "320"
+"style" "0"
+"angle" "0"
+"origin" "-496 1296 440"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "-1040 608 424"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "-544 320 434"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "-1411 421 434"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "-188 101 434"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "-1770 333 434"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "-1022 90 434"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "171 -316 434"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "-24 -772 514"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "542 -778 395"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "925 -1281 277"
+}
+{
+"classname" "light"
+"light" "290"
+"style" "0"
+"angle" "0"
+"origin" "880 -1680 304"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "304 -2512 397"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-161 -2319 386"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-160 -1872 320"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "499 -1423 536"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "538 -1300 -296"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "192 -2096 -132"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-177 -1620 336"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-177 -1495 534"
+}
+{
+"classname" "light"
+"light" "190"
+"style" "0"
+"angle" "0"
+"origin" "-228 -1285 534"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "427 -1948 -296"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "14 -2610 -296"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "149 -1133 -317"
+}
+{
+"classname" "light"
+"light" "280"
+"style" "0"
+"angle" "0"
+"origin" "-150 -1031 -237"
+}
+{
+"classname" "light"
+"light" "180"
+"style" "0"
+"angle" "0"
+"origin" "-289 -1033 -208"
+}
+{
+"classname" "light"
+"light" "280"
+"style" "0"
+"angle" "0"
+"origin" "-289 -1026 65"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-272 -784 672"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-272 -592 752"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "704 -2128 348"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "432 -1344 112"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "864 -416 395"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "2784 1808 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "688 -1360 112"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "736 -2000 672"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "880 -848 395"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "2432 1808 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "2544 2336 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "2112 2400 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "1792 2336 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "1872 1760 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "1664 1936 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "1312 1936 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "1104 2656 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "1104 3008 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "1216 3312 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "1776 2736 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "1760 3200 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "2208 3424 -16"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"angle" "0"
+"origin" "2224 3808 -16"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "-560 656 424"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-272 336 336"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-272 336 656"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "48 16 656"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "48 16 352"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "2000 3872 240"
+}
+{
+"classname" "light"
+"light" "180"
+"style" "0"
+"angle" "0"
+"origin" "1120 3360 448"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "1104 2992 448"
+}
+{
+"classname" "light"
+"light" "180"
+"style" "0"
+"angle" "0"
+"origin" "1104 2672 448"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"angle" "0"
+"origin" "1696 2720 576"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"angle" "0"
+"origin" "1936 2848 576"
+}
+{
+"classname" "light"
+"light" "80"
+"style" "0"
+"angle" "0"
+"origin" "1824 3344 624"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"angle" "0"
+"origin" "1712 2960 576"
+}
+{
+"classname" "light"
+"light" "180"
+"style" "0"
+"angle" "0"
+"origin" "2224 3904 448"
+}
+{
+"classname" "light"
+"light" "180"
+"style" "0"
+"angle" "0"
+"origin" "2928 1808 448"
+}
+{
+"classname" "light"
+"light" "180"
+"style" "0"
+"angle" "0"
+"origin" "2576 1632 448"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-160 -2112 304"
+}
+{
+"classname" "info_null"
+"targetname" "701"
+"angle" "0"
+"origin" "-1602 -1314 622"
+}
+{
+"classname" "info_null"
+"targetname" "702"
+"angle" "0"
+"origin" "-1626 -1190 702"
+}
+{
+"classname" "info_null"
+"targetname" "703"
+"angle" "0"
+"origin" "-1632 -1532 824"
+}
+{
+"classname" "info_null"
+"targetname" "704"
+"angle" "0"
+"origin" "-1442 -1432 592"
+}
+{
+"classname" "info_null"
+"targetname" "706"
+"angle" "0"
+"origin" "-522 -616 592"
+}
+{
+"classname" "info_null"
+"targetname" "707"
+"angle" "0"
+"origin" "-1604 -1518 784"
+}
+{
+"classname" "info_null"
+"targetname" "708"
+"angle" "0"
+"origin" "-996 -1232 682"
+}
+{
+"classname" "light"
+"light" "1000"
+"style" "0"
+"target" "701"
+"angle" "0"
+"origin" "-1610 -1316 628"
+}
+{
+"classname" "light"
+"light" "1000"
+"style" "0"
+"target" "702"
+"angle" "0"
+"origin" "-1636 -1198 714"
+}
+{
+"classname" "light"
+"light" "1000"
+"style" "0"
+"target" "703"
+"angle" "0"
+"origin" "-1640 -1534 828"
+}
+{
+"classname" "light"
+"light" "1200"
+"style" "0"
+"target" "704"
+"angle" "0"
+"origin" "-1450 -1434 592"
+}
+{
+"classname" "light"
+"light" "450"
+"style" "0"
+"angle" "0"
+"origin" "-890 -1318 472"
+}
+{
+"classname" "light"
+"light" "670"
+"style" "0"
+"angle" "0"
+"origin" "-660 -668 592"
+}
+{
+"classname" "light"
+"light" "1350"
+"style" "0"
+"target" "706"
+"angle" "0"
+"origin" "-514 -616 592"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"angle" "0"
+"origin" "-458 -1444 478"
+}
+{
+"classname" "light"
+"light" "1000"
+"style" "0"
+"target" "707"
+"angle" "0"
+"origin" "-1616 -1518 784"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"target" "708"
+"angle" "0"
+"origin" "-1012 -1234 682"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-484 -1456 736"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-1232 -892 344"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"angle" "0"
+"origin" "-454 -396 758"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"angle" "0"
+"origin" "-1604 -1330 300"
+}
+{
+"classname" "light"
+"light" "430"
+"style" "0"
+"angle" "0"
+"origin" "-1808 -512 688"
+}
+{
+"classname" "light"
+"light" "430"
+"style" "0"
+"angle" "0"
+"origin" "-1808 -782 652"
+}
+{
+"classname" "light"
+"light" "230"
+"style" "0"
+"angle" "0"
+"origin" "-2032 -866 624"
+}
+{
+"classname" "light"
+"light" "230"
+"style" "0"
+"angle" "0"
+"origin" "-2146 -630 510"
+}
+{
+"classname" "light"
+"light" "230"
+"style" "0"
+"angle" "0"
+"origin" "-2148 -316 470"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-2176 -74 346"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "350"
+"style" "0"
+"angle" "0"
+"origin" "-1201 -385 345"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "350"
+"style" "0"
+"angle" "0"
+"origin" "-849 -385 345"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "250"
+"style" "0"
+"angle" "0"
+"origin" "-1356 -1218 280"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-1828 -1469 50"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-1977 -1531 50"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"angle" "0"
+"origin" "-1868 -1737 101"
+}
+{
+"classname" "light"
+"light" "50"
+"style" "0"
+"angle" "0"
+"origin" "-2256 -1920 272"
+}
+{
+"classname" "light"
+"light" "170"
+"style" "0"
+"angle" "0"
+"origin" "-2073 -1757 213"
+}
+{
+"classname" "light"
+"light" "210"
+"style" "0"
+"angle" "0"
+"origin" "-2089 -1972 213"
+}
+{
+"classname" "light"
+"light" "170"
+"style" "0"
+"angle" "0"
+"origin" "-2241 -2279 381"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-2239 -2438 549"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-2110 -2469 549"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-1972 -2397 549"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-1968 -2238 549"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-1976 -2005 549"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-1968 -1793 549"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-1972 -1559 549"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"angle" "0"
+"origin" "-1861 -1476 549"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-555 -1645 282"
+}
+{
+"classname" "light"
+"light" "260"
+"style" "0"
+"angle" "0"
+"origin" "-558 -1883 282"
+}
+{
+"classname" "light"
+"light" "260"
+"style" "0"
+"angle" "0"
+"origin" "-815 -2101 282"
+}
+{
+"classname" "light"
+"light" "260"
+"style" "0"
+"angle" "0"
+"origin" "-565 -2106 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1047 -2093 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1328 -2304 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1524 -2122 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1457 -1851 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1168 -1840 282"
+}
+{
+"classname" "light"
+"light" "600"
+"style" "0"
+"angle" "0"
+"origin" "-1320 -2120 819"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "-1312 -2582 819"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "-1309 -2930 819"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"angle" "0"
+"origin" "-1317 -3254 819"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-547 -1769 409"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1632 -1856 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1632 -2352 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1040 -2400 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1024 -1840 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1312 -2448 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1328 -2704 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1392 -2880 282"
+}
+{
+"classname" "light"
+"light" "220"
+"style" "0"
+"angle" "0"
+"origin" "-1264 -2880 282"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-1707 -2345 266"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-1707 -1936 266"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-1584 -1733 266"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-933 -1808 266"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-1040 -1733 266"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-933 -2384 266"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-1141 -2704 266"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-1499 -2704 266"
+}
+{
+"classname" "light_fluoro"
+"light" "300"
+"style" "0"
+"angle" "0"
+"origin" "-1312 -2937 266"
+}
+{
+"classname" "info_null"
+"targetname" "null1"
+"angle" "0"
+"origin" "1840 1968 96"
+}
+{
+"classname" "light"
+"light" "320"
+"style" "0"
+"target" "null1"
+"angle" "0"
+"origin" "1840 1968 80"
+}
+{
+"classname" "info_null"
+"targetname" "null2"
+"angle" "0"
+"origin" "2000 2624 320"
+}
+{
+"classname" "light"
+"light" "320"
+"style" "0"
+"target" "null2"
+"angle" "0"
+"origin" "2000 2624 304"
+}
+{
+"classname" "info_null"
+"targetname" "null3"
+"angle" "0"
+"origin" "1648 2592 416"
+}
+{
+"classname" "light"
+"light" "320"
+"style" "0"
+"target" "null3"
+"angle" "0"
+"origin" "1648 2592 400"
+}
+{
+"classname" "info_null"
+"targetname" "null4"
+"angle" "0"
+"origin" "1776 2848 480"
+}
+{
+"classname" "light"
+"light" "320"
+"style" "0"
+"target" "null4"
+"angle" "0"
+"origin" "1776 2848 464"
+}
+{
+"classname" "info_null"
+"targetname" "null5"
+"angle" "0"
+"origin" "1184 3120 336"
+}
+{
+"classname" "light"
+"light" "320"
+"style" "0"
+"target" "null5"
+"angle" "0"
+"origin" "1184 3120 320"
+}
+{
+"classname" "info_null"
+"targetname" "null6"
+"angle" "0"
+"origin" "1840 3472 448"
+}
+{
+"classname" "light"
+"light" "320"
+"style" "0"
+"target" "null6"
+"angle" "0"
+"origin" "1840 3472 432"
+}
+{
+"classname" "info_null"
+"targetname" "null7"
+"angle" "0"
+"origin" "2576 3488 336"
+}
+{
+"classname" "light"
+"light" "320"
+"style" "0"
+"target" "null7"
+"angle" "0"
+"origin" "2576 3488 320"
+}
+{
+"classname" "info_null"
+"targetname" "null8"
+"angle" "0"
+"origin" "2432 2688 352"
+}
+{
+"classname" "light"
+"light" "320"
+"style" "0"
+"target" "null8"
+"angle" "0"
+"origin" "2432 2688 400"
+}

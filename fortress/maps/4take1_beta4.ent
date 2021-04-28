@@ -1,0 +1,1049 @@
+{
+"classname" "worldspawn"
+"message" "Take this flag and...\nProduct of Alter-Maven\n\nVersion Beta-3"
+"worldtype" "2"
+"light" "64"
+"wad" "gfx/QuArK.wad"
+}
+{
+"classname" "info_player_start"
+"origin" "0 0 16"
+"angle" "0"
+}
+{
+"classname" "item_tfgoal"
+"goal_activation" "693"
+"netname_team_broadcast" " has the flag!\n"
+"message" "You have the flag!\nPoints are activated!\n"
+"netname" "flag"
+"netname_non_team_drop" " dropped the flag!\n"
+"netname_broadcast" " has the flag!\n"
+"origin" "0 0 0"
+"netname_non_team_broadcast" " has the flag!\n"
+"netname_team_drop" " dropped the flag!\n"
+"team_broadcast" "Your team has the flag!\nProtect the carrier!\n"
+"goal_effects" "1"
+"goal_no" "1"
+"noise3" "The flag is back up for grabs!\n"
+"frags" "1"
+"goal_result" "16"
+"noise4" "The flag is back up for grabs!\n"
+"pausetime" "10"
+"skin" "1"
+"non_team_drop" "The flag's down! GET IT!\n"
+"mdl" "progs/tf_flag.mdl"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "1"
+"netname" "PP"
+"origin" "0 0 0"
+"noise" "items/protect.wav"
+"armortype" "0.8"
+"wait" "30"
+"goal_effects" "3"
+"goal_no" "200"
+"frags" "1"
+"armorvalue" "300"
+"invincible_finished" "5"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "200"
+"non_team_broadcast" "Take the flag\nThen activate Quad Points\nthe Protect point\nor even capture it for more frags!\n"
+"hook_out" "1"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "1"
+"netname_team_broadcast" " activates the Quad Damage Point\n"
+"message" "You activate the Damage Point\n+1 Frag\nBonus rockets and cells\n"
+"netname" "DP-NE"
+"non_team_broadcast" "The Damage Point has been activated\n"
+"origin" "832 832 32"
+"noise" "items/damage.wav"
+"netname_broadcast" " has activated a Damage Point\n"
+"wait" "20"
+"netname_non_team_broadcast" " has activated the Damage Point\n"
+"super_damage_finished" "5"
+"team_broadcast" "Your teammate gives you 5 seconds\nof Quad Damage\n"
+"goal_effects" "3"
+"goal_no" "101"
+"frags" "1"
+"ammo_cells" "30"
+"mdl" "progs/quaddama.mdl"
+"ammo_rockets" "5"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "1"
+"netname_team_broadcast" " activates the Quad Damage Point\n"
+"message" "You activate the Damage Point\n+1 Frag\nBonus rockets and cells\n"
+"netname" "DP-NW"
+"non_team_broadcast" "The Damage Point has been activated\n"
+"origin" "-832 832 32"
+"noise" "items/damage.wav"
+"netname_broadcast" " has activated a Damage Point\n"
+"wait" "20"
+"netname_non_team_broadcast" " has activated the Damage Point\n"
+"super_damage_finished" "5"
+"team_broadcast" "Your teammate gives you 5 seconds\nof Quad Damage\n"
+"goal_effects" "3"
+"goal_no" "102"
+"frags" "1"
+"ammo_cells" "30"
+"mdl" "progs/quaddama.mdl"
+"ammo_rockets" "5"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "1"
+"netname_team_broadcast" " activates the Quad Damage Point\n"
+"message" "You activate the Damage Point\n+1 Frag\nBonus rockets and cells\n"
+"netname" "DP-SW"
+"non_team_broadcast" "The Damage Point has been activated\n"
+"origin" "-832 -832 32"
+"noise" "items/damage.wav"
+"netname_broadcast" " has activated a Damage Point\n"
+"wait" "20"
+"netname_non_team_broadcast" " has activated the Damage Point\n"
+"super_damage_finished" "5"
+"team_broadcast" "Your teammate gives you 5 seconds\nof Quad Damage\n"
+"goal_effects" "3"
+"goal_no" "103"
+"frags" "1"
+"ammo_cells" "30"
+"mdl" "progs/quaddama.mdl"
+"ammo_rockets" "5"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "1"
+"netname_team_broadcast" " activates the Quad Damage Point\n"
+"message" "You activate the Damage Point\n+1 Frag\nBonus rockets and cells\n"
+"netname" "DP-SE"
+"non_team_broadcast" "The Damage Point has been activated\n"
+"origin" "832 -832 32"
+"noise" "items/damage.wav"
+"netname_broadcast" " has activated a Damage Point\n"
+"wait" "20"
+"netname_non_team_broadcast" " has activated the Damage Point\n"
+"super_damage_finished" "5"
+"team_broadcast" "Your teammate gives you 5 seconds\nof Quad Damage\n"
+"goal_effects" "3"
+"goal_no" "104"
+"frags" "1"
+"mdl" "progs/quaddama.mdl"
+"ammo_cells" "30"
+"ammo_rockets" "5"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "960 160 0"
+"targetname" "red_out_1"
+"angle" "180"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "960 -160 0"
+"targetname" "red_out_2"
+"angle" "180"
+}
+{
+"classname" "trigger_teleport"
+"target" "red_out_1"
+"spawnflags" "3"
+"origin" "0 0 0"
+"angle" "180"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "3"
+"target" "red_out_2"
+"origin" "0 0 0"
+"angle" "180"
+"model" "*2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-960 -160 0"
+"targetname" "blue_out_2"
+"angle" "360"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-960 160 0"
+"targetname" "blue_out_1"
+"angle" "360"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-160 960 0"
+"targetname" "gold_out_2"
+"angle" "270"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "160 960 0"
+"targetname" "gold_out_1"
+"angle" "270"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "160 -960 0"
+"targetname" "teal_out_2"
+"angle" "90"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "3"
+"target" "teal_out_1"
+"origin" "0 0 0"
+"angle" "90"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "3"
+"target" "teal_out_2"
+"origin" "0 0 0"
+"angle" "90"
+"model" "*4"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-160 -960 0"
+"targetname" "teal_out_1"
+"angle" "90"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "3"
+"target" "gold_out_2"
+"origin" "0 0 0"
+"angle" "270"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "3"
+"target" "gold_out_1"
+"origin" "0 0 0"
+"angle" "270"
+"model" "*6"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "3"
+"target" "blue_out_1"
+"origin" "0 0 0"
+"angle" "360"
+"model" "*7"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "3"
+"target" "blue_out_2"
+"origin" "0 0 0"
+"angle" "360"
+"model" "*8"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "gold_spawn"
+"origin" "-224 1568 64"
+"team_no" "3"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "gold_spawn"
+"origin" "-128 1568 64"
+"team_no" "3"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "gold_spawn"
+"origin" "-32 1568 64"
+"team_no" "3"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "gold_spawn"
+"origin" "64 1568 64"
+"team_no" "3"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "gold_spawn"
+"origin" "160 1568 64"
+"team_no" "3"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "gold_spawn"
+"origin" "256 1568 64"
+"team_no" "3"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "teal_spawn"
+"origin" "256 -1568 64"
+"team_no" "4"
+"angle" "90"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "teal_spawn"
+"origin" "160 -1568 64"
+"team_no" "4"
+"angle" "90"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "teal_spawn"
+"origin" "64 -1568 64"
+"team_no" "4"
+"angle" "90"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "teal_spawn"
+"origin" "-32 -1568 64"
+"team_no" "4"
+"angle" "90"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "teal_spawn"
+"origin" "-128 -1568 64"
+"team_no" "4"
+"angle" "90"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "teal_spawn"
+"origin" "-224 -1568 64"
+"team_no" "4"
+"angle" "90"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "blue_spawn"
+"origin" "-1600 -256 64"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "blue_spawn"
+"origin" "-1600 -160 64"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "blue_spawn"
+"origin" "-1600 -64 64"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "blue_spawn"
+"origin" "-1600 32 64"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "blue_spawn"
+"origin" "-1600 128 64"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "blue_spawn"
+"origin" "-1600 224 64"
+"team_no" "1"
+"angle" "360"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "red_spawn"
+"origin" "1600 224 0"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "red_spawn"
+"origin" "1600 128 64"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "red_spawn"
+"origin" "1600 32 64"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "red_spawn"
+"origin" "1600 -64 64"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "red_spawn"
+"origin" "1600 -160 64"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "red_spawn"
+"origin" "1600 -256 64"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"items_allowed" "1"
+"message" "The flag is captured\n5 frags bonus\nAll items refreshed!\n"
+"netname" "capture_red"
+"axhitme" "1"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"netname_broadcast" " Decided to capture the flag!\n"
+"origin" "1024 -160 0"
+"no_grenades_2" "4"
+"wait" "1"
+"netname_non_team_broadcast" " Decided to capture the flag!\n"
+"team_broadcast" "A teammate captured the flag\n5 frags bonus\nAll items refreshed!\n"
+"goal_effects" "3"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"goal_no" "205"
+"frags" "1"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"ammo_cells" "300"
+"ammo_detpack" "2"
+"ammo_rockets" "100"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"items_allowed" "1"
+"message" "The flag is captured\n5 frags bonus\nAll items refreshed!\n"
+"netname" "capture_red"
+"axhitme" "1"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"netname_broadcast" " Decided to capture the flag!\n"
+"origin" "1024 160 0"
+"no_grenades_2" "4"
+"wait" "1"
+"netname_non_team_broadcast" " Decided to capture the flag!\n"
+"team_broadcast" "A teammate captured the flag\n5 frags bonus\nAll items refreshed!\n"
+"goal_effects" "3"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"goal_no" "206"
+"frags" "1"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"ammo_cells" "300"
+"ammo_detpack" "2"
+"ammo_rockets" "100"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"netname" "supply"
+"message" "Stocked\nNow go out and fight!\n"
+"origin" "1376 160 0"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "5"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "300"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "400"
+"ammo_rockets" "200"
+"ammo_detpack" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"netname" "supply"
+"message" "Stocked\nNow go out and fight!\n"
+"origin" "1376 -160 0"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "5"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "300"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "400"
+"ammo_rockets" "200"
+"ammo_detpack" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"netname" "supply"
+"message" "Stocked\nNow go out and fight!\n"
+"origin" "-1376 160 0"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "5"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "300"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "400"
+"ammo_rockets" "200"
+"ammo_detpack" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"netname" "supply"
+"message" "Stocked\nNow go out and fight!\n"
+"origin" "160 1344 0"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "5"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "300"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "400"
+"ammo_rockets" "200"
+"ammo_detpack" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"netname" "supply"
+"message" "Stocked\nNow go out and fight!\n"
+"origin" "-160 1344 0"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "5"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "300"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "400"
+"ammo_rockets" "200"
+"ammo_detpack" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"netname" "supply"
+"message" "Stocked\nNow go out and fight!\n"
+"origin" "160 -1344 0"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "5"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "300"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "400"
+"ammo_rockets" "200"
+"ammo_detpack" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"netname" "supply"
+"message" "Stocked\nNow go out and fight!\n"
+"origin" "-160 -1344 0"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "5"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "300"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "400"
+"ammo_rockets" "200"
+"ammo_detpack" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"netname" "supply"
+"message" "Stocked\nNow go out and fight!\n"
+"origin" "-1376 -160 0"
+"noise" "weapons/lock4.wav"
+"no_grenades_1" "5"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "5"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "300"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "400"
+"ammo_rockets" "200"
+"ammo_detpack" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "1"
+"ammo_shells" "200"
+"netname" "capture_blue"
+"axhitme" "1"
+"origin" "-1024 -160 0"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "4"
+"goal_effects" "3"
+"ammo_nails" "200"
+"ammo_medikit" "200"
+"goal_no" "105"
+"armorvalue" "300"
+"frags" "1"
+"team_no" "1"
+"health" "100"
+"ammo_cells" "300"
+"ammo_rockets" "100"
+"ammo_detpack" "2"
+"netname_broadcast" " gave his team a refresh\n"
+"netname_non_team_broadcast" " gave his team a refresh\n"
+"message" "All items refreshed!\n"
+"team_broadcast" "All items refreshed!\n"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "1"
+"ammo_shells" "200"
+"netname" "capture_teal"
+"axhitme" "1"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"origin" "-160 -1056 0"
+"no_grenades_2" "4"
+"wait" "1"
+"goal_effects" "3"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"goal_no" "405"
+"frags" "1"
+"armorvalue" "300"
+"team_no" "4"
+"health" "100"
+"ammo_cells" "300"
+"ammo_detpack" "2"
+"ammo_rockets" "100"
+"netname_broadcast" " gave his team a refresh\n"
+"netname_non_team_broadcast" " gave his team a refresh\n"
+"message" "All items refreshed!\n"
+"team_broadcast" "All items refreshed!\n"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "1"
+"ammo_shells" "200"
+"netname" "capture_teal"
+"axhitme" "1"
+"origin" "160 -1056 0"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "4"
+"goal_effects" "3"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"goal_no" "406"
+"frags" "1"
+"armorvalue" "300"
+"team_no" "4"
+"health" "100"
+"ammo_cells" "300"
+"ammo_detpack" "2"
+"ammo_rockets" "100"
+"netname_broadcast" " gave his team a refresh\n"
+"netname_non_team_broadcast" " gave his team a refresh\n"
+"message" "All items refreshed!\n"
+"team_broadcast" "All items refreshed!\n"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"items_allowed" "1"
+"ammo_shells" "200"
+"netname" "capture_blue"
+"axhitme" "1"
+"origin" "-1024 160 0"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"no_grenades_2" "4"
+"goal_effects" "3"
+"ammo_nails" "200"
+"ammo_medikit" "200"
+"goal_no" "106"
+"armorvalue" "300"
+"frags" "1"
+"team_no" "1"
+"health" "100"
+"ammo_cells" "300"
+"ammo_rockets" "100"
+"ammo_detpack" "2"
+"netname_broadcast" " gave his team a refresh\n"
+"netname_non_team_broadcast" " gave his team a refresh\n"
+"message" "All items refreshed!\n"
+"team_broadcast" "All items refreshed!\n"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"items_allowed" "1"
+"netname" "capture_gold"
+"axhitme" "1"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"origin" "-160 1024 0"
+"no_grenades_2" "4"
+"wait" "1"
+"goal_effects" "3"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"goal_no" "305"
+"frags" "1"
+"armorvalue" "300"
+"team_no" "3"
+"health" "100"
+"ammo_cells" "300"
+"ammo_detpack" "2"
+"ammo_rockets" "100"
+"netname_broadcast" " gave his team a refresh\n"
+"netname_non_team_broadcast" " gave his team a refresh\n"
+"message" "All items refreshed!\n"
+"team_broadcast" "All items refreshed!\n"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "200"
+"items_allowed" "1"
+"netname" "capture_gold"
+"axhitme" "1"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"origin" "160 1024 0"
+"no_grenades_2" "4"
+"wait" "1"
+"goal_effects" "3"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"goal_no" "306"
+"frags" "1"
+"armorvalue" "300"
+"team_no" "3"
+"health" "100"
+"ammo_cells" "300"
+"ammo_detpack" "2"
+"ammo_rockets" "100"
+"netname_broadcast" " gave his team a refresh\n"
+"netname_non_team_broadcast" " gave his team a refresh\n"
+"message" "All items refreshed!\n"
+"team_broadcast" "All items refreshed!\n"
+}
+{
+"classname" "light"
+"origin" "0 0 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "256 256 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-256 256 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-256 -256 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "256 -256 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "320 0 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 320 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-320 0 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -320 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-480 480 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "480 480 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "480 -480 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-480 -480 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-160 -832 32"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "160 -832 32"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-832 -160 32"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-832 160 32"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-160 832 32"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "128 1440 96"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-96 1440 96"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "160 832 32"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "832 160 32"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "832 -160 32"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "800 -480 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "480 -800 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "832 -832 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-480 -800 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-800 -480 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "800 480 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "480 800 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-800 480 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-480 800 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-832 832 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "832 832 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -512 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-512 0 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 512 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "512 0 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1472 96 96"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "96 -1440 96"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-64 -1440 96"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1472 -128 96"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1472 96 96"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1472 -128 96"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-832 -832 128"
+"light" "300"
+}

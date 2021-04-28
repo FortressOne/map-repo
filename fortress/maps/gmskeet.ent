@@ -1,0 +1,234 @@
+{
+"message" "Gun Man's Skeet Range"
+"wad" "C:\Qoole\work\gmskeet.wad"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"message" "You're a Skeet Shooter"
+"classname" "info_player_teamspawn"
+"origin" "512 -1024 -656"
+"playerclass" "2"
+"team_no" "2"
+"angle" "90"
+}
+{
+"message" "You're a Skeet Shooter"
+"classname" "info_player_teamspawn"
+"origin" "384 -1024 -656"
+"playerclass" "2"
+"team_no" "2"
+"angle" "90"
+}
+{
+"message" "You're a Skeet Shooter"
+"classname" "info_player_teamspawn"
+"origin" "256 -1024 -656"
+"playerclass" "2"
+"team_no" "2"
+"angle" "90"
+}
+{
+"message" "You're a Skeet Shooter"
+"classname" "info_player_teamspawn"
+"origin" "-256 -1024 -656"
+"playerclass" "2"
+"team_no" "2"
+"angle" "90"
+}
+{
+"message" "You're a Skeet Shooter"
+"classname" "info_player_teamspawn"
+"origin" "-384 -1024 -656"
+"playerclass" "2"
+"team_no" "2"
+"angle" "90"
+}
+{
+"message" "You're a Skeet Shooter"
+"classname" "info_player_teamspawn"
+"origin" "-512 -1024 -656"
+"playerclass" "2"
+"team_no" "2"
+"angle" "90"
+}
+{
+"goal_activation" "1"
+"message" "Do It Again!"
+"increase_team1" "1"
+"classname" "info_tfgoal"
+"origin" "-216 -1240 -264"
+"wait" "3"
+"goal_effects" "1"
+"armorvalue" "100"
+"goal_result" "2"
+"team_no" "1"
+"health" "100"
+}
+{
+"target" "blue"
+"model" "*1"
+"classname" "trigger_teleport"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-216 -1240 -312"
+"targetname" "blue"
+"angle" "270"
+}
+{
+"classname" "light"
+"origin" "0 0 248"
+"light" "2000"
+}
+{
+"classname" "light"
+"origin" "0 -1440 -240"
+"light" "400"
+}
+{
+"speed" "180"
+"model" "*2"
+"classname" "trigger_push"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -1440 -416"
+"angle" "90"
+}
+{
+"goal_activation" "12"
+"netname" "Clay Pigeon"
+"impulse" "1"
+"message" "WoooHooo!!"
+"classname" "item_tfgoal"
+"origin" "0 -1472 -304"
+"goal_effects" "1"
+"goal_no" "1"
+"group_no" "2"
+}
+{
+"netname" "red kill"
+"classname" "info_tfgoal"
+"increase_team2" "25"
+"origin" "-48 -1280 -288"
+"broadcast" "Red Busted a Pigeon\nWooo Hooo!!!"
+"goal_no" "1"
+"frags" "10"
+"goal_result" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "256 -1472 -304"
+"team_no" "1"
+"angle" "90"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "128 -1472 -304"
+"team_no" "1"
+"angle" "90"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 -1472 -304"
+"team_no" "1"
+"angle" "90"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-128 -1472 -304"
+"team_no" "1"
+"angle" "90"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-256 -1472 -304"
+"team_no" "1"
+"angle" "90"
+}
+{
+"goal_activation" "12"
+"netname" "Clay Pigeon"
+"impulse" "1"
+"message" "WoooHooo!!"
+"classname" "item_tfgoal"
+"origin" "128 -1472 -304"
+"goal_effects" "1"
+"goal_no" "1"
+"group_no" "2"
+}
+{
+"goal_activation" "12"
+"netname" "Clay Pigeon"
+"impulse" "1"
+"message" "WoooHooo!!"
+"classname" "item_tfgoal"
+"origin" "256 -1472 -304"
+"goal_effects" "1"
+"goal_no" "1"
+"group_no" "2"
+}
+{
+"goal_activation" "12"
+"netname" "Clay Pigeon"
+"impulse" "1"
+"message" "WoooHooo!!"
+"classname" "item_tfgoal"
+"origin" "-128 -1472 -304"
+"goal_effects" "1"
+"goal_no" "1"
+"group_no" "2"
+}
+{
+"goal_activation" "12"
+"netname" "Clay Pigeon"
+"impulse" "1"
+"message" "WoooHooo!!"
+"classname" "item_tfgoal"
+"origin" "-256 -1472 -304"
+"goal_effects" "1"
+"goal_no" "1"
+"group_no" "2"
+}
+{
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "0 -1312 -400"
+"wait" "1"
+"goal_effects" "1"
+"broadcast" "PULL !\n"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "10"
+"message" "ammo full"
+"netname" "ammo"
+"classname" "info_tfgoal"
+"no_grenades_1" "-4"
+"noise" "weapons/pkup.wav"
+"origin" "-640 -1024 -672"
+"no_grenades_2" "-4"
+"wait" "5"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "10"
+"health" "10"
+"team_no" "2"
+"ammo_cells" "-100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "-100"
+}
+{
+"impulse" "64"
+"non_team_broadcast" "Shoot The flying Clay Pigeons\n"
+"classname" "info_tfdetect"
+"origin" "-128 1104 -504"
+"maxammo_shells" "-1"
+"hook_out" "1"
+"team_broadcast" "=== WHO ARE YOU? ===\n\n1.. A CLAY PIGEON\n2.. A SKEET SHOOTER\n"
+"broadcast" "Skeet Shoot Baby"
+"ammo_medikit" "5"
+"noise2" "=== Choose your class ===\n\n2.. Shooter  \n"
+}

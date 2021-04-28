@@ -1,0 +1,518 @@
+{
+"classname" "worldspawn"
+"message" "Street Chase\nBy Soul"
+}
+{
+"classname" "func_train"
+"speed" "800"
+"sounds" "1"
+"dmg" "100"
+"target" "a1"
+"model" "*1"
+}
+{
+"classname" "info_player_start"
+"origin" "736 -576 -64"
+}
+{
+"classname" "path_corner"
+"targetname" "a1"
+"target" "a2"
+"origin" "416 384 -160"
+}
+{
+"classname" "path_corner"
+"targetname" "a2"
+"target" "a3"
+"origin" "416 384 -448"
+}
+{
+"classname" "path_corner"
+"targetname" "a3"
+"target" "a4"
+"origin" "416 -1696 -448"
+}
+{
+"classname" "path_corner"
+"targetname" "a4"
+"target" "a1"
+"origin" "416 -1696 -160"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "door1"
+"speed" "1000"
+"sounds" "4"
+"wait" "2"
+"lip" "500"
+"dmg" "1000"
+"message" "Dont Enter!\n"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"wait" "2"
+"message" "Opening Exit Door...\n"
+"target" "door1"
+"style" "32"
+"delay" "0"
+"model" "*3"
+}
+{
+"classname" "trigger_push"
+"angle" "353"
+"speed" "700"
+"style" "32"
+"delay" "0"
+"model" "*4"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "end1"
+"origin" "-1408 -640 -96"
+}
+{
+"classname" "trigger_teleport"
+"target" "end1"
+"team_no" "2"
+"model" "*5"
+}
+{
+"classname" "info_tfdetect"
+"team_broadcast" "=== Street Chaser ===\n1. Killers\n2. Runners\nGood Luck!\n"
+"hook_out" "1"
+"maxammo_nails" "-1"
+"maxammo_shells" "1021"
+"ammo_medikit" "4"
+"impulse" "4"
+"noise1" "2. Sniper...\n"
+"origin" "736 -576 -32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "182"
+"team_no" "1"
+"origin" "1376 -1024 96"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "182"
+"team_no" "1"
+"origin" "1024 -1216 -96"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "182"
+"team_no" "1"
+"origin" "1376 -256 96"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "182"
+"team_no" "1"
+"origin" "1024 -64 -96"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"origin" "-1056 -96 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"origin" "-1056 -1184 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"origin" "-1056 -352 96"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"origin" "-1056 -928 96"
+}
+{
+"classname" "light"
+"origin" "-1024 -640 96"
+}
+{
+"classname" "light"
+"origin" "-800 -352 96"
+}
+{
+"classname" "light"
+"origin" "-800 -928 96"
+}
+{
+"classname" "light"
+"origin" "-800 -928 -64"
+}
+{
+"classname" "light"
+"origin" "-800 -352 -64"
+}
+{
+"classname" "light"
+"origin" "-1024 -640 -64"
+}
+{
+"classname" "light"
+"origin" "-1056 -992 -64"
+}
+{
+"classname" "light"
+"origin" "-1056 -288 -64"
+}
+{
+"classname" "light"
+"origin" "-608 -800 -64"
+}
+{
+"classname" "light"
+"origin" "-608 -480 -64"
+}
+{
+"classname" "light"
+"origin" "-224 -96 -64"
+}
+{
+"classname" "light"
+"origin" "96 -96 -64"
+}
+{
+"classname" "light"
+"origin" "384 -96 -64"
+}
+{
+"classname" "light"
+"origin" "384 -576 -64"
+}
+{
+"classname" "light"
+"origin" "96 -576 -64"
+}
+{
+"classname" "light"
+"origin" "-224 -576 -64"
+}
+{
+"classname" "light"
+"origin" "384 -1152 -64"
+}
+{
+"classname" "light"
+"origin" "96 -1152 -64"
+}
+{
+"classname" "light"
+"origin" "-224 -1152 -64"
+}
+{
+"classname" "light"
+"origin" "224 -896 -64"
+}
+{
+"classname" "light"
+"origin" "192 -352 -64"
+}
+{
+"classname" "light"
+"origin" "-32 -384 -64"
+}
+{
+"classname" "light"
+"origin" "-128 -864 -64"
+}
+{
+"classname" "light"
+"origin" "832 -1184 -32"
+}
+{
+"classname" "light"
+"origin" "832 -96 -32"
+}
+{
+"classname" "light"
+"origin" "832 -832 -64"
+}
+{
+"classname" "light"
+"origin" "928 -384 -64"
+}
+{
+"classname" "light"
+"origin" "1376 -288 96"
+}
+{
+"classname" "light"
+"origin" "1376 -992 96"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"netname_broadcast" " has crossed the street!\n"
+"wait" "1"
+"spawnflags" "2"
+"frags" "5"
+"origin" "-1408 -640 -64"
+}
+{
+"classname" "light"
+"origin" "1280 -640 -64"
+}
+{
+"classname" "light"
+"origin" "480 256 -96"
+}
+{
+"classname" "light"
+"origin" "480 320 -64"
+}
+{
+"classname" "func_train"
+"speed" "1000"
+"sounds" "1"
+"dmg" "100"
+"target" "b1"
+"model" "*6"
+}
+{
+"classname" "path_corner"
+"targetname" "b1"
+"target" "b2"
+"origin" "256 384 -160"
+}
+{
+"classname" "path_corner"
+"targetname" "b2"
+"target" "b3"
+"origin" "256 -1696 -160"
+}
+{
+"classname" "path_corner"
+"targetname" "b3"
+"target" "b4"
+"origin" "256 -1696 -448"
+}
+{
+"classname" "path_corner"
+"targetname" "b4"
+"target" "b1"
+"origin" "256 384 -448"
+}
+{
+"classname" "light"
+"origin" "320 224 -64"
+}
+{
+"classname" "light"
+"origin" "320 288 -64"
+}
+{
+"classname" "func_train"
+"speed" "1400"
+"sounds" "1"
+"dmg" "100"
+"target" "c1"
+"model" "*7"
+}
+{
+"classname" "light"
+"origin" "128 320 -64"
+}
+{
+"classname" "light"
+"origin" "128 256 -64"
+}
+{
+"classname" "path_corner"
+"targetname" "c1"
+"target" "c2"
+"origin" "64 384 -160"
+}
+{
+"classname" "path_corner"
+"targetname" "c2"
+"target" "c3"
+"origin" "64 384 -448"
+}
+{
+"classname" "path_corner"
+"targetname" "c3"
+"target" "c4"
+"origin" "64 -1696 -448"
+}
+{
+"classname" "path_corner"
+"targetname" "c4"
+"target" "c1"
+"origin" "64 -1696 -160"
+}
+{
+"classname" "func_train"
+"speed" "600"
+"sounds" "1"
+"dmg" "100"
+"target" "d1"
+"model" "*8"
+}
+{
+"classname" "path_corner"
+"targetname" "d1"
+"target" "d2"
+"origin" "-128 384 -160"
+}
+{
+"classname" "path_corner"
+"targetname" "d2"
+"target" "d3"
+"origin" "-128 -1696 -160"
+}
+{
+"classname" "path_corner"
+"targetname" "d3"
+"target" "d4"
+"origin" "-128 -1696 -448"
+}
+{
+"classname" "path_corner"
+"targetname" "d4"
+"target" "d1"
+"origin" "-128 384 -448"
+}
+{
+"classname" "light"
+"origin" "-64 224 -64"
+}
+{
+"classname" "light"
+"origin" "-64 288 -64"
+}
+{
+"classname" "func_train"
+"speed" "700"
+"sounds" "1"
+"dmg" "100"
+"target" "e1"
+"model" "*9"
+}
+{
+"classname" "light"
+"origin" "-224 320 -64"
+}
+{
+"classname" "light"
+"origin" "-224 256 -64"
+}
+{
+"classname" "path_corner"
+"targetname" "e1"
+"target" "e2"
+"origin" "-288 384 -160"
+}
+{
+"classname" "path_corner"
+"targetname" "e2"
+"target" "e3"
+"origin" "-288 384 -448"
+}
+{
+"classname" "path_corner"
+"targetname" "e3"
+"target" "e4"
+"origin" "-288 -1696 -448"
+}
+{
+"classname" "path_corner"
+"targetname" "e4"
+"target" "e1"
+"origin" "-288 -1696 -160"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "Ammo anyone?\n"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "-100"
+"ammo_cells" "-100"
+"no_grenades_1" "0"
+"no_grenades_2" "4"
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"wait" "1"
+"delay" "1"
+"health" "100"
+"armorclass" "200"
+"armorvalue" "200"
+"armortype" "0.8"
+"origin" "1024 -32 -96"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "Ammo anyone?\n"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "-100"
+"ammo_cells" "-100"
+"no_grenades_1" "0"
+"no_grenades_2" "4"
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"wait" "1"
+"delay" "1"
+"health" "100"
+"armorclass" "200"
+"armorvalue" "200"
+"armortype" "0.8"
+"origin" "1024 -1248 -96"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "Ammo anyone?\n"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "-100"
+"ammo_cells" "-100"
+"no_grenades_1" "0"
+"no_grenades_2" "4"
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"wait" "1"
+"delay" "1"
+"health" "100"
+"armorclass" "200"
+"armorvalue" "200"
+"armortype" "0.8"
+"origin" "1376 -1248 64"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "Ammo anyone?\n"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "-100"
+"ammo_cells" "-100"
+"no_grenades_1" "0"
+"no_grenades_2" "4"
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"wait" "1"
+"delay" "1"
+"health" "100"
+"armorclass" "200"
+"armorvalue" "200"
+"armortype" "0.8"
+"origin" "1376 -32 64"
+}

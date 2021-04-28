@@ -1,0 +1,490 @@
+{
+"classname" "worldspawn"
+"message" "DarK76 by Nick xeno"
+"wad" "dark76.wad"
+}
+{
+"classname" "info_player_start"
+"origin" "0 0 32"
+"angle" "90"
+}
+{
+"classname" "light"
+"origin" "0 0 368"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "0 576 368"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "0 -576 368"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "0 -832 368"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "0 832 368"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-416 704 368"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "416 704 368"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-416 -704 368"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "416 -704 368"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "448 0 368"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-448 0 368"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-576 384 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "576 384 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-576 -384 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "576 -384 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-224 1536 320"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-224 -1536 320"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "224 -1536 320"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "224 1536 320"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "0 0 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 384 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -384 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-576 -384 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "576 -384 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "576 384 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-576 384 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-448 0 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "448 0 -256"
+"light" "300"
+}
+{
+"classname" "func_door"
+"speed" "200"
+"sounds" "2"
+"wait" "1"
+"lip" "2"
+"team_no" "2"
+"angle" "-1"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"speed" "200"
+"sounds" "2"
+"wait" "1"
+"lip" "2"
+"team_no" "2"
+"angle" "-1"
+"model" "*2"
+}
+{
+"classname" "func_door"
+"speed" "200"
+"sounds" "2"
+"wait" "1"
+"lip" "2"
+"team_no" "1"
+"angle" "-1"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"speed" "200"
+"sounds" "2"
+"wait" "1"
+"lip" "2"
+"team_no" "1"
+"angle" "-1"
+"model" "*4"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "4"
+"non_team_broadcast" "cap the enemy flag\n"
+"origin" "0 0 208"
+"hook_out" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "Red respawn1"
+"origin" "-768 2048 320"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "Red respawn2"
+"origin" "768 2048 320"
+"team_no" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "2"
+"ammo_shells" "100"
+"netname" "red pack1"
+"origin" "-640 2048 304"
+"noise" "demon/dpain1.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "2"
+"no_grenades_2" "4"
+"goal_effects" "1"
+"ammo_nails" "100"
+"ammo_medikit" "100"
+"goal_result" "2"
+"armorvalue" "300"
+"health" "100"
+"team_no" "2"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "2"
+"ammo_shells" "100"
+"netname" "red pack2"
+"origin" "640 2048 304"
+"noise" "demon/dpain1.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "2"
+"no_grenades_2" "4"
+"goal_effects" "1"
+"ammo_nails" "100"
+"ammo_medikit" "100"
+"goal_result" "2"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+}
+{
+"classname" "item_tfgoal"
+"goal_activation" "181"
+"netname_team_broadcast" " took the red flag\n"
+"owned_by" "2"
+"message" " you have the red flag, RUN!!!\n"
+"netname" "Red flag"
+"netname_non_team_drop" " the red flag was dropped by\n"
+"non_team_broadcast" " the red flag has been taken \n"
+"netname_broadcast" " has the red flag\n"
+"origin" "0 2816 320"
+"noise" "demon/sight2.wav"
+"netname_non_team_broadcast" " took the red flag\n"
+"netname_team_drop" " your flag was dropped by\n"
+"team_broadcast" " your team has the red flag\n"
+"goal_effects" "1"
+"owners_team_broadcast" " your flag has been taken\n"
+"team_drop" " your flag has been dropped\n"
+"noise3" " your flag has been returned\n"
+"goal_no" "2"
+"items" "262144"
+"netname_owners_team_broadcast" " took your flag\n"
+"noise4" " the red flag has been returned\n"
+"goal_result" "16"
+"team_no" "1"
+"pausetime" "15"
+"skin" "2"
+"non_team_drop" " the red flag was dropped\n"
+"mdl" "progs/tf_flag.mdl"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "1"
+"items_allowed" "1"
+"netname_team_broadcast" " captured the blue flag\n"
+"netname" "Red cap point"
+"message" " you captured the blue flag\n"
+"axhitme" "1"
+"increase_team2" "10"
+"non_team_broadcast" " the blue flag was captured\n"
+"origin" "0 1696 176"
+"noise" "shalrath/sight.wav"
+"netname_broadcast" " captured the blue flag\n"
+"netname_non_team_broadcast" " captured the blue flag\n"
+"team_broadcast" " your team captured the blue flag\n"
+"goal_effects" "2"
+"owners_team_broadcast" " your flag was captured\n"
+"goal_no" "2"
+"frags" "10"
+"netname_owners_team_broadcast" " captured your flag\n"
+"team_no" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname_team_broadcast" " captured the red flag\n"
+"items_allowed" "2"
+"owned_by" "2"
+"message" " you captured the red flag\n"
+"netname" "Blue cap point"
+"axhitme" "2"
+"increase_team1" "10"
+"non_team_broadcast" " the red flag was captured\n"
+"netname_broadcast" " captured the red flag\n"
+"noise" "shalrath/sight.wav"
+"origin" "0 -1696 176"
+"netname_non_team_broadcast" " captured the red flag\n"
+"team_broadcast" " your team captured the red flag\n"
+"goal_effects" "2"
+"owners_team_broadcast" " your flag was captured\n"
+"goal_no" "1"
+"netname_owners_team_broadcast" " captured your flag\n"
+"frags" "10"
+"team_no" "1"
+}
+{
+"classname" "item_tfgoal"
+"goal_activation" "181"
+"netname_team_broadcast" " took the blue flag\n"
+"owned_by" "1"
+"message" " you have the blue flag, RUN!!!\n"
+"netname" "Blue flag"
+"netname_non_team_drop" " the blue flag was dropped by\n"
+"non_team_broadcast" " the blue flag has been taken\n"
+"netname_broadcast" " has the blue flag\n"
+"origin" "0 -2816 320"
+"noise" "demon/sight2.wav"
+"netname_non_team_broadcast" " took the blue flag\n"
+"netname_team_drop" " your flag was dropped by\n"
+"team_broadcast" " your team has the blue flag\n"
+"goal_effects" "1"
+"owners_team_broadcast" " your flag has been taken\n"
+"team_drop" " your flag has been dropped\n"
+"noise3" " your flag has been returned\n"
+"goal_no" "1"
+"items" "131072"
+"netname_owners_team_broadcast" " took the blue flag\n"
+"noise4" " the blue flag has been returned\n"
+"goal_result" "16"
+"team_no" "2"
+"pausetime" "15"
+"skin" "1"
+"non_team_drop" " the blue flag was dropped\n"
+"mdl" "progs/tf_flag.mdl"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "Blue respawn 1"
+"origin" "-768 -2048 320"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "Blue respawn 2"
+"origin" "768 -2048 320"
+"team_no" "1"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "1"
+"ammo_shells" "100"
+"netname" "blue pack2"
+"origin" "640 -2048 304"
+"noise" "demon/dpain1.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "2"
+"no_grenades_2" "4"
+"goal_effects" "1"
+"ammo_nails" "100"
+"ammo_medikit" "100"
+"goal_result" "2"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "1"
+"ammo_shells" "100"
+"netname" "blue pack1"
+"origin" "-640 -2048 304"
+"noise" "demon/dpain1.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"wait" "2"
+"goal_effects" "1"
+"ammo_nails" "100"
+"ammo_medikit" "100"
+"goal_result" "2"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+}
+{
+"classname" "light"
+"origin" "-704 -2048 320"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "704 -2048 320"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -2752 320"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -2112 320"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-384 -1984 320"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "384 -1984 320"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "384 1984 320"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-384 1984 320"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 2112 320"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-704 2048 320"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "704 2048 320"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 2752 320"
+"light" "300"
+}
+{
+"classname" "trigger_teleport"
+"target" "tel1"
+"model" "*5"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "64 0 32"
+"angle" "180"
+"targetname" "tel1"
+}

@@ -1,0 +1,541 @@
+{
+"classname" "worldspawn"
+"wad" "gfx/QuArK.wad"
+}
+{
+"classname" "info_player_start"
+"origin" "233.7 -486.6 133.4"
+"angle" "270"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "0"
+"broadcast" "TF 2.9"
+"hook_out" "1"
+"ammo_nails" "1021"
+"ammo_shells" "1021"
+"playerclass" "1021"
+"noise1" "Bem Vindo ao KY Sniper War\n\nVoce esta no time Azul\n\nPressione 2 para Jogar!!!"
+"noise2" "Bem Vindo ao KY Sniper War\n\nVoce esta no time Vermelho\n\nPressione 2 para Jogar!!!"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "236.8 656.6 -10"
+"angle" "270"
+"team_no" "1"
+"message" "KY Domina - Blue"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "241.0 -1638.1 -10"
+"angle" "90"
+"team_no" "2"
+"message" "KY Domina - Red"
+}
+{
+"classname" "light"
+"origin" "-126.1 185.6 160"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "614.3 185.6 154"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-234.5 -178.3 92"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-19.7 532.4 36"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "495.4 526 36"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-19.7 -1516.1 36"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "495.4 -1516.1 36"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-234.5 -411.6 92"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-234.5 -645 92"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-234.5 -876.1 92"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "710.3 -180.4 90"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "710.3 -413.7 90"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "710.3 -647 90"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "710.3 -878.2 90"
+"style" "0"
+"light" "160"
+}
+{
+"classname" "func_plat"
+"sounds" "1"
+"height" "250"
+"speed" "1000"
+"model" "*1"
+}
+{
+"classname" "func_plat"
+"sounds" "1"
+"height" "130"
+"speed" "1000"
+"model" "*2"
+}
+{
+"classname" "func_plat"
+"sounds" "1"
+"height" "190"
+"speed" "1000"
+"model" "*3"
+}
+{
+"classname" "light"
+"origin" "608.6 -1174.4 160"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-131.7 -1174.4 154"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "func_plat"
+"sounds" "1"
+"height" "250"
+"speed" "1000"
+"model" "*4"
+}
+{
+"classname" "func_plat"
+"sounds" "1"
+"height" "130"
+"speed" "1000"
+"model" "*5"
+}
+{
+"classname" "func_plat"
+"sounds" "1"
+"height" "190"
+"speed" "1000"
+"model" "*6"
+}
+{
+"classname" "light"
+"origin" "228.5 157.8 -110"
+"light" "330"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "228.5 -493 -110"
+"light" "330"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "228.5 -1158.7 -110"
+"light" "330"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "232.6 624.5 50"
+"light" "400"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "241.0 -1618.9 50"
+"light" "400"
+"style" "0"
+}
+{
+"classname" "item_artifact_invisibility"
+"origin" "228.5 -486.5 -34"
+"invisible_finished" "30"
+"goal_state" "2"
+"goal_effects" "1"
+"goal_activation" "28"
+"pausetime" "0"
+}
+{
+"classname" "light"
+"origin" "234.7 -493 20"
+"light" "130"
+"style" "0"
+}
+{
+"classname" "item_tfgoal"
+"origin" "228.5 -1015.2 118"
+"pausetime" "30"
+"goal_activation" "189"
+"team_no" "1"
+"team_drop" "O time inimigo perdeu sua flag!!!"
+"noise4" "A Flag do Inimigo Retornou"
+"non_team_drop" "Seu time perdeu a Flag  inimiga!!!"
+"message" "Voce tem a FLAG! \nRetorne a sua base !!!"
+"mdl" "/progs/tf_flag.mdl"
+"delay" "60"
+"goal_no" "2"
+"owned_by" "2"
+"noise3" "Sua Flag Retornou"
+}
+{
+"classname" "item_tfgoal"
+"origin" "228.5 14.4 118"
+"pausetime" "30"
+"goal_activation" "189"
+"team_no" "2"
+"team_drop" "O time inimigo perdeu sua flag!!!"
+"noise4" "A Flag do Inimigo Retornou"
+"non_team_drop" "Seu time perdeu a Flag  inimiga!!!"
+"message" "Voce tem a FLAG! \nRetorne a sua base !!!"
+"mdl" "/progs/tf_flag.mdl"
+"delay" "60"
+"goal_no" "1"
+"owned_by" "1"
+"noise3" "Sua Flag Retornou"
+}
+{
+"classname" "info_tfgoal"
+"origin" "230.6 650.1 -38"
+"team_no" "1"
+"goal_no" "1"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "5"
+"health" "250"
+"armorvalue" "250"
+"ammo_shells" "250"
+"ammo_nails" "250"
+"ammo_cells" "250"
+"ammo_medikit" "250"
+"no_grenades_1" "5"
+"no_grenades_2" "0"
+}
+{
+"classname" "info_tfgoal"
+"origin" "230.6 -1625.2 -38"
+"team_no" "2"
+"goal_no" "1"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "5"
+"health" "250"
+"armorvalue" "250"
+"ammo_shells" "250"
+"ammo_nails" "250"
+"ammo_cells" "250"
+"ammo_medikit" "250"
+"no_grenades_1" "5"
+"no_grenades_2" "0"
+}
+{
+"classname" "info_tfgoal"
+"origin" "226.4 37.9 220"
+"team_no" "1"
+"goal_activation" "1"
+"team_broadcast" "Seu Time Capturou a FLAG !!!"
+"owners_team_broadcast" "Sua Flag Foi Capturada !!!"
+"frags" "5"
+"goal_effects" "3"
+"items_allowed" "2"
+"axhitme" "2"
+"goal_result" "2"
+"count" "5"
+"netname" "Team 1 dropoff"
+}
+{
+"classname" "info_tfgoal"
+"origin" "226.4 -1041 220"
+"team_no" "2"
+"goal_activation" "1"
+"team_broadcast" "Seu Time Capturou a FLAG !!!"
+"owners_team_broadcast" "Sua Flag Foi Capturada !!!"
+"frags" "5"
+"goal_effects" "3"
+"items_allowed" "1"
+"axhitme" "1"
+"goal_result" "2"
+"count" "5"
+"netname" "Team 2 dropoff"
+}
+{
+"classname" "light"
+"origin" "232.6 42.2 218"
+"light" "70"
+"style" "4"
+}
+{
+"classname" "light"
+"origin" "232.6 -1034.5 218"
+"light" "70"
+"style" "4"
+}
+{
+"classname" "misc_explobox"
+"origin" "-130.3 -495 -256"
+}
+{
+"classname" "misc_explobox"
+"origin" "138.8 -490.8 -256"
+}
+{
+"classname" "misc_explobox"
+"origin" "7.4 -493 -256"
+}
+{
+"classname" "misc_explobox"
+"origin" "368.2 -493 -256"
+}
+{
+"classname" "misc_explobox"
+"origin" "599.7 -493 -256"
+}
+{
+"classname" "misc_explobox"
+"origin" "491.3 -490.8 -256"
+}
+{
+"classname" "func_button"
+"angle" "-2"
+"sounds" "0"
+"target" "explode"
+"speed" "100"
+"model" "*7"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "616.4 -441.5 -212"
+"angle" "270"
+"targetname" "explode"
+"spawnflags" "3"
+"wait" "0.001"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "697.8 -464 -222"
+"angle" "180"
+"targetname" "explode"
+"spawnflags" "3"
+"wait" "0.001"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "384.9 -505.8 -212"
+"angle" "90"
+"targetname" "explode"
+"spawnflags" "3"
+"wait" "0.001"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "357.8 -477.9 -256"
+"angle" "360"
+"targetname" "explode"
+"spawnflags" "3"
+"wait" "0.001"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "-113.6 -516.5 -212"
+"angle" "90"
+"targetname" "explode"
+"spawnflags" "3"
+"wait" "0.001"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "-218.9 -489.7 -212"
+"angle" "360"
+"targetname" "explode"
+"spawnflags" "3"
+"wait" "0.001"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "155.5 -439.4 -212"
+"angle" "270"
+"targetname" "explode"
+"spawnflags" "3"
+"wait" "0.001"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "182.6 -475.8 -256"
+"angle" "179"
+"targetname" "explode"
+"spawnflags" "3"
+"wait" "0.001"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "670.6 -1646.7 171"
+"targetname" "b2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-187.6 658.7 171"
+"targetname" "r1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-188.7 -1645.6 171"
+"targetname" "b1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "670.6 639.4 171"
+"targetname" "r2"
+}
+{
+"classname" "func_button"
+"angle" "180"
+"sounds" "1"
+"speed" "100"
+"target" "dblue"
+"model" "*8"
+}
+{
+"classname" "func_button"
+"angle" "360"
+"target" "dred"
+"sounds" "0"
+"model" "*9"
+}
+{
+"classname" "func_door_secret"
+"angle" "90"
+"spawnflags" "8"
+"sounds" "2"
+"targetname" "dred"
+"speed" "1000"
+"model" "*10"
+}
+{
+"classname" "func_door_secret"
+"angle" "270"
+"spawnflags" "8"
+"sounds" "2"
+"targetname" "dblue"
+"speed" "1000"
+"model" "*11"
+}
+{
+"classname" "light"
+"origin" "238.9 617 -90"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "255.6 -1590 -110"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "trigger_teleport"
+"origin" "0 0 0"
+"angle" "143"
+"target" "b1"
+"targetname" "teler"
+"model" "*12"
+}
+{
+"classname" "trigger_teleport"
+"origin" "0 0 0"
+"angle" "43"
+"target" "b2"
+"targetname" "teler"
+"model" "*13"
+}
+{
+"classname" "trigger_teleport"
+"origin" "0 0 0"
+"angle" "316"
+"target" "r2"
+"targetname" "teleb"
+"model" "*14"
+}
+{
+"classname" "trigger_teleport"
+"origin" "0 0 0"
+"angle" "228"
+"target" "r1"
+"targetname" "teleb"
+"model" "*15"
+}
+{
+"classname" "func_button"
+"angle" "-1"
+"sounds" "0"
+"target" "teler"
+"health" "1"
+"model" "*16"
+}
+{
+"classname" "func_button"
+"angle" "-1"
+"sounds" "0"
+"target" "teleb"
+"health" "1"
+"model" "*17"
+}
+{
+"classname" "light"
+"origin" "238 658 252"
+"light" "200"
+"style" "0"
+"spawnflags" "0"
+}

@@ -1,0 +1,670 @@
+{
+"message" "The Hunted President\n\nRevised by Duker\n"
+"wad" "QuakeMap.wad"
+"classname" "worldspawn"
+"worldtype" "0"
+"noise1" "3"
+"noise2" "3"
+"noise3" "4"
+}
+{
+"impulse" "128"
+"maxammo_rockets" "245"
+"b_n" "President Quake: President must get to Exit, Assassin must kill him first.\n"
+"classname" "info_tfdetect"
+"origin" "0 -256 -64"
+"maxammo_shells" "1022"
+"hook_out" "1"
+"b_t" "=== WHO ARE YOU? ===\n\n1.. THE PRESIDENT\n2.. A BODYGUARD  \n3.. THE ASSASSIN \n"
+"b_b" "TeamFortress v2.1"
+"noise1" "=== Choose your class ===\n\n1.. President\n"
+"maxammo_nails" "139"
+"ammo_medikit" "1"
+"noise2" "=== Choose your class ===\n\n3.. Soldier\n4.. Demo   \n6.. Hvwep  \n7.. Pyro   \n8.. Spy    \n"
+"noise3" "=== Choose your class ===\n\n2.. Sniper  \n8.. Spy     \n9.. Engineer\n"
+}
+{
+"classname" "info_player_start"
+"origin" "768 960 106.2"
+"angle" "0"
+}
+{
+"classname" "light"
+"origin" "0 -256 -320"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "0 -384 -192"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "0 -384 -64"
+"light" "350"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "0 -256 -336"
+"targetname" "t1"
+"angle" "270"
+}
+{
+"model" "*1"
+"classname" "func_illusionary"
+"origin" "0 0 0 "
+}
+{
+"model" "*2"
+"classname" "func_illusionary"
+"origin" "0 0 0 "
+}
+{
+"model" "*3"
+"classname" "func_illusionary"
+"origin" "0 0 0 "
+}
+{
+"model" "*4"
+"classname" "func_illusionary"
+"origin" "0 0 0 "
+}
+{
+"model" "*5"
+"classname" "func_illusionary"
+"origin" "0 0 0 "
+}
+{
+"model" "*6"
+"classname" "func_illusionary"
+"origin" "0 0 0 "
+}
+{
+"netname" "red_spawn_1"
+"message" "Protect the President!\n\n10 frags if he makes it!\n"
+"classname" "i_p_t"
+"origin" "-140 -500 -352"
+"team_no" "2"
+"angle" "180"
+}
+{
+"netname" "red_spawn_3"
+"message" "Protect the President!\n\n10 frags if he makes it!\n"
+"classname" "i_p_t"
+"origin" "128 -256 -352"
+"team_no" "2"
+"angle" "270"
+}
+{
+"message" "Protect the President!\n\n10 frags if he makes it!\n"
+"netname" "red_spawn_2"
+"classname" "i_p_t"
+"origin" "-128 -256 -352"
+"team_no" "2"
+"angle" "0"
+}
+{
+"target" "t2"
+"netname" "trigger_teleport 2"
+"model" "*7"
+"classname" "trigger_teleport"
+"origin" "0 0 0 "
+"team_no" "2"
+}
+{
+"netname" "yelspawn19"
+"message" "Kill the President!\n\n5 frags for a kill!\n"
+"classname" "i_p_t"
+"origin" "384 2048 10"
+"team_no" "3"
+"angle" "180"
+}
+{
+"netname" "yelspawn18"
+"message" "Kill the President!\n\n5 frags for a kill!\n"
+"classname" "i_p_t"
+"origin" "-320 1920 74"
+"team_no" "3"
+"angle" "180"
+}
+{
+"netname" "yelspawn17"
+"message" "Kill the President!\n\n5 frags for a kill!\n"
+"classname" "i_p_t"
+"origin" "0 3616 32"
+"team_no" "3"
+"angle" "180"
+}
+{
+"netname" "yelspawn16"
+"message" "Kill the President!\n\n5 frags for a kill!\n"
+"classname" "i_p_t"
+"origin" "3264 3328 192"
+"team_no" "3"
+"angle" "180"
+}
+{
+"netname" "yelspawn15"
+"message" "Kill the President!\n\n5 frags for a kill!\n"
+"classname" "i_p_t"
+"origin" "1728 2304 64"
+"team_no" "3"
+"angle" "180"
+}
+{
+"netname" "yelspawn14"
+"message" "Kill the President!\n\n5 frags for a kill!\n"
+"classname" "i_p_t"
+"origin" "3008 960 -128"
+"team_no" "3"
+"angle" "180"
+}
+{
+"netname" "yelspawn13"
+"message" "Kill the President!\n\n5 frags for a kill!\n"
+"classname" "i_p_t"
+"origin" "832 256 128"
+"team_no" "3"
+"angle" "180"
+}
+{
+"netname" "yelspawn12"
+"message" "Kill the President!\n\n5 frags for a kill!\n"
+"classname" "i_p_t"
+"origin" "1728 0 128"
+"team_no" "3"
+"angle" "180"
+}
+{
+"target" "t2"
+"netname" "trigger_teleport 2"
+"model" "*8"
+"classname" "trigger_teleport"
+"origin" "0 0 0 "
+"team_no" "3"
+}
+{
+"target" "t2"
+"netname" "trigger_teleport 2"
+"model" "*9"
+"classname" "trigger_teleport"
+"origin" "0 0 0 "
+"team_no" "3"
+}
+{
+"classname" "light"
+"origin" "-320 0 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "320 0 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "0 -640 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "0 512 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "0 1664 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "0 1088 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "0 2176 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "0 2624 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "0 3136 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "576 3136 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "1152 3136 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "1728 3136 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "2560 896 320"
+"light" "800"
+}
+{
+"classname" "light"
+"origin" "2240 3136 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "2752 1984 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "3008 2496 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "3008 3136 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "1728 320 320"
+"light" "800"
+}
+{
+"classname" "light"
+"origin" "1728 1664 320"
+"light" "800"
+}
+{
+"classname" "light"
+"origin" "832 960 320"
+"light" "800"
+}
+{
+"classname" "light"
+"origin" "0 3584 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "1664 2368 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "1664 0 320"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "1728 960 320"
+"light" "950"
+}
+{
+"speed" "240"
+"model" "*10"
+"sounds" "2"
+"classname" "func_plat"
+"height" "540"
+}
+{
+"target" "t1"
+"netname" "trigger_teleport 1"
+"model" "*11"
+"classname" "trigger_teleport"
+"origin" "0 0 0 "
+"team_no" "1"
+}
+{
+"increase_team2" "10"
+"classname" "i_t_g"
+"maxammo_shells" "2"
+"goal_no" "3"
+"frags" "10"
+}
+{
+"g_a" "1"
+"increase_team1" "20"
+"classname" "i_t_g"
+"origin" "1728 960 256"
+"wait" "5"
+"g_e" "1"
+"b_b" "The President survived!\nAssassin loses!\n"
+"activate_goal_no" "3"
+"goal_result" "2"
+"frags" "20"
+"team_no" "1"
+}
+{
+"g_a" "8"
+"netname" "The President's Notepad"
+"message" "Welcome, Mr President!\n\n20 frags if you make it!"
+"impulse" "1"
+"classname" "item_tfgoal"
+"origin" "0 -512 -64"
+"g_e" "1"
+"goal_no" "2"
+"noise3" "The President has been killed!\n"
+"goal_result" "2"
+"noise4" "The President has been killed!\n"
+"team_no" "1"
+}
+{
+"classname" "i_t_g"
+"increase_team3" "5"
+"maxammo_shells" "3"
+"b_b" "The President was killed!\nAssassin wins!\n"
+"goal_no" "1"
+"frags" "5"
+}
+{
+"message" "10 Seconds Invinciblity!\n"
+"classname" "i_t_g"
+"noise" "items/protect.wav"
+"wait" "2"
+"g_e" "1"
+"goal_no" "4"
+"armorvalue" "100"
+"delay_time" "3"
+}
+{
+"classname" "i_p_t"
+"origin" "0 -512 -48"
+"goal_result" "2"
+"team_no" "1"
+"angle" "90"
+}
+{
+"target" "t2"
+"netname" "trigger_teleport 2"
+"model" "*12"
+"classname" "trigger_teleport"
+"origin" "0 0 0 "
+"team_no" "1"
+}
+{
+"target" "t2"
+"netname" "trigger_teleport 2"
+"model" "*13"
+"classname" "trigger_teleport"
+"origin" "0 0 0 "
+"team_no" "1"
+}
+{
+"target" "t2"
+"netname" "trigger_teleport 2"
+"model" "*14"
+"classname" "trigger_teleport"
+"origin" "0 0 0 "
+"team_no" "1"
+}
+{
+"target" "t2"
+"netname" "trigger_teleport 2"
+"model" "*15"
+"classname" "trigger_teleport"
+"origin" "0 0 0 "
+"team_no" "1"
+}
+{
+"target" "t2"
+"netname" "trigger_teleport 2"
+"model" "*16"
+"classname" "trigger_teleport"
+"origin" "0 0 0 "
+"team_no" "1"
+}
+{
+"target" "t2"
+"netname" "trigger_teleport 1"
+"model" "*17"
+"classname" "trigger_teleport"
+"origin" "0 0 0 "
+"team_no" "1"
+}
+{
+"target" "t2"
+"netname" "trigger_teleport 2"
+"model" "*18"
+"classname" "trigger_teleport"
+"origin" "0 0 0 "
+"team_no" "1"
+}
+{
+"g_a" "1"
+"netname" "base two defence"
+"classname" "i_t_g"
+"origin" "0 0 256"
+"g_e" "1"
+"goal_result" "2"
+"health" "-500"
+"team_no" "1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "0 0 256"
+"angle" "0"
+"targetname" "t2"
+}
+{
+"spawnflags" "1536"
+"classname" "item_artifact_invisibility"
+"origin" "1824 0 96"
+}
+{
+"spawnflags" "1538"
+"classname" "item_health"
+"origin" "1888 -64 64"
+}
+{
+"spawnflags" "1538"
+"classname" "item_health"
+"origin" "1888 64 64"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"netname" "yell_pack1"
+"classname" "i_t_g"
+"no_grenades_1" "4"
+"origin" "1344 64 64"
+"armortype" "0.8"
+"no_grenades_2" "4"
+"wait" "3"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "10"
+"armorvalue" "200"
+"team_no" "3"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"netname" "red_pack2"
+"classname" "i_t_g"
+"no_grenades_1" "4"
+"origin" "0 -736 -352"
+"armortype" "0.8"
+"no_grenades_2" "4"
+"wait" "3"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "10"
+"armorvalue" "200"
+"team_no" "2"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"netname" "red_pack3"
+"classname" "i_t_g"
+"no_grenades_1" "4"
+"origin" "240 -736 -352"
+"armortype" "0.8"
+"no_grenades_2" "4"
+"wait" "3"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "10"
+"armorvalue" "200"
+"team_no" "2"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"netname" "red_pack1"
+"classname" "i_t_g"
+"armortype" "0.8"
+"origin" "-240 -736 -352"
+"no_grenades_1" "4"
+"wait" "3"
+"no_grenades_2" "4"
+"g_e" "1"
+"ammo_medikit" "10"
+"ammo_nails" "200"
+"armorvalue" "200"
+"health" "100"
+"team_no" "2"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"netname" "yell_pack2"
+"classname" "i_t_g"
+"armortype" "0.8"
+"origin" "1728 64 64"
+"no_grenades_1" "4"
+"wait" "3"
+"no_grenades_2" "4"
+"g_e" "1"
+"ammo_medikit" "10"
+"ammo_nails" "200"
+"armorvalue" "200"
+"health" "100"
+"team_no" "3"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"netname" "yell_pack3"
+"classname" "i_t_g"
+"armortype" "0.8"
+"origin" "1536 64 64"
+"no_grenades_1" "4"
+"wait" "3"
+"no_grenades_2" "4"
+"g_e" "1"
+"ammo_medikit" "10"
+"ammo_nails" "200"
+"armorvalue" "200"
+"health" "100"
+"team_no" "3"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"invisible_finished" "10"
+"ammo_shells" "100"
+"message" "10 Seconds Invinciblity!\n"
+"netname" "blu_loadout"
+"goal_min" "-60 -60 -2000"
+"goal_max" "60 60 200"
+"classname" "i_t_g"
+"no_grenades_1" "-4"
+"origin" "0 -512 -48"
+"noise" "items/protect.wav"
+"no_grenades_2" "-4"
+"wait" "10"
+"super_damage_finished" "300"
+"g_e" "1"
+"a_n" "-200"
+"invincible_finished" "10"
+"team_no" "1"
+"health" "300"
+"a_r" "-200"
+"a_s" "100"
+"a_c" "-200"
+}
+{
+"g_a" "1"
+"goal_min" "-150 -150 -200"
+"netname" "blu_safezone1"
+"message" "Safe Zone\n"
+"goal_max" "150 150 200"
+"classname" "i_t_g"
+"origin" "300 3150 -352"
+"wait" "1"
+"g_e" "1"
+"team_no" "1"
+"invincible_finished" "1"
+}
+{
+"g_a" "1"
+"goal_min" "-150 -150 -200"
+"netname" "red_safezone1"
+"message" "Safe Zone\n"
+"goal_max" "150 150 200"
+"classname" "i_t_g"
+"origin" "300 3150 -352"
+"wait" "1"
+"g_e" "1"
+"team_no" "2"
+"invincible_finished" "1"
+}
+{
+"g_a" "1"
+"goal_min" "-150 -150 -200"
+"netname" "blu_safezone2"
+"message" "Safe Zone\n"
+"goal_max" "150 150 200"
+"classname" "i_t_g"
+"origin" "3000 2800 -100"
+"wait" "1"
+"g_e" "1"
+"team_no" "1"
+"invincible_finished" "1"
+}
+{
+"g_a" "1"
+"goal_min" "-150 -150 -200"
+"netname" "red_safezone2"
+"message" "Safe Zone\n"
+"goal_max" "150 150 200"
+"classname" "i_t_g"
+"origin" "3000 2800 -100"
+"wait" "1"
+"g_e" "1"
+"team_no" "2"
+"invincible_finished" "1"
+}

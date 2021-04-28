@@ -1,0 +1,740 @@
+{
+"classname" "worldspawn"
+"wad" "Main2.wad"
+"message" "The Laughing Pit"
+}
+{
+"model" "*1"
+"lip" "1"
+"spawnflags" "32"
+"classname" "func_door"
+"angle" "0"
+"targetname" "pit"
+"speed" "5000"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-910 -990 92"
+}
+{
+"model" "*2"
+"classname" "trigger_multiple"
+"target" "death"
+"wait" "0.1"
+}
+{
+"noise" "items/laugh.wav"
+"deathtype" " fell down the Laughing Pit.\n"
+"goal_effects" "1"
+"health" "-300"
+"goal_state" "2"
+"classname" "info_tfgoal"
+"origin" "0 512 -168"
+"targetname" "death"
+"netname" "Laughing Pit"
+}
+{
+"model" "*3"
+"target" "laugh"
+"classname" "trigger_once"
+}
+{
+"goal_no" "101"
+"goal_state" "2"
+"target" "pit"
+"targetname" "laugh"
+"netname" "gateway"
+"origin" "0 176 72"
+"classname" "info_tfgoal"
+"group_no" "101"
+"delay_time" "1"
+"goal_activation" "0"
+"goal_result" "0"
+}
+{
+"noise" "items/scroll.wav"
+"target" "renew"
+"netname_broadcast" " froze the Laughing Pit!\n"
+"message" "You froze the Laughing Pit!\nHurry, only 15 seconds till it reanimates!\n"
+"remove_goal_no" "101"
+"remove_item_group" "2"
+"has_item_from_group" "2"
+"goal_state" "2"
+"goal_activation" "1"
+"netname" "freeze life"
+"origin" "0 256 24"
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"frags" "1"
+}
+{
+"target" "pit"
+"restore_goal_no" "101"
+"delay_time" "15"
+"targetname" "renew"
+"goal_state" "2"
+"netname" "restore life"
+"origin" "40 200 24"
+"classname" "info_tfgoal"
+"broadcast" "The Laughing Pit is active again!\n"
+}
+{
+"netname_non_team_broadcast" ", of the enemy team, has the flag!\n"
+"netname_team_broadcast" " has the flag!\n"
+"message" "You have the flag!\nTake it up your Rift Shaft immediately!\n"
+"goal_effects" "1"
+"noise4" "The Laughing Pit has the flag back in its grip!\n"
+"netname_non_team_drop" "just dropped the flag!\n"
+"pausetime" "30"
+"frags" "1"
+"armorvalue" "1"
+"items" "262144"
+"goal_result" "16"
+"noise" "items/Qpi1.wav"
+"mdl" "progs/tf_flag.mdl"
+"goal_state" "2"
+"goal_activation" "695"
+"netname" "flag"
+"origin" "0 1056 72"
+"classname" "item_tfgoal"
+"goal_no" "1"
+}
+{
+"origin" "2 234 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-142 378 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "138 378 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-246 186 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "250 186 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-54 514 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "58 514 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "2298 -1206 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "10 10 20"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1970 -910 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"increase_team2" "1"
+"netname_owners_team_broadcast" " has your freeze life box!\n"
+"netname_team_broadcast" " has the blue freeze life box!\n"
+"message" "You have the freeze life box!\nOn to the Laughing Pit!\n"
+"noise4" "The blue freeze life box returned.\n"
+"noise3" "Your freeze life box has returned.\n"
+"netname_non_team_drop" "The blue freeze life box was dropped by \n"
+"netname_team_drop" "Your freeze life box was dropped by \n"
+"pausetime" "60"
+"no_grenades_2" "1"
+"health" "5"
+"frags" "1"
+"items" "131072"
+"goal_effects" "1"
+"goal_result" "16"
+"group_no" "2"
+"team_no" "2"
+"noise" "items/siren.wav"
+"mdl" "progs/bluediam.MDL"
+"owned_by" "1"
+"goal_state" "2"
+"goal_activation" "181"
+"netname" "blue box"
+"origin" "2208 -1056 168"
+"classname" "item_tfgoal"
+}
+{
+"origin" "2298 -910 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "2122 -1054 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1994 -910 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1994 -1198 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1970 -1198 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1970 -910 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1682 -910 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1682 -1198 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1554 -774 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1554 -1334 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1986 -774 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1986 -1334 212"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "2418 -782 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "2418 -1334 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "2426 -1014 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "2426 -1094 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1970 -1198 84"
+"classname" "light_torch_small_walltorch"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2298 -842 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "10 10 20"
+}
+{
+"netname_owners_team_broadcast" " has your freeze life box!\n"
+"netname_team_broadcast" " has the red freeze life box!\n"
+"message" "You have the freeze life box!\nOn to the Laughing Pit!\n"
+"goal_effects" "1"
+"owned_by" "2"
+"noise4" "The red freeze life box returned.\n"
+"noise3" "Your freeze life box has returned.\n"
+"netname_non_team_drop" "The red freeze life box was dropped by \n"
+"netname_team_drop" "Your freeze life box was dropped by \n"
+"pausetime" "60"
+"no_grenades_2" "1"
+"health" "5"
+"frags" "1"
+"items" "131072"
+"goal_result" "16"
+"return_item_no" "60"
+"team_no" "1"
+"noise" "items/siren.wav"
+"mdl" "progs/reddiam.MDL"
+"increase_team1" "1"
+"group_no" "2"
+"goal_state" "2"
+"goal_activation" "693"
+"classname" "item_tfgoal"
+"origin" "-2208 -992 168"
+"netname" "red box"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2298 -1138 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2122 -994 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1994 -1138 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1994 -850 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1970 -850 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1970 -1138 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1682 -1138 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1682 -850 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1554 -1274 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1554 -714 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1986 -1274 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1986 -714 212"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2418 -1266 84"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2418 -714 84"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2426 -1034 84"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2426 -954 84"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1970 -850 84"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1970 -1138 84"
+}
+{
+"classname" "light"
+"origin" "-1512 -984 312"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "-1136 -984 312"
+"light" "1000"
+"angle" "0"
+}
+{
+"classname" "light"
+"origin" "1096 -1056 312"
+"light" "1000"
+"angle" "0"
+}
+{
+"classname" "light"
+"origin" "792 -1064 312"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "-760 -992 312"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "-144 -992 304"
+"light" "1000"
+"angle" "0"
+}
+{
+"classname" "light"
+"origin" "312 -992 304"
+"light" "1000"
+"angle" "0"
+}
+{
+"maxammo_detpack" "0"
+"maxammo_medikit" "0"
+"ammo_detpack" "0"
+"ammo_medikit" "0"
+"ammo_cells" "0"
+"ammo_rockets" "0"
+"ammo_nails" "0"
+"ammo_shells" "0"
+"maxammo_cells" "1023"
+"maxammo_rockets" "1023"
+"team_broadcast" "=== CHOOSE YOUR TEAM ===\n1. TEAM ONE\n2. TEAM TWO\n5. AUTO TEAM\n"
+"non_team_broadcast" "Use your enemies' FREEZE LIFE BOX to freeze the LAUGHING PIT.\n"
+"impulse" "0"
+"hook_out" "1"
+"classname" "info_tfdetect"
+"origin" "8 -1056 304"
+}
+{
+"goal_activation" "0"
+"classname" "info_player_teamspawn"
+"origin" "1048 -936 24"
+"team_no" "1"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1048 -1176 24"
+"team_no" "1"
+"angle" "90"
+}
+{
+"goal_result" "0"
+"goal_effects" "1"
+"message" "Loaded for bear!\n"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"ammo_medikit" "200"
+"ammo_detpack" "1"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"armorclass" "31"
+"armorvalue" "100"
+"armortype" "0.8"
+"wait" "7"
+"noise" "items/nightvis.wav"
+"mdl" "progs/backpack.mdl"
+"goal_state" "2"
+"owned_by" "1"
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "936 -936 32"
+"netname" "bluepack 1"
+}
+{
+"message" "Loaded for bear!\n"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"ammo_medikit" "200"
+"ammo_detpack" "1"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"armorclass" "31"
+"armorvalue" "100"
+"armortype" "0.8"
+"wait" "7"
+"noise" "items/nightvis.wav"
+"mdl" "progs/backpack.mdl"
+"goal_state" "2"
+"owned_by" "1"
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "936 -1176 32"
+"netname" "bluepack 2"
+}
+{
+"netname_non_team_broadcast" " captured the flag for your enemies!\n"
+"netname_team_broadcast" " captured the flag for your team!\n"
+"message" "You captured the flag!\nGood job!\n"
+"frags" "10"
+"goal_effects" "3"
+"axhitme" "1"
+"items_allowed" "1"
+"team_no" "2"
+"noise" "items/cap2.wav"
+"goal_state" "2"
+"increase_team2" "10"
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "-1312 -992 264"
+"netname" "red capture"
+}
+{
+"goal_effects" "3"
+"netname_non_team_broadcast" " captured the flag for your opponents!\n"
+"netname_team_broadcast" " captured the flag for your team!\n"
+"message" "You captured the flag!\nGood job!\n"
+"frags" "10"
+"maxammo_shells" "1"
+"axhitme" "1"
+"items_allowed" "1"
+"team_no" "1"
+"noise" "items/cap2.wav"
+"increase_team1" "10"
+"goal_state" "2"
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "1312 -1056 264"
+"netname" "blue capture"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1048 -872 24"
+"team_no" "2"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1048 -1112 24"
+"team_no" "2"
+"angle" "90"
+}
+{
+"message" "Loaded for bear!\n"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"ammo_medikit" "200"
+"ammo_detpack" "1"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"armorclass" "31"
+"armorvalue" "100"
+"armortype" "0.8"
+"wait" "7"
+"noise" "items/nightvis.wav"
+"mdl" "progs/backpack.mdl"
+"goal_state" "2"
+"owned_by" "2"
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "-936 -1112 32"
+"netname" "redpack 2"
+}
+{
+"message" "Loaded for bear!\n"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"ammo_medikit" "200"
+"ammo_detpack" "1"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"armorclass" "31"
+"armorvalue" "100"
+"armortype" "0.8"
+"wait" "7"
+"noise" "items/nightvis.wav"
+"mdl" "progs/backpack.mdl"
+"goal_state" "2"
+"owned_by" "2"
+"goal_activation" "1"
+"classname" "info_tfgoal"
+"origin" "-936 -872 32"
+"netname" "redpack 1"
+}
+{
+"model" "*4"
+"trigger" "laughpit"
+"map" "laughpit"
+"classname" "trigger_changelevel"
+}
+{
+"angle" "90"
+"origin" "0 -1456 24"
+"classname" "info_player_start"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "914 -1054 92"
+}
+{
+"model" "*5"
+"classname" "trigger_relay"
+"netname" "laugh 1"
+"origin" "0 0 72"
+"targetname" "pit"
+"target" "laugh"
+"delay" "1"
+"wait" ".1"
+}
+{
+"model" "*6"
+"classname" "trigger_relay"
+"netname" "laugh 2"
+"origin" "40 0 72"
+"targetname" "pit"
+"target" "laugh"
+"delay" "1.5"
+"wait" ".1"
+}
+{
+"model" "*7"
+"classname" "trigger_relay"
+"netname" "laugh 3"
+"origin" "-40 0 72"
+"targetname" "pit"
+"target" "laugh"
+"delay" "2.5"
+"wait" ".1"
+}
+{
+"classname" "info_intermission"
+"origin" "0 696 112"
+"mangle" "30 90 0"
+}

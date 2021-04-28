@@ -1,0 +1,2281 @@
+{
+"worldtype" "1"
+"classname" "worldspawn"
+"wad" "C:\Qoole\work\228.wad"
+"message" "ù¬ÂÂÚü 2, The Love Boat\n Version 1.4\nBy [SS] Gunther\nwww.secret-service.org"
+}
+{
+"angle" "180"
+"lip" "-1"
+"dmg" "999"
+"wait" "4"
+"classname" "func_door"
+"armorclass" "1"
+"sounds" "1"
+"model" "*1"
+"speed" "100"
+}
+{
+"angle" "0"
+"lip" "-1"
+"dmg" "999"
+"wait" "4"
+"armorclass" "1"
+"classname" "func_door"
+"model" "*2"
+"sounds" "1"
+"speed" "100"
+}
+{
+"light" "300"
+"origin" "-864 -1344 160"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-544 -1344 160"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-704 -768 128"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-704 -1056 64"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-880 -1664 176"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-704 -1408 184"
+"classname" "light"
+}
+{
+"health" "10"
+"armorvalue" "10"
+"activate_goal_no" "81"
+"g_e" "1"
+"wait" "5"
+"noise" "misc/mmmbeer.wav"
+"origin" "-1008 -1472 32"
+"armortype" "0.8"
+"classname" "i_t_g"
+"message" "Mmm...\n\nù¬ÂÂÚü\n"
+"netname" "beer"
+"g_a" "1"
+}
+{
+"light" "400"
+"origin" "-704 -2176 192"
+"classname" "light"
+}
+{
+"angle" "-1"
+"team_no" "1"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*3"
+"sounds" "2"
+"speed" "300"
+}
+{
+"targetname" "spawndoor1"
+"angle" "270"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*4"
+"sounds" "2"
+"speed" "350"
+}
+{
+"team_no" "1"
+"classname" "trigger_multiple"
+"model" "*5"
+"target" "spawndoor1"
+}
+{
+"angle" "360"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*6"
+"speed" "50"
+}
+{
+"angle" "360"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*7"
+"speed" "50"
+}
+{
+"light" "400"
+"origin" "448 -1536 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "416 -1760 192"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-64 -2112 144"
+"classname" "light"
+}
+{
+"angle" "-1"
+"targetname" "boatdoor1"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"sounds" "2"
+"model" "*8"
+"speed" "300"
+}
+{
+"team_no" "1"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*9"
+"target" "boatdoor1"
+}
+{
+"angle" "360"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*10"
+"speed" "50"
+}
+{
+"light" "400"
+"origin" "-576 -2048 64"
+"classname" "light"
+}
+{
+"angle" "180"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*11"
+"speed" "50"
+}
+{
+"light" "300"
+"origin" "328 -2256 160"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "328 -2256 64"
+"classname" "light"
+}
+{
+"targetname" "backboat1"
+"angle" "-1"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*12"
+"sounds" "2"
+"speed" "300"
+}
+{
+"team_no" "1"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*13"
+"target" "backboat1"
+}
+{
+"angle" "270"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*14"
+"speed" "50"
+}
+{
+"angle" "90"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*15"
+"speed" "50"
+}
+{
+"angle" "-1"
+"targetname" "lift1"
+"lip" "0"
+"wait" "4"
+"classname" "func_door"
+"sounds" "3"
+"model" "*16"
+"speed" "200"
+}
+{
+"origin" "448 -1728 64"
+"classname" "ambient_suck_wind"
+}
+{
+"team_no" "1"
+"wait" "4"
+"classname" "trigger_multiple"
+"model" "*17"
+"target" "lift1"
+}
+{
+"health" "10"
+"armorvalue" "10"
+"activate_goal_no" "81"
+"g_e" "1"
+"wait" "5"
+"origin" "-44 -2272 32"
+"noise" "misc/booze.wav"
+"armortype" "0.8"
+"classname" "i_t_g"
+"netname" "beer"
+"message" "Mmm...\n\nù¬ÂÂÚü\n"
+"g_a" "1"
+}
+{
+"origin" "-576 -1928 136"
+"classname" "ambient_suck_wind"
+}
+{
+"team_no" "1"
+"height" "120"
+"classname" "func_plat"
+"sounds" "1"
+"model" "*18"
+"speed" "300"
+}
+{
+"light" "400"
+"origin" "-1248 -1984 144"
+"classname" "light"
+}
+{
+"angle" "270"
+"team_no" "1"
+"activate_goal_no" "110"
+"origin" "-1056 -1888 48"
+"classname" "i_p_t"
+"message" "Don't Drink and Frag!\n"
+"g_a" "2"
+}
+{
+"angle" "270"
+"team_no" "1"
+"activate_goal_no" "110"
+"origin" "-928 -1888 48"
+"classname" "i_p_t"
+"message" "Happy hour!\n2 for 1 drinks!\n"
+"g_a" "2"
+}
+{
+"angle" "270"
+"team_no" "1"
+"activate_goal_no" "110"
+"origin" "-800 -1888 48"
+"classname" "i_p_t"
+"message" "Great Taste!\n...\nLess Filling!\n"
+"g_a" "2"
+}
+{
+"angle" "-1"
+"lip" "-1"
+"team_no" "1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"sounds" "2"
+"model" "*19"
+"speed" "300"
+}
+{
+"targetname" "beer1-1"
+"angle" "90"
+"lip" "-1"
+"wait" "-1"
+"classname" "func_door"
+"model" "*20"
+"sounds" "0"
+"spawnflags" "3"
+"speed" "999"
+}
+{
+"angle" "90"
+"targetname" "beer1-2"
+"lip" "-1"
+"wait" "-1"
+"classname" "func_door"
+"sounds" "0"
+"model" "*21"
+"speed" "999"
+"spawnflags" "3"
+}
+{
+"angle" "90"
+"targetname" "beer1-3"
+"lip" "-1"
+"wait" "-1"
+"classname" "func_door"
+"sounds" "0"
+"model" "*22"
+"speed" "999"
+"spawnflags" "3"
+}
+{
+"angle" "90"
+"targetname" "beer1-5"
+"lip" "-1"
+"wait" "-1"
+"classname" "func_door"
+"sounds" "0"
+"model" "*23"
+"speed" "999"
+"spawnflags" "3"
+}
+{
+"angle" "90"
+"targetname" "beer1-4"
+"lip" "-1"
+"wait" "-1"
+"classname" "func_door"
+"sounds" "0"
+"model" "*24"
+"speed" "999"
+"spawnflags" "3"
+}
+{
+"light" "350"
+"origin" "-1056 -2272 224"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-928 -2272 80"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-1312 -1824 144"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1040 -2160 48"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-832 -2240 160"
+"classname" "light"
+}
+{
+"angle" "360"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*25"
+"speed" "50"
+}
+{
+"light" "300"
+"origin" "-928 -1936 64"
+"classname" "light"
+}
+{
+"mdl" "progs/grenbox.mdl"
+"g_e" "1"
+"wait" "10"
+"no_grenades_2" "2"
+"origin" "-1056 -2080 160"
+"noise" "misc/nacho.wav"
+"no_grenades_1" "2"
+"classname" "i_t_g"
+"netname" "partial supply"
+"message" "Here's your explosives!\n"
+"g_a" "1"
+}
+{
+"angle" "-1"
+"team_no" "1"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*26"
+"sounds" "2"
+"speed" "300"
+}
+{
+"angle" "360"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*27"
+"speed" "50"
+}
+{
+"angle" "270"
+"targetname" "goal2"
+"origin" "-1248 -1696 144"
+"classname" "info_teleport_destination"
+}
+{
+"light" "400"
+"origin" "-448 -1600 192"
+"classname" "light"
+}
+{
+"height" "272"
+"classname" "func_plat"
+"model" "*28"
+"speed" "350"
+}
+{
+"angle" "270"
+"targetname" "open1"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"sounds" "0"
+"model" "*29"
+"speed" "900"
+}
+{
+"team_no" "1"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*30"
+"target" "open1"
+}
+{
+"team_no" "2"
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*31"
+}
+{
+"mdl" "progs/gib3.mdl"
+"health" "50"
+"armorvalue" "50"
+"g_e" "1"
+"wait" "5"
+"noise" "misc/bbq.wav"
+"origin" "-480 -1664 160"
+"armortype" "0.8"
+"classname" "i_t_g"
+"netname" "Boat Supply"
+"message" "Have some ribs!\n"
+"g_a" "1"
+}
+{
+"angle" "-1"
+"targetname" "fishdoor"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"sounds" "2"
+"model" "*32"
+"speed" "350"
+}
+{
+"team_no" "1"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*33"
+"sounds" "0"
+"target" "fishdoor"
+}
+{
+"angle" "180"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*34"
+"speed" "50"
+}
+{
+"angle" "360"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*35"
+"speed" "50"
+}
+{
+"light" "300"
+"origin" "-720 -2016 32"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-544 -1504 32"
+"classname" "light"
+}
+{
+"team_no" "2"
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*36"
+}
+{
+"light" "300"
+"origin" "-704 -1920 -128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-544 -1504 -112"
+"classname" "light"
+}
+{
+"origin" "-640 -1792 -128"
+"classname" "ambient_drip"
+}
+{
+"light" "400"
+"origin" "336 -1104 192"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-192 -1728 64"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-192 -1920 96"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-192 -1728 224"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-192 -1440 16"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-72 -1712 96"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-312 -1712 96"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-192 -1216 64"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-64 -1104 224"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-384 -1104 224"
+"classname" "light"
+}
+{
+"classname" "trigger_multiple"
+"model" "*39"
+"target" "killer"
+"items_allowed" "1"
+}
+{
+"classname" "trigger_multiple"
+"model" "*40"
+"target" "killer"
+"items_allowed" "1"
+}
+{
+"classname" "trigger_multiple"
+"model" "*41"
+"target" "killer"
+"items_allowed" "1"
+}
+{
+"classname" "trigger_multiple"
+"model" "*42"
+"target" "killer"
+"items_allowed" "1"
+}
+{
+"classname" "trigger_multiple"
+"model" "*43"
+"target" "killer"
+"items_allowed" "1"
+}
+{
+"classname" "trigger_teleport"
+"model" "*44"
+"spawnflags" "2"
+"items_allowed" "1"
+"target" "goal1"
+}
+{
+"mdl" "progs/m_s_key.mdl"
+"group_no" "2"
+"skin" "1"
+"team_no" "2"
+"noise4" "The Blue ù¬ÂÂÚü Boat is on it's way back.\n"
+"items" "131072"
+"goal_no" "1"
+"noise3" "Your ù¬ÂÂÚü Boat is on it's way back.\n"
+"b_o" "Your ù¬ÂÂÚü boat is leaving!\n"
+"g_e" "1"
+"n_b" " took the Blue ù¬ÂÂÚü boat for a joy ride!\n"
+"noise" "misc/putdown.wav"
+"origin" "-240 -1648 -16"
+"classname" "item_tfgoal"
+"message" "Don't fall off!\n"
+"netname" "Blue ù¬ÂÂÚü Boat key"
+"owned_by" "1"
+"target" "car1"
+"g_a" "28"
+}
+{
+"light" "350"
+"origin" "80 -1712 192"
+"classname" "light"
+}
+{
+"targetname" "no_red_joy"
+"team_no" "2"
+"classname" "trigger_teleport"
+"model" "*46"
+"target" "goal1"
+}
+{
+"angle" "135"
+"targetname" "out1"
+"origin" "160 -1824 144"
+"classname" "info_teleport_destination"
+}
+{
+"team_no" "1"
+"classname" "trigger_teleport"
+"model" "*47"
+"target" "out1"
+"spawnflags" "2"
+}
+{
+"origin" "-192 -1728 128"
+"classname" "ambient_suck_wind"
+}
+{
+"angle" "90"
+"targetname" "car1"
+"lip" "-2134"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"sounds" "0"
+"model" "*48"
+"speed" "80"
+}
+{
+"angle" "270"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*49"
+"speed" "50"
+}
+{
+"angle" "90"
+"team_no" "2"
+"classname" "trigger_push"
+"model" "*50"
+"speed" "50"
+}
+{
+"angle" "-1"
+"lip" "-1"
+"team_no" "1"
+"wait" "1"
+"classname" "func_door"
+"sounds" "3"
+"model" "*51"
+"speed" "300"
+"spawnflags" "0"
+}
+{
+"light" "400"
+"origin" "-768 64 128"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "768 -64 128"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "0 -640 256"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "0 768 256"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-512 960 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-736 736 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-896 352 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-768 -416 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-864 -800 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "512 -960 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "736 -736 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "896 -352 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "768 416 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "864 800 64"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-320 -192 288"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "320 192 224"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-128 256 288"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "128 -256 288"
+"classname" "light"
+}
+{
+"health" "20"
+"armorvalue" "20"
+"activate_goal_no" "81"
+"g_e" "1"
+"wait" "5"
+"noise" "misc/gulp.wav"
+"armortype" "0.8"
+"origin" "-96 -320 176"
+"classname" "i_t_g"
+"message" "Mmm...\n\nù¬ÂÂÚü\n"
+"netname" "beer health"
+"g_a" "1"
+}
+{
+"health" "20"
+"armorvalue" "20"
+"activate_goal_no" "81"
+"g_e" "1"
+"wait" "5"
+"armortype" "0.8"
+"noise" "misc/gulp.wav"
+"origin" "96 320 176"
+"classname" "i_t_g"
+"message" "Mmm...\n\nù¬ÂÂÚü\n"
+"netname" "beer health"
+"g_a" "1"
+}
+{
+"wait" "5"
+"classname" "trigger_multiple"
+"model" "*52"
+"target" "beer2"
+}
+{
+"wait" "5"
+"classname" "trigger_multiple"
+"model" "*53"
+"target" "beer2"
+}
+{
+"targetname" "beer2"
+"health" "20"
+"armorvalue" "20"
+"activate_goal_no" "81"
+"g_e" "1"
+"noise" "misc/gulp.wav"
+"armortype" "0.8"
+"origin" "160 -352 304"
+"classname" "i_t_g"
+"message" "Mmm...\n\nù¬ÂÂÚü\n"
+"netname" "beer2"
+}
+{
+"light" "300"
+"origin" "-256 128 160"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "256 -128 160"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-224 -384 160"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "224 384 160"
+"classname" "light"
+}
+{
+"origin" "-512 0 0"
+"classname" "ambient_brook"
+}
+{
+"origin" "512 0 0"
+"classname" "ambient_brook"
+}
+{
+"origin" "704 -768 64"
+"classname" "ambient_swamp1"
+}
+{
+"origin" "-704 768 64"
+"classname" "ambient_swamp1"
+}
+{
+"origin" "-704 -704 64"
+"classname" "ambient_swamp1"
+}
+{
+"origin" "704 704 64"
+"classname" "ambient_swamp1"
+}
+{
+"light" "400"
+"origin" "880 1664 176"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "704 1408 184"
+"classname" "light"
+}
+{
+"health" "10"
+"armorvalue" "10"
+"activate_goal_no" "81"
+"g_e" "1"
+"wait" "5"
+"origin" "1016 1464 32"
+"noise" "misc/mmmbeer.wav"
+"armortype" "0.8"
+"classname" "i_t_g"
+"netname" "beer"
+"message" "Mmm...\n\nù¬ÂÂÚü\n"
+"g_a" "1"
+}
+{
+"angle" "0"
+"lip" "-1"
+"dmg" "999"
+"wait" "4"
+"armorclass" "1"
+"classname" "func_door"
+"sounds" "1"
+"model" "*54"
+"speed" "100"
+}
+{
+"angle" "180"
+"lip" "-1"
+"dmg" "999"
+"wait" "4"
+"armorclass" "1"
+"classname" "func_door"
+"model" "*55"
+"sounds" "1"
+"speed" "100"
+}
+{
+"light" "300"
+"origin" "864 1344 160"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "544 1344 160"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "704 768 128"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "704 1056 64"
+"classname" "light"
+}
+{
+"team_no" "2"
+"height" "120"
+"classname" "func_plat"
+"sounds" "1"
+"model" "*56"
+"speed" "300"
+}
+{
+"light" "400"
+"origin" "1248 1984 144"
+"classname" "light"
+}
+{
+"angle" "90"
+"team_no" "2"
+"activate_goal_no" "210"
+"origin" "1056 1888 48"
+"classname" "i_p_t"
+"message" "Don't Drink and Frag!\n"
+"g_a" "2"
+}
+{
+"angle" "90"
+"team_no" "2"
+"activate_goal_no" "210"
+"origin" "928 1888 48"
+"classname" "i_p_t"
+"message" "Happy hour!\n2 for 1 drinks!\n"
+"g_a" "2"
+}
+{
+"angle" "90"
+"team_no" "2"
+"activate_goal_no" "210"
+"origin" "800 1888 48"
+"classname" "i_p_t"
+"message" "Great Taste!\n...\nLess Filling!\n"
+"g_a" "2"
+}
+{
+"angle" "-1"
+"lip" "-1"
+"team_no" "2"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"sounds" "2"
+"model" "*57"
+"speed" "300"
+}
+{
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"mdl" "progs/fish.mdl"
+"health" "20"
+"armorvalue" "50"
+"ammo_medikit" "300"
+"ammo_nails" "50"
+"g_e" "1"
+"wait" "3"
+"armortype" "0.8"
+"noise" "misc/fish.wav"
+"origin" "1056 2160 48"
+"classname" "i_t_g"
+"message" "Fresh from the Sea!\n"
+"netname" "full supply2"
+"ammo_shells" "50"
+"g_a" "1"
+}
+{
+"light" "350"
+"origin" "1056 2272 224"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "928 2272 80"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "1312 1824 144"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1040 2160 48"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "832 2240 160"
+"classname" "light"
+}
+{
+"angle" "180"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*58"
+"speed" "50"
+}
+{
+"light" "300"
+"origin" "928 1936 64"
+"classname" "light"
+}
+{
+"mdl" "progs/grenbox.mdl"
+"g_e" "1"
+"wait" "10"
+"no_grenades_2" "2"
+"origin" "1056 2080 160"
+"no_grenades_1" "2"
+"noise" "misc/nacho.wav"
+"classname" "i_t_g"
+"netname" "partial supply2"
+"message" "Here's your explosives!\n"
+"g_a" "1"
+}
+{
+"angle" "-1"
+"lip" "-1"
+"team_no" "2"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"sounds" "2"
+"model" "*59"
+"speed" "300"
+}
+{
+"angle" "180"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*60"
+"speed" "50"
+}
+{
+"angle" "90"
+"targetname" "goal1"
+"origin" "1264 1712 144"
+"classname" "info_teleport_destination"
+}
+{
+"angle" "270"
+"targetname" "beer2-1"
+"lip" "-1"
+"wait" "-1"
+"classname" "func_door"
+"sounds" "0"
+"model" "*61"
+"speed" "999"
+"spawnflags" "3"
+}
+{
+"angle" "270"
+"targetname" "beer2-2"
+"lip" "-1"
+"wait" "-1"
+"classname" "func_door"
+"sounds" "0"
+"model" "*62"
+"speed" "999"
+"spawnflags" "3"
+}
+{
+"targetname" "beer2-3"
+"angle" "270"
+"lip" "-1"
+"wait" "-1"
+"classname" "func_door"
+"model" "*63"
+"sounds" "0"
+"spawnflags" "3"
+"speed" "999"
+}
+{
+"targetname" "beer2-5"
+"angle" "270"
+"lip" "-1"
+"wait" "-1"
+"classname" "func_door"
+"model" "*64"
+"sounds" "0"
+"spawnflags" "3"
+"speed" "999"
+}
+{
+"targetname" "beer2-4"
+"angle" "270"
+"lip" "-1"
+"wait" "-1"
+"classname" "func_door"
+"model" "*65"
+"sounds" "0"
+"spawnflags" "3"
+"speed" "999"
+}
+{
+"light" "400"
+"origin" "704 2176 192"
+"classname" "light"
+}
+{
+"angle" "-1"
+"team_no" "2"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*66"
+"sounds" "2"
+"speed" "300"
+}
+{
+"targetname" "spawndoor2"
+"angle" "270"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*67"
+"sounds" "2"
+"speed" "350"
+}
+{
+"team_no" "2"
+"classname" "trigger_multiple"
+"model" "*68"
+"target" "spawndoor2"
+}
+{
+"angle" "180"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*69"
+"speed" "50"
+}
+{
+"angle" "180"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*70"
+"speed" "50"
+}
+{
+"light" "400"
+"origin" "-448 1536 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-416 1760 192"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "64 2112 144"
+"classname" "light"
+}
+{
+"angle" "-1"
+"targetname" "boatdoor2"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"sounds" "2"
+"model" "*71"
+"speed" "300"
+}
+{
+"team_no" "2"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*72"
+"target" "boatdoor2"
+}
+{
+"angle" "180"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*73"
+"speed" "50"
+}
+{
+"light" "400"
+"origin" "576 2048 64"
+"classname" "light"
+}
+{
+"angle" "360"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*74"
+"speed" "50"
+}
+{
+"light" "300"
+"origin" "-328 2256 160"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-328 2256 64"
+"classname" "light"
+}
+{
+"angle" "-1"
+"targetname" "backboat2"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"sounds" "2"
+"model" "*75"
+"speed" "300"
+}
+{
+"team_no" "2"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*76"
+"target" "backboat2"
+}
+{
+"angle" "90"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*77"
+"speed" "50"
+}
+{
+"angle" "270"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*78"
+"speed" "50"
+}
+{
+"angle" "-1"
+"targetname" "lift2"
+"lip" "0"
+"wait" "4"
+"classname" "func_door"
+"sounds" "3"
+"model" "*79"
+"speed" "200"
+}
+{
+"origin" "-448 1728 64"
+"classname" "ambient_suck_wind"
+}
+{
+"team_no" "2"
+"wait" "4"
+"classname" "trigger_multiple"
+"model" "*80"
+"target" "lift2"
+}
+{
+"health" "10"
+"armorvalue" "10"
+"activate_goal_no" "81"
+"g_e" "1"
+"wait" "5"
+"origin" "56 2280 32"
+"noise" "misc/booze.wav"
+"armortype" "0.8"
+"classname" "i_t_g"
+"netname" "beer"
+"message" "Mmm...\n\nù¬ÂÂÚü\n"
+"g_a" "1"
+}
+{
+"origin" "576 1920 136"
+"classname" "ambient_suck_wind"
+}
+{
+"light" "400"
+"origin" "448 1600 192"
+"classname" "light"
+}
+{
+"height" "272"
+"classname" "func_plat"
+"model" "*81"
+"speed" "350"
+}
+{
+"targetname" "open2"
+"angle" "90"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*82"
+"sounds" "0"
+"speed" "900"
+}
+{
+"team_no" "2"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*83"
+"target" "open2"
+}
+{
+"team_no" "1"
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*84"
+}
+{
+"mdl" "progs/gib3.mdl"
+"health" "50"
+"armorvalue" "50"
+"g_e" "1"
+"wait" "5"
+"origin" "480 1664 160"
+"noise" "misc/bbq.wav"
+"armortype" "0.8"
+"classname" "i_t_g"
+"netname" "Boat Supply1"
+"message" "Have some ribs!\n"
+"g_a" "1"
+}
+{
+"targetname" "fishdoor1"
+"angle" "-1"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*85"
+"sounds" "2"
+"speed" "350"
+}
+{
+"team_no" "2"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*86"
+"target" "fishdoor1"
+}
+{
+"angle" "360"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*87"
+"speed" "50"
+}
+{
+"angle" "180"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*88"
+"speed" "50"
+}
+{
+"light" "300"
+"origin" "720 2016 32"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "544 1504 32"
+"classname" "light"
+}
+{
+"team_no" "1"
+"dmg" "999"
+"classname" "trigger_hurt"
+"model" "*89"
+}
+{
+"light" "300"
+"origin" "704 1920 -128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "544 1504 -112"
+"classname" "light"
+}
+{
+"origin" "640 1792 -128"
+"classname" "ambient_drip"
+}
+{
+"light" "400"
+"origin" "-336 1104 192"
+"classname" "light"
+}
+{
+"targetname" "car2"
+"angle" "270"
+"lip" "-2134"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*90"
+"sounds" "0"
+"speed" "80"
+}
+{
+"light" "400"
+"origin" "192 1728 64"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "192 1920 96"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "192 1728 224"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "192 1440 16"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "72 1712 96"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "312 1712 96"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "192 1216 64"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "64 1104 224"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "384 1104 224"
+"classname" "light"
+}
+{
+"classname" "trigger_multiple"
+"model" "*93"
+"target" "killer"
+"items_allowed" "2"
+}
+{
+"classname" "trigger_multiple"
+"model" "*94"
+"target" "killer"
+"items_allowed" "2"
+}
+{
+"classname" "trigger_multiple"
+"model" "*95"
+"items_allowed" "2"
+"target" "killer"
+}
+{
+"classname" "trigger_multiple"
+"model" "*96"
+"target" "killer"
+"items_allowed" "2"
+}
+{
+"classname" "trigger_multiple"
+"model" "*97"
+"target" "killer"
+"items_allowed" "2"
+}
+{
+"classname" "trigger_teleport"
+"model" "*98"
+"target" "goal2"
+"items_allowed" "2"
+"spawnflags" "2"
+}
+{
+"mdl" "progs/m_g_key.mdl"
+"group_no" "2"
+"skin" "1"
+"team_no" "1"
+"noise4" "The Red ù¬ÂÂÚü Boat is on it's way back.\n"
+"items" "262144"
+"goal_no" "2"
+"noise3" "Your ù¬ÂÂÚü Boat is on it's way back.\n"
+"b_o" "Your ù¬ÂÂÚü boat is leaving!\n"
+"g_e" "1"
+"n_b" " took the Red ù¬ÂÂÚü boat for a joy ride!\n"
+"noise" "misc/putdown.wav"
+"origin" "240 1648 -16"
+"classname" "item_tfgoal"
+"message" "Don't fall off!\n"
+"netname" "Red ù¬ÂÂÚü Boat key"
+"owned_by" "2"
+"target" "car2"
+"g_a" "60"
+}
+{
+"light" "350"
+"origin" "-80 1712 192"
+"classname" "light"
+}
+{
+"angle" "315"
+"targetname" "out2"
+"origin" "-160 1824 144"
+"classname" "info_teleport_destination"
+}
+{
+"team_no" "2"
+"classname" "trigger_teleport"
+"model" "*101"
+"target" "out2"
+"spawnflags" "2"
+}
+{
+"origin" "192 1728 128"
+"classname" "ambient_suck_wind"
+}
+{
+"angle" "90"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*102"
+"speed" "50"
+}
+{
+"angle" "270"
+"team_no" "1"
+"classname" "trigger_push"
+"model" "*103"
+"speed" "50"
+}
+{
+"angle" "-1"
+"lip" "-1"
+"team_no" "2"
+"wait" "1"
+"classname" "func_door"
+"sounds" "3"
+"model" "*104"
+"speed" "300"
+"spawnflags" "0"
+}
+{
+"angle" "90"
+"origin" "0 -192 1120"
+"classname" "info_player_start"
+}
+{
+"light" "300"
+"origin" "0 64 1184"
+"classname" "light"
+}
+{
+"mangle" "0 90 0"
+"origin" "0 -192 1152"
+"classname" "info_intermission"
+}
+{
+"maxammo_nails" "1"
+"b_t" "ù¬≈≈“ü 2\nBY [SS] GUNTHER\n\nWHAT'S YOUR TASTE?\n\n1: AMERICAN BEER!\n2: FOREIGN BREW!\n"
+"n_s_h" "Enemy ù¬ÂÂÚü Boat: Safe"
+"maxammo_shells" "1"
+"origin" "0 0 1152"
+"t_s_c" "Your  ù¬ÂÂÚü Boat: Driven by "
+"classname" "info_tfdetect"
+"b_n" "Take the enemy boat and survive the trip back!\n"
+"t_s_h" "Your  ù¬ÂÂÚü Boat: Safe"
+"display_item_status2" "2"
+"display_item_status1" "1"
+"n_s_c" "Enemy ù¬ÂÂÚü Boat: Driven by "
+}
+{
+"frags" "15"
+"goal_no" "40"
+"count" "15"
+"restore_goal_no" "41"
+"b_t" "4 more to go...\n"
+"wait" "-1"
+"maxammo_shells" "2"
+"noise" "misc/champ.wav"
+"origin" "1264 1712 144"
+"n_b" " got away with some ù¬ÂÂÚü!\n"
+"classname" "i_t_g"
+"axhitme" "1"
+"netname" "Red Score"
+"message" "4 more to go...\n"
+"target" "beer2-1"
+"items_allowed" "1"
+"g_a" "1"
+}
+{
+"goal_state" "3"
+"frags" "15"
+"goal_no" "31"
+"count" "15"
+"b_t" "4 more to go...\n"
+"restore_goal_no" "32"
+"wait" "-1"
+"maxammo_shells" "1"
+"noise" "misc/champ.wav"
+"origin" "-1248 -1696 144"
+"n_b" " got away with some ù¬ÂÂÚü!\n"
+"classname" "i_t_g"
+"axhitme" "2"
+"message" "4 more to go...\n"
+"netname" "Blue Score1"
+"items_allowed" "2"
+"target" "beer1-2"
+"g_a" "1"
+}
+{
+"goal_state" "3"
+"frags" "15"
+"goal_no" "41"
+"count" "15"
+"restore_goal_no" "42"
+"b_t" "3 more to go...\n"
+"wait" "-1"
+"maxammo_shells" "2"
+"noise" "misc/champ.wav"
+"origin" "1264 1712 144"
+"n_b" " got away with some ù¬ÂÂÚü!\n"
+"classname" "i_t_g"
+"axhitme" "1"
+"netname" "Red Score1"
+"message" "3 more to go...\n"
+"target" "beer2-2"
+"items_allowed" "1"
+"g_a" "1"
+}
+{
+"goal_state" "3"
+"frags" "15"
+"goal_no" "42"
+"count" "15"
+"restore_goal_no" "43"
+"b_t" "2 more to go...\n"
+"wait" "-1"
+"maxammo_shells" "2"
+"noise" "misc/champ.wav"
+"origin" "1264 1712 144"
+"n_b" " got away with some ù¬ÂÂÚü!\n"
+"classname" "i_t_g"
+"axhitme" "1"
+"netname" "Red Score2"
+"message" "2 more to go...\n"
+"target" "beer2-3"
+"items_allowed" "1"
+"g_a" "1"
+}
+{
+"goal_state" "3"
+"frags" "15"
+"goal_no" "43"
+"count" "15"
+"restore_goal_no" "44"
+"b_t" "Only 1 more to go...\n"
+"wait" "-1"
+"maxammo_shells" "2"
+"noise" "misc/champ.wav"
+"origin" "1264 1712 144"
+"n_b" " got away with some ù¬ÂÂÚü!\n"
+"classname" "i_t_g"
+"axhitme" "1"
+"netname" "Red Score3"
+"message" "Only 1 more to go...\n"
+"target" "beer2-4"
+"items_allowed" "1"
+"g_a" "1"
+}
+{
+"goal_state" "3"
+"frags" "15"
+"goal_no" "44"
+"activate_goal_no" "45"
+"count" "15"
+"wait" "-1"
+"maxammo_shells" "2"
+"noise" "misc/champ.wav"
+"origin" "1264 1712 144"
+"n_b" " got away with some ù¬ÂÂÚü!\n"
+"classname" "i_t_g"
+"axhitme" "1"
+"netname" "Red Score4"
+"target" "beer2-5"
+"items_allowed" "1"
+"g_a" "1"
+}
+{
+"health" "-999"
+"delay_time" "5"
+"activate_goal_no" "36"
+"goal_no" "35"
+"b_b" "Blue Team has all the ù¬ÂÂÚü!\n"
+"maxammo_shells" "2"
+"wait" "-1"
+"origin" "1264 1712 144"
+"classname" "i_t_g"
+"netname" "Blue Win"
+}
+{
+"delay_time" "10"
+"goal_result" "4"
+"goal_no" "36"
+"wait" "1"
+"origin" "1264 1712 144"
+"classname" "i_t_g"
+"netname" "Blue Win1"
+}
+{
+"frags" "15"
+"goal_no" "30"
+"count" "15"
+"restore_goal_no" "31"
+"wait" "-1"
+"maxammo_shells" "1"
+"noise" "misc/champ.wav"
+"origin" "-1248 -1696 144"
+"n_b" " got away with some ù¬ÂÂÚü!\n"
+"classname" "i_t_g"
+"axhitme" "2"
+"netname" "Blue Score"
+"items_allowed" "2"
+"target" "beer1-1"
+"g_a" "1"
+}
+{
+"goal_state" "3"
+"frags" "15"
+"goal_no" "34"
+"activate_goal_no" "35"
+"count" "15"
+"b_t" "Only 1 more to go...\n"
+"maxammo_shells" "1"
+"wait" "-1"
+"noise" "misc/champ.wav"
+"n_b" " got away with some ù¬ÂÂÚü!\n"
+"origin" "-1248 -1696 144"
+"classname" "i_t_g"
+"axhitme" "2"
+"netname" "Blue Score4"
+"message" "Only 1 more to go...\n"
+"target" "beer1-5"
+"items_allowed" "2"
+"g_a" "1"
+}
+{
+"goal_state" "3"
+"frags" "15"
+"goal_no" "32"
+"count" "15"
+"restore_goal_no" "33"
+"b_t" "3 more to go...\n"
+"maxammo_shells" "1"
+"wait" "-1"
+"n_b" " got away with some ù¬ÂÂÚü!\n"
+"origin" "-1248 -1696 144"
+"noise" "misc/champ.wav"
+"classname" "i_t_g"
+"axhitme" "2"
+"netname" "Blue Score2"
+"message" "3 more to go...\n"
+"target" "beer1-3"
+"items_allowed" "2"
+"g_a" "1"
+}
+{
+"goal_state" "3"
+"frags" "15"
+"goal_no" "33"
+"count" "15"
+"restore_goal_no" "34"
+"b_t" "2 more to go...\n"
+"maxammo_shells" "1"
+"wait" "-1"
+"n_b" " got away with some ù¬ÂÂÚü!\n"
+"origin" "-1248 -1696 144"
+"noise" "misc/champ.wav"
+"classname" "i_t_g"
+"axhitme" "2"
+"netname" "Blue Score3"
+"message" "2 more to go...\n"
+"target" "beer1-4"
+"items_allowed" "2"
+"g_a" "1"
+}
+{
+"health" "-999"
+"delay_time" "5"
+"activate_goal_no" "46"
+"goal_no" "45"
+"b_b" "Red Team has all the ù¬ÂÂÚü!\n"
+"maxammo_shells" "1"
+"wait" "-1"
+"origin" "1264 1712 144"
+"classname" "i_t_g"
+"netname" "Red Win"
+}
+{
+"delay_time" "10"
+"goal_result" "4"
+"goal_no" "46"
+"wait" "1"
+"origin" "1264 1712 144"
+"classname" "i_t_g"
+"netname" "Red Win1"
+}
+{
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"mdl" "progs/fish.mdl"
+"health" "20"
+"armorvalue" "50"
+"ammo_nails" "50"
+"ammo_medikit" "200"
+"g_e" "1"
+"wait" "3"
+"origin" "-1056 -2160 48"
+"armortype" "0.8"
+"noise" "misc/fish.wav"
+"classname" "i_t_g"
+"netname" "full supply"
+"message" "Fresh from the Sea!\n"
+"ammo_shells" "50"
+"g_a" "1"
+}
+{
+"origin" "0 0 1152"
+"classname" "effect_lightning"
+"spawnflags" "64"
+}
+{
+"volume" "1"
+"option2" "10"
+"origin" "0 0 0"
+"noise" "misc/bud1.wav"
+"option" "3"
+"classname" "effect_random_sound"
+"netname" "bud1"
+}
+{
+"volume" "1"
+"option2" "10"
+"origin" "0 0 0"
+"noise" "misc/bud2.wav"
+"option" "3"
+"classname" "effect_random_sound"
+"netname" "bud2"
+}
+{
+"volume" "1"
+"option2" "10"
+"origin" "0 0 0"
+"noise" "misc/bud3.wav"
+"option" "3"
+"classname" "effect_random_sound"
+"netname" "bud3"
+}
+{
+"origin" "-256 -1632 -16"
+"classname" "ambient_diesel"
+}
+{
+"origin" "256 1632 -16"
+"classname" "ambient_diesel"
+}
+{
+"origin" "-96 -320 176"
+"classname" "ambient_rocket_engine"
+}
+{
+"origin" "96 320 176"
+"classname" "ambient_rocket_engine"
+}
+{
+"goal_no" "210"
+"wait" "1"
+"origin" "928 1888 48"
+"classname" "i_t_g"
+"netname" "Hi Red"
+}
+{
+"goal_no" "110"
+"wait" "1"
+"origin" "-928 -1888 48"
+"classname" "i_t_g"
+"netname" "Hi Blue"
+}
+{
+"ammo_detpack" "1"
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_medikit" "200"
+"ammo_nails" "300"
+"g_e" "1"
+"no_grenades_2" "4"
+"wait" "1"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"noise" "misc/hi.wav"
+"origin" "-800 -1888 48"
+"classname" "i_t_g"
+"if_goal_is_active" "110"
+"netname" "Hello Blue3"
+"ammo_shells" "300"
+"g_a" "1"
+}
+{
+"ammo_detpack" "1"
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_medikit" "200"
+"ammo_nails" "300"
+"g_e" "1"
+"no_grenades_2" "4"
+"wait" "1"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "800 1888 48"
+"noise" "misc/hi.wav"
+"classname" "i_t_g"
+"if_goal_is_active" "210"
+"netname" "Hello Red3"
+"ammo_shells" "300"
+"g_a" "1"
+}
+{
+"ammo_detpack" "1"
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_medikit" "200"
+"ammo_nails" "300"
+"g_e" "1"
+"no_grenades_2" "4"
+"wait" "1"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"noise" "misc/hi.wav"
+"origin" "-928 -1888 48"
+"classname" "i_t_g"
+"if_goal_is_active" "110"
+"netname" "Hello Blue2"
+"ammo_shells" "300"
+"g_a" "1"
+}
+{
+"ammo_detpack" "1"
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_medikit" "200"
+"ammo_nails" "300"
+"g_e" "1"
+"no_grenades_2" "4"
+"wait" "1"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"noise" "misc/hi.wav"
+"origin" "-1056 -1888 48"
+"classname" "i_t_g"
+"if_goal_is_active" "110"
+"netname" "Hello Blue1"
+"ammo_shells" "300"
+"g_a" "1"
+}
+{
+"ammo_detpack" "1"
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_medikit" "200"
+"ammo_nails" "300"
+"g_e" "1"
+"no_grenades_2" "4"
+"wait" "1"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"noise" "misc/hi.wav"
+"origin" "1056 1888 48"
+"classname" "i_t_g"
+"if_goal_is_active" "210"
+"netname" "Hello Red1"
+"ammo_shells" "300"
+"g_a" "1"
+}
+{
+"ammo_detpack" "1"
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"g_e" "1"
+"no_grenades_2" "4"
+"wait" "1"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "928 1888 48"
+"noise" "misc/hi.wav"
+"classname" "i_t_g"
+"if_goal_is_active" "210"
+"netname" "Hello Red2"
+"ammo_shells" "300"
+"g_a" "1"
+}
+{
+"targetname" "no_blue_joy"
+"team_no" "1"
+"classname" "trigger_teleport"
+"model" "*100"
+"target" "goal2"
+}
+{
+"targetname" "killer"
+"health" "-999"
+"deathtype" " went ”ÎÈÓÓ˘ ƒÈÈÓÁ!\n"
+"g_e" "1"
+"wait" "1"
+"classname" "i_t_g"
+"netname" "Killer"
+}
+{
+"delay_time" "2"
+"goal_result" "2"
+"goal_no" "95"
+"g_e" "1"
+"classname" "i_t_g"
+"message" "Stop the ride, I want to get off\n\nUrp...\n"
+"netname" "Drink: mm5"
+}
+{
+"group_no" "300"
+"goal_no" "301"
+"g_e" "1"
+"classname" "item_tfgoal"
+"netname" "Drink#1"
+"g_a" "156"
+}
+{
+"group_no" "300"
+"goal_no" "302"
+"g_e" "1"
+"classname" "item_tfgoal"
+"netname" "Drink#2"
+"g_a" "156"
+}
+{
+"group_no" "300"
+"goal_no" "303"
+"g_e" "1"
+"classname" "item_tfgoal"
+"netname" "Drink#3"
+"g_a" "156"
+}
+{
+"group_no" "300"
+"goal_no" "304"
+"g_e" "1"
+"classname" "item_tfgoal"
+"netname" "Drink#4"
+"g_a" "156"
+}
+{
+"group_no" "300"
+"goal_no" "305"
+"g_e" "1"
+"classname" "item_tfgoal"
+"netname" "Drink#5"
+"g_a" "156"
+}
+{
+"goal_result" "2"
+"activate_goal_no" "83"
+"goal_no" "81"
+"else_goal" "82"
+"g_e" "1"
+"classname" "i_t_g"
+"has_item_from_group" "300"
+"netname" "Drinking...."
+}
+{
+"goal_result" "2"
+"activate_goal_no" "92"
+"items" "302"
+"goal_no" "83"
+"else_goal" "84"
+"g_e" "1"
+"classname" "i_t_g"
+"axhitme" "301"
+"netname" "Drink: 2"
+"items_allowed" "301"
+}
+{
+"goal_result" "2"
+"activate_goal_no" "93"
+"items" "303"
+"goal_no" "84"
+"else_goal" "85"
+"g_e" "1"
+"classname" "i_t_g"
+"axhitme" "302"
+"netname" "Drink: 3"
+"items_allowed" "302"
+}
+{
+"goal_result" "2"
+"activate_goal_no" "94"
+"items" "304"
+"goal_no" "85"
+"else_goal" "86"
+"g_e" "1"
+"classname" "i_t_g"
+"axhitme" "303"
+"netname" "Drink: 4"
+"items_allowed" "303"
+}
+{
+"goal_result" "2"
+"activate_goal_no" "95"
+"items" "305"
+"goal_no" "86"
+"else_goal" "87"
+"g_e" "1"
+"classname" "i_t_g"
+"axhitme" "304"
+"netname" "Drink: 5"
+"items_allowed" "304"
+}
+{
+"delay_time" "2"
+"goal_result" "2"
+"activate_goal_no" "88"
+"goal_no" "87"
+"g_e" "1"
+"classname" "i_t_g"
+"message" "...don't feel so good...\n"
+"netname" "Drink: Too many"
+"items_allowed" "305"
+}
+{
+"health" "-999"
+"deathtype" " passed out on the floor!\nOne drink too many....\n"
+"delay_time" "2"
+"goal_result" "2"
+"goal_no" "88"
+"g_e" "1"
+"classname" "i_t_g"
+"netname" "Drink: Pass out"
+}
+{
+"goal_result" "2"
+"activate_goal_no" "91"
+"items" "301"
+"goal_no" "82"
+"g_e" "1"
+"classname" "i_t_g"
+"netname" "Drink: First"
+}
+{
+"delay_time" "2"
+"goal_result" "2"
+"goal_no" "91"
+"g_e" "1"
+"classname" "i_t_g"
+"message" "Ah, that hit the spot!\n"
+"netname" "Drink: mm1"
+}
+{
+"delay_time" "2"
+"goal_result" "2"
+"goal_no" "92"
+"g_e" "1"
+"classname" "i_t_g"
+"message" "Got a good buzz going....\n"
+"netname" "Drink: mm2"
+}
+{
+"delay_time" "2"
+"goal_result" "2"
+"goal_no" "93"
+"g_e" "1"
+"classname" "i_t_g"
+"message" "Let's PARTY!\n"
+"netname" "Drink: mm3"
+}
+{
+"delay_time" "2"
+"goal_result" "2"
+"goal_no" "94"
+"g_e" "1"
+"classname" "i_t_g"
+"message" "Hey baby, you're looking good tonight.\n\nHic...\n"
+"netname" "Drink: mm4"
+}

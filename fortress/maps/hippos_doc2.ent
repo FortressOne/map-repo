@@ -1,0 +1,410 @@
+// worldspawn
+{
+ "classname" "worldspawn"
+ "message" "Hippos! by Terata/JStatz\n
+More fun added by Doc\n"
+ "wad" "d:\quest\quake101.wad"
+}
+{
+"classname" "info_player_start"
+"angle" "120"
+"origin" "72 -400 24"
+}
+// Entities:g[1] -> func_train:b[2]
+{
+ "classname" "func_train"
+ "model" "*1"
+ "target" "target1"
+ "wait" "1"
+ "speed" "196"
+ "sounds" "0"
+ "dmg" "99"
+}
+{
+"classname" "path_corner"
+"target" "target3"
+"targetname" "target1"
+"origin" "-280 -546 -32"
+}
+{
+"classname" "path_corner"
+"wait" "1.02"
+"target" "target5"
+"targetname" "target3"
+"origin" "-280 -490 32"
+}
+{
+"classname" "path_corner"
+"target" "target1"
+"targetname" "target5"
+"origin" "-280 -490 -32"
+}
+// Entities:g[1] -> func_train:b[6]
+{
+ "classname" "func_train"
+ "model" "*2"
+ "target" "target6"
+ "wait" "1"
+ "speed" "192"
+ "sounds" "0"
+ "dmg" "99"
+}
+{
+"classname" "path_corner"
+"target" "target8"
+"targetname" "target6"
+"origin" "42 -186 -32"
+}
+{
+"classname" "path_corner"
+"target" "target6"
+"targetname" "target10"
+"origin" "-14 -186 -32"
+}
+{
+"classname" "path_corner"
+"wait" "0.92"
+"target" "target10"
+"targetname" "target8"
+"origin" "-14 -186 32"
+}
+// Entities:g[1] -> func_train:b[10]
+{
+ "classname" "func_train"
+ "model" "*3"
+ "target" "target13"
+ "wait" "1"
+ "speed" "192"
+ "sounds" "0"
+ "dmg" "99"
+}
+{
+"classname" "path_corner"
+"target" "target15"
+"targetname" "target13"
+"origin" "-280 139 -32"
+}
+{
+"classname" "path_corner"
+"target" "target13"
+"targetname" "target17"
+"origin" "-280 83 -32"
+}
+{
+"classname" "path_corner"
+"wait" ".97"
+"target" "target17"
+"targetname" "target15"
+"origin" "-280 83 32"
+}
+// Entities:g[1] -> func_train:b[14]
+{
+ "classname" "func_train"
+ "model" "*4"
+ "target" "target20"
+ "wait" "1"
+ "speed" "192"
+ "sounds" "0"
+ "dmg" "99"
+}
+{
+"classname" "trigger_changelevel"
+"map" "start"
+}
+{
+"classname" "path_corner"
+"target" "target22"
+"targetname" "target20"
+"origin" "-641 -186 -32"
+}
+{
+"classname" "path_corner"
+"target" "target20"
+"targetname" "target24"
+"origin" "-585 -186 -32"
+}
+{
+"classname" "path_corner"
+"wait" "1"
+"target" "target24"
+"targetname" "target22"
+"origin" "-585 -186 32"
+}
+// Entities:g[1] -> trigger_push:b[19]
+{
+ "classname" "trigger_push"
+ "model" "*5"
+ "speed" "100"
+ "angle" "360"
+}
+// Entities:g[1] -> trigger_push:b[20]
+{
+ "classname" "trigger_push"
+ "model" "*6"
+ "speed" "100"
+ "angle" "90"
+}
+// Entities:g[1] -> trigger_push:b[21]
+{
+ "classname" "trigger_push"
+ "model" "*7"
+ "speed" "100"
+ "angle" "180"
+}
+// Entities:g[1] -> trigger_push:b[22]
+{
+ "classname" "trigger_push"
+ "model" "*8"
+ "speed" "100"
+ "angle" "270"
+}
+// Entities:g[1] -> trigger_hurt:b[23]
+{
+ "classname" "trigger_hurt"
+ "model" "*9"
+ "dmg" "500"
+}
+// Entities:g[1] -> trigger_hurt:b[24]
+{
+ "classname" "trigger_hurt"
+ "model" "*10"
+ "dmg" "500"
+}
+// Entities:g[1] -> trigger_hurt:b[25]
+{
+ "classname" "trigger_hurt"
+ "model" "*11"
+ "dmg" "500"
+}
+{
+"classname" "trigger_changelevel"
+"map" "start"
+}
+{
+"classname" "trigger_changelevel"
+"map" "start"
+}
+// Entities:g[1] -> trigger_hurt:b[28]
+{
+ "classname" "trigger_hurt"
+ "model" "*12"
+ "dmg" "500"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "-428 -346 88"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "-420 142 88"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "36 102 88"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "44 -330 88"
+}
+{
+"classname" "light"
+"light" "350"
+"origin" "-180 -114 88"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "-572 -250 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "0"
+"origin" "-556 54 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "285"
+"origin" "-316 254 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "285"
+"origin" "-68 254 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "165"
+"origin" "156 46 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "165"
+"origin" "156 -234 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "-60 -410 24"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "-316 -410 24"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-460 -362 20"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-180 -114 20"
+}
+{
+"classname" "weapon_supershotgun"
+"origin" "52 150 20"
+}
+{
+"classname" "weapon_supernailgun"
+"origin" "-452 166 20"
+}
+{
+"classname" "weapon_nailgun"
+"origin" "68 -354 20"
+}
+{
+"classname" "ambient_sound"
+"spawnflags" "4"
+"volume" "8"
+"noise" "misc/doc3.wav"
+"origin" "0 0 0"
+}
+{
+"classname" "monster_dog"
+"origin" "'-488.7 189.4  17.7'"
+"angle" "0"
+"spawnflags" "1"
+"lives" "25"
+"endtime" "0.2"
+"respawn_time" "3"
+}
+{
+"classname" "monster_shambler"
+"origin" "-413.0 137.4  56.4"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+{
+"classname" "monster_shambler"
+"origin" "-426.2 -350.4  50.3"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+{
+"classname" "monster_shambler"
+"origin" "289.7 -567.9  67.3"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "-185.2 -57.6  16.0"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "-220.9 -166.6 -8.0"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "-142.3 -191.6 -8.0"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "-109.8 -89.3 -8.0"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "-18.3 -417.1 -8.0"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "32.8 -471.3 -8.0"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "177.5 -335.0 -8.0"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "107.4 -260.6 -8.0"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+{
+"classname" "monster_tarbaby"
+"origin" "-24.8 -248.3 -8.0"
+"angle" "120.0"
+"team_no" "2"
+"lives" "25"
+"endtime" "0.5"
+"respawn_time" "3"
+}
+
+
+
+
+{
+"model" "*9"
+"map" "hippos"
+"classname" "trigger_changelevel"
+}

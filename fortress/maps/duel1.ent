@@ -1,0 +1,365 @@
+{
+"classname" "worldspawn"
+"wad" "E:\Quake\EditUtil\qoole2\program\work\duel1.wad"
+"message" "The Duel 1\n\nBy: RedACE"
+"worldtype" "0"
+}
+{
+"classname" "info_player_start"
+"origin" "-48 256 -156"
+"angle" "270"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele1"
+"model" "*1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "328 -256 -184"
+"angle" "180"
+"targetname" "tele1"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele2"
+"model" "*2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-312 -268 -180"
+"angle" "90"
+"targetname" "tele2"
+}
+{
+"classname" "light"
+"origin" "208 284 -92"
+"light" "200"
+"style" "6"
+}
+{
+"classname" "light"
+"origin" "348 144 -92"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "348 144 -144"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "208 284 -144"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-48 -248 -148"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "80 -248 -148"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "16 -156 -152"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-40 208 -96"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-40 80 -96"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "220 -128 -128"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "220 -128 -96"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "260 -128 -136"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "260 -128 -104"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "176 -172 -136"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "176 -172 -104"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "176 -212 -136"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "176 -212 -104"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-208 -204 -136"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-208 -204 -104"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-208 -244 -136"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-208 -244 -104"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-144 -244 -136"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-144 -244 -104"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-144 -204 -136"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-144 -204 -104"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "248 -200 -148"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-328 264 4"
+"light" "250"
+}
+{
+"classname" "func_plat"
+"speed" "300"
+"height" "144"
+"model" "*3"
+}
+{
+"classname" "light"
+"origin" "-328 264 116"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-40 264 20"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "340 264 32"
+"light" "200"
+}
+{
+"classname" "func_plat"
+"speed" "200"
+"height" "120"
+"model" "*4"
+}
+{
+"classname" "light"
+"origin" "336 -272 112"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-336 -272 48"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-48 -276 32"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "0 -276 48"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "48 -276 64"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "96 -276 80"
+"light" "75"
+}
+{
+"classname" "light"
+"origin" "-288 -208 -28"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "16 -208 144"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "288 -208 32"
+"light" "250"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "spawn"
+"origin" "-40 264 -120"
+"team_no" "1"
+}
+{
+"classname" "info_tfdetect"
+"netname" "detect"
+"hook_out" "1"
+"impulse" "64"
+"team_broadcast" "== WELCOME TO THE DUEL ==\n\nSELECT A TEAM\n\n1.. BLUE TEAM\n2.. RED TEAM \n"
+"origin" "0 0 0"
+"non_team_broadcast" "This map created by RedACE\n"
+}
+{
+"classname" "info_tfgoal"
+"netname" "health"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "25"
+"message" "Healing...\n"
+"origin" "-40 40 0"
+"wait" "3"
+}
+{
+"classname" "info_tfgoal"
+"netname" "armor"
+"goal_activation" "1"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "50"
+"message" "Upgrading Armor...\n"
+"origin" "16 -144 -150"
+"wait" "3"
+}
+{
+"classname" "info_tfgoal"
+"netname" "ammo"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_shells" "50"
+"ammo_nails" "50"
+"ammo_rockets" "20"
+"ammo_cells" "50"
+"ammo_medikit" "25"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+"message" "Loading Up...\n"
+"origin" "310 182 -14"
+"wait" "3"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "spawn"
+"origin" "344 -232 -120"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "spawn"
+"origin" "-312 -264 -120"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "spawn"
+"origin" "-232 264 128"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "spawn"
+"origin" "-312 -264 72"
+"team_no" "1"
+}
+{
+"classname" "light"
+"origin" "308 184 0"
+"light" "150"
+"style" "5"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "spawn"
+"origin" "-296 264 128"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "spawn"
+"origin" "-104 264 -120"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "spawn"
+"origin" "280 -280 -120"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "spawn"
+"origin" "-248 -264 72"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "spawn"
+"origin" "-236 -276 -128"
+"team_no" "2"
+}
+{
+"classname" "light"
+"origin" "-40 40 16"
+"light" "150"
+"style" "5"
+}
+{
+"classname" "light"
+"origin" "16 -144 -140"
+"light" "150"
+"style" "5"
+}

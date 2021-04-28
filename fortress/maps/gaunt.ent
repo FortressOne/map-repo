@@ -1,0 +1,368 @@
+{
+"message" "    The Gauntlet\n    By: Mercutio\n"
+"wad" "TEXTURES.wad"
+"sounds" "1"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -472 40"
+}
+{
+"speed" "1000"
+"target" "squish"
+"sounds" "3"
+"classname" "func_button"
+"wait" "30"
+"delay" "0"
+"health" "10"
+"angle" "90"
+"model" "*1"
+}
+{
+"classname" "trap_shooter"
+"origin" "-96 -192 -84"
+}
+{
+"classname" "trap_shooter"
+"origin" "-96 64 -84"
+}
+{
+"classname" "trap_shooter"
+"origin" "-96 320 -84"
+}
+{
+"classname" "trap_shooter"
+"origin" "96 320 -84"
+"angle" "180"
+}
+{
+"classname" "trap_shooter"
+"origin" "96 64 -84"
+"angle" "180"
+}
+{
+"classname" "trap_shooter"
+"origin" "96 -192 -84"
+"angle" "180"
+}
+{
+"classname" "trap_shooter"
+"origin" "-96 64 -84"
+}
+{
+"classname" "trap_shooter"
+"origin" "96 64 -84"
+"angle" "180"
+}
+{
+"classname" "trap_shooter"
+"origin" "96 320 -84"
+"angle" "180"
+}
+{
+"classname" "trap_shooter"
+"origin" "96 320 -84"
+"angle" "180"
+}
+{
+"classname" "trap_shooter"
+"origin" "-96 320 -84"
+}
+{
+"classname" "trap_shooter"
+"origin" "-96 320 -84"
+}
+{
+"classname" "trap_shooter"
+"origin" "0 -320 72"
+"angle" "-2"
+}
+{
+"classname" "trap_shooter"
+"origin" "32 -64 72"
+"angle" "-2"
+}
+{
+"classname" "trap_shooter"
+"origin" "-32 -64 72"
+"angle" "-2"
+}
+{
+"classname" "trap_shooter"
+"origin" "0 192 72"
+"angle" "-2"
+}
+{
+"classname" "trap_shooter"
+"origin" "40 192 72"
+"angle" "-2"
+}
+{
+"classname" "trap_shooter"
+"origin" "-40 192 72"
+"angle" "-2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "192 320 40"
+"targetname" "tele"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "192 64 40"
+"targetname" "tele"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "192 -192 40"
+"targetname" "tele"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-192 -192 40"
+"targetname" "tele"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-192 64 40"
+"targetname" "tele"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-192 320 40"
+"targetname" "tele"
+}
+{
+"speed" "1000"
+"classname" "func_door"
+"wait" "5"
+"lip" "0"
+"targetname" "trap2"
+"angle" "-2"
+"model" "*2"
+}
+{
+"speed" "100"
+"target" "trap2"
+"sounds" "3"
+"classname" "func_button"
+"wait" "10"
+"delay" "0"
+"health" "1"
+"angle" "180"
+"model" "*3"
+}
+{
+"target" "trap1"
+"sounds" "3"
+"classname" "func_button"
+"wait" "10"
+"delay" "0"
+"health" "1"
+"model" "*4"
+}
+{
+"target" "tele"
+"classname" "trigger_teleport"
+"angle" "-2"
+"model" "*5"
+}
+{
+"target" "tele"
+"classname" "trigger_teleport"
+"model" "*6"
+}
+{
+"classname" "light"
+"origin" "0 480 56"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "0 256 56"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 0 56"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -256 56"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-96 -448 -32"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "96 -448 -32"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "192 -384 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "192 -256 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "192 -128 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "192 0 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "192 128 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "192 256 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "192 384 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-192 384 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-192 256 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-192 128 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-192 0 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-192 -128 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-192 -256 96"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-192 -384 96"
+"light" "200"
+}
+{
+"impulse" "64"
+"classname" "info_tfdetect"
+"origin" "0 -492 72"
+"hook_out" "1"
+"maxammo_shells" "-1"
+"team_broadcast" "...WELCOME TO THE GAUNTLET...\n...PICK YOUR POISON...\n[1] BLUE\n[2]  RED\n"
+"maxammo_nails" "-1"
+}
+{
+"netname" "1"
+"classname" "info_player_teamspawn"
+"origin" "48 -472 40"
+"team_no" "1"
+}
+{
+"netname" "2"
+"classname" "info_player_teamspawn"
+"origin" "-48 -472 40"
+"team_no" "2"
+}
+{
+"netname" "1"
+"classname" "info_player_teamspawn"
+"origin" "48 -400 40"
+"team_no" "1"
+}
+{
+"netname" "2"
+"classname" "info_player_teamspawn"
+"origin" "-48 -400 40"
+"team_no" "2"
+}
+{
+"speed" "1000"
+"classname" "func_door"
+"wait" "5"
+"dmg" "0"
+"lip" "0"
+"targetname" "squish"
+"angle" "90"
+"model" "*7"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "0 -400 40"
+"targetname" "tele2"
+}
+{
+"target" "tele2"
+"classname" "trigger_teleport"
+"model" "*8"
+}
+{
+"goal_activation" "1"
+"netname" "frag"
+"message" "You started the crusher...\n"
+"armorclass" "2"
+"non_team_broadcast" "The enemy started the crusher...\n"
+"classname" "info_tfgoal"
+"origin" "0 464 -176"
+"wait" "10"
+"team_broadcast" "Your team started the crusher...\n"
+"goal_effects" "3"
+"frags" "3"
+}
+{
+"speed" "1000"
+"classname" "func_door"
+"wait" "5"
+"lip" "0"
+"targetname" "trap1"
+"angle" "-2"
+"model" "*9"
+}
+{
+"speed" "15"
+"classname" "func_door"
+"dmg" "500"
+"lip" "0"
+"targetname" "squish"
+"angle" "180"
+"model" "*10"
+}
+{
+"speed" "15"
+"classname" "func_door"
+"dmg" "500"
+"lip" "0"
+"targetname" "squish"
+"model" "*11"
+}

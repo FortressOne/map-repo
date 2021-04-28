@@ -1,0 +1,358 @@
+{
+"message" "Engineer Battle - by [REC]Someone\n    [REC]R3ptile.EG's idea ;)\n - Engineer Guild's Domain -"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"height" "240"
+"classname" "func_plat"
+}
+{
+"model" "*2"
+"height" "240"
+"classname" "func_plat"
+}
+{
+"origin" "1120 -704 352"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "100"
+"armortype" "0.8"
+"g_e" "1"
+"wait" "2"
+"g_a" "1"
+"noise" "weapons/lock4.wav"
+"mdl" "progs/backpack.mdl"
+"classname" "i_t_g"
+}
+{
+"origin" "1280 -704 352"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "100"
+"armortype" "0.8"
+"g_e" "1"
+"wait" "2"
+"g_a" "1"
+"noise" "weapons/lock4.wav"
+"mdl" "progs/backpack.mdl"
+"classname" "i_t_g"
+}
+{
+"origin" "1184 160 256"
+"t_s_c" "Your flag: carried by"
+"t_s_m" "Your flag: lying around."
+"t_s_h" "Your flag: base."
+"n_s_c" "Enemy flag: carried by"
+"n_s_m" "Enemy flag: lying around."
+"n_s_h" "Enemy flag: base."
+"display_item_status2" "2"
+"display_item_status1" "1"
+"noise2" "=== Welcome to Engineer Battle ===\n\n [9] Engineer"
+"noise1" "=== Welcome to Engineer Battle ===\n\n [9] Engineer"
+"maxammo_nails" "511"
+"maxammo_shells" "511"
+"hook_out" "1"
+"impulse" "64"
+"classname" "info_tfdetect"
+}
+{
+"origin" "1200 -704 192"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "100"
+"armortype" "0.8"
+"g_e" "1"
+"wait" "2"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"origin" "1120 -736 192"
+"team_no" "2"
+"classname" "i_p_t"
+}
+{
+"origin" "1120 -672 192"
+"team_no" "2"
+"classname" "i_p_t"
+}
+{
+"origin" "1280 -672 192"
+"team_no" "2"
+"angle" "180"
+"classname" "i_p_t"
+}
+{
+"origin" "1280 -736 192"
+"team_no" "2"
+"angle" "180"
+"classname" "i_p_t"
+}
+{
+"origin" "1280 -560 192"
+"team_no" "2"
+"angle" "90"
+"classname" "i_p_t"
+}
+{
+"origin" "1120 -560 192"
+"team_no" "2"
+"angle" "90"
+"classname" "i_p_t"
+}
+{
+"origin" "1104 256 224"
+"angle" "300"
+"classname" "info_player_start"
+}
+{
+"model" "*3"
+"health" "0"
+"dmg" "500"
+"lip" "0"
+"wait" "-1"
+"sounds" "3"
+"speed" "50"
+"targetname" "door2"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "1200 -528 336"
+"items" "262144"
+"n_n" " took your flag\n"
+"b_n" "Your flag has been taken!\n"
+"g_e" "1"
+"n_t" " has taken the enemy flag\n"
+"b_t" "Your team has the enemy flag\n"
+"message" "You have taken the enemy flag!\n Take it home!\n"
+"d_n_n" " lost the enemy flag\n"
+"d_n_t" " lost your flag\n"
+"pausetime" "30"
+"g_a" "677"
+"return_item_no" "30"
+"team_no" "1"
+"noise" "items/health1.wav"
+"mdl" "progs/tf_flag.mdl"
+"skin" "2"
+"owned_by" "2"
+"goal_no" "2"
+"netname" "team2flag"
+"angle" "90"
+"classname" "item_tfgoal"
+}
+{
+"origin" "1200 -528 352"
+"n_n" " captured your flag\n"
+"b_n" "Your flag was captured!\n"
+"n_t" " captured the enemy flag\n"
+"b_t" "Your team captured the enemy flag\n"
+"message" "You captured the enemy flag!\n"
+"frags" "15"
+"g_e" "3"
+"axhitme" "1"
+"items_allowed" "1"
+"team_no" "2"
+"g_a" "1"
+"noise" "items/cap2.wav"
+"owned_by" "2"
+"netname" "team2cap"
+"classname" "i_t_g"
+}
+{
+"model" "*4"
+"delay" "300"
+"style" "32"
+"target" "door2"
+"sounds" "4"
+"classname" "trigger_once"
+}
+{
+"origin" "1200 -384 192"
+"b_o" "Your Door is opening!\n Prepare for battle!\n"
+"b_n" "The enemy door is opening!\n Prepare for battle!\n"
+"maxammo_shells" "2"
+"owned_by" "2"
+"netname" "d2stuff"
+"targetname" "door2"
+"classname" "i_t_g"
+}
+{
+"origin" "1168 1456 336"
+"items" "131072"
+"n_n" " took your flag\n"
+"b_n" "Your flag has been taken!\n"
+"g_e" "1"
+"n_t" " has taken the enemy flag\n"
+"b_t" "Your team has the enemy flag\n"
+"message" "You have taken the enemy flag!\n Take it home!\n"
+"d_n_n" " lost the enemy flag\n"
+"d_n_t" " lost your flag\n"
+"pausetime" "30"
+"g_a" "677"
+"return_item_no" "30"
+"team_no" "2"
+"noise" "items/health1.wav"
+"mdl" "progs/tf_flag.mdl"
+"skin" "1"
+"owned_by" "1"
+"goal_no" "1"
+"netname" "team1flag"
+"angle" "90"
+"classname" "item_tfgoal"
+}
+{
+"model" "*5"
+"height" "240"
+"classname" "func_plat"
+}
+{
+"model" "*6"
+"height" "240"
+"classname" "func_plat"
+}
+{
+"origin" "1248 1632 352"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "100"
+"armortype" "0.8"
+"g_e" "1"
+"wait" "2"
+"g_a" "1"
+"noise" "weapons/lock4.wav"
+"mdl" "progs/backpack.mdl"
+"classname" "i_t_g"
+}
+{
+"origin" "1088 1632 352"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "100"
+"armortype" "0.8"
+"g_e" "1"
+"wait" "2"
+"g_a" "1"
+"noise" "weapons/lock4.wav"
+"mdl" "progs/backpack.mdl"
+"classname" "i_t_g"
+}
+{
+"origin" "1168 1632 192"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "100"
+"armortype" "0.8"
+"g_e" "1"
+"wait" "2"
+"g_a" "1"
+"classname" "i_t_g"
+}
+{
+"origin" "1248 1664 192"
+"team_no" "1"
+"angle" "180"
+"classname" "i_p_t"
+}
+{
+"origin" "1248 1600 192"
+"team_no" "1"
+"angle" "180"
+"classname" "i_p_t"
+}
+{
+"origin" "1088 1600 192"
+"team_no" "1"
+"classname" "i_p_t"
+}
+{
+"origin" "1088 1664 192"
+"team_no" "1"
+"classname" "i_p_t"
+}
+{
+"origin" "1088 1488 192"
+"team_no" "1"
+"angle" "90"
+"classname" "i_p_t"
+}
+{
+"origin" "1248 1488 192"
+"team_no" "1"
+"angle" "90"
+"classname" "i_p_t"
+}
+{
+"origin" "1264 672 224"
+"angle" "300"
+"classname" "info_player_start"
+}
+{
+"model" "*7"
+"health" "0"
+"dmg" "500"
+"lip" "0"
+"wait" "-1"
+"sounds" "3"
+"speed" "50"
+"targetname" "door1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "1168 1456 352"
+"n_n" " captured your flag\n"
+"b_n" "Your flag was captured!\n"
+"n_t" " captured the enemy flag\n"
+"b_t" "Your team captured the enemy flag\n"
+"message" "You captured the enemy flag!\n"
+"frags" "15"
+"g_e" "3"
+"axhitme" "2"
+"items_allowed" "2"
+"team_no" "1"
+"g_a" "1"
+"noise" "items/cap1.wav"
+"owned_by" "1"
+"netname" "team1cap"
+"classname" "i_t_g"
+}
+{
+"model" "*8"
+"delay" "300"
+"style" "32"
+"target" "door1"
+"sounds" "4"
+"classname" "trigger_once"
+}
+{
+"origin" "1168 1312 192"
+"b_o" "Your Door is opening!\n Prepare for battle!\n"
+"b_n" "The enemy door is opening!\n Prepare for battle!\n"
+"maxammo_shells" "2"
+"owned_by" "2"
+"netname" "d1stuff"
+"targetname" "door1"
+"classname" "i_t_g"
+}

@@ -1,0 +1,486 @@
+{
+"worldtype" "2"
+"classname" "worldspawn"
+"wad" "C:\program files\qoole\beer2.wad"
+"sounds" "3"
+"message" "Battle of the Beer! \n By [SS] Gunther \nwww.secret-service.org"
+}
+{
+"light" "300"
+"origin" "-80 320 -32"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-352 -160 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-80 208 80"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "64 336 80"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "336 160 80"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-288 -32 -16"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "240 -48 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "320 -320 0"
+"classname" "light"
+}
+{
+"angle" "-1"
+"team_no" "1"
+"lip" "0"
+"dmg" "999"
+"wait" "1"
+"origin" "0 0 0"
+"classname" "func_door"
+"model" "*1"
+"sounds" "3"
+"netname" "func_door 1"
+"speed" "800"
+}
+{
+"angle" "-1"
+"lip" "0"
+"team_no" "1"
+"dmg" "999"
+"wait" "1"
+"origin" "0 0 0"
+"classname" "func_door"
+"sounds" "3"
+"model" "*2"
+"netname" "func_door 2"
+"speed" "800"
+}
+{
+"angle" "-1"
+"team_no" "1"
+"lip" "0"
+"dmg" "999"
+"wait" "1"
+"origin" "0 0 0"
+"classname" "func_door"
+"model" "*3"
+"sounds" "3"
+"netname" "func_door 3"
+"speed" "800"
+}
+{
+"team_no" "1"
+"origin" "288 352 24"
+"classname" "info_player_teamspawn"
+"netname" "Bluespawn"
+"message" "We're low on Beer, get some!\n"
+"goal_activation" "2"
+}
+{
+"team_no" "1"
+"origin" "224 352 24"
+"classname" "info_player_teamspawn"
+"netname" "Bluespawn"
+"message" "We're low on Beer, get some!\n"
+"goal_activation" "2"
+}
+{
+"team_str_moved" "Your Beer is spoiling..."
+"non_team_str_moved" "Their Beer is spoiling..."
+"maxammo_nails" "256"
+"broadcast" "TeamFortress v2.0"
+"team_broadcast" "BATTLE OF THE BEER!\nWHAT'S YER NAM, SON?\n1: MCCOY\n2: HATFIELD\n"
+"maxammo_shells" "256"
+"hook_out" "1"
+"non_team_str_home" "They are drinking their Beer."
+"origin" "-40 896 -8"
+"team_str_carried" "GET THEM!!  Your Beer was taken by "
+"non_team_broadcast" "Your budies have drank all the beer, \n go grab some from next door.\n"
+"classname" "info_tfdetect"
+"team_str_home" "Sit down and have a beer, your Beer is safe..."
+"impulse" "64"
+"display_item_status2" "1"
+"display_item_status1" "2"
+"non_team_str_carried" "BEER RUN!  Go help "
+}
+{
+"light" "300"
+"origin" "144 320 -48"
+"classname" "light"
+}
+{
+"angle" "-1"
+"lip" "8"
+"dmg" "999"
+"wait" "5"
+"origin" "0 0 0"
+"classname" "func_door"
+"armorclass" "1"
+"sounds" "1"
+"model" "*4"
+"netname" "func_door 4"
+"speed" "200"
+}
+{
+"ammo_detpack" "1"
+"ammo_rockets" "100"
+"ammo_cells" "200"
+"health" "100"
+"team_no" "1"
+"armorvalue" "300"
+"frags" "3"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"goal_effects" "1"
+"restore_goal_no" "1"
+"netname_non_team_broadcast" " drank your Beer! \n  Revenge!\n"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"noise" "items/score.wav"
+"origin" "-80 224 48"
+"classname" "info_tfgoal"
+"armorclass" "23"
+"increase_team1" "3"
+"axhitme" "1"
+"message" "You brought back the Beer! \n Drink up!\n"
+"netname" "Blue Score"
+"netname_team_broadcast" " brought some Beer over! \n  Keg Party!\n"
+"ammo_shells" "300"
+"owned_by" "1"
+"items_allowed" "1"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/tf_flag.mdl"
+"non_team_drop" "The Hatfield Beer was dropped!\n"
+"pausetime" "10"
+"team_no" "2"
+"frags" "2"
+"netname_owners_team_broadcast" " stole your Beer!\n"
+"noise4" "Their Beer went sour...\n No one wants sour Beer \n Get some more!\n"
+"goal_result" "16"
+"noise3" "Your Beer went sour...\n"
+"items" "131072"
+"goal_no" "2"
+"team_drop" "They dropped you Beer!\n"
+"goal_effects" "1"
+"netname_non_team_broadcast" " got some Beer!\n"
+"noise" "items/taken.wav"
+"origin" "-80 208 48"
+"classname" "item_tfgoal"
+"message" "Return the Beer to your keg!\n"
+"netname" "McCoy Beer!"
+"netname_team_broadcast" " grabbed their Beer!\n"
+"owned_by" "1"
+"goal_activation" "693"
+}
+{
+"angle" "270"
+"origin" "48 1328 -48"
+"classname" "info_player_start"
+}
+{
+"light" "400"
+"origin" "-80 480 112"
+"classname" "light"
+}
+{
+"light" "400"
+"style" "0"
+"origin" "-48 592 112"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-32 784 112"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "16 992 112"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "0 1216 112"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "80 1472 -32"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "352 1952 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "80 1584 80"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-64 1456 80"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-336 1632 80"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "288 1824 -16"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-240 1840 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-320 2112 0"
+"classname" "light"
+}
+{
+"angle" "-1"
+"team_no" "2"
+"lip" "0"
+"dmg" "999"
+"wait" "1"
+"origin" "0 0 0"
+"classname" "func_door"
+"sounds" "3"
+"model" "*5"
+"netname" "func_door 5"
+"speed" "800"
+}
+{
+"angle" "-1"
+"lip" "0"
+"team_no" "2"
+"dmg" "999"
+"wait" "1"
+"origin" "0 0 0"
+"classname" "func_door"
+"sounds" "3"
+"model" "*6"
+"netname" "func_door 6"
+"speed" "800"
+}
+{
+"angle" "-1"
+"lip" "0"
+"team_no" "2"
+"dmg" "999"
+"wait" "1"
+"origin" "0 0 0"
+"classname" "func_door"
+"sounds" "3"
+"model" "*7"
+"netname" "func_door 7"
+"speed" "800"
+}
+{
+"team_no" "2"
+"origin" "-288 1440 24"
+"classname" "info_player_teamspawn"
+"message" "We're low on Beer, get some!\n"
+"netname" "Redspawn"
+"goal_activation" "2"
+}
+{
+"team_no" "2"
+"origin" "-224 1440 24"
+"classname" "info_player_teamspawn"
+"message" "We're low on Beer, get some!\n"
+"netname" "Redspawn"
+"goal_activation" "2"
+}
+{
+"light" "300"
+"origin" "-144 1472 -48"
+"classname" "light"
+}
+{
+"angle" "-1"
+"lip" "8"
+"dmg" "999"
+"wait" "5"
+"origin" "0 0 0"
+"classname" "func_door"
+"armorclass" "1"
+"sounds" "1"
+"model" "*8"
+"netname" "func_door 8"
+"speed" "200"
+}
+{
+"ammo_rockets" "100"
+"ammo_detpack" "1"
+"ammo_cells" "200"
+"team_no" "2"
+"health" "100"
+"frags" "3"
+"armorvalue" "300"
+"ammo_nails" "200"
+"ammo_medikit" "200"
+"goal_effects" "1"
+"restore_goal_no" "2"
+"no_grenades_2" "4"
+"netname_non_team_broadcast" " drank your Beer! \n  Revenge!\n"
+"origin" "80 1568 48"
+"noise" "items/score.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"increase_team2" "3"
+"armorclass" "23"
+"classname" "info_tfgoal"
+"axhitme" "2"
+"netname" "Red Score"
+"message" "You brought back the Beer! \n Drink up!\n"
+"items_allowed" "2"
+"owned_by" "2"
+"ammo_shells" "300"
+"netname_team_broadcast" " brought some Beer over! \n  Keg Party!\n"
+"goal_activation" "1"
+}
+{
+"non_team_drop" "The Hatfield Beer was dropped!\n"
+"mdl" "progs/tf_flag.mdl"
+"pausetime" "10"
+"team_no" "1"
+"netname_owners_team_broadcast" " stole your Beer!\n"
+"goal_result" "16"
+"frags" "2"
+"noise4" "Their Beer went sour...\n No one wants sour Beer \n Get some more!\n"
+"noise3" "Your Beer went sour...\n \n"
+"goal_no" "1"
+"items" "262144"
+"team_drop" "They dropped you Beer!\n"
+"goal_effects" "1"
+"netname_non_team_broadcast" " got some Beer!\n"
+"noise" "items/taken.wav"
+"origin" "80 1584 48"
+"classname" "item_tfgoal"
+"message" "Return the Beer to your keg!\n"
+"netname" "Hatfield Beer!"
+"netname_team_broadcast" " grabbed their Beer!\n"
+"owned_by" "2"
+"goal_activation" "693"
+}
+{
+"ammo_rockets" "60"
+"ammo_cells" "200"
+"team_no" "1"
+"health" "100"
+"armorvalue" "300"
+"ammo_nails" "200"
+"ammo_medikit" "100"
+"goal_effects" "1"
+"wait" "1"
+"noise" "speech/mmmbeer.wav"
+"armortype" "0.8"
+"origin" "352 320 16"
+"no_grenades_1" "2"
+"classname" "info_tfgoal"
+"netname" "bluesupply"
+"message" "Have a Beer!\n"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "60"
+"ammo_cells" "200"
+"health" "100"
+"team_no" "2"
+"armorvalue" "300"
+"ammo_medikit" "100"
+"ammo_nails" "200"
+"goal_effects" "1"
+"wait" "2"
+"no_grenades_1" "2"
+"origin" "-368 1472 32"
+"armortype" "0.8"
+"noise" "speech/mmmbeer.wav"
+"classname" "info_tfgoal"
+"message" "Have a Beer!\n"
+"netname" "redsupply"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"goal_effects" "1"
+"no_grenades_2" "1"
+"wait" "10"
+"noise" "items/armor2.wav"
+"origin" "-288 -320 64"
+"no_grenades_1" "1"
+"classname" "info_tfgoal"
+"message" "You got the dynamite!\n"
+"netname" "bluegrenade"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/backpack.mdl"
+"team_no" "2"
+"goal_effects" "1"
+"no_grenades_2" "1"
+"wait" "10"
+"noise" "items/armor2.wav"
+"origin" "288 2112 64"
+"no_grenades_1" "1"
+"classname" "info_tfgoal"
+"message" "You got the dynamite!\n"
+"netname" "redgrenade"
+"goal_activation" "1"
+}
+{
+"team_no" "1"
+"origin" "64 256 24"
+"classname" "info_player_teamspawn"
+"message" "We're low on Beer, get some!\n"
+"netname" "Bluespawn"
+"goal_activation" "2"
+}
+{
+"team_no" "2"
+"origin" "-64 1536 24"
+"classname" "info_player_teamspawn"
+"message" "We're low on Beer, get some!\n"
+"netname" "Redspawn"
+"goal_activation" "2"
+}
+{
+"origin" "0 896 0"
+"classname" "ambient_swamp1"
+}
+{
+"goal_state" "3"
+"origin" "-40 896 -8"
+"noise" "misc/ss1.wav"
+"classname" "info_tfgoal"
+"netname" "Sound"
+}

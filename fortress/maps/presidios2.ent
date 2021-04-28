@@ -1,0 +1,2853 @@
+{
+"message" "-* Presidios 2 *-\nVersao Final\nPor LדBartmaN\n•ה ֽבחוף\n"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"classname" "info_intermission"
+"origin" "-664 2304 52"
+"angle" "360"
+}
+{
+"n_s_c" "De cobertura a"
+"display_item_status1" "2"
+"display_item_status2" "12"
+"impulse" "4"
+"t_s_h" "Seu time continua detendo o presidiario inimigo\n"
+"b_n" "Para maiores informacoes leia o arquivo\npresidios2.txt\n"
+"classname" "info_tfdetect"
+"t_s_c" "Melhor voce impedir"
+"origin" "0 -0.2 353.2"
+"n_s_h" "Seu lider continua preso\n"
+"hook_out" "1"
+"n_s_m" "Seu lider esta solto por ai\n"
+"t_s_m" "O presidiario de seu time esta solto por ai\n"
+}
+{
+"classname" "info_player_start"
+"origin" "704 688 24"
+"angle" "210"
+}
+{
+"classname" "light"
+"origin" "0 0 448"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light"
+"origin" "704 480 200"
+"style" "0"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "704 -480 200"
+"style" "0"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "-704 -480 200"
+"style" "0"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "-704 480 200"
+"style" "0"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "0 0 -192"
+"style" "0"
+"light" "800"
+}
+{
+"speed" "300"
+"model" "*1"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"team_no" "1"
+"targetname" "azulpris2"
+"angle" "-2"
+}
+{
+"target" "azulpris2"
+"speed" "100"
+"model" "*2"
+"sounds" "2"
+"classname" "func_button"
+"wait" "5"
+"angle" "270"
+}
+{
+"speed" "300"
+"model" "*3"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"targetname" "azulpris"
+"angle" "-2"
+}
+{
+"target" "azulpris"
+"speed" "100"
+"model" "*4"
+"sounds" "2"
+"classname" "func_button"
+"wait" "5"
+"angle" "90"
+}
+{
+"g_a" "1"
+"target" "azulpris2"
+"classname" "i_t_g"
+"origin" "-1530 208 46"
+"team_no" "1"
+}
+{
+"g_a" "1"
+"target" "azulpris2"
+"classname" "i_t_g"
+"origin" "-1530 196 46"
+"team_no" "1"
+}
+{
+"model" "*5"
+"classname" "trigger_once"
+"health" "65535"
+}
+{
+"g_a" "1"
+"ammo_shells" "250"
+"netname" "Muni Azul"
+"message" "ׂודבעעוחבמהן\n"
+"classname" "i_t_g"
+"noise" "misc/vapeur2.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-1798 0 364"
+"wait" "2"
+"g_e" "1"
+"ammo_nails" "250"
+"ammo_medikit" "250"
+"armorvalue" "300"
+"health" "100"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+}
+{
+"g_a" "1"
+"ammo_shells" "250"
+"netname" "Muni Azul"
+"message" "ׂודבעעוחבמהן\n"
+"classname" "i_t_g"
+"noise" "misc/vapeur2.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-1730 -828 28"
+"wait" "2"
+"g_e" "1"
+"ammo_nails" "250"
+"ammo_medikit" "250"
+"armorvalue" "300"
+"health" "100"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+}
+{
+"classname" "item_rockets"
+"origin" "-1712 -668 0"
+}
+{
+"classname" "item_rockets"
+"origin" "-1712 -708 0"
+}
+{
+"classname" "item_rockets"
+"origin" "280 1056 0"
+}
+{
+"classname" "item_rockets"
+"origin" "240 1056 0"
+}
+{
+"classname" "item_rockets"
+"origin" "200 1056 0"
+}
+{
+"g_a" "1"
+"ammo_shells" "250"
+"netname" "Muni Azul"
+"message" "ׂודבעעוחבמהן\n"
+"classname" "i_t_g"
+"noise" "misc/vapeur2.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "38 1132 28"
+"wait" "2"
+"g_e" "1"
+"ammo_nails" "250"
+"ammo_medikit" "250"
+"armorvalue" "300"
+"health" "100"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+}
+{
+"g_a" "1"
+"ammo_shells" "250"
+"netname" "MegaPack"
+"classname" "i_t_g"
+"noise" "items/protect.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-1702 0 364"
+"no_grenades_2" "4"
+"wait" "600"
+"super_damage_finished" "10"
+"g_e" "1"
+"ammo_nails" "250"
+"ammo_medikit" "250"
+"armorvalue" "300"
+"invincible_finished" "10"
+"health" "100"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+}
+{
+"g_a" "1"
+"message" "Um detpack....\n"
+"netname" "detpack item"
+"classname" "i_t_g"
+"origin" "-2200 208 -154"
+"noise" "misc/medkey.wav"
+"wait" "60"
+"playerclass" "4"
+"g_e" "1"
+"skin" "0"
+"mdl" "progs/detpack.mdl"
+"ammo_detpack" "1"
+}
+{
+"g_a" "1"
+"netname" "detpack item"
+"message" "Um detpack....\n"
+"classname" "i_t_g"
+"noise" "misc/medkey.wav"
+"origin" "-1008 -1088 -240"
+"wait" "60"
+"playerclass" "4"
+"g_e" "1"
+"skin" "0"
+"mdl" "progs/detpack.mdl"
+"ammo_detpack" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-1840 -495.9 56"
+"team_no" "1"
+"angle" "270"
+}
+{
+"classname" "i_p_t"
+"origin" "-1728.2 -496 56"
+"team_no" "1"
+"angle" "271"
+}
+{
+"classname" "i_p_t"
+"origin" "-1783.9 -495.8 56"
+"team_no" "1"
+"angle" "269"
+}
+{
+"classname" "i_p_t"
+"origin" "312 1416 48"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "i_p_t"
+"origin" "312 1360 48"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "i_p_t"
+"origin" "312 1304 48"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "i_p_t"
+"origin" "312 1248 48"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "i_p_t"
+"origin" "312 1192 48"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "i_p_t"
+"origin" "312 1136 48"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "ambient_drip"
+"origin" "-2064 432 -136"
+}
+{
+"classname" "ambient_comp_hum"
+"origin" "-808 -1592 72"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "-2064 -1368 48"
+}
+{
+"classname" "ambient_swamp1"
+"origin" "-552 1008 -248"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "-474 2360 48"
+}
+{
+"classname" "ambient_swamp1"
+"origin" "-552 -1008 -248"
+}
+{
+"classname" "i_t_g"
+"origin" "-1984 800 -176"
+"angle" "236"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-1944 648 -176"
+"angle" "160"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-1976 744 -176"
+"angle" "204"
+"mdl" "progs/gib1.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2112 760 -176"
+"angle" "344"
+"mdl" "progs/gib1.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2096 648 -176"
+"angle" "30"
+"mdl" "progs/gib2.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-1992 608 -176"
+"angle" "97"
+"mdl" "progs/gib2.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2016 672 -176"
+"angle" "51"
+"mdl" "progs/gib3.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2072 792 -176"
+"angle" "318"
+"mdl" "progs/gib3.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 784 -168"
+"angle" "290"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 768 -168"
+"angle" "21"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 752 -168"
+"angle" "237"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 736 -168"
+"angle" "237"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 720 -168"
+"angle" "145"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 704 -168"
+"angle" "88"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 688 -168"
+"angle" "301"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 672 -168"
+"angle" "249"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 656 -168"
+"angle" "275"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 640 -168"
+"angle" "212"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 624 -168"
+"angle" "26"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2160 608 -168"
+"angle" "333"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2072 600 -176"
+"angle" "70"
+"mdl" "progs/gib2.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2024 760 -176"
+"angle" "186"
+"mdl" "progs/gib2.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-1944 776 -176"
+"angle" "258"
+"mdl" "progs/gib1.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2104 704 -176"
+"angle" "335"
+"mdl" "progs/gib2.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-1952 704 -176"
+"angle" "181"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-768 1992 8"
+"angle" "205"
+"mdl" "progs/h_player.mdl"
+}
+{
+"speed" "300"
+"model" "*6"
+"sounds" "2"
+"classname" "func_door"
+"wait" "0"
+"angle" "-2"
+}
+{
+"speed" "300"
+"model" "*7"
+"sounds" "2"
+"classname" "func_door"
+"wait" "0"
+"angle" "-1"
+}
+{
+"speed" "200"
+"model" "*8"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"angle" "270"
+}
+{
+"speed" "200"
+"model" "*9"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"angle" "90"
+}
+{
+"speed" "50"
+"model" "*10"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"dmg" "500"
+"health" "70"
+"angle" "-1"
+}
+{
+"speed" "300"
+"model" "*11"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"dmg" "500"
+"team_no" "1"
+"angle" "-2"
+}
+{
+"speed" "500"
+"model" "*12"
+"sounds" "2"
+"classname" "func_door"
+"wait" "0"
+"team_no" "1"
+"angle" "-2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-2020.2 0 384"
+"angle" "360"
+"targetname" "azultele1"
+}
+{
+"target" "azultele1"
+"model" "*13"
+"classname" "trigger_teleport"
+}
+{
+"target" "azultele1"
+"model" "*14"
+"classname" "trigger_teleport"
+}
+{
+"model" "*15"
+"classname" "trigger_push"
+"angle" "270"
+}
+{
+"model" "*16"
+"classname" "trigger_push"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "-1224 -688 288"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1224 -56 264"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1224 72 264"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1224 688 288"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-896 -352 88"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-896 352 88"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1544 352 152"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1208 352 160"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-1224 -352 160"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-1528 672 56"
+"style" "0"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-1528 144 56"
+"style" "0"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-1772 288 46"
+"style" "4"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-1584 744 424"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-864 744 416"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-1584 -736 424"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-864 -744 424"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-896 352 432"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-1552 0 432"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-1216 824 48"
+"style" "0"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-1232 1152 48"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-1360 -1048 164"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-1842 0 396"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-896 -352 432"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-912 0 -104"
+"style" "0"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "-1772 416 46"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-1772 544 46"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-1772 672 46"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-400 1136 48"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "176 1248 48"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-496 1552 48"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-808 2152 16"
+"style" "0"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-696 2056 64"
+"style" "0"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-424 2056 64"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2064 720 -136"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-1872 1024 -32"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-1696 -1592 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-1352 -1376 88"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-864 -1376 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-864 -1152 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-2184 704 -128"
+"style" "0"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-1352 -1592 88"
+"style" "0"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "-1552 824 48"
+"style" "0"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-1848 -1376 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-2064 -1368 48"
+"style" "11"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-1848 -1152 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-806 -1592 74"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-1872 1312 -32"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-2048 -488 -64"
+"style" "0"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-1768 -1852 36"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1696 800 400"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-1872 1312 352"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-1000 -1592 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-1872 880 400"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-1872 1320 -204"
+"style" "0"
+"light" "50"
+}
+{
+"classname" "light"
+"origin" "-1784 -672 56"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-1216 816 400"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-2064 0 -136"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light_fluoro"
+"origin" "-1440 0 -112"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "-472 2360 172"
+"style" "3"
+"light" "400"
+}
+{
+"classname" "light_fluorospark"
+"origin" "-808 1976 16"
+"style" "10"
+"light" "100"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1521 957 25"
+"light" "0"
+}
+{
+"classname" "light"
+"origin" "-1608 -952 52"
+"style" "0"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-936 704 -352"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-596 1012 -128"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-24 884 -188"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-24 1132 -188"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-936 -688 -352"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-596 -1004 -128"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-24 -1132 -188"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-24 -884 -188"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-1512 1584 396"
+"style" "4"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-1512 1328 396"
+"style" "4"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-1512 944 396"
+"style" "0"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "-1216 -1848 48"
+"style" "0"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-64 1136 48"
+"style" "4"
+"light" "100"
+}
+{
+"speed" "4000"
+"model" "*17"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"targetname" "adet1"
+"angle" "-2"
+}
+{
+"g_a" "2"
+"target" "adet1"
+"classname" "i_t_g"
+"origin" "-1872 0 -144"
+}
+{
+"g_a" "2"
+"target" "adet1"
+"classname" "i_t_g"
+"origin" "-1976 0 -168"
+}
+{
+"speed" "4000"
+"model" "*18"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"targetname" "adet2"
+"angle" "-2"
+}
+{
+"g_a" "2"
+"target" "adet2"
+"classname" "i_t_g"
+"origin" "-2064 264 -136"
+}
+{
+"g_a" "2"
+"target" "adet3"
+"classname" "i_t_g"
+"origin" "-1872 1200 -126"
+"b_b" "Grade Azul Explodiu.\n"
+}
+{
+"speed" "4000"
+"model" "*19"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"targetname" "adet3"
+"angle" "-1"
+}
+{
+"speed" "4000"
+"model" "*20"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"targetname" "adet3"
+"angle" "-2"
+}
+{
+"g_a" "2"
+"target" "adet4"
+"classname" "i_t_g"
+"origin" "-1836 -1856 108"
+}
+{
+"g_a" "2"
+"target" "adet4"
+"classname" "i_t_g"
+"origin" "-1884 -1856 108"
+}
+{
+"spawnflags" "32"
+"speed" "4000"
+"model" "*21"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"targetname" "adet4"
+"angle" "-2"
+}
+{
+"target" "acadeia1"
+"model" "*22"
+"classname" "trigger_teleport"
+"team_no" "2"
+}
+{
+"target" "acadeia2"
+"model" "*23"
+"classname" "trigger_teleport"
+"team_no" "2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1782 570 12"
+"targetname" "acadeia1"
+"angle" "360"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1782 442 12"
+"targetname" "acadeia2"
+"angle" "360"
+}
+{
+"g_a" "1"
+"ammo_shells" "-200"
+"netname" "fica preso red 1"
+"message" "Voce esta preso!!\n"
+"classname" "i_t_g"
+"origin" "-1782 442 12"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "3"
+"g_e" "1"
+"ammo_nails" "-200"
+"deathtype" " apodreceu na cadeia.\n"
+"armorvalue" "-300"
+"health" "-1"
+"team_no" "2"
+"ammo_cells" "-200"
+"ammo_rockets" "-100"
+"ammo_detpack" "-2"
+}
+{
+"g_a" "1"
+"ammo_shells" "-200"
+"netname" "fica preso red 2"
+"message" "Voce esta preso!!\n"
+"classname" "i_t_g"
+"origin" "-1782 570 12"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "3"
+"g_e" "1"
+"ammo_nails" "-200"
+"deathtype" " apodreceu na cadeia.\n"
+"armorvalue" "-300"
+"health" "-1"
+"team_no" "2"
+"ammo_cells" "-200"
+"ammo_rockets" "-100"
+"ammo_detpack" "-2"
+}
+{
+"spawnflags" "32"
+"speed" "10"
+"model" "*24"
+"sounds" "2"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "500"
+"targetname" "ceaportaabre"
+"angle" "-2"
+}
+{
+"g_a" "1"
+"target" "ceazulabre"
+"message" "Porta azul foi destravada!\n"
+"classname" "i_t_g"
+"noise" "doors/runeuse.wav"
+"origin" "-724 -1698 32"
+"wait" "30"
+"b_b" "Porta azul foi destravada!\n"
+"g_e" "1"
+"team_no" "2"
+}
+{
+"classname" "i_t_g"
+"b_b" "Porta azul fechou!\n"
+"targetname" "ceainforma"
+}
+{
+"target" "ceaportaabre"
+"classname" "trigger_relay"
+"delay" "0"
+"targetname" "ceazulabre"
+}
+{
+"target" "ceainforma"
+"classname" "trigger_relay"
+"delay" "30"
+"targetname" "ceazulabre"
+}
+{
+"target" "ceaportaabre"
+"classname" "trigger_relay"
+"delay" "30"
+"targetname" "ceazulabre"
+}
+{
+"target" "eazulexec"
+"classname" "trigger_relay"
+"delay" "33"
+"targetname" "ceazulabre"
+}
+{
+"target" "bazulexec"
+"model" "*25"
+"classname" "func_button"
+"wait" "15"
+"targetname" "botaoazul"
+"angle" "0"
+}
+{
+"g_a" "1"
+"target" "botaoazul"
+"classname" "i_t_g"
+"origin" "-133 2212 41"
+"noise" "weapons/lstart.wav"
+"wait" "15"
+"g_e" "1"
+}
+{
+"target" "eazulexec"
+"classname" "trigger_relay"
+"delay" "0"
+"targetname" "bazulexec"
+}
+{
+"classname" "i_t_g"
+"origin" "-738 2422 80"
+"g_e" "16"
+"deathtype" " foi eletrocutado\n"
+"health" "-500"
+"t_length" "200"
+"targetname" "eazulexec"
+}
+{
+"classname" "i_t_g"
+"origin" "-474 2422 80"
+"g_e" "16"
+"deathtype" " foi eletrocutado\n"
+"health" "-500"
+"t_length" "200"
+"targetname" "eazulexec"
+}
+{
+"classname" "i_t_g"
+"origin" "-234 2414 80"
+"g_e" "16"
+"deathtype" " foi eletrocutado\n"
+"health" "-500"
+"t_length" "200"
+"targetname" "eazulexec"
+}
+{
+"classname" "i_t_g"
+"origin" "-198 2248 38"
+"g_e" "16"
+"deathtype" " foi eletrocutado\n"
+"health" "-500"
+"targetname" "eazulexec"
+}
+{
+"g_a" "692"
+"owned_by" "1"
+"message" "Voce esta com a chave\nDestranque a cela!\n"
+"netname" "Chave Azul"
+"d_n_n" " perdeu a chave azul\n"
+"classname" "item_tfgoal"
+"origin" "-1216 -1804 48"
+"n_b" " pegou a chave azul\n"
+"noise" "zombie/z_idle.wav"
+"b_b" "Vermelhos roubam a chave azul\n"
+"g_e" "1"
+"d_t" "Vermelhos perdem a chave azul\n"
+"noise3" "Chave azul retornou\n"
+"items" "262144"
+"goal_no" "1"
+"noise4" "Chave azul retornou\n"
+"pausetime" "60"
+"team_no" "2"
+"skin" "0"
+"d_n" "Vermelhos perdem a chave azul\n"
+"mdl" "progs/chave1.mdl"
+}
+{
+"g_a" "1"
+"items_allowed" "1"
+"target" "achavedrop"
+"message" "Cela azul foi destrancada!\n"
+"netname" "Chave Azul dropoff"
+"axhitme" "1"
+"classname" "i_t_g"
+"origin" "-744 2151 54"
+"noise" "doors/runetry.wav"
+"n_b" " destrancou a cela azul!\n"
+"b_b" "Cela azul foi destrancada!\n"
+"g_e" "33"
+"goal_result" "16"
+}
+{
+"classname" "i_t_g"
+"b_b" "A Cela azul foi trancada novamente\n"
+"targetname" "acelainforma"
+}
+{
+"target" "celaazul"
+"classname" "trigger_relay"
+"delay" "0"
+"targetname" "achavedrop"
+}
+{
+"target" "chaveazul"
+"classname" "trigger_relay"
+"delay" "0"
+"targetname" "achavedrop"
+}
+{
+"target" "celaazul"
+"classname" "trigger_relay"
+"delay" "60"
+"targetname" "achavedrop"
+}
+{
+"target" "chaveazul"
+"classname" "trigger_relay"
+"delay" "60"
+"targetname" "achavedrop"
+}
+{
+"target" "acelainforma"
+"classname" "trigger_relay"
+"delay" "60"
+"targetname" "achavedrop"
+}
+{
+"spawnflags" "32"
+"speed" "300"
+"model" "*26"
+"sounds" "2"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "500"
+"targetname" "celaazul"
+"angle" "-2"
+}
+{
+"spawnflags" "32"
+"speed" "4000"
+"model" "*27"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "500"
+"targetname" "chaveazul"
+"angle" "90"
+}
+{
+"model" "*28"
+"classname" "trigger_hurt"
+"dmg" "1000"
+}
+{
+"g_a" "181"
+"owned_by" "1"
+"message" "Voce esta com o prisioneiro!\nVa liberta-lo!!\n"
+"netname" "prisioneiro azul"
+"d_n_n" " perdeu o prisioneiro azul\n"
+"classname" "item_tfgoal"
+"origin" "-800 2200 24"
+"n_b" " raptou o prisioneiro azul\n"
+"noise" "ogre/ogwake.wav"
+"b_b" "Vermelhos raptaram o prisioneiro azul\n"
+"g_e" "1"
+"d_t" "Vermelhos perdem o prisioneiro azul\n"
+"noise3" "Prisioneiro azul voltou pra cadeia\n"
+"items" "131072"
+"goal_no" "2"
+"noise4" "Prisioneiro azul voltou pra cadeia\n"
+"pausetime" "60"
+"team_no" "2"
+"skin" "3"
+"d_n" "Vermelhos perdem o prisioneiro azul\n"
+"mdl" "progs/presos.mdl"
+"angle" "270"
+}
+{
+"g_a" "1"
+"owned_by" "1"
+"items_allowed" "2"
+"netname" "dropoff refem 1"
+"axhitme" "2"
+"classname" "i_t_g"
+"origin" "1512 -1504 360"
+"n_b" " libertou o prisioneiro azul!!\n"
+"noise" "misc/chink.wav"
+"g_e" "3"
+"b_b" "Vermelhos libertaram o prisioneiro\nmas ele foi capturado novamente...\n"
+"count" "50"
+"frags" "50"
+"t_length" "200"
+}
+{
+"g_a" "165"
+"owned_by" "1"
+"message" "Voce esta com o condenado!\nVa liberta-lo!!\n"
+"netname" "condenado azul"
+"d_n_n" " perdeu o condenado azul\n"
+"classname" "item_tfgoal"
+"origin" "-352 2328 24"
+"n_b" " raptou o condenado azul\n"
+"noise" "ogre/ogwake.wav"
+"b_b" "Vermelhos raptaram o condenado azul\n"
+"g_e" "1"
+"d_t" "Vermelhos perdem o condenado azul\n"
+"noise3" "Condenado azul voltou\npara a execucao\n"
+"items" "131072"
+"goal_no" "3"
+"noise4" "Condenado azul voltou\npara a execucao\n"
+"pausetime" "30"
+"team_no" "2"
+"skin" "1"
+"d_n" "Vermelhos perdem o condenado azul\n"
+"mdl" "progs/presos.mdl"
+"angle" "270"
+}
+{
+"g_a" "1"
+"owned_by" "1"
+"items_allowed" "3"
+"netname" "dropoff preso 1"
+"axhitme" "3"
+"classname" "i_t_g"
+"origin" "1512 -1504 360"
+"n_b" " libertou o condenado azul!!\n"
+"noise" "misc/chink.wav"
+"g_e" "3"
+"b_b" "Vermelhos libertaram o condenado\nantes dele ser executado\n"
+"count" "100"
+"frags" "100"
+"t_length" "200"
+}
+{
+"speed" "300"
+"model" "*29"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"team_no" "2"
+"targetname" "redpris2"
+"angle" "-2"
+}
+{
+"target" "redpris2"
+"speed" "100"
+"model" "*30"
+"sounds" "2"
+"classname" "func_button"
+"wait" "5"
+"angle" "90"
+}
+{
+"speed" "300"
+"model" "*31"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"targetname" "redpris"
+"angle" "-2"
+}
+{
+"target" "redpris"
+"speed" "100"
+"model" "*32"
+"sounds" "2"
+"classname" "func_button"
+"wait" "5"
+"angle" "270"
+}
+{
+"g_a" "1"
+"target" "redpris2"
+"classname" "i_t_g"
+"origin" "1530 -208 46"
+"team_no" "2"
+}
+{
+"g_a" "1"
+"target" "redpris2"
+"classname" "i_t_g"
+"origin" "1530 -196 46"
+"team_no" "2"
+}
+{
+"model" "*33"
+"classname" "trigger_once"
+"health" "65535"
+}
+{
+"g_a" "1"
+"ammo_shells" "250"
+"netname" "Muni Red"
+"message" "ׂודבעעוחבמהן\n"
+"classname" "i_t_g"
+"noise" "misc/vapeur2.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "1798 0 364"
+"wait" "2"
+"g_e" "1"
+"ammo_nails" "250"
+"ammo_medikit" "250"
+"armorvalue" "300"
+"health" "100"
+"team_no" "2"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+}
+{
+"g_a" "1"
+"ammo_shells" "250"
+"netname" "Muni Red"
+"message" "ׂודבעעוחבמהן\n"
+"classname" "i_t_g"
+"noise" "misc/vapeur2.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "1730 828 28"
+"wait" "2"
+"g_e" "1"
+"ammo_nails" "250"
+"ammo_medikit" "250"
+"armorvalue" "300"
+"health" "100"
+"team_no" "2"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+}
+{
+"classname" "item_rockets"
+"origin" "1680 636 0"
+}
+{
+"classname" "item_rockets"
+"origin" "1680 676 0"
+}
+{
+"classname" "item_rockets"
+"origin" "-280 -1088 0"
+}
+{
+"classname" "item_rockets"
+"origin" "-240 -1088 0"
+}
+{
+"classname" "item_rockets"
+"origin" "-200 -1088 0"
+}
+{
+"g_a" "1"
+"ammo_shells" "250"
+"netname" "Muni Red"
+"message" "ׂודבעעוחבמהן\n"
+"classname" "i_t_g"
+"noise" "misc/vapeur2.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-38 -1132 28"
+"wait" "2"
+"g_e" "1"
+"ammo_nails" "250"
+"ammo_medikit" "250"
+"armorvalue" "300"
+"health" "100"
+"team_no" "2"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+}
+{
+"g_a" "1"
+"ammo_shells" "250"
+"netname" "MegaPack"
+"classname" "i_t_g"
+"noise" "items/protect.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "1702 0 364"
+"no_grenades_2" "4"
+"wait" "600"
+"super_damage_finished" "10"
+"g_e" "1"
+"ammo_nails" "250"
+"ammo_medikit" "250"
+"armorvalue" "300"
+"invincible_finished" "10"
+"health" "100"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+}
+{
+"g_a" "1"
+"netname" "detpack item"
+"message" "Um detpack....\n"
+"classname" "i_t_g"
+"noise" "misc/medkey.wav"
+"origin" "1920 196 -154"
+"wait" "60"
+"playerclass" "4"
+"g_e" "1"
+"skin" "0"
+"mdl" "progs/detpack.mdl"
+"ammo_detpack" "1"
+}
+{
+"g_a" "1"
+"netname" "detpack item"
+"message" "Um detpack....\n"
+"classname" "i_t_g"
+"noise" "misc/medkey.wav"
+"origin" "864 920 -356"
+"wait" "60"
+"playerclass" "4"
+"g_e" "1"
+"skin" "0"
+"mdl" "progs/detpack.mdl"
+"ammo_detpack" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "1840 495.9 56"
+"team_no" "2"
+"angle" "90"
+}
+{
+"classname" "i_p_t"
+"origin" "1728.2 496 56"
+"team_no" "2"
+"angle" "91"
+}
+{
+"classname" "i_p_t"
+"origin" "1783.9 495.8 56"
+"team_no" "2"
+"angle" "89"
+}
+{
+"classname" "i_p_t"
+"origin" "-312 -1416 48"
+"team_no" "2"
+"angle" "360"
+}
+{
+"classname" "i_p_t"
+"origin" "-312 -1360 48"
+"team_no" "2"
+"angle" "360"
+}
+{
+"classname" "i_p_t"
+"origin" "-312 -1304 48"
+"team_no" "2"
+"angle" "360"
+}
+{
+"classname" "i_p_t"
+"origin" "-312 -1248 48"
+"team_no" "2"
+"angle" "360"
+}
+{
+"classname" "i_p_t"
+"origin" "-312 -1192 48"
+"team_no" "2"
+"angle" "360"
+}
+{
+"classname" "i_p_t"
+"origin" "-312 -1136 48"
+"team_no" "2"
+"angle" "360"
+}
+{
+"classname" "ambient_drip"
+"origin" "2064 -432 -136"
+}
+{
+"classname" "ambient_comp_hum"
+"origin" "808 1592 72"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "2064 1368 48"
+}
+{
+"classname" "ambient_swamp1"
+"origin" "552 -1008 -248"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "474 -2360 48"
+}
+{
+"classname" "ambient_swamp1"
+"origin" "552 1008 -248"
+}
+{
+"classname" "i_t_g"
+"origin" "1984 -800 -176"
+"angle" "56"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "1944 -648 -176"
+"angle" "340"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "1976 -744 -176"
+"angle" "24"
+"mdl" "progs/gib1.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2112 -760 -176"
+"angle" "164"
+"mdl" "progs/gib1.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2096 -648 -176"
+"angle" "210"
+"mdl" "progs/gib2.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "1992 -608 -176"
+"angle" "277"
+"mdl" "progs/gib2.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2016 -672 -176"
+"angle" "231"
+"mdl" "progs/gib3.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2072 -792 -176"
+"angle" "138"
+"mdl" "progs/gib3.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -784 -168"
+"angle" "110"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -768 -168"
+"angle" "201"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -752 -168"
+"angle" "57"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -736 -168"
+"angle" "57"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -720 -168"
+"angle" "325"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -704 -168"
+"angle" "268"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -688 -168"
+"angle" "121"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -672 -168"
+"angle" "69"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -656 -168"
+"angle" "95"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -640 -168"
+"angle" "32"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -624 -168"
+"angle" "206"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2160 -608 -168"
+"angle" "153"
+"mdl" "progs/h_player.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2072 -600 -176"
+"angle" "250"
+"mdl" "progs/gib2.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2024 -760 -176"
+"angle" "6"
+"mdl" "progs/gib2.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "1944 -776 -176"
+"angle" "78"
+"mdl" "progs/gib1.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "2104 -704 -176"
+"angle" "155"
+"mdl" "progs/gib2.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "1952 -704 -176"
+"mdl" "progs/h_player.mdl"
+"angle" "1"
+}
+{
+"classname" "i_t_g"
+"origin" "768 -1992 8"
+"mdl" "progs/h_player.mdl"
+"angle" "25"
+}
+{
+"speed" "300"
+"model" "*34"
+"sounds" "2"
+"classname" "func_door"
+"wait" "0"
+"angle" "-2"
+}
+{
+"speed" "300"
+"model" "*35"
+"sounds" "2"
+"classname" "func_door"
+"wait" "0"
+"angle" "-1"
+}
+{
+"speed" "200"
+"model" "*36"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"angle" "90"
+}
+{
+"speed" "200"
+"model" "*37"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"angle" "270"
+}
+{
+"speed" "50"
+"model" "*38"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"health" "70"
+"angle" "-1"
+}
+{
+"speed" "300"
+"model" "*39"
+"sounds" "4"
+"classname" "func_door"
+"wait" "0"
+"dmg" "500"
+"team_no" "2"
+"angle" "-2"
+}
+{
+"speed" "500"
+"model" "*40"
+"sounds" "2"
+"classname" "func_door"
+"wait" "0"
+"dmg" "500"
+"team_no" "2"
+"angle" "-2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "2020.2 0 384"
+"targetname" "redtele1"
+"angle" "180"
+}
+{
+"target" "redtele1"
+"model" "*41"
+"classname" "trigger_teleport"
+}
+{
+"target" "redtele1"
+"model" "*42"
+"classname" "trigger_teleport"
+}
+{
+"model" "*43"
+"classname" "trigger_push"
+"angle" "90"
+}
+{
+"model" "*44"
+"classname" "trigger_push"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "1224 688 288"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1224 56 264"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1224 -72 264"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1224 -688 288"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "896 352 88"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "896 -352 88"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1544 -352 152"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1208 -352 160"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "1224 352 160"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "1528 -672 56"
+"style" "0"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1528 -144 56"
+"style" "0"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1772 -288 46"
+"style" "4"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1584 -744 424"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "864 -744 416"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "1584 736 424"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "864 744 424"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "896 -352 432"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1552 0 432"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "1216 -824 48"
+"style" "0"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "1232 -1152 48"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1360 1048 164"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1842 0 396"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "896 352 432"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "912 0 -104"
+"style" "0"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "1772 -416 46"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1772 -544 46"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1772 -672 46"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "400 -1136 48"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-176 -1248 48"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "496 -1552 48"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "808 -2152 16"
+"style" "0"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "696 -2056 64"
+"style" "0"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "424 -2056 64"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "2064 -720 -136"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1872 -1024 -32"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1696 1592 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1352 1376 88"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "864 1376 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "864 1152 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "2184 -704 -128"
+"style" "0"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1352 1592 88"
+"style" "0"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "1552 -824 48"
+"style" "0"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "1848 1376 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "2064 1368 48"
+"style" "11"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1848 1152 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "806 1592 74"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "1872 -1312 -32"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "2048 488 -64"
+"style" "0"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1768 1852 36"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1696 -800 400"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1872 -1312 352"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1000 1592 88"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1872 -880 400"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1872 -1320 -204"
+"style" "0"
+"light" "50"
+}
+{
+"classname" "light"
+"origin" "1784 672 56"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1216 -816 400"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "2064 0 -136"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light_fluoro"
+"origin" "1440 0 -112"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "472 -2360 172"
+"style" "3"
+"light" "400"
+}
+{
+"classname" "light_fluorospark"
+"origin" "808 -1976 16"
+"style" "10"
+"light" "100"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1521 -957 25"
+"light" "0"
+}
+{
+"classname" "light"
+"origin" "1608 952 52"
+"style" "0"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "936 -704 -352"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "596 -1012 -128"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "24 -884 -188"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "24 -1132 -188"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "936 688 -352"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "596 1004 -128"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "24 1132 -188"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "24 884 -188"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1512 -1584 396"
+"style" "4"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "1512 -1328 396"
+"style" "4"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "1512 -944 396"
+"style" "0"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "1216 1848 48"
+"style" "0"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "64 -1136 48"
+"style" "4"
+"light" "100"
+}
+{
+"speed" "4000"
+"model" "*45"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"targetname" "rdet1"
+"angle" "-2"
+}
+{
+"g_a" "2"
+"target" "rdet1"
+"classname" "i_t_g"
+"origin" "1872 0 -144"
+}
+{
+"g_a" "2"
+"target" "rdet1"
+"classname" "i_t_g"
+"origin" "1976 0 -168"
+}
+{
+"speed" "4000"
+"model" "*46"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"targetname" "rdet2"
+"angle" "-2"
+}
+{
+"g_a" "2"
+"target" "rdet2"
+"classname" "i_t_g"
+"origin" "2064 -264 -136"
+}
+{
+"g_a" "2"
+"target" "rdet3"
+"classname" "i_t_g"
+"origin" "1872 -1200 -126"
+"b_b" "Grade Vermelha Explodiu.\n"
+}
+{
+"speed" "4000"
+"model" "*47"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"targetname" "rdet3"
+"angle" "-1"
+}
+{
+"speed" "4000"
+"model" "*48"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"targetname" "rdet3"
+"angle" "-2"
+}
+{
+"g_a" "2"
+"target" "rdet4"
+"classname" "i_t_g"
+"origin" "1836 1856 108"
+}
+{
+"g_a" "2"
+"target" "rdet4"
+"classname" "i_t_g"
+"origin" "1884 1856 108"
+}
+{
+"spawnflags" "32"
+"speed" "4000"
+"model" "*49"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"targetname" "rdet4"
+"angle" "-2"
+}
+{
+"target" "rcadeia1"
+"model" "*50"
+"classname" "trigger_teleport"
+"team_no" "1"
+}
+{
+"target" "rcadeia2"
+"model" "*51"
+"classname" "trigger_teleport"
+"team_no" "1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1782 -570 12"
+"targetname" "rcadeia1"
+"angle" "180"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1782 -442 12"
+"targetname" "rcadeia2"
+"angle" "180"
+}
+{
+"g_a" "1"
+"ammo_shells" "-200"
+"netname" "vaipreso"
+"message" "Voce esta preso!!\n"
+"classname" "i_t_g"
+"origin" "1782 -442 12"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "3"
+"g_e" "1"
+"ammo_nails" "-200"
+"deathtype" " apodreceu na cadeia.\n"
+"armorvalue" "-300"
+"health" "-1"
+"team_no" "1"
+"ammo_cells" "-200"
+"ammo_rockets" "-100"
+"ammo_detpack" "-2"
+}
+{
+"g_a" "1"
+"ammo_shells" "-200"
+"netname" "vaipreso"
+"message" "Voce esta preso!!\n"
+"classname" "i_t_g"
+"origin" "1782 -570 12"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "3"
+"g_e" "1"
+"ammo_nails" "-200"
+"deathtype" " apodreceu na cadeia.\n"
+"armorvalue" "-300"
+"health" "-1"
+"team_no" "1"
+"ammo_cells" "-200"
+"ammo_rockets" "-100"
+"ammo_detpack" "-2"
+}
+{
+"spawnflags" "32"
+"speed" "10"
+"model" "*52"
+"sounds" "2"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "500"
+"targetname" "cerportaabre"
+"angle" "-2"
+}
+{
+"g_a" "1"
+"target" "ceredabre"
+"message" "Porta vermelha foi destravada!\n"
+"classname" "i_t_g"
+"origin" "724 1698 32"
+"noise" "doors/runeuse.wav"
+"wait" "30"
+"g_e" "1"
+"b_b" "Porta vermelha foi destravada!!!"
+"team_no" "1"
+}
+{
+"classname" "i_t_g"
+"b_b" "Porta vermelha fechou!!\n"
+"targetname" "cerinforma"
+}
+{
+"target" "cerportaabre"
+"classname" "trigger_relay"
+"delay" "0"
+"targetname" "ceredabre"
+}
+{
+"target" "cerinforma"
+"classname" "trigger_relay"
+"delay" "30"
+"targetname" "ceredabre"
+}
+{
+"target" "cerportaabre"
+"classname" "trigger_relay"
+"delay" "30"
+"targetname" "ceredabre"
+}
+{
+"target" "eredexec"
+"classname" "trigger_relay"
+"delay" "33"
+"targetname" "ceredabre"
+}
+{
+"target" "bredexec"
+"model" "*53"
+"classname" "func_button"
+"wait" "15"
+"targetname" "botaored"
+"angle" "180"
+}
+{
+"g_a" "1"
+"target" "botaored"
+"classname" "i_t_g"
+"noise" "weapons/lstart.wav"
+"origin" "133 -2212 41"
+"wait" "15"
+"g_e" "1"
+}
+{
+"target" "eredexec"
+"classname" "trigger_relay"
+"delay" "0"
+"targetname" "bredexec"
+}
+{
+"classname" "i_t_g"
+"origin" "738 -2422 80"
+"g_e" "16"
+"deathtype" " foi eletrocutado\n"
+"health" "-500"
+"t_length" "200"
+"targetname" "eredexec"
+}
+{
+"classname" "i_t_g"
+"origin" "474 -2422 80"
+"g_e" "16"
+"deathtype" " foi eletrocutado\n"
+"health" "-500"
+"t_length" "200"
+"targetname" "eredexec"
+}
+{
+"classname" "i_t_g"
+"origin" "234 -2414 80"
+"g_e" "16"
+"deathtype" " foi eletrocutado\n"
+"health" "-500"
+"t_length" "200"
+"targetname" "eredexec"
+}
+{
+"classname" "i_t_g"
+"origin" "198 -2248 38"
+"g_e" "16"
+"deathtype" " foi eletrocutado\n"
+"health" "-500"
+"targetname" "eredexec"
+}
+{
+"g_a" "692"
+"owned_by" "2"
+"message" "Voce esta com a chave\nDestranque a cela!\n"
+"netname" "Chave Vermelha"
+"d_n_n" " perdeu a chave vermelha\n"
+"classname" "item_tfgoal"
+"origin" "1216 1804 48"
+"n_b" " pegou a chave vermelha\n"
+"noise" "zombie/z_idle.wav"
+"b_b" "Azuis roubam a chave vermelha\n"
+"g_e" "1"
+"d_t" "Azuis perdem a chave vermelha\n"
+"noise3" "Chave vermelha retornou\n"
+"items" "262144"
+"goal_no" "11"
+"noise4" "Chave vermelha retornou\n"
+"pausetime" "60"
+"team_no" "1"
+"skin" "1"
+"d_n" "Azuis perdem a chave vermelha\n"
+"mdl" "progs/chave1.mdl"
+}
+{
+"g_a" "1"
+"items_allowed" "11"
+"target" "rchavedrop"
+"message" "Cela vermelha foi destrancada!\n"
+"netname" "Chave Vermelha dropoff"
+"axhitme" "11"
+"classname" "i_t_g"
+"origin" "744 -2151 54"
+"noise" "doors/runetry.wav"
+"n_b" " destrancou a cela vermelha!\n"
+"b_b" "Cela vermelha foi destrancada!\n"
+"g_e" "33"
+"goal_result" "16"
+}
+{
+"classname" "i_t_g"
+"b_b" "A Cela vermelha foi trancada novamente\n"
+"targetname" "rcelainforma"
+}
+{
+"target" "celared"
+"classname" "trigger_relay"
+"delay" "0"
+"targetname" "rchavedrop"
+}
+{
+"target" "chavered"
+"classname" "trigger_relay"
+"delay" "0"
+"targetname" "rchavedrop"
+}
+{
+"target" "celared"
+"classname" "trigger_relay"
+"delay" "60"
+"targetname" "rchavedrop"
+}
+{
+"target" "chavered"
+"classname" "trigger_relay"
+"delay" "60"
+"targetname" "rchavedrop"
+}
+{
+"target" "rcelainforma"
+"classname" "trigger_relay"
+"delay" "60"
+"targetname" "rchavedrop"
+}
+{
+"spawnflags" "32"
+"speed" "300"
+"model" "*54"
+"sounds" "2"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "500"
+"targetname" "celared"
+"angle" "-2"
+}
+{
+"spawnflags" "32"
+"speed" "4000"
+"model" "*55"
+"sounds" "0"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "500"
+"targetname" "chavered"
+"angle" "270"
+}
+{
+"model" "*56"
+"classname" "trigger_hurt"
+"dmg" "1000"
+}
+{
+"g_a" "181"
+"owned_by" "2"
+"netname" "presidiario vermelho"
+"message" "Voce esta com o presidiario!\nVa liberta-lo!!\n"
+"d_n_n" " perdeu o presidiario vermelho\n"
+"classname" "item_tfgoal"
+"noise" "ogre/ogwake.wav"
+"n_b" " raptou o presidiario vermelho\n"
+"origin" "800 -2200 24"
+"g_e" "1"
+"b_b" "Azuis raptaram o presidiario vermelho\n"
+"d_t" "Azuis perdem o presidiario vermelho\n"
+"goal_no" "12"
+"items" "131072"
+"noise3" "Presidiario vermelho voltou pra cadeia\n"
+"noise4" "Presidiario vermelho voltou pra cadeia\n"
+"team_no" "1"
+"pausetime" "60"
+"skin" "2"
+"angle" "90"
+"mdl" "progs/presos.mdl"
+"d_n" "Azuis perdem o presidiario vermelho\n"
+}
+{
+"g_a" "1"
+"owned_by" "2"
+"items_allowed" "12"
+"netname" "dropoff presidiario azul"
+"axhitme" "12"
+"classname" "i_t_g"
+"noise" "misc/chink.wav"
+"n_b" " libertou o presidiario vermelho!!\n"
+"origin" "-1512 1504 360"
+"b_b" "Azuis libertaram o presidiario\nmas ele foi capturado novamente...\n"
+"g_e" "3"
+"count" "50"
+"frags" "50"
+"t_length" "200"
+}
+{
+"g_a" "165"
+"owned_by" "2"
+"message" "Voce esta com o condenado!\nVa liberta-lo!!\n"
+"netname" "condenado vermelho"
+"d_n_n" " perdeu o condenado vermelho\n"
+"classname" "item_tfgoal"
+"origin" "352 -2328 24"
+"n_b" " raptou o condenado vermelho\n"
+"noise" "ogre/ogwake.wav"
+"b_b" "Azuis raptaram o condenado vermelho\n"
+"g_e" "1"
+"d_t" "Azuis perdem o condenado vermelho\n"
+"noise3" "Condenado vermelho voltou\npara a execucao\n"
+"items" "131072"
+"goal_no" "13"
+"noise4" "Condenado vermelho voltou\npara a execucao\n"
+"pausetime" "30"
+"team_no" "1"
+"skin" "0"
+"d_n" "Azuis perdem o condenado vermelho\n"
+"mdl" "progs/presos.mdl"
+"angle" "90"
+}
+{
+"g_a" "1"
+"items_allowed" "13"
+"netname" "dropoff condenado azul"
+"axhitme" "13"
+"classname" "i_t_g"
+"origin" "-1512 1504 360"
+"n_b" " libertou o condenado vermelho!!\n"
+"noise" "misc/chink.wav"
+"g_e" "3"
+"b_b" "Azuis libertaram o condenado\nantes dele ser executado\n"
+"count" "100"
+"frags" "100"
+"t_length" "200"
+}

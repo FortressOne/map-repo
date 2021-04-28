@@ -1,0 +1,1521 @@
+{
+"classname" "worldspawn"
+"wad" "C:\Program Files\Qoole\work\techwar1.wad"
+"message" "Tech War -- By VenoM"
+"worldtype" "2"
+"light" "100"
+}
+{
+"classname" "func_door"
+"speed" "500"
+"sounds" "1"
+"wait" "5"
+"lip" "8"
+"angle" "0"
+"targetname" "blue_water_passage"
+"target" "blue_water_button"
+"model" "*1"
+}
+{
+"classname" "info_tfdetect"
+"non_team_str_carried" "The enemy flag is being carried by"
+"non_team_str_moved" "The enemy flag is lying around."
+"non_team_str_home" "The enemy flag is in their base."
+"team_str_carried" "Your flag is being carried by"
+"team_str_moved" "Your flag is lying around."
+"team_str_home" "Your flag is in your base."
+"non_team_broadcast" "Tech War: Get the enemy's flag from the water tunnel of their fort and take it "
+"display_item_status2" "2"
+"display_item_status1" "1"
+"origin" "0 0 384"
+"hook_out" "1"
+"team_broadcast" "-=[Choose Your Destiny]=-\n[1]...Tech Force 1 \n[2]...Tech Force 2\n"
+"broadcast" "TeamFortress v2.6"
+}
+{
+"classname" "func_plat"
+"speed" "450"
+"team_no" "2"
+"model" "*2"
+}
+{
+"classname" "func_plat"
+"speed" "450"
+"height" "0"
+"team_no" "2"
+"model" "*3"
+}
+{
+"classname" "func_plat"
+"speed" "450"
+"height" "0"
+"team_no" "1"
+"model" "*4"
+}
+{
+"classname" "func_plat"
+"speed" "450"
+"height" "0"
+"team_no" "1"
+"model" "*5"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Red_s1"
+"origin" "-576 -560 416"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Red_s2"
+"origin" "-576 560 416"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Blue_s1"
+"origin" "576 -560 416"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_player_start"
+"origin" "0 0 208"
+"angle" "90"
+}
+{
+"classname" "light"
+"origin" "528 -656 240"
+"light" "400"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "528 656 240"
+"light" "400"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-528 -656 240"
+"light" "400"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-528 656 240"
+"light" "400"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "384 0 320"
+"light" "200"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-384 0 320"
+"light" "200"
+"style" "0"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"target" "bridge2"
+"goal_result" "1"
+"goal_no" "2"
+"broadcast" "Tech Force 2 has delayed Tech Force 1's passage"
+"message" "You destroyed your 2nd bridge"
+"origin" "-1024 560 14"
+"team_no" "2"
+"count" "1"
+"frags" "1"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "-752 560 194"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "-1296 560 194"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "-752 -560 194"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "-1296 -560 194"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"target" "bridge3"
+"goal_result" "1"
+"goal_no" "3"
+"origin" "1024 -560 14"
+"broadcast" "Tech Force 1 has delayed Tech Force 2's passage"
+"message" "You destroyed your 2nd bridge"
+"team_no" "1"
+"count" "1"
+"frags" "1"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "1296 -560 194"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "752 -560 194"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"target" "bridge4"
+"goal_result" "1"
+"goal_no" "4"
+"origin" "1024 560 14"
+"broadcast" "Tech Force 1 has delayed Tech Force 2's passage"
+"message" "You destroyed your 1st bridge"
+"team_no" "1"
+"count" "1"
+"frags" "1"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "1296 560 194"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "752 560 194"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "432 560 272"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "128 0 256"
+"angle" "0"
+"targetname" "tele_red"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "0 -752 112"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "0 752 112"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "0 48 144"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "0 -48 144"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "48 0 144"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "-48 0 144"
+"light" "100"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele_red"
+"team_no" "2"
+"model" "*6"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele_blue"
+"team_no" "1"
+"model" "*7"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "432 -560 272"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-432 -560 272"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-432 560 272"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-272 0 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-120 256 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-208 0 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-128 -256 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "64 -256 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-64 256 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "128 -256 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "128 256 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "208 0 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "272 0 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-432 128 128"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-432 -128 128"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "432 -128 128"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "432 128 128"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1024 -752 112"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1024 752 112"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1024 752 112"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1024 -752 112"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "512 -464 160"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "512 464 160"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-512 464 160"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-512 -464 160"
+"light" "500"
+"style" "0"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-128 0 256"
+"angle" "180"
+"targetname" "tele_blue"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "368 -512 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "256 -592 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "368 512 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "256 592 112"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-368 512 128"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-256 592 128"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-256 -592 128"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-368 -512 128"
+"light" "300"
+"style" "0"
+}
+{
+"classname" "light"
+"origin" "-1280 0 160"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1280 0 128"
+"light" "300"
+}
+{
+"classname" "func_door"
+"speed" "500"
+"sounds" "0"
+"wait" "0"
+"lip" "0"
+"spawnflags" "36"
+"health" "0"
+"dmg" "0"
+"targetname" "bridge1"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"spawnflags" "36"
+"targetname" "bridge1"
+"speed" "500"
+"sounds" "0"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"angle" "180"
+"model" "*9"
+}
+{
+"classname" "func_door"
+"spawnflags" "36"
+"targetname" "bridge1"
+"speed" "500"
+"sounds" "0"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"model" "*10"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"target" "bridge1"
+"goal_result" "1"
+"goal_no" "1"
+"origin" "-1025 -560 16"
+"broadcast" "Tech Force 2 has delayed Tech Force 1's passage"
+"message" "You destroyed your 1st bridge"
+"team_no" "2"
+"count" "1"
+"frags" "1"
+}
+{
+"classname" "func_button"
+"angle" "180"
+"speed" "100"
+"sounds" "1"
+"wait" "1"
+"lip" "1"
+"dmg" "0"
+"health" "25"
+"target" "bridge1"
+"delay" "1"
+"if_goal_is_removed" "1"
+"restore_goal_no" "1"
+"goal_activation" "1"
+"team_no" "1"
+"frags" "2"
+"playerclass" "9"
+"model" "*11"
+}
+{
+"classname" "func_door"
+"speed" "500"
+"sounds" "0"
+"wait" "0"
+"lip" "0"
+"spawnflags" "36"
+"health" "0"
+"dmg" "0"
+"targetname" "bridge2"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"spawnflags" "36"
+"targetname" "bridge2"
+"speed" "500"
+"sounds" "0"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"angle" "180"
+"model" "*13"
+}
+{
+"classname" "func_door"
+"spawnflags" "36"
+"targetname" "bridge2"
+"speed" "500"
+"sounds" "0"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"model" "*14"
+}
+{
+"classname" "func_button"
+"angle" "180"
+"speed" "100"
+"sounds" "0"
+"wait" "1"
+"lip" "0"
+"dmg" "0"
+"target" "bridge2"
+"delay" "1"
+"if_goal_is_removed" "1"
+"restore_goal_no" "1"
+"goal_activation" "1"
+"team_no" "1"
+"count" "0"
+"frags" "2"
+"playerclass" "9"
+"health" "25"
+"model" "*15"
+}
+{
+"classname" "func_door"
+"speed" "500"
+"sounds" "0"
+"wait" "0"
+"lip" "0"
+"spawnflags" "36"
+"angle" "180"
+"health" "0"
+"dmg" "0"
+"targetname" "bridge4"
+"model" "*16"
+}
+{
+"classname" "func_door"
+"spawnflags" "36"
+"targetname" "bridge4"
+"speed" "500"
+"sounds" "0"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"model" "*17"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"spawnflags" "36"
+"targetname" "bridge4"
+"speed" "500"
+"sounds" "0"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"model" "*18"
+}
+{
+"classname" "func_button"
+"angle" "0"
+"speed" "100"
+"sounds" "1"
+"wait" "1"
+"lip" "1"
+"dmg" "0"
+"target" "bridge4"
+"delay" "1"
+"if_goal_is_removed" "1"
+"restore_goal_no" "1"
+"goal_activation" "1"
+"team_no" "2"
+"count" "0"
+"frags" "2"
+"playerclass" "9"
+"health" "25"
+"model" "*19"
+}
+{
+"classname" "func_door"
+"speed" "500"
+"sounds" "0"
+"wait" "0"
+"lip" "0"
+"spawnflags" "36"
+"angle" "180"
+"health" "0"
+"dmg" "0"
+"targetname" "bridge3"
+"model" "*20"
+}
+{
+"classname" "func_door"
+"spawnflags" "36"
+"targetname" "bridge3"
+"speed" "500"
+"sounds" "0"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"model" "*21"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"spawnflags" "36"
+"targetname" "bridge3"
+"speed" "500"
+"sounds" "0"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"model" "*22"
+}
+{
+"classname" "func_button"
+"angle" "0"
+"speed" "100"
+"sounds" "1"
+"wait" "1"
+"lip" "1"
+"dmg" "0"
+"target" "bridge3"
+"delay" "1"
+"if_goal_is_removed" "1"
+"restore_goal_no" "1"
+"goal_activation" "1"
+"team_no" "2"
+"count" "0"
+"frags" "2"
+"playerclass" "9"
+"health" "25"
+"model" "*23"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Blue_s2"
+"origin" "576 560 416"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Blue_s2"
+"origin" "320 560 80"
+"no_grenades_2" "1"
+"no_grenades_1" "1"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "50"
+"health" "10"
+"wait" "5"
+"team_no" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Blue_s2"
+"origin" "320 -560 80"
+"no_grenades_2" "1"
+"no_grenades_1" "1"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "50"
+"health" "10"
+"wait" "5"
+"team_no" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Red_s1"
+"origin" "-320 -560 80"
+"no_grenades_2" "1"
+"no_grenades_1" "1"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "50"
+"health" "10"
+"wait" "5"
+"team_no" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Red_s1"
+"origin" "-320 560 80"
+"no_grenades_2" "1"
+"no_grenades_1" "1"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "50"
+"health" "10"
+"wait" "5"
+"team_no" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "func_door"
+"speed" "150"
+"sounds" "3"
+"wait" "3"
+"lip" "8"
+"health" "5"
+"dmg" "15"
+"angle" "270"
+"target" "blue_door1"
+"targetname" "blue_door2"
+"model" "*24"
+}
+{
+"classname" "func_door"
+"speed" "150"
+"sounds" "3"
+"wait" "3"
+"lip" "8"
+"health" "5"
+"dmg" "15"
+"angle" "90"
+"targetname" "blue_door1"
+"target" "blue_door2"
+"model" "*25"
+}
+{
+"classname" "func_door"
+"speed" "500"
+"sounds" "2"
+"wait" "2"
+"lip" "0"
+"health" "0"
+"dmg" "100"
+"team_no" "1"
+"angle" "-2"
+"model" "*26"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Blue_s2"
+"origin" "1488 688 64"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Blue_s2"
+"origin" "1872 688 64"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Blue_s2"
+"origin" "1584 640 64"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Blue_s2"
+"origin" "1792 640 64"
+"no_grenades_2" "0"
+"no_grenades_1" "0"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1584 704 112"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1648 704 112"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1712 704 112"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1792 704 112"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1648 640 112"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1712 640 112"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "464 704 64"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "576 704 64"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-448 -720 64"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-560 -720 64"
+"team_no" "2"
+}
+{
+"classname" "light"
+"origin" "1636 -548 400"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1636 588 396"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1432 0 164"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1668 676 116"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1792 0 332"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1788 384 332"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1792 -388 332"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1680 -480 124"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1672 476 116"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1636 0 396"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1396 416 380"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1396 -420 380"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1792 0 128"
+"light" "500"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "2048 112 128"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "2048 -112 128"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "2432 120 216"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "2432 -120 216"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "2960 0 256"
+"light" "400"
+}
+{
+"classname" "func_button"
+"health" "15"
+"sounds" "3"
+"wait" "0"
+"delay" "0"
+"targetname" "blue_water_button"
+"target" "blue_water_passage"
+"team_no" "2"
+"message" "Swim or Run? Think Fast!"
+"angle" "-1"
+"model" "*27"
+}
+{
+"classname" "func_door"
+"speed" "150"
+"sounds" "3"
+"wait" "3"
+"lip" "8"
+"health" "5"
+"dmg" "15"
+"angle" "90"
+"target" "red_door1"
+"targetname" "red_door2"
+"model" "*28"
+}
+{
+"classname" "func_door"
+"speed" "150"
+"sounds" "3"
+"wait" "3"
+"lip" "8"
+"health" "5"
+"dmg" "15"
+"angle" "270"
+"targetname" "red_door1"
+"target" "red_door2"
+"model" "*29"
+}
+{
+"classname" "func_door"
+"speed" "500"
+"sounds" "2"
+"wait" "2"
+"lip" "8"
+"health" "0"
+"dmg" "100"
+"team_no" "2"
+"angle" "-2"
+"model" "*30"
+}
+{
+"classname" "light"
+"origin" "-1792 387 332"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1636 -1 396"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1792 -1 332"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1788 -385 332"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1636 -589 396"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1396 -417 380"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1680 479 124"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1792 -1 128"
+"light" "500"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1712 -705 112"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1648 -705 112"
+"team_no" "2"
+}
+{
+"classname" "light"
+"origin" "-1668 -677 116"
+"light" "300"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1584 -705 112"
+"team_no" "2"
+"spawnflags" "0"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Red"
+"origin" "-1488 -689 64"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1648 -641 112"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1712 -641 112"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1792 -705 112"
+"team_no" "2"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Red"
+"origin" "-1792 -641 64"
+"no_grenades_2" "0"
+"no_grenades_1" "0"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Red"
+"origin" "-1872 -689 64"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "light"
+"origin" "-1672 -477 116"
+"light" "300"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Bag Red"
+"origin" "-1584 -641 64"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+"ammo_nails" "35"
+"ammo_shells" "35"
+"armorvalue" "200"
+"health" "25"
+"wait" "3"
+"team_no" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Ammo Discharge In Progress"
+}
+{
+"classname" "light"
+"origin" "-1636 547 400"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1396 419 380"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1432 -1 164"
+"light" "500"
+}
+{
+"classname" "func_door"
+"speed" "500"
+"sounds" "1"
+"wait" "5"
+"lip" "8"
+"angle" "0"
+"targetname" "red_water_passage"
+"target" "red_water_button"
+"model" "*31"
+}
+{
+"classname" "func_button"
+"health" "15"
+"sounds" "3"
+"wait" "0"
+"delay" "0"
+"targetname" "red_water_button"
+"target" "red_water_passage"
+"team_no" "1"
+"message" "Swim or Run? Think Fast!"
+"angle" "-1"
+"model" "*32"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2432 120 232"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2960 0 266"
+"light" "400"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2432 -120 232"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2048 112 144"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2048 -112 144"
+"light" "300"
+}
+{
+"classname" "item_tfgoal"
+"delay" "60"
+"owned_by" "2"
+"team_no" "1"
+"pausetime" "60"
+"goal_activation" "181"
+"goal_no" "2"
+"noise4" "Awwww man! The enemy flag got teleported back to base!"
+"noise3" "Your flag was teleported to a safe place! DONT LET THEM GET IT AGAIN!"
+"non_team_broadcast" "Some Sly Fox Just Grabbed Your Flag!"
+"team_broadcast" "Your Team Has The Enemy Flag!"
+"origin" "-2936 0 168"
+"netname" "Red_Flag"
+"mdl" "progs\aankh2.mdl"
+"message" "Now Run Like Hell!"
+}
+{
+"classname" "info_tfgoal"
+"frags" "10"
+"axhitme" "1"
+"team_no" "2"
+"items_allowed" "1"
+"goal_effects" "3"
+"goal_result" "2"
+"goal_activation" "1"
+"count" "10"
+"non_team_broadcast" "Your flag was captured!\n"
+"team_broadcast" "Your team captured the enemy flag!\n"
+"origin" "-1616 0 264"
+"netname" "team2_dropoff"
+"message" "Good Job Soldier! Go Get It Again!\n"
+}
+{
+"classname" "info_tfgoal"
+"frags" "10"
+"origin" "1616 0 264"
+"netname" "team1_dropoff"
+"goal_activation" "1"
+"goal_effects" "3"
+"goal_result" "2"
+"team_no" "1"
+"items_allowed" "2"
+"count" "10"
+"axhitme" "2"
+"non_team_broadcast" "Your flag was captured!\n"
+"team_broadcast" "Your team captured the enemy flag!\n"
+"message" "Good Job Soldier! Go Get It Again!\n"
+}
+{
+"classname" "item_tfgoal"
+"origin" "2936 0 168"
+"delay" "60"
+"owned_by" "1"
+"team_no" "2"
+"pausetime" "60"
+"goal_activation" "181"
+"goal_no" "1"
+"noise4" "Awwww man! The enemy flag got teleported back to base!"
+"noise3" "Your flag was teleported to a safe place! DONT LET THEM GET IT AGAIN!"
+"non_team_broadcast" "Some Sly Fox Just Grabbed Your Flag!"
+"team_broadcast" "Your Team Has The Enemy Flag!"
+"netname" "Blue_Flag"
+"mdl" "progs\aankh1.mdl"
+"message" "Now Run Like Hell!"
+}
+{
+"classname" "light"
+"origin" "896 0 -210"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1216 558 -176"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1216 -560 -176"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1536 0 -176"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-896 -2 -208"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1232 560 -176"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1232 -578 -176"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1536 -2 -176"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-2144 -2 -32"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-2432 0 -128"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "2144 0 -32"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "2432 -2 -130"
+"light" "100"
+}

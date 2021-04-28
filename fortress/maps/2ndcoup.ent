@@ -1,0 +1,895 @@
+{
+"message" "the Second Coup\n\nCreated by Jonan"
+"wad" "C:\Jono\Quake\Qoole\work\2ndcoup.wad"
+"classname" "worldspawn"
+"worldtype" "0"
+"light" "40"
+}
+{
+"classname" "info_player_start"
+"origin" "-2608 -560 0"
+"angle" "90"
+}
+{
+"speed" "100"
+"model" "*1"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "8"
+"angle" "180"
+}
+{
+"spawnflags" "2"
+"classname" "item_health"
+"origin" "-112 -848 -304"
+"angle" "90"
+}
+{
+"spawnflags" "2"
+"classname" "item_health"
+"origin" "-48 -848 -304"
+"angle" "90"
+}
+{
+"speed" "50"
+"model" "*2"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "8"
+"angle" "270"
+}
+{
+"speed" "50"
+"model" "*3"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "8"
+"angle" "90"
+}
+{
+"impulse" "64"
+"classname" "info_tfdetect"
+"non_team_broadcast" "Stand on yellow symbols within buildings\n"
+"origin" "656 2064 -192"
+"team_broadcast" "choose a teamn\n“® blue\n”® redŠ\n"
+}
+{
+"speed" "100"
+"model" "*4"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "8"
+"angle" "0"
+}
+{
+"goal_activation" "1"
+"netname" "Health Control"
+"classname" "info_tfgoal"
+"origin" "-192 -448 -64"
+"wait" "1"
+"goal_effects" "3"
+"ammo_medikit" "5"
+"health" "10"
+}
+{
+"classname" "item_armor1"
+"origin" "-544 704 -224"
+}
+{
+"goal_activation" "1"
+"netname" "Armour Control"
+"classname" "info_tfgoal"
+"origin" "-1088 320 32"
+"wait" "1"
+"goal_effects" "3"
+"armorvalue" "10"
+}
+{
+"classname" "item_armor2"
+"origin" "-544 640 -224"
+}
+{
+"classname" "item_armorInv"
+"origin" "-544 576 -224"
+}
+{
+"target" "1"
+"model" "*5"
+"classname" "trigger_teleport"
+}
+{
+"target" "2"
+"model" "*6"
+"classname" "trigger_teleport"
+}
+{
+"target" "3"
+"model" "*7"
+"classname" "trigger_teleport"
+}
+{
+"target" "4"
+"model" "*8"
+"classname" "trigger_teleport"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-4160 2496 128"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-4032 2496 128"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3904 2496 128"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3776 2496 128"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3776 2368 128"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3904 2368 128"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-4032 2368 128"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-4160 2368 128"
+"team_no" "2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-1088 -1088 -240"
+"targetname" "1"
+"angle" "90"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "656 2496 -352"
+"targetname" "2"
+"angle" "180"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "720 2640 432"
+"targetname" "3"
+"angle" "225"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-48 720 160"
+"targetname" "4"
+"angle" "0"
+}
+{
+"goal_activation" "1"
+"netname" "Cell Control"
+"classname" "info_tfgoal"
+"origin" "-1664 2368 32"
+"wait" "1"
+"goal_effects" "3"
+"ammo_cells" "20"
+}
+{
+"message" "the Power Plant"
+"model" "*9"
+"classname" "trigger_multiple"
+}
+{
+"message" "the Armoury"
+"model" "*10"
+"classname" "trigger_multiple"
+}
+{
+"message" "the Armoury"
+"model" "*11"
+"classname" "trigger_multiple"
+}
+{
+"message" "the Infirmary"
+"model" "*12"
+"classname" "trigger_multiple"
+}
+{
+"message" "the Infirmary"
+"model" "*13"
+"classname" "trigger_multiple"
+}
+{
+"message" "the Infirmary"
+"model" "*14"
+"classname" "trigger_multiple"
+}
+{
+"message" "the Power Plant"
+"model" "*15"
+"classname" "trigger_multiple"
+}
+{
+"message" "the Power Plant"
+"model" "*16"
+"classname" "trigger_multiple"
+}
+{
+"message" "the Armoury"
+"model" "*17"
+"classname" "trigger_multiple"
+}
+{
+"goal_activation" "1"
+"netname" "Command Control"
+"classname" "info_tfgoal"
+"origin" "-2752 896 160"
+"wait" "2"
+"goal_effects" "3"
+"count" "1"
+"frags" "1"
+}
+{
+"message" "the Command Centre"
+"model" "*18"
+"classname" "trigger_multiple"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "20"
+"netname" "Shells and Nails Control"
+"classname" "info_tfgoal"
+"origin" "-2048 -896 -96"
+"wait" "1"
+"goal_effects" "3"
+"ammo_nails" "20"
+}
+{
+"message" "the Shell & Nail Depot"
+"model" "*19"
+"classname" "trigger_multiple"
+}
+{
+"speed" "150"
+"model" "*20"
+"classname" "func_plat"
+"height" "112"
+}
+{
+"goal_activation" "1"
+"netname" "Rocket Control"
+"classname" "info_tfgoal"
+"origin" "-128 1536 -96"
+"wait" "1"
+"goal_effects" "3"
+"ammo_rockets" "10"
+}
+{
+"message" "the Explosives Bay"
+"model" "*21"
+"classname" "trigger_multiple"
+}
+{
+"message" "the Explosives Bay"
+"model" "*22"
+"classname" "trigger_multiple"
+}
+{
+"message" "the Explosives Bay"
+"model" "*23"
+"classname" "trigger_multiple"
+}
+{
+"classname" "light"
+"origin" "512 2432 432"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "512 2496 -336"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1056 -976 -240"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-16 720 176"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-192 -448 -80"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-128 1536 -112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1088 320 16"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2048 -896 -112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2752 896 144"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1664 2368 16"
+"light" "500"
+}
+{
+"classname" "weapon_grenadelauncher"
+"origin" "-240 1488 -368"
+}
+{
+"classname" "weapon_rocketlauncher"
+"origin" "-16 1488 -368"
+}
+{
+"classname" "weapon_supershotgun"
+"origin" "-1696 -208 -112"
+}
+{
+"classname" "weapon_nailgun"
+"origin" "-1760 -208 -112"
+}
+{
+"classname" "weapon_supernailgun"
+"origin" "-1824 -208 -112"
+}
+{
+"netname" "Tree (SK)"
+"classname" "info_tfgoal"
+"origin" "-3456 2432 -384"
+"mdl" "progs/treesk.mdl"
+}
+{
+"netname" "Tree (Realm of Despair)"
+"classname" "info_tfgoal"
+"origin" "-3320 2424 -384"
+"mdl" "progs/rlmtree1.mdl"
+}
+{
+"netname" "Tree (Hack n Slash)"
+"classname" "info_tfgoal"
+"origin" "-3456 2560 -384"
+"mdl" "progs/hnstree.mdl"
+}
+{
+"netname" "Tree (Dead)"
+"classname" "info_tfgoal"
+"origin" "-3328 2560 -384"
+"mdl" "progs/dtree.mdl"
+}
+{
+"classname" "light"
+"origin" "-128 1536 -240"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-128 1536 -352"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-128 1024 -352"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "394 1718 -352"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-630 1526 -352"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-694 886 -352"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1344 1088 -352"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1654 182 -352"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1078 566 -352"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1088 576 -80"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1078 566 256"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-630 630 128"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-886 118 128"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1398 502 128"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1142 118 -128"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "650 694 176"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "650 694 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 704 -160"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "522 438 64"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "698 118 64"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "698 -650 -128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "330 -586 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-694 -586 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-182 134 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-182 -10 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-192 -576 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-182 -458 -256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-192 -368 80"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-1782 -394 -112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2176 -576 -112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2166 -74 -112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2176 -320 -112"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2934 -138 -240"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2550 -138 -240"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2614 246 48"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2614 246 176"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2560 -128 32"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2934 -138 32"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-3062 886 -240"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2422 886 -240"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2806 1142 -240"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2678 1142 -240"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1142 -394 -240"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1654 1782 32"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1654 1782 -336"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1654 1494 256"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1654 1398 -336"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1350 2166 -336"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1958 2486 -336"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-1664 2304 -336"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2678 1910 64"
+"light" "500"
+}
+{
+"goal_activation" "6900"
+"message" "You got the Blast Armour\n"
+"netname" "Š"
+"armorclass" "4"
+"has_item_from_group" "2"
+"classname" "item_tfgoal"
+"origin" "-1104 80 -358"
+"netname_broadcast" " has the Blast Armour\n"
+"noise" "magic013.wav"
+"goal_effects" "1"
+"items" "393216"
+"delay" "60"
+"pausetime" "3600"
+"group_no" "2"
+"mdl" "progs/a-blast.mdl"
+}
+{
+"goal_activation" "6900"
+"netname" "Š"
+"message" "You got the Wooden Kelvar Armour\n"
+"armorclass" "3"
+"classname" "item_tfgoal"
+"has_item_from_group" "2"
+"noise" "magic013.wav"
+"netname_broadcast" " has the Wooden Kevlar Armour\n"
+"origin" "-1040 80 -358"
+"goal_effects" "1"
+"items" "393216"
+"delay" "60"
+"pausetime" "3600"
+"mdl" "progs/a-wooden.mdl"
+"group_no" "2"
+}
+{
+"goal_activation" "6900"
+"netname" "Š"
+"message" "You got the Asbestos ShockProof Armour\n"
+"armorclass" "24"
+"classname" "item_tfgoal"
+"has_item_from_group" "2"
+"noise" "magic013.wav"
+"netname_broadcast" " has the Asbestos ShockProof Armour\n"
+"origin" "-1232 80 -358"
+"goal_effects" "1"
+"items" "393216"
+"delay" "60"
+"pausetime" "3600"
+"mdl" "progs/a-asbest.mdl"
+"group_no" "2"
+}
+{
+"items_allowed" "256"
+"netname" "Instant Armour1"
+"classname" "info_tfgoal_timer"
+"origin" "544 2784 -96"
+"armortype" "0.8"
+"maxammo_shells" "2"
+"goal_effects" "64"
+"armorvalue" "300"
+"search_time" "1"
+}
+{
+"items_allowed" "256"
+"netname" "Instant Armour2"
+"classname" "info_tfgoal_timer"
+"armortype" "0.8"
+"origin" "544 2784 -96"
+"maxammo_shells" "1"
+"goal_effects" "64"
+"search_time" "1"
+"armorvalue" "300"
+}
+{
+"goal_activation" "6900"
+"message" "You have the Heavy Armour\n"
+"netname" "Èeavy Ármour"
+"has_item_from_group" "2"
+"classname" "item_tfgoal"
+"origin" "-1168 80 -358"
+"netname_broadcast" " has the Heavy Armour\n"
+"noise" "magic013.wav"
+"goal_effects" "1"
+"goal_no" "256"
+"items" "393216"
+"delay" "60"
+"pausetime" "3600"
+"group_no" "2"
+"mdl" "progs/a-heavy.mdl"
+}
+{
+"goal_activation" "6900"
+"invisible_finished" "1"
+"netname" "Óhadow Ármour"
+"message" "You have the Shadow Armour.\n"
+"classname" "item_tfgoal"
+"has_item_from_group" "2"
+"armortype" "0.3"
+"noise" "magic013.wav"
+"netname_broadcast" " has the Shadow Armour\n"
+"origin" "-976 80 -358"
+"goal_effects" "1"
+"goal_no" "75"
+"items" "393216"
+"delay" "60"
+"pausetime" "3600"
+"mdl" "progs/a-shadow.mdl"
+"group_no" "2"
+}
+{
+"items_allowed" "75"
+"netname" "Shadow Degrading"
+"classname" "info_tfgoal_timer"
+"origin" "-128 2656 -128"
+"armortype" "0.3"
+"maxammo_shells" "1"
+"goal_effects" "64"
+"search_time" "1"
+}
+{
+"items_allowed" "75"
+"netname" "Shadow Degrading"
+"classname" "info_tfgoal_timer"
+"origin" "-128 2656 -128"
+"armortype" "0.3"
+"maxammo_shells" "2"
+"goal_effects" "64"
+"search_time" "1"
+}
+{
+"goal_activation" "6900"
+"netname" "ÍedÐack"
+"message" "You have the MedPack\n"
+"classname" "item_tfgoal"
+"has_item_from_group" "2"
+"noise" "magic013.wav"
+"netname_broadcast" " has the MedPack\n"
+"origin" "-208 -832 -294"
+"goal_effects" "1"
+"goal_no" "55"
+"items" "393216"
+"delay" "60"
+"pausetime" "3600"
+"mdl" "progs/medpack.mdl"
+"group_no" "2"
+}
+{
+"items_allowed" "55"
+"netname" "Shadow Degrading"
+"classname" "info_tfgoal_timer"
+"origin" "-128 2656 -128"
+"maxammo_shells" "1"
+"goal_effects" "64"
+"ammo_medikit" "5"
+"search_time" "1"
+"health" "10"
+}
+{
+"items_allowed" "55"
+"netname" "Shadow Degrading"
+"classname" "info_tfgoal_timer"
+"origin" "-128 2656 -128"
+"maxammo_shells" "2"
+"goal_effects" "64"
+"ammo_medikit" "5"
+"search_time" "1"
+"health" "10"
+}
+{
+"goal_activation" "1"
+"netname" "Armour Control with Eng"
+"classname" "info_tfgoal"
+"origin" "-1088 320 32"
+"wait" "1"
+"playerclass" "9"
+"goal_effects" "3"
+"armorvalue" "10"
+}
+{
+"items_allowed" "75"
+"netname" "Shadow Degrading"
+"classname" "info_tfgoal_timer"
+"armortype" "0.3"
+"origin" "-128 2656 -128"
+"maxammo_shells" "2"
+"goal_effects" "64"
+"search_time" "1"
+}
+{
+"goal_activation" "1"
+"netname" "Health Control with Medic"
+"classname" "info_tfgoal"
+"origin" "-192 -448 -64"
+"wait" "1"
+"playerclass" "5"
+"goal_effects" "3"
+"ammo_medikit" "5"
+"health" "10"
+}
+{
+"items_allowed" "75"
+"netname" "Shadow Degrading"
+"classname" "info_tfgoal_timer"
+"armortype" "0.3"
+"origin" "-128 2656 -128"
+"maxammo_shells" "2"
+"goal_effects" "64"
+"search_time" "1"
+}
+{
+"goal_activation" "1"
+"netname" "Rocket Control with Grens"
+"classname" "info_tfgoal"
+"no_grenades_1" "1"
+"origin" "-128 1536 -96"
+"no_grenades_2" "1"
+"wait" "30"
+"goal_effects" "3"
+"ammo_detpack" "1"
+}
+{
+"items_allowed" "75"
+"netname" "Shadow Degrading"
+"classname" "info_tfgoal_timer"
+"armortype" "0.3"
+"origin" "-128 2656 -128"
+"maxammo_shells" "2"
+"goal_effects" "64"
+"search_time" "1"
+}
+{
+"goal_activation" "1"
+"netname" "Rocket Control with Demo"
+"classname" "info_tfgoal"
+"origin" "-128 1536 -96"
+"wait" "1"
+"playerclass" "4"
+"goal_effects" "3"
+"ammo_rockets" "10"
+}
+{
+"items_allowed" "75"
+"netname" "Shadow Degrading"
+"classname" "info_tfgoal_timer"
+"armortype" "0.3"
+"origin" "-128 2656 -128"
+"maxammo_shells" "2"
+"goal_effects" "64"
+"search_time" "1"
+}

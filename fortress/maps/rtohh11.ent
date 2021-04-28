@@ -1,0 +1,927 @@
+{
+"classname" "worldspawn"
+"wad" "F:\ACTION\QUAKE\QUEST\GFX\Quakedu.wad"
+"worldtype" "0"
+"sounds" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-830 -930 -355"
+"netname" "team1"
+"team_no" "1"
+"angle" "50"
+}
+{
+"classname" "func_plat"
+"origin" "0 0 0 "
+"netname" "func_plat 1"
+"height" "150"
+"sounds" "1"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 1"
+"speed" "50"
+"angle" "-2"
+"sounds" "1"
+"model" "*2"
+}
+{
+"classname" "func_plat"
+"origin" "0.000000 0.000000 0.000000"
+"netname" "hellheis"
+"team_no" "1"
+"height" "255"
+"sounds" "1"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 2"
+"message" "This is the way to hell"
+"targetname" "target1"
+"wait" "-1"
+"angle" "-2"
+"sounds" "1"
+"model" "*4"
+}
+{
+"classname" "func_button"
+"origin" "0 0 0 "
+"netname" "func_button 1"
+"target" "target1"
+"team_no" "1"
+"wait" "-1"
+"angle" "90"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 3"
+"message" "Blow it up"
+"wait" "-1"
+"speed" "15"
+"angle" "-1"
+"sounds" "1"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 4"
+"targetname" "target2"
+"wait" "-1"
+"speed" "200"
+"angle" "0"
+"sounds" "1"
+"model" "*6"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 5"
+"targetname" "target2"
+"wait" "-1"
+"speed" "200"
+"angle" "180"
+"sounds" "1"
+"model" "*7"
+}
+{
+"classname" "trigger_once"
+"origin" "0 0 0 "
+"netname" "trigger_once 1"
+"target" "target2"
+"team_no" "1"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 6"
+"message" "This is the way to heaven"
+"targetname" "target4"
+"wait" "-1"
+"angle" "-2"
+"sounds" "1"
+"model" "*9"
+}
+{
+"classname" "func_button"
+"origin" "0 0 0 "
+"netname" "func_button 2"
+"target" "target4"
+"team_no" "2"
+"wait" "-1"
+"angle" "90"
+"model" "*10"
+}
+{
+"classname" "func_plat"
+"origin" "0.000000 0.000000 0.000000"
+"netname" "heavenheis"
+"team_no" "2"
+"height" "1240"
+"sounds" "1"
+"model" "*11"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 7"
+"message" "Blow it up"
+"targetname" "target9"
+"wait" "-1"
+"angle" "-2"
+"sounds" "1"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 8"
+"message" "Blow it up"
+"targetname" "target9"
+"wait" "-1"
+"angle" "-1"
+"sounds" "1"
+"model" "*13"
+}
+{
+"classname" "func_plat"
+"origin" "0 0 0 "
+"netname" "func_plat 4"
+"team_no" "3"
+"height" "255"
+"sounds" "2"
+"model" "*14"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 9"
+"team_no" "3"
+"angle" "-1"
+"sounds" "1"
+"model" "*15"
+}
+{
+"classname" "func_plat"
+"origin" "0 0 0 "
+"netname" "func_plat 5"
+"team_no" "3"
+"height" "255"
+"sounds" "2"
+"model" "*16"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 10"
+"team_no" "3"
+"angle" "-1"
+"sounds" "1"
+"model" "*17"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 11"
+"message" "Blow it up"
+"targetname" "target5"
+"wait" "-1"
+"angle" "-2"
+"sounds" "1"
+"model" "*18"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1205 -600 -200"
+"netname" "team1"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_start"
+"origin" "375 -925 -345"
+"angle" "90"
+}
+{
+"classname" "info_intermission"
+"origin" "375 -875 -95"
+"angle" "90"
+}
+{
+"classname" "info_tfgoal"
+"origin" "340 800 -375"
+"netname" "port"
+"broadcast" "The front gate has been blown away"
+"target" "target5"
+"goal_no" "1"
+"group_no" "1"
+"goal_activation" "6"
+"goal_result" "1"
+"goal_effects" "17"
+"team_no" "3"
+"count" "1"
+"health" "10"
+"ammo_shells" "10"
+}
+{
+"classname" "info_tfgoal_timer"
+"origin" "340 725 -325"
+"broadcast" "Team 3 has won"
+"goal_no" "11"
+"group_no" "11"
+"goal_result" "5"
+"goal_effects" "16"
+"count" "10"
+"search_time" "2100"
+"maxammo_shells" "3"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "170 2300 -340"
+"netname" "UnNamed 1"
+"team_no" "3"
+"angle" "270"
+}
+{
+"classname" "info_intermission"
+"origin" "170 2300 -300"
+"angle" "270"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-100 2640 -1025"
+"netname" "hellgate"
+"broadcast" "The gate to hell is open"
+"target" "target28"
+"goal_no" "2"
+"group_no" "2"
+"goal_activation" "2"
+"goal_result" "1"
+"goal_effects" "2"
+"team_no" "1"
+"count" "3"
+"armorclass" "31"
+"armorvalue" "20"
+"health" "30"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+}
+{
+"armortype" "0.8"
+"classname" "info_tfgoal"
+"origin" "885 2325 -975"
+"netname" "heavengate"
+"broadcast" "The gate to heaven is open"
+"target" "target9"
+"goal_no" "3"
+"group_no" "3"
+"goal_activation" "2"
+"goal_result" "1"
+"goal_effects" "2"
+"team_no" "2"
+"count" "3"
+"armorclass" "31"
+"armorvalue" "20"
+"no_grenades_1" "2"
+"no_grenades_2" "2"
+}
+{
+"classname" "info_tfgoal"
+"origin" "1025 2700 275"
+"netname" "heavengoal"
+"broadcast" "Team 2 has won!"
+"goal_no" "4"
+"group_no" "4"
+"goal_activation" "1"
+"goal_result" "5"
+"team_no" "2"
+"count" "10"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-610 2647 -1030"
+"netname" "hellgoal"
+"broadcast" "Team 1 has won!"
+"goal_no" "5"
+"group_no" "5"
+"goal_activation" "1"
+"goal_result" "4"
+"team_no" "1"
+"count" "10"
+}
+{
+"classname" "info_tfdetect"
+"origin" "340 700 -325"
+"broadcast" "TeamFortress v2.1"
+"goal_no" "6"
+"group_no" "6"
+"goal_result" "5"
+"goal_effects" "16"
+"count" "10"
+"search_time" "35"
+}
+{
+"classname" "info_intermission"
+"origin" "155 2685 205"
+}
+{
+"classname" "info_intermission"
+"origin" "155 3055 -285"
+}
+{
+"classname" "info_intermission"
+"origin" "835 2325 -885"
+}
+{
+"classname" "info_intermission"
+"origin" "135 2655 -895"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1045 -835 -200"
+"netname" "team1"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1350 -835 -200"
+"netname" "team1"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-830 -670 -355"
+"netname" "team1"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-585 -655 -195"
+"netname" "team1"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-585 -965 -195"
+"netname" "team1"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "170 2950 -340"
+"netname" "UnNamed 1"
+"team_no" "3"
+"angle" "90"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 1"
+"team_no" "3"
+"angle" "270"
+"model" "*19"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 2"
+"team_no" "3"
+"angle" "-1"
+"model" "*20"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 3"
+"team_no" "3"
+"angle" "90"
+"model" "*21"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 4"
+"team_no" "3"
+"angle" "-2"
+"model" "*22"
+}
+{
+"classname" "info_tfgoal"
+"netname" "t3backpack"
+"origin" "-670 3250 -350"
+"message" "Go get them!!!!\n"
+"mdl" "progs/backpack.mdl"
+"goal_no" "9"
+"group_no" "9"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "3"
+"armorclass" "31"
+"armorvalue" "5"
+"health" "10"
+"ammo_shells" "30"
+"ammo_nails" "20"
+"ammo_rockets" "4"
+"ammo_cells" "20"
+"ammo_medikit" "5"
+"ammo_detpack" "1"
+"no_grenades_1" "2"
+"no_grenades_2" "1"
+"invisible_finished" "10"
+"super_damage_finished" "20"
+"goal_state" "2"
+"wait" "15"
+}
+{
+"classname" "light_globe"
+"origin" "325 260 190"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "-815 -900 -295"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1340 -455 -165"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1050 -455 -165"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-770 875 -245"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-665 880 -65"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1460 880 -245"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1395 880 -70"
+"light" "200"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-620 800 -330"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-205 800 -330"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "245 800 -330"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "425 800 -330"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "840 800 -330"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1310 800 -330"
+}
+{
+"classname" "light"
+"origin" "-615 -695 -295"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-615 -665 -195"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1050 -765 -165"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1340 -765 -165"
+"light" "200"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1340 -410 -325"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1340 -810 -325"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1050 -810 -325"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1050 -410 -325"
+}
+{
+"classname" "light"
+"origin" "350 -505 -345"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-235 1315 -195"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "675 1315 -195"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1255 980 -140"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-580 980 -155"
+"light" "200"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "345 1815 -295"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "20 1815 -295"
+}
+{
+"classname" "light"
+"origin" "1095 1995 -225"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1370 2325 -225"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1270 2600 -225"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-740 2180 -225"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-740 2640 -225"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-740 3120 -225"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-740 3395 -225"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-365 3395 -225"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "205 3395 -225"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "715 3395 -225"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1235 3395 -225"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "780 1815 -295"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-380 1815 -295"
+}
+{
+"classname" "light"
+"origin" "1100 930 -265"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-395 930 -265"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "840 2005 -250"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "485 2005 -250"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-50 2005 -265"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-480 2005 -265"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "170 1965 -250"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "170 2285 -250"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "805 2275 -250"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-480 2285 -250"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-480 2685 -250"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-455 3030 -250"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-665 3140 -250"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-125 3030 -250"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "310 3025 -250"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "775 3025 -250"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "815 2750 -250"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "494 2685 -135"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-86 2680 -135"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-133 2410 -50"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "486 2410 -50"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-340 2552 -13"
+"light" "200"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-340 2794 23"
+"light" "200"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-131 2930 97"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "462 2930 -25"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "696 2682 -50"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "510 2915 225"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "385 2620 -885"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "80 2620 -885"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "690 2080 -455"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "690 2195 -605"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "690 2295 -750"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "645 2305 -920"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "830 2305 -920"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1035 2305 -915"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1035 2305 -790"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1035 2305 -640"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1035 2305 -460"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1035 2305 -285"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1035 2305 -130"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1030 2305 20"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1030 2305 175"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1030 2305 175"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1030 2305 310"
+"light" "200"
+}
+{
+"classname" "info_tfgoal"
+"origin" "393 -63 -255"
+"netname" "t1andt2back"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "5"
+"goal_effects" "1"
+"team_no" "3"
+"armorvalue" "5"
+"health" "10"
+"ammo_shells" "30"
+"ammo_nails" "20"
+"ammo_rockets" "4"
+"ammo_cells" "20"
+"ammo_medikit" "2"
+"ammo_detpack" "1"
+"no_grenades_2" "1"
+"goal_state" "2"
+"wait" "15"
+"armorclass" "31"
+"invisible_finished" "10"
+"super_damage_finished" "20"
+"no_grenades_1" "2"
+"message" "Go get them!!!\n"
+"goal_no" "15"
+"group_no" "15"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 1"
+"targetname" "target28"
+"angle" "-2"
+"model" "*23"
+}
+{
+"classname" "light"
+"origin" "-610 2647 -993"
+"netname" "hellgoal"
+"goal_no" "5"
+"group_no" "5"
+"goal_activation" "5"
+"goal_result" "4"
+"count" "10"
+"light" "100"
+}
+{
+"classname" "func_door"
+"origin" "0 0 0 "
+"netname" "func_door 2"
+"message" "Blow it up"
+"targetname" "target28"
+"wait" "-1"
+"angle" "-1"
+"sounds" "1"
+"model" "*24"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-500 -991 -300"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-892 -581 -300"
+}

@@ -1,0 +1,341 @@
+{
+"message" "Cube Runners! beta2\nby [REV6]Freebie\n"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"classname" "info_player_start"
+"origin" "-352 0 368"
+}
+{
+"netname" "TF Detector"
+"impulse" "64"
+"b_n" "Cube Runners! beta2\nby [REV6]Freebie\n"
+"classname" "info_tfdetect"
+"origin" "0 256 256"
+"hook_out" "1"
+"b_b" "TeamFortress v2.5"
+}
+{
+"classname" "light"
+"origin" "-192 0 576"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "192 0 576"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-640 -80 592"
+"light" "400"
+}
+{
+"g_a" "1"
+"owned_by" "1"
+"ammo_shells" "100"
+"message" "You're loaded.\n"
+"netname" "BackPack"
+"classname" "i_t_g"
+"origin" "-768 -320 320"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"g_e" "17"
+"ammo_medikit" "150"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"ammo_shells" "200"
+"classname" "i_t_g"
+"origin" "128 -182 432"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "100"
+"armorvalue" "300"
+"health" "100"
+"targetname" "cap1"
+"ammo_cells" "200"
+"ammo_rockets" "60"
+"ammo_detpack" "1"
+}
+{
+"n_s_c" "ֵמוםש flag is carried by"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"impulse" "64"
+"classname" "info_tfdetect"
+"t_s_h" "Your flag is at base."
+"b_n" "”Fort—: Capture the enemy flag!\n"
+"t_s_c" "Your flag is carried by"
+"origin" "96 -214 432"
+"hook_out" "1"
+"n_s_h" "ֵמוםש flag is at base."
+"b_t" "ֶֿׂװׂ ­ װקֿ ֶֿׂװ׃\n CHOOSE YOUR TEAM \n\n‘ BLUE TEAM\n‘ ִֵׂ TEAM \n"
+"b_b" "TeamFortress"
+"n_s_m" "ֵמוםש flag is down."
+"t_s_m" "Your flag is down."
+}
+{
+"g_a" "1"
+"target" "cap2"
+"owned_by" "1"
+"items_allowed" "1"
+"message" "You captured their flag.\n"
+"axhitme" "1"
+"classname" "i_t_g"
+"origin" "768 0 400"
+"noise" "items/cap2.wav"
+"n_b" " דבנפץעוה גלץו§ף זלבח®\n"
+"b_t" "Your team captured their flag.\n"
+"g_e" "19"
+"count" "10"
+"b_o" "Your flag was captured.\n"
+"frags" "10"
+}
+{
+"g_a" "1"
+"target" "cap1"
+"items_allowed" "2"
+"owned_by" "2"
+"message" "You captured their flag.\n"
+"axhitme" "2"
+"classname" "i_t_g"
+"origin" "-768 0 400"
+"noise" "items/cap1.wav"
+"n_b" " דבנפץעוה עוה§ף זלבח®\n"
+"b_t" "Your team captured their flag.\n"
+"g_e" "19"
+"count" "10"
+"b_o" "Your flag was captured.\n"
+"frags" "10"
+}
+{
+"ammo_shells" "200"
+"classname" "i_t_g"
+"origin" "160 -150 432"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "100"
+"armorvalue" "300"
+"health" "100"
+"targetname" "cap2"
+"ammo_cells" "200"
+"ammo_rockets" "60"
+"ammo_detpack" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-896 -320 320"
+"playerclass" "0"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "896 -320 320"
+"playerclass" "0"
+"team_no" "2"
+"angle" "180"
+}
+{
+"g_a" "4789"
+"owned_by" "2"
+"message" "You have their flag.\nTake it home!\n"
+"netname" "Red Flag"
+"d_n_n" " העןננוה עוה§ף זלבח®\n"
+"classname" "item_tfgoal"
+"origin" "768 0 368"
+"n_b" " חןפ עוה§ף זלבח®\n"
+"noise" "ogre/ogwake.wav"
+"d_n_t" " העןננוה עוה§ף זלבח®\n"
+"b_t" "Your team got their flag.\n"
+"d_t" "The enemy lost your flag.\n"
+"b_o" "Your flag was taken.\n"
+"goal_no" "2"
+"noise3" "Your flag returned.\n"
+"items" "262144"
+"delay" "0"
+"noise4" "Their flag returned.\n"
+"team_no" "1"
+"pausetime" "10"
+"skin" "2"
+"d_n" "Your team lost their flag.\n"
+"mdl" "progs/tf_flag.mdl"
+}
+{
+"g_a" "4789"
+"owned_by" "1"
+"netname" "Blue Flag"
+"message" "You have their flag.\nTake it home!\n"
+"d_n_n" " העןננוה גלץו§ף זלבח®\n"
+"classname" "item_tfgoal"
+"origin" "-768 0 368"
+"noise" "shambler/ssight.wav"
+"n_b" " חןפ גלץו§ף זלבח®\n"
+"d_n_t" " העןננוה גלץו§ף זלבח®\n"
+"b_t" "Your team got their flag.\n"
+"d_t" "The enemy lost your flag.\n"
+"b_o" "Your flag was taken.\n"
+"items" "131072"
+"noise3" "Your flag returned.\n"
+"goal_no" "1"
+"noise4" "Their flag returned.\n"
+"delay" "0"
+"pausetime" "10"
+"team_no" "2"
+"skin" "1"
+"d_n" "Your team lost their flag.\n"
+"mdl" "progs/tf_flag.mdl"
+}
+{
+"g_a" "1"
+"owned_by" "2"
+"ammo_shells" "100"
+"message" "You're loaded.\n"
+"netname" "BackPack"
+"classname" "i_t_g"
+"origin" "768 320 320"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"g_e" "17"
+"ammo_medikit" "150"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"classname" "light"
+"origin" "192 0 320"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-192 0 320"
+"light" "500"
+}
+{
+"classname" "i_p_t"
+"origin" "-896 320 320"
+"playerclass" "0"
+"team_no" "1"
+}
+{
+"classname" "light"
+"origin" "-768 128 384"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-768 -128 384"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-640 80 592"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-976 -80 224"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-976 80 224"
+"light" "400"
+}
+{
+"classname" "i_p_t"
+"origin" "896 320 320"
+"playerclass" "0"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "light"
+"origin" "976 -80 192"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "976 80 192"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "768 128 384"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "640 80 592"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "640 -80 592"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "768 -128 384"
+"light" "400"
+}
+{
+"g_a" "1"
+"owned_by" "2"
+"ammo_shells" "100"
+"message" "You're loaded.\n"
+"netname" "BackPack"
+"classname" "i_t_g"
+"origin" "768 -320 320"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"g_e" "17"
+"ammo_medikit" "150"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"owned_by" "1"
+"ammo_shells" "100"
+"message" "You're loaded.\n"
+"netname" "BackPack"
+"classname" "i_t_g"
+"origin" "-768 320 320"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"wait" "1"
+"g_e" "17"
+"ammo_medikit" "150"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}

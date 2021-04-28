@@ -1,0 +1,195 @@
+{
+"classname" "worldspawn"
+"message" "Nightmare Rocket Jumping By Shockwave\n   www.angelfire.com/id/powerhouse\n"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"g_e" "1"
+"health" "100"
+"armorvalue" "200"
+"armortype" "0.8"
+"ammo_rockets" "50"
+"ammo_shells" "-100"
+"ammo_nails" "-100"
+"ammo_cells" "-50"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"wait" "1"
+"mdl" "progs/backpack.mdl"
+"invincible_finished" "30"
+"origin" "-224 0 -4000"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"g_e" "1"
+"wait" "1"
+"message" "Super High Jump\n\nJump to the landing at the vary top.\nThis is as high as it can be!\n"
+"origin" "-224 224 -4000"
+}
+{
+"classname" "light"
+"light" "750"
+"style" "0"
+"origin" "0 0 4000"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "0 0 -3840"
+}
+{
+"classname" "info_tfdetect"
+"maxammo_shells" "1019"
+"ammo_detpack" "0"
+"maxammo_detpack" "0"
+"maxammo_medikit" "0"
+"noise1" "Nightmare Rocket Jumping   By Shockwave\n\nHit 3"
+"origin" "0 0 -3712"
+}
+{
+"classname" "trigger_teleport"
+"target" "jump3"
+"model" "*1"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"g_e" "1"
+"wait" "1"
+"message" "Super Long Jump\n\nThis is as long as a Quake map gets.\nHint: Don't forget your proxi.\n"
+"origin" "-4000 -544 -3872"
+}
+{
+"classname" "func_illusionary"
+"model" "*2"
+}
+{
+"classname" "trigger_teleport"
+"target" "jump1"
+"model" "*3"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"g_e" "1"
+"health" "100"
+"armorvalue" "200"
+"armortype" "0.8"
+"ammo_rockets" "50"
+"ammo_shells" "-100"
+"ammo_nails" "-100"
+"ammo_cells" "-50"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"wait" "1"
+"mdl" "progs/backpack.mdl"
+"invincible_finished" "30"
+"origin" "-4000 -768 -3872"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "jump1"
+"origin" "-4000 -992 -3776"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-3744 -768 -3712"
+}
+{
+"classname" "light"
+"light" "600"
+"style" "0"
+"origin" "3808 -768 -3744"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "1"
+"origin" "-3936 -960 -3776"
+}
+{
+"classname" "info_player_start"
+"origin" "0 0 -4000"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "jump2"
+"origin" "-224 -224 -3936"
+}
+{
+"classname" "trigger_push"
+"style" "32"
+"sounds" "3"
+"delay" "0"
+"speed" "100"
+"model" "*4"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"g_e" "1"
+"wait" "1"
+"message" "Super Long AND High Jump\n\nAs long as it gets and half as high.\nDon't look unless ya like lag.\n"
+"origin" "-4000 -1312 -3872"
+}
+{
+"classname" "func_illusionary"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"target" "jump3"
+"model" "*6"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"g_e" "1"
+"health" "100"
+"armorvalue" "200"
+"armortype" "0.8"
+"ammo_rockets" "50"
+"ammo_shells" "-100"
+"ammo_nails" "-100"
+"ammo_cells" "-50"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"wait" "1"
+"mdl" "progs/backpack.mdl"
+"invincible_finished" "30"
+"origin" "-4000 -1536 -3872"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "jump3"
+"origin" "-4000 -1760 -3776"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-3744 -1536 -3712"
+}
+{
+"classname" "light"
+"light" "600"
+"style" "0"
+"origin" "3840 -1536 64"
+}
+{
+"classname" "trigger_teleport"
+"target" "jump1"
+"model" "*7"
+}
+{
+"classname" "trigger_teleport"
+"target" "jump2"
+"netname_broadcast" " jumped a LOOONG way.\n"
+"g_a" "1"
+"g_e" "1"
+"model" "*8"
+}

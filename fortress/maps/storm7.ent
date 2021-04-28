@@ -1,0 +1,669 @@
+{
+"classname" "worldspawn"
+"message" "TF 2.6: storm7"
+}
+{
+"classname" "info_player_start"
+"angle" "180"
+"origin" "2256 -1410 -84"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "2264 -2070 92"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "1872 -982 244"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 1"
+"message" "hit the switches to open"
+"targetname" "team1_finaldoor"
+"speed" "2"
+"wait" "-1"
+"sounds" "3"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"netname" "func_door 4"
+"speed" "30"
+"wait" "5"
+"model" "*2"
+}
+{
+"activate_goal_no" "101"
+"classname" "func_button"
+"angle" "270"
+"netname" "func_button 1"
+"target" "team1_counter"
+"team_no" "2"
+"wait" "-1"
+"sounds" "1"
+"model" "*3"
+}
+{
+"activate_goal_no" "101"
+"classname" "func_button"
+"angle" "360"
+"netname" "func_button 2"
+"target" "team1_counter"
+"team_no" "2"
+"wait" "-1"
+"sounds" "1"
+"model" "*4"
+}
+{
+"activate_goal_no" "101"
+"classname" "func_button"
+"angle" "360"
+"netname" "func_button 3"
+"target" "team1_counter"
+"team_no" "2"
+"wait" "-1"
+"sounds" "1"
+"model" "*5"
+}
+{
+"activate_goal_no" "101"
+"classname" "func_button"
+"angle" "180"
+"netname" "func_button 4"
+"target" "team1_counter"
+"team_no" "2"
+"wait" "-1"
+"sounds" "1"
+"model" "*6"
+}
+{
+"activate_goal_no" "101"
+"classname" "func_button"
+"angle" "180"
+"netname" "func_button 5"
+"target" "team1_counter"
+"team_no" "2"
+"wait" "-1"
+"sounds" "1"
+"model" "*7"
+}
+{
+"activate_goal_no" "101"
+"classname" "func_button"
+"angle" "270"
+"netname" "func_button 6"
+"target" "team1_counter"
+"team_no" "2"
+"wait" "-1"
+"sounds" "1"
+"model" "*8"
+}
+{
+"classname" "trigger_counter"
+"netname" "trigger_counter 1"
+"target" "team1_finaldoor"
+"targetname" "team1_counter"
+"count" "6"
+}
+{
+"classname" "trigger_counter"
+"netname" "trigger_counter 2"
+"target" "team2_finaldoor"
+"targetname" "team2_counter"
+"count" "6"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "1928 -1606 -76"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"netname" "func_door 6"
+"targetname" "team1_door1"
+"speed" "80"
+"wait" "15"
+"sounds" "4"
+"model" "*9"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"netname" "func_button 7"
+"target" "team1_door2"
+"wait" "15"
+"sounds" "1"
+"model" "*10"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"netname" "func_button 8"
+"target" "team1_door1"
+"wait" "15"
+"sounds" "1"
+"model" "*11"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "2598 -974 254"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"netname" "func_door 8"
+"targetname" "team1_door2"
+"speed" "120"
+"wait" "15"
+"sounds" "3"
+"model" "*12"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply point"
+"message" "resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "10"
+"health" "30"
+"armorvalue" "30"
+"ammo_shells" "20"
+"ammo_nails" "50"
+"ammo_rockets" "20"
+"ammo_cells" "20"
+"ammo_medikit" "20"
+"no_grenades_2" "1"
+"origin" "2560 -2114 -96"
+}
+{
+"classname" "info_tfgoal"
+"netname" "ending"
+"count" "20"
+"goal_activation" "1"
+"goal_result" "4"
+"team_no" "2"
+"origin" "2268 -2490 -72"
+"team_broadcast" "\n\n\nYour team has WON!"
+"non_team_broadcast" "\n\n\nThe enemy penetrated your base!\nYour team has LOST!"
+"message" "\n\n\nYou penetrated the enemy base!\nYour team has WON!"
+"increase_team2" "100"
+}
+{
+"classname" "func_button"
+"angle" "90"
+"netname" "func_button 9"
+"target" "team1_door1"
+"wait" "15"
+"sounds" "1"
+"model" "*13"
+}
+{
+"classname" "func_button"
+"angle" "90"
+"netname" "func_button 10"
+"target" "team1_door2"
+"wait" "15"
+"sounds" "1"
+"model" "*14"
+}
+{
+"classname" "info_tfdetect"
+"broadcast" "TeamFortress v2.6"
+"remove_group_no" "224"
+"origin" "2020 -1430 0"
+"hook_out" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"spawnflags" "1"
+"team_no" "1"
+"origin" "2120 -2118 -80"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"spawnflags" "1"
+"team_no" "1"
+"origin" "2408 -2118 -80"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"spawnflags" "1"
+"team_no" "1"
+"origin" "2536 -2118 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"spawnflags" "1"
+"team_no" "1"
+"origin" "2036 -1854 -84"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"spawnflags" "1"
+"team_no" "1"
+"origin" "2120 -1854 -88"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"spawnflags" "1"
+"team_no" "1"
+"origin" "2408 -1854 -88"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"spawnflags" "1"
+"team_no" "1"
+"origin" "2488 -1854 -84"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2586 -1526 254"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "1896 -1534 282"
+}
+{
+"classname" "light"
+"light" "700"
+"origin" "2600 -2054 254"
+}
+{
+"classname" "light"
+"light" "700"
+"origin" "1944 -2062 244"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "2260 -1398 4"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "2492 -1626 -92"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"spawnflags" "1"
+"team_no" "1"
+"origin" "2600 -2118 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"spawnflags" "1"
+"team_no" "1"
+"origin" "2536 -2182 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"spawnflags" "1"
+"team_no" "1"
+"origin" "2600 -2182 16"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2200 -558 164"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2048 320 164"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "1248 606 164"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "1664 576 164"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "416 960 164"
+}
+{
+"classname" "info_player_start"
+"angle" "180"
+"origin" "248 2652 -84"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "240 3312 92"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "632 2224 244"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"netname" "func_door 1"
+"message" "hit the switches to open"
+"targetname" "team2_finaldoor"
+"speed" "2"
+"wait" "-1"
+"sounds" "3"
+"model" "*15"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"netname" "func_door 4"
+"speed" "30"
+"wait" "5"
+"sounds" "1"
+"model" "*16"
+}
+{
+"activate_goal_no" "100"
+"classname" "func_button"
+"angle" "90"
+"netname" "func_button 1"
+"target" "team2_counter"
+"team_no" "1"
+"wait" "-1"
+"sounds" "1"
+"model" "*17"
+}
+{
+"activate_goal_no" "100"
+"classname" "func_button"
+"angle" "180"
+"netname" "func_button 2"
+"target" "team2_counter"
+"team_no" "1"
+"wait" "-1"
+"sounds" "1"
+"model" "*18"
+}
+{
+"activate_goal_no" "100"
+"classname" "func_button"
+"angle" "180"
+"netname" "func_button 3"
+"target" "team2_counter"
+"team_no" "1"
+"wait" "-1"
+"sounds" "1"
+"model" "*19"
+}
+{
+"activate_goal_no" "100"
+"classname" "func_button"
+"angle" "360"
+"netname" "func_button 4"
+"target" "team2_counter"
+"team_no" "1"
+"wait" "-1"
+"sounds" "1"
+"model" "*20"
+}
+{
+"activate_goal_no" "100"
+"classname" "func_button"
+"angle" "360"
+"netname" "func_button 5"
+"target" "team2_counter"
+"team_no" "1"
+"wait" "-1"
+"sounds" "1"
+"model" "*21"
+}
+{
+"activate_goal_no" "100"
+"classname" "func_button"
+"angle" "90"
+"netname" "func_button 6"
+"target" "team2_counter"
+"team_no" "1"
+"wait" "-1"
+"sounds" "1"
+"model" "*22"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "576 2848 -76"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"netname" "func_door 6"
+"targetname" "team2_door1"
+"speed" "80"
+"wait" "15"
+"sounds" "4"
+"model" "*23"
+}
+{
+"classname" "func_button"
+"angle" "90"
+"netname" "func_button 7"
+"target" "team2_door2"
+"wait" "15"
+"sounds" "1"
+"model" "*24"
+}
+{
+"classname" "func_button"
+"angle" "90"
+"netname" "func_button 8"
+"target" "team2_door1"
+"wait" "15"
+"sounds" "1"
+"model" "*25"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "-94 2216 254"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"netname" "func_door 8"
+"targetname" "team2_door2"
+"speed" "120"
+"wait" "15"
+"sounds" "3"
+"model" "*26"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "304 1800 164"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply point"
+"message" "resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "10"
+"health" "30"
+"armorvalue" "30"
+"ammo_shells" "20"
+"ammo_nails" "50"
+"ammo_rockets" "20"
+"ammo_cells" "20"
+"ammo_medikit" "20"
+"no_grenades_2" "1"
+"origin" "-56 3356 -96"
+}
+{
+"classname" "info_tfgoal"
+"netname" "ending"
+"count" "20"
+"goal_activation" "1"
+"goal_result" "4"
+"team_no" "1"
+"origin" "236 3732 -72"
+"team_broadcast" "\n\n\nYour team has WON!"
+"non_team_broadcast" "\n\n\nThe enemy penetrated your base!\nYour team has LOST!"
+"message" "\n\n\nYou penetrated the enemy base!\nYour team has WON!"
+"increase_team1" "100"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"netname" "func_button 9"
+"target" "team2_door1"
+"wait" "15"
+"sounds" "1"
+"model" "*27"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"netname" "func_button 10"
+"target" "team2_door2"
+"wait" "15"
+"sounds" "1"
+"model" "*28"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"spawnflags" "1"
+"team_no" "2"
+"origin" "384 3360 -80"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"spawnflags" "1"
+"team_no" "2"
+"origin" "96 3360 -80"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"spawnflags" "1"
+"team_no" "2"
+"origin" "-32 3360 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"spawnflags" "1"
+"team_no" "2"
+"origin" "468 3096 -84"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"spawnflags" "1"
+"team_no" "2"
+"origin" "384 3096 -88"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"spawnflags" "1"
+"team_no" "2"
+"origin" "96 3096 -88"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"spawnflags" "1"
+"team_no" "2"
+"origin" "16 3096 -84"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-82 2768 254"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "608 2776 282"
+}
+{
+"classname" "light"
+"light" "700"
+"origin" "-96 3296 254"
+}
+{
+"classname" "light"
+"light" "700"
+"origin" "560 3304 244"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "244 2640 4"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "12 2868 -92"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"spawnflags" "1"
+"team_no" "2"
+"origin" "-96 3360 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"spawnflags" "1"
+"team_no" "2"
+"origin" "-32 3424 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"spawnflags" "1"
+"team_no" "2"
+"origin" "-96 3424 16"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "800 640 164"
+}
+{
+"increase_team1" "2"
+"netname" "scorefor1"
+"goal_no" "100"
+"origin" "236 3732 -72"
+"classname" "info_tfgoal"
+}
+{
+"increase_team2" "2"
+"netname" "scorefor2"
+"goal_no" "101"
+"origin" "236 3732 -72"
+"classname" "info_tfgoal"
+}

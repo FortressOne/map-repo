@@ -1,0 +1,412 @@
+{
+"classname" "worldspawn"
+"message" "<SILHOUETTE> -BY- GRYMQ"
+"wad" "C:\Program Files\Qoole\work\grymsnip.wad"
+"worldtype" "2"
+}
+{
+"classname" "func_door"
+"speed" "75"
+"sounds" "4"
+"wait" "6"
+"lip" "-115"
+"targetname" "elev2"
+"angle" "-2"
+"model" "*1"
+}
+{
+"classname" "func_plat"
+"speed" "100"
+"sounds" "0"
+"height" "115"
+"model" "*2"
+}
+{
+"classname" "func_plat"
+"speed" "100"
+"sounds" "0"
+"height" "115"
+"model" "*3"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "11"
+"non_team_broadcast" "Kill the Enemy!\n"
+"origin" "624 128 39"
+"hook_out" "1"
+"maxammo_shells" "1021"
+"team_broadcast" "CHOOSE YOUR TEAM:\n1:MURDER INC.\n2:CLEANERS\n"
+"broadcast" "Teamfortress v2.8"
+"noise1" "=== Choose your class ===\n\n2.. Sniper  \n"
+"maxammo_nails" "1021"
+"noise2" "=== Choose your class ===\n\n2.. Sniper  \n"
+}
+{
+"classname" "info_null"
+"origin" "736 289 -103"
+"targetname" "spot_targ4"
+"angle" "90"
+}
+{
+"classname" "light"
+"target" "spot_targ4"
+"origin" "736 289 144"
+"style" "32"
+"targetname" "spot_4"
+"light" "300"
+}
+{
+"classname" "info_null"
+"origin" "512 289 -103"
+"targetname" "spot_targ1"
+"angle" "90"
+}
+{
+"classname" "light"
+"target" "spot_targ1"
+"origin" "512 289 144"
+"style" "33"
+"targetname" "spot_1"
+"light" "300"
+}
+{
+"classname" "info_null"
+"origin" "512 -48 -103"
+"targetname" "spot_targ2"
+"angle" "90"
+}
+{
+"classname" "light"
+"target" "spot_targ2"
+"origin" "512 -48 144"
+"style" "34"
+"targetname" "spot_2"
+"light" "300"
+}
+{
+"classname" "info_null"
+"origin" "736 -48 -103"
+"targetname" "spot_targ3"
+"angle" "90"
+}
+{
+"classname" "light"
+"target" "spot_targ3"
+"origin" "736 -48 144"
+"style" "35"
+"targetname" "spot_3"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "288 288 96"
+"style" "36"
+"targetname" "lite_1"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "288 128 96"
+"style" "37"
+"targetname" "lite_2"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "288 -48 96"
+"style" "38"
+"targetname" "lite_3"
+"light" "250"
+}
+{
+"style" "39"
+"classname" "light"
+"origin" "960 288 96"
+"targetname" "lite_4"
+"light" "250"
+}
+{
+"style" "40"
+"classname" "light"
+"origin" "960 125 96"
+"targetname" "lite_5"
+"light" "250"
+}
+{
+"style" "41"
+"classname" "light"
+"origin" "960 -48 96"
+"targetname" "lite_6"
+"light" "250"
+}
+{
+"classname" "func_door"
+"speed" "75"
+"sounds" "4"
+"wait" "6"
+"lip" "-115"
+"targetname" "elev1"
+"angle" "-2"
+"model" "*4"
+}
+{
+"classname" "trigger_multiple"
+"target" "elev1"
+"sounds" "0"
+"wait" "5"
+"delay" "1"
+"model" "*5"
+}
+{
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+"netname" "bluesnip_respawn1"
+"message" "Why do they come to me to die?\n"
+"origin" "-72 120 16"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+"message" "Damn It! Damn It! Son of a Bich!\n"
+"netname" "bluesnip_respawn2"
+"origin" "-72 120 -100"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+"netname" "redsnip_respawn1"
+"message" "TIP: Keep your head down :)\n"
+"origin" "1319 120 16"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+"netname" "redsnip2_respawn2"
+"message" "When will the hurting stop?\n"
+"origin" "1319 120 -100"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "trigger_multiple"
+"target" "elev2"
+"sounds" "0"
+"wait" "5"
+"delay" "1"
+"model" "*6"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "1"
+"ammo_shells" "100"
+"netname" "blue_backpack"
+"armorclass" "1"
+"origin" "14 119 39"
+"armortype" "0.6"
+"wait" "0"
+"broadcast" "God...Are you there God?\n"
+"goal_effects" "1"
+"goal_result" "2"
+"armorvalue" "75"
+"health" "50"
+"ammo_cells" "50"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "2"
+"ammo_shells" "100"
+"netname" "red_backpack"
+"armorclass" "1"
+"origin" "1239 119 40"
+"armortype" "0.6"
+"wait" "20"
+"broadcast" "One Shot! One Kill!\n"
+"goal_effects" "1"
+"goal_result" "2"
+"armorvalue" "75"
+"health" "50"
+"ammo_cells" "50"
+}
+{
+"classname" "light"
+"origin" "-93 119 48"
+"style" "42"
+"targetname" "bl_lite3"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1349 120 48"
+"style" "43"
+"targetname" "re_lite3"
+"light" "250"
+}
+{
+"classname" "info_player_start"
+"origin" "855 127 -82"
+"angle" "179"
+}
+{
+"style" "44"
+"classname" "light"
+"origin" "80 32 48"
+"targetname" "bl_lite1"
+"light" "200"
+}
+{
+"style" "45"
+"classname" "light"
+"origin" "81 209 48"
+"targetname" "bl_lite2"
+"light" "200"
+}
+{
+"style" "46"
+"classname" "light"
+"origin" "81 32 -32"
+"targetname" "bl_lite4"
+"light" "200"
+}
+{
+"style" "47"
+"classname" "light"
+"origin" "80 210 -32"
+"targetname" "bl_lite5"
+"light" "200"
+}
+{
+"style" "48"
+"classname" "light"
+"origin" "1182 210 48"
+"targetname" "re_lite1"
+"light" "150"
+}
+{
+"style" "49"
+"classname" "light"
+"origin" "1183 31 48"
+"targetname" "re_lite2"
+"light" "150"
+}
+{
+"style" "50"
+"classname" "light"
+"origin" "1184 32 -33"
+"targetname" "re_lite4"
+"light" "150"
+}
+{
+"style" "51"
+"classname" "light"
+"origin" "1185 210 -33"
+"targetname" "re_lite5"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "432 127 -81"
+"style" "52"
+"targetname" "lite_7"
+"light" "175"
+}
+{
+"classname" "light"
+"origin" "560 127 -81"
+"style" "53"
+"targetname" "lite_8"
+"light" "175"
+}
+{
+"classname" "light"
+"origin" "688 128 -81"
+"style" "54"
+"targetname" "lite_9"
+"light" "175"
+}
+{
+"classname" "light"
+"origin" "816 127 -81"
+"style" "55"
+"targetname" "lite_10"
+"light" "175"
+}
+{
+"classname" "ambient_comp_hum"
+"netname" "sound_3"
+"origin" "-95 32 42"
+}
+{
+"classname" "ambient_comp_hum"
+"netname" "sound_4"
+"origin" "-96 203 42"
+}
+{
+"classname" "ambient_comp_hum"
+"netname" "sound_8"
+"origin" "1354 206 40"
+}
+{
+"classname" "ambient_comp_hum"
+"netname" "sound_9"
+"origin" "1354 32 40"
+}
+{
+"classname" "func_button"
+"speed" "175"
+"sounds" "3"
+"wait" "0"
+"delay" "0"
+"angle" "180"
+"model" "*7"
+}
+{
+"classname" "func_button"
+"speed" "175"
+"sounds" "3"
+"wait" "0"
+"delay" "0"
+"angle" "0"
+"model" "*8"
+}
+{
+"classname" "light"
+"origin" "881 128 -80"
+"style" "56"
+"targetname" "lite_11"
+"light" "175"
+}
+{
+"classname" "light"
+"origin" "384 127 -80"
+"style" "57"
+"targetname" "lite_12"
+"light" "175"
+}
+{
+"classname" "ambient_comp_hum"
+"netname" "sound_1"
+"origin" "68 240 42"
+}
+{
+"classname" "ambient_comp_hum"
+"netname" "sound_2"
+"origin" "69 -8 42"
+}
+{
+"classname" "ambient_comp_hum"
+"netname" "sound_10"
+"origin" "1179 -1 40"
+}
+{
+"classname" "ambient_comp_hum"
+"netname" "sound_11"
+"origin" "1172 240 40"
+}

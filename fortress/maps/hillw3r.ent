@@ -1,0 +1,1006 @@
+{
+"wad" "c:\program files\worldcraft\blood1.wad;d:\cback\qutils\qedit\redmet20.wad;c:\program file"
+"message" "Hill War, v3.1 (Revised)\nBy Firestorm.42"
+"light" "15"
+"sounds" "1"
+"worldtype" "2"
+"classname" "worldspawn"
+}
+{
+"origin" "1184 -1760 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "816 0 240"
+"noise" "items/armor1.wav"
+"no_grenades_1" "1"
+"wait" "3"
+"ammo_cells" "50"
+"ammo_nails" "50"
+"ammo_shells" "50"
+"ammo_rockets" "10"
+"ammo_medikit" "20"
+"health" "10"
+"g_e" "1"
+"g_a" "1"
+"mdl" "progs/backpack.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "0 -640 128"
+"angle" "117"
+"classname" "info_player_start"
+}
+{
+"origin" "-96 -224 -192"
+"broadcast" "Teamfortress 2.9\n"
+"non_team_str_carried" "The enemy flag is being carried by"
+"non_team_str_moved" "The enemy flag is lying around.\n"
+"non_team_str_home" "The enemy flag is in their bunker.\n"
+"team_str_carried" "Your flag is being carried by"
+"team_str_moved" "Your flag is lying around.\n"
+"team_str_home" "Your flag is in your bunker.\n"
+"non_team_broadcast" "Go into the enemy bunker\n and bring their flag to the hill between the bases.\n"
+"hook_out" "1"
+"classname" "info_tfdetect"
+}
+{
+"origin" "1184 -1808 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1184 -1856 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1184 -1904 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1184 -1952 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1184 -2000 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"model" "*1"
+"playerclass" "0"
+"team_no" "0"
+"target" "bluesniper"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-424 -1096 176"
+"targetname" "bluesniper"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "648 -1192 320"
+"targetname" "blueforward1"
+"angle" "132"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "-32 -1344 64"
+"targetname" "blueforward2"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "352 -1344 64"
+"targetname" "blueback1"
+"angle" "180"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "-432 -1216 176"
+"targetname" "blueback2"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*2"
+"playerclass" "0"
+"team_no" "0"
+"target" "blueforward2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*3"
+"playerclass" "0"
+"team_no" "0"
+"target" "blueback1"
+"classname" "trigger_teleport"
+}
+{
+"origin" "856 -600 -184"
+"team_broadcast" "Your team has the ENEMY FLAG!\n"
+"non_team_broadcast" "The ENEMY has your FLAG!\n"
+"activate_goal_no" "401"
+"goal_result" "18"
+"group_no" "50"
+"netname" "blue_flag"
+"goal_no" "101"
+"netname_non_team_broadcast" " has your flag!\nStop him before he gets back to base!\n"
+"netname_team_broadcast" " has the enemy flag!\n"
+"netname_non_team_drop" " has lost the enemy flag.\n"
+"netname_team_drop" " has lost your flag.\n"
+"noise4" "The enemy flag has returned.\n"
+"noise3" "Your flag has returned.\n"
+"noise" "shambler/ssight.wav"
+"skin" "1"
+"team_no" "2"
+"owned_by" "1"
+"mdl" "progs/tf_flag.mdl"
+"frags" "1"
+"g_e" "1"
+"pausetime" "15"
+"goal_activation" "8757"
+"classname" "item_tfgoal"
+}
+{
+"origin" "856 600 -184"
+"non_team_broadcast" "The ENEMY has your FLAG!\n"
+"team_broadcast" "Your team has the ENEMY FLAG!\n"
+"activate_goal_no" "402"
+"goal_result" "18"
+"group_no" "50"
+"netname" "red_flag"
+"goal_no" "102"
+"netname_non_team_drop" " has lost the enemy flag.\n"
+"netname_team_drop" " has lost your flag.\n"
+"noise4" "The enemy flag has returned.\n"
+"noise3" "Your flag has returned.\n"
+"noise" "shambler/ssight.wav"
+"skin" "2"
+"team_no" "1"
+"owned_by" "2"
+"mdl" "progs/tf_flag.mdl"
+"frags" "1"
+"g_e" "1"
+"pausetime" "15"
+"goal_activation" "8757"
+"classname" "item_tfgoal"
+}
+{
+"model" "*4"
+"playerclass" "0"
+"team_no" "0"
+"target" "redback2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*5"
+"playerclass" "0"
+"team_no" "0"
+"target" "redforward2"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-432 1216 176"
+"targetname" "redback2"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "352 1344 64"
+"targetname" "redback1"
+"angle" "180"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "-32 1344 64"
+"targetname" "redforward2"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "656 1216 320"
+"targetname" "redforward1"
+"angle" "230"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "-432 1120 176"
+"targetname" "redsniper"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "1184 2000 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1184 1952 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1184 1904 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1184 1856 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1184 1808 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "816 0 240"
+"armorvalue" "50"
+"no_grenades_1" "1"
+"wait" "3"
+"ammo_cells" "50"
+"ammo_nails" "50"
+"ammo_shells" "50"
+"ammo_rockets" "10"
+"ammo_medikit" "20"
+"health" "10"
+"g_e" "1"
+"g_a" "1"
+"mdl" "progs/backpack.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1184 1760 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-8 -16 3768"
+"wait" "0.00000001"
+"light" "120"
+"classname" "light"
+}
+{
+"origin" "8 -1104 3736"
+"wait" "0.00000001"
+"light" "30"
+"classname" "light"
+}
+{
+"origin" "8 1192 3752"
+"wait" "0.00000001"
+"light" "30"
+"classname" "light"
+}
+{
+"origin" "544 0 224"
+"message" "You captured the ENEMY flag!\n"
+"goal_result" "2"
+"noise" "misc/medkey.wav"
+"activate_goal_no" "900"
+"frags" "2"
+"count" "10"
+"has_item_from_group" "50"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "720 472 216"
+"frags" "10"
+"goal_result" "2"
+"netname_broadcast" " has captured the BLUE flag!\n"
+"g_e" "2"
+"axhitme" "101"
+"else_goal" "901"
+"team_no" "2"
+"goal_no" "900"
+"classname" "info_tfgoal"
+}
+{
+"origin" "736 448 216"
+"frags" "10"
+"netname_broadcast" " has captured the RED flag!\n"
+"axhitme" "102"
+"g_e" "2"
+"goal_no" "901"
+"classname" "info_tfgoal"
+}
+{
+"origin" "544 944 -184"
+"light" "120"
+"classname" "light"
+}
+{
+"origin" "544 784 -184"
+"light" "120"
+"classname" "light"
+}
+{
+"origin" "824 720 -184"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "824 -728 -184"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "552 -784 -184"
+"light" "120"
+"classname" "light"
+}
+{
+"origin" "552 -944 -184"
+"light" "120"
+"classname" "light"
+}
+{
+"origin" "1440 2008 320"
+"wait" "0.2"
+"light" "60"
+"classname" "light"
+}
+{
+"origin" "1440 1944 320"
+"wait" "0.2"
+"light" "60"
+"classname" "light"
+}
+{
+"origin" "1440 1880 320"
+"wait" "0.2"
+"light" "60"
+"classname" "light"
+}
+{
+"origin" "1440 1816 320"
+"wait" "0.2"
+"light" "60"
+"classname" "light"
+}
+{
+"origin" "1440 1752 320"
+"wait" "0.2"
+"light" "60"
+"classname" "light"
+}
+{
+"origin" "1312 1880 304"
+"style" "11"
+"wait" "0.2"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "1256 1880 384"
+"style" "0"
+"wait" "0.0001"
+"light" "80"
+"classname" "light"
+}
+{
+"origin" "1256 -1880 384"
+"style" "0"
+"wait" "0.0001"
+"light" "80"
+"classname" "light"
+}
+{
+"origin" "1312 -1880 304"
+"style" "11"
+"wait" "0.2"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "1440 -1752 320"
+"wait" "0.2"
+"light" "60"
+"classname" "light"
+}
+{
+"origin" "1440 -1816 320"
+"wait" "0.2"
+"light" "60"
+"classname" "light"
+}
+{
+"origin" "1440 -1880 320"
+"wait" "0.2"
+"light" "60"
+"classname" "light"
+}
+{
+"origin" "1440 -1944 320"
+"wait" "0.2"
+"light" "60"
+"classname" "light"
+}
+{
+"origin" "1440 -2008 320"
+"wait" "0.2"
+"light" "60"
+"classname" "light"
+}
+{
+"origin" "768 0 256"
+"wait" "0.4"
+"light" "75"
+"classname" "light"
+}
+{
+"model" "*6"
+"target" "blueback2door"
+"delay" "0"
+"style" "32"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*7"
+"target" "bluesniperdoor"
+"delay" "0"
+"style" "32"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*8"
+"target" "blueforward1door"
+"delay" "0"
+"style" "32"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*9"
+"target" "blueforward2door"
+"delay" "0"
+"style" "32"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*10"
+"target" "blueback1door"
+"delay" "0"
+"style" "32"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*11"
+"target" "redback1door"
+"delay" "0"
+"style" "32"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*12"
+"target" "redforward2door"
+"delay" "0"
+"style" "32"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*13"
+"target" "redsniperdoor"
+"delay" "0"
+"style" "32"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*14"
+"target" "redback2door"
+"delay" "0"
+"style" "32"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*15"
+"target" "redforward1door"
+"delay" "0"
+"style" "32"
+"wait" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*16"
+"targetname" "bluesniperdoor"
+"dmg" "0"
+"wait" "3"
+"sounds" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*17"
+"speed" "100"
+"targetname" "blueforward2door"
+"dmg" "0"
+"wait" "3"
+"sounds" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"targetname" "blueback1door"
+"dmg" "0"
+"wait" "3"
+"sounds" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*19"
+"targetname" "redback2door"
+"dmg" "0"
+"wait" "3"
+"sounds" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*20"
+"targetname" "redforward2door"
+"dmg" "0"
+"wait" "3"
+"sounds" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"origin" "352 -1216 -56"
+"wait" "0.4"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "368 -1216 -64"
+"goal_no" "4001"
+"noise" "items/armor1.wav"
+"armorvalue" "50"
+"team_no" "1"
+"wait" "2"
+"ammo_cells" "100"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"ammo_rockets" "25"
+"ammo_medikit" "25"
+"health" "25"
+"g_e" "1"
+"g_a" "1"
+"mdl" "progs/backpack.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "368 1216 -64"
+"goal_no" "4002"
+"noise" "items/armor1.wav"
+"armorvalue" "50"
+"team_no" "2"
+"wait" "2"
+"ammo_cells" "100"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"ammo_rockets" "25"
+"ammo_medikit" "25"
+"health" "25"
+"g_e" "1"
+"g_a" "1"
+"mdl" "progs/backpack.mdl"
+"classname" "info_tfgoal"
+}
+{
+"origin" "352 1216 -48"
+"wait" "0.4"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "1320 2064 288"
+"goal_result" "2"
+"noise" "items/armor1.wav"
+"wait" "1"
+"activate_goal_no" "500"
+"mdl" "progs/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1304 1696 288"
+"goal_result" "2"
+"noise" "items/armor1.wav"
+"wait" "1"
+"activate_goal_no" "500"
+"mdl" "progs/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1304 -2064 288"
+"goal_result" "2"
+"noise" "items/armor1.wav"
+"wait" "1"
+"activate_goal_no" "500"
+"mdl" "progs/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1304 -1696 288"
+"goal_result" "2"
+"noise" "items/armor1.wav"
+"wait" "1"
+"activate_goal_no" "500"
+"mdl" "progs/backpack.mdl"
+"g_e" "1"
+"g_a" "1"
+"classname" "info_tfgoal"
+}
+{
+"model" "*21"
+"target" "redsniperspam"
+"wait" "3"
+"delay" "0"
+"health" "1"
+"sounds" "1"
+"speed" "100"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*22"
+"owners_team_broadcast" "SPAM warning at teleports 1 and 2!\n"
+"owned_by" "1"
+"target" "bluesniperspam"
+"wait" "3"
+"delay" "0"
+"health" "1"
+"sounds" "1"
+"speed" "100"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*23"
+"playerclass" "0"
+"team_no" "0"
+"target" "redsniper"
+"classname" "trigger_teleport"
+}
+{
+"model" "*24"
+"speed" "100"
+"targetname" "redsniperdoor"
+"dmg" "0"
+"wait" "3"
+"sounds" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*25"
+"playerclass" "0"
+"team_no" "0"
+"target" "redforward1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*26"
+"targetname" "redforward1door"
+"dmg" "0"
+"wait" "3"
+"sounds" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"origin" "1216 1760 288"
+"owners_team_broadcast" "WARNING!  SPAM detected, teleports 1 and 2!\n"
+"owned_by" "2"
+"targetname" "redsniperspam"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1248 1696 288"
+"owners_team_broadcast" "WARNING!  SPAM detected, teleports 1 and 2!\n"
+"owned_by" "1"
+"targetname" "bluesniperspam"
+"classname" "info_tfgoal"
+}
+{
+"origin" "160 -1360 96"
+"style" "0"
+"light" "120"
+"classname" "light"
+}
+{
+"origin" "160 1360 96"
+"style" "0"
+"light" "120"
+"classname" "light"
+}
+{
+"model" "*27"
+"playerclass" "0"
+"team_no" "0"
+"target" "blueback2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*28"
+"targetname" "blueback2door"
+"dmg" "0"
+"wait" "3"
+"sounds" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*29"
+"playerclass" "0"
+"team_no" "0"
+"target" "blueforward1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*30"
+"targetname" "blueforward1door"
+"dmg" "0"
+"wait" "3"
+"sounds" "4"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"origin" "720 544 -176"
+"non_team_broadcast" "The enemy has your flag!\n"
+"team_broadcast" "Your team has the ENEMY FLAG!\n"
+"wait" "1"
+"message" "You have the enemy flag!\n"
+"netname_non_team_broadcast" " has your flag!\nStop him!\n"
+"netname_team_broadcast" " has the enemy flag!\n"
+"owned_by" "2"
+"goal_no" "402"
+"classname" "info_tfgoal"
+}
+{
+"origin" "736 -544 -176"
+"message" "You have the enemy flag!\n"
+"netname_non_team_broadcast" " has your flag!\nStop him!\n"
+"netname_team_broadcast" " has the enemy flag!\n"
+"owned_by" "1"
+"goal_no" "401"
+"classname" "info_tfgoal"
+}
+{
+"model" "*31"
+"targetname" "bluewall"
+"playerclass" "0"
+"team_no" "0"
+"health" "1500"
+"dmg" "0"
+"lip" "0"
+"sounds" "1"
+"speed" "500"
+"wait" "300"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*32"
+"targetname" "redwall"
+"playerclass" "0"
+"team_no" "0"
+"health" "1500"
+"dmg" "0"
+"lip" "0"
+"sounds" "1"
+"speed" "500"
+"wait" "300"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"origin" "736 656 -208"
+"broadcast" "Red's wall has been busted!\n"
+"message" "You busted Red's wall!\n"
+"team_no" "1"
+"target" "redwall"
+"count" "2"
+"frags" "3"
+"g_e" "1"
+"g_a" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "352 1232 -80"
+"activate_goal_no" "5002"
+"remove_goal_no" "4002"
+"wait" "1"
+"team_no" "1"
+"broadcast" "The enemy's supplies have been blasted!\n"
+"message" "You blasted the enemy's supplies!\n"
+"g_e" "1"
+"g_a" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "368 1248 -176"
+"restore_goal_no" "4002"
+"delay_time" "30"
+"goal_no" "5002"
+"classname" "info_tfgoal"
+}
+{
+"origin" "360 -1192 -152"
+"restore_goal_no" "4001"
+"delay_time" "30"
+"goal_no" "5001"
+"classname" "info_tfgoal"
+}
+{
+"origin" "352 -1232 -80"
+"activate_goal_no" "5001"
+"remove_goal_no" "4001"
+"wait" "1"
+"team_no" "2"
+"broadcast" "The enemy's supplies have been blasted!\n"
+"message" "You blasted the enemy's supplies!\n"
+"g_e" "1"
+"g_a" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "736 -656 -208"
+"broadcast" "Blue's wall has been busted!\n"
+"message" "You busted Blue's wall!\n"
+"team_no" "2"
+"target" "bluewall"
+"count" "2"
+"frags" "3"
+"g_e" "1"
+"g_a" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "576 -256 1600"
+"health" "100"
+"no_grenades_2" "-4"
+"targetname" "pumped"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"g_e" "1"
+"goal_no" "500"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1232 2000 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1232 1952 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1232 1904 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1232 1856 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1232 1808 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1232 1760 432"
+"message" "Welcome to the Red Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1232 -1760 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1232 -1808 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1232 -1856 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1232 -1904 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1232 -1952 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1232 -2000 432"
+"message" "Welcome to the Blue Teleport Station\nThe packs will take your gren2s if used.\n"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"model" "*33"
+"delay" "0"
+"style" "32"
+"speed" "50"
+"classname" "trigger_push"
+}
+{
+"model" "*34"
+"delay" "0"
+"style" "32"
+"speed" "50"
+"classname" "trigger_push"
+}
+{
+"model" "*35"
+"playerclass" "0"
+"team_no" "0"
+"target" "redback1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*36"
+"targetname" "redback1door"
+"dmg" "0"
+"wait" "3"
+"sounds" "4"
+"angle" "-2"
+"classname" "func_door"
+}

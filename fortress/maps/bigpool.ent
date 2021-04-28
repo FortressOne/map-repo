@@ -1,0 +1,923 @@
+{
+"classname" "worldspawn"
+"worldtype" "1"
+"sounds" "7"
+"light" "0"
+"message" "BigPool"
+}
+{
+"classname" "info_tfdetect"
+"netname" "tf_detect"
+"impulse" "69"
+"maxammo_shells" "166"
+"maxammo_nails" "166"
+"maxammo_rockets" "989"
+"non_team_broadcast" "Read the bigpool.txt file Bob took the time to make for you \n"
+"noise1" "=== Choose your class ===\n\n1.. Scout   \n4.. Demoman \n5.. Medic   \n7.. Pyro    \n9.. Engineer\n0.. Randompc\n"
+"noise2" "=== Choose your class ===\n\n1.. Scout   \n4.. Demoman \n5.. Medic   \n7.. Pyro    \n9.. Engineer\n0.. Randompc\n"
+"noise3" "=== Choose your class ===\n\n2.. Sniper  \n6.. Hvwep   \n"
+"ammo_medikit" "3"
+"ammo_detpack" "3"
+"maxammo_medikit" "6"
+"origin" "704 -640 0"
+}
+{
+"classname" "info_player_start"
+"angle" "43"
+"origin" "192 -1728 192"
+}
+{
+"classname" "info_intermission"
+"angle" "208"
+"origin" "1408 128 128"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"height" "176"
+"model" "*1"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"height" "176"
+"model" "*2"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"height" "176"
+"model" "*3"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"height" "176"
+"model" "*4"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"height" "176"
+"team_no" "1"
+"model" "*5"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"height" "176"
+"team_no" "1"
+"model" "*6"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"height" "176"
+"team_no" "2"
+"model" "*7"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"height" "176"
+"team_no" "2"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "secret_door_t2"
+"model" "*9"
+}
+{
+"classname" "func_button"
+"angle" "272"
+"health" "25"
+"target" "secret_door_t2"
+"delay" "0"
+"model" "*10"
+}
+{
+"classname" "light_globe"
+"angle" "43"
+"light" "300"
+"origin" "1564 -1332 51"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "secret_door_t1"
+"model" "*11"
+}
+{
+"classname" "func_button"
+"angle" "272"
+"health" "25"
+"target" "secret_door_t1"
+"delay" "0"
+"model" "*12"
+}
+{
+"classname" "light_globe"
+"angle" "43"
+"light" "300"
+"origin" "-1564 -1332 51"
+}
+{
+"classname" "light_globe"
+"angle" "43"
+"light" "300"
+"origin" "-1564 -204 51"
+}
+{
+"classname" "light_globe"
+"angle" "43"
+"light" "300"
+"origin" "1564 -204 51"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "88"
+"netname" "t2s1"
+"goal_no" "1"
+"team_no" "2"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "1920 -1408 171"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"netname" "t2s2"
+"goal_no" "2"
+"team_no" "2"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "1920 -64 171"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t2s3"
+"goal_no" "3"
+"team_no" "2"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "1960 -574 -192"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "272"
+"netname" "t2s4"
+"goal_no" "4"
+"team_no" "2"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "1960 -958 -192"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"netname" "t1s1"
+"goal_no" "1"
+"team_no" "1"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "-1952 -960 -192"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "87"
+"netname" "t1s2"
+"goal_no" "2"
+"team_no" "1"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "-1952 -576 -192"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "272"
+"netname" "t1s3"
+"goal_no" "3"
+"team_no" "1"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "-1999 -48 -6"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "89"
+"netname" "t1s4"
+"goal_no" "4"
+"team_no" "1"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "-1984 -1472 0"
+}
+{
+"classname" "info_tfgoal"
+"netname" "r1t1"
+"owned_by" "1"
+"mdl" "progs/backpack.mdl"
+"noise" "speech/reload.wav"
+"goal_activation" "1"
+"team_no" "1"
+"wait" "3"
+"goal_effects" "17"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"origin" "-1996 -1408 151"
+}
+{
+"classname" "info_tfgoal"
+"netname" "r2t1"
+"owned_by" "1"
+"mdl" "progs/backpack.mdl"
+"noise" "speech/reload.wav"
+"goal_activation" "1"
+"team_no" "1"
+"wait" "3"
+"goal_effects" "17"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"origin" "-1933 -140 -24"
+}
+{
+"classname" "info_tfgoal"
+"netname" "r1t2"
+"owned_by" "2"
+"mdl" "progs/backpack.mdl"
+"noise" "speech/reload.wav"
+"goal_activation" "1"
+"team_no" "2"
+"wait" "3"
+"goal_effects" "17"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"origin" "1908 -140 -24"
+}
+{
+"classname" "info_tfgoal"
+"netname" "r2t2"
+"owned_by" "2"
+"mdl" "progs/backpack.mdl"
+"noise" "speech/reload.wav"
+"goal_activation" "1"
+"team_no" "2"
+"wait" "3"
+"goal_effects" "17"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"origin" "1974 -1416 151"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "228"
+"netname" "t3s1"
+"goal_no" "1"
+"team_no" "3"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "192 -640 192"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "43"
+"netname" "t3s2"
+"goal_no" "2"
+"team_no" "3"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "-192 -896 192"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "315"
+"netname" "t3s3"
+"goal_no" "3"
+"team_no" "3"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "-192 -640 192"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "136"
+"netname" "t3s4"
+"goal_no" "4"
+"team_no" "3"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "192 -896 192"
+}
+{
+"classname" "item_tfgoal"
+"netname" "goalitem1"
+"goal_activation" "189"
+"owned_by" "3"
+"mdl" "progs/tbox.mdl"
+"goal_no" "1"
+"team_no" "2"
+"goal_effects" "17"
+"items" "131072"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"netname_broadcast" " has stolen some treasure\n"
+"pausetime" "5"
+"goal_result" "0"
+"origin" "48 -781 180"
+}
+{
+"classname" "item_tfgoal"
+"angle" "182"
+"netname" "goalitem2"
+"owned_by" "3"
+"mdl" "progs/tbox.mdl"
+"team_no" "1"
+"goal_effects" "17"
+"goal_activation" "189"
+"items" "262144"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"pausetime" "5"
+"netname_broadcast" " has stolen some treasure\n"
+"increase_team1" "10"
+"goal_no" "2"
+"goal_result" "0"
+"origin" "-72 -779 182"
+}
+{
+"classname" "func_button"
+"angle" "272"
+"health" "25"
+"target" "secret_door_t1"
+"delay" "0"
+"model" "*13"
+}
+{
+"classname" "light_globe"
+"angle" "43"
+"light" "300"
+"origin" "-1660 -1508 50"
+}
+{
+"classname" "func_button"
+"angle" "272"
+"health" "25"
+"target" "secret_door_t2"
+"delay" "0"
+"model" "*14"
+}
+{
+"classname" "light_globe"
+"angle" "43"
+"light" "300"
+"origin" "1660 -1507 51"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "88"
+"netname" "t1s5"
+"goal_no" "5"
+"team_no" "1"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "-1982 -1472 178"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"netname" "t1s6"
+"goal_no" "6"
+"team_no" "1"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "-1986 -62 180"
+}
+{
+"classname" "info_tfgoal"
+"netname" "r3t1"
+"owned_by" "1"
+"mdl" "progs/backpack.mdl"
+"noise" "speech/chik.wav"
+"goal_activation" "1"
+"team_no" "1"
+"wait" "3"
+"goal_effects" "17"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"origin" "-1984 -512 -216"
+}
+{
+"classname" "info_tfgoal"
+"netname" "r3t2"
+"owned_by" "2"
+"mdl" "progs/backpack.mdl"
+"noise" "speech/chik.wav"
+"goal_activation" "1"
+"team_no" "2"
+"wait" "3"
+"goal_effects" "17"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"origin" "1948 -1028 -216"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "272"
+"netname" "t2s5"
+"goal_no" "5"
+"team_no" "2"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "1999 -50 0"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "89"
+"netname" "t2s6"
+"goal_no" "6"
+"team_no" "2"
+"message" "Everyone Kill Kevin!!!\n"
+"origin" "1984 -1408 0"
+}
+{
+"classname" "monster_fish"
+"angle" "181"
+"origin" "-512 0 -192"
+}
+{
+"classname" "monster_fish"
+"origin" "512 0 -192"
+}
+{
+"classname" "monster_fish"
+"angle" "182"
+"origin" "-512 -1536 -192"
+}
+{
+"classname" "monster_fish"
+"origin" "512 -1536 -192"
+}
+{
+"classname" "monster_fish"
+"angle" "181"
+"origin" "-512 -1024 -192"
+}
+{
+"classname" "monster_fish"
+"angle" "181"
+"origin" "-512 -512 -192"
+}
+{
+"classname" "monster_fish"
+"origin" "512 -512 -192"
+}
+{
+"classname" "monster_fish"
+"origin" "512 -1024 -192"
+}
+{
+"classname" "monster_dog"
+"team_no" "3"
+"origin" "-192 384 0"
+}
+{
+"classname" "monster_dog"
+"team_no" "3"
+"origin" "192 384 0"
+}
+{
+"classname" "monster_dog"
+"angle" "182"
+"team_no" "3"
+"origin" "-192 -1920 0"
+}
+{
+"classname" "monster_dog"
+"team_no" "3"
+"origin" "192 -1920 0"
+}
+{
+"classname" "info_tfgoal"
+"angle" "90"
+"netname" "Stair_Supply"
+"mdl" "progs/kenny.mdl"
+"goal_activation" "1"
+"wait" "5"
+"goal_effects" "17"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"team_no" "3"
+"owned_by" "3"
+"netname_broadcast" " is reloading his gun\n"
+"origin" "1578 -1492 -22"
+}
+{
+"classname" "info_tfgoal"
+"angle" "89"
+"netname" "Stair_Supply2"
+"mdl" "progs/kenny.mdl"
+"goal_activation" "1"
+"wait" "5"
+"goal_effects" "17"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"team_no" "3"
+"netname_broadcast" " wants to give you some of his bullets\n"
+"origin" "-1598 -1496 -22"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "800"
+"origin" "-704 -768 248"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "800"
+"origin" "704 -768 248"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "800"
+"origin" "512 -1664 247"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "800"
+"origin" "512 128 248"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "800"
+"origin" "1600 -1664 248"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "800"
+"origin" "1600 128 248"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "750"
+"origin" "1408 -768 248"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "750"
+"origin" "-1408 -768 248"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "800"
+"origin" "-1599 -1664 246"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "800"
+"origin" "-1600 128 247"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "800"
+"origin" "-512 128 247"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "800"
+"origin" "-512 -1664 246"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "-1600 -64 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "-1600 -1472 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "-1792 -768 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "-1920 -256 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "-1920 -1280 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "600"
+"origin" "-1792 -768 104"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "-1792 -768 -72"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "-1792 -1152 -72"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "-1792 -384 -73"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "1792 -384 -73"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "1792 -1152 -73"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "1792 -768 -74"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "600"
+"origin" "1792 -768 104"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "1920 -256 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "1920 -1280 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "1792 -768 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "1600 -64 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "1600 -1472 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "250"
+"origin" "-128 -768 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "250"
+"origin" "128 -768 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "250"
+"origin" "0 -640 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "250"
+"origin" "0 -896 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "300"
+"origin" "0 -64 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "300"
+"origin" "0 -1472 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "250"
+"origin" "0 -1920 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "250"
+"origin" "0 384 232"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "-1344 -1114 -152"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "-1344 -414 -152"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "1344 -418 -152"
+}
+{
+"classname" "light"
+"angle" "-2"
+"light" "400"
+"origin" "1344 -1118 -152"
+}
+{
+"classname" "info_tfgoal"
+"netname" "score1"
+"mdl" "progs/abox.mdl"
+"owned_by" "3"
+"goal_activation" "1"
+"items_allowed" "1"
+"maxammo_shells" "1"
+"goal_effects" "16"
+"netname_broadcast" " Scores 20 Team Points\n"
+"increase_team2" "20"
+"team_no" "2"
+"ammo_detpack" "1"
+"ammo_medikit" "5"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "speech/start1.wav"
+"axhitme" "1"
+"wait" "60"
+"goal_result" "2"
+"origin" "500 -780 -24"
+}
+{
+"classname" "info_tfgoal"
+"netname" "score2"
+"owned_by" "3"
+"mdl" "progs/abox.mdl"
+"goal_activation" "1"
+"items_allowed" "2"
+"maxammo_shells" "2"
+"goal_effects" "16"
+"netname_broadcast" " Scores 20 Team Points\n"
+"increase_team1" "20"
+"team_no" "1"
+"ammo_detpack" "1"
+"ammo_medikit" "5"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "speech/start1.wav"
+"axhitme" "2"
+"wait" "60"
+"goal_result" "2"
+"origin" "-524 -780 -24"
+}
+{
+"classname" "info_tfgoal"
+"angle" "90"
+"netname" "t3s1"
+"mdl" "progs/kenny.mdl"
+"goal_activation" "1"
+"wait" "5"
+"goal_effects" "17"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"team_no" "3"
+"owned_by" "3"
+"origin" "64 -641 168"
+}
+{
+"classname" "info_tfgoal"
+"angle" "90"
+"netname" "t3s2"
+"mdl" "progs/kenny.mdl"
+"goal_activation" "1"
+"wait" "5"
+"goal_effects" "17"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "300"
+"ammo_detpack" "1"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"team_no" "3"
+"owned_by" "3"
+"origin" "-88 -919 169"
+}

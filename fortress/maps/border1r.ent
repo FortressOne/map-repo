@@ -1,0 +1,470 @@
+{
+"classname" "worldspawn"
+"message" "Border1-R- \n By [REC]Someone\n Modifed and updated by -Sodition-"
+"wad" "gfx/QuArK.wad"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "-64 -576 -272"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-256 -576 -304"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "24 -544 -128"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "100"
+"wait" "0"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"team_no" "1"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"targetname" "truck"
+"speed" "300"
+"lip" "-3600"
+"dmg" "500"
+"health" "0"
+"wait" "2"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "4"
+"target" "truck"
+"style" "32"
+"delay" "2"
+"team_no" "2"
+"model" "*3"
+}
+{
+"classname" "info_tfgoal"
+"targetname" "truck"
+"noise" "items/cars.wav"
+"origin" "-224 128 -256"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"sounds" "4"
+"delay" "2"
+"targetname" "truck"
+"target" "gate"
+"origin" "-224 192 -272"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"targetname" "gate"
+"speed" "300"
+"sounds" "1"
+"wait" "-1"
+"lip" "-4000"
+"dmg" "0"
+"health" "0"
+"model" "*4"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"sounds" "4"
+"delay" "2"
+"targetname" "gate"
+"target" "gate2"
+"origin" "-224 208 -272"
+}
+{
+"classname" "trigger_relay"
+"sounds" "4"
+"delay" "10"
+"killtarget" "gate"
+"targetname" "gate2"
+"origin" "-224 224 -272"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"sounds" "4"
+"delay" "0"
+"target" "kill2"
+"wait" "0"
+"team_no" "2"
+"model" "*5"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"origin" "-128 -576 -256"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"wait" "1"
+"message" "Cross the Border!"
+"origin" "-192 -608 -256"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "25"
+"wait" "1"
+"message" "Cross the Border!"
+"team_no" "2"
+"origin" "-368 -560 -256"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"wait" "1"
+"message" "Cross the Border!"
+"origin" "-16 -544 -96"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"wait" "1"
+"message" "Cross the Border!"
+"origin" "-160 -560 -150"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"target" "win"
+"style" "32"
+"team_no" "2"
+"delay" "0"
+"model" "*6"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "233"
+"wait" "1"
+"message" "Enforce Border Policies!"
+"team_no" "1"
+"origin" "320 3200 -32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "233"
+"wait" "1"
+"message" "Enforce Border Policies!"
+"team_no" "1"
+"origin" "320 3008 -32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "233"
+"wait" "1"
+"message" "Enforce Border Policies!"
+"team_no" "1"
+"origin" "320 2816 -32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "292"
+"wait" "1"
+"message" "Enforce Border Policies!"
+"team_no" "1"
+"origin" "-736 2464 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "284"
+"team_no" "1"
+"wait" "1"
+"message" "Enforce Border Policies!"
+"origin" "-736 2304 -64"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"target" "kill"
+"style" "32"
+"delay" "0"
+"team_no" "1"
+"model" "*7"
+}
+{
+"classname" "info_tfgoal"
+"targetname" "kill"
+"health" "-340"
+"origin" "-224 912 -256"
+"goal_effects" "1"
+"netname_broadcast" "died trying to enter the shithole\n"
+}
+{
+"classname" "info_tfgoal"
+"targetname" "kill2"
+"health" "-50"
+"origin" "-224 896 -256"
+"goal_effects" "1"
+"netname_broadcast" "hit the road\n"
+}
+{
+"classname" "info_tfgoal"
+"health" "-50"
+"targetname" "win"
+"origin" "-224 3280 -256"
+"increase_team2" "1"
+"increase_team3" "1"
+"noise" "items/yh.wav"
+"goal_effects" "1"
+"frags" "5"
+"broadcast" "Some men made it to America!\n"
+"netname_broadcast" " crossed the border!\n"
+}
+{
+"classname" "info_tfdetect"
+"origin" "-224 512 -288"
+"hook_out" "1"
+"impulse" "0"
+"non_team_broadcast" "Blue = Border Patrol, Red = Hispanic Immigrants Yellow = MiB = hispanic immigrant helpers"
+"team_broadcast" "==Choose your team==\n\n1 Border Patrol\n2 Immigrants   \n3 MIB          \n"
+"ammo_medikit" "2"
+"maxammo_nails" "-1"
+"maxammo_medikit" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "74"
+"message" "Protect the Immigrants!"
+"wait" "1"
+"team_no" "3"
+"origin" "-912 -416 -272"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "74"
+"message" "Protect the Immigrants!"
+"wait" "1"
+"team_no" "3"
+"origin" "-912 -352 -240"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "75"
+"message" "Protect the Immigrants!"
+"wait" "1"
+"team_no" "3"
+"origin" "-784 -256 -240"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "84"
+"team_no" "3"
+"message" "Protect the Immigrants!"
+"wait" "1"
+"origin" "-912 -400 -64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "35"
+"team_no" "3"
+"message" "Protect the Immigrants!"
+"wait" "1"
+"origin" "-912 -240 -182"
+}
+{
+"classname" "light"
+"origin" "-232 2100 -140"
+"light" "1500"
+}
+{
+"classname" "light"
+"origin" "-220 -28 -144"
+"light" "1000"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-904 -446 -256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-888 -192 -72"
+}
+{
+"classname" "info_tfgoal"
+"hook_out" "1"
+"netname" "team_3_backpack"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "100"
+"ammo_cells" "100"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"wait" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Protect the Immagrants!!!...\n"
+"armortype" "3"
+"armorvalue" "300"
+"noise" "weapons/pkup.wav"
+"ammo_detpack" "1"
+"owned_by" "3"
+"team_no" "3"
+"origin" "-904 -232 -80"
+}
+{
+"classname" "info_tfgoal"
+"hook_out" "1"
+"netname" "team_3_backpack"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "100"
+"ammo_cells" "100"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"wait" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Protect the Immagrants!!!...\n"
+"armortype" "3"
+"armorvalue" "300"
+"noise" "weapons/pkup.wav"
+"ammo_detpack" "1"
+"owned_by" "3"
+"team_no" "3"
+"origin" "-904 -376 -256"
+}
+{
+"classname" "info_tfgoal"
+"hook_out" "1"
+"netname" "team_2_backpack"
+"health" "50"
+"wait" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "Cross the border!!!...\n"
+"noise" "weapons/pkup.wav"
+"owned_by" "2"
+"team_no" "2"
+"origin" "-56 -536 -136"
+}
+{
+"classname" "info_tfgoal"
+"hook_out" "1"
+"netname" "team_1_backpack"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "100"
+"ammo_cells" "100"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"wait" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "En[FORCE] Border policies :)...\n"
+"armortype" "3"
+"armorvalue" "300"
+"noise" "weapons/pkup.wav"
+"ammo_detpack" "1"
+"owned_by" "1"
+"team_no" "1"
+"origin" "224 3016 -86"
+}
+{
+"classname" "info_tfgoal"
+"hook_out" "1"
+"netname" "team_1_backpack"
+"no_grenades_2" "2"
+"no_grenades_1" "2"
+"ammo_medikit" "100"
+"ammo_cells" "100"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"wait" "1"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"message" "En[FORCE] Border policies :)...\n"
+"armortype" "3"
+"armorvalue" "300"
+"noise" "weapons/pkup.wav"
+"ammo_detpack" "1"
+"owned_by" "1"
+"team_no" "1"
+"origin" "-816 2240 -108"
+}
+{
+"classname" "light"
+"origin" "-896 856 -88"
+"light" "700"
+}
+{
+"classname" "light"
+"origin" "408 864 -104"
+"light" "700"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "72 -584 -264"
+}
+{
+"classname" "light"
+"origin" "416 736 -72"
+"light" "700"
+}
+{
+"classname" "light"
+"origin" "-920 744 -80"
+"light" "700"
+}
+{
+"classname" "light"
+"origin" "104 896 -264"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-832 1784 -184"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-16 872 -256"
+"light" "200"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-264 -584 -304"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-256 -584 -304"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-248 -584 -304"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-256 -592 -304"
+}

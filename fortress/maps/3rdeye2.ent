@@ -1,0 +1,845 @@
+{
+"classname" "worldspawn"
+"message" "3rdeye v1.2 made by Red Omen for PCGS"
+"worldtype" "0"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"speed" "30"
+"wait" "7"
+"dmg" "255"
+"targetname" "door"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "30"
+"wait" "7"
+"dmg" "255"
+"targetname" "door"
+"sounds" "1"
+"lip" "0"
+"health" "0"
+"model" "*2"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "832 -192 672"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "-448 -192 672"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "-448 2552 672"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "832 2552 672"
+}
+{
+"classname" "light"
+"light" "450"
+"style" "0"
+"origin" "192 -192 720"
+}
+{
+"classname" "light"
+"light" "750"
+"style" "0"
+"origin" "416 640 608"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "-544 608 512"
+}
+{
+"classname" "light"
+"light" "350"
+"style" "0"
+"origin" "648 96 336"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "720 -176 320"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "-448 -192 320"
+}
+{
+"classname" "light"
+"light" "750"
+"style" "0"
+"origin" "-64 448 416"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "928 608 512"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "-512 288 480"
+}
+{
+"classname" "light"
+"light" "1023"
+"style" "0"
+"origin" "192 1152 448"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "-544 1696 512"
+}
+{
+"classname" "light"
+"light" "450"
+"style" "0"
+"origin" "192 2496 720"
+}
+{
+"classname" "light"
+"light" "750"
+"style" "0"
+"origin" "-32 1664 608"
+}
+{
+"classname" "light"
+"light" "750"
+"style" "0"
+"origin" "448 1856 416"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "896 2016 480"
+}
+{
+"classname" "light"
+"light" "175"
+"style" "0"
+"origin" "928 1696 512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"style" "0"
+"origin" "-156 2336 512"
+}
+{
+"classname" "light"
+"light" "350"
+"style" "0"
+"origin" "-264 2208 336"
+}
+{
+"classname" "info_tfdetect"
+"netname" ""
+"impulse" "6"
+"maxammo_shells" "1021"
+"maxammo_nails" "1021"
+"hook_out" "1"
+"noise1" "Press 2 to play!"
+"noise2" "Press 2 to play!"
+"b_n" "To score keep the enemy from touching their pads and have at least one of your pads dark for 20 seconds.\n"
+"origin" "0 0 0"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "192 176 704"
+}
+{
+"classname" "i_t_t"
+"netname" "dorz"
+"search_time" "60"
+"target" "door"
+"b_b" "Doors are opening!\n"
+"activate_goal_no" "7"
+"origin" "0 0 0"
+}
+{
+"classname" "i_p_t"
+"angle" "270"
+"team_no" "1"
+"origin" "320 2496 534"
+}
+{
+"classname" "i_p_t"
+"angle" "270"
+"team_no" "1"
+"origin" "64 2496 534"
+}
+{
+"classname" "i_p_t"
+"angle" "90"
+"team_no" "2"
+"origin" "320 -192 534"
+}
+{
+"classname" "i_p_t"
+"angle" "90"
+"team_no" "2"
+"origin" "64 -192 534"
+}
+{
+"classname" "i_p_t"
+"angle" "270"
+"team_no" "2"
+"origin" "64 -32 534"
+}
+{
+"classname" "i_p_t"
+"angle" "270"
+"team_no" "2"
+"origin" "320 -32 534"
+}
+{
+"classname" "i_p_t"
+"angle" "90"
+"team_no" "1"
+"origin" "320 2336 534"
+}
+{
+"classname" "i_p_t"
+"angle" "90"
+"team_no" "1"
+"origin" "64 2336 534"
+}
+{
+"style" "34"
+"classname" "i_t_g"
+"owned_by" "2"
+"playerclass" "2"
+"team_no" "2"
+"wait" "20"
+"ammo_shells" "12"
+"ammo_nails" "12"
+"netname" "rpad1"
+"g_e" "1"
+"armorvalue" "10"
+"health" "10"
+"g_a" "1"
+"activate_goal_no" "1"
+"target" "rpl1"
+"group_no" "2"
+"armorclass" "1"
+"activate_group_no" "72"
+"origin" "192 96 672"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"owned_by" "2"
+"ammo_shells" "12"
+"ammo_nails" "12"
+"g_a" "1"
+"playerclass" "2"
+"team_no" "2"
+"netname" "rpad2"
+"wait" "20"
+"g_e" "1"
+"armorvalue" "10"
+"health" "10"
+"target" "rpl2"
+"activate_goal_no" "2"
+"group_no" "2"
+"armorclass" "1"
+"activate_group_no" "72"
+"origin" "928 608 480"
+}
+{
+"style" "36"
+"classname" "i_t_g"
+"owned_by" "2"
+"netname" "rpad3"
+"g_a" "1"
+"playerclass" "2"
+"team_no" "2"
+"wait" "20"
+"g_e" "1"
+"ammo_shells" "12"
+"ammo_nails" "12"
+"armorvalue" "10"
+"health" "10"
+"target" "rpl3"
+"activate_goal_no" "3"
+"group_no" "2"
+"armorclass" "1"
+"activate_group_no" "72"
+"origin" "832 -256 288"
+}
+{
+"style" "35"
+"classname" "i_t_g"
+"owned_by" "2"
+"armorvalue" "10"
+"health" "10"
+"ammo_shells" "12"
+"ammo_nails" "12"
+"g_e" "1"
+"wait" "20"
+"g_a" "1"
+"netname" "rpad4"
+"playerclass" "2"
+"team_no" "2"
+"target" "rpl4"
+"activate_goal_no" "4"
+"group_no" "2"
+"armorclass" "1"
+"activate_group_no" "72"
+"origin" "-448 -256 288"
+}
+{
+"style" "33"
+"classname" "i_t_g"
+"owned_by" "2"
+"g_a" "1"
+"netname" "rpad5"
+"playerclass" "2"
+"team_no" "2"
+"wait" "20"
+"g_e" "1"
+"armorvalue" "10"
+"health" "10"
+"ammo_shells" "12"
+"ammo_nails" "12"
+"target" "rpl5"
+"activate_goal_no" "5"
+"group_no" "2"
+"armorclass" "1"
+"activate_group_no" "72"
+"origin" "-544 608 480"
+}
+{
+"style" "32"
+"classname" "light"
+"light" "300"
+"targetname" "rpl2"
+"origin" "928 608 464"
+}
+{
+"style" "33"
+"classname" "light"
+"goal_result" "0"
+"light" "300"
+"targetname" "rpl5"
+"origin" "-544 608 464"
+}
+{
+"style" "34"
+"classname" "light"
+"goal_no" "1"
+"g_a" "708"
+"pausetime" "20"
+"light" "300"
+"targetname" "rpl1"
+"origin" "192 96 656"
+}
+{
+"style" "35"
+"classname" "light"
+"light" "300"
+"targetname" "rpl4"
+"origin" "-448 -256 272"
+}
+{
+"style" "36"
+"classname" "light"
+"light" "300"
+"targetname" "rpl3"
+"origin" "832 -256 272"
+}
+{
+"style" "34"
+"classname" "i_t_g"
+"netname" "rpad1a"
+"goal_no" "1"
+"target" "rpl1"
+"delay_time" "20"
+"activate_goal_no" "32"
+"origin" "0 0 0"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"netname" "rpad2a"
+"goal_no" "2"
+"target" "rpl2"
+"delay_time" "20"
+"activate_goal_no" "32"
+"origin" "0 0 0"
+}
+{
+"style" "36"
+"classname" "i_t_g"
+"netname" "rpad3a"
+"goal_no" "3"
+"delay_time" "20"
+"target" "rpl3"
+"activate_goal_no" "32"
+"origin" "0 0 0"
+}
+{
+"style" "35"
+"classname" "i_t_g"
+"netname" "rpad4a"
+"goal_no" "4"
+"target" "rpl4"
+"delay_time" "20"
+"activate_goal_no" "32"
+"origin" "0 0 0"
+}
+{
+"style" "33"
+"classname" "i_t_g"
+"netname" "rpad5a"
+"goal_no" "5"
+"target" "rpl5"
+"delay_time" "20"
+"activate_goal_no" "32"
+"origin" "0 0 0"
+}
+{
+"classname" "i_t_t"
+"netname" "blue score"
+"if_group_is_inactive" "2"
+"owned_by" "1"
+"search_time" "20"
+"maxammo_shells" "1"
+"frags" "10"
+"increase_team1" "10"
+"b_n" "Blue Team Scores!\n"
+"b_o" "Your Team Scores!\n"
+"if_group_is_active" "71"
+"goal_state" "3"
+"goal_no" "21"
+"origin" "0 0 0"
+}
+{
+"style" "37"
+"classname" "i_t_g"
+"owned_by" "1"
+"ammo_shells" "12"
+"ammo_nails" "12"
+"g_a" "1"
+"playerclass" "2"
+"team_no" "1"
+"netname" "bpad2"
+"wait" "20"
+"g_e" "1"
+"armorvalue" "10"
+"health" "10"
+"target" "bpl2"
+"activate_goal_no" "20"
+"group_no" "1"
+"armorclass" "1"
+"activate_group_no" "71"
+"origin" "-544 1696 480"
+}
+{
+"style" "37"
+"classname" "light"
+"light" "300"
+"targetname" "bpl2"
+"origin" "-544 1696 464"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "-336 2480 320"
+}
+{
+"style" "38"
+"classname" "light"
+"light" "300"
+"targetname" "bpl3"
+"origin" "-448 2560 272"
+}
+{
+"style" "38"
+"classname" "i_t_g"
+"owned_by" "1"
+"netname" "bpad3"
+"g_a" "1"
+"playerclass" "2"
+"team_no" "1"
+"wait" "20"
+"g_e" "1"
+"ammo_shells" "12"
+"ammo_nails" "12"
+"armorvalue" "10"
+"health" "10"
+"target" "bpl3"
+"activate_goal_no" "30"
+"group_no" "1"
+"armorclass" "1"
+"activate_group_no" "71"
+"origin" "-448 2560 288"
+}
+{
+"style" "39"
+"classname" "i_t_g"
+"owned_by" "1"
+"armorvalue" "10"
+"health" "10"
+"ammo_shells" "12"
+"ammo_nails" "12"
+"g_e" "1"
+"wait" "20"
+"g_a" "1"
+"netname" "bpad4"
+"playerclass" "2"
+"team_no" "1"
+"target" "bpl4"
+"activate_goal_no" "40"
+"group_no" "1"
+"armorclass" "1"
+"activate_group_no" "71"
+"origin" "832 2560 288"
+}
+{
+"style" "39"
+"classname" "light"
+"light" "300"
+"targetname" "bpl4"
+"origin" "832 2560 272"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "832 2496 320"
+}
+{
+"style" "40"
+"classname" "i_t_g"
+"owned_by" "1"
+"g_a" "1"
+"netname" "bpad5"
+"playerclass" "2"
+"team_no" "1"
+"wait" "20"
+"g_e" "1"
+"armorvalue" "10"
+"health" "10"
+"ammo_shells" "12"
+"ammo_nails" "12"
+"target" "bpl5"
+"activate_goal_no" "50"
+"group_no" "1"
+"armorclass" "1"
+"activate_group_no" "71"
+"origin" "928 1696 480"
+}
+{
+"style" "40"
+"classname" "light"
+"goal_result" "0"
+"light" "300"
+"targetname" "bpl5"
+"origin" "928 1696 464"
+}
+{
+"style" "41"
+"classname" "i_t_g"
+"owned_by" "1"
+"playerclass" "2"
+"team_no" "1"
+"wait" "20"
+"ammo_shells" "12"
+"ammo_nails" "12"
+"netname" "bpad1"
+"g_e" "1"
+"armorvalue" "10"
+"health" "10"
+"g_a" "1"
+"activate_goal_no" "10"
+"target" "bpl1"
+"group_no" "1"
+"armorclass" "1"
+"activate_group_no" "71"
+"origin" "192 2208 672"
+}
+{
+"style" "41"
+"classname" "light"
+"goal_no" "1"
+"g_a" "708"
+"pausetime" "20"
+"light" "300"
+"targetname" "bpl1"
+"origin" "192 2208 656"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"style" "0"
+"origin" "540 2336 512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"style" "0"
+"origin" "540 -32 512"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "350"
+"style" "0"
+"origin" "-156 -32 512"
+}
+{
+"style" "41"
+"classname" "i_t_g"
+"netname" "bpad1a"
+"goal_no" "10"
+"target" "bpl1"
+"delay_time" "20"
+"activate_goal_no" "31"
+"origin" "0 0 0"
+}
+{
+"style" "37"
+"classname" "i_t_g"
+"netname" "bpad2a"
+"target" "bpl2"
+"delay_time" "20"
+"goal_no" "20"
+"activate_goal_no" "31"
+"origin" "0 0 0"
+}
+{
+"style" "38"
+"classname" "i_t_g"
+"netname" "bpad3a"
+"goal_no" "30"
+"target" "bpl3"
+"delay_time" "20"
+"activate_goal_no" "31"
+"origin" "0 0 0"
+}
+{
+"style" "39"
+"classname" "i_t_g"
+"netname" "bpad4a"
+"delay_time" "20"
+"target" "bpl4"
+"goal_no" "40"
+"activate_goal_no" "31"
+"origin" "0 0 0"
+}
+{
+"style" "40"
+"classname" "i_t_g"
+"netname" "bpad5a"
+"goal_no" "50"
+"target" "bpl5"
+"delay_time" "20"
+"activate_goal_no" "31"
+"origin" "0 0 0"
+}
+{
+"classname" "i_t_t"
+"netname" "red score"
+"search_time" "20"
+"if_group_is_inactive" "1"
+"maxammo_shells" "2"
+"frags" "10"
+"owned_by" "2"
+"increase_team2" "10"
+"b_n" "Red Team Scores!\n"
+"b_o" "Your Team Scores!\n"
+"if_group_is_active" "72"
+"goal_no" "22"
+"goal_state" "3"
+"origin" "0 0 0"
+}
+{
+"classname" "i_t_g"
+"netname" "bs"
+"armorvalue" "50"
+"armorclass" "1"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"g_e" "1"
+"g_a" "1"
+"origin" "64 2496 548"
+}
+{
+"classname" "i_t_g"
+"netname" "rs"
+"armorvalue" "50"
+"armorclass" "1"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"g_e" "1"
+"g_a" "1"
+"origin" "320 -192 548"
+}
+{
+"classname" "i_t_g"
+"netname" "rs"
+"armorvalue" "50"
+"armorclass" "1"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"g_e" "1"
+"g_a" "1"
+"origin" "64 -192 548"
+}
+{
+"classname" "i_t_g"
+"netname" "rs"
+"armorvalue" "50"
+"armorclass" "1"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"g_e" "1"
+"g_a" "1"
+"origin" "64 -32 548"
+}
+{
+"classname" "i_t_g"
+"netname" "rs"
+"armorvalue" "50"
+"armorclass" "1"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"g_e" "1"
+"g_a" "1"
+"origin" "320 -32 548"
+}
+{
+"classname" "i_t_g"
+"netname" "bs"
+"armorvalue" "50"
+"armorclass" "1"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"g_e" "1"
+"g_a" "1"
+"origin" "320 2496 548"
+}
+{
+"classname" "i_t_g"
+"netname" "bs"
+"armorvalue" "50"
+"armorclass" "1"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"g_e" "1"
+"g_a" "1"
+"origin" "64 2336 548"
+}
+{
+"classname" "i_t_g"
+"netname" "bs"
+"armorvalue" "50"
+"armorclass" "1"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"g_e" "1"
+"g_a" "1"
+"origin" "320 2336 548"
+}
+{
+"classname" "i_t_g"
+"netname" "rgs"
+"wait" "20"
+"group_no" "72"
+"restore_goal_no" "22"
+"origin" "0 0 0"
+}
+{
+"classname" "i_t_g"
+"netname" "bgs"
+"wait" "20"
+"group_no" "71"
+"restore_goal_no" "21"
+"origin" "0 0 0"
+}
+{
+"classname" "i_t_g"
+"netname" "bd"
+"g_a" "1"
+"if_goal_is_inactive" "7"
+"g_e" "1"
+"message" "Patience child!\nDoors only open once a minute!\n"
+"origin" "528 2496 512"
+}
+{
+"classname" "i_t_g"
+"netname" "bd"
+"g_a" "1"
+"if_goal_is_inactive" "7"
+"g_e" "1"
+"message" "Patience child!\nDoors only open once a minute!\n"
+"origin" "-144 2496 512"
+}
+{
+"classname" "i_t_g"
+"netname" "rd"
+"g_a" "1"
+"if_goal_is_inactive" "7"
+"g_e" "1"
+"message" "Patience child!\nDoors only open once a minute!\n"
+"origin" "528 -192 512"
+}
+{
+"classname" "i_t_g"
+"netname" "rd"
+"message" "Patience child!\nDoors only open once a minute!\n"
+"g_e" "1"
+"g_a" "1"
+"if_goal_is_inactive" "7"
+"origin" "-144 -192 512"
+}
+{
+"classname" "i_t_g"
+"netname" "ds"
+"goal_no" "7"
+"wait" "15"
+"origin" "0 0 0"
+}
+{
+"classname" "i_t_g"
+"netname" "btoff"
+"goal_no" "31"
+"if_group_is_inactive" "1"
+"remove_goal_no" "21"
+"origin" "0 0 0"
+}
+{
+"classname" "i_t_g"
+"netname" "rtoff"
+"remove_goal_no" "22"
+"if_group_is_inactive" "2"
+"goal_no" "32"
+"origin" "0 0 0"
+}
