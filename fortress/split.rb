@@ -7,17 +7,31 @@ PAK1_FILENAMES = File.readlines("pak1.txt", chomp: true)
 
 DEST_PATH = "/tmp/pk3_builder"
 
-Dir.glob(["maps", "*.ent"].join("/")) do |filename|
-  map_name = File.basename(filename, File.extname(filename))
+Dir.glob(["maps", "*.ent"].join("/")) do |ent_file|
+  map_name = File.basename(ent_file, File.extname(ent_file))
   map_path = [DEST_PATH, map_name].join("/")
 
   puts map_name
 
-  FileUtils.mkdir_p([map_path, "maps"].join("/"))
-  FileUtils.cp(filename, [map_path, "maps", "#{map_name}.ent"].join("/"))
-  FileUtils.cp(filename, [map_path, "maps", "#{map_name}.bsp"].join("/"))
+  # maps/
+  maps_dir = [map_path, "maps"].join("/")
+  FileUtils.mkdir_p(maps_dir)
+  FileUtils.cp(ent_file, maps_dir)
+  FileUtils.cp("maps/#{map_name}.bsp", maps_dir)
 
-  dependency_filenames = IO.read(filename)
+  # locs/
+  locs_dir = [map_path, "locs"].join("/")
+  FileUtils.mkdir_p(locs_dir)
+  loc_file = "locs/#{map_name}.loc"
+  FileUtils.cp(loc_file, locs_dir) if File.file?(loc_file)
+
+  # lits/
+  lits_dir = [map_path, "lits"].join("/")
+  FileUtils.mkdir_p(lits_dir)
+  lit_file = "lits/#{map_name}.lit"
+  FileUtils.cp(lit_file, lits_dir) if File.file?(lit_file)
+
+  dependency_filenames = IO.read(ent_file)
     .encode('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
     .scan(/\w[\w\/]*\.(?:mdl|bsp|wav)/)
 
