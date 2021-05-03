@@ -14,22 +14,34 @@ Dir.glob(["maps", "*.ent"].join("/")) do |ent_file|
   puts map_name
 
   # maps/
-  maps_dir = [map_path, "maps"].join("/")
-  FileUtils.mkdir_p(maps_dir)
-  FileUtils.cp(ent_file, maps_dir)
-  FileUtils.cp("maps/#{map_name}.bsp", maps_dir)
+  dest_maps_dir = [map_path, "maps"].join("/")
+  FileUtils.mkdir_p(dest_maps_dir)
+  FileUtils.cp(ent_file, dest_maps_dir)
+  FileUtils.cp("maps/#{map_name}.bsp", dest_maps_dir)
+  rtlights_file = "maps/#{map_name}.rtlights"
+  FileUtils.cp(rtlights_file, dest_maps_dir) if File.file?(rtlights_file)
 
   # locs/
-  locs_dir = [map_path, "locs"].join("/")
-  FileUtils.mkdir_p(locs_dir)
+  dest_locs_dir = [map_path, "locs"].join("/")
+  FileUtils.mkdir_p(dest_locs_dir)
   loc_file = "locs/#{map_name}.loc"
-  FileUtils.cp(loc_file, locs_dir) if File.file?(loc_file)
+  FileUtils.cp(loc_file, dest_locs_dir) if File.file?(loc_file)
 
   # lits/
-  lits_dir = [map_path, "lits"].join("/")
-  FileUtils.mkdir_p(lits_dir)
+  dest_lits_dir = [map_path, "lits"].join("/")
+  FileUtils.mkdir_p(dest_lits_dir)
   lit_file = "lits/#{map_name}.lit"
-  FileUtils.cp(lit_file, lits_dir) if File.file?(lit_file)
+  FileUtils.cp(lit_file, dest_lits_dir) if File.file?(lit_file)
+
+  # textures/
+  dest_textures_dir = [map_path, "textures"].join("/")
+  FileUtils.mkdir_p(dest_textures_dir)
+
+  src_textures_dir = "textures/#{map_name}/"
+  FileUtils.copy_entry(src_textures_dir, "#{dest_textures_dir}/#{map_name}") if File.directory?(src_textures_dir)
+
+  src_levelshots_dir = "textures/levelshots/"
+  FileUtils.copy_entry(src_levelshots_dir, "#{dest_textures_dir}/levelshots") if File.directory?(src_levelshots_dir)
 
   dependency_filenames = IO.read(ent_file)
     .encode('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
