@@ -9,12 +9,13 @@ DEST_PATH = "/tmp/pk3_builder"
 
 Dir.glob(["maps", "*.ent"].join("/")) do |filename|
   map_name = File.basename(filename, File.extname(filename))
+  map_path = [DEST_PATH, map_name].join("/")
 
   puts map_name
 
-  FileUtils.mkdir_p([DEST_PATH, map_name, "maps"].join("/"))
-  FileUtils.cp(filename, [DEST_PATH, map_name, "maps", "#{map_name}.ent"].join("/"))
-  FileUtils.cp(filename, [DEST_PATH, map_name, "maps", "#{map_name}.bsp"].join("/"))
+  FileUtils.mkdir_p([map_path, "maps"].join("/"))
+  FileUtils.cp(filename, [map_path, "maps", "#{map_name}.ent"].join("/"))
+  FileUtils.cp(filename, [map_path, "maps", "#{map_name}.bsp"].join("/"))
 
   dependency_filenames = IO.read(filename)
     .encode('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
@@ -22,26 +23,23 @@ Dir.glob(["maps", "*.ent"].join("/")) do |filename|
 
   if dependency_filenames
     dependency_filenames.flatten.uniq.each do |src_file|
+      extension = File.extname(src_file) 
+      basename = File.basename(src_file)
 
-      src_file = if File.extname(src_file).delete(".") == "wav"
-                   "sounds/#{src_file}"
-                 else
-                   src_file
-                 end
+      src_file = "sound/#{src_file}" if extension == ".wav"
 
-      dest_dir = [DEST_PATH, map_name].join("/")
+      dest_file = [map_path, src_file].join("/")
+      dest_dir = File.dirname(dest_file)
       FileUtils.mkdir_p(dest_dir)
 
-      dest_path = [dest_dir, src_file].join("/")
-
       if File.file?(src_file)
-        puts "Copying: #{src_file} to #{dest_path}"
+        puts "Copying: #{src_file} to #{dest_file}"
 
-        FileUtils.cp(src_file, dest_path)
+        FileUtils.cp(src_file, dest_file)
       else
-        puts "Missing! #{src_file} to #{dest_path}"
+        puts "Missing! #{src_file} to #{dest_file}"
 
-        File.open([DEST_PATH, map_name, "missing.txt"].join("/"), "a") do |f|
+        File.open([map_path, "missing.txt"].join("/"), "a") do |f|
           f.puts src_file
         end
       end
