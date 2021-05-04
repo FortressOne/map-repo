@@ -22,27 +22,43 @@ Dir.glob(["maps", "*.ent"].join("/")) do |ent_file|
   FileUtils.cp(rtlights_file, dest_maps_dir) if File.file?(rtlights_file)
 
   # locs/
-  dest_locs_dir = [map_path, "locs"].join("/")
-  FileUtils.mkdir_p(dest_locs_dir)
   loc_file = "locs/#{map_name}.loc"
-  FileUtils.cp(loc_file, dest_locs_dir) if File.file?(loc_file)
+
+  if File.file?(loc_file)
+    dest_locs_dir = [map_path, "locs"].join("/")
+    FileUtils.mkdir_p(dest_locs_dir)
+    FileUtils.cp(loc_file, dest_locs_dir)
+  end
 
   # lits/
-  dest_lits_dir = [map_path, "lits"].join("/")
-  FileUtils.mkdir_p(dest_lits_dir)
   lit_file = "lits/#{map_name}.lit"
-  FileUtils.cp(lit_file, dest_lits_dir) if File.file?(lit_file)
+
+  if File.file?(lit_file)
+    dest_lits_dir = [map_path, "lits"].join("/")
+    FileUtils.mkdir_p(dest_lits_dir)
+    FileUtils.cp(lit_file, dest_lits_dir)
+  end
 
   # textures/
-  dest_textures_dir = [map_path, "textures"].join("/")
-  FileUtils.mkdir_p(dest_textures_dir)
-
   src_textures_dir = "textures/#{map_name}/"
-  FileUtils.copy_entry(src_textures_dir, "#{dest_textures_dir}/#{map_name}") if File.directory?(src_textures_dir)
-
   src_levelshots_dir = "textures/levelshots/"
-  FileUtils.copy_entry(src_levelshots_dir, "#{dest_textures_dir}/levelshots") if File.directory?(src_levelshots_dir)
 
+  if File.directory?(src_textures_dir) || File.directory?(src_levelshots_dir)
+    dest_textures_dir = [map_path, "textures"].join("/")
+    FileUtils.mkdir_p(dest_textures_dir)
+  end
+
+  # textures/<map>
+  if File.directory?(src_textures_dir)
+    FileUtils.copy_entry(src_textures_dir, "#{dest_textures_dir}/#{map_name}")
+  end
+
+  # textures/levelshots
+  if File.directory?(src_levelshots_dir)
+    FileUtils.copy_entry(src_levelshots_dir, "#{dest_textures_dir}/levelshots")
+  end
+
+  # files referenced in bsp
   dependency_filenames = IO.read(ent_file)
     .encode('UTF-8', 'binary', invalid: :replace, undef: :replace, replace: '')
     .scan(/\w[\w\/]*\.(?:mdl|bsp|wav)/)
