@@ -3,8 +3,7 @@ require "pry"
 
 PAK0_FILENAMES = File.readlines("pak0.txt", chomp: true)
 PAK1_FILENAMES = File.readlines("pak1.txt", chomp: true)
-# TF_PAK0_FILENAMES = File.readlines("pak1.txt", chomp: true)
-
+TF28_PAK0_FILENAMES = File.readlines("tf28_pak0.txt", chomp: true)
 DEST_PATH = "/tmp/pk3_builder"
 
 Dir.glob(["maps", "*.ent"].join("/")) do |ent_file|
@@ -39,23 +38,22 @@ Dir.glob(["maps", "*.ent"].join("/")) do |ent_file|
     FileUtils.cp(lit_file, dest_lits_dir)
   end
 
-  # textures/
-  src_textures_dir = "textures/#{map_name}/"
-  src_levelshots_dir = "textures/levelshots/"
-
-  if File.directory?(src_textures_dir) || File.directory?(src_levelshots_dir)
-    dest_textures_dir = [map_path, "textures"].join("/")
-    FileUtils.mkdir_p(dest_textures_dir)
-  end
-
   # textures/<map>
+  src_textures_dir = "textures/#{map_name}/"
+  dest_textures_dir = "#{map_path}/textures/#{map_name}/"
+
   if File.directory?(src_textures_dir)
-    FileUtils.copy_entry(src_textures_dir, "#{dest_textures_dir}/#{map_name}")
+    FileUtils.mkdir_p(dest_textures_dir)
+    FileUtils.copy_entry(src_textures_dir, dest_textures_dir)
   end
 
   # textures/levelshots
-  if File.directory?(src_levelshots_dir)
-    FileUtils.copy_entry(src_levelshots_dir, "#{dest_textures_dir}/levelshots")
+  src_levelshot_file = "textures/levelshots/#{map_name}.jpg"
+  dest_levelshots_dir = "#{map_path}/textures/levelshots/"
+
+  if File.file?(src_levelshot_file)
+    FileUtils.mkdir_p(dest_levelshots_dir)
+    FileUtils.cp(src_levelshot_file, dest_levelshots_dir)
   end
 
   # files referenced in bsp
@@ -65,12 +63,43 @@ Dir.glob(["maps", "*.ent"].join("/")) do |ent_file|
 
   if dependency_filenames
     dependency_filenames.flatten.uniq.each do |src_file|
+
       extension = File.extname(src_file) 
       basename = File.basename(src_file)
 
       src_file = "sound/#{src_file}" if extension == ".wav"
+      dest_file = "#{map_path}/#{src_file}"
 
-      dest_file = [map_path, src_file].join("/")
+      if PAK0_FILENAMES.include?(src_file)
+        puts "pak0.pak: #{src_file} to #{dest_file}"
+
+        File.open([map_path, "pak0.txt"].join("/"), "a") do |f|
+          f.puts src_file
+        end
+
+        next
+      end
+
+      if PAK1_FILENAMES.include?(src_file)
+        puts "pak1.pak: #{src_file} to #{dest_file}"
+
+        File.open([map_path, "pak1.txt"].join("/"), "a") do |f|
+          f.puts src_file
+        end
+
+        next
+      end
+
+      if TF28_PAK0_FILENAMES.include?(src_file)
+        puts "tf28_pak0.pak: #{src_file} to #{dest_file}"
+
+        File.open([map_path, "tf28_pak0.pak"].join("/"), "a") do |f|
+          f.puts src_file
+        end
+
+        next
+      end
+
       dest_dir = File.dirname(dest_file)
       FileUtils.mkdir_p(dest_dir)
 
