@@ -28,3 +28,22 @@ docker push fortressone/map-repo:latest
 ## Deploy
 
 GitHub actions automatically syncs to S3. See `.github/workflows/workflow.yml`.
+
+
+## PK3 map file structure
+
+```
+pk3/<mapname>/
+	lits/<mapname>.lit
+	locs/<mapname>.loc
+	maps/
+		<mapname>.bsp
+		<mapname>.ent
+		<mapname>.rtlights
+	progs/*.(mdl|bsp)
+	sound/*.wav
+	textures/
+		<mapname>/*.(png|jpg)
+		levelshots/<mapname>.(png|jpg)
+    <mapname>.txt
+```
