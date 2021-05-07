@@ -1,0 +1,174 @@
+Title          - Invade the Castle
+File Name      - invade4a.bsp
+Author         - [NERD]Brain
+Description    - This is a Team Fortress map for Quake. It isn't like the
+                 2fort maps mainly because there's only one fort. One team
+                 invades the castle, while the other defends it and all the
+                 relics inside, which act like normal Quake powerups, except
+                 that the effects last until it's dropped. Either team can
+                 use the relics, but only one relic can be used by someone
+                 at a time. If someone has a relic they cannot pick up
+                 another one. However, they can be dropped using the
+                 "dropitems" command, where another one can then be picked up
+                 Once the item is dropped the effects wear off. There is also
+                 an ancient scroll, which is the main goal of the invaders.
+                 The invaders are to grab this scroll and bring it to a
+                 sacrificial altar. This will cast a spell which kills
+                 everyone, even the caster, and give the invaders 10 points.
+                 The scroll is in a small room just above the door in the
+                 main room, but it is blocked off by metal bars. To open the
+                 bars, shoot a big, red window in the relic room where the
+                 shambler statues are. Then the scroll must be taken to a
+                 small room directly above the room where the scroll was.
+                 There is a teleporter which leads to the altar. Once the
+                 scroll is captured, the teams switch. The attackers are the
+                 defenders and vice versa. The ancient scroll can not be
+                 dropped like the relics and can be picked up along with a
+                 relic. Sound complicated? It really isn't. Just bind a key
+                 to "dropitems" and the rest is basically kill, destroy, and
+                 kill some more.
+Installation   - Put invade4a.bsp in the /fortress/maps directory, the sounds
+                 in sound/items, and the models in the /progs directory.
+Credits        - Hexen 2 for the extra models and sounds
+Single Player  - Only to look around
+Multiplayer    - That's what it was designed for
+Deathmatch     - Maybe, but it's best for teamfortress
+Editors Used   - WorldCraft for the actual level and Quark for extracting
+                 textures and learning about the entities and how they are
+                 done on other maps
+Building Time  - About 3 months, a few hours for the second and third
+                 versions, and about a week for this version
+Flaws          - None
+Files in Zip   - invade4a.bsp        : The map file
+                 relic.wav           : Relic pickup sound
+                 laugh.wav           : Main Goal sound
+                 scroll.wav          : The Ancient Scroll pickup sound
+                 potion.mdl          : Invisibility Potion relic model
+                 random.mdl          : Randomizer relic model
+                 tome.mdl            : Tome of Power relic model
+                 helmet.mdl          : Magic Helmet relic model
+                 life.mdl            : Amulet of Life relic model
+                 relic.mdl           : Holy Relic model
+                 scroll.mdl          : The Ancient Scroll model
+Relics         - Holy Relic          : Gives extremely durable armor
+                 Invisibility Potion : Makes one invisible
+                 Magic Helmet        : Gradually replenishes ammunition
+                 Tome of Power       : Gives extreme power to weapons and
+                                       grenades
+                 Randomizer          : Has various effects at random times
+                 Amulet of Life      : Regenerates health and armor slowly
+Hints          - All items return 60 seconds after they are dropped, unless
+                 they land in lava, when they return significantly sooner.
+               - The Holy Relic gives very strong armor, so strong that
+                 rocket and grenade jumping does not work nearly as well.
+               - If some unfortunate person falls off the edge in the altar
+                 room, the ancient scroll returns immediately. This is to
+                 make it so that no one has to wait around a long time for it
+                 to return. It will not return if the carrier dies before
+                 hitting the bottom (hit by rocket in mid-air, suiciding in a
+                 panic while falling, dropped scroll missing the ground, etc.
+               - A secret button hanging under the big ramp in the main room
+                 opens a door outside the attackers' supply room. There is a
+                 teleporter there which leads directly to the battlements.
+               - Trying to get too close to the enemy supply room results
+                 in..........NAH! Never mind.
+               - Pipejumpers should have real fun here, as long as they have
+                 the amulet of life. There's a bunch of places to try it.
+Map Properties -  2233 planes        44660
+                  8634 vertexes     103608
+                  2477 nodes         59448
+                   260 texinfo       10400
+                  6275 faces        125500
+                  5478 clipnodes     43824
+                  1373 leafs         38444
+                  7995 marksurfaces  15990
+                 30888 surfedges     61776
+                 15698 edges         62792
+                    93 textures     1015256
+                       lightdata    286509
+                       visdata       31748  compressed from 147016
+                       entdata       56957
+                  QBSP - 1372.0 seconds elapsed
+                 LIGHT - 3489.0 seconds elapsed (Extra)
+                  RVIS -  900.0 seconds elapsed (Level 4)
+                 Total - 5761.0 seconds elapsed
+                         or 1 hour 36 minutes 1 second
+Revisions  v.2 - Added a secret teleporter to the battlements, but the secret
+                 can only be opened by a button hidden somewhere
+               - Changed how the main goal kills the user. It no longer kills
+                 slowly, but only once. It seems better this way because the
+                 user kept getting hurt after he restarted.
+               - The ancient scroll is now glowing so it can be easily seen
+                 in dark places.
+               - Minor texture changes
+               - Changed some deathtype messages
+           v.3 - Fixed some texture and polyhedron errors
+               - Added a teleporter from the blue suppy room to the altar
+                 room, right by the altar. This will allow blue to defend the
+                 upper areas more easily. Before, if red passed a certain
+                 point, blue could not stop him unless there was a sentry gun
+                 or some other defense up there. Just shoot the back panel in
+                 the blue supply room and the door will open.
+               - The jumps across from the lower ramps to the scroll room are
+                 a bit easier
+               - In the capture message, 'vengeance' was spelled wrong. That
+                 is fixed now.
+               - When a engineer teleports to the altar area from either the
+                 anteroom or blue supply room teleports, their cells will be
+                 completely removed. This makes it almost impossible to build
+                 cheap sentry guns in the altar room. It is still possible
+                 if other classes discard cells while in the altar area.
+                 Before, blue could just set up one or two guns that were
+                 just plain untouchable. Any other defenses like pipebombs,
+                 snipers, etc. can still be put in the altar area like
+                 before. The torch braziers are also raised slightly to make
+                 it harder to put guns on top of them.
+           v.4 - The offense-defense shift idea was based on the idea in the
+                 map ripple.bsp by >V< Null
+               - Changed the whole structure of the teams. Now both teams
+                 will be able to play both sides in one game, switching every
+                 time the invaders capture the scroll. This will finally
+                 create the balance that this map was always lacking. Once
+                 the invaders capture, the spell runs like usual, except
+                 everyone dies at the same time, including the one who
+                 captured the scroll. This means that door blocking the
+                 anteroom will no longer be needed and is removed. The next
+                 time the teams respawn it will be in the opposite sides,
+                 offense becomes defense, and vice versa. A new scroll will
+                 replace the old, this one only able to be picked up by the
+                 other team. When the other team captures, everything reverts
+                 back to its original state, and the cycle repeats until the
+                 game is over.
+               - All other things: cell remover, teleporters, relics, etc.
+                 remain the same. the problem wasn't with any of that, but
+                 the horrible imbalance this map created. Red could rack up
+                 the points simply by capturing like normal while blue was
+                 forced to gain points the hard way.
+               - Removed all team specific properties of all the doors and
+                 buttons. Instead, supply room camping deterrents were added.
+                 If someone approached an enemy supply room, they will be
+                 killed. Once the teams switch, so do the info_tfgoals that
+                 kill, as well as the supplies inside the rooms.
+               - The scroll now only glows if it's been moved or being
+                 carried. This is mostly a sideeffect of the offense-defense
+                 shift, but it actually helps since the surfedges are a bit
+                 lower in the general area now.
+               - Changed the info_tfdetect entity slightly, namely removed
+                 the flaginfo command. With there now being two scrolls, it
+                 became inaccurate and useless.
+               - At the beginning of the game, blue will be given 5 team
+                 points, but not indivizual points (frags). This is to give
+                 blue a chance to win. If both teams started evenly, then
+                 blue could either only tie the game or lose by 10. This may
+                 seem unfair to red, but if blue can hold off red for the
+                 entire time, usually 30 minutes, then blue deserves to win.
+          v.4a - Fixed a bizarre bsp error that in one spot allowed anyone to
+                 literally walk off the map. The map had to be renamed. which
+                 was annoying to say the least.
+
+WARNING TO SERVER ADMINISTRATORS: Team Fortress 3.0 cannot be played on
+invade4 or any of the series. For some bizarre reason, the "dropitems"
+command does not work at all. Also, TF 3.0 gives individual points for team
+scores. This map was designed to give one team 5 team points, but not
+individual points. TF 3.0 is a good version, but these errors simply MUST be
+fixed if this map is to be any good with this new version.

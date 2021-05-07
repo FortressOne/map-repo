@@ -1,0 +1,151 @@
+This map designed for the TeamFortress QuakeC mod.
+v2.0 released October 7, 1999
+v1.1 (revised) released June 18, 1999
+First Release April 24, 1999
+
+******************************************************************************
+Title                   : Temple of Death, v2.0
+Files                   : fortress/maps/tdeath2.bsp,
+				fortress/maps/sound/misc/tdeathtc.wav
+				fortress/maps/sound/misc/tdeathcp.wav
+Author                  : Jonathan Rimdzius ([aXe]Firestorm)
+Email Address           : jrimdzius@bigfoot.com
+Web Page                : http://www.bigfoot.com/~jrimdzius/mapping/
+Description             : TeamFortress capture the flag
+Other maps              : Hillwar1-3
+******************************************************************************
+
+This map does not work properly without the TeamFortress QuakeC mod,
+which can be downloaded from http://www.planetfortress.com/teamfortress.
+
+******************************************************************************
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+TeamFortress            : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : Yes (some of them from bloodsky.wad, see Credits)
+New Music               : Yes (capture music >:)
+Base                    : From scratch
+Editor(s) used          : Worldcraft, Fasttracker II, CoolEdit96, Newwad
+Known Bugs              : Capping does not always execute a member of the enemy
+				team, see Gameplay, below.
+Build Time              : Every once in a while over the course of ten months
+WQbsp                   : 308 sec
+ArgLight                : 1752 sec
+rVis                    : 661 sec
+Level vised for GL      : No
+******************************************************************************
+
+Size:	This map is intended for 10vs10 games.
+
+Gameplay:   Each team controls one wing of the temple, and spawn in the
+		graveyards.  The objective is to take the standards (flags)
+		from the end of the other team's wing and bring it to the black
+		spike in the center of the map.  The red and blue teams are
+		referred to as the Sect of Fire and the Sect of Ice, respectively.
+
+	    To get to the standards you can:
+		- use one of the two wooden-framed teleporters in
+		  the bone-walled room, or
+		- you can swim through the blood pool at the end of the hall
+		  with the shambler statue in it
+
+	    Once you have the enemy standard, take it to the black spike in
+		the center of the map to capture.  After the flag is captured,
+		a member of the enemy team might be impaled upon it, as well.
+
+	    How this execution thing works:
+		Essentially, one of each team is designated the scapegoat
+		upon exiting the graveyards without using the teleporter.
+		If this designated scapegoat is within his team's wing when
+		the standard is captured, he is executed.
+
+	    As a side note, you can be killed by the enemy before you're impaled,
+		if the enemy times his shot right.  This should not affect
+		gameplay in any way.
+
+	    Scoring (teamscore and teamfrags):
+		- Taking the flag while it is on its pedestal (first touch): 1
+		- Capturing: 9
+
+            Respawns:
+		You can exit your respawn in two ways: By walking through the
+		teleporter, or by simply walking up the hill there.
+		The teleporter will take you to a resupply room outside your
+		team's wing.  Walking up the hill takes you right into your
+		base.
+
+		Also, the respawns/in-wing resupplies will do 4 damage/sec
+		to any enemy who enters there after a delay of two seconds.
+		The outside resupplies that the graveyard teleporter takes
+		you will simply teleport intruders away.
+
+	    Resupplies:
+		I'm not going to detail all the supply packs / armor / etc.
+		in the map here, but I will say that the packs in the bone-
+		walled room in each team's wing can be used by *either* team.
+
+	    Shambler-Statue: Don't worry, it's not real.  (not like a sniper
+		couldn't kill one in a few seconds anyway =)  It should block
+		weapons fire however (although I've noticed you can sometimes
+		shoot through its arms/legs.
+
+******************************************************************************
+
+CHANGES SINCE 1.1:
+
+Changed: COMPLETELY redesigned center area of this map from scratch.  The new
+	center area looks/plays nothing like the old one, and is *much* easier
+	for offense to pass through without having to fight the enemy o.
+
+Added: You can now use a teleporter to leave your respawn and go to a room outside
+	your base.  These rooms will teleport intruders to locations in the
+	center area of the map.
+
+Changed: Respawns have been moved further away from your team's wing.
+
+Changed: You now take 4 damage/sec if you enter the enemy respawn areas.
+
+Added: You can now enter the enemy wing via two grates in the floor of their blood
+	pool.  These grates open upon being touched, and stay open for five seconds.
+
+Changed: The stained-glass teleporters have been replaced by the ordinary-looking
+	starry texture usually used for teleporters.
+
+Changed: The teleporters that send you into the enemy wing's front area (where their
+	blood pool starts) now teleport you higher up in the air.
+
+Changed: Instead of executing the capping player, a member of the enemy D is
+	(sometimes) executed upon capping the enemy flag.
+
+Changed: There are no more lava areas, but there are still supplies outside the
+	wings.  Specifically, a megahealth in the blood that flows below the central
+	spike, as well as some red armor and healths in some other places.
+
+Changed: Instead of red and blue teams, you have the Sect of Fire and the Sect of
+	Ice, respectively.  Colors are still the same (duh), but messages are
+	a little different.
+
+Changed: The two teams' wings are 10% shorter.  This is because I couldn't fit
+	both wings and the new center area in the 8192-unit maximum length/width/
+	height limitation imposed by the Quake engine.
+
+Changed: Some small cosmetic changes.
+
+CHANGES SINCE 1.0:
+
+Fixed:  Your team should now get frags when you cap.  Previously only the capper
+	would get frags (although teamscore worked fine).
+
+******************************************************************************
+
+Credits:  Muchos gracias to id for the quake engines and TFS for the mod.
+	  And to Dave Weiden for his blood texture (from nightsky.zip).  >:)
+
+(c)Copyright 1999 by Jonathan Rimdzius
+All rights reserved.  Modification of entities by author's permission only.
+Use for new level by author's permission only.  Contact:  jrimdzius@bigfoot.com
+Distribution via internet for TF gameplay on quake/quakeworld TF servers is granted
+without charge and at own risk, as long as this text file is included.

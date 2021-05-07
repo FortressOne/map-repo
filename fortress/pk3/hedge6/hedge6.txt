@@ -1,0 +1,260 @@
+**** This map designed for the TeamFortress v2.1 quakeC mod ****
+1/29/97
+================================================================
+Title                   : The Hedge 6.0
+Filename                : Hedge6.bsp
+Author                  : Jeremy Morton
+Email Address           : raistlan@atheist.com
+Description             : TeamFortress Quake Map (Big)
+
+Additional Credits to   : id
+                             For being id and for hiring
+                             Michael Abrash
+                          The TeamFortress Team
+                             For making a cool mod and for
+                             putting up with my pestering :)
+                          Ben Morris, author of WorldCraft
+                             For such a great editor
+                             Maybe I should pay for it now... :)
+
+               Check out the TeamFortress homepage at:
+               http://www.telefragged.com/teamfortress
+
+================================================================
+* Play Information *
+
+This map does not work properly without the TeamFortress v2.1 or
+higher QuakeC patch, which can be downloaded from
+http://www.telefragged.com/teamfortress
+or from ftp.cdrom.com (I assume)
+
+Single Player           : Boring
+Cooperative             : No
+Deathmatch              : No Deathmatch starting points yet.
+TeamFortress            : Very much so.  8 starting points
+                          per team.
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : WorldCraft v1.0a, EntEd
+Known Bugs              : If you get killed by the big flame
+                          in the center of the maze you don't
+                          seem to be able to respawn...
+                          This looks like a TF bug, and should
+                          be fixed soon
+Build Time              : Too long for design
+          (-extra) Light: ~30 minutes
+          (-level 4) Vis: ~90 minutes
+
+* Other Info *
+
+This is my first full level for Quake, and since I've been
+playing a lot of TeamFortress recently, it seemed only natural
+to make another map for it.  I'd love to hear what you think
+of it, as I won't learn without any feedback.
+
+I'd also like feedback on the speed of the level.  I have a
+Cyrix P150+ w/ 32M, and don't really have access to a slower
+Pentium, so I have no idea of what performance would be like
+on such.  I have simplified the level a bit as it is, but
+let me know if it's too much.
+
+Now about the level itself.  It's a night level with a lot
+of open flame. :)  The main feature is a hedge maze between
+the two fortresses.  The flags are in the basements, which
+are reached via a descending platform on one side of the
+room on the second floor.  You then return on a rising
+platform that takes you up to the other side of the second
+floor room.  Return it to the pool that's at the very back
+of your roof.  If you can't find the pool, it glows. :)
+
+I've run vis at level 4 on the map, but in a couple of
+places on the back of the roofs, there is still some grey
+that appears occasionally.
+
+The following is from 2fort23.txt (a big inspiration for
+this level; thanx to John Cook), and it applies here, too.
+
+  "This is a two team capture-the-flag map. Each team
+   has their own base, at opposite ends of the map.
+
+   The objective is to infiltrate the enemy base, and
+   capture the enemy flag which is in their basement.
+   The flag must then be returned to the [pool on the
+   roof] of their home fort.
+
+   There are [two] resupply points on the second level
+   of each fort.
+
+   The frag count of each player should be their team
+   scores.
+
+   How to use this map:
+     Copy the hedge6.bsp file into your quake\id1\maps
+     or quake\fortress\maps directory. Then run quake.
+     In the console, type "map hedge6" (without the
+     quotes)"
+
+If you are connecting to a Quake World server, then
+stick the file in quake\qw\maps...
+
+Please let me know any suggestions that you have for the
+map; especially if it's TeamFortress related.  I've been
+trying to make it balanced for TeamFortress play.
+
+******************
+*** Strategies ***
+******************
+
+                   *** NEW ***
+Team Fortress v2.1 adds the grappling hook.  I was going
+to disable it on this level because I believe that it
+completely disabled the entire concept of this level
+(the maze and having to fight your way up through the
+bases), but after many protests to the idea (and no
+supporters) I decide to just make it so you couldn't get
+into or out of the bases from the second floor or the roof.
+(You can still get in through the side tunnels to the
+roof....  Finding these are left as an exercise for the
+reader. :)  )  In version 6, I also added some traps and
+obsticles to hinder people from just grappling over the
+maze.  If you see "Uh-oh!" be afraid. :)
+
+I changed the frags/scoring system again.  If you kill
+someone on the other team, you get 1 frag.  If you capture
+a flag you get 10 frags, your teammates get 5 frags, and
+the team gets 10 points.  I will make no claims that this
+actually works as described, however.  Version 5 didn't
+do the scoring right, and since I can't test the scoring
+very well with only one player, I have wait until it's
+released and on a server to actually see if it works as
+intended.  I *did* use an enhanced TeamFortress Entity
+Editor to change the scoring logic slightly, so I'm
+optimistic about it working now.  (Don't go looking for
+this new version of EntEd, as I haven't released it yet.
+:)  But I will be shortly...)  Hopefully this new scoring
+structure will encourage people to go for the flag and
+defend their own while not being frustrating because you
+get no credit for the 50 people you just sawed in half...
+
+                   ***********
+
+I have added a few TF v2.1 enhancements; mostly with
+respect to many different, specialized messages.  I also
+have the key icon at the bottom of the screen light up
+you have a flag (in case you forget). :)  Another thing:
+the big flame in the middle of the maze hurts.  A lot.
+Don't touch it.  It really hurts.  Am I clear? :)
+
+Yes, it's dark.  It's much lighter than the last
+incarnation, so be thankful. :)  I was going for a
+hedge maze/flame motif.
+
+The idea for the forts was for the defending members of
+the team to stick to the "high ground": the second floor,
+the roof, the ledge in the back room, the two guard rooms
+on the first floor, and the catwalk above the entry.  The
+attackers obviously go through the maze, and try to
+infiltrate the opponent's fort.  Since you don't get frags
+for killing people, and only for capturing the flag, it
+makes sense to have that your sole target while attacking.
+While defending, some snipers should try to cover their
+teammates while they're crossing the maze.
+
+Check out the roof.  There's some great views from up
+there.  On the sides are tunnels that wrap and put you
+above the maze; definitely heaven for some snipers. :)
+
+Again, the flags are in the basements, which are reached
+via a descending platform with the key texture on one side
+of the room on the second floor.  You then return on a
+rising platform that takes you up to the other side of that
+room.  Return it to the pool that's at the very back of
+your roof.  If you can't find the pool, it glows. :)
+
+I really hope that this is an enjoyable level, and that
+I've addressed the number one complaint that I've had:
+it's too dark.  The other complaint was that it was too
+big and tended too make encounters more random one on one
+than team efforts.  I've simplified things a little more,
+and provided this strategies section to clarify my vision
+for this level somewhat.  Also, I believe that the
+darkness and unfamiliarity may have made the level more
+complex than necessary.
+
+If you have comments, my handle is Raistlan and my
+email's above.  Suggestions are especially welcome, as
+it's a lot easier when I know what's wrong, and what could
+be "more right." :)
+
+
+* COPYRIGHT NOTICES and PERMISSIONS *
+
+This level is copyright 1997 by Jeremy Morton.  Permission to use, 
+copy and distribute unedited copies of this file -- hedge6.zip -- 
+is hereby granted, provided that no fee is charged for the use or 
+availability of this file (other than the normal connection costs for 
+on-line services, if applicable). The above copyright notice and this 
+permission notice must be left intact in all copies of this file.
+
+By using this file, you have agreed to the terms and conditions 
+set forth in this document.  If you do not wish to abide by these 
+terms, you must delete this file from any and all storage devices 
+(regardless of the specific media involved) immediately.
+
+Commercial distribution of this file, in whole or in part, requires 
+prior agreement with the author. Commercial distribution includes any 
+means by which the user has to pay either for the support (e.g. book, 
+newsletter or CD-ROM) or for the file itself.  Unauthorized commercial 
+distribution is prohibited.
+
+If you wish to commercially distribute (see definition above for the
+explanation of "commercial distribution") this file, note:
+
+(1)  This file contains intellectual property (including, but not 
+     limited to, textures and other artwork) owned solely by Id Software
+     (http://www.idsoftware.com), and is subject to any and all 
+     copyrights held by them.  This author does not have the 
+     authority to grant usage of Id's copyright, and, by granting
+     permission to use this level in a commercial release, does 
+     not waive their rights thereby.  By commercially distributing 
+     this file without the express written consent of Id Software, 
+     the publisher faces the risk of potential legal action from Id 
+     Software and has been so advised by this author.
+
+(2)  Permission is granted by this author for the one-time commercial
+     distribution of this file if all of the following conditions are
+     met and agreed to by the publisher:
+
+     (a)  The author is notified by email or conventional mail PRIOR 
+          to the file's inclusion on ANY commercial release.
+     (b)  The author is provided with one (1) "contributor's copy" of
+          the finished product upon it's release.  This copy is to be
+          mailed to the author using the shipping address specified by
+          the author in his/her reply to the publisher's initial email
+          notification, and is to be provided at no cost to the author.
+     (c)  The author's file (including this copyright notice) is not to
+          be modified in any way, and shall be distributed as the author
+          intended.
+     (d)  The author recognizes that copyrighted material is present 
+          in the file and is aware that said material is not copyrighted
+          or copyrightable by the author.  The author also recognizes that
+          this file is a Permitted Derivative Work when freely distributed,
+          and that, by commercially redistributing the file, the publisher
+          agrees to bear the entire legal burden, should it become necessary.
+     (e)  The author retains all copyrights to this work both prior
+          to and subsequent to the commercial release of this file.
+
+(3)  By requesting a shipping address from the author, the publisher
+     signifies acceptance of, and agrees to abide by, these conditions.
+     By returning a valid shipping address to the publisher, the author
+     thereby grants the publisher one-time usage of the author's copyrighted 
+     work for commercial purposes.
+
+Thank you for your interest in this work.

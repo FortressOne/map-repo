@@ -1,0 +1,120 @@
+Title          - Invade the Castle
+File Name      - invade3.bsp
+Author         - [NERD]Brain
+Description    - This is a Team Fortress map for Quake. It isn't like the
+                 2fort maps mainly because there's only one fort. One team
+                 invades the castle, while the other defends it and all the
+                 relics inside, which act like normal Quake powerups, except
+                 that the effects last until it's dropped. Either team can
+                 use the relics, but only one relic can be used by someone
+                 at a time. If someone has a relic they cannot pick up
+                 another one. However, they can be dropped using the
+                 "dropitems" command, where another one can then be picked up
+                 Once the item is dropped the effects wear off. There is also
+                 an ancient scroll, which is the main goal of the invaders.
+                 The invaders are to grab this scroll and bring it to a
+                 sacrificial altar. This will cast a spell which kills
+                 everyone, except for the caster (is he really safe?), and
+                 give the invaders 5 points. The ancient scroll can not be
+                 dropped like the relics, and can be picked up along with a
+                 relic. Sound complicated? It really isn't. Just bind a key
+                 to "dropitems" and the rest is basically kill, destroy, and
+                 kill some more.
+Installation   - Put invade.bsp in the /fortress/maps directory, the sounds
+                 in sound/items, and the models in the /progs directory.
+                 This map should replace the previous version (invade2),
+                 which is now outdated.
+Credits        - Hexen 2 for the extra models and sounds
+Single Player  - Only to look around
+Multiplayer    - That's what it was designed for
+Deathmatch     - Maybe, but it's best for teamfortress
+Editors Used   - WorldCraft for the actual level and Quark for extracting
+                 textures and learning about the entities and how they are
+                 done on other maps
+Building Time  - About 3 months, and a few hours for each revision
+Flaws          - None
+Files in Zip   - invade3.bsp          : The map file
+                 relic.wav           : Relic pickup sound
+                 laugh.wav           : Main Goal sound
+                 scroll.wav          : The Ancient Scroll pickup sound
+                 potion.mdl          : Invisibility Potion relic model
+                 random.mdl          : Randomizer relic model
+                 tome.mdl            : Tome of Power relic model
+                 helmet.mdl          : Magic Helmet relic model
+                 life.mdl            : Amulet of Life relic model
+                 relic.mdl           : Holy Relic model
+                 scroll.mdl          : The Ancient Scroll model
+Relics         - Holy Relic          : Gives extremely durable armor
+                 Invisibility Potion : Makes one invisible
+                 Magic Helmet        : Gradually replenishes ammunition
+                 Tome of Power       : Gives extreme power to weapons and
+                                       grenades
+                 Randomizer          : Has various effects at random times
+                 Amulet of Life      : Regenerates health and armor slowly
+Hints          - All items return 60 seconds after they are dropped, unless
+                 they land in lava, when they return significantly sooner.
+               - The Holy Relic gives very strong armor, so strong that
+                 rocket and grenade jumping does not work nearly as well.
+               - If some unfortunate person falls off the edge in the altar
+                 room, the ancient scroll returns immediately. This is to
+                 make it so that no one has to wait around a long time for it
+                 to return. It will not return if the carrier dies before
+                 hitting the bottom (hit by rocket in mid-air, suiciding in a
+                 panic while falling, dropped scroll missing the ground, etc.
+Map Properties -  2246 planes        44920
+                  8590 vertexes     103080
+                  2451 nodes         58824
+                   262 texinfo       10480
+                  6258 faces        125160
+                  6162 clipnodes     49296
+                  1377 leafs         38556
+                  7964 marksurfaces  15928
+                 30778 surfedges     61556
+                 15718 edges         62872
+                    94 textures     1016660
+                       lightdata    285361
+                       visdatasize   32247  compressed from 124871
+                       entdata       43843
+                  QBSP - 1695.0 seconds elapsed
+                 LIGHT - 2812.0 seconds elapsed (Extra)
+                  RVIS -  896.0 seconds elapsed (Level 4)
+                 Total - 5403.0 seconds elapsed
+                         or 1 hour 30 minutes 3 seconds
+Revisions  v.2 - Added a secret teleporter to the battlements, but the secret
+                 can only be opened by a button hidden somewhere
+               - Changed how the main goal kills the user. It no longer kills
+                 slowly, but only once. It seems better this way because the
+                 user kept getting hurt after he restarted. That is fixed now.
+               - The ancient scroll is now glowing so it can be easily seen
+                 in dark places.
+               - Minor texture changes
+               - Changed some deathtype messages
+           v.3 - Fixed some texture and polyhedron errors
+               - Added a teleporter from the blue suppy room to the altar
+                 room, right by the altar. This will allow blue to defend the
+                 upper areas more easily. Before, if red passed a certain
+                 point, blue could not stop him unless there was a sentry gun
+                 or some other defense up there. Just shoot the back panel in
+                 the blue supply room and the door will open.
+               - Decreased the scroll capture count from 10 to 5
+               - The jumps across from the lower ramps to the scroll room are
+                 a bit easier.
+               - Changed the secret button that opens the outside teleport.
+                 It's now opens for only team 2, so that blue will not
+                 accidently open the door.
+               - The entity update from version 2 is in this version, meaning
+                 any server playing this don't have to worry about adding
+                 the invade2 entity update. The intermission view is pointing
+                 in the right direction finally.
+               - In the capture message, 'vengeance' was spelled wrong. That
+                 is fixed now.
+               - When a engineer teleports to the altar area from either the
+                 anteroom or blue supply room teleports, their cells will be
+                 completely removed. This makes it almost impossible to build
+                 cheap sentry guns in the altar room. It is still possible
+                 if other classes discard cells while in the altar area.
+                 Before, blue could just set up one or two guns that were
+                 just plain untouchable. Any other defenses like pipebombs,
+                 snipers, etc. can still be put in the altar area like
+                 before. The torch braziers are also raised slightly to make
+                 it harder to put guns on top of them.

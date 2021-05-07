@@ -1,0 +1,123 @@
+This map designed for the TeamFortress QuakeC mod.
+v3.1 (Revised) Released June 13, 1999
+v3.0 Released May 25, 1999
+First (Official, v2) Release January 15, 1999
+
+v1 was a beta release distributed only to members of Mostly Harmless,
+	a TeamFortress clan, about a week earlier
+
+******************************************************************************
+Title                   : Hill War, v3.1 (revised)
+Files                   : fortress/maps/hillw3r.bsp
+Author                  : Jonathan Rimdzius (Firestorm.42)
+Email Address           : jrimdzius@bigfoot.com
+Web Page                : http://www.bigfoot.com/~jrimdzius/mapping/
+Description             : TeamFortress capture the flag
+Other maps              : none
+******************************************************************************
+
+This map does not work properly without the TeamFortress QuakeC mod,
+which can be downloaded from http://www.planetfortress.com/teamfortress.
+
+******************************************************************************
+Single Player           : Only if you're bored
+Cooperative             : No
+Deathmatch              : No
+TeamFortress            : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : Yes (from green.wad, see Credits)
+New Music               : No
+Base                    : From scratch
+Editor(s) used          : Worldcraft
+Known Bugs              : None, to my knowledge
+Build Time              : About a week, off and on
+WQbsp                   : 29 sec
+ArgLight                : 107 sec
+Vis                     : 32 sec
+Level vised for GL      : No
+******************************************************************************
+
+Size:	This map is intended for 6-10 player games (total).  There's enough
+		spawnpoints to have 12 people on each team, but that would get
+		ridiculous once people start shooting :)
+
+Gameplay:   Each team controls a valley-like area, and are separated from
+		eachother by a hill/valley in between.	Enter the enemy bunker,
+		take their flag, and bring it to the hill between the two team's
+		areas.  At the start a large rock will block passage to the
+		flags; once detpacked, the rock will disappear for a period of
+		five minutes.
+
+	    Scoring (team / individual frags in addition to teamfrags):
+		- Detpacking enemy rock - 2 / 1
+		- Destroying enemy rock (by weapons other than detpack) - 0 / 0
+			- the above is not a typo, you must detpack it for points
+		- Grabbing the flag (at any time) - 0 / 1
+		- Capturing the flag - 10 / 3
+
+            Respawns:	You spawn/respawn in a room with 5 teleporters to
+		locations within your team's valley.  If someone is standing on
+		a teleport location, a door blocking that teleport will close
+		temporarily.  (Thanks for the idea go to [T]-Cathodelysis)
+
+	    Spam Detector:  The first two teleport locations (first two
+		teleporters from the left) are vulnerable to nail spam, so there
+		is a large metal post up there that will warn everyone on your
+		team not to use these teleporters for the time being.
+
+	    Supplies:	The respawn-room supplies are complete, but they will
+		TAKE AWAY ALL OF YOUR GREN2s.  You also cannot return to the
+		respawn room upon teleporting (except by death).
+		Once you arrive on the map, you can resupply at the ammo shacks
+		in each	team's area, or you can use a resupply in a cave near the
+		top of the hill between the teams.  This resupply is the only
+		source of gren1s on the map.
+
+            Detpacks:	As said before, at the start, you must detpack the enemy
+		rock to gain access to the flag.  However, you can also detpack
+		the enemy supply shack (detpack must be inside the shack), and
+		deny the enemy any supplies for 30 seconds.
+	  
+	    "Bam4 ladders": The metal texture embedded into a hillside in each
+		of the team-controlled areas is a "Bam4 ladder" -- jump onto
+		the rock under it and walk into the ladder to climb.
+
+******************************************************************************
+
+CHANGES SINCE v3.0
+
+Fixed: Your team should get 10 frags when you cap.  Previously, only the capping
+	player would get frags (although the teamscore worked perfectly).
+
+Fixed/Changed: The pack in the middle of the map now gives you 50 armor, not 100.
+
+Changed: The packs in the spawn rooms now give you health (in case you accidentally
+	blast yourself or something =)
+
+CHANGES SINCE v2.0
+
+Changed: You no longer get any teamfrags for touching the flag.  You also only
+	get one frag for a touch (any flag touch, not just the first).
+
+Changed: The rocks blocking the flag return after five minutes of being destroyed.
+
+Changed: The wind tunnel that slowly lowers you to the ground in the respawn
+	is longer, so you have to wait in the respawn longer.
+
+Added: The respawn-room supplies steal your gren2s.  You'll have to choose;
+	enter the warzone fully armed/armored or have spam to play around with.
+
+******************************************************************************
+
+Credits:  Muchos gracias to id for the quake engines and TFS for the mod.
+          And to the men, women, and otherwise of Mostly Harmless and the
+	  Clan of the aXe for testing, ideas, opinions, etc etc etc...  ;P
+	  Also to A.McIntyre and N.Weer for their green textures in green.wad,
+	  I love the ground texture (can you tell? :).
+
+(c)Copyright 1999 by Jonathan Rimdzius
+All rights reserved.  Modification of entities by author's permission only.
+Use for new level by author's permission only.  Contact:  jrimdzius@bigfoot.com
+Distribution via internet for TF gameplay on quake TF servers is granted
+without charge and at own risk, as long as this text file is included.

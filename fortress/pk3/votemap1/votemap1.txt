@@ -1,0 +1,66 @@
+***************************************************************************
+Nov 19 1997    This Level is Designed for MegaTF & TeamFortress servers
+***************************************************************************
+Title                   : Votemap
+Filename                : votemap1.bsp
+BSPFileSize             : under 300k uncompressed
+Author                  : DyerMaker
+Email Address           : DyerMaker@uswestmail.net
+Description (more below): Votemap lets players vote in up to 6 maps
+Additional Map Info     : http://www.backblast.com/dyermaker
+TeamFortress Info       : http://www.teamfortress.com
+Mega_TF Info            : http://www.backblast.com
+Other Maps by DyerMaker : Unholy Kingdoms, Frontline, Ice Land, Sandball
+			  & more at http://www.backblast.com/dyermaker
+***************************************************************************
+Play info:
+
+Single Player           : To look around
+Coop                    : No
+Deathmatch              : No
+Mega-TF                 : Yes 
+Team Fortress           : Yes
+Difficulty Settings     : No
+New sound/music/graphics: No
+Base                    : New level from scratch
+Tools used              : WorldCraft shareware 
+HandBuild Time          : 1 day (10 hours maximum)
+Compile times           : unknown, I didn't write them down.
+			  (I'm releasing this Mar 04 2000)
+Known Bugs              : None, Server Admins read NOTE below
+***************************************************************************
+Why Another Votemap     : Votemaps should be small enough for the player to
+                          download *AND* still help vote in the next level.
+                          This is why I built Votemap1. Larger voting maps
+                          rarely get downloaded all the way so players are
+                          stuck in a perpetual download between every map.
+
+Playinfo                : This map is the only map ran on the server.
+			  Up to six maps may be triggered from votemap1.
+                          Players can decide which door to shoot at and
+                          when it opens, the map they chose loads.
+
+NOTE: Server Admins     : Put votemap1.bsp in your fortress\maps folder.
+                          In your QWMCYLE folder, your map1.cfg should be:
+                               map votemap1
+                          In your QWMCYLE folder, your map2.cfg should be:
+                               timelimit 35 <--set as you wish, if at all
+                               serverinfo n 0
+			  In your SERVER.CFG, do not set samelevel 2.
+                          (On our server we have set samelevel 0)
+			  I am including votemap1's .ENT file for easy
+                          tweakage of maps that votemap calls. Be sure to
+                          change the maps in BOTH places: On the door and
+                          in the trigger_changelevel.
+***************************************************************************
+Legal                   : (c) 1997 DyerMaker ALL RIGHTS RESERVED.
+                          Distribution via Internet for Mega / TF Game play
+                          on servers is granted without charge and at own
+			  risk, so long as the files remain unchanged.
+			  I do grant permission for the entities to be
+                          changed as certain maps' popularity fluctuates. 
+***************************************************************************
+Thanks                  : Jim Kaufman: for inspiration, and I had to peek at
+                          his ents to get mine to work right!
+***************************************************************************
+

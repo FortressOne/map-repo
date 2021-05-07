@@ -1,0 +1,75 @@
+***************************************************************************
+Mar 14 2000    This Level is Designed for MegaTF & TeamFortress servers
+***************************************************************************
+Title                   : Voter
+Filename                : voter.bsp
+BSPFileSize             : 102,152k uncompressed
+Author                  : DyerMaker
+Email Address           : DyerMaker@uswestmail.net
+Description (more below): Voter - a fast downloading, 10-door voting map
+Additional Map Info     : http://www.backblast.com/dyermaker
+TeamFortress Info       : http://www.teamfortress.com
+Mega_TF Info            : http://www.backblast.com
+Other Maps by DyerMaker : Unholy Kingdoms, Frontline, Ice Land, Sandball
+			  & more at http://www.backblast.com/dyermaker
+***************************************************************************
+Play info:
+
+Single Player           : To look around
+Coop                    : No
+Deathmatch              : No
+Mega-TF                 : Yes 
+Team Fortress           : Yes
+Difficulty Settings     : No
+New sound/music/graphics: Of course not, I wanted a small filesize :}
+Base                    : New level from scratch
+Tools used              : WorldCraft Registered 1.5b  
+HandBuild Time          : 7 hours
+Compile times           : under 1 sec: QBSP, VIS, iklite
+			: on Pentium III 450MHz 96 RAM
+Known Bugs              : None, Server Admins read NOTE below
+***************************************************************************
+Why Another Vote Map    : Vote Maps should be small enough for the player to
+                          download *AND* still help vote in the next level.
+                          This is why I built Voter. Even my six-door
+			  Votemap1 wasn't getting downloaded fast enough
+                          AND players complained of the time it took to 			  	  open a door when alone on the server. My goal with
+                          Voter was 100k filesize for fast downloading and
+                          the doors (3000 health) take 1.5 min to open -
+                          plenty of time for players to get the map and
+                          not a terribly long wait to open a door.
+
+Playinfo                : This map is the only map ran on the server.
+			  Up to ten maps may be triggered from Voter.
+                          Players can decide which door to shoot at and
+                          when they exit Voter, the map they chose loads.
+
+			  Voter is unique in design as it sports two hall-
+                          ways with 5 doors each. The Blue side allows for
+                          players to vote for Regular maps, and the Red
+                          side allows players to vote for Training Maps.
+                          (I've been on a Training Map kick lately!)
+
+NOTE: Server Admins     : Put voter.bsp in your fortress\maps folder.
+                          In your QWMCYLE folder, your map1.cfg should be:
+                               map voter
+                          In your QWMCYLE folder, your map2.cfg should be:
+                               timelimit 35 <--set as you wish, if at all
+                               serverinfo n 0
+			  In your SERVER.CFG, do not set samelevel 2.
+                          (On our server we have set samelevel 0)
+			  I am including Voter's .ENT file for easy
+                          tweakage of maps that Voter calls. Be sure to
+                          change the maps in BOTH places: On the door and
+                          in the trigger_changelevel.
+***************************************************************************
+Legal                   : (c) 2000 DyerMaker ALL RIGHTS RESERVED.
+                          Distribution via Internet for Mega / TF Game play
+                          on servers is granted without charge and at own
+			  risk, so long as the files remain unchanged.
+			  I do grant permission for the entities to be
+                          changed as certain maps' popularity fluctuates. 
+***************************************************************************
+Thanks                  : Players on the server whining about Votemap1 :}
+***************************************************************************
+

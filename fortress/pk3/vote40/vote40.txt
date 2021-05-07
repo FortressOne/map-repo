@@ -1,0 +1,64 @@
+Vote! 40 Doors- A Map for Team Fortress 2.6
+By Sgt.Thundercok
+
+Vote40.zip
+Version 1
+Other maps- The Well, The Rock, Spaz-Ball, Vote1
+Used- Worldcraft, EntEd, Paint shop Pro, TextPad, MipDip, Remipdlx
+Level 4 vis(full vis)
+jek19@idt.net
+
+--------------------------------------------------
+NOTES FOR VOTE40
+-I have allowed 4 teams, and all classes for vote40, but have included different
+  ent files for different configurations.
+
+-Server Ops, please read the steps.txt for setting up different configurations.
+
+-Do not use older versions of EntEd.  It may strip the model lines out of the
+  trigger_changelevel's.
+
+-If you are having trouble getting vote to start maps, it is either the model lines are
+  gone from trigger_changelevels, or you have samelevel 2 set.
+
+-Speedenator is working on a util that will allow easy updating of the .ent file.
+
+--------------------------------------------------
+FIRST- Put vote40.bsp in your fortress\maps folder.
+
+This is a voting map that runs between levels.  Players shoot the doors of the map they
+  want to play.  Eventually, a door will open.  Run in and that map will start.
+
+NOTE 1- Server Ops, this will not be able to access any map.cfg files, so keep that in
+  mind when selecting maps.  The next release of 2.6 should have code that will run a
+  "well6.cfg" when "well6" runs(etc.).
+
+---------------------------------------------------
+HOW TO RUN----------------
+All you need in your qwmcycle folder is map1.cfg with this line;
+map vote40
+
+And map2.cfg, with this line;
+serverinfo n 0
+
+Also, make sure you have this line at the end of your server.cfg;
+map vote40
+
+You need to have deathmatch3 set so players can change class.
+
+A lot of ops had problems with vote1 because they had set samelevel 2.  Do not set samelevel 2.
+
+You can add other configs so every so often it will force a map to run, like a new map.
+Any combination would work.
+
+HOW TO EDIT---------------
+  Please read STEPS.TXT
+
+  See MAPS.TXT for map list.
+
+Feel free to change at will.  You can change the doors health higher or lower depending on
+  how large a server you run, and whether or not you want it to take longer or take less
+  time to open a door.
+
+Jim Kaufman
+Sgt.Thundercok

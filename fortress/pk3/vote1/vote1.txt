@@ -1,0 +1,73 @@
+Vote! - A Map for Team Fortress 2.6
+By Sgt.Thundercok
+Version 1
+Other maps- The Well, The Rock, Spaz-Ball
+Used- Worldcraft, EntEd, Paint shop Pro, TextPad, MipDip
+Level 4 vis(full vis)
+jek19@idt.net
+-----------------------------------------------------
+FIRST- Put vote1.bsp in your fortress\maps folder.
+
+This is a voting map that runs between levels.  Players shoot the doors of the map
+ they want to play.  Eventually, a door will open.  Run in and that map will start.
+
+NOTE 1- Server Ops, this will not be able to access any map.cfg files, so keep that
+ in mind when selecting maps.
+
+NOTE 2- Hopefully this works well, and depending on feedback, I plan on creating a 
+ second version with 20 or more choices.
+
+NOTE 3- I am very open to suggestions on this, to make it better.
+------------------------------------------------------
+HOW TO RUN----------------
+All you need in your qwmcycle folder is map1.cfg with this line;
+map vote1
+
+And map2.cfg, with this line;
+serverinfo n 0
+
+Also, make sure you have this line at the end of your server.cfg;
+map vote1
+
+You can add other configs so every so often it will force a map to run, like a new map.
+Any combination would work.
+
+HOW TO EDIT---------------
+I have included a pre-made vote1.ent file.  You make changes to this text file then
+ run qbsp with this command line;
+
+qbsp -onlyents vote1.ent vote1.bsp
+
+Easy enough. 
+
+WHAT TO EDIT---------------
+All the ents you need to edit are at the bottom of the list, and labeled by netname as;
+MENU -The entity that lists the maps on server.
+
+DOOR1(thru DOOR10)- There are 2 each of these.  10 are the trigger_changelevels, where
+ you need to put the TRUE map file name in, and 10 are the doors where you put the full
+ map name in the 'message' section.
+
+UNUSED DOORS---------------
+I have left door 10 empty so you can see what to do if you don't want a door accessed.
+ Basically, crank the health to 9999999 and set the message to 'Unavailable' on the door.
+ On the trigger_changelevel, set the map to one you have, in case late at night someone
+ trys to shoot this door forever and gets in.  It will just run a regular map, then
+ return to the vote map.
+
+In this release, the maps are presently;
+1- 2Fort4
+2- Well6
+3- Rock1
+4- 2fort_32
+5- 2brave1
+6- Canal Zone
+7- Spaz4
+8- Town2
+9- Colony
+10- Unavailable(just as an example)
+
+Feel free to change at will.
+
+Jim Kaufman
+Sgt.Thundercok

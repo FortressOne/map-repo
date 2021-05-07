@@ -1,0 +1,143 @@
+***************************************************************************
+8/30/98        This Level is Designed for Mega-TF Only
+***************************************************************************
+Title                   : FrontLine
+Filename                : frontlin.bsp
+BSPFileSize             : 1,332,596 uncompressed
+Author                  : DyerMaker (created for Ambush, MD.)
+Email Address           : dyermaker@antrononline.com
+Description (more below): detpack other team's essential area
+Additional Map Info     : http://www.telefragged.com/blueprints/frontline.html
+TeamFortress Info       : http://www.planetquake.com/teamfortress
+Mega_TF Info            : http://www.antrononline.com/mega-tf
+***************************************************************************
+Play info:
+
+Single Player           : To look around
+Coop                    : No
+Deathmatch              : No
+Mega-TF                 : Yes (classic TF will miss essential parts)
+Difficulty Settings     : No
+New sound/music/graphics: 3 sprites, handful of textures, 1 model
+Base                    : New level from scratch
+Tools used              : WorldCraft 1.5b (Reg), DOS edit, CustEnt's QBSP,
+                          RVIS, IKLITE, AdQuedit, QMe, QuakeMap, PSPro
+HandBuild Time          : appx 60 hours spread out over 30 days (this version)
+Compile Time            : 113 seconds with CustEnt's QBSP
+Vis Info (non-GL)       : machine: Pentium 233 64 MB RAM
+                          testlevel = 3
+                          1509 Numportals
+                          129 seconds elapsed
+Light Time (extra)      : 170 entities read: 2min 6sec, IKLITE
+Known Bugs              : This is v1.3. It's not really a "bug" but I get
+                          this all the time: you can "step out" of the
+                          transport Chinook. That's because the visual and
+                          physical helicopters are 2 seperate entities. The
+                          "visual" one turns and the physical one doesn't.
+                          Also, starting QWCL.EXE with a heapsize of 65,536
+                          has been reported to smooth gameplay.
+***************************************************************************
+Other:
+Playinfo                : This is not straight-CTF. The object is to get your
+                          team's demoman behind enemy lines and have him det-
+                          pack the enemy's critical possession. Reds need to
+                          blow up the invading (Blue) team's supplies, while
+                          the Blues need to assassinate the Red's commander.
+
+                          Red and Blue Basecamps are *not* duplicates
+                          of each other. Players will find their favorite
+                          squad to join at map load: 1:Offense, 2:Defense.
+
+                          BLUE TEAM INFORMATION:
+                          The Blue team is the "invading" (offense) team.
+                          Conquer Red's territory primarily by destroying
+                          their chain of command. Assassinating he Red's
+                          General (via detpack) gives Blue Team 10 points.
+                          Blues respawn in a hovering Chinook helicopter.
+                          AMMUNITION:
+                            Ammunition can be retrieved from the back of the
+                            Hummer or near the Supply boxes. Grenades and
+                            Detpacks are resupplied inside the Blue's Cave.
+                            BLUE SCOUT: Calls in Aerial support by turning on
+                             the radio in the Blue's Tent. A Transport Chinook
+                             arrives outside the jungle to transport Blues to
+                             the Red's FrontLine. Red's may ride the Chinook
+                             back to the Blue's FrontLine, as well.
+                            BLUE DEMO: Scores points for the team by det
+                             packing the Red's General (in the Reds tent).
+
+                          RED TEAM INFORMATION:
+                          The Red team is the "home" (defense) team. They are
+                          trying to blow up Blue's supplies to keep them from
+                          invading their territory. Destroying (via detpack)
+                          the Supply boxes gives Red Team 10 points.
+                          Reds respawn in the Hospital Tent (big red + ).
+                          AMMUNITION:
+                            Ammunition can be retrieved from inside the Red's
+                            tent (where the General is). Grenades and Detpacks
+                            are resupplied inside the Red's Cave.
+                            RED SCOUT: Activates minefield by touching the
+                             activation lever inside Reds Tent.
+                            RED DEMO: Score points for the team by det
+                             packing the Blue's Supply boxes.
+                            RED ENGINEER: Digs out "trenches" for Red team
+                             with your spanner wrench. This will
+                             expose long passageways that lead to the
+                             Battlefield.
+                            ANY RED CLASS: Activate the Tank by standing be-
+                             hind the turret. Tank shoots twice every 10 sec.
+
+Secrets                 : Wraith of clan Nebula found a killer spot to
+                          grenade jump to, so I added a slow, lean goal to
+                          restore his health, armor & ammo. You can't see the
+                          goal, but if you find it it says "Wraith's Rock!"
+
+***************************************************************************
+Version Info:
+                        : new in beta 1.1 (Public Beta)
+                              Fixed goal messages. (doh!)
+                              Added marching dogs.
+                              Armors are now kevlar + wooden. (both)
+                          new in beta 1.2 (Public Beta)
+                              Added (2) Wraith's Rock goals.
+                              Added maphelp line.
+                          new in v1.3 (Public Release)
+                              Lots of fixes: reds can't destroy
+                              blues supplies until they're back. (doh!)
+                              All (hopefully) messages are correct now.
+                              Resupplies give 100% of stuff the first time.
+                              I'd like to think I'm done now :}
+
+***************************************************************************
+Install Info:
+
+TeamFortress Files:     : fortress\progs     moon_md.spr
+                        : fortress\progs     vinez_md.spr
+                        : fortress\progs     mine_md.spr
+                        : fortress\progs     heliprop.mdl
+
+***************************************************************************
+Legal:                  : (c) 1998 DyerMaker 
+                          All rights reserved.
+                          Distribution via Internet for TF Game play
+                          on TF servers is granted without charge
+                          and at own risk.
+***************************************************************************
+Thanks:                 : id, for Quake
+                          The TFS crew, for Team Fortress
+                          Carl Glave, for CustEnts
+                          Ambush, MD., for getting CustEnts working with Mega,
+                          for heliprop.mdl & mine_md.spr, and for ur patience!
+                          JamsBonBon, MD., for letting me squash ur ideaz :P
+                          Big Thank You to the Private Playtesters:
+                          Enon`, Pineapple, MD.,  Zombie, MD.,
+                          JamsBonBon, MD., Ambush, MD.
+                          Wraith, for the cool spot (Wraith's Rock!)
+                          Everyone who wrote in support of FrontLine
+                          You, for reading this :}
+***************************************************************************
+Page Pimp:
+                Need help with your TeamFortress Map?
+              ***  Get Your Answers At Blueprints  ***
+                http://www.telefragged.com/blueprints
+***************************************************************************

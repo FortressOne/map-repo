@@ -1,0 +1,124 @@
+**** This map designed for the TeamFortress quakeC mod ****
+4.1.98
+================================================================
+Title                   : Contact
+
+Filename                : Contact.zip
+
+Files			: Contact.bsp
+			  Macht.mdl
+			  Contact.txt
+
+Author                  : Gin Tonic
+
+Technical Help          : Nick Nougat 
+
+Contact (via Nick)      : nicknougat@hotmail.com 
+
+Description             : TeamFortress v2.6+ Quake Map
+
+
+================================================================
+* Play Information *
+
+This map does not work properly without the TeamFortress QuakeC
+patch, which can be downloaded from http://www.planetquake.com/teamfortress
+or from ftp.cdrom.com
+
+Single Player           : Yeah - for exploration.
+Cooperative             : No
+Deathmatch              : No
+TeamFortress            : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : A new model.... The Thing[tm] (just to have something else
+                          but these boring flags and keys.... ;) )
+New Music               : No
+Demos Replaced          : Nope
+
+* Construction *
+
+Editor(s) used          : Worldcraft V1.5
+			  Rvis
+                          Treeqbsp V1.61
+	
+Known Bugs              : There might be some grey-outs (and perhaps slowdowns)
+                          at certain positions in the level.. We didn't excpect the 
+                          engine to be this fed up with big rooms - we'd reckoned 
+                          the border to be a little bit higher...
+                          -------> look at performance hints below.
+			  Also some doors might sometimes somehow stick to your body
+                          and hurt you a bit. We tried all possible measures against this
+                          but none helped. We found a way to avoid this is to approach the
+                          side of the door where the lock would be.
+                          If You know why this happens please tell us....
+
+Build Time              : 2 months with bigger and smaller pauses...
+			 
+GLVis'd			: NO
+
+Grapple			: disabled
+
+Build Machine		: P133 32Megs RAM , Matrox Mystique
+Tested With:		: P133 32 Meg , Mystique and P133 48 Meg Cirrus Logic
+			  WinQuake, Quake
+
+Optimal CLient		: GLQWCL.exe on at least a P120 with 16+ megs
+
+Thanks to               : -Id Software for one of the best games ever made
+                          -The TF Team for the best and only Quake patch we play
+                          -The Guys at Quakelab (http://www.planetquake/quakelab)
+                            For great lumps of information.
+                          -Ben Morris for Worldcraft
+                          -All people who decided put this map on their servers.
+
+General things:
+==============
+
+Installation:
+------------
+unzip contact.zip 
+move  contact.bsp  into your quake\fortress\maps directory
+move  macht.mdl    into your quake\fortress\progs directory
+
+
+Performance:
+-------------
+
+If you own a rather fast computer (let's say a P120+ with (more than) 16 Meg) you might be able 
+to increase your system performance quite a bit:
+
+Just include these lines in your autoexec.cfg file situated in your fortress directory.
+
+	r_maxsurfs 1200
+	r_maxedges 3200
+
+Also add to your command line	
+
+    -heapsize 20000 (or more)
+		
+A different way not to increase the performance but at least to please the eye is to type 
+the following command into your console:
+
+r_clearcolor 296 
+
+this will let the greyout turn into a 'blueout' to make it less disturbing. ;)
+
+Map overview:
+-------------
+Contact is a map recommended for 18 players max.
+
+
+The scenario:
+Two bases situated half in water linked by an isle.
+
+
+Contact is a classical Capture the Flag map (except perhaps that the flag is a thing ;) ). 
+This means:
+
+ Get the enemy thing by going on top of the roof of their base and falling down the tunnel to
+ the basement.
+ there either shoot the switch to open the water door or head up again....
+ Touch down at the glowing wall with the tech symbols situated in your ramp room / your lower 
+  sniper balcony.
+

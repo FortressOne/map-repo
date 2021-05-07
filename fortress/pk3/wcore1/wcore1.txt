@@ -1,0 +1,199 @@
+**** This map designed for the TeamFortress v2.9 quakeC mod ****
+
+Text file created 22:35 07/07/99
+
+!!!! Server Admins - see the Gameplay section below pls :)
+
+=======================Map Information==========================
+
+Title:		WaterCore
+Filename:	wcore1.zip
+Author:		Wils
+Email:		edge@earthquakers.org
+ICQ:		4758249
+IRC:		#fortress.uk.eq on irc.uk.quakenet.eu.org
+Description:	TeamFortress v2.9 Quake Map
+
+Maps by the same author:
+
+- Aztec1
+- 2night1
+- 2small1
+- 2night2
+- Toxin1 (never released)
+- Aztec2
+- Azarena1*
+- Blarena*
+- Lasarena*
+- EQDuel1
+- Azarena2 (work in progress)
+
+* Maps for a TF Soldier Arena mod which hasn't been released
+  yet as far as I know :)
+
+=======================Play Information=========================
+
+This map does not work properly without the TeamFortress QuakeC
+patch, which can be downloaded from
+http://www.planetquake.com/teamfortress or from ftp.cdrom.com
+
+Single Player:		No
+Cooperative:		No
+Deathmatch:		No
+TeamFortress:		Yes
+Difficulty Settings:	No
+New Sounds:		Sort of
+New Graphics:		Kinda
+New Models:		Yes
+New Music:		No
+Demos Replaced:		None
+Level vised for GL:	Possibly
+
+========================Construction============================
+
+Base:				Toxin1 textures set
+Editor(s) and Utilities used:	Worldcraft, EntEd, rVIS,
+				Arghlite, BSP2Wad, wQBSP
+Known Bugs:			None known
+Construction Time:		4 Weeks on and off
+Build Time:			130 seconds*
+Build Computer:			Celeron 300a o/c to 374mhz, 64Mb
+Vis Level 4:			271 seconds*
+Light:				452 seconds*
+
+* These will be a little out as I was running winamp in realtime
+  mode with the acidpunk plugin at the same time as compiling :)
+
+========================Installation============================
+
+This archive contains 8 files.
+
+		- Wcore1.txt	You're reading it now.
+		- Wcore1.bsp	The map file.
+				Put it in fortress/maps
+		- duck2.mdl	This goes in your fortress/progs
+				directory.
+		- backpack.wav	Put this in fortress/sound/edge
+		- cap.wav	 "      "    "          "
+		- comms.wav	 "      "    "          "
+		- duck.wav	 "      "    "          "
+		- flagtk.wav	 "      "    "          "
+
+You can extract all of them at once to your fortress directory
+and it should place them in subdirs accordingly.
+
+==========================Gameplay==============================
+
+This is a TeamFortress CTF style map.
+
+There are two teams to this map, Blue and, rather predictably,
+Red :)
+
+Map features:
+
+- Grapple hooks
+- Duck!
+- Moving water :)
+- A working computer in each team's base
+- Ambient sounds
+- Anti respawn camping measures
+- Anti flag hiding measures
+
+Scoring works as follows:
+
+- 2 frags per enemy flag pickup
+- 2 frags per enemy flag capture
+- 10 team points and 10 team frags per enemy flag capture
+
+To capture the enemy flag, your own flag must be on its stand
+in your flagroom. Take the enemy flag from their flagroom,
+bring it back to your own flagroom, and touch it to your own
+flag for 10 points for your team.
+
+Due to the design and size of the map, certain classes have 
+been made illegal, or restricted:
+
+- No Scouts are allowed in this map
+- Snipers and Engineers are limited to 2 per team
+
+The computer
+------------
+Each base has a computer, located just outside the main
+respawn. These represent the base controls, and an enemy team's
+computer can be used one of two ways:
+
+- By a spy, to allow teammates access to the flagroom
+ventilation duct
+- By an engineer, in order to override the normal flag return
+rules and return their team's flag for a capture.
+
+
+!!!! Server Admins note !!!!
+
+Please, please for fooks sake, run your servers with at least
+one of following config lines:
+
+serverinfo grapple on
+serverinfo g on
+localinfo grapple on
+localinfo g on
+
+Theres no real reason any more to run with grapple disabled,
+since the older tf maps which didn't disable it properly aren't
+in regular use any more (I've not seen 2fort4 in a server
+rotation for ages, for example), and the latest TF code doesn't
+enable grapple by default.
+By running your server with grapple enabled, you allow maps that
+require it to be played correctly, as well as enhancing the
+gameplay on maps designed with it in mind, but which may not 
+necessarily _require_ it.
+
+WaterCore NEEDS grapple enabled, or it becomes unbalanced for
+certain classes re: powerups, routes through the map, etc.
+I'd rather people didn't play it at all than played it without
+grapple, because it's not how the map was designed.
+(Plus I don't want 100 emails from people asking why certain
+parts of the map are inaccessible to engineers/snipers/hwguys
+etc :) )
+
+
+=========================Misc. Info=============================
+
+Thanks to ]SG[-CiderPunk for the top duck model, & [EQ]Babs for 
+providing at least half of the music I listened to while working
+on this map, plus countless testing & suggestions, none of
+which I included when I think about it... well maybe one. :)
+Thanks also to [EQ]Locki, for pointing out the lift 'bug' :)
+and to [EQ]RainbowSix aka Rush, for providing an entire enemy
+team for me to test my ents against, while Lox ran around
+looking for misaligned textures and dodgy lights.
+I'd also like to take this opportunity to cuss Ali bad for
+being the most unreliable person I've ever known.
+
+/me cusses Ali bad.
+
+Thankyou.
+
+=========================Legal Stuff============================
+
+(c)copyright 1999 by Wils (Matt Wilson)
+NO MODIFICATIONS ARE TO BE MADE TO THIS MAP OR ENTITIES WITHOUT
+MY PERMISSION.
+YOU MAY NOT USE THIS MAP FOR COMMERICAL PROJECTS WITHOUT MY
+PERMISSION.
+THIS MAP SHALL BE AVAILABLE FREE TO THE PUBLIC AND CAN BE
+TRANSFERED TO OTHERS ONLY IF THE ABOVE MENTIONED EIGHT (8)
+FILES ARE INCLUDED IN THE ZIP. 
+YOU MAY NOT ADD OTHER FILES TO THE ZIP.
+IF YOU WISH TO USE PORTIONS OF THIS MAP FOR YOUR OWN FREE MAP
+PROJECT YOU MUST ASK.
+If YOU WISH TO USE THE DUCK MODEL FOR YOUR OWN FREE MAP
+PROJECT, STOP READING THIS AND GO AND ASK IT :)
+SORRY I WAS BORED.
+
+email:	edge@earthquakers.org
+irc:	irc.uk.quakenet.eu.org:6667, #fortress.uk.eq 
+
+================================================================
+
+End of text file.
