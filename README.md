@@ -12,7 +12,7 @@ docker build --tag=map-repo .
 ```
 
 
-### Deploy fortressonesv
+### Deploy map-repo
 
 ```
 docker tag map-repo fortressone/map-repo:latest
