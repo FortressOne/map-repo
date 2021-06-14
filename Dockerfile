@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
-WORKDIR /map-repo/
-COPY ./fortress/pk3/ /tmp
+WORKDIR /map-repo
+COPY fortress/package /map-repo/fortress/package
+COPY gzip.sh /map-repo
 COPY entrypoint.sh /map-repo
 RUN apt-get update \
  && apt-get install -y \
@@ -13,7 +14,5 @@ RUN apt-get update \
  && curl -O https://bootstrap.pypa.io/get-pip.py \
  && python3 get-pip.py \
  && pip3 install awscli --upgrade \
- && mkdir /map-repo/pk3/ \
- && for file in /tmp/*; do zip -r /map-repo/pk3/$(basename ${file}).pk3 ${file}/*; done \
- && rm -rf /tmp/*
+ && ./gzip.sh
 CMD ["/map-repo/entrypoint.sh"]

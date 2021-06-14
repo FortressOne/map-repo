@@ -1,6 +1,6 @@
 require 'fileutils'
 require "pry"
-DEST_PATH = "pk3"
+DEST_PATH = "package"
 
 Dir.glob(["textures", "*"].join("/")) do |src_textures_dir|
   map_name = File.basename(src_textures_dir)

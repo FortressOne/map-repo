@@ -27,7 +27,7 @@ docker push fortressone/map-repo:latest
 ```
 
 
-## Compile fortress/pk3 to gz archives in fortress/maps
+## Compile fortress/package to gz archives in fortress/maps
 
 ```
 ./gzip.sh
@@ -39,14 +39,15 @@ docker push fortressone/map-repo:latest
 GitHub actions automatically syncs to S3. See `.github/workflows/workflow.yml`.
 
 
-## PK3 map file structure
+## Package map file structure
+
+.gz maps are a .bsp concatenated with a .pk3 file, gzipped. pk3 files are shaped like this:
 
 ```
-pk3/<mapname>/
+<mapname>.pk3
 	lits/<mapname>.lit
 	locs/<mapname>.loc
 	maps/
-		<mapname>.bsp
 		<mapname>.ent
 		<mapname>.rtlights
 	progs/*.(mdl|bsp)

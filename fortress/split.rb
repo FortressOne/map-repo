@@ -4,7 +4,7 @@ require "pry"
 PAK0_FILENAMES = File.readlines("pak0.txt", chomp: true)
 PAK1_FILENAMES = File.readlines("pak1.txt", chomp: true)
 TF28_PAK0_FILENAMES = File.readlines("tf28_pak0.txt", chomp: true)
-DEST_PATH = "pk3/"
+DEST_PATH = "package/"
 
 Dir.glob(["maps", "*.ent"].join("/")) do |ent_file|
   map_name = File.basename(ent_file, File.extname(ent_file))
