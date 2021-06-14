@@ -22,7 +22,16 @@ docker push fortressone/map-repo:latest
 
 ## Compile for GitHub release
 
-    ./build.sh
+```
+./build.sh
+```
+
+
+## Compile fortress/pk3 to gz archives in fortress/maps
+
+```
+./gzip.sh
+```
 
 
 ## Deploy
