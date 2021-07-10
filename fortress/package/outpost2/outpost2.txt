@@ -1,0 +1,248 @@
+========================================================================
+------------------------------------------------------------------------
+                        The Outpost v2.0
+                    last revised 29th Jan 98
+
+
+*See Bug Fixes & Updates
+*See Map Details
+*See Copyright
+
+------------------------------------------------------------------------
+========================================================================
+
+**** This map designed for the TeamFortress v2.65 quakeC mod ****
+
+29th Jan 1998
+================================================================
+Title                   : The Outpost v2.0
+Filename                : outpost2.bsp
+Authors                 : grimm [502]
+Email Address           : fco@vif.com
+Description             : TeamFortress v2.65 Quake Map
+
+TeamFortress Homepage	: http://www.planetquake.com/teamfortress
+			: http://www.teamfortress.com
+================================================================
+
+* Play Information *
+
+This map does not work properly without the 
+TeamFortress v2.65 or higher QuakeC patch, which can be downloaded from 
+http://www.planetquake.com/teamfortress
+
+Single Player           : No
+Cooperative             : Yes (TEAMfortress)
+Deathmatch (2-32)       : No 
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : A few modified textures
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : New level
+Editor(s) used          : Worldcraft 1.3, EntEd
+Known Bugs              : None Discovered Yet
+Build Time              : Many Moons
+Light                   : 10004235 seconds
+Vis                     : 01016627 seconds
+
+
+* PROGS *
+
+Put the .mdl files in your Team Fortress progs dir.
+        
+    -------------------------------------------------------------
+
+               B U G   F I X E S  &  U P D A T E S
+
+    -------------------------------------------------------------
+
+                      Changes since v1.0
+
+ -  Major Bug fixed in Flag Capture Entities, which would award the
+                   team 10 frags, but the player who brought the
+                   flag back, would not get the frags.
+
+                   Player who makes the capture, gets 1 frag extra
+
+ -  Fixed Sniper Nest ledges, which were too high and blocked snipers
+                   firing angle. Now snipers can more easily fire at
+                   oncoming troops.
+
+ -  Fixed Middle floor windows. They also were too narrow, and players
+                   had a hard time firing through them, and were limited
+                   to long range only, since it blocked most of the
+                   terrain in front of the fort.
+
+ -  Fixed TF Entities which displayed messages, near computer banks
+                   on the top floor, so players had to be closer to
+                   them. This was to avoid having constant messaging
+                   when you enter the tight space.
+
+ -  Fixed certain dark areas, which were mostly a real hassle in GLquake.
+                   Such as the respawn entrances and tunnel entrances.
+                   Due to the diminished visibility of those light bars
+                   in GL. This was fixed by adding a very dim light,
+                   which is barely visible in normal play, but makes a
+                   big difference in GL.
+
+ -  Updated and added usefull info in the OUTPOST2.TXT
+
+ -  GL VISed with Transparent water.
+
+    I had received very few comments from players, I guess everyone
+  figures someone else will have noticed it. But I would like to thank
+  the following people who have helped me make this a better map.
+
+    Bob Marotte, WildeFire & Ash for his New Maps server, which
+  enabled me to playtest my map on a real server.
+
+    Hopefully with the major bug fix, players will be more inclined
+  to try it.
+
+                                         grimm [502]
+
+    -------------------------------------------------------------
+
+                     M A P   D E T A I L S
+
+    -------------------------------------------------------------
+
+ This is a variation of the usual & popular Capture the Flag
+Team Fortress Maps. Two forts face each other, and two military
+forces of space marines struggle for domination.
+
+ The action takes place on a remote but strategic outpost. Two
+Clans have been able to seize control of the compound, also
+making sure their SlipGates will pump a steady flow of reinforcements
+as the battle rages on.
+
+    ------------------------------------------------------------
+
+ This map was designed with the player in mind. Efforts were made
+to make the map both eye pleasing and interesting in gameplay.
+I have taken into consideration many comments from players, and
+various web pages, aimed to help map makers create a map that will
+interest players of any class and style of play.
+
+ Points of interest:
+
+   SECURITY SYSTEM   Each base has a Security System, which can
+                     be activated and de-activated by any class
+                     from either team. It's easier to destroy than
+                     it is to create.
+
+                     The security system will also warn of spies, so
+                     keep your eyes peeled.
+
+                     Unlike many maps, I have made this security
+                     system broadcast the ALARM messages to each
+                     team player, so no one has to just stand there
+                     and stare at some texture.
+
+                     Here are some usefull details to know.
+
+                              ON  Switch health 1000
+                              OFF Switch health  500
+
+                              Switch Delays 120 seconds
+
+   BUNKERS           There are four military bunkers placed in the
+                     courtyard, surrounding the landing pad. They
+                     have their advantages and disadvantages. It
+                     will be for the player to figure out!
+
+   THE UNDERGROUND   The underground system of tunnels, connects
+                     all four bunkers and offers a way into the
+                     water and sewage system.
+
+   THE BRIDGE        Should it stay? Or should it go?
+                     In larger games, the underground could play
+                     a large role, since enemies could secure
+                     the bunkers closest to their enemies and
+                     put dispensers and certain personnel such
+                     as medics for before assault ready. Not to
+                     mention scouts will play a more important
+                     role, trying to notify their teams of hidden
+                     troops. The bridge can be both an advantage
+                     and a disadvantage.
+
+     Thanks to AsH (AsH@mc.net) I was able to do some server
+  playtesting, unfortunately I still haven't been able to get
+  a nice game going with at least 5 players in each team.
+
+     I hope players will contact me and share their views and
+   opinions.
+
+     Thank you for your time, and happy hunting!
+
+
+
+                     Your armor is your soul
+                          and your soul's
+                      Dedication it's armor
+
+                     The soul of a warrior
+                    is the shield of humanity
+
+                     Honor the craft of death
+                           -Warhammer 40k
+
+
+  grimm [502]
+
+        -------------------------------------------------------
+
+
+Greetings and Salutations :
+
+Clan 502, not only my team, but my friends
+
+  (in alphabetical order, so they won't cry)
+
+          JZorn      [502]
+          Mechanix   [502]
+          NghtStlker [502]
+          Wormboy    [502]
+
+
+Fortress-Map-Makers Mailing list participants and caretakers!
+
+         AsH (AsH@mc.net) Check out his New Maps Server!
+                          ip: 208.220.8.100:27520
+
+         Bob Marotte (Brewman@tiac.net) Author of a great map
+                          entitled MAZE.BSP, can be found on
+                          all great map archives!
+
+         WildeFire (Wildefire@planetquake.com)
+                          TF Quality Control, helping mapmakers
+                          get detailed reviews of their work
+                          www.planetquake.com/qccentral
+
+         Robin - Team Fortress Software
+         Jim Kaufman - Sgt.Thundercok
+         Sailor CPU
+         Jeremy Morton - RAISTLAN
+         Gene Jones - SK-realistik
+         Micheal Mattson
+         Rogue13
+
+
+ -----------------------------------------------------------------
+ Copyright
+
+ This map is copyright F.C.O. enr.
+
+ It may be freely distributed, as long as it is not modified in
+ any way. The map cannot be distributed without the outpost2.txt
+ which you are presently reading, save for server downloads.
+
+ The author is open to suggestions and ideas, if you wish to
+ use any part of this work, you must contact the author for
+ permission.
+
+ -----------------------------------------------------------------

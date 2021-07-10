@@ -1,0 +1,733 @@
+{
+"worldtype" "2"
+"classname" "worldspawn"
+"sounds" "9"
+"wad" "C:\Program Files\Qoole\work\invsion2.wad"
+"message" "ë‘hï …nˆaÛiínê ‚˘ ùmercü˘ÚÔ\n\nVisit Pyro's fortress\nHttp://home.wxs.nl/~verho187\n"
+}
+{
+"angle" "-2"
+"lip" "-5"
+"health" "1500"
+"dmg" "250"
+"wait" "60"
+"classname" "func_door"
+"sounds" "1"
+"model" "*1"
+"speed" "9999999"
+}
+{
+"targetname" "corner1"
+"angle" "90"
+"origin" "1800 -2413 -16"
+"classname" "path_corner"
+"target" "corner2"
+}
+{
+"targetname" "corner2"
+"angle" "90"
+"wait" "5.000000"
+"origin" "1800 -760 -16"
+"classname" "path_corner"
+"target" "corner3"
+}
+{
+"targetname" "corner3"
+"angle" "90"
+"origin" "1800 -2413 -16"
+"classname" "path_corner"
+"target" "corner4"
+}
+{
+"targetname" "corner4"
+"angle" "90"
+"wait" "15.000000"
+"origin" "255 -2413 -16"
+"classname" "path_corner"
+"target" "corner1"
+}
+{
+"delay" "15"
+"classname" "trigger_once"
+"model" "*2"
+"target" "lander"
+}
+{
+"team_no" "3"
+"height" "265"
+"classname" "func_plat"
+"model" "*3"
+"speed" "150"
+}
+{
+"mdl" "progs/suit.mdl"
+"radsuit_finished" "60"
+"goal_effects" "1"
+"wait" "15"
+"origin" "105 -1936 150"
+"noise" "items/suit.wav"
+"classname" "info_tfgoal"
+"netname" "biosuit"
+"goal_activation" "1"
+}
+{
+"classname" "func_illusionary"
+"model" "*4"
+}
+{
+"angle" "60"
+"origin" "1800 -45 111"
+"classname" "info_player_start"
+}
+{
+"team_no" "1"
+"goal_result" "2"
+"activate_goal_no" "2"
+"classname" "trigger_multiple"
+"model" "*5"
+"netname" "offroad"
+}
+{
+"team_no" "1"
+"goal_result" "2"
+"activate_goal_no" "1"
+"classname" "trigger_multiple"
+"model" "*6"
+"netname" "end"
+}
+{
+"ammo_rockets" "10"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "20"
+"team_no" "2"
+"health" "100"
+"armorvalue" "50"
+"ammo_nails" "20"
+"ammo_medikit" "100"
+"goal_effects" "1"
+"wait" "10"
+"no_grenades_2" "1"
+"origin" "42 -1937 152"
+"noise" "fish/bite.wav"
+"no_grenades_1" "1"
+"classname" "info_tfgoal"
+"netname" "red resupply pack"
+"ammo_shells" "15"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"health" "50"
+"invincible_finished" "3"
+"goal_effects" "1"
+"wait" "1"
+"origin" "-173 -1936 336"
+"noise" "fish/bite.wav"
+"classname" "info_tfgoal"
+"armorclass" "4"
+"netname" "healpack"
+"goal_activation" "1"
+}
+{
+"team_no" "3"
+"goal_result" "2"
+"activate_goal_no" "3"
+"classname" "trigger_multiple"
+"model" "*7"
+"netname" "offbeach"
+}
+{
+"team_no" "2"
+"classname" "trigger_teleport"
+"model" "*8"
+"target" "tele"
+}
+{
+"targetname" "tele"
+"angle" "0"
+"origin" "-73 -1994 146"
+"classname" "info_teleport_destination"
+}
+{
+"team_no" "2"
+"origin" "-73 -2120 169"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "-73 -2241 169"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "-73 -2366 169"
+"classname" "info_player_teamspawn"
+}
+{
+"light" "300"
+"origin" "-256 -2124 378"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-256 -2382 378"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "3 -2434 184"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "3 -2228 184"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "3 -2047 184"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "347 -1974 76"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "347 -2279 76"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "775 -2245 184"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "1889 -1195 135"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "1889 -512 135"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "1925 75 135"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "1612 455 100"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "2278 455 100"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "2051 900 96"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "2008 1255 184"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "2031 1705 184"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1536 1952 184"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1133 1948 184"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "805 1943 184"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "1996 699 360"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1819 1971 310"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "546 1927 319"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1996 623 172"
+"classname" "light"
+}
+{
+"targetname" "lander"
+"dmg" "250"
+"classname" "func_train"
+"sounds" "1"
+"model" "*9"
+"speed" "200"
+"target" "corner4"
+}
+{
+"light" "300"
+"origin" "2434 446 198"
+"classname" "light"
+}
+{
+"angle" "90"
+"origin" "1948 664 40"
+"classname" "item_health"
+"spawnflags" "2"
+}
+{
+"light" "600"
+"origin" "1934 -2249 89"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1481 -2232 115"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1893 -1736 137"
+"classname" "light"
+}
+{
+"light" "-300"
+"origin" "404 1939 86"
+"classname" "light"
+}
+{
+"light" "-600"
+"origin" "1904 -694 6"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "2305 670 138"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "2305 670 62"
+"classname" "light"
+}
+{
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"health" "50"
+"invincible_finished" "3"
+"goal_effects" "1"
+"wait" "1"
+"origin" "-173 -2521 336"
+"noise" "fish/bite.wav"
+"classname" "info_tfgoal"
+"armorclass" "4"
+"netname" "healpack"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"health" "50"
+"invincible_finished" "3"
+"goal_effects" "1"
+"wait" "1"
+"origin" "-173 -2320 336"
+"noise" "fish/bite.wav"
+"classname" "info_tfgoal"
+"armorclass" "4"
+"netname" "healpack"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"health" "50"
+"invincible_finished" "3"
+"goal_effects" "1"
+"wait" "1"
+"origin" "-173 -2111 336"
+"noise" "fish/bite.wav"
+"classname" "info_tfgoal"
+"armorclass" "4"
+"netname" "healpack"
+"goal_activation" "1"
+}
+{
+"team_no" "1"
+"origin" "-320 -1974 353"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "-320 -2122 353"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "-320 -2049 353"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "-320 -2266 353"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "-320 -2341 353"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "-320 -2415 353"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "-320 -2491 353"
+"classname" "info_player_teamspawn"
+}
+{
+"light" "300"
+"origin" "1637 71 109"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1637 799 143"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "1587 661 89"
+"classname" "light"
+}
+{
+"ammo_detpack" "2"
+"maxammo_medikit" "2"
+"team_broadcast" "ÄÉÇ CHOOSE YOUR TEAM ÄÉÇ\n\nêìë √…÷…Ã¡…Œ”\nêîë «’¡“ƒ”\nêïë ƒ≈∆≈Œƒ≈“”\n"
+"non_team_broadcast" "√ÈˆÈÏÈ·ÓÛ∫ reach the end\n«ı·Ú‰Û∫ protect the civilians\nƒÂÊÂÓ‰ÂÚÛ∫ Kill civilians and guards\n"
+"maxammo_shells" "-1"
+"hook_out" "1"
+"origin" "1952 356 320"
+"classname" "info_tfdetect"
+"impulse" "128"
+}
+{
+"health" "-250"
+"frags" "5"
+"goal_no" "1"
+"goal_effects" "1"
+"netname_broadcast" " reached the end!\n"
+"origin" "1952 356 320"
+"classname" "info_tfgoal"
+"increase_team1" "5"
+"netname" "end"
+}
+{
+"health" "-250"
+"frags" "-1"
+"goal_no" "3"
+"goal_effects" "1"
+"origin" "1952 356 320"
+"classname" "info_tfgoal"
+"message" "StUpId!\n"
+"netname" "offbeach"
+}
+{
+"health" "-250"
+"goal_no" "2"
+"count" "-1"
+"goal_effects" "1"
+"origin" "1952 356 320"
+"classname" "info_tfgoal"
+"message" "StUpId!\n"
+"netname" "offroad"
+}
+{
+"light" "300"
+"origin" "713 1670 193"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1086 1676 295"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1451 1664 372"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1769 1664 374"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1757 1315 329"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1779 1014 242"
+"classname" "light"
+}
+{
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"health" "50"
+"invincible_finished" "3"
+"goal_effects" "1"
+"wait" "1"
+"origin" "-73 -2423 152"
+"noise" "fish/bite.wav"
+"classname" "info_tfgoal"
+"armorclass" "4"
+"netname" "healpack"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"health" "50"
+"invincible_finished" "3"
+"goal_effects" "1"
+"wait" "1"
+"origin" "-73 -2511 152"
+"noise" "fish/bite.wav"
+"classname" "info_tfgoal"
+"armorclass" "4"
+"netname" "healpack"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"health" "50"
+"invincible_finished" "3"
+"goal_effects" "1"
+"wait" "1"
+"origin" "-73 -2181 152"
+"noise" "fish/bite.wav"
+"classname" "info_tfgoal"
+"armorclass" "4"
+"netname" "healpack"
+"goal_activation" "1"
+}
+{
+"light" "300"
+"origin" "708 2184 233"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1005 2184 251"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1284 2184 251"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1609 2184 251"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "2222 2008 249"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "2232 1646 246"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "2258 1316 199"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "2239 922 185"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1934 2184 251"
+"classname" "light"
+}
+{
+"team_no" "1"
+"goal_result" "2"
+"activate_goal_no" "2"
+"classname" "trigger_multiple"
+"model" "*10"
+"netname" "offroad"
+}
+{
+"team_no" "1"
+"goal_result" "2"
+"activate_goal_no" "2"
+"classname" "trigger_multiple"
+"model" "*11"
+"netname" "offroad"
+}
+{
+"team_no" "1"
+"goal_result" "2"
+"activate_goal_no" "2"
+"classname" "trigger_multiple"
+"model" "*12"
+"netname" "offroad"
+}
+{
+"team_no" "2"
+"classname" "trigger_teleport"
+"model" "*13"
+"target" "tele"
+}
+{
+"team_no" "3"
+"origin" "1655 2390 371"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "3"
+"origin" "1655 2576 371"
+"classname" "info_player_teamspawn"
+}
+{
+"ammo_rockets" "10"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "20"
+"team_no" "3"
+"health" "100"
+"armorvalue" "50"
+"ammo_nails" "20"
+"ammo_medikit" "100"
+"goal_effects" "1"
+"wait" "10"
+"no_grenades_2" "1"
+"origin" "2005 2432 352"
+"noise" "fish/bite.wav"
+"no_grenades_1" "1"
+"classname" "info_tfgoal"
+"netname" "yellow resupply pack"
+"ammo_shells" "15"
+"goal_activation" "1"
+}
+{
+"light" "300"
+"origin" "1914 2399 351"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "1835 2498 372"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "1655 2574 371"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "1655 2390 371"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "1997 2503 339"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "2083 2394 273"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "2072 2496 312"
+"classname" "light"
+}
+{
+"light" "100"
+"origin" "1905 2336 366"
+"classname" "light"
+}
+{
+"angle" "180"
+"lip" "8"
+"team_no" "3"
+"health" "1"
+"wait" "3"
+"classname" "func_door"
+"sounds" "1"
+"model" "*14"
+"speed" "100"
+}
+{
+"team_no" "1"
+"origin" "-320 -2197 353"
+"classname" "info_player_teamspawn"
+}
+{
+"mangle" "0 165 0"
+"origin" "586 -2517 129"
+"classname" "info_intermission"
+}
+{
+"mangle" "0 105 0"
+"origin" "2177 -429 120"
+"classname" "info_intermission"
+}
+{
+"mangle" "0 -45 0"
+"origin" "1726 677 174"
+"classname" "info_intermission"
+}
+{
+"mangle" "15 90 0"
+"origin" "2016 745 345"
+"classname" "info_intermission"
+}
+{
+"mangle" "0 180 0"
+"origin" "2106 1940 99"
+"classname" "info_intermission"
+}
+{
+"mangle" "0 0 0"
+"origin" "448 1942 100"
+"classname" "info_intermission"
+}

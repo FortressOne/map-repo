@@ -1,0 +1,508 @@
+{
+"worldtype" "0"
+"classname" "worldspawn"
+"wad" "mini.wad"
+"message" "2mini2\n\nBy: Gorax\ngorax@nero.hoe.se"
+}
+{
+"mangle" "30 270 0"
+"origin" "8 -80 152"
+"classname" "info_intermission"
+}
+{
+"origin" "-224 -1000 16"
+"classname" "info_tfgoal"
+"target" "blue blow 2"
+"goal_activation" "2"
+}
+{
+"origin" "-224 -992 16"
+"classname" "info_tfgoal"
+"target" "blue blow1"
+"goal_activation" "2"
+}
+{
+"targetname" "blue blow1"
+"angle" "-1"
+"lip" "0"
+"wait" "-1"
+"classname" "func_door"
+"speed" "500"
+"model" "*1"
+}
+{
+"angle" "-1"
+"targetname" "blue blow 2"
+"lip" "0"
+"wait" "-1"
+"classname" "func_door"
+"speed" "500"
+"model" "*2"
+}
+{
+"angle" "-1"
+"targetname" "red blow 1"
+"lip" "0"
+"wait" "-1"
+"classname" "func_door"
+"speed" "500"
+"model" "*3"
+}
+{
+"angle" "-1"
+"targetname" "red blow 2"
+"lip" "0"
+"wait" "-1"
+"classname" "func_door"
+"speed" "500"
+"model" "*4"
+}
+{
+"angle" "270"
+"origin" "-8 88 32"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "270"
+"origin" "-8 88 32"
+"classname" "info_player_start"
+}
+{
+"light" "500"
+"origin" "-276 -144 276"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "300 -144 272"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "300 -868 272"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "-276 -868 276"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "-56 -700 136"
+"classname" "light_globe"
+}
+{
+"light" "500"
+"origin" "56 -700 136"
+"classname" "light_globe"
+}
+{
+"light" "500"
+"origin" "-56 -324 136"
+"classname" "light_globe"
+}
+{
+"light" "500"
+"origin" "56 -324 136"
+"classname" "light_globe"
+}
+{
+"style" "32"
+"angle" "90"
+"health" "100"
+"wait" "10"
+"classname" "func_button"
+"sounds" "2"
+"target" "blueglobe"
+"model" "*5"
+}
+{
+"style" "33"
+"angle" "270"
+"health" "100"
+"wait" "10"
+"classname" "func_button"
+"sounds" "2"
+"target" "redglobe"
+"model" "*6"
+}
+{
+"style" "32"
+"light" "500"
+"targetname" "blueglobe"
+"origin" "20 -1120 228"
+"classname" "light"
+}
+{
+"style" "33"
+"light" "500"
+"targetname" "redglobe"
+"origin" "20 24 228"
+"classname" "light"
+}
+{
+"origin" "-364 56 276"
+"classname" "light"
+}
+{
+"origin" "-312 220 272"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "220 336 240"
+"classname" "light"
+}
+{
+"style" "33"
+"targetname" "redglobe"
+"origin" "-328 384 252"
+"classname" "light"
+}
+{
+"origin" "-992 388 -68"
+"classname" "light"
+}
+{
+"origin" "220 332 96"
+"classname" "light"
+}
+{
+"origin" "-276 376 100"
+"classname" "light"
+}
+{
+"origin" "-8 116 100"
+"classname" "light"
+}
+{
+"origin" "232 116 100"
+"classname" "light"
+}
+{
+"origin" "312 -1092 240"
+"classname" "light"
+}
+{
+"origin" "296 -1256 244"
+"classname" "light"
+}
+{
+"style" "32"
+"targetname" "blueglobe"
+"origin" "308 -1412 232"
+"classname" "light"
+}
+{
+"origin" "992 -1408 -80"
+"classname" "light"
+}
+{
+"origin" "-260 -1256 240"
+"classname" "light"
+}
+{
+"origin" "-204 -1412 96"
+"classname" "light"
+}
+{
+"origin" "320 -1408 64"
+"classname" "light"
+}
+{
+"origin" "0 -1196 88"
+"classname" "light"
+}
+{
+"origin" "-240 -1144 88"
+"classname" "light"
+}
+{
+"targetname" "t1"
+"lip" "1"
+"dmg" "10"
+"wait" "1"
+"classname" "func_door"
+"sounds" "0"
+"speed" "500"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1"
+"model" "*8"
+}
+{
+"angle" "270"
+"targetname" "t2"
+"lip" "1"
+"dmg" "10"
+"wait" "1"
+"classname" "func_door"
+"sounds" "2"
+"speed" "500"
+"model" "*9"
+}
+{
+"angle" "180"
+"targetname" "bluedoor"
+"lip" "1"
+"dmg" "10"
+"wait" "1"
+"classname" "func_door"
+"sounds" "1"
+"netname" "bluedoor"
+"speed" "500"
+"model" "*10"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2"
+"model" "*11"
+}
+{
+"angle" "180"
+"targetname" "t3"
+"lip" "1"
+"dmg" "10"
+"wait" "1"
+"classname" "func_door"
+"sounds" "0"
+"speed" "500"
+"model" "*12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t3"
+"model" "*13"
+}
+{
+"angle" "90"
+"targetname" "t4"
+"lip" "1"
+"dmg" "10"
+"wait" "1"
+"classname" "func_door"
+"sounds" "2"
+"speed" "500"
+"model" "*14"
+}
+{
+"targetname" "reddoor"
+"lip" "1"
+"dmg" "10"
+"wait" "1"
+"classname" "func_door"
+"sounds" "2"
+"netname" "reddoor"
+"speed" "500"
+"model" "*15"
+}
+{
+"classname" "trigger_multiple"
+"target" "t4"
+"model" "*16"
+}
+{
+"team_str_moved" "Flag down"
+"non_team_str_moved" "Flag down"
+"team_broadcast" "2MINI2\n\n1.BLUE TEAM\n2.RED TEAM \n"
+"non_team_str_home" "Flag base"
+"hook_out" "1"
+"origin" "204 -486 174"
+"team_str_carried" "Flag is being carried by"
+"team_str_home" "Flag base"
+"non_team_broadcast" "Grab the flag and capture it\n"
+"classname" "info_tfdetect"
+"display_item_status2" "2"
+"non_team_str_carried" "Flag is being carried by"
+"display_item_status1" "1"
+}
+{
+"ammo_rockets" "100"
+"ammo_cells" "100"
+"mdl" "/progs/backpack.mdl"
+"skin" "0"
+"health" "100"
+"armorvalue" "200"
+"goal_result" "2"
+"ammo_medikit" "100"
+"ammo_nails" "100"
+"goal_effects" "17"
+"no_grenades_2" "1"
+"wait" "3"
+"no_grenades_1" "1"
+"origin" "232 154 26"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+"message" "You got the backpack\n"
+"netname" "backpack"
+"ammo_shells" "100"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "100"
+"ammo_cells" "100"
+"mdl" "/progs/backpack.mdl"
+"skin" "0"
+"health" "100"
+"armorvalue" "200"
+"goal_result" "2"
+"ammo_medikit" "100"
+"ammo_nails" "100"
+"goal_effects" "17"
+"no_grenades_2" "1"
+"wait" "3"
+"no_grenades_1" "1"
+"origin" "-240 -1142 26"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+"message" "You got the backpack\n"
+"netname" "backpack"
+"ammo_shells" "100"
+"goal_activation" "1"
+}
+{
+"team_no" "2"
+"frags" "10"
+"netname_owners_team_broadcast" " captured YOUR flag\n"
+"goal_effects" "3"
+"origin" "0 192 168"
+"noise" "cap.wav"
+"netname_broadcast" " captured BLUE flag\n"
+"classname" "info_tfgoal"
+"axhitme" "1"
+"netname" "redcappoint"
+"message" "You captured the flag\n"
+"owned_by" "2"
+"items_allowed" "1"
+"netname_team_broadcast" " captured BLUE flag\n"
+}
+{
+"mdl" "/progs/tf_flag.mdl"
+"skin" "1"
+"team_no" "1"
+"pausetime" "30"
+"goal_result" "18"
+"noise4" "Red flag returned\n"
+"goal_no" "2"
+"items" "262144"
+"noise3" "Your flag returned\n"
+"owners_team_broadcast" "Your flag has been taken\n"
+"goal_effects" "17"
+"netname_team_drop" "Your flag was dropped by \n"
+"origin" "-992 384 -104"
+"noise" "return.wav"
+"classname" "item_tfgoal"
+"netname_non_team_drop" "Red flag was dropped by \n"
+"netname" "red_flag"
+"message" "You got the flag\n"
+"goal_activation" "181"
+}
+{
+"team_no" "1"
+"frags" "10"
+"netname_owners_team_broadcast" " captured your flag\n"
+"goal_effects" "3"
+"origin" "0 -1216 168"
+"noise" "cap.wav"
+"netname_broadcast" " captured RED flag\n"
+"classname" "info_tfgoal"
+"axhitme" "2"
+"netname" "bluecappoint"
+"message" "You captured red flag\n"
+"owned_by" "1"
+"items_allowed" "2"
+"netname_team_broadcast" " captured RED flag\n"
+"goal_activation" "1"
+}
+{
+"mdl" "/progs/tf_flag.mdl"
+"skin" "0"
+"team_no" "2"
+"pausetime" "30"
+"goal_result" "16"
+"noise4" "Blue flag returned\n"
+"items" "131072"
+"noise3" "Your flag returned\n"
+"owners_team_broadcast" "Your flag has been taken\n"
+"goal_effects" "17"
+"netname_team_drop" "Your flag was dropped by \n"
+"origin" "992 -1416 -104"
+"noise" "return.wav"
+"classname" "item_tfgoal"
+"netname_non_team_drop" "Blue flag was dropped by \n"
+"netname" "blue_flag"
+"message" "You got the flag\n"
+"owned_by" "1"
+"goal_activation" "693"
+}
+{
+"angle" "180"
+"team_no" "2"
+"origin" "-128 264 168"
+"classname" "info_player_teamspawn"
+"netname" "red spawn"
+}
+{
+"angle" "180"
+"team_no" "2"
+"origin" "-128 184 168"
+"classname" "info_player_teamspawn"
+"netname" "redspawn"
+}
+{
+"angle" "270"
+"team_no" "2"
+"origin" "-312 264 168"
+"classname" "info_player_teamspawn"
+"netname" "redspawn"
+}
+{
+"angle" "0"
+"team_no" "1"
+"origin" "136 -1192 176"
+"classname" "info_player_teamspawn"
+"netname" "bluespawn"
+}
+{
+"angle" "0"
+"team_no" "1"
+"origin" "136 -1280 176"
+"classname" "info_player_teamspawn"
+"netname" "bluespawn"
+}
+{
+"angle" "90"
+"team_no" "1"
+"origin" "280 -1280 176"
+"classname" "info_player_teamspawn"
+"netname" "bluespawn"
+}
+{
+"team_no" "1"
+"classname" "trigger_multiple"
+"netname" "bluedoor"
+"target" "bluedoor"
+"model" "*17"
+}
+{
+"team_no" "2"
+"classname" "trigger_multiple"
+"netname" "reddoor"
+"target" "reddoor"
+"model" "*18"
+}
+{
+"origin" "224 -40 16"
+"classname" "info_tfgoal"
+"target" "red blow 1"
+"goal_activation" "2"
+}
+{
+"origin" "224 -16 16"
+"classname" "info_tfgoal"
+"target" "red blow 2"
+"goal_activation" "2"
+}

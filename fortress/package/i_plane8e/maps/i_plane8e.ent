@@ -1,0 +1,380 @@
+{
+"classname" "worldspawn"
+"wad" "C:/AGR/fortress/MAPS/ak_wad5_w_my_brick.wad;C:/AGR/fortress/MAPS/QUAKE101.WAD;C:/AGR/fortress/MAPS/ak_2017.wad;C:/AGR/fortress/MAPS/omc_2019.wad;C:/AGR/fortress/MAPS/intermiss2.wad;C:/AGR/fortress/MAPS/prototype.wad"
+"_sunlight" "300"
+"message" "The Plane\/An Intermission map\nby OneManClan"
+}
+{
+"classname" "info_player_start"
+"origin" "16 -0 -0"
+"angle" "-0"
+}
+{
+"classname" "info_tfdetect"
+"origin" "368 -64 120"
+"angle" "-0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "306 -72 4"
+"angle" "-0"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "306 80 4"
+"angle" "-0"
+"team_no" "2"
+}
+{
+"classname" "info_intermission"
+"origin" "-32 236 24"
+"angle" "-25"
+}
+{
+"classname" "light_fluoro"
+"origin" "352 -0 32"
+"angle" "-0"
+"light" "50"
+"wait" "0.4"
+}
+{
+"classname" "light_fluoro"
+"origin" "852 64 48"
+"angle" "-0"
+"light" "100"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*1"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*2"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*3"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*4"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*5"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*6"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*7"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*8"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*9"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*10"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*11"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*12"
+}
+{
+"classname" "func_illusionary"
+"alpha" ".05"
+"model" "*13"
+}
+{
+"classname" "light_fluoro"
+"origin" "960 -8 32"
+"angle" "-0"
+"light" "150"
+}
+{
+"classname" "func_door"
+"wait" "15"
+"targetname" "hatch"
+"speed" "8.5"
+"sounds" "1"
+"dmg" "30"
+"model" "*14"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "600 -72 4"
+"angle" "-0"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "600 80 4"
+"angle" "-0"
+"team_no" "2"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "1000"
+"model" "*15"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"model" "*16"
+}
+{
+"classname" "light_fluorospark"
+"origin" "-102 -50 46"
+"target" "toilet"
+"wait" ".7"
+"light" "100"
+}
+{
+"classname" "info_null"
+"origin" "-138 -52 5"
+"targetname" "toilet"
+}
+{
+"classname" "light_fluoro"
+"origin" "-211 -36 48"
+"target" "basin"
+"wait" ".07"
+}
+{
+"classname" "info_null"
+"origin" "-207 -86 -38"
+"targetname" "basin"
+}
+{
+"classname" "light_fluoro"
+"origin" "-211 -8 48"
+"target" "loo"
+"wait" ".7"
+}
+{
+"classname" "info_null"
+"origin" "-217 82 -51"
+"targetname" "loo"
+}
+{
+"classname" "ambient_custom"
+"origin" "440 120 -136"
+"noise" "ambient/i_plane.wav"
+}
+{
+"classname" "info_player_start"
+"origin" "112 -0 -8"
+"angle" "-0"
+}
+{
+"style" "32"
+"classname" "light"
+"origin" "-42 82 18"
+"target" "hatch_doorway1"
+"light" "300"
+"targetname" "hatchlight1"
+"spawnflags" "1"
+"wait" "0.5"
+}
+{
+"classname" "info_null"
+"origin" "90 -52 -3"
+"targetname" "hatch_doorway1"
+}
+{
+"classname" "trigger_relay"
+"origin" "-40 24 -6"
+"targetname" "hatch"
+"target" "hatchlight1"
+"delay" "2"
+}
+{
+"classname" "trigger_relay"
+"origin" "-40 -0 -6"
+"targetname" "hatch"
+"target" "hatchlight1"
+"delay" "36"
+}
+{
+"classname" "trigger_relay"
+"origin" "-0 28 34"
+"targetname" "hatch"
+"target" "hatchlight2"
+"delay" "5"
+}
+{
+"classname" "trigger_relay"
+"origin" "-0 8 -30"
+"targetname" "hatch"
+"target" "hatchlight2"
+"delay" "33"
+}
+{
+"style" "33"
+"classname" "light"
+"origin" "-2 82 18"
+"target" "hatch_doorway2"
+"light" "300"
+"targetname" "hatchlight2"
+"spawnflags" "1"
+"wait" "0.5"
+}
+{
+"classname" "info_null"
+"origin" "14 -52 -3"
+"targetname" "hatch_doorway2"
+}
+{
+"classname" "trigger_relay"
+"origin" "44 4 -30"
+"targetname" "hatch"
+"target" "hatchlight3"
+"delay" "30"
+}
+{
+"style" "34"
+"classname" "light"
+"origin" "38 82 18"
+"target" "hatch_doorway3"
+"light" "300"
+"targetname" "hatchlight3"
+"spawnflags" "1"
+"wait" "0.6"
+}
+{
+"classname" "info_null"
+"origin" "-62 -52 -3"
+"targetname" "hatch_doorway3"
+}
+{
+"classname" "trigger_relay"
+"origin" "40 28 34"
+"targetname" "hatch"
+"target" "hatchlight3"
+"delay" "10"
+}
+{
+"classname" "func_button"
+"target" "hatch"
+"wait" "40"
+"message" "hatch opening"
+"sounds" "agr/red_beacon"
+"model" "*17"
+}
+{
+"classname" "light_fluoro"
+"origin" "852 -64 48"
+"angle" "-0"
+"light" "100"
+}
+{
+"classname" "light_fluoro"
+"origin" "576 64 48"
+"angle" "-0"
+"light" "100"
+}
+{
+"classname" "light_fluoro"
+"origin" "576 -64 48"
+"angle" "-0"
+"light" "100"
+}
+{
+"classname" "light_fluoro"
+"origin" "532 64 48"
+"angle" "-0"
+"light" "100"
+}
+{
+"classname" "light_fluoro"
+"origin" "532 -64 48"
+"angle" "-0"
+"light" "100"
+}
+{
+"style" "34"
+"classname" "light"
+"origin" "174 -6 18"
+"light" "200"
+"targetname" "hatchlight3"
+"spawnflags" "1"
+"wait" "0.7"
+}
+{
+"classname" "light_fluoro"
+"origin" "1004 52 -40"
+"angle" "-0"
+"light" "50"
+"target" "panel1"
+}
+{
+"classname" "light_fluoro"
+"origin" "1012 -52 -36"
+"angle" "-0"
+"light" "50"
+"target" "panel2"
+}
+{
+"classname" "info_null"
+"origin" "1028 52 -40"
+"targetname" "panel1"
+}
+{
+"classname" "info_null"
+"origin" "1032 -52 -36"
+"targetname" "panel2"
+}
+{
+"classname" "trigger_relay"
+"origin" "40 76 50"
+"targetname" "hatch"
+"target" "beacon"
+"delay" "0"
+"sounds" "agr/red_beacon"
+}
+{
+"classname" "trigger_relay"
+"origin" "72 76 50"
+"targetname" "hatch"
+"target" "beacon"
+"delay" "40"
+"sounds" "agr/red_beacon"
+}
+{
+"style" "35"
+"classname" "light"
+"origin" "-0 84 48"
+"_color" "255 0 0"
+"spawnflags" "1"
+"targetname" "beacon"
+}
+{
+"classname" "func_wall"
+"targetname" "beacon"
+"spawnflags" "1"
+"model" "*18"
+}

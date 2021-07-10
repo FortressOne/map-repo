@@ -1,0 +1,327 @@
+{
+"classname" "worldspawn"
+"wad" "C:\qoole\work\fortress.wad"
+"message" "Fortress\nby Mikey[SwCy]\nand Commander Michl"
+}
+{
+"classname" "info_tfdetect"
+"broadcast" "TeamFortress v2.7"
+"impulse" "0"
+"ammo_shells" "0"
+"ammo_nails" "0"
+"ammo_rockets" "0"
+"ammo_cells" "0"
+"playerclass" "0"
+"origin" "0 0 0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "64 1088 170"
+"team_no" "2"
+"goal_activation" "0"
+"angle" "225"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-64 1088 170"
+"team_no" "2"
+"goal_activation" "0"
+"angle" "315"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "64 -1056 170"
+"team_no" "1"
+"goal_activation" "0"
+"angle" "135"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-64 -1056 170"
+"team_no" "1"
+"goal_activation" "0"
+"angle" "45"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -944 384"
+"angle" "90"
+}
+{
+"classname" "func_door"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"dmg" "2"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"dmg" "2"
+"team_no" "1"
+"model" "*2"
+}
+{
+"classname" "func_door"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"dmg" "2"
+"team_no" "2"
+"model" "*3"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "64 -336 48"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-64 -336 48"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-32 16 144"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "32 16 144"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "64 368 48"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-64 368 48"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -848 208"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -1104 464"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -848 464"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "352 -848 208"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -848 48"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "352 -672 48"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "352 -560 80"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-352 -848 208"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-352 -672 48"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-352 -560 80"
+"light" "300"
+}
+{
+"classname" "func_door"
+"speed" "100"
+"sounds" "1"
+"wait" "3"
+"lip" "8"
+"dmg" "2"
+"model" "*4"
+}
+{
+"classname" "light"
+"origin" "0 1136 448"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 880 448"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-352 880 192"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 880 32"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-352 704 32"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-352 592 64"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "352 880 192"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "352 704 32"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "352 592 64"
+"light" "300"
+}
+{
+"classname" "item_tfgoal"
+"netname" "Blue Flag"
+"goal_activation" "693"
+"goal_no" "50"
+"owned_by" "1"
+"mdl" "progs/tf_flag.mdl"
+"team_no" "2"
+"goal_effects" "17"
+"items" "131072"
+"goal_result" "16"
+"pausetime" "60"
+"netname_non_team_drop" " dropped the Blue Flag.\n"
+"noise4" "The Blue Flag has returned\n"
+"message" "You have the Blue Flag\n"
+"netname_broadcast" " has taken the Blue Flag\n"
+"origin" "0 -784 416"
+"skin" "1"
+"angle" "270"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Blue Flag Capture"
+"owned_by" "1"
+"goal_activation" "1"
+"team_no" "2"
+"items_allowed" "50"
+"maxammo_shells" "2"
+"goal_effects" "16"
+"count" "15"
+"axhitme" "50"
+"message" "You captured the Blue Flag!\n"
+"netname_broadcast" " captured the Blue Flag!\n"
+"origin" "0 816 416"
+"frags" "15"
+}
+{
+"classname" "item_tfgoal"
+"netname" "Blue Flag"
+"goal_activation" "693"
+"goal_no" "70"
+"owned_by" "2"
+"mdl" "progs/tf_flag.mdl"
+"team_no" "1"
+"goal_effects" "17"
+"items" "131072"
+"goal_result" "16"
+"pausetime" "60"
+"netname_non_team_drop" " dropped the Blue Flag.\n"
+"noise4" "The Red Flag has returned.\n"
+"message" "You have the Red Flag\n"
+"netname_broadcast" " has taken the Red Flag\n"
+"origin" "0 816 416"
+"skin" "2"
+"angle" "270"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Red Flag Capture"
+"owned_by" "1"
+"goal_activation" "1"
+"team_no" "1"
+"items_allowed" "70"
+"maxammo_shells" "1"
+"goal_effects" "16"
+"count" "15"
+"axhitme" "70"
+"message" "You captured the Red Flag!\n"
+"netname_broadcast" " captured the Red Flag!\n"
+"origin" "0 -784 416"
+"frags" "15"
+}
+{
+"classname" "info_tfgoal"
+"origin" "0 1040 170"
+"mdl" "progs/backpack.mdl"
+"ammo_medikit" "100"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "200"
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"goal_activation" "1"
+"goal_effects" "17"
+"wait" "2"
+}
+{
+"classname" "info_tfgoal"
+"origin" "0 -1008 170"
+"mdl" "progs/backpack.mdl"
+"ammo_medikit" "100"
+"health" "100"
+"armorvalue" "300"
+"armortype" "0.8"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "200"
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"goal_activation" "1"
+"goal_effects" "17"
+"wait" "2"
+}
+{
+"classname" "light"
+"origin" "0 1088 208"
+"light" "300"
+}

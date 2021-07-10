@@ -1,0 +1,178 @@
+{
+"spawnflags" "0"
+"classname" "worldspawn"
+"wad" "C:/AGR/DEV STUFF/wads/ak_wad3.wad;C:/AGR/DEV STUFF/wads/QUAKE101.WAD;C:/AGR/DEV STUFF/wads/omc.wad;C:/AGR/DEV STUFF/wads/texturez-defullbright.wad;C:/AGR/DEV STUFF/wads/intermiss2.wad;C:/AGR/DEV STUFF/wads/omc_2018.wad;C:/AGR/fortress/MAPS/prototype.wad"
+"_def" ""
+}
+{
+"spawnflags" "0"
+"classname" "info_tfdetect"
+"impulse" "64"
+"hook_out" "1"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"n_s_h" "Enemy flag: base."
+"n_s_m" "Enemy flag: down."
+"n_s_c" "Enemy flag: carried by"
+"t_s_h" "Your flag: base."
+"t_s_m" "Your flag: down."
+"t_s_c" "Your flag: carried by"
+"origin" "112 16 -160"
+"angle" "-0"
+}
+{
+"spawnflags" "0"
+"classname" "info_player_teamspawn"
+"origin" "-480 -248 -78"
+"angle" "46"
+"team_no" "1"
+}
+{
+"spawnflags" "0"
+"classname" "info_player_teamspawn"
+"origin" "-288 -336 -32"
+"angle" "268"
+"team_no" "2"
+}
+{
+"spawnflags" "0"
+"classname" "item_tfgoal"
+"origin" "-624 -416 -136"
+"angle" "-0"
+"items" "131072"
+"team_no" "2"
+"netname" "BlueFlag"
+"message" "You got the Blue Flag\nReturn it to your Keep quickly!\n"
+"mdl" "progs/tf_flag.mdl"
+"noise" "misc/medkey.wav"
+"goal_no" "2"
+"pausetime" "60"
+"goal_activation" "693"
+"delay" "60"
+"noise3" "Your flag was returned\nto the Keep!\n"
+"noise4" "The Blue Flag has been\nreturned to base!\n"
+"team_broadcast" "Your team has\nthe blue flag!\n"
+"non_team_broadcast" "The blue flag has\nbeen taken!\n"
+"owners_team_broadcast" "Your flag has been taken!\n"
+"skin" "1"
+"owned_by" "1"
+}
+{
+"spawnflags" "0"
+"classname" "info_tfgoal"
+"origin" "-684 120 -152"
+"angle" "-0"
+"team_no" "2"
+"netname" "RedGoal"
+"message" "Excellent!\nCapture it again!\n"
+"noise" "misc/medkey.wav"
+"broadcast" "Red has captured\nthe Blue flag!"
+"goal_activation" "1"
+"goal_result" "2"
+"items_allowed" "2"
+"axhitme" "2"
+"team_broadcast" "Your team captured\nthe Red Flag!\n"
+"goal_state" "2"
+"goal_effects" "3"
+"frags" "10"
+"count" "10"
+}
+{
+"spawnflags" "0"
+"classname" "info_player_start"
+"origin" "647 -174 229"
+"angle" "180"
+}
+{
+"spawnflags" "0"
+"classname" "func_wall"
+"model" "*1"
+}
+{
+"spawnflags" "0"
+"classname" "func_wall"
+"angle" "180"
+"model" "*2"
+}
+{
+"classname" "func_camera"
+"origin" "-274 -636 -148"
+"angle" "90"
+"skin" "1"
+}
+{
+"classname" "func_camera"
+"origin" "-422 -572 -148"
+"angle" "-0"
+"skin" "2"
+}
+{
+"spawnflags" "0"
+"classname" "func_wall"
+"model" "*3"
+}
+{
+"classname" "monster_ogre"
+"origin" "-192 16 -136"
+"angle" "-0"
+}
+{
+"classname" "func_plat"
+"height" "448"
+"sounds" "3"
+"speed" "20"
+"model" "*4"
+}
+{
+"classname" "light"
+"origin" "-304 80 360"
+"angle" "-0"
+"light" "1200"
+}
+{
+"classname" "func_door"
+"health" "1"
+"lip" "-8"
+"model" "*5"
+}
+{
+"classname" "info_player_coop"
+"origin" "-670 -208 -240"
+"angle" "-0"
+}
+{
+"classname" "func_wall"
+"origin" "-274 -650 -150"
+"angle" "90"
+"model" "*6"
+}
+{
+"classname" "info_null"
+"origin" "8 -456 -184"
+"targetname" "point1"
+}
+{
+"classname" "func_wall"
+"origin" "-351 -650 -150"
+"angle" "90"
+"model" "*7"
+}
+{
+"classname" "func_button"
+"target" "pool"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "20"
+"targetname" "pool"
+"skin" "-3"
+"_mirrorinside" "1"
+"model" "*9"
+}
+{
+"classname" "func_tv_room"
+"origin" "-472 -632 -184"
+"model" "*10"
+}

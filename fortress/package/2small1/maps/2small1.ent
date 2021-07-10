@@ -1,0 +1,308 @@
+{
+"wad" "TEXTURES.wad;c:\quake\fortress\maps\2fort5.wad;c:\quake\fortress\maps\rock1.wad;c:\progra"
+"worldtype" "1"
+"message" "\náàààààààààâ\nê‘ííåSmALl°ë\nby ê‘«ëEdge\náàààààààààâ\n\n"
+"classname" "worldspawn"
+}
+{
+"origin" "448 -128 -208"
+"angle" "180"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"dmg" "0"
+"lip" "-312"
+"wait" "2"
+"sounds" "2"
+"speed" "200"
+"targetname" "red_lift"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"delay" "0"
+"style" "32"
+"target" "red_lift"
+"wait" "3"
+"sounds" "0"
+"classname" "trigger_multiple"
+}
+{
+"model" "*3"
+"delay" "0"
+"style" "32"
+"target" "blue_lift"
+"wait" "3"
+"sounds" "0"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"health" "0"
+"dmg" "0"
+"lip" "-312"
+"wait" "2"
+"sounds" "2"
+"speed" "200"
+"targetname" "blue_lift"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "64 -128 -272"
+"ammo_detpack" "4"
+"ammo_medikit" "4"
+"maxammo_nails" "129"
+"maxammo_shells" "129"
+"team_broadcast" "ê‘ííåSMALL°ë\n\nCHííóEåŸ¡åTEAM°\n\nêìåBLUE!ë\nêîå“≈ƒ °ë\n"
+"non_team_broadcast" "Get a team member to the enemy platform.\n3 points for every second they occupy it.\n"
+"impulse" "4"
+"hook_out" "1"
+"classname" "info_tfdetect"
+}
+{
+"origin" "-576 -128 -32"
+"goal_effects" "3"
+"frags" "3"
+"goal_result" "16"
+"wait" "1"
+"team_no" "2"
+"goal_activation" "1"
+"netname" "blue goal"
+"noise" "misc/activ.wav"
+"increase_team2" "3"
+"owned_by" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "704 -128 -32"
+"frags" "3"
+"goal_result" "16"
+"goal_effects" "3"
+"wait" "1"
+"team_no" "1"
+"goal_activation" "1"
+"increase_team1" "3"
+"noise" "misc/activ.wav"
+"owned_by" "2"
+"netname" "red goal"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-416 -416 -16"
+"team_no" "1"
+"netname" "blue spawn point"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-416 -368 -16"
+"team_no" "1"
+"netname" "blue spawn point"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-416 160 -16"
+"team_no" "1"
+"netname" "blue spawn point"
+"angle" "-1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-416 112 -16"
+"team_no" "1"
+"netname" "blue spawn point"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "544 160 -16"
+"team_no" "2"
+"netname" "red spawn point"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "544 112 -16"
+"team_no" "2"
+"netname" "red spawn point"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "544 -416 -16"
+"team_no" "2"
+"netname" "red spawn point"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "544 -368 -16"
+"team_no" "2"
+"netname" "red spawn point"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "208 -128 0"
+"classname" "light"
+}
+{
+"origin" "144 80 0"
+"classname" "light"
+}
+{
+"origin" "144 -336 0"
+"classname" "light"
+}
+{
+"origin" "432 -256 -224"
+"classname" "light"
+}
+{
+"origin" "432 0 -224"
+"classname" "light"
+}
+{
+"origin" "704 -128 -16"
+"classname" "light"
+}
+{
+"origin" "-80 -128 0"
+"classname" "light"
+}
+{
+"origin" "-16 80 0"
+"classname" "light"
+}
+{
+"origin" "-16 -336 0"
+"classname" "light"
+}
+{
+"origin" "-304 -256 -224"
+"classname" "light"
+}
+{
+"origin" "-304 0 -224"
+"classname" "light"
+}
+{
+"origin" "8 -320 -384"
+"classname" "light"
+}
+{
+"origin" "120 -320 -384"
+"classname" "light"
+}
+{
+"origin" "120 64 -384"
+"classname" "light"
+}
+{
+"origin" "8 64 -384"
+"classname" "light"
+}
+{
+"origin" "-56 -128 -216"
+"classname" "light"
+}
+{
+"origin" "64 -128 -216"
+"classname" "light"
+}
+{
+"origin" "184 -128 -216"
+"classname" "light"
+}
+{
+"origin" "-576 -128 -16"
+"classname" "light"
+}
+{
+"origin" "544 -320 -16"
+"no_grenades_1" "2"
+"ammo_medikit" "10"
+"ammo_cells" "50"
+"ammo_rockets" "10"
+"ammo_nails" "25"
+"ammo_shells" "10"
+"health" "25"
+"armorvalue" "50"
+"armortype" "0.8"
+"message" "Loading up!\n"
+"goal_effects" "1"
+"wait" "2"
+"team_no" "2"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"owned_by" "2"
+"netname" "red pack"
+"classname" "info_tfgoal"
+}
+{
+"origin" "544 64 -16"
+"no_grenades_1" "2"
+"ammo_medikit" "10"
+"ammo_cells" "50"
+"ammo_rockets" "10"
+"ammo_nails" "25"
+"ammo_shells" "10"
+"health" "25"
+"armorvalue" "50"
+"armortype" "0.8"
+"message" "Loading up!\n"
+"goal_effects" "1"
+"wait" "2"
+"team_no" "2"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"owned_by" "2"
+"netname" "red pack"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-416 64 -16"
+"message" "Loading up!\n"
+"no_grenades_1" "2"
+"ammo_medikit" "10"
+"ammo_cells" "50"
+"ammo_rockets" "10"
+"ammo_nails" "25"
+"ammo_shells" "10"
+"health" "25"
+"armorvalue" "50"
+"armortype" "0.8"
+"goal_effects" "1"
+"wait" "2"
+"team_no" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"owned_by" "1"
+"netname" "blue pack"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-416 -320 -16"
+"message" "Loading up!\n"
+"no_grenades_1" "2"
+"ammo_medikit" "10"
+"ammo_cells" "50"
+"ammo_rockets" "10"
+"ammo_nails" "25"
+"ammo_shells" "10"
+"health" "25"
+"armorvalue" "50"
+"armortype" "0.8"
+"goal_effects" "1"
+"team_no" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"owned_by" "1"
+"wait" "2"
+"netname" "blue pack"
+"classname" "info_tfgoal"
+}

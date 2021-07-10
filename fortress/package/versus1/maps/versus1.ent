@@ -1,0 +1,188 @@
+{
+"classname" "worldspawn"
+"light" "0"
+"worldtype" "0"
+"sounds" "1"
+"message" "œöåòsus\nãõôthroat"
+"wad" "D:\Quake\Qoole\work\#backup#.wad"
+}
+{
+"classname" "info_player_start"
+"origin" "448 0 -64"
+"angle" "135"
+}
+{
+"classname" "light"
+"origin" "0 -256 0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "256 0 0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "0 256 0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-256 0 0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "0 -768 0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "384 -640 0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "640 -384 0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "768 0 0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "640 384 0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "384 640 0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "0 768 0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-320 640 0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-640 384 0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-768 0 0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-640 -384 0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-384 -640 0"
+"light" "500"
+}
+{
+"classname" "info_tfdetect"
+"origin" "0 0 960"
+"ammo_detpack" "1"
+"noise2" "œöåòsus\nœchoose your classœ\n\n•‘ óïìäier\n–‘ äåíïman\n"
+"ammo_medikit" "1"
+"noise1" "œöåòsus\nœchoose your classœ\n\n•‘ óïìäier\n–‘ äåíïman\n"
+"maxammo_nails" "1011"
+"b_b" "TeamFortress v2.9"
+"playerclass" "1011"
+"b_t" "œöåòsus\nœchoose a teamœ\n\n“‘ bloo  \n”‘ òåä   \n\n—‘ òáîdom\n"
+"hook_out" "1"
+"maxammo_shells" "1011"
+"impulse" "4"
+}
+{
+"classname" "i_p_t"
+"origin" "0 -672 -96"
+"team_no" "1"
+"netname" "spawn1"
+"angle" "90"
+}
+{
+"classname" "i_p_t"
+"origin" "0 672 -96"
+"team_no" "2"
+"netname" "spawn2"
+"angle" "270"
+}
+{
+"classname" "i_t_g"
+"origin" "0 -576 -128"
+"ammo_rockets" "40"
+"mdl" "progs/backpack.mdl"
+"health" "100"
+"armorvalue" "200"
+"g_e" "1"
+"wait" "3"
+"no_grenades_2" "-5"
+"no_grenades_1" "5"
+"noise" "can1.wav"
+"target" "grens"
+"ammo_shells" "90"
+"g_a" "1"
+}
+{
+"classname" "i_t_g"
+"origin" "0 576 -128"
+"ammo_rockets" "40"
+"mdl" "progs/backpack.mdl"
+"health" "100"
+"armorvalue" "200"
+"g_e" "1"
+"wait" "3"
+"no_grenades_2" "-5"
+"no_grenades_1" "5"
+"noise" "can1.wav"
+"target" "grens"
+"ammo_shells" "90"
+"g_a" "1"
+}
+{
+"classname" "i_t_g"
+"origin" "0 0 928"
+"targetname" "grens"
+"no_grenades_2" "0"
+"no_grenades_1" "5"
+}
+{
+"classname" "i_t_g"
+"origin" "0 -640 896"
+"targetname" "death"
+"health" "-100"
+"deathtype" " fell to his death.\n"
+"g_e" "1"
+}
+{
+"classname" "trigger_multiple"
+"team_no" "0"
+"delay" "0"
+"style" "32"
+"playerclass" "0"
+"wait" "0"
+"sounds" "4"
+"target" "death"
+"model" "*1"
+}
+{
+"classname" "i_t_g"
+"origin" "0 0 864"
+"targetname" "death"
+"frags" "1"
+"g_e" "4"
+"netname" "fell"
+}

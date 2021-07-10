@@ -1,0 +1,693 @@
+{
+"classname" "worldspawn"
+"message" "*** Fooz Ball 2 ***"
+"worldtype" "2"
+"sounds" "2"
+"light" "200"
+"wad" "c:\worldcraft\quake.wad"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Red Goal"
+"broadcast" "Goal!!\n"
+"noise" "flagcap.wav"
+"targetname" "red goal"
+"goal_no" "2"
+"goal_activation" "1"
+"goal_effects" "2"
+"items_allowed" "1"
+"team_no" "2"
+"wait" "5"
+"axhitme" "1"
+"height" "200"
+"delay" "1"
+"owned_by" "2"
+"frags" "3"
+"increase_team2" "3"
+"activate_goal_no" "4"
+"increase_team4" "1"
+"origin" "0 1144 40"
+}
+{
+"classname" "info_tfdetect"
+"broadcast" "TeamFortress v2.6"
+"impulse" "128"
+"hook_out" "1"
+"non_team_broadcast" "Get the ball, and run to your goal!\n"
+"team_broadcast" "-==PICK A TEAM==-\n1. BLUE\n2. RED\n3. BLUE FANS\n4. RED FANS\n"
+"maxammo_rockets" "767"
+"maxammo_cells" "767"
+"maxammo_medikit" "6"
+"maxammo_detpack" "6"
+"maxammo_shells" "384"
+"maxammo_nails" "384"
+"noise3" "Choose your class:\n8. Blue Spy\n"
+"noise4" "Choose your class:\n8: Red Spy\n"
+"noise1" "Choose your class:\n1. Scout\n2. Sniper\n3. Soldier\n4. Demoman\n5. Medic\n6. Heavy\n7. Pyro\n9. Engineer\n"
+"noise2" "Choose your class:\n1. Scout\n2. Sniper\n3. Soldier\n4. Demoman\n5. Medic\n6. Heavy\n7. Pyro\n9. Engineer\n"
+"origin" "0 0 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "-384 -1216 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "384 -1216 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "0 -1216 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "-384 -832 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "384 -832 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "0 -832 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "-384 -448 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "384 -448 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "0 -448 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "-384 0 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "384 0 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "0 0 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "-384 448 256"
+}
+{
+"classname" "item_tfgoal"
+"netname" "Ball"
+"noise" "misc/flagtk.wav"
+"mdl" "progs/ball2.mdl"
+"goal_no" "1"
+"goal_activation" "759"
+"goal_effects" "1"
+"wait" "5"
+"height" "200"
+"pausetime" "5"
+"light" "100"
+"non_team_drop" "The ball has been dropped!\n"
+"noise4" "The ball is back!\n"
+"netname_broadcast" " has the ball!!\n"
+"goal_result" "16"
+"playerclass" "8"
+"origin" "0 0 64"
+}
+{
+"classname" "info_player_start"
+"angle" "180"
+"origin" "512 0 29"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "384 448 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "0 448 256"
+}
+{
+"classname" "info_intermission"
+"mangle" "0 0 0"
+"origin" "0 0 128"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-512 0 29"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "0 1216 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "384 1216 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "-384 1216 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "0 832 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "384 832 256"
+}
+{
+"classname" "light"
+"light" "800"
+"style" "0"
+"origin" "-384 832 256"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Blue Goal"
+"broadcast" "Goal!!\n"
+"noise" "flagcap.wav"
+"targetname" "blue goal"
+"goal_no" "1"
+"goal_activation" "1"
+"goal_effects" "2"
+"items_allowed" "1"
+"team_no" "1"
+"wait" "5"
+"axhitme" "1"
+"height" "200"
+"delay" "1"
+"owned_by" "1"
+"increase_team1" "3"
+"frags" "3"
+"activate_goal_no" "3"
+"increase_team3" "1"
+"origin" "0 -1152 40"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"netname" "Yellow- Blue Fans"
+"team_no" "3"
+"message" "You are cheering for Blue.\nDon't kill them!\n"
+"origin" "256 0 416"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "204"
+"netname" "Yellow- Blue Fans"
+"team_no" "3"
+"goal_activation" "2"
+"message" "You are cheering for Blue.\nDon't kill them!\n"
+"origin" "256 64 416"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "156"
+"netname" "Yellow- Blue Fans"
+"team_no" "3"
+"message" "You are cheering for Blue.\nDon't kill them!\n"
+"origin" "256 -64 416"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Green Pennant"
+"team_no" "4"
+"goal_effects" "1"
+"goal_result" "8"
+"goal_activation" "1"
+"skin" "4"
+"mdl" "progs/tf_flag.mdl"
+"super_damage_finished" "30"
+"armortype" "0.6"
+"armorvalue" "100"
+"message" "Root for Red!\nDon't kill them!\n"
+"origin" "-104 0 416"
+}
+{
+"classname" "info_tfgoal"
+"angle" "180"
+"netname" "Yellow Pennant"
+"team_no" "3"
+"goal_effects" "1"
+"goal_activation" "1"
+"skin" "3"
+"mdl" "progs/tf_flag.mdl"
+"super_damage_finished" "30"
+"message" "Root for Blue!\nDon't kill them!\n"
+"armortype" "0.6"
+"armorvalue" "100"
+"origin" "104 0 416"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "936 0 64"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Blue Supply"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"health" "100"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "100"
+"ammo_cells" "200"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"wait" "2"
+"height" "200"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"origin" "1376 0 40"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "968 0 64"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "1200 -176 16"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "1360 -176 80"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "1200 176 80"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "1552 176 80"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "1552 -176 64"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Red Supply"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"health" "100"
+"ammo_shells" "100"
+"ammo_nails" "100"
+"ammo_rockets" "100"
+"ammo_cells" "200"
+"ammo_medikit" "10"
+"no_grenades_1" "4"
+"wait" "2"
+"height" "200"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"origin" "-1376 0 40"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "-936 0 64"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "-968 0 64"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "-1200 -176 16"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "-1360 -176 80"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "-1200 176 80"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "-1552 176 80"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "-1552 -176 64"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"netname" "Red Fan Teleport"
+"target" "redfantarget"
+"team_no" "4"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"netname" "Red Blue Teleport"
+"target" "redbluetarget"
+"team_no" "1"
+"model" "*2"
+}
+{
+"classname" "info_teleport_destination"
+"netname" "Red Blue Target"
+"targetname" "redbluetarget"
+"origin" "-512 0 28"
+}
+{
+"classname" "info_teleport_destination"
+"netname" "Red Fan Target"
+"targetname" "redfantarget"
+"origin" "-768 0 192"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Red Gren"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_detpack" "-1"
+"no_grenades_2" "-4"
+"origin" "-1120 24 48"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Blue Gren"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_detpack" "-1"
+"no_grenades_2" "-4"
+"origin" "1120 24 48"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"netname" "Blue Fan Teleport"
+"target" "bluefantarget"
+"team_no" "3"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"netname" "Blue Red Teleport"
+"target" "blueredtarget"
+"team_no" "2"
+"model" "*4"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "180"
+"netname" "Blue Fan Target"
+"targetname" "bluefantarget"
+"origin" "768 0 192"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "180"
+"netname" "Blue Red Target"
+"targetname" "blueredtarget"
+"origin" "512 0 28"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "Green - Red Fans"
+"team_no" "4"
+"message" "You are cheering for Red.\nDon't kill them!\n"
+"origin" "-256 0 416"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "336"
+"netname" "Green - Red Fans"
+"team_no" "4"
+"goal_activation" "2"
+"message" "You are cheering for Red.\nDon't kill them!\n"
+"origin" "-256 64 416"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "24"
+"netname" "Green - Red Fans"
+"team_no" "4"
+"goal_activation" "2"
+"message" "You are cheering for Red.\nDon't kill them!\n"
+"origin" "-256 -64 416"
+}
+{
+"classname" "trigger_teleport"
+"target" "redfantarget"
+"netname" "Red Fan Teleport"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluefantarget"
+"netname" "Blue Fan Teleport"
+"model" "*6"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Blue Goal Yellow"
+"goal_no" "3"
+"owned_by" "3"
+"maxammo_shells" "3"
+"frags" "1"
+"origin" "0 -1152 40"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Red Goal Green"
+"goal_no" "4"
+"maxammo_shells" "4"
+"frags" "1"
+"origin" "0 1144 40"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Blue Gren"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_detpack" "-1"
+"no_grenades_2" "-4"
+"origin" "1120 -24 48"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Red Gren"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_detpack" "-1"
+"no_grenades_2" "-4"
+"origin" "-1120 -24 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "1"
+"netname" "Blue Spawn"
+"origin" "1216 160 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "1"
+"netname" "Blue Spawn"
+"origin" "1280 160 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "1"
+"netname" "Blue Spawn"
+"origin" "1344 160 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "1"
+"netname" "Blue Spawn"
+"origin" "1408 160 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "1"
+"netname" "Blue Spawn"
+"origin" "1536 160 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "1"
+"netname" "Blue Spawn"
+"origin" "1472 160 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "2"
+"netname" "Red Spawn"
+"origin" "-1536 160 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "2"
+"netname" "Red Spawn"
+"origin" "-1472 160 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "2"
+"netname" "Red Spawn"
+"origin" "-1408 160 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "2"
+"netname" "Red Spawn"
+"origin" "-1344 160 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "2"
+"netname" "Red Spawn"
+"origin" "-1216 160 32"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "2"
+"netname" "Red Spawn"
+"origin" "-1280 160 32"
+}
+{
+"classname" "item_health"
+"spawnflags" "2"
+"netname" "Yellow Mega"
+"origin" "160 0 384"
+}
+{
+"classname" "item_health"
+"spawnflags" "2"
+"netname" "Green Mega"
+"origin" "-160 0 384"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Blue Flag Prevent"
+"goal_activation" "1"
+"goal_effects" "1"
+"items_allowed" "1"
+"health" "-250"
+"deathtype" " tried to hide with the ball!\n"
+"origin" "608 -24 48"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Red Flag Prevent"
+"goal_activation" "1"
+"goal_effects" "1"
+"items_allowed" "1"
+"health" "-250"
+"deathtype" " tried to hide with the ball!\n"
+"origin" "-608 24 48"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Red Flag Prevent"
+"goal_activation" "1"
+"goal_effects" "1"
+"items_allowed" "1"
+"health" "-250"
+"deathtype" " tried to hide with the ball!\n"
+"origin" "-608 -24 48"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Blue Flag Prevent"
+"items_allowed" "1"
+"goal_effects" "1"
+"health" "-250"
+"deathtype" " tried to hide with the ball!\n"
+"goal_activation" "1"
+"origin" "608 -24 48"
+}

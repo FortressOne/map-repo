@@ -1,0 +1,332 @@
+{
+"r_skyname" "night"
+"message" "A 21-Detpack Salute\n In Memory of Det-Master\n\nDesigned by Aftershock\nUpdated by Jahandar\n"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"classname" "info_player_start"
+"origin" "480 1024 144"
+"angle" "181"
+}
+{
+"model" "*1"
+"classname" "trigger_multiple"
+"style" "32"
+"delay" "2"
+"health" "1"
+}
+{
+"target" "tele1"
+"model" "*2"
+"classname" "trigger_teleport"
+}
+{
+"target" "tele2"
+"model" "*3"
+"classname" "trigger_teleport"
+}
+{
+"target" "tele3"
+"model" "*4"
+"classname" "trigger_teleport"
+}
+{
+"target" "tele4"
+"model" "*5"
+"classname" "trigger_teleport"
+}
+{
+"impulse" "64"
+"classname" "info_tfdetect"
+"origin" "672 -928 -480"
+"maxammo_shells" "1015"
+"noise1" "Press 4."
+}
+{
+"classname" "i_p_t"
+"origin" "256 -768 -128"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "352 -768 -128"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "160 -768 -128"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "448 -768 -128"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "64 -768 -128"
+"team_no" "1"
+}
+{
+"g_a" "28"
+"classname" "item_tfgoal"
+"origin" "240 -240 -100"
+"frame" "70"
+"team_no" "2"
+"skin" "4"
+"mdl" "progs/detmstr.mdl"
+"angle" "90"
+}
+{
+"g_a" "1"
+"message" "The first detpack goes here."
+"classname" "i_t_g"
+"origin" "240 144 -144"
+"wait" "5"
+"g_e" "1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "0 -240 304"
+"targetname" "tele1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "240 -16 304"
+"targetname" "tele4"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "496 -240 320"
+"targetname" "tele2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "240 -464 304"
+"targetname" "tele3"
+}
+{
+"classname" "light"
+"origin" "240 -240 160"
+"style" "0"
+"light" "650"
+}
+{
+"classname" "light"
+"origin" "368 1024 208"
+"style" "0"
+"light" "700"
+}
+{
+"g_a" "1"
+"ammo_shells" "-100"
+"netname" "TakeAmmo"
+"classname" "i_t_g"
+"origin" "256 -768 -128"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"wait" "1"
+"g_e" "1"
+"ammo_medikit" "-200"
+"ammo_nails" "-200"
+"armorvalue" "-200"
+"ammo_cells" "-200"
+"ammo_rockets" "-50"
+"ammo_detpack" "1"
+}
+{
+"g_a" "1"
+"ammo_shells" "-100"
+"netname" "TakeAmmo"
+"classname" "i_t_g"
+"origin" "352 -768 -128"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"wait" "1"
+"g_e" "1"
+"ammo_medikit" "-200"
+"ammo_nails" "-200"
+"armorvalue" "-200"
+"ammo_cells" "-200"
+"ammo_rockets" "-50"
+"ammo_detpack" "1"
+}
+{
+"g_a" "1"
+"ammo_shells" "-100"
+"netname" "TakeAmmo"
+"classname" "i_t_g"
+"origin" "160 -768 -128"
+"no_grenades_1" "-5"
+"no_grenades_2" "-5"
+"wait" "1"
+"g_e" "1"
+"ammo_medikit" "-200"
+"ammo_nails" "-200"
+"armorvalue" "-200"
+"ammo_cells" "-200"
+"ammo_rockets" "-50"
+"ammo_detpack" "1"
+}
+{
+"g_a" "1"
+"ammo_shells" "-100"
+"netname" "TakeAmmo"
+"classname" "i_t_g"
+"no_grenades_1" "-5"
+"origin" "448 -768 -128"
+"wait" "1"
+"no_grenades_2" "-5"
+"g_e" "1"
+"ammo_nails" "-200"
+"ammo_medikit" "-200"
+"armorvalue" "-200"
+"ammo_cells" "-200"
+"ammo_detpack" "1"
+"ammo_rockets" "-50"
+}
+{
+"g_a" "1"
+"ammo_shells" "-100"
+"netname" "TakeAmmo"
+"classname" "i_t_g"
+"no_grenades_1" "-5"
+"origin" "64 -768 -128"
+"wait" "1"
+"no_grenades_2" "-5"
+"g_e" "1"
+"ammo_nails" "-200"
+"ammo_medikit" "-200"
+"armorvalue" "-200"
+"ammo_cells" "-200"
+"ammo_detpack" "1"
+"ammo_rockets" "-50"
+}
+{
+"classname" "light"
+"origin" "883 -236 -160"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "240 -852 -160"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-409 -225 -160"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "262 421 -160"
+"style" "0"
+"light" "300"
+}
+{
+"g_a" "1"
+"ammo_shells" "250"
+"message" "Resupplying\n"
+"netname" "Blue Resupply 1"
+"classname" "i_t_g"
+"origin" "110 132 -152"
+"no_grenades_1" "4"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"wait" "5"
+"no_grenades_2" "4"
+"g_e" "1"
+"ammo_medikit" "250"
+"ammo_nails" "250"
+"armorvalue" "200"
+"team_no" "1"
+"health" "100"
+"invincible_finished" "3"
+"ammo_cells" "250"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "250"
+}
+{
+"g_a" "28"
+"classname" "item_tfgoal"
+"origin" "242 -301 -120"
+"frame" "70"
+"team_no" "2"
+"skin" "0"
+"angle" "90"
+"mdl" "progs/candle.mdl"
+}
+{
+"g_a" "28"
+"classname" "item_tfgoal"
+"origin" "201 -285 -120"
+"frame" "70"
+"team_no" "2"
+"skin" "0"
+"mdl" "progs/candle.mdl"
+"angle" "90"
+}
+{
+"g_a" "28"
+"classname" "item_tfgoal"
+"origin" "169 -239 -120"
+"frame" "70"
+"team_no" "2"
+"skin" "0"
+"mdl" "progs/candle.mdl"
+"angle" "90"
+}
+{
+"g_a" "28"
+"classname" "item_tfgoal"
+"origin" "190 -196 -120"
+"frame" "70"
+"team_no" "2"
+"skin" "0"
+"mdl" "progs/candle.mdl"
+"angle" "90"
+}
+{
+"g_a" "28"
+"classname" "item_tfgoal"
+"origin" "228 -168 -120"
+"frame" "70"
+"team_no" "2"
+"skin" "0"
+"mdl" "progs/candle.mdl"
+"angle" "90"
+}
+{
+"g_a" "28"
+"classname" "item_tfgoal"
+"origin" "290 -201 -120"
+"frame" "70"
+"team_no" "2"
+"skin" "0"
+"angle" "90"
+"mdl" "progs/candle.mdl"
+}
+{
+"g_a" "8192"
+"classname" "item_tfgoal"
+"origin" "312 -244 -120"
+"frame" "70"
+"team_no" "2"
+"skin" "0"
+"angle" "90"
+"mdl" "progs/candle.mdl"
+}
+{
+"g_a" "8192"
+"classname" "item_tfgoal"
+"origin" "292 -283 -120"
+"frame" "70"
+"team_no" "2"
+"skin" "0"
+"mdl" "progs/candle.mdl"
+"angle" "90"
+}

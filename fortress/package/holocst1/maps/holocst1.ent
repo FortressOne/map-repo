@@ -1,0 +1,676 @@
+{
+"classname" "worldspawn"
+"worldtype" "2"
+"sounds" "1"
+"message" "Holocaust1\nBy Cisek\n\nwww.geocities.com\TTimesSquare\n\BBattlefield\44068"
+}
+{
+"classname" "func_door"
+"angle" "272"
+"sounds" "2"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "88"
+"sounds" "2"
+"model" "*2"
+}
+{
+"classname" "light"
+"origin" "616 176 224"
+}
+{
+"classname" "light"
+"origin" "616 -176 224"
+}
+{
+"classname" "light"
+"origin" "400 -496 224"
+}
+{
+"classname" "light"
+"origin" "400 496 224"
+}
+{
+"classname" "light"
+"origin" "176 80 96"
+}
+{
+"classname" "light"
+"origin" "176 -80 96"
+}
+{
+"classname" "light"
+"origin" "272 688 192"
+}
+{
+"classname" "light"
+"origin" "272 -688 192"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "32"
+"delay" "2"
+"model" "*3"
+}
+{
+"classname" "light"
+"origin" "216 0 624"
+}
+{
+"classname" "light"
+"origin" "336 -592 756"
+}
+{
+"classname" "light"
+"origin" "304 16 756"
+}
+{
+"classname" "trigger_push"
+"angle" "273"
+"style" "32"
+"delay" "2"
+"speed" "400"
+"model" "*4"
+}
+{
+"classname" "light"
+"origin" "272 -592 388"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "0 252 576"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "-4 -268 580"
+}
+{
+"classname" "light"
+"origin" "552 8 -128"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "868 -96 92"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "868 96 92"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "1136 280 616"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "1136 -284 616"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "848 292 620"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "848 -292 620"
+}
+{
+"classname" "func_door"
+"angle" "272"
+"speed" "100"
+"sounds" "2"
+"team_no" "1"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"angle" "89"
+"sounds" "2"
+"team_no" "1"
+"model" "*6"
+}
+{
+"classname" "light"
+"origin" "1872 80 544"
+}
+{
+"classname" "light"
+"origin" "1872 -80 544"
+}
+{
+"classname" "light"
+"origin" "1520 -496 552"
+}
+{
+"classname" "light"
+"origin" "1392 -400 488"
+}
+{
+"classname" "light"
+"origin" "1392 -240 488"
+}
+{
+"classname" "light"
+"origin" "1392 -80 488"
+}
+{
+"classname" "light"
+"origin" "1392 80 488"
+}
+{
+"classname" "light"
+"origin" "1392 240 488"
+}
+{
+"classname" "light"
+"origin" "1392 400 488"
+}
+{
+"classname" "light"
+"origin" "1520 480 552"
+}
+{
+"classname" "light"
+"origin" "1664 400 552"
+}
+{
+"classname" "light"
+"origin" "1664 240 552"
+}
+{
+"classname" "light"
+"origin" "1664 80 552"
+}
+{
+"classname" "light"
+"origin" "1664 -80 552"
+}
+{
+"classname" "light"
+"origin" "1664 -240 552"
+}
+{
+"classname" "light"
+"origin" "1664 -400 552"
+}
+{
+"classname" "func_door"
+"targetname" "bluehole"
+"wait" "-1"
+"lip" "-100"
+"model" "*7"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_result" "1"
+"goal_activation" "2"
+"message" "You put a hole in blue's base!"
+"broadcast" "There is a hoel in blue's base!"
+"target" "bluehole"
+"origin" "992 -8 72"
+}
+{
+"classname" "item_tfgoal"
+"team_broadcast" "Your team has the\n enemy key!"
+"noise3" "Your key has been\n returned!"
+"noise4" "The enemy key was\n returned to base!"
+"non_team_broadcast" "Your key has been\n stolen!"
+"owned_by" "1"
+"team_no" "2"
+"goal_activation" "181"
+"goal_no" "1"
+"mdl" "progs/tf_flag.mdl"
+"message" "You have blues flag!\n Return it to your tower!"
+"skin" "1"
+"origin" "212 0 552"
+}
+{
+"classname" "info_tfgoal"
+"team_broadcast" "Red is no match for the\n mighty blue!"
+"non_team_broadcast" "Blue has captured your flag..."
+"axhitme" "2"
+"frags" "10"
+"count" "10"
+"team_no" "1"
+"items_allowed" "2"
+"goal_effects" "3"
+"goal_result" "2"
+"goal_activation" "1"
+"message" "You have returned red's flag!"
+"origin" "308 -12 528"
+}
+{
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"ammo_medikit" "200"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"armorvalue" "200"
+"armorclass" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"armortype" "0.8"
+"origin" "1968 96 480"
+}
+{
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"ammo_medikit" "200"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"armorvalue" "200"
+"armorclass" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"armortype" "0.8"
+"origin" "1968 -8 480"
+}
+{
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"ammo_medikit" "200"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"armorvalue" "200"
+"armorclass" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"armortype" "0.8"
+"origin" "1972 -104 480"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"team_no" "1"
+"origin" "1912 112 464"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "271"
+"team_no" "1"
+"origin" "1808 112 468"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "88"
+"team_no" "1"
+"origin" "1808 -104 468"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "88"
+"team_no" "1"
+"origin" "1912 -104 464"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "-792 240 572"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "-804 -272 564"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "-1180 272 564"
+}
+{
+"classname" "info_player_start"
+"origin" "-1012 4 244"
+}
+{
+"classname" "func_door"
+"angle" "87"
+"sounds" "2"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"angle" "273"
+"sounds" "2"
+"model" "*9"
+}
+{
+"classname" "light"
+"origin" "-2600 -176 224"
+}
+{
+"classname" "light"
+"origin" "-2600 176 224"
+}
+{
+"classname" "light"
+"origin" "-2384 496 224"
+}
+{
+"classname" "light"
+"origin" "-2384 -496 224"
+}
+{
+"classname" "light"
+"origin" "-2160 -80 96"
+}
+{
+"classname" "light"
+"origin" "-2160 80 96"
+}
+{
+"classname" "light"
+"origin" "-2256 -688 192"
+}
+{
+"classname" "light"
+"origin" "-2256 688 192"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "32"
+"delay" "2"
+"model" "*10"
+}
+{
+"classname" "light"
+"origin" "-2200 0 624"
+}
+{
+"classname" "light"
+"origin" "-2320 592 756"
+}
+{
+"classname" "light"
+"origin" "-2288 -16 756"
+}
+{
+"classname" "trigger_push"
+"angle" "90"
+"style" "32"
+"delay" "2"
+"speed" "400"
+"model" "*11"
+}
+{
+"classname" "light"
+"origin" "-2256 592 388"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "-1984 -252 576"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "-1980 268 580"
+}
+{
+"classname" "light"
+"origin" "-2536 -8 -128"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2852 96 92"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-2852 -96 92"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-3120 -280 616"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-3120 284 616"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-2832 -292 620"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-2832 292 620"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "100"
+"sounds" "2"
+"team_no" "2"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"sounds" "2"
+"team_no" "2"
+"speed" "100"
+"model" "*13"
+}
+{
+"classname" "light"
+"origin" "-3856 -80 544"
+}
+{
+"classname" "light"
+"origin" "-3856 80 544"
+}
+{
+"classname" "light"
+"origin" "-3504 496 552"
+}
+{
+"classname" "light"
+"origin" "-3376 400 488"
+}
+{
+"classname" "light"
+"origin" "-3376 240 488"
+}
+{
+"classname" "light"
+"origin" "-3376 80 488"
+}
+{
+"classname" "light"
+"origin" "-3376 -80 488"
+}
+{
+"classname" "light"
+"origin" "-3376 -240 488"
+}
+{
+"classname" "light"
+"origin" "-3376 -400 488"
+}
+{
+"classname" "light"
+"origin" "-3504 -480 552"
+}
+{
+"classname" "light"
+"origin" "-3648 -400 552"
+}
+{
+"classname" "light"
+"origin" "-3648 -240 552"
+}
+{
+"classname" "light"
+"origin" "-3648 -80 552"
+}
+{
+"classname" "light"
+"origin" "-3648 80 552"
+}
+{
+"classname" "light"
+"origin" "-3648 240 552"
+}
+{
+"classname" "light"
+"origin" "-3648 400 552"
+}
+{
+"classname" "info_tfdetect"
+"hook_out" "1"
+"impulse" "128"
+"team_broadcast" "=== Pick your team ===\n\n [1] Blue Team\n [2] Red Team \n"
+"non_team_broadcast" "Infiltrate the enemys base, steal their flag and return it to your tower. :)"
+"origin" "-984 0 128"
+}
+{
+"classname" "func_door"
+"angle" "181"
+"targetname" "redhole"
+"wait" "-1"
+"lip" "-100"
+"model" "*14"
+}
+{
+"classname" "info_tfgoal"
+"goal_effects" "1"
+"goal_result" "1"
+"goal_activation" "2"
+"message" "You put a hole in red's base!"
+"broadcast" "There is a hoel in red's base!"
+"target" "redhole"
+"origin" "-2976 8 72"
+}
+{
+"classname" "item_tfgoal"
+"team_broadcast" "Your team has the\n enemy key!"
+"noise3" "Your key has been\n returned!"
+"noise4" "The enemy key was\n returned to base!"
+"non_team_broadcast" "Your key has been\n stolen!"
+"owned_by" "2"
+"team_no" "1"
+"goal_activation" "181"
+"goal_no" "2"
+"mdl" "progs/tf_flag.mdl"
+"message" "You have red's key!\n Return it to your tower!"
+"skin" "2"
+"origin" "-2220 0 552"
+}
+{
+"classname" "info_tfgoal"
+"team_broadcast" "Blue is no match for the\n mighty red!"
+"non_team_broadcast" "Red has captured your Flag..."
+"axhitme" "1"
+"frags" "10"
+"count" "10"
+"team_no" "2"
+"items_allowed" "1"
+"goal_effects" "3"
+"goal_result" "2"
+"goal_activation" "1"
+"message" "You have returned blue's flag\nto your base!"
+"origin" "-2316 -12 528"
+}
+{
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"ammo_medikit" "200"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"armorvalue" "200"
+"armorclass" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"armortype" "0.8"
+"origin" "-3952 -96 480"
+}
+{
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"ammo_medikit" "200"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"armorvalue" "200"
+"armorclass" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"armortype" "0.8"
+"origin" "-3952 8 480"
+}
+{
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"ammo_medikit" "200"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"armorvalue" "200"
+"armorclass" "2"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/backpack.mdl"
+"armortype" "0.8"
+"origin" "-3956 104 480"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "89"
+"team_no" "2"
+"origin" "-3896 -112 464"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"origin" "-3792 -112 468"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "88"
+"team_no" "2"
+"origin" "-3792 104 468"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "273"
+"team_no" "2"
+"origin" "-3896 104 464"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "-1192 -240 572"
+}

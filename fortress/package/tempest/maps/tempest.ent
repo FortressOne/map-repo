@@ -1,0 +1,111 @@
+{
+"message" "ù‘empes‘ü"
+"wad" "k8.wad"
+"classname" "worldspawn"
+"light" "500"
+}
+{
+"classname" "info_player_start"
+"origin" "-160 256 472"
+"angle" "90"
+}
+{
+"model" "*1"
+"spawnflags" "1024"
+"classname" "effect_rain"
+"origin" "-464 432 520"
+}
+{
+"model" "*2"
+"spawnflags" "1024"
+"classname" "effect_rain"
+"origin" "112 48 520"
+}
+{
+"model" "*3"
+"spawnflags" "1024"
+"classname" "effect_rain"
+"origin" "-448 0 520"
+}
+{
+"model" "*4"
+"spawnflags" "1024"
+"classname" "effect_rain"
+"origin" "96 480 520"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "200"
+"owned_by" "1"
+"message" "Resupplied.\n"
+"netname" "blue_resup"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"netname_broadcast" " has resupplied.. \n"
+"no_grenades_1" "4"
+"noise" "weapons/pkup.wav"
+"origin" "-160 -248 48"
+"wait" "2"
+"goal_effects" "1"
+"ammo_medikit" "100"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "200"
+}
+{
+"goal_activation" "1"
+"owned_by" "2"
+"ammo_shells" "200"
+"netname" "red_resup"
+"message" "Resupplied.\n"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"netname_broadcast" " has resupplied... \n"
+"origin" "-160 760 48"
+"noise" "weapons/pkup.wav"
+"no_grenades_1" "4"
+"wait" "2"
+"goal_effects" "1"
+"ammo_nails" "200"
+"ammo_medikit" "100"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "200"
+}
+{
+"netname" "blue_spawn"
+"classname" "info_player_teamspawn"
+"origin" "-160 -352 40"
+"team_no" "1"
+"angle" "90"
+}
+{
+"netname" "red_spawn"
+"classname" "info_player_teamspawn"
+"origin" "-160 864 40"
+"team_no" "2"
+"angle" "270"
+}
+{
+"impulse" "64"
+"classname" "info_tfdetect"
+"origin" "-160 256 544"
+"hook_out" "1"
+"team_broadcast" "ù‘EMPES‘ü\nCHOOSE TEAM.\n1. BLUE\n2. RED\n5. WHATEVER\n"
+}
+{
+"model" "*5"
+"classname" "effect_random_sound"
+"origin" "-176 224 264"
+"noise" "ambience/thunder1.wav"
+"option" "5"
+"volume" "1"
+"option2" "15"
+}

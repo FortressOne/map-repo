@@ -1,0 +1,1457 @@
+{
+"message" "2Seksi version 1\nby: SKS and Saboteur"
+"sounds" "7"
+"classname" "worldspawn"
+"worldtype" "2"
+}
+{
+"speed" "75"
+"spawnflags" "4"
+"model" "*1"
+"sounds" "3"
+"classname" "func_door_secret"
+"wait" "40"
+"dmg" "0"
+"lip" "0"
+"targetname" "b1"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"message" "Let's Go!\n"
+"classname" "info_player_teamspawn"
+"origin" "192 1456 592"
+"team_no" "1"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"message" "Let's Go!\n"
+"classname" "info_player_teamspawn"
+"origin" "112 1456 592"
+"team_no" "1"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"message" "Let's Go!\n"
+"classname" "info_player_teamspawn"
+"origin" "0 1456 592"
+"team_no" "1"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"message" "Let's Go!\n"
+"classname" "info_player_teamspawn"
+"origin" "-112 1456 592"
+"team_no" "1"
+"angle" "270"
+}
+{
+"goal_activation" "2"
+"message" "Let's Go!\n"
+"classname" "info_player_teamspawn"
+"origin" "-192 1456 592"
+"playerclass" "0"
+"team_no" "1"
+"angle" "270"
+}
+{
+"speed" "30"
+"target" "b1"
+"model" "*2"
+"sounds" "3"
+"classname" "func_button"
+"wait" "15"
+"delay" "0"
+"health" "0"
+"team_no" "1"
+"lip" "0"
+"angle" "270"
+}
+{
+"classname" "item_artifact_super_damage"
+"origin" "4 832 420"
+}
+{
+"goal_activation" "693"
+"owned_by" "1"
+"netname_team_broadcast" " has the enemy flag.\n"
+"netname" "blueflag"
+"classname" "item_tfgoal"
+"origin" "4 3528 -156"
+"noise" "misc/boner.WAV"
+"netname_non_team_broadcast" " has your flag.\n"
+"goal_effects" "17"
+"team_drop" "Your flag has been dropped.\n"
+"goal_no" "69"
+"items" "131072"
+"noise3" "Your flag has returned.\n"
+"goal_result" "16"
+"deathtype" " has dropped the flag.\n"
+"noise4" "Enemy flag has returned.\n"
+"team_no" "2"
+"pausetime" "50"
+"skin" "1"
+"mdl" "progs/tf_flag.mdl"
+"non_team_drop" "Enemy flag has been dropped.\n"
+"angle" "180"
+}
+{
+"speed" "100"
+"model" "*3"
+"sounds" "2"
+"classname" "func_door"
+"wait" "4"
+"playerclass" "0"
+"dmg" "0"
+"team_no" "0"
+"health" "0"
+"lip" "0"
+"angle" "-1"
+}
+{
+"speed" "100"
+"model" "*4"
+"sounds" "2"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "0"
+"angle" "-1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"netname" "smallpack"
+"classname" "info_tfgoal"
+"origin" "788 2972 -148"
+"no_grenades_1" "1"
+"wait" "10"
+"no_grenades_2" "1"
+"goal_effects" "17"
+"ammo_nails" "50"
+"armorvalue" "20"
+"goal_result" "16"
+"health" "30"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "10"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"netname" "smallpack"
+"classname" "info_tfgoal"
+"origin" "-776 2972 -148"
+"no_grenades_1" "1"
+"wait" "10"
+"no_grenades_2" "1"
+"goal_effects" "17"
+"ammo_nails" "50"
+"armorvalue" "20"
+"health" "30"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "10"
+}
+{
+"model" "*5"
+"sounds" "1"
+"classname" "func_plat"
+"playerclass" "0"
+"height" "390"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"model" "*6"
+"sounds" "1"
+"classname" "func_plat"
+"playerclass" "0"
+"height" "390"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "300"
+"netname" "fullpack"
+"classname" "info_tfgoal"
+"origin" "-72 932 556"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "2"
+"no_grenades_2" "4"
+"goal_effects" "17"
+"ammo_nails" "200"
+"armorvalue" "100"
+"health" "999"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "300"
+"ammo_rockets" "60"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "300"
+"netname" "fullpack"
+"classname" "info_tfgoal"
+"origin" "0 932 556"
+"noise" "misc/nacho.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"no_grenades_2" "4"
+"wait" "2"
+"goal_effects" "17"
+"ammo_nails" "2000"
+"goal_result" "16"
+"armorvalue" "100"
+"health" "999"
+"ammo_cells" "300"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "60"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "300"
+"netname" "fullpack"
+"classname" "info_tfgoal"
+"origin" "72 932 556"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"no_grenades_2" "4"
+"wait" "2"
+"goal_effects" "17"
+"ammo_nails" "200"
+"goal_result" "16"
+"armorvalue" "100"
+"health" "999"
+"ammo_cells" "300"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "60"
+}
+{
+"speed" "-5"
+"model" "*7"
+"sounds" "4"
+"classname" "trigger_push"
+"playerclass" "0"
+"style" "32"
+"delay" "2"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"speed" "-5"
+"model" "*8"
+"sounds" "4"
+"classname" "trigger_push"
+"playerclass" "0"
+"style" "32"
+"delay" "2"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"speed" "10"
+"model" "*9"
+"classname" "trigger_push"
+"style" "32"
+"delay" "2"
+"angle" "-2"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"items_allowed" "77"
+"netname" "bluecap"
+"axhitme" "77"
+"classname" "info_tfgoal"
+"origin" "8 452 268"
+"noise" "misc/nips.WAV"
+"netname_broadcast" " has captured the red flag!\n"
+"maxammo_shells" "1"
+"wait" "1"
+"goal_effects" "16"
+"count" "10"
+"goal_no" "51"
+"frags" "10"
+"team_no" "1"
+}
+{
+"speed" "100"
+"message" "uh oh"
+"model" "*10"
+"sounds" "4"
+"classname" "func_door"
+"wait" "4"
+"playerclass" "1"
+"dmg" "999"
+"lip" "0"
+"health" "50"
+"team_no" "2"
+"targetname" "quad1"
+}
+{
+"classname" "light_fluoro"
+"origin" "-204 740 512"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_fluoro"
+"origin" "204 736 504"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_fluoro"
+"origin" "176 924 500"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_fluoro"
+"origin" "-164 924 492"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_globe"
+"origin" "340 484 272"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light_globe"
+"origin" "-356 480 272"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light_globe"
+"origin" "-236 1496 636"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_globe"
+"origin" "244 1500 644"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_globe"
+"origin" "8 1372 -228"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "192 1368 -44"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-184 1368 -44"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "0 1076 160"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "0 604 168"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "360 1760 312"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-356 1764 316"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-612 940 312"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "612 940 312"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "612 2320 308"
+"style" "0"
+"light" "1000"
+}
+{
+"classname" "light_globe"
+"origin" "-608 2316 308"
+"style" "0"
+"light" "1000"
+}
+{
+"classname" "light_globe"
+"origin" "-284 2596 -36"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "284 2600 -32"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_fluoro"
+"origin" "4 3568 -176"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_globe"
+"origin" "420 2968 -32"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-420 2968 -36"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-168 1944 320"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "172 2284 156"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-172 1940 0"
+"style" "0"
+"light" "600"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"message" "No\n"
+"netname" "kill ent"
+"classname" "info_tfgoal"
+"origin" "236 796 424"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"health" "-999"
+"team_no" "2"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "160 872 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"health" "-999"
+"team_no" "2"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "192 832 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "164 792 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"message" "No\n"
+"netname" "kill ent"
+"classname" "info_tfgoal"
+"origin" "240 868 424"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"health" "-999"
+"team_no" "2"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "156 832 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "232 832 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "200 804 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "192 864 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-228 796 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-236 836 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-232 876 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-200 868 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"message" "No\n"
+"netname" "kill ent"
+"classname" "info_tfgoal"
+"origin" "-200 836 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"health" "-999"
+"team_no" "2"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-192 808 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-156 800 426"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-160 836 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-160 872 426"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "2"
+"health" "-999"
+}
+{
+"goal_activation" "2"
+"target" "redwaterdoor"
+"owned_by" "1"
+"netname" "detred"
+"classname" "info_tfgoal"
+"origin" "-136 2240 -120"
+"broadcast" "Red's water is closed for repairs!\n"
+"team_no" "2"
+}
+{
+"speed" "100"
+"model" "*11"
+"classname" "func_door_secret"
+"wait" "180"
+"dmg" "999"
+"lip" "0"
+"health" "0"
+"targetname" "bluewaterdoor"
+"angle" "-1"
+}
+{
+"impulse" "68"
+"classname" "info_tfdetect"
+"origin" "-906 -1696 464"
+"broadcast" "TeamFortress v2.9"
+}
+{
+"speed" "1000"
+"model" "*12"
+"sounds" "2"
+"classname" "func_door"
+"dmg" "10"
+"lip" "0"
+"health" "0"
+"angle" "-1"
+}
+{
+"speed" "1000"
+"model" "*13"
+"sounds" "2"
+"classname" "func_door"
+"dmg" "10"
+"lip" "0"
+"health" "0"
+"angle" "-1"
+}
+{
+"classname" "light_globe"
+"origin" "-4 836 312"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "info_player_start"
+"origin" "0 0 96"
+}
+{
+"classname" "light_globe"
+"origin" "3 -866 312"
+"style" "0"
+"light" "600"
+}
+{
+"speed" "1000"
+"model" "*14"
+"sounds" "2"
+"classname" "func_door"
+"dmg" "10"
+"lip" "0"
+"health" "0"
+"angle" "-1"
+}
+{
+"speed" "1000"
+"model" "*15"
+"sounds" "2"
+"classname" "func_door"
+"dmg" "10"
+"lip" "0"
+"health" "0"
+"angle" "-1"
+}
+{
+"speed" "100"
+"model" "*16"
+"sounds" "1"
+"classname" "func_door_secret"
+"wait" "180"
+"playerclass" "0"
+"dmg" "999"
+"team_no" "0"
+"health" "0"
+"lip" "0"
+"targetname" "redwaterdoor"
+"angle" "-1"
+}
+{
+"goal_activation" "2"
+"target" "bluewaterdoor"
+"owned_by" "1"
+"netname" "detblue"
+"classname" "info_tfgoal"
+"origin" "135 -2270 -120"
+"broadcast" "Blue's water is closed for repairs!\n"
+"team_no" "1"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "159 -902 426"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "159 -866 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "155 -830 426"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "191 -838 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"message" "No\n"
+"netname" "kill ent"
+"classname" "info_tfgoal"
+"origin" "199 -866 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"health" "-999"
+"team_no" "1"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "199 -898 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "231 -906 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "235 -866 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "227 -826 422"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-193 -894 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-201 -834 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-233 -862 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-157 -862 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"message" "No\n"
+"netname" "kill ent"
+"classname" "info_tfgoal"
+"origin" "-241 -898 424"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"health" "-999"
+"team_no" "1"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-165 -822 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-193 -862 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"team_no" "1"
+"health" "-999"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "kill ent"
+"message" "No\n"
+"classname" "info_tfgoal"
+"origin" "-161 -902 420"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"health" "-999"
+"team_no" "1"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"message" "No\n"
+"netname" "kill ent"
+"classname" "info_tfgoal"
+"origin" "-237 -826 424"
+"noise" "misc/loveofGod.WAV"
+"goal_effects" "1"
+"health" "-999"
+"team_no" "1"
+}
+{
+"classname" "light_globe"
+"origin" "171 -1970 0"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-173 -2314 156"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "167 -1974 320"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "419 -2998 -36"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-421 -2998 -32"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_fluoro"
+"origin" "-5 -3598 -176"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_globe"
+"origin" "-285 -2630 -32"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "283 -2626 -36"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "607 -2346 308"
+"style" "0"
+"light" "1000"
+}
+{
+"classname" "light_globe"
+"origin" "-613 -2350 308"
+"style" "0"
+"light" "1000"
+}
+{
+"classname" "light_globe"
+"origin" "-613 -970 312"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "611 -970 312"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "355 -1794 316"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-361 -1790 312"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-1 -634 168"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-1 -1106 160"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "183 -1398 -44"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-193 -1398 -44"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-9 -1402 -228"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light_globe"
+"origin" "-245 -1530 644"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_globe"
+"origin" "235 -1526 636"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_globe"
+"origin" "355 -510 272"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light_globe"
+"origin" "-341 -514 272"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light_fluoro"
+"origin" "163 -954 492"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_fluoro"
+"origin" "-177 -954 500"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_fluoro"
+"origin" "-205 -766 504"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_fluoro"
+"origin" "203 -770 512"
+"style" "0"
+"light" "800"
+}
+{
+"goal_activation" "1"
+"items_allowed" "69"
+"owned_by" "2"
+"netname" "redcap"
+"axhitme" "69"
+"classname" "info_tfgoal"
+"origin" "-9 -482 268"
+"netname_broadcast" " has captured the blue flag!\n"
+"noise" "misc/nips.WAV"
+"wait" "1"
+"maxammo_shells" "2"
+"goal_effects" "16"
+"count" "10"
+"goal_no" "51"
+"frags" "10"
+"team_no" "2"
+}
+{
+"speed" "10"
+"model" "*17"
+"classname" "trigger_push"
+"style" "32"
+"delay" "2"
+"angle" "-2"
+}
+{
+"speed" "-5"
+"model" "*18"
+"sounds" "4"
+"classname" "trigger_push"
+"playerclass" "0"
+"style" "32"
+"delay" "2"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"speed" "-5"
+"model" "*19"
+"sounds" "4"
+"classname" "trigger_push"
+"playerclass" "0"
+"style" "32"
+"delay" "2"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "300"
+"netname" "fullpack"
+"classname" "info_tfgoal"
+"origin" "-73 -962 556"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"no_grenades_2" "4"
+"wait" "2"
+"goal_effects" "17"
+"ammo_nails" "200"
+"goal_result" "16"
+"armorvalue" "100"
+"health" "999"
+"ammo_cells" "300"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "60"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "300"
+"netname" "fullpack"
+"classname" "info_tfgoal"
+"origin" "-1 -962 556"
+"noise" "misc/nacho.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"no_grenades_2" "4"
+"wait" "2"
+"goal_effects" "17"
+"ammo_nails" "2000"
+"goal_result" "16"
+"armorvalue" "100"
+"health" "999"
+"ammo_cells" "300"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "60"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "300"
+"netname" "fullpack"
+"classname" "info_tfgoal"
+"origin" "71 -962 556"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "2"
+"no_grenades_2" "4"
+"goal_effects" "17"
+"ammo_nails" "200"
+"armorvalue" "100"
+"health" "999"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "300"
+"ammo_rockets" "60"
+}
+{
+"model" "*20"
+"sounds" "1"
+"classname" "func_plat"
+"playerclass" "0"
+"height" "390"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"model" "*21"
+"sounds" "1"
+"classname" "func_plat"
+"playerclass" "0"
+"height" "390"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"netname" "smallpack"
+"classname" "info_tfgoal"
+"origin" "775 -3002 -148"
+"no_grenades_1" "1"
+"wait" "10"
+"no_grenades_2" "1"
+"goal_effects" "17"
+"ammo_nails" "50"
+"armorvalue" "20"
+"health" "30"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "10"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"netname" "smallpack"
+"classname" "info_tfgoal"
+"origin" "-789 -3002 -148"
+"no_grenades_1" "1"
+"wait" "10"
+"no_grenades_2" "1"
+"goal_effects" "17"
+"ammo_nails" "50"
+"armorvalue" "20"
+"goal_result" "16"
+"health" "30"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "10"
+}
+{
+"speed" "100"
+"model" "*22"
+"sounds" "2"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "0"
+"angle" "-1"
+}
+{
+"speed" "100"
+"model" "*23"
+"sounds" "2"
+"classname" "func_door"
+"wait" "4"
+"playerclass" "0"
+"dmg" "0"
+"team_no" "0"
+"health" "0"
+"lip" "0"
+"angle" "-1"
+}
+{
+"goal_activation" "693"
+"netname_team_broadcast" " has the enemy flag.\n"
+"owned_by" "2"
+"netname" "redflag"
+"classname" "item_tfgoal"
+"origin" "-5 -3558 -156"
+"noise" "misc/boner.WAV"
+"netname_non_team_broadcast" " has your flag.\n"
+"goal_effects" "17"
+"team_drop" "Your flag has been dropped.\n"
+"noise3" "Your flag has returned.\n"
+"items" "131072"
+"goal_no" "77"
+"noise4" "Enemy flag has returned.\n"
+"deathtype" " has dropped the flag.\n"
+"goal_result" "16"
+"pausetime" "50"
+"team_no" "1"
+"skin" "2"
+"non_team_drop" "Enemy flag has been dropped.\n"
+"mdl" "progs/tf_flag.mdl"
+}
+{
+"classname" "item_artifact_super_damage"
+"origin" "-5 -862 420"
+}
+{
+"speed" "30"
+"target" "b2"
+"model" "*24"
+"sounds" "3"
+"classname" "func_button"
+"wait" "15"
+"delay" "0"
+"health" "0"
+"team_no" "2"
+"lip" "0"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"message" "Let's Go!\n"
+"classname" "info_player_teamspawn"
+"origin" "191 -1486 592"
+"team_no" "2"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"message" "Let's Go!\n"
+"classname" "info_player_teamspawn"
+"origin" "111 -1486 592"
+"team_no" "2"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"message" "Let's Go!\n"
+"classname" "info_player_teamspawn"
+"origin" "-1 -1486 592"
+"team_no" "2"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"message" "Let's Go!\n"
+"classname" "info_player_teamspawn"
+"origin" "-113 -1486 592"
+"team_no" "2"
+"angle" "90"
+}
+{
+"goal_activation" "2"
+"message" "Let's Go!\n"
+"classname" "info_player_teamspawn"
+"origin" "-193 -1486 592"
+"team_no" "2"
+"angle" "90"
+}
+{
+"speed" "75"
+"spawnflags" "4"
+"model" "*25"
+"sounds" "3"
+"classname" "func_door_secret"
+"wait" "40"
+"dmg" "0"
+"lip" "0"
+"targetname" "b2"
+"angle" "270"
+}
+{
+"speed" "100"
+"message" "uh oh"
+"model" "*26"
+"sounds" "4"
+"classname" "func_door"
+"wait" "4"
+"playerclass" "1"
+"dmg" "999"
+"lip" "0"
+"health" "50"
+"team_no" "1"
+"targetname" "quad1"
+}
+{
+"classname" "light_fluoro"
+"origin" "0 0 500"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light_fluoro"
+"origin" "-2 -28 500"
+"style" "0"
+"light" "800"
+}

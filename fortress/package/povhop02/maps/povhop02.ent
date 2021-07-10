@@ -1,0 +1,2271 @@
+{
+"classname" "worldspawn"
+"message" "êPíˆíÖHñÙë's H0pping Race\nBETA ê0é2ë\n"
+"worldtype" "2"
+}
+{
+"classname" "info_player_start"
+"angle" "115"
+"origin" "2864 -3728 -784"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluejump1"
+"model" "*1"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "bluejump1"
+"origin" "2784 -1104 1568"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele2"
+"model" "*2"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "bluetele2"
+"origin" "2784 96 1568"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele3"
+"model" "*3"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "bluetele3"
+"origin" "3040 2080 1248"
+}
+{
+"classname" "info_tfgoal"
+"netname" "1 Rocket"
+"goal_effects" "1"
+"targetname" "1rocket"
+"ammo_rockets" "1"
+"origin" "3152 1968 1376"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"target" "1rocket"
+"ammo_shells" "-100"
+"netname" "Rocket Restock"
+"message" "Get Hoppin'!\n"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "1"
+"no_grenades_2" "-4"
+"playerclass" "3"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-200"
+"ammo_rockets" "-50"
+"origin" "3040 2144 1216"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2784 -1440 1736"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "1000"
+"sounds" "1"
+"wait" "2"
+"dmg" "0"
+"health" "0"
+"lip" "0"
+"targetname" "racedoor"
+"model" "*4"
+}
+{
+"classname" "light"
+"origin" "2784 -1184 1568"
+}
+{
+"classname" "light"
+"origin" "2784 -672 1568"
+}
+{
+"classname" "light"
+"origin" "2784 -416 1568"
+}
+{
+"classname" "light"
+"origin" "2512 -352 1535"
+}
+{
+"classname" "light"
+"origin" "2512 -224 1535"
+}
+{
+"classname" "light"
+"origin" "2512 -96 1535"
+}
+{
+"classname" "light"
+"origin" "2784 16 1568"
+}
+{
+"classname" "light"
+"origin" "2784 416 1568"
+}
+{
+"classname" "light"
+"origin" "2784 672 1440"
+}
+{
+"classname" "light"
+"origin" "2784 928 1328"
+}
+{
+"classname" "light"
+"origin" "2784 1248 1328"
+}
+{
+"classname" "light"
+"origin" "2784 1632 1328"
+}
+{
+"classname" "light"
+"origin" "2512 1312 1312"
+}
+{
+"classname" "light"
+"origin" "2512 1440 1312"
+}
+{
+"classname" "light"
+"origin" "2512 1568 1312"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2848 2336 1376"
+}
+{
+"classname" "light"
+"light" "700"
+"origin" "2848 3072 1376"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2848 3456 1376"
+}
+{
+"classname" "light"
+"origin" "2848 3840 1248"
+}
+{
+"classname" "info_tfgoal_timer"
+"inactivate_group_no" "1"
+"netname" "Door Opener"
+"if_group_is_active" "1"
+"broadcast" "Racing Begins in 5...\n"
+"activate_goal_no" "10"
+"search_time" "1"
+"origin" "2552 2008 1312"
+}
+{
+"classname" "info_player_teamspawn"
+"playerclass" "3"
+"team_no" "4"
+"origin" "2144 -1504 1632"
+}
+{
+"classname" "trigger_teleport"
+"target" "greenjump1"
+"model" "*5"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "greenjump1"
+"origin" "2208 -1104 1568"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele2"
+"model" "*6"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "greentele2"
+"origin" "2208 96 1568"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele3"
+"model" "*7"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "greentele3"
+"origin" "1952 2080 1248"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"target" "1rocket"
+"ammo_shells" "-100"
+"netname" "Rocket Restock"
+"message" "Get Hoppin'!\n"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "1"
+"no_grenades_2" "-4"
+"playerclass" "3"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-200"
+"ammo_rockets" "-50"
+"origin" "1952 2144 1216"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2208 -1440 1736"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "1000"
+"sounds" "1"
+"wait" "2"
+"dmg" "0"
+"health" "0"
+"lip" "0"
+"targetname" "racedoor"
+"model" "*8"
+}
+{
+"classname" "light"
+"origin" "2208 -1184 1568"
+}
+{
+"classname" "light"
+"origin" "2208 -416 1568"
+}
+{
+"classname" "light"
+"origin" "2480 -352 1535"
+}
+{
+"classname" "light"
+"origin" "2480 -224 1535"
+}
+{
+"classname" "light"
+"origin" "2480 -96 1535"
+}
+{
+"classname" "light"
+"origin" "2208 16 1568"
+}
+{
+"classname" "light"
+"origin" "2208 416 1568"
+}
+{
+"classname" "light"
+"origin" "2208 672 1440"
+}
+{
+"classname" "light"
+"origin" "2208 928 1328"
+}
+{
+"classname" "light"
+"origin" "2208 1248 1328"
+}
+{
+"classname" "light"
+"origin" "2208 1632 1328"
+}
+{
+"classname" "light"
+"origin" "2480 1312 1312"
+}
+{
+"classname" "light"
+"origin" "2480 1440 1312"
+}
+{
+"classname" "light"
+"origin" "2480 1568 1312"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2144 2336 1376"
+}
+{
+"classname" "light"
+"light" "700"
+"origin" "2144 3072 1376"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2144 3456 1376"
+}
+{
+"classname" "light"
+"origin" "2144 3840 1248"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "999"
+"model" "*9"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "999"
+"model" "*10"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "999"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "999"
+"model" "*12"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "64"
+"non_team_broadcast" "Hmm.. Bunny Hopping is a tough technique to explain :)\nMaybe you should stick to CTF\n"
+"maxammo_shells" "1019"
+"team_broadcast" "ÄÅÅÅÇ êPí÷íÖ»ñ‘ë¿” ÄÅÅÅÇ\n»0PPING “ACE\n\n1ë ÖÖ ¬LUE\n4ë ÖÖ «REEN\n\nééê POVOHAT.CJB.NET ëÖÖç\n"
+"noise1" "3 ÖÖ ”oldier\n"
+"noise4" "3 ÖÖ ”oldier\n"
+"maxammo_cells" "1019"
+"origin" "2400 1888 1760"
+}
+{
+"classname" "func_button"
+"angle" "90"
+"target" "greenstart"
+"speed" "100"
+"wait" "5"
+"delay" "0"
+"health" "10"
+"model" "*13"
+}
+{
+"classname" "func_button"
+"angle" "90"
+"target" "bluestart"
+"speed" "100"
+"wait" "5"
+"delay" "0"
+"health" "10"
+"model" "*14"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Ready Green"
+"netname_broadcast" " on Green is Ready to Hop!\n"
+"wait" "-1"
+"goal_effects" "1"
+"group_no" "1"
+"targetname" "greenstart"
+"origin" "2496 1888 1760"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Ready Blue"
+"netname_broadcast" " on Blue is Ready to Hop!\n"
+"wait" "-1"
+"goal_effects" "1"
+"group_no" "1"
+"targetname" "bluestart"
+"origin" "2432 1888 1760"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*15"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*16"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Strip"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"wait" "0"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"targetname" "strip"
+"ammo_cells" "-200"
+"ammo_rockets" "-50"
+"origin" "2528 -1680 1744"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Start 4..."
+"broadcast" "Racing Begins in 4...\n"
+"activate_goal_no" "11"
+"goal_no" "10"
+"delay_time" "1"
+"origin" "2464 1888 1760"
+}
+{
+"classname" "light"
+"origin" "-3072 3536 592"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-3264 3136 816"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-2880 3136 816"
+}
+{
+"classname" "light"
+"origin" "2912 3328 448"
+}
+{
+"classname" "light"
+"origin" "2656 3328 448"
+}
+{
+"classname" "light"
+"origin" "2912 3616 448"
+}
+{
+"classname" "light"
+"origin" "2656 3616 448"
+}
+{
+"classname" "light"
+"origin" "2784 3744 448"
+}
+{
+"classname" "light"
+"origin" "2784 3488 448"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele4"
+"model" "*17"
+}
+{
+"classname" "light"
+"origin" "2784 3104 448"
+}
+{
+"classname" "light"
+"origin" "2784 2752 448"
+}
+{
+"classname" "light"
+"origin" "2784 2400 448"
+}
+{
+"classname" "light"
+"origin" "2528 2592 416"
+}
+{
+"classname" "light"
+"origin" "2528 2720 416"
+}
+{
+"classname" "light"
+"origin" "2528 2464 416"
+}
+{
+"classname" "light"
+"origin" "2928 4000 448"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*18"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*19"
+}
+{
+"classname" "info_tfgoal"
+"ammo_shells" "-100"
+"netname" "Strip 2"
+"no_grenades_1" "-4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"health" "100"
+"targetname" "strip2"
+"ammo_cells" "-200"
+"ammo_rockets" "-50"
+"origin" "2528 -1648 1744"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"target" "1rocket"
+"ammo_shells" "-100"
+"netname" "Invis Rocket Restock"
+"message" "Get Hoppin'!\n"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "1"
+"no_grenades_2" "-4"
+"playerclass" "3"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-200"
+"ammo_rockets" "-50"
+"origin" "2208 1952 1296"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"target" "1rocket"
+"ammo_shells" "-100"
+"netname" "Invis Rocket Restock"
+"message" "Get Hoppin'!\n"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "1"
+"no_grenades_2" "-4"
+"playerclass" "3"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-200"
+"ammo_rockets" "-50"
+"origin" "2784 1952 1296"
+}
+{
+"classname" "light"
+"origin" "2784 -928 1568"
+}
+{
+"classname" "trigger_push"
+"angle" "90"
+"speed" "100"
+"style" "32"
+"delay" "2"
+"model" "*20"
+}
+{
+"classname" "light"
+"origin" "2208 -672 1568"
+}
+{
+"classname" "light"
+"origin" "2208 -928 1568"
+}
+{
+"classname" "trigger_push"
+"angle" "90"
+"speed" "100"
+"style" "32"
+"delay" "2"
+"model" "*21"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"sounds" "2"
+"height" "160"
+"model" "*22"
+}
+{
+"classname" "light"
+"origin" "2784 2240 448"
+}
+{
+"classname" "light"
+"origin" "2784 2240 608"
+}
+{
+"classname" "light"
+"origin" "2784 2048 608"
+}
+{
+"classname" "trigger_multiple"
+"target" "msg_shootme"
+"sounds" "0"
+"wait" "2"
+"style" "32"
+"delay" "0"
+"model" "*23"
+}
+{
+"classname" "info_tfgoal"
+"message" "Shoot this square and use\nthe force to make the\nfollowing jumps!"
+"netname" "MSG_ShootMe"
+"wait" "0"
+"goal_effects" "1"
+"targetname" "msg_shootme"
+"origin" "2968 1896 656"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "-100"
+"netname" "Invis Restock"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "1"
+"no_grenades_2" "-4"
+"playerclass" "3"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-200"
+"ammo_rockets" "50"
+"origin" "2784 1936 592"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "-100"
+"message" "Get Hoppin'!"
+"netname" "Restock"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "1"
+"no_grenades_2" "-4"
+"playerclass" "3"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-200"
+"ammo_rockets" "50"
+"origin" "2608 1808 464"
+}
+{
+"classname" "info_tfgoal"
+"message" "Shoot this square and use\nthe force to make this jump!\nYou need the speed from the previous jumps\nas well!"
+"netname" "MSG_ShootMe2"
+"wait" "0"
+"goal_effects" "1"
+"targetname" "msg_shootme2"
+"origin" "3000 1896 656"
+}
+{
+"classname" "info_tfgoal"
+"netname" "2 Rocket"
+"goal_effects" "1"
+"targetname" "2rocket"
+"ammo_rockets" "2"
+"origin" "3120 1968 1376"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2784 1872 608"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2784 1248 608"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2784 928 608"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2784 608 608"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "bluetele5"
+"origin" "2608 1872 512"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele5"
+"model" "*24"
+}
+{
+"classname" "trigger_multiple"
+"target" "msg_shootme2"
+"sounds" "0"
+"wait" "2"
+"style" "32"
+"delay" "0"
+"model" "*25"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2784 64 608"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2784 -352 608"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2784 -832 608"
+}
+{
+"classname" "trigger_multiple"
+"target" "1rocket2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*26"
+}
+{
+"classname" "info_tfgoal"
+"ammo_shells" "-100"
+"target" "1rocket"
+"netname" "1 Rocket 2"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"no_grenades_2" "-4"
+"wait" "1"
+"playerclass" "3"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-200"
+"targetname" "1rocket2"
+"ammo_rockets" "-50"
+"origin" "3088 1968 1216"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"target" "1gren"
+"ammo_shells" "-100"
+"message" "Get Hoppin'!\n"
+"netname" "Gren Restock"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "1"
+"no_grenades_2" "-4"
+"playerclass" "3"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-200"
+"ammo_rockets" "-50"
+"origin" "2784 -3808 -1472"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "bluetele7"
+"origin" "2784 -3872 -1504"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele7"
+"model" "*27"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele6"
+"model" "*28"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele6"
+"model" "*29"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele6"
+"model" "*30"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "bluetele6"
+"origin" "2784 -1504 384"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "2784 -1248 480"
+}
+{
+"classname" "light"
+"origin" "2912 -2304 -256"
+}
+{
+"classname" "light"
+"origin" "2656 -2304 -256"
+}
+{
+"classname" "light"
+"origin" "2912 -2432 -256"
+}
+{
+"classname" "light"
+"origin" "2656 -2432 -256"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "2784 -2528 -128"
+}
+{
+"classname" "light"
+"origin" "2784 -3168 -640"
+}
+{
+"classname" "light"
+"origin" "2624 -3168 -640"
+}
+{
+"classname" "light"
+"origin" "2944 -3168 -640"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "2784 -2784 -352"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "2784 -3008 -608"
+}
+{
+"classname" "light"
+"origin" "2784 -3456 -768"
+}
+{
+"classname" "light"
+"origin" "2592 -3456 -768"
+}
+{
+"classname" "light"
+"origin" "2976 -3456 -768"
+}
+{
+"classname" "light"
+"origin" "2976 -3648 -768"
+}
+{
+"classname" "light"
+"origin" "2592 -3648 -768"
+}
+{
+"classname" "light"
+"origin" "2592 -3808 -768"
+}
+{
+"classname" "light"
+"origin" "2976 -3808 -768"
+}
+{
+"classname" "light"
+"origin" "2784 -3808 -736"
+}
+{
+"classname" "light"
+"origin" "2784 -3808 -1376"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "2784 -3392 -1344"
+}
+{
+"classname" "light"
+"origin" "2592 -3800 -1704"
+}
+{
+"classname" "light"
+"origin" "2592 -3640 -1704"
+}
+{
+"classname" "light"
+"origin" "2592 -3448 -1704"
+}
+{
+"classname" "light"
+"origin" "2784 -3448 -1704"
+}
+{
+"classname" "light"
+"origin" "2976 -3448 -1704"
+}
+{
+"classname" "light"
+"origin" "2976 -3640 -1704"
+}
+{
+"classname" "light"
+"origin" "2976 -3800 -1704"
+}
+{
+"classname" "light"
+"origin" "2784 -2368 -1536"
+}
+{
+"classname" "light"
+"origin" "2784 -3200 -1344"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele6"
+"model" "*31"
+}
+{
+"classname" "light"
+"origin" "2656 -2112 352"
+}
+{
+"classname" "light"
+"origin" "2912 -2112 352"
+}
+{
+"classname" "light"
+"origin" "2656 -1824 352"
+}
+{
+"classname" "light"
+"origin" "2976 -1504 352"
+}
+{
+"classname" "light"
+"origin" "2592 -3176 -1704"
+}
+{
+"classname" "light"
+"origin" "2784 -3176 -1704"
+}
+{
+"classname" "light"
+"origin" "2976 -3176 -1704"
+}
+{
+"classname" "light"
+"origin" "2592 -2904 -1704"
+}
+{
+"classname" "light"
+"origin" "2784 -2904 -1704"
+}
+{
+"classname" "light"
+"origin" "2976 -2904 -1704"
+}
+{
+"classname" "light"
+"origin" "2592 -2664 -1704"
+}
+{
+"classname" "light"
+"origin" "2784 -2664 -1704"
+}
+{
+"classname" "light"
+"origin" "2976 -2664 -1704"
+}
+{
+"classname" "light"
+"origin" "2784 -1632 -1536"
+}
+{
+"classname" "light"
+"origin" "2592 -2360 -1704"
+}
+{
+"classname" "light"
+"origin" "2784 -2360 -1704"
+}
+{
+"classname" "light"
+"origin" "2976 -2360 -1704"
+}
+{
+"classname" "light"
+"origin" "2592 -2136 -1704"
+}
+{
+"classname" "light"
+"origin" "2784 -2136 -1704"
+}
+{
+"classname" "light"
+"origin" "2976 -2136 -1704"
+}
+{
+"classname" "light"
+"origin" "2592 -1896 -1704"
+}
+{
+"classname" "light"
+"origin" "2784 -1896 -1704"
+}
+{
+"classname" "light"
+"origin" "2976 -1896 -1704"
+}
+{
+"classname" "light"
+"origin" "2592 -1624 -1704"
+}
+{
+"classname" "light"
+"origin" "2784 -1624 -1704"
+}
+{
+"classname" "light"
+"origin" "2976 -1624 -1704"
+}
+{
+"classname" "light"
+"origin" "2592 -1416 -1688"
+}
+{
+"classname" "light"
+"origin" "2784 -1416 -1688"
+}
+{
+"classname" "light"
+"origin" "2976 -1416 -1688"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "bluetele4"
+"origin" "2848 3840 448"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*32"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*33"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*34"
+}
+{
+"classname" "info_tfgoal"
+"netname" "1 Grenade"
+"no_grenades_1" "1"
+"goal_effects" "1"
+"targetname" "1gren"
+"origin" "3152 2000 1376"
+}
+{
+"classname" "trigger_push"
+"angle" "270"
+"speed" "20"
+"style" "32"
+"delay" "2"
+"model" "*35"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele7"
+"model" "*36"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele7"
+"model" "*37"
+}
+{
+"classname" "light"
+"origin" "2784 -416 -1568"
+}
+{
+"classname" "light"
+"origin" "3296 -192 -1568"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluehardwin"
+"model" "*38"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele7"
+"model" "*39"
+}
+{
+"classname" "light"
+"origin" "2784 -1252 -1504"
+}
+{
+"classname" "light"
+"origin" "2784 -992 -1504"
+}
+{
+"classname" "light"
+"origin" "2976 -824 -1704"
+}
+{
+"classname" "light"
+"origin" "2784 -824 -1704"
+}
+{
+"classname" "light"
+"origin" "2592 -824 -1704"
+}
+{
+"classname" "light"
+"origin" "2976 -584 -1688"
+}
+{
+"classname" "light"
+"origin" "2784 -584 -1688"
+}
+{
+"classname" "light"
+"origin" "2592 -584 -1688"
+}
+{
+"classname" "light"
+"origin" "3144 -376 -1688"
+}
+{
+"classname" "light"
+"origin" "3144 -184 -1688"
+}
+{
+"classname" "light"
+"origin" "3144 8 -1688"
+}
+{
+"classname" "light"
+"origin" "3464 8 -1688"
+}
+{
+"classname" "light"
+"origin" "3464 -184 -1688"
+}
+{
+"classname" "light"
+"origin" "3464 -376 -1688"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "3744 -176 -2176"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluetele7"
+"model" "*40"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "bluehardwin"
+"origin" "3328 -960 -2144"
+}
+{
+"classname" "trigger_teleport"
+"target" "startblue"
+"model" "*41"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "50"
+"netname" "BlueHardWin"
+"increase_team1" "20"
+"netname_broadcast" " has ◊œŒ the race!\n"
+"wait" "1"
+"goal_effects" "1"
+"activate_goal_no" "61"
+"frags" "20"
+"origin" "3328 -960 -2176"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*42"
+}
+{
+"classname" "trigger_multiple"
+"target" "msg_startrace"
+"sounds" "0"
+"wait" "2"
+"style" "32"
+"delay" "0"
+"model" "*43"
+}
+{
+"classname" "info_tfgoal"
+"message" "This teleporter leads to the Race!\n"
+"netname" "MSG_StartRace"
+"targetname" "msg_startrace"
+"origin" "-3440 3440 832"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "1"
+"playerclass" "3"
+"origin" "2848 -1504 1632"
+}
+{
+"classname" "info_tfgoal"
+"target" "racedoor"
+"netname" "Start Now!"
+"broadcast" "Racing Has Begun!\n"
+"goal_no" "14"
+"delay_time" "1"
+"origin" "2464 1888 1760"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Start 3..."
+"broadcast" "Racing Begins in 3...\n"
+"activate_goal_no" "12"
+"goal_no" "11"
+"delay_time" "1"
+"origin" "2464 1888 1760"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Start 2..."
+"broadcast" "Racing Begins in 2...\n"
+"goal_no" "12"
+"activate_goal_no" "13"
+"delay_time" "1"
+"origin" "2464 1888 1760"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Start 1..."
+"broadcast" "Racing Begins in 1...\n"
+"goal_no" "13"
+"activate_goal_no" "14"
+"delay_time" "1"
+"origin" "2464 1888 1760"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "3712 -176 -1792"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "3712 -448 -1792"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "3712 128 -1792"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluehardlose"
+"targetname" "bluelosetele"
+"model" "*44"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "bluehardlose"
+"origin" "3552 -960 -2144"
+}
+{
+"classname" "trigger_teleport"
+"target" "startblue"
+"model" "*45"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "50"
+"netname" "BlueHardLose"
+"increase_team1" "10"
+"netname_broadcast" " came ≤Ó‰ :(\n"
+"wait" "1"
+"goal_effects" "1"
+"inactivate_goal_no" "60"
+"frags" "10"
+"origin" "3552 -960 -2176"
+}
+{
+"classname" "light"
+"origin" "2080 3328 448"
+}
+{
+"classname" "light"
+"origin" "2336 3328 448"
+}
+{
+"classname" "light"
+"origin" "2080 3616 448"
+}
+{
+"classname" "light"
+"origin" "2336 3616 448"
+}
+{
+"classname" "light"
+"origin" "2208 3744 448"
+}
+{
+"classname" "light"
+"origin" "2208 3488 448"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele4"
+"model" "*46"
+}
+{
+"classname" "light"
+"origin" "2208 3104 448"
+}
+{
+"classname" "light"
+"origin" "2208 2752 448"
+}
+{
+"classname" "light"
+"origin" "2208 2400 448"
+}
+{
+"classname" "light"
+"origin" "2464 2592 416"
+}
+{
+"classname" "light"
+"origin" "2464 2720 416"
+}
+{
+"classname" "light"
+"origin" "2464 2464 416"
+}
+{
+"classname" "light"
+"origin" "2064 4000 448"
+}
+{
+"classname" "func_plat"
+"angle" "-1"
+"sounds" "2"
+"height" "160"
+"model" "*47"
+}
+{
+"classname" "light"
+"origin" "2208 2240 448"
+}
+{
+"classname" "light"
+"origin" "2208 2240 608"
+}
+{
+"classname" "light"
+"origin" "2208 2048 608"
+}
+{
+"classname" "trigger_multiple"
+"target" "msg_shootme"
+"sounds" "0"
+"wait" "2"
+"style" "32"
+"delay" "0"
+"model" "*48"
+}
+{
+"classname" "info_tfgoal"
+"message" "Shoot this square and use\nthe force to make the\nfollowing jumps!"
+"netname" "MSG_ShootMe"
+"wait" "0"
+"goal_effects" "1"
+"targetname" "msg_shootme"
+"origin" "2024 1896 656"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "-100"
+"netname" "Invis Restock"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "1"
+"no_grenades_2" "-4"
+"playerclass" "3"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-200"
+"ammo_rockets" "50"
+"origin" "2208 1936 592"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "-100"
+"message" "Get Hoppin'!"
+"netname" "Restock"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "1"
+"no_grenades_2" "-4"
+"playerclass" "3"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "200"
+"health" "100"
+"ammo_cells" "-200"
+"ammo_rockets" "50"
+"origin" "2384 1808 464"
+}
+{
+"classname" "info_tfgoal"
+"message" "Shoot this square and use\nthe force to make this jump!\nYou need the speed from the previous jumps\nas well!"
+"netname" "MSG_ShootMe2"
+"wait" "0"
+"goal_effects" "1"
+"targetname" "msg_shootme2"
+"origin" "1992 1896 656"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2208 1872 608"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2208 1248 608"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2208 928 608"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2208 608 608"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "greentele5"
+"origin" "2384 1872 512"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele5"
+"model" "*49"
+}
+{
+"classname" "trigger_multiple"
+"target" "msg_shootme2"
+"sounds" "0"
+"wait" "2"
+"style" "32"
+"delay" "0"
+"model" "*50"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2208 64 608"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2208 -352 608"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "2208 -832 608"
+}
+{
+"classname" "trigger_multiple"
+"target" "1rocket2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*51"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"target" "1gren"
+"ammo_shells" "-100"
+"message" "Get Hoppin'!\n"
+"netname" "Gren Restock"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "1"
+"no_grenades_2" "-4"
+"playerclass" "3"
+"goal_effects" "1"
+"ammo_nails" "-200"
+"armorvalue" "200"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "-200"
+"ammo_rockets" "-50"
+"origin" "2208 -3808 -1472"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "greentele7"
+"origin" "2208 -3872 -1504"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele7"
+"model" "*52"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele6"
+"model" "*53"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele6"
+"model" "*54"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele6"
+"model" "*55"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "greentele6"
+"origin" "2208 -1504 384"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "2208 -1248 480"
+}
+{
+"classname" "light"
+"origin" "2080 -2304 -256"
+}
+{
+"classname" "light"
+"origin" "2336 -2304 -256"
+}
+{
+"classname" "light"
+"origin" "2080 -2432 -256"
+}
+{
+"classname" "light"
+"origin" "2336 -2432 -256"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "2208 -2528 -128"
+}
+{
+"classname" "light"
+"origin" "2208 -3168 -640"
+}
+{
+"classname" "light"
+"origin" "2368 -3168 -640"
+}
+{
+"classname" "light"
+"origin" "2048 -3168 -640"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "2208 -2784 -352"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "2208 -3008 -608"
+}
+{
+"classname" "light"
+"origin" "2208 -3456 -768"
+}
+{
+"classname" "light"
+"origin" "2400 -3456 -768"
+}
+{
+"classname" "light"
+"origin" "2016 -3456 -768"
+}
+{
+"classname" "light"
+"origin" "2016 -3648 -768"
+}
+{
+"classname" "light"
+"origin" "2400 -3648 -768"
+}
+{
+"classname" "light"
+"origin" "2400 -3808 -768"
+}
+{
+"classname" "light"
+"origin" "2016 -3808 -768"
+}
+{
+"classname" "light"
+"origin" "2208 -3808 -736"
+}
+{
+"classname" "light"
+"origin" "2208 -3808 -1376"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "2208 -3392 -1344"
+}
+{
+"classname" "light"
+"origin" "2400 -3800 -1704"
+}
+{
+"classname" "light"
+"origin" "2400 -3640 -1704"
+}
+{
+"classname" "light"
+"origin" "2400 -3448 -1704"
+}
+{
+"classname" "light"
+"origin" "2208 -3448 -1704"
+}
+{
+"classname" "light"
+"origin" "2016 -3448 -1704"
+}
+{
+"classname" "light"
+"origin" "2016 -3640 -1704"
+}
+{
+"classname" "light"
+"origin" "2016 -3800 -1704"
+}
+{
+"classname" "light"
+"origin" "2208 -2368 -1536"
+}
+{
+"classname" "light"
+"origin" "2208 -3200 -1344"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele6"
+"model" "*56"
+}
+{
+"classname" "light"
+"origin" "2336 -2112 352"
+}
+{
+"classname" "light"
+"origin" "2080 -2112 352"
+}
+{
+"classname" "light"
+"origin" "2336 -1824 352"
+}
+{
+"classname" "light"
+"origin" "2016 -1504 352"
+}
+{
+"classname" "light"
+"origin" "2400 -3176 -1704"
+}
+{
+"classname" "light"
+"origin" "2208 -3176 -1704"
+}
+{
+"classname" "light"
+"origin" "2016 -3176 -1704"
+}
+{
+"classname" "light"
+"origin" "2400 -2904 -1704"
+}
+{
+"classname" "light"
+"origin" "2208 -2904 -1704"
+}
+{
+"classname" "light"
+"origin" "2016 -2904 -1704"
+}
+{
+"classname" "light"
+"origin" "2400 -2664 -1704"
+}
+{
+"classname" "light"
+"origin" "2208 -2664 -1704"
+}
+{
+"classname" "light"
+"origin" "2016 -2664 -1704"
+}
+{
+"classname" "light"
+"origin" "2208 -1632 -1536"
+}
+{
+"classname" "light"
+"origin" "2400 -2360 -1704"
+}
+{
+"classname" "light"
+"origin" "2208 -2360 -1704"
+}
+{
+"classname" "light"
+"origin" "2016 -2360 -1704"
+}
+{
+"classname" "light"
+"origin" "2400 -2136 -1704"
+}
+{
+"classname" "light"
+"origin" "2208 -2136 -1704"
+}
+{
+"classname" "light"
+"origin" "2016 -2136 -1704"
+}
+{
+"classname" "light"
+"origin" "2400 -1896 -1704"
+}
+{
+"classname" "light"
+"origin" "2208 -1896 -1704"
+}
+{
+"classname" "light"
+"origin" "2016 -1896 -1704"
+}
+{
+"classname" "light"
+"origin" "2400 -1624 -1704"
+}
+{
+"classname" "light"
+"origin" "2208 -1624 -1704"
+}
+{
+"classname" "light"
+"origin" "2016 -1624 -1704"
+}
+{
+"classname" "light"
+"origin" "2400 -1416 -1688"
+}
+{
+"classname" "light"
+"origin" "2208 -1416 -1688"
+}
+{
+"classname" "light"
+"origin" "2016 -1416 -1688"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "greentele4"
+"origin" "2144 3840 448"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*57"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*58"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*59"
+}
+{
+"classname" "trigger_push"
+"angle" "270"
+"speed" "20"
+"style" "32"
+"delay" "2"
+"model" "*60"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele7"
+"model" "*61"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele7"
+"model" "*62"
+}
+{
+"classname" "light"
+"origin" "2208 -416 -1568"
+}
+{
+"classname" "light"
+"origin" "1696 -192 -1568"
+}
+{
+"classname" "trigger_teleport"
+"target" "greenhardwin"
+"model" "*63"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele7"
+"model" "*64"
+}
+{
+"classname" "light"
+"origin" "2208 -1252 -1504"
+}
+{
+"classname" "light"
+"origin" "2208 -992 -1504"
+}
+{
+"classname" "light"
+"origin" "2016 -824 -1704"
+}
+{
+"classname" "light"
+"origin" "2208 -824 -1704"
+}
+{
+"classname" "light"
+"origin" "2400 -824 -1704"
+}
+{
+"classname" "light"
+"origin" "2016 -584 -1688"
+}
+{
+"classname" "light"
+"origin" "2208 -584 -1688"
+}
+{
+"classname" "light"
+"origin" "2400 -584 -1688"
+}
+{
+"classname" "light"
+"origin" "1848 -376 -1688"
+}
+{
+"classname" "light"
+"origin" "1848 -184 -1688"
+}
+{
+"classname" "light"
+"origin" "1848 8 -1688"
+}
+{
+"classname" "light"
+"origin" "1528 8 -1688"
+}
+{
+"classname" "light"
+"origin" "1528 -184 -1688"
+}
+{
+"classname" "light"
+"origin" "1528 -376 -1688"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "1248 -176 -2176"
+}
+{
+"classname" "trigger_teleport"
+"target" "greentele7"
+"model" "*65"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "greenhardwin"
+"origin" "1664 -960 -2144"
+}
+{
+"classname" "trigger_teleport"
+"target" "startblue"
+"model" "*66"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "50"
+"netname" "GreenHardWin"
+"increase_team1" "20"
+"netname_broadcast" " has ◊œŒ the race!\n"
+"wait" "1"
+"goal_effects" "1"
+"activate_goal_no" "60"
+"frags" "20"
+"origin" "1664 -960 -2176"
+}
+{
+"classname" "trigger_multiple"
+"target" "strip2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*67"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "1280 -176 -1792"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "1280 -448 -1792"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "1280 128 -1792"
+}
+{
+"classname" "trigger_teleport"
+"target" "greenhardlose"
+"targetname" "greenlosetele"
+"model" "*68"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "greenhardlose"
+"origin" "1440 -960 -2144"
+}
+{
+"classname" "trigger_teleport"
+"target" "startgreen"
+"model" "*69"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "50"
+"netname" "GreenHardLose"
+"netname_broadcast" " came ≤Ó‰ :(\n"
+"increase_team4" "10"
+"wait" "1"
+"goal_effects" "1"
+"inactivate_goal_no" "61"
+"frags" "10"
+"origin" "1440 -960 -2176"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "999"
+"model" "*70"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "999"
+"model" "*71"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"health" "999"
+"model" "*72"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Wait for Blue to Finish"
+"wait" "-1"
+"goal_no" "60"
+"origin" "0 0 0"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Wait for Green to Finish"
+"wait" "-1"
+"goal_no" "61"
+"origin" "0 0 0"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "startgreen"
+"origin" "2112 -1504 1632"
+}
+{
+"classname" "info_tfgoal"
+"target" "bluelosetele"
+"netname" "CheckIfLost_Blue"
+"if_goal_is_active" "60"
+"targetname" "bluechecklose"
+"origin" "0 0 0"
+}
+{
+"classname" "info_tfgoal"
+"target" "greenlosetele"
+"netname" "CheckIfLost_Green"
+"if_goal_is_active" "61"
+"targetname" "greenchecklose"
+"origin" "0 0 0"
+}
+{
+"classname" "trigger_multiple"
+"target" "greenchecklose"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*73"
+}
+{
+"classname" "trigger_multiple"
+"target" "bluechecklose"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*74"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"origin" "-2496 0 -832"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"origin" "-2496 256 -832"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"origin" "-2496 512 -832"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"origin" "-2496 768 -832"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"origin" "-2496 1024 -832"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "3"
+"origin" "-1088 1024 -832"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "3"
+"origin" "-1088 0 -832"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "3"
+"origin" "-1088 256 -832"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "3"
+"origin" "-1088 512 -832"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "3"
+"origin" "-1088 768 -832"
+}
+{
+"classname" "light"
+"light" "1500"
+"origin" "-1792 512 -576"
+}
+{
+"classname" "func_button"
+"angle" "270"
+"speed" "100"
+"sounds" "1"
+"wait" "5"
+"health" "10"
+"target" "greenstart"
+"delay" "0"
+"model" "*75"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "1"
+"targetname" "singleplayerbutton"
+"speed" "1000"
+"wait" "-1"
+"sounds" "1"
+"lip" "-32"
+"dmg" "0"
+"health" "0"
+"model" "*76"
+}
+{
+"classname" "trigger_once"
+"sounds" "0"
+"target" "singleplayerbutton"
+"style" "32"
+"delay" "0"
+"model" "*77"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "startblue"
+"origin" "2848 -1504 1600"
+}

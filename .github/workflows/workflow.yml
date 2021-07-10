@@ -2,17 +2,17 @@ name: Upload Files
 on:
   push:
     branches:
-    - master
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - uses: jakejarvis/s3-sync-action@master
-      with:
-        args: --acl public-read --follow-symlinks --delete --exclude '.git/*' --exclude '.github/*' --exclude '.gitignore' --exclude 'README.md'
-      env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'ap-southeast-2' # optional: defaults to us-east-1
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Package into packaged bsps and upload to S3
+        uses: ./
+        id: map-repo
+        with:
+          - s3-package-bucket: ${{ secrets.AWS_S3_PACKAGE_BUCKET }}
+            aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+            aws-access-key: ${{ secrets.AWS_ACCESS_KEY_ID }}

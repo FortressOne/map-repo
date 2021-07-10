@@ -1,0 +1,1252 @@
+{
+"_bounce" "2"
+"_bouncescale" "1"
+"_dirt" "1"
+"_dirtscale" "1"
+"_sun_mangle" "0 -90 0"
+"_sunlight" "90"
+"classname" "worldspawn"
+"message" "ko_myth_5v5\nêUpdated for MegaTF Classicsë"
+"wad" "C:/Quake/Tools/TrenchBroom/games/Quake/wad files/quake.wad;C:/Quake/Tools/TrenchBroom/games/Quake/wad files/tfc textures/all tfc textures (master list)-defullbright.wad"
+}
+{
+"angle" "-1"
+"classname" "func_plat"
+"height" "120"
+"model" "*1"
+"sounds" "1"
+"speed" "450"
+}
+{
+"angles" "-0 263 -0"
+"classname" "info_player_start"
+"origin" "-321 256 192"
+}
+{
+"_light" "255 255 128 100"
+"classname" "light"
+"origin" "-2480 1984 0"
+}
+{
+"_light" "255 255 128 100"
+"classname" "light"
+"light" "180"
+"origin" "-2864 2368 -64"
+}
+{
+"_light" "255 255 128 100"
+"classname" "light"
+"light" "180"
+"origin" "-2608 2368 -64"
+}
+{
+"angle" "-1"
+"classname" "func_plat"
+"height" "120"
+"model" "*2"
+"sounds" "1"
+"speed" "450"
+}
+{
+"_light" "255 255 128 100"
+"classname" "light"
+"origin" "1856 -1472 0"
+}
+{
+"_light" "255 255 128 100"
+"classname" "light"
+"light" "180"
+"origin" "2240 -1856 -64"
+}
+{
+"_light" "255 255 128 100"
+"classname" "light"
+"light" "180"
+"origin" "1984 -1856 -64"
+}
+{
+"classname" "info_tfdetect"
+"hook_out" "0"
+"origin" "-320 256 152"
+}
+{
+"classname" "func_door"
+"dmg" "0"
+"model" "*3"
+"sounds" "2"
+"speed" "700"
+"targetname" "red2"
+"wait" "1"
+}
+{
+"angle" "182"
+"classname" "func_door"
+"dmg" "0"
+"model" "*4"
+"sounds" "2"
+"speed" "700"
+"targetname" "red2"
+"wait" "1"
+}
+{
+"angle" "182"
+"classname" "func_door"
+"dmg" "0"
+"model" "*5"
+"sounds" "2"
+"speed" "700"
+"targetname" "blue2"
+"wait" "1"
+}
+{
+"classname" "func_door"
+"dmg" "0"
+"model" "*6"
+"sounds" "2"
+"speed" "700"
+"targetname" "blue2"
+"wait" "1"
+}
+{
+"classname" "trigger_multiple"
+"model" "*7"
+"target" "red2"
+"team_no" "2"
+"wait" "1"
+}
+{
+"classname" "trigger_multiple"
+"model" "*8"
+"target" "blue2"
+"team_no" "1"
+"wait" "1"
+}
+{
+"angle" "-0"
+"b_o" "Your flag was taken!\n"
+"b_t" "Your team got their flag!\n"
+"classname" "item_tfgoal"
+"d_n" "Your team lost their flag!\n"
+"d_n_n" " ‰ÚÔÂ‰ ‚ÏıÂßÛ ÊÏ·Á°\n"
+"d_n_t" " ‰ÚÔÂ‰ ‚ÏıÂßÛ ÊÏ·Á°\n"
+"d_t" "The enemy lost your flag!\n"
+"delay" "20"
+"g_a" "181"
+"goal_no" "1"
+"items" "131072"
+"mdl" "progs/tf_flag.mdl"
+"message" "You have their flag!\ngo go go!!\n"
+"n_b" " ÁÔÙ ‚ÏıÂßÛ ÊÏ·Á°\n"
+"netname" "Blue Flag"
+"noise" "ogre/ogwake.wav"
+"noise3" "Your flag returned!\n"
+"noise4" "Their flag returned!\n"
+"origin" "-2906 1419 22"
+"owned_by" "1"
+"pausetime" "20"
+"skin" "1"
+"team_no" "2"
+}
+{
+"axhitme" "2"
+"b_o" "Your flag was captured!\n"
+"b_t" "Your team captured their flag!\n"
+"classname" "i_t_g"
+"count" "10"
+"frags" "10"
+"g_a" "1"
+"g_e" "19"
+"items_allowed" "2"
+"message" "You captured their flag!\n"
+"n_b" " „·ÙıÚÂ‰ ÚÂ‰ßÛ ÊÏ·Á°\n"
+"netname" "cap1"
+"noise" "misc/cap.wav"
+"origin" "-2256 1696 -56"
+"owned_by" "2"
+}
+{
+"angle" "180"
+"b_o" "Your flag was taken!\n"
+"b_t" "Your team got their flag!\n"
+"classname" "item_tfgoal"
+"d_n" "Your team lost their flag!\n"
+"d_n_n" " ‰ÚÔÂ‰ ÚÂ‰ßÛ ÊÏ·Á°\n"
+"d_n_t" " ‰ÚÔÂ‰ ÚÂ‰ßÛ ÊÏ·Á°\n"
+"d_t" "The enemy lost your flag!\n"
+"delay" "20"
+"g_a" "181"
+"goal_no" "2"
+"items" "262144"
+"mdl" "progs/tf_flag.mdl"
+"message" "You have their flag!\ngo go go!!\n"
+"n_b" " ÁÔÙ ÚÂ‰ßÛ ÊÏ·Á°\n"
+"netname" "Red Flag"
+"noise" "ogre/ogwake.wav"
+"noise3" "Your flag returned!\n"
+"noise4" "Their flag returned!\n"
+"origin" "2276 -907 22"
+"owned_by" "2"
+"pausetime" "20"
+"skin" "2"
+"team_no" "1"
+}
+{
+"axhitme" "1"
+"b_o" "Your flag was captured!\n"
+"b_t" "Your team captured their flag!\n"
+"classname" "i_t_g"
+"count" "10"
+"frags" "10"
+"g_a" "1"
+"g_e" "19"
+"items_allowed" "1"
+"message" "You captured their flag!\n"
+"n_b" " „·ÙıÚÂ‰ ‚ÏıÂßÛ ÊÏ·Á°\n"
+"netname" "cap2"
+"noise" "misc/cap.wav"
+"origin" "1632 -1184 -56"
+"owned_by" "1"
+}
+{
+"_color" "0 128 255"
+"_surface" "~light3b"
+"classname" "light"
+"light" "180"
+"origin" "-320 256 107"
+}
+{
+"_color" "255 0 0"
+"_surface" "~light3a"
+"classname" "light"
+"light" "180"
+"origin" "-320 256 131"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2840 1304 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2856 1304 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2872 1304 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2840 1320 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2840 1496 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2872 1512 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2856 1512 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2840 1512 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2824 1320 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2824 1336 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2824 1352 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2824 1368 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2824 1496 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2824 1480 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2824 1464 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "-2824 1448 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2248 -792 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2232 -792 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2216 -792 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2216 -808 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2200 -808 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2200 -824 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2200 -840 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2200 -856 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2200 -936 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2200 -952 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2200 -968 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2200 -984 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2216 -984 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2216 -1000 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2232 -1000 8"
+}
+{
+"classname" "light"
+"light" "100"
+"origin" "2248 -1000 8"
+}
+{
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "red_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "can1.wav"
+"origin" "2136 -1688 -104"
+"team_no" "2"
+"wait" "1"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"origin" "2136 -1912 -104"
+"team_no" "2"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"origin" "2072 -1912 -104"
+"team_no" "2"
+}
+{
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "red_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "can1.wav"
+"origin" "2072 -1688 -104"
+"team_no" "2"
+"wait" "1"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"origin" "2200 -1912 -104"
+"team_no" "2"
+}
+{
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "red_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "can1.wav"
+"origin" "2200 -1688 -104"
+"team_no" "2"
+"wait" "1"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"origin" "2264 -1912 -104"
+"team_no" "2"
+}
+{
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "red_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "can1.wav"
+"origin" "2264 -1688 -104"
+"team_no" "2"
+"wait" "1"
+}
+{
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "blue_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "can1.wav"
+"origin" "-2888 2200 -104"
+"team_no" "1"
+"wait" "1"
+}
+{
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "-2888 2424 -104"
+"team_no" "1"
+}
+{
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "-2824 2424 -104"
+"team_no" "1"
+}
+{
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "blue_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "can1.wav"
+"origin" "-2824 2200 -104"
+"team_no" "1"
+"wait" "1"
+}
+{
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "-2696 2424 -104"
+"team_no" "1"
+}
+{
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "blue_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "can1.wav"
+"origin" "-2696 2200 -104"
+"team_no" "1"
+"wait" "1"
+}
+{
+"angle" "270"
+"classname" "info_player_teamspawn"
+"origin" "-2760 2424 -104"
+"team_no" "1"
+}
+{
+"ammo_cells" "300"
+"ammo_medikit" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_shells" "300"
+"armortype" "200"
+"armorvalue" "300"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "blue_pak1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "can1.wav"
+"origin" "-2760 2200 -104"
+"team_no" "1"
+"wait" "1"
+}
+{
+"_color" "9 255 255"
+"_surface" "*Water7_3"
+"classname" "light"
+"light" "150"
+"origin" "-320 256 83"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-664 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-664 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-664 -1494 168"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "272 -1088 72"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "-888 1600 72"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "1432 -648 56"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "-2056 1160 56"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "1432 -1528 56"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "-2056 2040 56"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-664 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-664 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-600 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-600 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-600 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-600 -1494 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-600 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-536 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-536 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-536 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-536 -1494 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-536 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-472 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-472 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-472 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-472 -1494 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-472 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-408 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-408 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-408 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-408 -1494 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-408 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-344 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-344 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-344 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-344 -1494 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-344 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-280 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-280 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-280 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-280 -1494 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-280 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-216 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-216 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-216 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-216 -1494 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-216 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-152 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-152 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-152 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-152 -1494 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-152 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-88 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-88 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-88 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-88 -1494 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-88 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-24 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-24 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-24 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-24 -1494 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-24 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "40 -1494 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "40 -1494 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "40 -1494 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "40 -1494 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "40 -1494 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "40 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "40 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "40 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "40 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "40 2006 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-24 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-24 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-24 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-24 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-24 2006 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-88 2006 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-88 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-88 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-88 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-88 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-152 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-152 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-152 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-152 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-152 2006 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-216 2006 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-216 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-216 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-216 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-216 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-280 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-280 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-280 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-280 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-280 2006 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-344 2006 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-344 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-344 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-344 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-344 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-408 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-408 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-408 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-408 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-408 2006 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-472 2006 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-472 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-472 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-472 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-472 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-536 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-600 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-664 2006 408"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-664 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-600 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-536 2006 328"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-536 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-600 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-664 2006 248"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-664 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-600 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-536 2006 168"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-536 2006 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-600 2006 88"
+}
+{
+"classname" "light"
+"light" "90"
+"origin" "-664 2006 88"
+}
+{
+"_color" "255 0 0"
+"classname" "light"
+"delay" ""
+"light" "300"
+"mangle" "0 -90 0"
+"origin" "1632 -1184 72"
+}
+{
+"_color" "0 128 255"
+"classname" "light"
+"delay" ""
+"light" "300"
+"mangle" "0 -90 0"
+"origin" "-2256 1696 72"
+}

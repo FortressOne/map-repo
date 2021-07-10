@@ -1,0 +1,1046 @@
+{
+"classname" "worldspawn"
+"message" "Sink or Swim by [mf] e v i l"
+"worldtype" "0"
+"sounds" "1"
+}
+{
+"classname" "info_player_start"
+"origin" "-192 0 1184"
+"angle" "0"
+}
+{
+"classname" "light"
+"origin" "128 -512 496"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "128 0 496"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "128 512 496"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "640 -512 496"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "640 0 496"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "640 512 496"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-384 -512 496"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-384 0 496"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-384 512 496"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "128 -512 1616"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "128 0 1616"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "128 512 1616"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "640 -512 1616"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "640 0 1616"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "640 512 1616"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-384 -512 1616"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-384 0 1616"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-384 512 1616"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "704 -448 1344"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-64 320 1252"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "576 -576 1280"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "704 352 1380"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "704 192 1380"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "192 192 1252"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-192 -192 1252"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-448 448 1380"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-320 576 1380"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-64 576 1252"
+"light" "250"
+}
+{
+"classname" "func_train"
+"speed" "50"
+"target" "start"
+"dmg" "200"
+"model" "*1"
+}
+{
+"classname" "path_corner"
+"origin" "-776 -904 1144"
+"targetname" "start"
+"target" "start2"
+"wait" "60"
+}
+{
+"classname" "path_corner"
+"origin" "-776 -904 1144"
+"targetname" "start2"
+"target" "p1"
+"wait" "45"
+}
+{
+"classname" "path_corner"
+"origin" "-776 -904 632"
+"targetname" "p1"
+"wait" "25"
+"target" "p2"
+}
+{
+"classname" "path_corner"
+"origin" "-776 -904 1144"
+"targetname" "p2"
+"target" "p1"
+"wait" "45"
+}
+{
+"classname" "info_tfdetect"
+"origin" "-78 50 2112"
+"broadcast" "TeamFortress v2.8"
+"impulse" ""
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-672 -800 1192"
+"angle" "45"
+"targetname" "bluespawn1"
+}
+{
+"classname" "trigger_multiple"
+"message" "swim"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"message" "or"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"message" "sink"
+"model" "*4"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 1247 1887"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 1247 1903"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 1247 1919"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluespawn1"
+"model" "*5"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1312 1248 1984"
+"team_no" "1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "72 828 1192"
+"angle" "270"
+"targetname" "bluespawn2"
+}
+{
+"classname" "trigger_multiple"
+"message" "swim"
+"model" "*6"
+}
+{
+"classname" "trigger_multiple"
+"message" "or"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"message" "sink"
+"model" "*8"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 991 1887"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 991 1903"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 991 1919"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluespawn2"
+"model" "*9"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1312 992 1984"
+"team_no" "1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-60 -72 1192"
+"angle" "135"
+"targetname" "bluespawn3"
+}
+{
+"classname" "trigger_multiple"
+"message" "swim"
+"model" "*10"
+}
+{
+"classname" "trigger_multiple"
+"message" "or"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"message" "sink"
+"model" "*12"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 731 1887"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 731 1903"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 731 1919"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "trigger_teleport"
+"target" "bluespawn3"
+"model" "*13"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1312 732 1984"
+"team_no" "1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-320 832 1192"
+"angle" "0"
+"targetname" "redspawn1"
+}
+{
+"classname" "trigger_multiple"
+"message" "swim"
+"model" "*14"
+}
+{
+"classname" "trigger_multiple"
+"message" "or"
+"model" "*15"
+}
+{
+"classname" "trigger_multiple"
+"message" "sink"
+"model" "*16"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 287 1887"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 287 1903"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "1"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 287 1919"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "trigger_teleport"
+"target" "redspawn1"
+"model" "*17"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1312 288 1984"
+"team_no" "2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "584 -836 1192"
+"angle" "180"
+"targetname" "redspawn2"
+}
+{
+"classname" "trigger_multiple"
+"message" "swim"
+"model" "*18"
+}
+{
+"classname" "trigger_multiple"
+"message" "or"
+"model" "*19"
+}
+{
+"classname" "trigger_multiple"
+"message" "sink"
+"model" "*20"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 31 1887"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 31 1903"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "1"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 31 1919"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "trigger_teleport"
+"target" "redspawn2"
+"model" "*21"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1312 32 1984"
+"team_no" "1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-452 192 1248"
+"angle" "315"
+"targetname" "redspawn3"
+}
+{
+"classname" "trigger_multiple"
+"message" "swim"
+"model" "*22"
+}
+{
+"classname" "trigger_multiple"
+"message" "or"
+"model" "*23"
+}
+{
+"classname" "trigger_multiple"
+"message" "sink"
+"model" "*24"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 -229 1887"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 -229 1903"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "1"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-1313 -229 1919"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "trigger_teleport"
+"target" "redspawn3"
+"model" "*25"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1312 -228 1984"
+"team_no" "2"
+}
+{
+"classname" "trigger_multiple"
+"target" "resup tele"
+"health" "1"
+"model" "*26"
+}
+{
+"classname" "trigger_multiple"
+"target" "resup tele"
+"health" "1"
+"model" "*27"
+}
+{
+"classname" "trigger_teleport"
+"target" "blue resup"
+"team_no" "1"
+"targetname" "resup tele"
+"model" "*28"
+}
+{
+"classname" "trigger_teleport"
+"target" "blue resup"
+"team_no" "1"
+"targetname" "resup tele"
+"model" "*29"
+}
+{
+"classname" "trigger_teleport"
+"target" "red resup"
+"team_no" "2"
+"targetname" "resup tele"
+"model" "*30"
+}
+{
+"classname" "trigger_teleport"
+"target" "red resup"
+"team_no" "2"
+"targetname" "resup tele"
+"model" "*31"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-256 1280 1952"
+"angle" "0"
+"targetname" "blue resup"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "424 1280 1952"
+"angle" "0"
+"targetname" "red resup"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-256 1280 1871"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-256 1280 1887"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "1"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-256 1280 1903"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "80 816 1192"
+"angle" "180"
+"targetname" "blue r1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-616 -776 1192"
+"angle" "45"
+"targetname" "blue r2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "48 72 1192"
+"angle" "135"
+"targetname" "blue r3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-704 440 1192"
+"angle" "270"
+"targetname" "blue r4"
+}
+{
+"classname" "func_train"
+"speed" "600"
+"target" "b r p1"
+"model" "*32"
+}
+{
+"classname" "path_corner"
+"origin" "-480 1248 1216"
+"targetname" "b r p1"
+"wait" "2"
+"target" "b r p2"
+}
+{
+"classname" "path_corner"
+"origin" "-416 1248 1216"
+"targetname" "b r p2"
+"wait" "1"
+"target" "b r p3"
+}
+{
+"classname" "path_corner"
+"origin" "-352 1248 1216"
+"targetname" "b r p3"
+"wait" "1"
+"target" "b r p4"
+}
+{
+"classname" "path_corner"
+"origin" "-288 1248 1216"
+"targetname" "b r p4"
+"wait" "2"
+"target" "b r p5"
+}
+{
+"classname" "path_corner"
+"origin" "-352 1248 1216"
+"targetname" "b r p5"
+"wait" "1"
+"target" "b r p6"
+}
+{
+"classname" "path_corner"
+"origin" "-416 1248 1216"
+"targetname" "b r p6"
+"wait" "1"
+"target" "b r p1"
+}
+{
+"classname" "trigger_teleport"
+"target" "blue r1"
+"model" "*33"
+}
+{
+"classname" "trigger_teleport"
+"target" "blue r2"
+"model" "*34"
+}
+{
+"classname" "trigger_teleport"
+"target" "blue r3"
+"model" "*35"
+}
+{
+"classname" "trigger_teleport"
+"target" "blue r4"
+"model" "*36"
+}
+{
+"classname" "info_tfgoal"
+"origin" "424 1280 1871"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "424 1280 1887"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "1"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_tfgoal"
+"origin" "424 1280 1903"
+"netname" "steve pack"
+"no_grenades_1" "4"
+"no_grenades_2" "0"
+"ammo_shells" "30"
+"ammo_nails" "30"
+"ammo_rockets" "30"
+"ammo_cells" "30"
+"goal_activation" "1"
+"goal_effects" "1"
+"armorvalue" "100"
+"armortype" ".8"
+"wait" "2"
+"noise" "weapons/pkup.wav"
+"health" "40"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "584 -840 1192"
+"angle" "180"
+"targetname" "red r1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-288 832 1192"
+"angle" "0"
+"targetname" "red r2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-448 192 1248"
+"angle" "315"
+"targetname" "red r3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-688 -464 1192"
+"angle" "0"
+"targetname" "red r4"
+}
+{
+"classname" "func_train"
+"speed" "600"
+"target" "r r p1"
+"model" "*37"
+}
+{
+"classname" "path_corner"
+"origin" "200 1248 1216"
+"targetname" "r r p1"
+"wait" "2"
+"target" "r r p2"
+}
+{
+"classname" "path_corner"
+"origin" "264 1248 1216"
+"targetname" "r r p2"
+"wait" "1"
+"target" "r r p3"
+}
+{
+"classname" "path_corner"
+"origin" "328 1248 1216"
+"targetname" "r r p3"
+"wait" "1"
+"target" "r r p4"
+}
+{
+"classname" "path_corner"
+"origin" "392 1248 1216"
+"targetname" "r r p4"
+"wait" "2"
+"target" "r r p5"
+}
+{
+"classname" "path_corner"
+"origin" "328 1248 1216"
+"targetname" "r r p5"
+"wait" "1"
+"target" "r r p6"
+}
+{
+"classname" "path_corner"
+"origin" "264 1248 1216"
+"targetname" "r r p6"
+"wait" "1"
+"target" "r r p1"
+}
+{
+"classname" "trigger_teleport"
+"target" "red r1"
+"model" "*38"
+}
+{
+"classname" "trigger_teleport"
+"target" "red r2"
+"model" "*39"
+}
+{
+"classname" "trigger_teleport"
+"target" "red r3"
+"model" "*40"
+}
+{
+"classname" "trigger_teleport"
+"target" "red r4"
+"model" "*41"
+}

@@ -1,0 +1,1011 @@
+{
+"spawnflags" "0"
+"message" "ƒemoman vs ≈ngineer\n\nÕap ƒesignÖÖç êM2KëƒetÖÕasterÖMƒ\n\n≈ntities¨ etcÖÖç é“ende“Ö"
+"classname" "worldspawn"
+"worldtype" "2"
+}
+{
+"speed" "300"
+"sounds" "0"
+"classname" "func_door"
+"wait" "3"
+"dmg" "50"
+"team_no" "1"
+"lip" "2"
+"angle" "-1"
+"targetname" "middoor"
+"model" "*1"
+}
+{
+"speed" "350"
+"sounds" "0"
+"classname" "func_door"
+"armorclass" "1"
+"wait" "3"
+"dmg" "50"
+"team_no" "1"
+"lip" "2"
+"angle" "-1"
+"targetname" "topdoor"
+"model" "*2"
+}
+{
+"impulse" "68"
+"classname" "info_tfdetect"
+"origin" "0 592 448"
+"maxammo_shells" "511"
+"hook_out" "1"
+"team_broadcast" "ÄÅÉÖ√HOOSE ŸOUR ‘EAMÖÉÅÇ\n\n... ƒEFENSIVE ≈NGINEER\n\n... œFFENSIVE ƒEMOMAN\n"
+"maxammo_nails" "1015"
+"noise1" "ÄÅÉ 9... ≈ngineer ÉÅÇ"
+"noise2" "ÄÅÉ 4... ƒemoman  ÉÅÇ"
+}
+{
+"classname" "info_player_start"
+"origin" "0 592 480"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 1152 80"
+"playerclass" "9"
+"team_no" "1"
+"angle" "90"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "640 1472 304"
+"targetname" "Midfloor"
+"angle" "270"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "640 1232 464"
+"targetname" "Topfloor"
+"angle" "90"
+}
+{
+"speed" "20"
+"target" "hurter"
+"sounds" "3"
+"classname" "func_button"
+"wait" "30"
+"delay" "1"
+"lip" "4"
+"team_no" "2"
+"angle" "90"
+"targetname" "ScoreButton"
+"model" "*3"
+}
+{
+"goal_activation" "1"
+"netname" "Score"
+"classname" "info_tfgoal"
+"origin" "0 1520 472"
+"wait" "30"
+"maxammo_shells" "2"
+"goal_effects" "3"
+"frags" "10"
+"team_no" "2"
+"targetname" "score"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-216 888 56"
+"playerclass" "9"
+"team_no" "1"
+"angle" "45"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-8 824 56"
+"playerclass" "9"
+"team_no" "1"
+"angle" "90"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "216 888 56"
+"playerclass" "9"
+"team_no" "1"
+"angle" "135"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-8 -824 296"
+"playerclass" "4"
+"team_no" "2"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-200 -824 296"
+"playerclass" "4"
+"team_no" "2"
+"angle" "270"
+}
+{
+"speed" "35"
+"classname" "trigger_push"
+"playerclass" "9"
+"team_no" "1"
+"angle" "90"
+"model" "*4"
+}
+{
+"speed" "35"
+"classname" "trigger_push"
+"playerclass" "9"
+"team_no" "1"
+"angle" "90"
+"model" "*5"
+}
+{
+"speed" "35"
+"classname" "trigger_push"
+"playerclass" "9"
+"team_no" "1"
+"angle" "90"
+"model" "*6"
+}
+{
+"target" "Midfloor"
+"classname" "trigger_teleport"
+"model" "*7"
+}
+{
+"target" "Topfloor"
+"classname" "trigger_teleport"
+"model" "*8"
+}
+{
+"speed" "500"
+"message" "Don't be in such a hurry!"
+"sounds" "0"
+"classname" "func_door"
+"wait" "3"
+"dmg" "75"
+"lip" "0"
+"angle" "-2"
+"targetname" "demodoor"
+"model" "*9"
+}
+{
+"speed" "500"
+"message" "Don't be in such a hurry!"
+"sounds" "0"
+"classname" "func_door"
+"wait" "3"
+"dmg" "75"
+"lip" "0"
+"angle" "180"
+"targetname" "demodoor"
+"model" "*10"
+}
+{
+"speed" "500"
+"message" "Don't be in such a hurry!"
+"sounds" "0"
+"classname" "func_door"
+"wait" "3"
+"dmg" "75"
+"lip" "0"
+"angle" "0"
+"targetname" "demodoor"
+"model" "*11"
+}
+{
+"target" "demodoor"
+"owned_by" "2"
+"netname" "Door Counter"
+"killtarget" "demodoor"
+"classname" "info_tfgoal_timer"
+"origin" "-232 56 584"
+"wait" "-1"
+"maxammo_shells" "2"
+"remove_group_no" "5"
+"remove_goal_no" "5"
+"owners_team_broadcast" "Doors are Open!\n"
+"goal_no" "5"
+"search_time" "60"
+"targetname" "counter"
+"group_no" "5"
+}
+{
+"classname" "light"
+"origin" "640 1344 384"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "640 1344 576"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "256 -128 576"
+"style" "0"
+"light" "700"
+}
+{
+"classname" "light"
+"origin" "-256 -128 576"
+"style" "0"
+"light" "700"
+}
+{
+"classname" "light"
+"origin" "-336 -432 576"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "320 -432 576"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "0 -1120 576"
+"style" "0"
+"light" "700"
+}
+{
+"classname" "light"
+"origin" "448 -1408 176"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "-448 -1408 176"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "-224 -1392 176"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "224 -1392 176"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "224 -1088 176"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "-224 -1088 176"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "-224 -864 176"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "224 -864 176"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "0 -976 176"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "0 -1280 176"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "432 -928 384"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-432 -928 384"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-432 -1232 384"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "432 -1232 384"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "368 -1456 384"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-368 -1456 384"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "192 -624 176"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "-192 -624 176"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "0 -688 176"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "0 -576 176"
+"style" "0"
+"light" "375"
+}
+{
+"classname" "light"
+"origin" "432 1456 384"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "432 1104 384"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-432 1104 384"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-432 1456 384"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-128 1456 384"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "128 1456 384"
+"style" "0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "0 592 336"
+"style" "0"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-336 592 336"
+"style" "0"
+"light" "325"
+}
+{
+"classname" "light"
+"origin" "336 592 336"
+"style" "0"
+"light" "325"
+}
+{
+"classname" "light"
+"origin" "0 1024 224"
+"style" "0"
+"light" "700"
+}
+{
+"classname" "light"
+"origin" "0 1328 224"
+"style" "0"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "128 1168 224"
+"style" "0"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-128 1168 224"
+"style" "0"
+"light" "400"
+}
+{
+"speed" "1500"
+"target" "spot2b"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "2"
+"targetname" "spot2"
+"model" "*12"
+}
+{
+"target" "spot2a"
+"classname" "path_corner"
+"origin" "496 760 372"
+"angle" "90"
+"targetname" "spot2b"
+}
+{
+"target" "spot2b"
+"classname" "path_corner"
+"origin" "-504 400 372"
+"angle" "90"
+"targetname" "spot2a"
+}
+{
+"target" "spot1b"
+"classname" "path_corner"
+"origin" "-504 760 372"
+"angle" "90"
+"targetname" "spot1a"
+}
+{
+"target" "spot1a"
+"classname" "path_corner"
+"origin" "496 388 372"
+"angle" "90"
+"targetname" "spot1b"
+}
+{
+"speed" "1500"
+"target" "spot1a"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "2"
+"targetname" "spot1"
+"model" "*13"
+}
+{
+"classname" "light"
+"origin" "288 592 256"
+"style" "0"
+"light" "650"
+}
+{
+"classname" "light"
+"origin" "-288 592 256"
+"style" "0"
+"light" "650"
+}
+{
+"target" "spot2"
+"sounds" "0"
+"classname" "trigger_once"
+"model" "*14"
+}
+{
+"target" "spot1"
+"sounds" "0"
+"classname" "trigger_once"
+"model" "*15"
+}
+{
+"target" "spot2"
+"sounds" "0"
+"classname" "trigger_once"
+"model" "*16"
+}
+{
+"target" "spot1"
+"sounds" "0"
+"classname" "trigger_once"
+"model" "*17"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"owned_by" "2"
+"message" "Go Kick Some Ass!\n"
+"netname" "redbelt"
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"armortype" "0.6"
+"origin" "-160 -1104 32"
+"noise" "items/backpack.wav"
+"no_grenades_2" "2"
+"wait" "1"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_medikit" "4"
+"ammo_nails" "500"
+"armorvalue" "300"
+"team_no" "2"
+"health" "300"
+"ammo_cells" "500"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "1"
+"ammo_rockets" "500"
+}
+{
+"target" "hurt1"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+"team_no" "1"
+"targetname" "hurter"
+"model" "*18"
+}
+{
+"target" "hurt2"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+"team_no" "1"
+"targetname" "hurter"
+"model" "*19"
+}
+{
+"target" "hurt3"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+"team_no" "1"
+"targetname" "hurter"
+"model" "*20"
+}
+{
+"target" "hurt4"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+"team_no" "1"
+"targetname" "hurter"
+"model" "*21"
+}
+{
+"target" "hurt5"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+"team_no" "1"
+"targetname" "hurter"
+"model" "*22"
+}
+{
+"target" "hurt6"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+"team_no" "1"
+"targetname" "hurter"
+"model" "*23"
+}
+{
+"target" "hurt7"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+"team_no" "1"
+"targetname" "hurter"
+"model" "*24"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1104 720 3584"
+"angle" "90"
+"targetname" "hurt1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1216 720 3584"
+"angle" "90"
+"targetname" "hurt2"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1328 720 3584"
+"angle" "90"
+"targetname" "hurt3"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1440 720 3584"
+"angle" "90"
+"targetname" "hurt4"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1552 720 3584"
+"angle" "90"
+"targetname" "hurt5"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1664 720 3584"
+"angle" "90"
+"targetname" "hurt6"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "1776 720 3584"
+"angle" "90"
+"targetname" "hurt7"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "800"
+"targetname" "dead"
+"model" "*25"
+}
+{
+"target" "dead"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "0"
+"delay" "0"
+"model" "*26"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"netname" "EngyPack"
+"message" "go kick some ass"
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"armortype" "0.6"
+"origin" "0 1376 448"
+"noise" "items/backpack.wav"
+"no_grenades_2" "2"
+"wait" "1"
+"playerclass" "9"
+"goal_effects" "1"
+"ammo_medikit" "4"
+"ammo_nails" "500"
+"armorvalue" "300"
+"team_no" "1"
+"health" "300"
+"ammo_cells" "500"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "1"
+"ammo_rockets" "500"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"netname" "EngyPack"
+"message" "go kick some ass"
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"armortype" "0.6"
+"origin" "0 1168 288"
+"noise" "items/backpack.wav"
+"no_grenades_2" "2"
+"wait" "1"
+"playerclass" "9"
+"goal_effects" "1"
+"ammo_medikit" "4"
+"ammo_nails" "500"
+"armorvalue" "300"
+"team_no" "1"
+"health" "300"
+"ammo_cells" "500"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "1"
+"ammo_rockets" "500"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"netname" "EngyPack"
+"message" "go kick some ass"
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"armortype" "0.6"
+"origin" "0 1488 32"
+"noise" "items/backpack.wav"
+"no_grenades_2" "2"
+"wait" "1"
+"playerclass" "9"
+"goal_effects" "1"
+"ammo_medikit" "4"
+"ammo_nails" "500"
+"armorvalue" "300"
+"team_no" "1"
+"health" "300"
+"ammo_cells" "500"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "1"
+"ammo_rockets" "500"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"owned_by" "2"
+"message" "Go Kick Some Ass!\n"
+"netname" "redbelt"
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"armortype" "0.6"
+"origin" "160 -1104 32"
+"noise" "items/backpack.wav"
+"no_grenades_2" "2"
+"wait" "1"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_medikit" "4"
+"ammo_nails" "500"
+"armorvalue" "300"
+"team_no" "2"
+"health" "300"
+"ammo_cells" "500"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "1"
+"ammo_rockets" "500"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"owned_by" "2"
+"message" "Go Kick Some Ass!\n"
+"netname" "redbelt"
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"armortype" "0.6"
+"origin" "432 -1472 288"
+"noise" "items/backpack.wav"
+"no_grenades_2" "2"
+"wait" "1"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_medikit" "4"
+"ammo_nails" "500"
+"armorvalue" "300"
+"team_no" "2"
+"health" "300"
+"ammo_cells" "500"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "1"
+"ammo_rockets" "500"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"owned_by" "2"
+"message" "Go Kick Some Ass!\n"
+"netname" "redbelt"
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"armortype" "0.6"
+"origin" "-432 -1472 288"
+"noise" "items/backpack.wav"
+"no_grenades_2" "2"
+"wait" "1"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_medikit" "4"
+"ammo_nails" "500"
+"armorvalue" "300"
+"team_no" "2"
+"health" "300"
+"ammo_cells" "500"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "1"
+"ammo_rockets" "500"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"owned_by" "2"
+"message" "Go Kick Some Ass!\n"
+"netname" "redbelt"
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"armortype" "0.6"
+"origin" "-128 -1088 288"
+"noise" "items/backpack.wav"
+"no_grenades_2" "2"
+"wait" "1"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_medikit" "4"
+"ammo_nails" "500"
+"armorvalue" "300"
+"team_no" "2"
+"health" "300"
+"ammo_cells" "500"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "1"
+"ammo_rockets" "500"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"owned_by" "2"
+"message" "Go Kick Some Ass!\n"
+"netname" "redbelt"
+"classname" "info_tfgoal"
+"no_grenades_1" "2"
+"armortype" "0.6"
+"origin" "128 -1088 288"
+"noise" "items/backpack.wav"
+"no_grenades_2" "2"
+"wait" "1"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_medikit" "4"
+"ammo_nails" "500"
+"armorvalue" "300"
+"team_no" "2"
+"health" "300"
+"ammo_cells" "500"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "1"
+"ammo_rockets" "500"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "200 -824 296"
+"playerclass" "4"
+"team_no" "2"
+"angle" "270"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "312 -1144 296"
+"playerclass" "4"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-312 -1144 296"
+"playerclass" "4"
+"team_no" "2"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-296 1144 56"
+"playerclass" "9"
+"team_no" "1"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "296 1144 56"
+"playerclass" "9"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "info_player_start2"
+"origin" "0 -608 320"
+"angle" "90"
+}
+{
+"target" "topdoor"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "0"
+"playerclass" "9"
+"delay" "0"
+"team_no" "1"
+"targetname" "toptrig"
+"model" "*27"
+}
+{
+"target" "middoor"
+"sounds" "0"
+"classname" "trigger_multiple"
+"wait" "0"
+"playerclass" "9"
+"delay" "0"
+"team_no" "1"
+"targetname" "midtrig"
+"model" "*28"
+}
+{
+"spawnflags" "512"
+"classname" "effect_lightning"
+"origin" "0 240 616"
+}
+{
+"spawnflags" "512"
+"classname" "effect_lightning"
+"origin" "0 -368 616"
+}
+{
+"classname" "light"
+"origin" "256 1360 576"
+"style" "0"
+"light" "550"
+}
+{
+"classname" "light"
+"origin" "-256 1360 576"
+"style" "0"
+"light" "550"
+}
+{
+"classname" "light"
+"origin" "-256 1024 576"
+"style" "0"
+"light" "550"
+}
+{
+"classname" "light"
+"origin" "256 1024 576"
+"style" "0"
+"light" "550"
+}
+{
+"classname" "light"
+"origin" "256 768 576"
+"style" "0"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "-256 768 576"
+"style" "0"
+"light" "450"
+}
+{
+"classname" "light"
+"origin" "-256 384 576"
+"style" "0"
+"light" "550"
+}
+{
+"classname" "light"
+"origin" "256 384 576"
+"style" "0"
+"light" "550"
+}
+{
+"goal_activation" "1"
+"owned_by" "1"
+"netname" "Map Info Engineer"
+"message" "Protect your Button\nAt ALL Costs!\n"
+"classname" "info_tfgoal"
+"origin" "0 1152 32"
+"playerclass" "9"
+"goal_effects" "1"
+"team_no" "1"
+}
+{
+"goal_activation" "1"
+"owned_by" "2"
+"netname" "Map Info Demoman"
+"message" "Gain their Battlements\nAnd push the Button!\n"
+"classname" "info_tfgoal"
+"origin" "8 -1448 32"
+"playerclass" "4"
+"goal_effects" "1"
+"team_no" "2"
+}

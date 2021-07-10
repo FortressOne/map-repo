@@ -1,0 +1,70 @@
+*** this map is designed for the TeamFortress 2.9 quakeC patch ***
+	   http://www.planetfortress.com/teamfortress 
+
+13.11.2002
+============================================================================
+Title                   : 2stag1 (revised)
+Filename                : 2stag1r.ent
+Author                  : JM|Leon & GotT-Bamb1
+Revisor                 : Night Hunter
+Description             : ctf with two bases.
+============================================================================
+
+* Revision Changes *
+
+Revision 3: 13.11.2002
+
+Changes:
+- Flag return time increased up to 30 sec.
+
+Revision 2: 05.11.2002
+
+Changes:
+- The second type grenades was removed from the hidden backpack.
+- The hidden backpack spawn time was increased.
+
+Bugs Fixed:
+- Small error in the team choice menu was fixed.
+
+Revision 1: 25.09.2002
+
+Features Added:
+- 4 additional respawn points, for each team.
+- 3 additional resuply packs, near respawn points.
+
+Changes:
+- The quantity of ammo, armor and health in old backpacks was reduced.
+- Old backpacks spawn time was increased.
+
+Bugs Fixed:
+- The glow of the blue team carrying player was corrected.
+- The respawn order on both bases is now identical.
+
+Original map release: 05.12.1999
+ 
+* Installation *
+
+fortress/maps/2stag1r.bsp (your old version of map)
+fortress/maps/2stag1r.ent
+
+Run QBSP:	qbsp -onlyents 2stag1r.ent 2stag1r.bsp
+
+* Play Information *
+
+TeamFortress:	Yes, 8-16 players.
+Gameplay: 	Simply capture the flag map. You should take an enemy flag 
+		and bring it to your base. 10 points for each capture.
+Known Bugs: 	The blue flag is drawn above the entrance of the red base. 
+		The red flag is drawn above the entrance of the blue base.
+		It cannot be corrected in entity... You can accept it as 
+		feature ;).
+
+* Other Info *
+
+Thanks to:
+- Eclipse for that has given me original 2stag1 (and other rare maps).
+- BorisU for sv_loadentfiles on his QW262 server.
+
+http://clan.sd.ru - Clan SD (TF Maps Review Page)
+http://mtfl.sd.ru - Moscow TeamFortress League
+

@@ -1,0 +1,785 @@
+{
+"worldtype" "2"
+"classname" "worldspawn"
+"message" "Mega TF Radio Station\nBy Gunther and the SS gang\n\nWith your hosts\nThat Hurt and Damage Inc\nhttp://megatfradio.dhs.org/"
+}
+{
+"angle" "90"
+"origin" "128 -128 320"
+"classname" "info_player_start"
+}
+{
+"angle" "0"
+"lip" "2"
+"wait" "3"
+"classname" "func_door"
+"model" "*1"
+"sounds" "4"
+"speed" "100"
+}
+{
+"angle" "270"
+"lip" "2"
+"wait" "3"
+"classname" "func_door"
+"model" "*2"
+"sounds" "4"
+"speed" "100"
+}
+{
+"light" "350"
+"origin" "-144 144 96"
+"classname" "light"
+}
+{
+"classname" "func_wall"
+"model" "*3"
+}
+{
+"light" "300"
+"origin" "-448 448 144"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-672 640 320"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-672 256 320"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-56 712 8"
+"classname" "light"
+}
+{
+"health" "1"
+"classname" "trigger_multiple"
+"model" "*4"
+}
+{
+"angle" "90"
+"lip" "12"
+"wait" "30"
+"classname" "func_button"
+"model" "*5"
+"sounds" "3"
+"target" "radio"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-320 448 320"
+"classname" "light"
+}
+{
+"angle" "-1"
+"lip" "-1"
+"wait" "3"
+"classname" "func_door"
+"model" "*6"
+"sounds" "4"
+"speed" "100"
+}
+{
+"classname" "func_wall"
+"model" "*7"
+}
+{
+"health" "10"
+"armorvalue" "10"
+"goal_effects" "1"
+"wait" "10"
+"noise" "effects/asylum/cola.wav"
+"origin" "-528 192 288"
+"classname" "info_tfgoal"
+"netname" "cola"
+"message" "Refreshing!\n"
+"goal_activation" "1"
+}
+{
+"classname" "func_illusionary"
+"model" "*8"
+}
+{
+"health" "50"
+"goal_effects" "1"
+"wait" "15"
+"noise" "items/r_item1.wav"
+"origin" "-208 448 272"
+"classname" "info_tfgoal"
+"netname" "radio health"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/armor.mdl"
+"skin" "3"
+"armorvalue" "50"
+"goal_effects" "1"
+"wait" "15"
+"noise" "items/armor1.wav"
+"armortype" "0.8"
+"origin" "-200 328 280"
+"classname" "info_tfgoal"
+"netname" "radio armor"
+"goal_activation" "1"
+}
+{
+"classname" "func_wall"
+"model" "*9"
+}
+{
+"classname" "func_wall"
+"model" "*10"
+}
+{
+"origin" "-416 256 288"
+"classname" "ambient_comp_hum"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-384 256 320"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-320 640 320"
+"classname" "light"
+}
+{
+"angle" "-1"
+"lip" "-1"
+"wait" "3"
+"classname" "func_door"
+"model" "*11"
+"sounds" "3"
+"speed" "100"
+}
+{
+"angle" "-1"
+"lip" "-1"
+"wait" "3"
+"classname" "func_door"
+"model" "*12"
+"sounds" "3"
+"speed" "100"
+}
+{
+"angle" "0"
+"health" "1"
+"lip" "-1"
+"classname" "func_button"
+"sounds" "3"
+"model" "*13"
+}
+{
+"light" "200"
+"origin" "-672 288 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-176 592 128"
+"classname" "light"
+}
+{
+"classname" "func_wall"
+"model" "*14"
+}
+{
+"classname" "func_wall"
+"model" "*15"
+}
+{
+"light" "300"
+"origin" "-680 488 56"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-720 552 56"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-640 552 56"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-680 520 -16"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-432 176 144"
+"classname" "light"
+}
+{
+"classname" "func_wall"
+"model" "*16"
+}
+{
+"origin" "-512 576 320"
+"classname" "ambient_light_buzz"
+}
+{
+"light" "300"
+"origin" "-672 -32 384"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "42 -42 384"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "42 566 384"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "176 384 16"
+"classname" "light"
+}
+{
+"classname" "func_illusionary"
+"model" "*17"
+}
+{
+"light" "300"
+"origin" "-560 -64 16"
+"classname" "light"
+}
+{
+"angle" "270"
+"classname" "trigger_push"
+"model" "*18"
+"speed" "50"
+}
+{
+"angle" "270"
+"classname" "trigger_push"
+"model" "*19"
+"speed" "50"
+}
+{
+"angle" "270"
+"classname" "trigger_push"
+"model" "*20"
+"speed" "50"
+}
+{
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_medikit" "200"
+"ammo_nails" "300"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"wait" "3"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "96 784 128"
+"classname" "info_tfgoal"
+"netname" "supply"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_nails" "300"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"wait" "3"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "224 784 128"
+"classname" "info_tfgoal"
+"netname" "supply"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_nails" "300"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"wait" "3"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "368 784 128"
+"classname" "info_tfgoal"
+"netname" "supply"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"classname" "func_illusionary"
+"model" "*21"
+}
+{
+"light" "300"
+"origin" "64 960 128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "320 960 128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "192 896 -24"
+"classname" "light"
+}
+{
+"classname" "func_illusionary"
+"model" "*23"
+}
+{
+"classname" "func_illusionary"
+"model" "*24"
+}
+{
+"classname" "func_illusionary"
+"model" "*25"
+}
+{
+"classname" "func_illusionary"
+"model" "*26"
+}
+{
+"classname" "func_illusionary"
+"model" "*27"
+}
+{
+"classname" "func_illusionary"
+"model" "*28"
+}
+{
+"health" "1"
+"goal_effects" "1"
+"origin" "96 1008 -40"
+"classname" "info_tfgoal"
+"netname" "health"
+"goal_activation" "1"
+}
+{
+"health" "1"
+"goal_effects" "1"
+"origin" "368 816 -40"
+"classname" "info_tfgoal"
+"netname" "health"
+"goal_activation" "1"
+}
+{
+"goal_effects" "1"
+"origin" "368 888 -40"
+"classname" "info_tfgoal"
+"netname" "shells"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_nails" "1"
+"goal_effects" "1"
+"origin" "368 952 -40"
+"classname" "info_tfgoal"
+"netname" "nails"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"goal_effects" "1"
+"origin" "264 1016 -40"
+"classname" "info_tfgoal"
+"netname" "rockets"
+"goal_activation" "1"
+}
+{
+"ammo_cells" "1"
+"goal_effects" "1"
+"origin" "176 1008 -40"
+"classname" "info_tfgoal"
+"netname" "cells"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/armor.mdl"
+"skin" "3"
+"armorvalue" "1"
+"goal_effects" "1"
+"armortype" "0.8"
+"origin" "32 1000 -40"
+"classname" "info_tfgoal"
+"netname" "armor"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/armor.mdl"
+"skin" "3"
+"armorvalue" "1"
+"goal_effects" "1"
+"armortype" "0.8"
+"origin" "264 840 -40"
+"classname" "info_tfgoal"
+"netname" "armor"
+"goal_activation" "1"
+}
+{
+"team_no" "1"
+"origin" "64 960 128"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "270"
+"team_no" "1"
+"origin" "128 960 128"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "192 960 128"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "256 960 128"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"origin" "320 960 128"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "func_illusionary"
+"model" "*29"
+}
+{
+"angle" "360"
+"classname" "trigger_push"
+"model" "*30"
+"speed" "50"
+}
+{
+"angle" "360"
+"classname" "trigger_push"
+"model" "*31"
+"speed" "50"
+}
+{
+"angle" "360"
+"classname" "trigger_push"
+"model" "*32"
+"speed" "50"
+}
+{
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_nails" "300"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"wait" "3"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-784 -352 128"
+"classname" "info_tfgoal"
+"netname" "supply"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_nails" "300"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "-784 -224 128"
+"classname" "info_tfgoal"
+"netname" "supply"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "300"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_nails" "300"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"origin" "-784 -80 128"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+"netname" "supply"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"classname" "func_illusionary"
+"model" "*34"
+}
+{
+"classname" "func_illusionary"
+"model" "*35"
+}
+{
+"classname" "func_illusionary"
+"model" "*36"
+}
+{
+"classname" "func_illusionary"
+"model" "*37"
+}
+{
+"classname" "func_illusionary"
+"model" "*38"
+}
+{
+"classname" "func_illusionary"
+"model" "*39"
+}
+{
+"health" "1"
+"goal_effects" "1"
+"origin" "-1008 -272 -40"
+"classname" "info_tfgoal"
+"netname" "health"
+"goal_activation" "1"
+}
+{
+"health" "1"
+"goal_effects" "1"
+"origin" "-816 -368 -40"
+"classname" "info_tfgoal"
+"netname" "health"
+"goal_activation" "1"
+}
+{
+"goal_effects" "1"
+"origin" "-880 -360 -40"
+"classname" "info_tfgoal"
+"netname" "shells"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_nails" "1"
+"goal_effects" "1"
+"origin" "-944 -360 -40"
+"classname" "info_tfgoal"
+"netname" "nails"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"goal_effects" "1"
+"origin" "-1016 -136 -40"
+"classname" "info_tfgoal"
+"netname" "rockets"
+"goal_activation" "1"
+}
+{
+"ammo_cells" "1"
+"goal_effects" "1"
+"origin" "-1008 -208 -40"
+"classname" "info_tfgoal"
+"netname" "cells"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/armor.mdl"
+"skin" "3"
+"armorvalue" "1"
+"goal_effects" "1"
+"origin" "-992 -344 -40"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+"netname" "armor"
+"goal_activation" "1"
+}
+{
+"mdl" "progs/armor.mdl"
+"skin" "3"
+"origin" "-824 -300 -40"
+"classname" "info_tfgoal"
+"netname" "armor"
+"goal_activation" "1"
+}
+{
+"light" "300"
+"origin" "-896 -192 -24"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-960 -320 128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-960 -64 128"
+"classname" "light"
+}
+{
+"team_no" "2"
+"origin" "-960 -64 128"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "-960 -128 128"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "-960 -192 128"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "-960 -256 128"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "-960 -320 128"
+"classname" "info_player_teamspawn"
+}
+{
+"light" "300"
+"origin" "128 -288 32"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "170 -170 128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-630 -202 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "202 630 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "192 128 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-320 -192 64"
+"classname" "light"
+}
+{
+"mdl" "progs/backpack.mdl"
+"goal_effects" "1"
+"wait" "10"
+"no_grenades_2" "4"
+"origin" "128 -284 32"
+"noise" "items/health1.wav"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "grenades"
+"message" "Grenades\n"
+"goal_activation" "1"
+}
+{
+"hook_out" "1"
+"origin" "128 -128 320"
+"classname" "info_tfdetect"
+"impulse" "64"
+}
+{
+"mangle" "0 90 0"
+"origin" "128 -128 320"
+"classname" "info_intermission"
+}
+{
+"targetname" "radio"
+"goal_no" "1"
+"wait" "1"
+"origin" "-400 342 294"
+"classname" "info_tfgoal"
+"netname" "radio"
+}
+{
+"team_no" "2"
+"frags" "1"
+"count" "1"
+"goal_effects" "3"
+"wait" "30"
+"origin" "-400 342 294"
+"netname_broadcast" " is on the air!\n"
+"classname" "info_tfgoal"
+"if_goal_is_active" "1"
+"netname" "radiored"
+"message" "You're live!\n"
+"goal_activation" "1"
+}
+{
+"team_no" "2"
+"health" "-999"
+"goal_effects" "1"
+"wait" "1"
+"origin" "32 785 -16"
+"netname_broadcast" " tried to sneak into blue's house\n"
+"classname" "info_tfgoal"
+"netname" "RedKiller"
+"goal_activation" "1"
+}
+{
+"team_no" "1"
+"health" "-999"
+"goal_effects" "1"
+"wait" "1"
+"origin" "-780 -32 -16"
+"netname_broadcast" " tried to sneak into red's house\n"
+"classname" "info_tfgoal"
+"netname" "BlueKiller"
+"goal_activation" "1"
+}
+{
+"team_no" "1"
+"frags" "1"
+"count" "1"
+"goal_effects" "3"
+"wait" "30"
+"origin" "-400 342 294"
+"netname_broadcast" " is on the air!\n"
+"classname" "info_tfgoal"
+"if_goal_is_active" "1"
+"netname" "radioblue"
+"message" "You're live!\n"
+"goal_activation" "1"
+}
+{
+"goal_effects" "1"
+"wait" "15"
+"netname_broadcast" " got to drive the truck!\n"
+"origin" "256 -272 40"
+"classname" "info_tfgoal"
+"message" "Please fasten your seat belts...\n"
+"netname" "Driver"
+"goal_activation" "1"
+}

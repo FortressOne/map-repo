@@ -1,0 +1,118 @@
+// A map for the Team Fortress QuakeC patch.
+
+Title: Ripple
+Map Filename: ripple.bsp
+Author: >V< Null
+Email Address: rcl@customized.com
+
+
+
+// Construction 
+
+Base: none (Inspiration from tp_beta2, concept, dm3, ironfort, 2fort_32.) 
+Editors: Worldcraft, Ented
+
+Known Bugs: By the ele, there is a group of faces that act like a solid clip brush. Im not sure
+what caused this (qbsp bug I bet) or how to fix this. Adding brushes behind it had the same
+effect. Nothing I tried would correct this problem. This annoys me so damn much. It's not worth,
+not releasing the map over though. 
+
+Build Time: About 3 weeks. 
+
+Compile Time: see compile.txt
+Machine: p2 400 w/ 128 megs.
+
+
+// props 
+
+>V< Lst for Compiling, Lighting and vissing this thing. Also for a slew of ideas
+and help with the beta testing.
+
+>V< Hugeguy for a custom qbsp
+
+// CDs I listened to while building this map. 
+( it's always reflected in the _structure_ (not the textures) Im sure you wont see it, 
+but I do. Im gonna shut up now.. ;p
+
+Grateful Dead - American Beauty (Ripple is track 6 on this BTW)
+London Symphonic Orchestra - Us and Them, Symphonic Pink Floyd
+NiN - Music(?) from The Quake CD
+A CD of a thunder storm
+Pink Floyd - The Wall
+Vivaldi - Four Seasons
+The Sound track to The Last of the Mohicans
+Wall Flowers - Bringing down the horse
+
+// Overview 
+
+This is an attack / defend map. Each team having a chance to try their hand at both.
+
+// Other Info 
+
+I let r_speeds clime up a bit in places (outside), 
+I figure most people can handle the slightly higher r_speeds now. 
+I don't see it being a problem, I didn't let them get to out of hand.
+
+I'm not really a big fan of standard CTF style maps. Yet, this is what ripple was going to be.
+But, No qbsp out there would compile it. Not even the one >V< Hugeguy made for me.
+Qbsp just doesn't like maps with > 3000 brushes much. I just got error after error,
+then the final killer error was I hit the max faces. yet. I was only at 27000. No recompile
+of qbsp would help this. It just kept telling me there were to many faces.. :( 
+So, I had to cut it back and turn it into this.. This is cool though... so.. don't worry.. :)
+
+Ripple is the name of a Grateful Dead song. I was listening to it while walking around this map
+during its development, and with the map being devoid of all life, the name just seemed fitting.
+
+Feedback is always welcomed, no matter how trivial. Just send mail to
+rcl@customized.com, please put "Ripple" some where in the subject.
+(flames can go directly to /dev/null and do _not_ need to go through me for processing.)
+
+As a random side note, I love to talk about maps. Concepts for them. Building them. 
+Texturing them, lighting them. Any thing to do with them.
+Very seldomly though do maps come up in the >V< IRC chan. :(
+So, if you want me to look at your map, have a question, comment or just want someone to 
+bounce ideas off of. You can reach me via ICQ. My UIN is 1669969
+
+Thx for playing and enjoy...
+
+// How to 
+
+copy ripple.bsp to quake/id1/maps or quake/fortress/maps
+copy sounds to quake/id1/sound/ambience or quake/fortress/sound/ambience
+except bfg__f1y.wav which goes in quake/fortress/sound/items
+
+// My take on Ripple
+
+Let's see here. I think, I really like ripple. It has a nice ambience to it and is relatively
+consistent. I don't really like the way it "Blends". Meaning, each room really feels like just 
+that, it's own free standing room. Rather then all the structure connecting (Blending) from 
+room to room. Im gonna work on that for my next map.
+
+The "Flow" isn't to bad (yes, I coin a lot of terms). Meaning, it almost acts like a big loop.
+You can get any where, from any where else and there are lots of ways to get there. 
+Which I think is very important in any DM map. 2fort4 does this EXTREMELY well. That is what I 
+believe to be part of the secret to its popularity.
+
+The lighting isn't to bad, although I would have liked to do more "Stylized Shadow Casting". 
+This map is a bit darker then I generally prefer to make base textured maps. 
+I think it worked well. There are enough  dark spots to add to the play value and give 
+it the, built into the mountain look I was aiming for. With out making it to hard to find your 
+way around. With this map I really started learning how much of a difference lighting 
+can make. I feel silly for not grasping that before. 
+
+One thing I see a lot of map makers do that is really beginning to 
+bother me, (now, back in my swamp and arena days I did it too.) is let god light their maps.
+They have no faces with a light texture on them, or sky visible, yet some how these maps are 
+bright like there were lights every where. 
+
+Also putting 1 light in a room and giving it a brightness of 1500 or so, is rather ugly. 
+I see that to often too. 
+
+Maybe I should start a  map review / tip / rant page. :)  
+Any ways, enough of my chatter. Thx for reading and enjoy Ripple.
+
+--
+Null
+
+
+return 0;

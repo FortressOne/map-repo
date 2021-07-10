@@ -1,0 +1,726 @@
+{
+"classname" "worldspawn"
+"message" "Castle Duel\n\nby ùÉêBÚee˙eëÉü\n"
+"worldtype" "0"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "4"
+"wait" "2"
+"dmg" "50"
+"health" "0"
+"lip" "0"
+"targetname" "resdoor1"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "4"
+"wait" "2"
+"dmg" "50"
+"health" "0"
+"lip" "0"
+"targetname" "resdoor2"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "resdoor1"
+"sounds" "0"
+"style" "32"
+"delay" "0"
+"model" "*3"
+}
+{
+"classname" "trigger_once"
+"target" "train"
+"sounds" "0"
+"style" "32"
+"delay" "0"
+"model" "*4"
+}
+{
+"classname" "func_train"
+"speed" "150"
+"target" "t1"
+"dmg" "200"
+"targetname" "train"
+"model" "*5"
+}
+{
+"classname" "path_corner"
+"target" "t2"
+"targetname" "t1"
+"origin" "-2845 -596 -152"
+}
+{
+"classname" "path_corner"
+"target" "t1"
+"targetname" "t2"
+"origin" "-2204 -592 -152"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "700"
+"wait" "3"
+"dmg" "10"
+"lip" "0"
+"targetname" "t2door"
+"model" "*6"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "700"
+"wait" "3"
+"dmg" "10"
+"lip" "0"
+"targetname" "t2door"
+"model" "*7"
+}
+{
+"classname" "trigger_multiple"
+"target" "resdoor2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*8"
+}
+{
+"classname" "trigger_once"
+"target" "train"
+"sounds" "0"
+"style" "32"
+"delay" "0"
+"model" "*9"
+}
+{
+"classname" "trigger_multiple"
+"target" "resdoor1"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*10"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "landr"
+"origin" "-1326 -376 -168"
+}
+{
+"classname" "func_button"
+"angle" "182"
+"target" "t2door"
+"speed" "100"
+"wait" "4"
+"delay" "2"
+"health" "1"
+"team_no" "2"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2door"
+"sounds" "0"
+"wait" "1"
+"style" "32"
+"delay" "0"
+"team_no" "2"
+"model" "*12"
+}
+{
+"classname" "trigger_multiple"
+"target" "t2door"
+"sounds" "0"
+"wait" "1"
+"style" "32"
+"delay" "0"
+"team_no" "2"
+"model" "*13"
+}
+{
+"classname" "func_illusionary"
+"model" "*14"
+}
+{
+"classname" "trigger_teleport"
+"target" "landr"
+"team_no" "2"
+"model" "*15"
+}
+{
+"classname" "info_player_start"
+"origin" "-580 -380 100"
+}
+{
+"classname" "light"
+"style" "0"
+"light" "600"
+"origin" "-2264 -332 36"
+}
+{
+"classname" "light"
+"origin" "-2172 -856 -104"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-1824 -380 -72"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-1516 -400 388"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "200"
+"wait" "7"
+"dmg" "0"
+"health" "100"
+"model" "*16"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "200"
+"wait" "7"
+"dmg" "0"
+"health" "100"
+"model" "*17"
+}
+{
+"classname" "light"
+"origin" "-1948 -368 308"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1848 -378 296"
+}
+{
+"classname" "item_artifact_invulnerability"
+"origin" "-1936 -368 276"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "4"
+"wait" "2"
+"dmg" "50"
+"health" "0"
+"lip" "0"
+"targetname" "bresdoor1"
+"model" "*18"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "4"
+"wait" "2"
+"dmg" "50"
+"health" "0"
+"lip" "0"
+"targetname" "bresdoor2"
+"model" "*19"
+}
+{
+"classname" "trigger_multiple"
+"target" "bresdoor1"
+"sounds" "0"
+"style" "32"
+"delay" "0"
+"model" "*20"
+}
+{
+"classname" "trigger_once"
+"target" "btrain"
+"sounds" "0"
+"style" "32"
+"delay" "0"
+"model" "*21"
+}
+{
+"classname" "func_train"
+"speed" "150"
+"target" "bt1"
+"dmg" "200"
+"targetname" "btrain"
+"model" "*22"
+}
+{
+"classname" "path_corner"
+"target" "bt2"
+"targetname" "bt1"
+"origin" "1352 -592 -152"
+}
+{
+"classname" "path_corner"
+"target" "bt1"
+"targetname" "bt2"
+"origin" "692 -596 -152"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "700"
+"wait" "3"
+"dmg" "10"
+"lip" "0"
+"targetname" "t1door"
+"model" "*23"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "700"
+"wait" "3"
+"dmg" "10"
+"lip" "0"
+"targetname" "t1door"
+"model" "*24"
+}
+{
+"classname" "trigger_multiple"
+"target" "bresdoor2"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*25"
+}
+{
+"classname" "trigger_once"
+"target" "btrain"
+"sounds" "0"
+"style" "32"
+"delay" "0"
+"model" "*26"
+}
+{
+"classname" "trigger_multiple"
+"target" "resdoor1"
+"sounds" "0"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*27"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "landb"
+"origin" "136 -376 -168"
+}
+{
+"classname" "func_button"
+"speed" "100"
+"target" "t1door"
+"wait" "4"
+"delay" "2"
+"team_no" "1"
+"health" "1"
+"model" "*28"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1door"
+"sounds" "0"
+"wait" "1"
+"style" "32"
+"delay" "0"
+"team_no" "1"
+"model" "*29"
+}
+{
+"classname" "trigger_multiple"
+"target" "t1door"
+"sounds" "0"
+"wait" "1"
+"style" "32"
+"delay" "0"
+"team_no" "1"
+"model" "*30"
+}
+{
+"classname" "func_illusionary"
+"model" "*31"
+}
+{
+"classname" "trigger_teleport"
+"target" "landb"
+"team_no" "1"
+"model" "*32"
+}
+{
+"classname" "light"
+"style" "0"
+"light" "600"
+"origin" "1074 -332 36"
+}
+{
+"classname" "light"
+"origin" "988 -872 -104"
+}
+{
+"classname" "light"
+"light" "700"
+"origin" "724 -396 -68"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "634 -380 -72"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "326 -400 388"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "200"
+"wait" "7"
+"dmg" "0"
+"health" "100"
+"model" "*33"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "200"
+"wait" "7"
+"dmg" "0"
+"health" "100"
+"model" "*34"
+}
+{
+"classname" "light"
+"origin" "758 -368 308"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "658 -378 296"
+}
+{
+"classname" "item_artifact_super_damage"
+"origin" "738 -370 278"
+}
+{
+"classname" "func_door"
+"angle" "182"
+"speed" "700"
+"wait" "5"
+"targetname" "mid1"
+"model" "*35"
+}
+{
+"classname" "func_button"
+"angle" "90"
+"speed" "500"
+"target" "mid1"
+"sounds" "2"
+"wait" "10"
+"delay" "0"
+"health" "1"
+"model" "*36"
+}
+{
+"classname" "func_button"
+"angle" "272"
+"speed" "500"
+"target" "mid1"
+"sounds" "2"
+"wait" "10"
+"delay" "0"
+"health" "1"
+"model" "*37"
+}
+{
+"classname" "func_door"
+"speed" "700"
+"wait" "5"
+"targetname" "mid1"
+"model" "*38"
+}
+{
+"classname" "light"
+"light" "1500"
+"origin" "-292 -368 314"
+}
+{
+"classname" "light"
+"light" "1500"
+"origin" "-904 -356 362"
+}
+{
+"classname" "item_health"
+"origin" "-1936 -368 236"
+}
+{
+"classname" "item_health"
+"origin" "744 -368 232"
+}
+{
+"classname" "light"
+"light" "700"
+"origin" "-1912 -344 -60"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "100"
+"netname" "re-supply_pack"
+"message" "Let's Get it On!!!"
+"armortype" "0.8"
+"no_grenades_1" "2"
+"no_grenades_2" "0"
+"wait" "1"
+"g_e" "2"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "50"
+"origin" "-1998 -550 -90"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "100"
+"netname" "re-supply_pack"
+"message" "Let's Get it On!!!"
+"armortype" "0.8"
+"no_grenades_1" "2"
+"no_grenades_2" "0"
+"wait" "1"
+"g_e" "2"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "50"
+"origin" "-1998 -218 -90"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "100"
+"netname" "re-supply_pack"
+"message" "Let's Get it On!!!"
+"armortype" "0.8"
+"no_grenades_1" "2"
+"no_grenades_2" "0"
+"wait" "1"
+"g_e" "2"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "50"
+"origin" "810 -218 -88"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "100"
+"netname" "re-supply_pack"
+"message" "Let's Get it On!!!"
+"armortype" "0.8"
+"no_grenades_1" "2"
+"no_grenades_2" "0"
+"wait" "1"
+"g_e" "2"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "50"
+"origin" "810 -548 -88"
+}
+{
+"classname" "i_p_t"
+"angle" "87"
+"netname" "team1_spawn"
+"team_no" "1"
+"origin" "990 -890 -118"
+}
+{
+"classname" "i_p_t"
+"angle" "272"
+"netname" "team1_spawn"
+"team_no" "1"
+"origin" "984 120 -120"
+}
+{
+"classname" "i_p_t"
+"angle" "90"
+"netname" "team2_spawn"
+"team_no" "2"
+"origin" "-2176 -900 -118"
+}
+{
+"classname" "i_p_t"
+"angle" "272"
+"netname" "team2_spawn"
+"team_no" "2"
+"origin" "-2176 120 -118"
+}
+{
+"classname" "info_tfdetect"
+"display_item_status1" "1"
+"n_s_c" "The enemy is being owned by"
+"display_item_status2" "2"
+"impulse" "128"
+"t_s_h" "The Belt is in your base."
+"b_n" "Castle Duel: Get the flag and try to keep it for as long as possible.\n"
+"t_s_c" "Your owned by"
+"hook_out" "1"
+"n_s_h" "The Belt is just stitting there"
+"b_t" "=== CHOOSE YOUR TEAM ===\n\n1.. BLUE TEAM \n2.. RED TEAM  \n\n\n\n"
+"b_b" "TeamFortress v2.1"
+"n_s_m" "The Belt is lying around."
+"t_s_m" "The Belt is lying around."
+"origin" "-960 4 -372"
+}
+{
+"classname" "light"
+"origin" "984 100 -120"
+}
+{
+"classname" "light"
+"origin" "-2176 92 -112"
+}
+{
+"activate_goal_no" "6"
+"message" "You have the flag, hold onto it"
+"noise4" "The flag returned to center"
+"d_n_n" " droped the flag \n"
+"noise" "shalrath/attack2.wav"
+"impulse" "9"
+"pausetime" "5"
+"angle" "0"
+"skin" "3"
+"mdl" "progs/tf_stan.mdl"
+"goal_no" "1"
+"g_a" "693"
+"origin" "-546 -358 -158"
+"classname" "item_tfgoal"
+}
+{
+"frags" "3"
+"maxammo_shells" "1"
+"b_b" "Blue retains their hold on the flag"
+"angle" "0"
+"group_no" "7"
+"increase_team1" "3"
+"goal_no" "2"
+"team_no" "1"
+"noise" "boss2/pop2.wav"
+"items_allowed" "1"
+"search_time" "60"
+"goal_state" "3"
+"origin" "-546 -358 -158"
+"classname" "info_tfgoal_timer"
+}
+{
+"frags" "3"
+"maxammo_shells" "2"
+"b_b" "Red retains their hold on the flag"
+"angle" "0"
+"group_no" "7"
+"increase_team2" "3"
+"goal_no" "3"
+"team_no" "2"
+"noise" "boss2/pop2.wav"
+"items_allowed" "1"
+"search_time" "60"
+"goal_state" "3"
+"origin" "-546 -358 -158"
+"classname" "info_tfgoal_timer"
+}
+{
+"restore_goal_no" "3"
+"b_n" "The enemy has the flag"
+"b_t" "Your team has the flag"
+"angle" "0"
+"remove_goal_no" "2"
+"goal_no" "5"
+"team_no" "2"
+"g_e" "1"
+"origin" "-546 -358 -158"
+"classname" "info_tfgoal"
+}
+{
+"else_goal" "5"
+"restore_goal_no" "2"
+"b_n" "The enemy has the flag"
+"b_t" "Your team has the flag"
+"angle" "0"
+"remove_goal_no" "3"
+"goal_no" "6"
+"team_no" "1"
+"g_e" "1"
+"origin" "-546 -358 -158"
+"classname" "info_tfgoal"
+}
+{
+"angle" "0"
+"remove_group_no" "7"
+"goal_no" "9"
+"origin" "0 0 16"
+"classname" "info_tfgoal"
+}
+{
+"angle" "0"
+"remove_group_no" "7"
+"goal_no" "9"
+"origin" "0 0 16"
+"classname" "info_tfgoal"
+}
+{
+"classname" "i_t_g"
+"remove_group_no" "7"
+"goal_no" "9"
+"origin" "-566 -338 -158"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "631 -370 -114"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "635 -378 -114"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-1827 -370 -112"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "-1823 -378 -112"
+}

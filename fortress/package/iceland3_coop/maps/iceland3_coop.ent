@@ -1,0 +1,1294 @@
+{
+"message" "Ice Land 3\nBy DyerMaker\nClan Kavorkian\n"
+"sounds" "4"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"classname" "light"
+"origin" "14 -1910 352"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "868 -2072 235"
+"light" "300"
+}
+{
+"speed" "400"
+"model" "*1"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "0"
+"team_no" "1"
+}
+{
+"speed" "400"
+"model" "*2"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"dmg" "0"
+"lip" "0"
+"health" "0"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "light"
+"origin" "-840 -1734 235"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-730 -1288 -38"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1008 -3542 187"
+}
+{
+"classname" "light"
+"origin" "588 -3960 41"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-406 -3026 -101"
+"light" "400"
+}
+{
+"netname" "kill_team_2_lower_ammo"
+"model" "*3"
+"sounds" "0"
+"classname" "trigger_hurt"
+"dmg" "500"
+"style" "32"
+"delay" "0"
+"team_no" "2"
+}
+{
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "team_1_ammo_lower"
+"classname" "i_t_g"
+"no_grenades_1" "5"
+"noise" "weapons/lock4.wav"
+"origin" "774 -1262 -934"
+"no_grenades_2" "5"
+"wait" "1"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+}
+{
+"netname" "team_1_lower_respawn"
+"classname" "i_p_t"
+"origin" "809 -1078 -761"
+"team_no" "1"
+"angle" "270"
+}
+{
+"netname" "team_1_lower_respawn"
+"classname" "i_p_t"
+"origin" "816 -1462 -761"
+"team_no" "1"
+"angle" "90"
+}
+{
+"speed" "400"
+"netname" "team_1_lower_ammo_door"
+"model" "*4"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"netname" "team_1_upper_respawn"
+"classname" "i_p_t"
+"origin" "143 -2327 226"
+"team_no" "1"
+"angle" "270"
+}
+{
+"netname" "team_1_upper_respawn"
+"classname" "i_p_t"
+"origin" "17 -2327 223"
+"team_no" "1"
+"angle" "270"
+}
+{
+"classname" "light"
+"origin" "-238 -1282 -541"
+"light" "300"
+}
+{
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "team_1_ammo_lower"
+"classname" "i_t_g"
+"no_grenades_1" "5"
+"noise" "weapons/lock4.wav"
+"origin" "858 -1262 -934"
+"no_grenades_2" "5"
+"wait" "1"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+}
+{
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "team_1_ammo_lower"
+"classname" "i_t_g"
+"no_grenades_1" "5"
+"noise" "weapons/lock4.wav"
+"origin" "690 -1262 -934"
+"no_grenades_2" "5"
+"wait" "1"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+}
+{
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "team_1_ammo_upper"
+"classname" "i_t_g"
+"no_grenades_1" "5"
+"noise" "weapons/lock4.wav"
+"origin" "238 -2433 135"
+"wait" "1"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+}
+{
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "team_1_ammo_upper"
+"classname" "i_t_g"
+"no_grenades_1" "5"
+"noise" "weapons/lock4.wav"
+"origin" "-25 -2433 135"
+"wait" "1"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+}
+{
+"g_a" "693"
+"owned_by" "1"
+"netname" "BluKey"
+"message" "you've got Blue's Crystal!\n"
+"classname" "item_tfgoal"
+"b_n" "blue's crystal has been taken!\n"
+"noise" "items/inv1.wav"
+"origin" "172 -1866 -573"
+"b_t" "red's have blue's crystal!\n"
+"noise3" "Your Crystal has Returned!"
+"items" "1"
+"goal_no" "1"
+"noise4" "Their Crystal has Returned!"
+"delay" "30"
+"team_no" "2"
+"skin" "1"
+"mdl" "progs/crystal.mdl"
+"group_no" "1"
+}
+{
+"speed" "100"
+"netname" "team_1_sniper_burg"
+"model" "*5"
+"classname" "func_door"
+"wait" "1"
+"dmg" "0"
+"lip" "375"
+"health" "1"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"netname" "kill_team_2_upper_ammo"
+"model" "*6"
+"sounds" "0"
+"classname" "trigger_hurt"
+"dmg" "500"
+"style" "32"
+"delay" "0"
+"team_no" "2"
+}
+{
+"classname" "light"
+"origin" "168 -2401 -434"
+"light" "300"
+}
+{
+"model" "*7"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "-832 -1778 -205"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "8 -1948 -437"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "358 -1948 -437"
+"light" "500"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "948 -1056 -873"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "948 -1480 -873"
+}
+{
+"classname" "light"
+"origin" "-340 -2048 -545"
+"light" "300"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "80 -2322 177"
+}
+{
+"classname" "light"
+"origin" "76 -2616 175"
+"light" "300"
+}
+{
+"model" "*8"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "-840 -2734 235"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-840 -2068 235"
+"light" "300"
+}
+{
+"model" "*9"
+"classname" "func_illusionary"
+}
+{
+"model" "*10"
+"classname" "func_illusionary"
+}
+{
+"model" "*11"
+"classname" "func_illusionary"
+}
+{
+"model" "*12"
+"classname" "func_illusionary"
+}
+{
+"model" "*13"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "-832 -1778 -503"
+"style" "0"
+"light" "300"
+}
+{
+"model" "*14"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "-374 -1916 -817"
+}
+{
+"model" "*15"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "-4 -2102 -801"
+"light" "300"
+}
+{
+"model" "*16"
+"classname" "func_illusionary"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "-54 -3052 171"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "-54 -2964 171"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "-54 -2880 171"
+}
+{
+"classname" "light"
+"origin" "-52 -3134 163"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "74 -2464 193"
+"light" "300"
+}
+{
+"target" "bledge"
+"model" "*17"
+"classname" "trigger_teleport"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "524 -1894 -273"
+"angle" "270"
+"targetname" "bledge"
+}
+{
+"g_a" "1"
+"items_allowed" "2"
+"netname" "Blu_scores"
+"message" "Great capture!\nBlue prevails!\n"
+"axhitme" "2"
+"classname" "i_t_g"
+"b_n" "The Blues captured your Crystal!\n"
+"noise" "misc/secret.wav"
+"origin" "522 -3172 183"
+"b_t" "Blue scores again!\n"
+"g_e" "3"
+"count" "10"
+"frags" "10"
+"goal_result" "2"
+"team_no" "1"
+}
+{
+"classname" "light"
+"origin" "162 -3556 -93"
+}
+{
+"model" "*18"
+"classname" "func_illusionary"
+}
+{
+"model" "*19"
+"classname" "func_illusionary"
+}
+{
+"model" "*20"
+"classname" "func_illusionary"
+}
+{
+"model" "*21"
+"classname" "func_illusionary"
+}
+{
+"model" "*22"
+"classname" "func_illusionary"
+}
+{
+"model" "*23"
+"classname" "func_illusionary"
+}
+{
+"model" "*24"
+"classname" "func_illusionary"
+}
+{
+"model" "*25"
+"classname" "func_illusionary"
+}
+{
+"model" "*26"
+"classname" "func_illusionary"
+}
+{
+"speed" "2000"
+"model" "*27"
+"sounds" "0"
+"classname" "func_door"
+"wait" "300"
+"dmg" "0"
+"lip" "-200"
+"health" "0"
+"angle" "235"
+"targetname" "blu_icecap"
+}
+{
+"g_a" "2"
+"target" "blu_icecap"
+"netname" "blow_blu_icecap"
+"message" "You've blown Blue's Ice Cap"
+"classname" "i_t_g"
+"origin" "-470 -1284 230"
+"g_e" "1"
+"b_b" "Blue's Ice Cap is Blown!"
+"team_no" "2"
+}
+{
+"classname" "light"
+"origin" "286 -1248 450"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-242 -1248 450"
+"light" "600"
+}
+{
+"g_a" "1"
+"classname" "i_t_g"
+"noise" "misc/icecrack.wav"
+"origin" "-470 -1284 254"
+"wait" "2"
+}
+{
+"classname" "light"
+"origin" "508 -1496 288"
+"light" "200"
+}
+{
+"speed" "300"
+"model" "*28"
+"sounds" "1"
+"classname" "func_plat"
+"height" "150"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "-480 -1496 288"
+"light" "200"
+}
+{
+"speed" "300"
+"model" "*29"
+"sounds" "1"
+"classname" "func_plat"
+"height" "150"
+"angle" "-1"
+}
+{
+"g_a" "1"
+"ammo_shells" "20"
+"netname" "blu_snipebag"
+"classname" "i_t_g"
+"noise" "weapons/lock4.wav"
+"origin" "596 -1484 410"
+"wait" "20"
+"playerclass" "2"
+"g_e" "1"
+"armorvalue" "25"
+"team_no" "1"
+"health" "20"
+"mdl" "progs/pack.mdl"
+}
+{
+"g_a" "1"
+"ammo_shells" "20"
+"netname" "blu_snipebag"
+"classname" "i_t_g"
+"noise" "weapons/lock4.wav"
+"origin" "-552 -1502 410"
+"wait" "20"
+"playerclass" "2"
+"g_e" "1"
+"armorvalue" "25"
+"team_no" "1"
+"health" "20"
+"mdl" "progs/pack.mdl"
+}
+{
+"model" "*30"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "-234 -704 450"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "278 -704 450"
+"light" "600"
+}
+{
+"speed" "10"
+"target" "icea"
+"model" "*31"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "0"
+}
+{
+"classname" "light"
+"origin" "14 1910 352"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-840 2072 235"
+"light" "300"
+}
+{
+"speed" "400"
+"model" "*32"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"lip" "0"
+"team_no" "2"
+"angle" "180"
+}
+{
+"speed" "400"
+"model" "*33"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"dmg" "0"
+"lip" "0"
+"health" "0"
+"team_no" "1"
+}
+{
+"classname" "light"
+"origin" "868 1734 235"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "758 1288 -38"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-980 3542 187"
+}
+{
+"classname" "light"
+"origin" "-560 3960 41"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "434 3026 -101"
+"light" "400"
+}
+{
+"netname" "kill_team_1_lower_ammo"
+"model" "*34"
+"sounds" "0"
+"classname" "trigger_hurt"
+"dmg" "500"
+"style" "32"
+"delay" "0"
+"team_no" "1"
+}
+{
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "team_2_ammo_lower"
+"classname" "i_t_g"
+"no_grenades_1" "5"
+"noise" "weapons/lock4.wav"
+"origin" "-746 1262 -934"
+"no_grenades_2" "5"
+"wait" "1"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+}
+{
+"netname" "team_2_lower_respawn"
+"classname" "i_p_t"
+"origin" "-781 1078 -761"
+"team_no" "2"
+"angle" "90"
+}
+{
+"netname" "team_2_lower_respawn"
+"classname" "i_p_t"
+"origin" "-788 1462 -761"
+"team_no" "2"
+"angle" "270"
+}
+{
+"speed" "400"
+"netname" "team_2_lower_ammo_door"
+"model" "*35"
+"sounds" "1"
+"classname" "func_door"
+"wait" "1"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"netname" "team_2_upper_respawn"
+"classname" "i_p_t"
+"origin" "-115 2327 226"
+"team_no" "2"
+"angle" "90"
+}
+{
+"netname" "team_2_upper_respawn"
+"classname" "i_p_t"
+"origin" "11 2327 223"
+"team_no" "2"
+"angle" "90"
+}
+{
+"classname" "light"
+"origin" "266 1282 -541"
+"light" "300"
+}
+{
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "team_2_ammo_lower"
+"classname" "i_t_g"
+"no_grenades_1" "5"
+"noise" "weapons/lock4.wav"
+"origin" "-830 1262 -934"
+"no_grenades_2" "5"
+"wait" "1"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+}
+{
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "team_2_ammo_lower"
+"classname" "i_t_g"
+"no_grenades_1" "5"
+"noise" "weapons/lock4.wav"
+"origin" "-662 1262 -934"
+"no_grenades_2" "5"
+"wait" "1"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+}
+{
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "team_2_ammo_upper"
+"classname" "i_t_g"
+"no_grenades_1" "5"
+"noise" "weapons/lock4.wav"
+"origin" "-210 2433 135"
+"wait" "1"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+}
+{
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "team_2_ammo_upper"
+"classname" "i_t_g"
+"no_grenades_1" "5"
+"noise" "weapons/lock4.wav"
+"origin" "53 2433 135"
+"wait" "1"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"mdl" "progs/pack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+}
+{
+"g_a" "693"
+"owned_by" "2"
+"netname" "RedKey"
+"message" "you've got Red's Crystal!\n"
+"classname" "item_tfgoal"
+"b_n" "red's crystal has been taken!\n"
+"noise" "items/inv1.wav"
+"origin" "-144 1866 -573"
+"b_t" "blue's have red's crystal!\n"
+"noise3" "Your Crystal has Returned!"
+"items" "2"
+"goal_no" "2"
+"noise4" "Their Crystal has Returned!"
+"delay" "30"
+"team_no" "1"
+"skin" "2"
+"mdl" "progs/crystal.mdl"
+"group_no" "2"
+}
+{
+"speed" "100"
+"netname" "team_2_sniper_burg"
+"model" "*36"
+"classname" "func_door"
+"wait" "1"
+"dmg" "0"
+"lip" "375"
+"health" "1"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"netname" "kill_team_1_upper_ammo"
+"model" "*37"
+"sounds" "0"
+"classname" "trigger_hurt"
+"dmg" "500"
+"style" "32"
+"delay" "0"
+"team_no" "1"
+}
+{
+"classname" "light"
+"origin" "-140 2401 -434"
+"light" "300"
+}
+{
+"model" "*38"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "860 1778 -205"
+"style" "0"
+"light" "300"
+}
+{
+"target" "ice2"
+"classname" "path_corner"
+"origin" "-412 1972 -638"
+"targetname" "ice1"
+}
+{
+"target" "ice1"
+"classname" "path_corner"
+"origin" "-48 1972 -638"
+"targetname" "ice2"
+}
+{
+"classname" "light"
+"origin" "20 1948 -437"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-330 1948 -437"
+"light" "500"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "-920 1056 -873"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "-920 1480 -873"
+}
+{
+"classname" "light"
+"origin" "368 2048 -545"
+"light" "300"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "-52 2322 177"
+}
+{
+"classname" "light"
+"origin" "-48 2616 175"
+"light" "300"
+}
+{
+"model" "*39"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "868 2734 235"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "868 2068 235"
+"light" "300"
+}
+{
+"model" "*40"
+"classname" "func_illusionary"
+}
+{
+"model" "*41"
+"classname" "func_illusionary"
+}
+{
+"model" "*42"
+"classname" "func_illusionary"
+}
+{
+"model" "*43"
+"classname" "func_illusionary"
+}
+{
+"model" "*44"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "860 1778 -503"
+"style" "0"
+"light" "300"
+}
+{
+"model" "*45"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "402 1916 -817"
+}
+{
+"model" "*46"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "32 2102 -801"
+"light" "300"
+}
+{
+"model" "*47"
+"classname" "func_illusionary"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "82 3052 171"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "82 2964 171"
+}
+{
+"classname" "item_artifact_envirosuit"
+"origin" "82 2880 171"
+}
+{
+"classname" "light"
+"origin" "80 3134 163"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-46 2464 193"
+"light" "300"
+}
+{
+"target" "rledge"
+"model" "*48"
+"classname" "trigger_teleport"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-496 1894 -273"
+"angle" "90"
+"targetname" "rledge"
+}
+{
+"g_a" "1"
+"items_allowed" "1"
+"netname" "Red_scores"
+"message" "Great capture!\nRed prevails!\n"
+"axhitme" "1"
+"classname" "i_t_g"
+"b_n" "The Reds captured your Crystal!\n"
+"noise" "misc/secret.wav"
+"origin" "-508 3154 183"
+"b_t" "Red scores again!\n"
+"g_e" "3"
+"count" "10"
+"frags" "10"
+"goal_result" "2"
+"team_no" "2"
+}
+{
+"classname" "light"
+"origin" "-134 3556 -93"
+}
+{
+"model" "*49"
+"classname" "func_illusionary"
+}
+{
+"model" "*50"
+"classname" "func_illusionary"
+}
+{
+"model" "*51"
+"classname" "func_illusionary"
+}
+{
+"model" "*52"
+"classname" "func_illusionary"
+}
+{
+"model" "*53"
+"classname" "func_illusionary"
+}
+{
+"model" "*54"
+"classname" "func_illusionary"
+}
+{
+"model" "*55"
+"classname" "func_illusionary"
+}
+{
+"model" "*56"
+"classname" "func_illusionary"
+}
+{
+"model" "*57"
+"classname" "func_illusionary"
+}
+{
+"speed" "2000"
+"model" "*58"
+"sounds" "0"
+"classname" "func_door"
+"wait" "300"
+"dmg" "0"
+"lip" "-200"
+"health" "0"
+"angle" "235"
+"targetname" "red_icecap"
+}
+{
+"g_a" "2"
+"target" "red_icecap"
+"netname" "blow_red_icecap"
+"message" "You've blown Red's Ice Cap"
+"classname" "i_t_g"
+"origin" "498 1284 230"
+"g_e" "1"
+"b_b" "Red's Ice Cap is Blown!"
+"team_no" "1"
+}
+{
+"classname" "light"
+"origin" "-258 1248 450"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "270 1248 450"
+"light" "600"
+}
+{
+"g_a" "1"
+"classname" "i_t_g"
+"noise" "misc/icecrack.wav"
+"origin" "498 1284 254"
+"wait" "2"
+}
+{
+"classname" "light"
+"origin" "-480 1496 288"
+"light" "200"
+}
+{
+"speed" "300"
+"model" "*59"
+"sounds" "1"
+"classname" "func_plat"
+"height" "150"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "508 1496 288"
+"light" "200"
+}
+{
+"speed" "300"
+"model" "*60"
+"sounds" "1"
+"classname" "func_plat"
+"height" "150"
+"angle" "-1"
+}
+{
+"g_a" "1"
+"ammo_shells" "20"
+"netname" "red_snipebag"
+"classname" "i_t_g"
+"noise" "weapons/lock4.wav"
+"origin" "-568 1484 410"
+"wait" "20"
+"playerclass" "2"
+"g_e" "1"
+"armorvalue" "25"
+"team_no" "2"
+"health" "20"
+"mdl" "progs/pack.mdl"
+}
+{
+"g_a" "1"
+"ammo_shells" "20"
+"netname" "red_snipebag"
+"classname" "i_t_g"
+"noise" "weapons/lock4.wav"
+"origin" "580 1502 410"
+"wait" "20"
+"playerclass" "2"
+"g_e" "1"
+"armorvalue" "25"
+"team_no" "2"
+"health" "20"
+"mdl" "progs/pack.mdl"
+}
+{
+"model" "*61"
+"classname" "func_illusionary"
+}
+{
+"n_s_c" "The enemy crystal is being carried by"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"message" "sv_friction 1\n"
+"impulse" "64"
+"t_s_h" "Your crystal is in your ice room."
+"b_n" "Take the enemy crystal to the capture pad inside your snow fort.\n"
+"classname" "info_tfdetect"
+"origin" "48 -8 484"
+"t_s_c" "Your crystal is being carried by"
+"hook_out" "1"
+"n_s_h" "The enemy crystal is in their ice room."
+"b_t" "\n\n\n\nICE LAND\n\n1 TEAM ONE\n2 TEAM TWO\n"
+"b_b" "TeamFortress v2.0"
+"n_s_m" "The enemy crystal is lying around."
+"t_s_m" "Your crystal is lying around."
+}
+{
+"classname" "info_player_start"
+"origin" "986 -16 -352"
+}
+{
+"classname" "light"
+"origin" "262 704 450"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-250 704 450"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "254 2 490"
+"light" "600"
+}
+{
+"classname" "light"
+"origin" "-258 2 490"
+"light" "600"
+}
+{
+"speed" "10"
+"target" "ice1"
+"model" "*62"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "0"
+}
+{
+"model" "*63"
+"classname" "func_illusionary"
+}
+{
+"model" "*64"
+"classname" "func_illusionary"
+}
+{
+"classname" "info_intermission"
+"origin" "958 -16 -292"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "1084 5 -330"
+"style" "4"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1106 5 -256"
+"style" "0"
+"light" "300"
+}
+{
+"classname" "i_t_g"
+"origin" "1192 -12 -366"
+"frame" "39"
+"angle" "180"
+"mdl" "progs/shambler.mdl"
+}
+{
+"model" "*65"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "106 -3028 -105"
+"light" "500"
+}
+{
+"model" "*66"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "154 -2950 322"
+"light" "450"
+}
+{
+"model" "*67"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "891 -2950 322"
+"light" "450"
+}
+{
+"model" "*68"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "795 -1268 -703"
+"light" "350"
+}
+{
+"model" "*69"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "-763 1270 -700"
+"light" "350"
+}
+{
+"model" "*70"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "-75 3024 -104"
+"light" "500"
+}
+{
+"model" "*71"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "-123 2950 324"
+"light" "450"
+}
+{
+"model" "*72"
+"classname" "func_illusionary"
+}
+{
+"classname" "light"
+"origin" "-862 2950 324"
+"light" "450"
+}
+{
+"target" "icea"
+"classname" "path_corner"
+"origin" "-122 -2232 -638"
+"targetname" "iceb"
+}
+{
+"target" "iceb"
+"classname" "path_corner"
+"origin" "242 -2232 -638"
+"targetname" "icea"
+}

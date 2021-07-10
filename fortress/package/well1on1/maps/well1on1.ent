@@ -1,0 +1,288 @@
+{
+"classname" "worldspawn"
+"message" "well1on1\nby [REV6]Freebie\n"
+"worldtype" "0"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "0 0 -472"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"items_allowed" "2"
+"netname" "team one dropoff"
+"message" "You captured the enemy flag!\n"
+"axhitme" "2"
+"b_n" "Your flag has been captured.\n"
+"noise" "misc/secret.wav"
+"b_t" "Red is no match for the mighty blue!\n"
+"g_e" "3"
+"count" "10"
+"goal_result" "2"
+"frags" "10"
+"team_no" "1"
+"origin" "0 640 -576"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"items_allowed" "1"
+"message" "You captured the enemy flag!\n"
+"netname" "team two dropoff"
+"axhitme" "1"
+"b_n" "Your flag has been captured.\n"
+"noise" "misc/secret.wav"
+"b_t" "Blue's efforts are futile. \nRed captures again! \n"
+"g_e" "3"
+"count" "10"
+"frags" "10"
+"goal_result" "2"
+"team_no" "2"
+"origin" "0 -640 -576"
+}
+{
+"classname" "item_tfgoal"
+"g_a" "181"
+"owned_by" "1"
+"netname" "team one flag"
+"message" "You have the enemy flag!!"
+"b_n" "Your flag has been plundered!"
+"noise" "items/inv1.wav"
+"b_t" "Your team has the enemy flag!"
+"goal_no" "1"
+"items" "131072"
+"noise3" "Your flag has been returned.\n"
+"delay" "30"
+"noise4" "The enemy flag was returned to base.\n"
+"team_no" "2"
+"pausetime" "5"
+"mdl" "progs/w_s_key.mdl"
+"origin" "0 528 -224"
+}
+{
+"classname" "item_tfgoal"
+"g_a" "181"
+"owned_by" "2"
+"message" "You have the red flag!"
+"netname" "team two flag"
+"b_n" "Your flag has been stolen!"
+"noise" "items/inv1.wav"
+"b_t" "Your team has the enemy flag!"
+"noise3" "Your flag has been returned.\n"
+"items" "262144"
+"goal_no" "2"
+"noise4" "The enemy flag was returned to base.\n"
+"delay" "30"
+"pausetime" "5"
+"team_no" "1"
+"mdl" "progs/w_g_key.mdl"
+"origin" "0 -528 -224"
+}
+{
+"classname" "i_p_t"
+"angle" "270"
+"playerclass" "0"
+"team_no" "1"
+"origin" "0 608 -576"
+}
+{
+"classname" "i_p_t"
+"angle" "90"
+"playerclass" "0"
+"team_no" "2"
+"origin" "0 -608 -576"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "64"
+"netname" "TF Detector"
+"b_n" "1on1well\nby [REV6]Freebie\n"
+"b_b" "TeamFortress v2.5"
+"origin" "192 0 -256"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-208 928 -608"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "208 928 -608"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-208 -928 -608"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "208 -928 -608"
+}
+{
+"classname" "light"
+"light" "650"
+"origin" "0 128 -224"
+}
+{
+"classname" "light"
+"light" "650"
+"origin" "0 -128 -224"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "250"
+"sounds" "2"
+"dmg" "0"
+"lip" "0"
+"targetname" "bluedoor"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "250"
+"sounds" "2"
+"targetname" "reddoor"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"target" "reddoor"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"target" "bluedoor"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"model" "*4"
+}
+{
+"classname" "light"
+"light" "250"
+"origin" "0 -624 -448"
+}
+{
+"classname" "light"
+"light" "250"
+"origin" "0 624 -448"
+}
+{
+"classname" "light"
+"light" "250"
+"origin" "0 640 -192"
+}
+{
+"classname" "light"
+"light" "250"
+"origin" "0 -640 -192"
+}
+{
+"classname" "light"
+"light" "250"
+"origin" "-240 896 -192"
+}
+{
+"classname" "light"
+"light" "250"
+"origin" "240 896 -192"
+}
+{
+"classname" "light"
+"light" "250"
+"origin" "-240 -896 -192"
+}
+{
+"classname" "light"
+"light" "250"
+"origin" "240 -896 -192"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"owned_by" "2"
+"ammo_shells" "100"
+"message" "You're loaded.\n"
+"netname" "BackPack"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"noise" "weapons/lock4.wav"
+"wait" "1"
+"g_e" "17"
+"ammo_medikit" "150"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "2"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+"origin" "0 -544 -576"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"owned_by" "1"
+"ammo_shells" "100"
+"message" "You're loaded.\n"
+"netname" "BackPack"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"noise" "weapons/lock4.wav"
+"wait" "1"
+"g_e" "17"
+"ammo_medikit" "150"
+"ammo_nails" "200"
+"armorvalue" "300"
+"team_no" "1"
+"health" "100"
+"ammo_cells" "200"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+"origin" "0 544 -576"
+}
+{
+"classname" "trigger_multiple"
+"target" "bluelift"
+"wait" "2"
+"style" "32"
+"delay" "0"
+"model" "*5"
+}
+{
+"classname" "trigger_multiple"
+"target" "redlift"
+"wait" "2"
+"style" "32"
+"delay" "0"
+"model" "*6"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "bluelift"
+"speed" "200"
+"sounds" "2"
+"wait" "2"
+"lip" "116"
+"model" "*7"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "redlift"
+"speed" "200"
+"sounds" "2"
+"wait" "2"
+"lip" "116"
+"model" "*8"
+}

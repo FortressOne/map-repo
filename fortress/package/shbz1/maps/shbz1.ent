@@ -1,0 +1,414 @@
+{
+"sounds" "4"
+"light" "0"
+"worldtype" "2"
+"message" "Salty Hamster's Battle Zone"
+"classname" "worldspawn"
+}
+{
+"origin" "1152 -288 64"
+"netname" "Blue_Flag"
+"skin" "1"
+"noise" "ogre/ogwake.wav"
+"message" "You have the enemy flag!"
+"team_broadcast" "You're team has the enemy flag! Give cover!"
+"non_team_broadcast" "Your flag has been taken!"
+"noise3" "Your flag has returned to base."
+"noise4" "The enemy flag has returned to base."
+"mdl" "progs/tf_flag.mdl"
+"items" "131072"
+"goal_effects" "17"
+"goal_no" "1"
+"goal_activation" "2741"
+"pausetime" "60"
+"team_no" "2"
+"owned_by" "1"
+"delay" "60"
+"classname" "item_tfgoal"
+}
+{
+"model" "*1"
+"team_no" "1"
+"health" "0"
+"dmg" "50"
+"lip" "0"
+"wait" "1"
+"sounds" "2"
+"speed" "200"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"team_no" "1"
+"health" "0"
+"dmg" "50"
+"lip" "0"
+"wait" "1"
+"sounds" "2"
+"speed" "200"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"targetname" "Cages"
+"health" "0"
+"sounds" "1"
+"dmg" "100"
+"lip" "0"
+"wait" "5"
+"speed" "20"
+"spawnflags" "32"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "1792 288 32"
+"team_no" "1"
+"noise" "weapons/pkup.wav"
+"message" "Reloaded..."
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "2"
+"health" "250"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+"ammo_nails" "250"
+"ammo_shells" "250"
+"ammo_medikit" "250"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"netname" "backpack"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1312 128 -96"
+"team_no" "1"
+"angle" "180"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1152 192 -96"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"model" "*4"
+"team_no" "2"
+"health" "0"
+"dmg" "50"
+"lip" "0"
+"wait" "1"
+"sounds" "2"
+"speed" "200"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"health" "0"
+"dmg" "50"
+"lip" "0"
+"wait" "1"
+"sounds" "2"
+"speed" "200"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"model" "*6"
+"targetname" "Cages"
+"health" "0"
+"sounds" "1"
+"dmg" "250"
+"lip" "0"
+"wait" "-1"
+"speed" "20"
+"spawnflags" "32"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "-1792 -288 32"
+"team_no" "2"
+"noise" "weapons/pkup.wav"
+"message" "Reloaded..."
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "2"
+"health" "250"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+"ammo_nails" "250"
+"ammo_shells" "250"
+"ammo_medikit" "250"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"netname" "backpack"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1312 -128 -96"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1152 -192 -96"
+"team_no" "2"
+"angle" "180"
+"classname" "info_player_teamspawn"
+}
+{
+"model" "*7"
+"delay" "2"
+"target" "Cages"
+"health" "0"
+"wait" "8"
+"sounds" "3"
+"speed" "20"
+"angle" "270"
+"classname" "func_button"
+}
+{
+"origin" "0 0 0"
+"angle" "90"
+"classname" "info_player_start"
+}
+{
+"origin" "0 0 0"
+"team_broadcast" "=== Choose your team ===\n\n1. Blue Team (Good)\n2. Red Team (Evil)"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"team_str_home" "You're flag is back where it belongs."
+"team_str_moved" "You're flag ain't where it should be!"
+"team_str_carried" "Your flag has been scrounged by"
+"non_team_str_home" "The enemy flag has been reclaimed."
+"non_team_str_moved" "The enemy flag is lying around."
+"non_team_str_carried" "The enemy flag is carried by"
+"impulse" "196"
+"classname" "info_tfdetect"
+}
+{
+"origin" "-1152 288 64"
+"netname" "Red_Flag"
+"skin" "2"
+"noise" "ogre/ogwake.wav"
+"message" "You have the enemy flag!"
+"team_broadcast" "You're team has the enemy flag! Give cover!"
+"non_team_broadcast" "Your flag has been taken!"
+"noise3" "Your flag has returned to base."
+"noise4" "The enemy flag has returned to base."
+"mdl" "progs/tf_flag.mdl"
+"items" "262144"
+"goal_effects" "17"
+"goal_no" "2"
+"goal_activation" "2741"
+"pausetime" "60"
+"team_no" "1"
+"owned_by" "2"
+"delay" "60"
+"classname" "item_tfgoal"
+}
+{
+"origin" "1472 0 32"
+"noise" "misc/power.wav"
+"netname" "reds_flag_dropoff"
+"team_broadcast" "You got the enemy scum's flag!"
+"non_team_broadcast" "Haha! Losers! Gotcha!"
+"message" "Nice one! Do it again!"
+"count" "10"
+"goal_activation" "1"
+"goal_result" "2"
+"goal_effects" "3"
+"items_allowed" "2"
+"team_no" "1"
+"axhitme" "2"
+"frags" "10"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1472 0 32"
+"noise" "misc/power.wav"
+"netname" "blues_flag_dropoff"
+"team_broadcast" "You got the enemy scum's flag!"
+"non_team_broadcast" "Haha! Losers! Gotcha!"
+"message" "Nice one! Do it again!"
+"count" "10"
+"goal_activation" "1"
+"goal_result" "2"
+"goal_effects" "3"
+"items_allowed" "1"
+"team_no" "2"
+"axhitme" "1"
+"frags" "10"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1664 288 32"
+"team_no" "1"
+"classname" "item_armorInv"
+}
+{
+"origin" "-1664 -288 32"
+"team_no" "2"
+"classname" "item_armorInv"
+}
+{
+"origin" "-352 -320 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-352 320 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "352 320 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "352 -320 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "0 0 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-544 288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-544 -288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-640 288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-640 -288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-576 0 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-832 288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-832 -288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-1472 -288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-1472 288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "-1152 0 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "544 288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "544 -288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "640 288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "640 -288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "576 0 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "832 288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "832 -288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "1472 288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "1472 -288 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "1152 0 160"
+"style" "0"
+"light" "1000"
+"classname" "light"
+}
+{
+"origin" "0 0 160"
+"mangle" "90"
+"angle" "90"
+"classname" "info_intermission"
+}

@@ -1,0 +1,758 @@
+{
+"message" "Hitler8\n Created by AlbinoBob\n Ented by JeffC\n\n ONLY SPIES CAN GRAB SPY KITS."
+"sounds" "4"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"classname" "info_player_start"
+"origin" "-1344 256 -64"
+}
+{
+"classname" "ambient_drip"
+"origin" "-64 192 -256"
+}
+{
+"classname" "ambient_drip"
+"origin" "64 192 -256"
+}
+{
+"classname" "ambient_drip"
+"origin" "64 320 -256"
+}
+{
+"classname" "ambient_drip"
+"origin" "-64 320 -256"
+}
+{
+"goal_activation" "1"
+"target" "death"
+"items_allowed" "1"
+"netname" "hitler"
+"axhitme" "1"
+"classname" "info_tfgoal"
+"noise" "/weapons/sniper.wav"
+"origin" "-1 256 -272"
+"wait" "4"
+"playerclass" "8"
+"broadcast" "GERMAN SNIPERS APPEAR DURING CAPTURE\n HITLER FLEES DURING CHAOS\n"
+"goal_effects" "3"
+"count" "10"
+"goal_no" "3"
+"frags" "10"
+"team_no" "2"
+"angle" "182"
+"mdl" "progs/hitler.mdl"
+}
+{
+"classname" "light_fluorospark"
+"origin" "-12 256 -168"
+"style" "2"
+"angle" "-2"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "128 384 -151"
+"angle" "-2"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "128 128 -153"
+"angle" "-2"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-128 384 -151"
+"angle" "-2"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-127 128 -153"
+"angle" "-2"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-320 576 -128"
+"angle" "272"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-320 -64 -128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "320 -64 -128"
+"angle" "88"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "320 576 -128"
+"angle" "182"
+"light" "300"
+}
+{
+"netname" "TF Detect"
+"impulse" "197"
+"classname" "info_tfdetect"
+"non_team_broadcast" "USA vs. USSR in the race to kidnap Hitler\n"
+"origin" "0 384 -192"
+"hook_out" "1"
+"team_broadcast" "åBERLIN, 1945å\nUSE A SPY TO TRY TO CAPTURE HITLER!\n\nÑÑÑåWHERE IS YOUR LOYALTY?åÑÑÑ\n\nìç AMERICAN LIBERALIST\nîç SOVIET COMMUNIST\n"
+}
+{
+"classname" "light"
+"origin" "0 256 -25"
+"angle" "-2"
+}
+{
+"classname" "light"
+"origin" "192 960 -152"
+"angle" "-2"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-192 960 -152"
+"angle" "-2"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "192 -448 -152"
+"angle" "-2"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-192 -448 -152"
+"angle" "-2"
+"light" "500"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "-462 258 -344"
+"wait" ".01"
+"angle" "182"
+"targetname" "spiker2"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "464 256 -342"
+"wait" ".01"
+"targetname" "spiker"
+}
+{
+"classname" "light"
+"origin" "1024 256 60"
+"angle" "-2"
+"light" "1200"
+}
+{
+"classname" "light"
+"origin" "-1024 255 60"
+"angle" "-2"
+"light" "1200"
+}
+{
+"classname" "light"
+"origin" "832 1024 60"
+"angle" "-2"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "831 -512 59"
+"angle" "-2"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "-837 -513 60"
+"angle" "-2"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "-836 1023 60"
+"angle" "-2"
+"light" "900"
+}
+{
+"classname" "light"
+"origin" "0 256 -344"
+"angle" "-2"
+"light" "400"
+}
+{
+"speed" "1000"
+"target" "spiker"
+"model" "*1"
+"sounds" "3"
+"classname" "func_button"
+"wait" "0"
+"delay" "0"
+"health" "1"
+"angle" "181"
+}
+{
+"speed" "1000"
+"target" "spiker2"
+"model" "*2"
+"sounds" "3"
+"classname" "func_button"
+"wait" "0"
+"delay" "0"
+"health" "1"
+"angle" "358"
+}
+{
+"classname" "light"
+"origin" "1342 256 -282"
+"angle" "-2"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-1344 256 -282"
+"angle" "-2"
+"light" "350"
+}
+{
+"netname" "t2 spawn1"
+"classname" "info_player_teamspawn"
+"origin" "1152 448 -448"
+"goal_no" "1"
+"team_no" "2"
+"angle" "316"
+}
+{
+"netname" "t2 spawn 2"
+"classname" "info_player_teamspawn"
+"origin" "866 -736 -448"
+"goal_no" "2"
+"team_no" "2"
+"angle" "41"
+}
+{
+"netname" "t2 spawn3"
+"classname" "info_player_teamspawn"
+"origin" "870 1250 -448"
+"goal_no" "3"
+"team_no" "2"
+"angle" "315"
+}
+{
+"netname" "t2 spawn4"
+"classname" "info_player_teamspawn"
+"origin" "424 1244 -448"
+"goal_no" "4"
+"team_no" "2"
+"angle" "316"
+}
+{
+"netname" "t1 spawn1"
+"classname" "info_player_teamspawn"
+"origin" "-420 -728 -448"
+"goal_no" "1"
+"team_no" "1"
+"angle" "135"
+}
+{
+"netname" "t1 spawn2"
+"classname" "info_player_teamspawn"
+"origin" "-872 1244 -448"
+"goal_no" "2"
+"team_no" "1"
+"angle" "227"
+}
+{
+"netname" "t1 spawn3"
+"classname" "info_player_teamspawn"
+"origin" "-1152 448 -448"
+"goal_no" "3"
+"team_no" "1"
+"angle" "227"
+}
+{
+"netname" "t1 spawn4"
+"classname" "info_player_teamspawn"
+"origin" "-876 -732 -448"
+"goal_no" "4"
+"team_no" "1"
+"angle" "136"
+}
+{
+"classname" "info_intermission"
+"origin" "1409 1076 29"
+"angle" "222"
+}
+{
+"model" "*3"
+"classname" "func_plat"
+"height" "366"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"model" "*4"
+"classname" "func_plat"
+"height" "366"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"model" "*5"
+"classname" "func_plat"
+"height" "366"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"model" "*6"
+"classname" "func_plat"
+"height" "366"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"classname" "monster_dog"
+"origin" "1024 896 -448"
+"angle" "181"
+}
+{
+"classname" "monster_dog"
+"origin" "1024 -384 -448"
+"angle" "182"
+}
+{
+"classname" "monster_dog"
+"origin" "-1024 -384 -448"
+}
+{
+"classname" "monster_dog"
+"origin" "-1024 896 -448"
+}
+{
+"classname" "monster_dog"
+"origin" "-640 512 -448"
+}
+{
+"classname" "monster_dog"
+"origin" "-640 0 -448"
+}
+{
+"classname" "monster_dog"
+"origin" "640 0 -448"
+"angle" "182"
+}
+{
+"classname" "monster_dog"
+"origin" "640 512 -448"
+"angle" "181"
+}
+{
+"classname" "monster_dog"
+"origin" "128 704 -448"
+}
+{
+"classname" "monster_dog"
+"origin" "-128 704 -448"
+}
+{
+"classname" "monster_dog"
+"origin" "188 -200 -448"
+"angle" "271"
+}
+{
+"classname" "monster_dog"
+"origin" "-192 -192 -448"
+"angle" "272"
+}
+{
+"classname" "monster_army"
+"origin" "1472 1216 -448"
+"angle" "228"
+}
+{
+"classname" "monster_army"
+"origin" "1472 -704 -448"
+"angle" "183"
+}
+{
+"classname" "monster_army"
+"origin" "1024 256 -448"
+"angle" "183"
+}
+{
+"classname" "monster_army"
+"origin" "1472 448 -448"
+"angle" "88"
+}
+{
+"classname" "monster_army"
+"origin" "1472 64 -448"
+"angle" "272"
+}
+{
+"classname" "monster_army"
+"origin" "768 384 -448"
+"angle" "181"
+}
+{
+"classname" "monster_army"
+"origin" "768 128 -448"
+"angle" "183"
+}
+{
+"classname" "monster_army"
+"origin" "320 704 -448"
+"angle" "273"
+}
+{
+"classname" "monster_army"
+"origin" "-320 704 -448"
+"angle" "272"
+}
+{
+"classname" "monster_army"
+"origin" "320 -192 -448"
+"angle" "87"
+}
+{
+"classname" "monster_army"
+"origin" "-320 -192 -448"
+"angle" "90"
+}
+{
+"classname" "monster_army"
+"origin" "-768 128 -448"
+}
+{
+"classname" "monster_army"
+"origin" "-768 384 -448"
+}
+{
+"classname" "monster_army"
+"origin" "-1024 256 -448"
+}
+{
+"classname" "monster_army"
+"origin" "-1472 64 -448"
+}
+{
+"classname" "monster_army"
+"origin" "-1472 448 -448"
+}
+{
+"classname" "monster_army"
+"origin" "-1472 1216 -448"
+}
+{
+"classname" "monster_army"
+"origin" "-1472 -704 -448"
+}
+{
+"classname" "monster_army"
+"origin" "1152 448 -192"
+}
+{
+"classname" "monster_army"
+"origin" "1152 64 -192"
+"angle" "42"
+}
+{
+"classname" "monster_army"
+"origin" "-1152 448 -192"
+}
+{
+"classname" "monster_army"
+"origin" "-1152 64 -192"
+}
+{
+"classname" "monster_army"
+"origin" "-448 320 -384"
+"angle" "181"
+}
+{
+"classname" "monster_army"
+"origin" "-448 192 -384"
+"angle" "183"
+}
+{
+"classname" "monster_army"
+"origin" "448 320 -384"
+}
+{
+"classname" "monster_army"
+"origin" "448 192 -384"
+}
+{
+"classname" "monster_army"
+"origin" "-320 -320 -64"
+"angle" "181"
+}
+{
+"classname" "monster_army"
+"origin" "-320 -576 -64"
+"angle" "182"
+}
+{
+"classname" "monster_army"
+"origin" "320 -320 -64"
+}
+{
+"classname" "monster_army"
+"origin" "320 -576 -64"
+}
+{
+"classname" "monster_army"
+"origin" "384 -448 25"
+}
+{
+"classname" "monster_army"
+"origin" "-320 -448 0"
+"angle" "182"
+}
+{
+"classname" "monster_army"
+"origin" "-320 1088 -64"
+"angle" "181"
+}
+{
+"classname" "monster_army"
+"origin" "-320 832 -64"
+"angle" "181"
+}
+{
+"classname" "monster_army"
+"origin" "-320 960 0"
+"angle" "183"
+}
+{
+"classname" "monster_army"
+"origin" "320 832 -64"
+}
+{
+"classname" "monster_army"
+"origin" "320 1088 -64"
+}
+{
+"classname" "monster_army"
+"origin" "320 960 0"
+}
+{
+"classname" "monster_army"
+"origin" "-386 256 25"
+"angle" "181"
+}
+{
+"classname" "monster_army"
+"origin" "320 256 0"
+}
+{
+"classname" "monster_army"
+"origin" "687 -444 -50"
+}
+{
+"classname" "monster_army"
+"origin" "687 960 -46"
+}
+{
+"classname" "monster_army"
+"origin" "-685 956 -42"
+"angle" "183"
+}
+{
+"classname" "monster_army"
+"origin" "-685 -452 -42"
+"angle" "182"
+}
+{
+"classname" "monster_army"
+"origin" "-320 576 -256"
+"angle" "88"
+}
+{
+"classname" "monster_army"
+"origin" "320 577 -256"
+"angle" "90"
+}
+{
+"classname" "monster_army"
+"origin" "-320 -64 -256"
+"angle" "272"
+}
+{
+"classname" "monster_army"
+"origin" "320 -64 -256"
+"angle" "273"
+}
+{
+"classname" "monster_army"
+"origin" "-128 448 -256"
+"angle" "315"
+}
+{
+"classname" "monster_army"
+"origin" "128 448 -256"
+"angle" "228"
+}
+{
+"classname" "monster_army"
+"origin" "-128 64 -256"
+"angle" "43"
+}
+{
+"classname" "monster_army"
+"origin" "128 64 -256"
+"angle" "135"
+}
+{
+"classname" "monster_army"
+"origin" "0 576 -256"
+"angle" "273"
+}
+{
+"classname" "monster_army"
+"origin" "0 -64 -256"
+"angle" "90"
+}
+{
+"classname" "monster_army"
+"origin" "-320 256 -256"
+}
+{
+"classname" "monster_army"
+"origin" "320 256 -256"
+"angle" "182"
+}
+{
+"classname" "monster_army"
+"origin" "242 256 -98"
+}
+{
+"classname" "monster_army"
+"origin" "-250 256 -92"
+"angle" "182"
+}
+{
+"classname" "monster_army"
+"origin" "320 1024 -256"
+}
+{
+"classname" "monster_army"
+"origin" "-320 1024 -256"
+"angle" "182"
+}
+{
+"classname" "monster_army"
+"origin" "-320 -512 -256"
+"angle" "182"
+}
+{
+"classname" "monster_army"
+"origin" "320 -512 -256"
+}
+{
+"classname" "monster_army"
+"origin" "4 -596 -256"
+"angle" "90"
+}
+{
+"classname" "monster_army"
+"origin" "0 1112 -248"
+"angle" "272"
+}
+{
+"goal_activation" "693"
+"owned_by" "1"
+"message" "You have the tools, capture Hitler!\n"
+"netname" "Blue Equipment"
+"classname" "item_tfgoal"
+"origin" "-1197 88 -465"
+"netname_broadcast" " has accessed a spy kit.\n"
+"noise" "items/thepower.wav"
+"team_broadcast" "Your country is attempting to capture Hitler.\n"
+"playerclass" "8"
+"owners_team_broadcast" "The Soviets are trying to capture Hitler first!\n"
+"team_drop" "The Soviet spy died while stealing a spy kit.\n"
+"noise3" "The Germans recover the spy kit.\n"
+"items" "131072"
+"goal_no" "1"
+"noise4" "The Germans recover the spy kit.\n"
+"pausetime" "5"
+"team_no" "2"
+"non_team_drop" "Our comrade died while stealing a spy kit.\n"
+"mdl" "progs/abox.mdl"
+}
+{
+"goal_activation" "693"
+"netname" "Red Equipment"
+"message" "You have the tools, capture Hitler!\n"
+"classname" "item_tfgoal"
+"origin" "1172 88 -465"
+"noise" "items/thepower.wav"
+"netname_broadcast" " has accessed a spy kit.\n"
+"playerclass" "8"
+"team_broadcast" "Your country is attempting to capture Hitler.\n"
+"team_drop" "The American spy died while stealing a spy kit.\n"
+"owners_team_broadcast" "The Americans are trying to capture Hitler first!\n"
+"goal_no" "2"
+"items" "262144"
+"noise3" "The Germans recover the spy kit.\n"
+"noise4" "The Germans recover the spy kit.\n"
+"team_no" "1"
+"pausetime" "5"
+"mdl" "progs/abox.mdl"
+"non_team_drop" "A fellow patriot died while stealing a spy kit.\n"
+}
+{
+"goal_activation" "1"
+"target" "death2"
+"items_allowed" "2"
+"netname" "hitler2"
+"axhitme" "2"
+"classname" "info_tfgoal"
+"noise" "/weapons/sniper.wav"
+"origin" "-1 256 -272"
+"wait" "4"
+"playerclass" "8"
+"broadcast" "GERMAN SNIPERS APPEAR DURING CAPTURE\n HITLER FLEES DURING CHAOS\n"
+"goal_effects" "19"
+"count" "10"
+"goal_no" "4"
+"frags" "10"
+"team_no" "1"
+"angle" "182"
+"mdl" "progs/hitler.mdl"
+}
+{
+"netname" "death"
+"if_goal_is_active" "3"
+"classname" "info_tfgoal"
+"wait" "4"
+"goal_effects" "7"
+"delay_time" "1"
+"goal_result" "2"
+"health" "-300"
+"targetname" "death"
+}
+{
+"netname" "death2"
+"if_goal_is_active" "4"
+"classname" "info_tfgoal"
+"wait" "4"
+"goal_effects" "7"
+"delay_time" "1"
+"goal_result" "2"
+"health" "-300"
+"targetname" "death2"
+}

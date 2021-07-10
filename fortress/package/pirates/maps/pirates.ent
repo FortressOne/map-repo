@@ -1,0 +1,105 @@
+{
+"classname" "worldspawn"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"target" "world_off"
+"wait" "50"
+"model" "*1"
+}
+{
+"classname" "info_tfgoal"
+"targetname" "world_off"
+"netname_broadcast" " fell off the world."
+"health" "-333"
+"origin" "2496 2112 512"
+}
+{
+"classname" "trigger_multiple"
+"wait" "50"
+"style" "32"
+"delay" "2"
+"target" "world_off"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"wait" "50"
+"style" "32"
+"delay" "2"
+"target" "world_off"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"wait" "50"
+"style" "32"
+"delay" "2"
+"target" "world_off"
+"model" "*4"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "3"
+"wait" "2"
+"goal_effects" "2"
+"message" "You are a villager"
+"origin" "-3472 3312 120"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "3"
+"wait" "2"
+"goal_effects" "2"
+"message" "You are a villager"
+"origin" "-3472 3368 120"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "3"
+"wait" "2"
+"goal_effects" "2"
+"message" "You are a villager"
+"origin" "-3472 3432 120"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "3"
+"wait" "2"
+"goal_effects" "2"
+"message" "You are a villager"
+"origin" "-3352 3248 120"
+}
+{
+"classname" "info_player_start"
+"origin" "-3392 3344 352"
+}
+{
+"classname" "item_tfgoal"
+"delay" "60"
+"owned_by" "3"
+"team_no" "4"
+"goal_no" "1"
+"mdl" "progs/tf_flag.mdl"
+"noise4" "The bomb was returned"
+"noise3" "Your bomb was returned"
+"message" "You have the bomb!"
+"goal_activation" "693"
+"netname_broadcast" " has the bomb!"
+"origin" "-3672 3688 112"
+}
+{
+"classname" "info_tfdetect"
+"hook_out" "1"
+"maxammo_rockets" "-1"
+"origin" "-3424 3704 208"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "3"
+"wait" "2"
+"goal_effects" "2"
+"message" "You are a villager"
+"origin" "-3472 3248 120"
+}

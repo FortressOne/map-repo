@@ -1,0 +1,1988 @@
+{
+"classname" "worldspawn"
+"light" "40"
+"message" "Midnight Rumble 3\nRevised by lordy and zut\nOriginal by [EQ] Edge\n"
+"sounds" "7"
+"wad" "../wads/2night2.wad;../wads/well6-aus.wad"
+"worldtype" "2"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"model" "*1"
+"sounds" "0"
+"style" "32"
+"target" "blue_inout"
+"team_no" "1"
+"wait" "4"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "0"
+"model" "*2"
+"sounds" "2"
+"speed" "100"
+"targetname" "blue_inout"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "-360"
+"model" "*3"
+"sounds" "4"
+"speed" "200"
+"targetname" "blue_flag_lift"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"model" "*4"
+"sounds" "0"
+"style" "32"
+"target" "blue_flag_lift"
+"team_no" "1"
+"wait" "4"
+}
+{
+"axhitme" "2"
+"b_o" "Your flag was captured.\n"
+"b_t" "Your team captured their flag.\n"
+"classname" "info_tfgoal"
+"count" "10"
+"frags" "10"
+"g_a" "1"
+"g_e" "19"
+"items_allowed" "2"
+"message" "You captured their flag.\n"
+"n_b" " captured red's flag.\n"
+"noise" "items/cap1.wav"
+"origin" "-2064 -672 -304"
+"owned_by" "2"
+"targetname" "cap1"
+}
+{
+"classname" "item_tfgoal"
+"d_n_n" " dropped blue's flag.\n"
+"delay" "60"
+"g_a" "4789"
+"goal_no" "1"
+"items" "131072"
+"mdl" "progs/tf_flag.mdl"
+"message" "You have their flag.\nTake it home!\n"
+"n_b" " picked up blue's flag.\n"
+"netname" "Blue Flag"
+"noise" "ogre/ogwake.wav"
+"noise3" "Your flag returned.\n"
+"noise4" "Their flag returned.\n"
+"non_team_broadcast" "Your flag has been taken!\n"
+"origin" "-3328 992 -496"
+"owned_by" "1"
+"pausetime" "60"
+"skin" "1"
+"team_broadcast" "Your team got their flag.\n"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "blue spawn point"
+"origin" "-2176 880 -240"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "blue spawn point"
+"origin" "-2176 816 -240"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "blue spawn point"
+"origin" "-2176 736 -240"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "blue spawn point"
+"origin" "-2176 608 -240"
+"team_no" "1"
+}
+{
+"ammo_cells" "100"
+"ammo_medikit" "10"
+"ammo_nails" "100"
+"ammo_rockets" "25"
+"ammo_shells" "50"
+"armortype" "0.8"
+"armorvalue" "50"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "50"
+"mdl" "progs/backpack.mdl"
+"message" "Loading up\n"
+"netname" "blue side room backpack"
+"no_grenades_1" "1"
+"origin" "-2112 608 -304"
+"team_no" "1"
+"wait" "1"
+}
+{
+"ammo_cells" "100"
+"ammo_medikit" "10"
+"ammo_nails" "100"
+"ammo_rockets" "25"
+"ammo_shells" "50"
+"armortype" "0.8"
+"armorvalue" "50"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "50"
+"mdl" "progs/backpack.mdl"
+"message" "You get the grenades\n"
+"netname" "blue side room backpack (nail)"
+"no_grenades_1" "1"
+"no_grenades_2" "1"
+"origin" "-2112 1008 -304"
+"team_no" "1"
+"wait" "1"
+}
+{
+"classname" "func_illusionary"
+"model" "*5"
+}
+{
+"classname" "func_illusionary"
+"model" "*6"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "0"
+"model" "*7"
+"sounds" "2"
+"speed" "250"
+}
+{
+"classname" "light"
+"origin" "-584 -280 -328"
+}
+{
+"classname" "light"
+"origin" "-704 -288 -328"
+}
+{
+"classname" "light"
+"origin" "-832 -288 -328"
+}
+{
+"classname" "light"
+"origin" "-1072 -288 -328"
+}
+{
+"classname" "light"
+"origin" "-960 -288 -328"
+}
+{
+"classname" "light"
+"origin" "-1104 -216 -328"
+}
+{
+"classname" "light"
+"origin" "-1104 -8 -328"
+}
+{
+"classname" "light"
+"origin" "-1104 80 -328"
+}
+{
+"classname" "light"
+"origin" "-1104 168 -328"
+}
+{
+"classname" "light"
+"origin" "-1104 376 -328"
+}
+{
+"classname" "light"
+"origin" "-1064 448 -328"
+}
+{
+"classname" "light"
+"origin" "-832 448 -328"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "296 480 -96"
+}
+{
+"classname" "light"
+"origin" "-784 256 -624"
+}
+{
+"classname" "light"
+"origin" "-1040 288 -624"
+}
+{
+"classname" "light"
+"origin" "-1296 264 -624"
+}
+{
+"classname" "light"
+"origin" "-1520 -112 -256"
+}
+{
+"classname" "light"
+"origin" "-1280 -112 -256"
+}
+{
+"classname" "light"
+"origin" "-1528 272 -144"
+}
+{
+"classname" "light"
+"origin" "-1304 272 -224"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-2040 -192 -112"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-2040 16 -112"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-2080 -32 -112"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-2080 -88 -112"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-2080 -144 -112"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-2000 -144 -112"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-2000 -88 -112"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-2000 -32 -112"
+}
+{
+"classname" "light"
+"origin" "-2464 80 -120"
+}
+{
+"classname" "light"
+"origin" "-2736 80 -184"
+}
+{
+"classname" "light"
+"origin" "-2736 -368 -280"
+}
+{
+"classname" "light"
+"origin" "-3312 -368 -376"
+}
+{
+"classname" "light"
+"origin" "-3312 224 -440"
+}
+{
+"classname" "light"
+"origin" "-3040 224 -472"
+}
+{
+"classname" "light"
+"origin" "-3040 464 -504"
+}
+{
+"classname" "light"
+"origin" "-3080 584 -440"
+}
+{
+"classname" "light"
+"origin" "-3176 712 -440"
+}
+{
+"classname" "light"
+"origin" "-2984 712 -440"
+}
+{
+"classname" "light"
+"origin" "-3272 840 -440"
+}
+{
+"classname" "light"
+"origin" "-3080 840 -440"
+}
+{
+"classname" "light"
+"origin" "-3176 968 -440"
+}
+{
+"classname" "light"
+"origin" "-2720 752 -456"
+}
+{
+"classname" "light"
+"origin" "-2528 752 -456"
+}
+{
+"classname" "light"
+"origin" "-2304 752 -488"
+}
+{
+"classname" "light"
+"origin" "-2320 536 -408"
+}
+{
+"classname" "light"
+"origin" "-2320 536 -288"
+}
+{
+"classname" "light"
+"origin" "-2320 536 -168"
+}
+{
+"classname" "light"
+"origin" "-2320 536 -528"
+}
+{
+"classname" "light"
+"origin" "-2344 128 -440"
+}
+{
+"classname" "light"
+"origin" "-2152 280 -472"
+}
+{
+"classname" "light"
+"origin" "-1856 280 -528"
+}
+{
+"classname" "light"
+"origin" "-2064 -672 -232"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "-1560 272 -288"
+}
+{
+"classname" "light"
+"origin" "-2112 688 -184"
+}
+{
+"classname" "light"
+"origin" "-2112 912 -184"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1440 1032 -176"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1696 1032 -176"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1440 1264 -176"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1696 1264 -176"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1696 752 -176"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1440 752 -176"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1696 1264 -416"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1440 1264 -416"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1696 1264 -704"
+}
+{
+"classname" "light"
+"origin" "-2664 1264 -768"
+}
+{
+"classname" "light"
+"origin" "-3152 1016 -688"
+}
+{
+"classname" "light"
+"origin" "-2936 1224 -728"
+}
+{
+"classname" "light"
+"origin" "-2384 1280 -784"
+}
+{
+"classname" "light"
+"origin" "-2088 1256 -784"
+}
+{
+"classname" "light"
+"origin" "-512 400 40"
+}
+{
+"classname" "light"
+"origin" "-792 80 72"
+}
+{
+"angle" "-2"
+"classname" "func_door"
+"dmg" "200"
+"health" "0"
+"lip" "-152"
+"model" "*8"
+"sounds" "0"
+"speed" "100"
+"targetname" "detplats"
+"wait" "3.5"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"lip" "0"
+"model" "*9"
+"sounds" "2"
+"speed" "250"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "0"
+"model" "*10"
+"sounds" "2"
+"speed" "250"
+}
+{
+"classname" "func_illusionary"
+"model" "*11"
+}
+{
+"classname" "func_illusionary"
+"model" "*12"
+}
+{
+"classname" "func_illusionary"
+"model" "*13"
+}
+{
+"classname" "func_illusionary"
+"model" "*14"
+}
+{
+"classname" "func_illusionary"
+"model" "*15"
+}
+{
+"classname" "func_illusionary"
+"model" "*16"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "-2040 -88 -224"
+"wait" "0.5"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "26"
+"netname" "blue det trigger"
+"origin" "-2064 -672 -304"
+"target" "detplats"
+}
+{
+"classname" "light"
+"light" "-30"
+"origin" "-2064 -536 -312"
+"style" "0"
+}
+{
+"classname" "light"
+"light" "120"
+"origin" "-2248 -552 -312"
+"style" "0"
+}
+{
+"classname" "light"
+"light" "120"
+"origin" "-1880 -552 -312"
+"style" "0"
+}
+{
+"classname" "func_illusionary"
+"model" "*17"
+}
+{
+"classname" "func_illusionary"
+"model" "*18"
+}
+{
+"classname" "func_illusionary"
+"model" "*19"
+}
+{
+"classname" "func_illusionary"
+"model" "*20"
+}
+{
+"classname" "light"
+"origin" "-400 632 -256"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"model" "*21"
+"sounds" "0"
+"style" "32"
+"target" "blue_lift"
+"team_no" "1"
+"wait" "4"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "-162"
+"model" "*22"
+"sounds" "2"
+"speed" "200"
+"targetname" "blue_lift"
+"wait" "2"
+}
+{
+"classname" "func_illusionary"
+"model" "*23"
+}
+{
+"classname" "func_illusionary"
+"model" "*24"
+}
+{
+"classname" "light"
+"light" "600"
+"origin" "600 40 -224"
+"style" "0"
+"wait" "0.75"
+}
+{
+"classname" "light"
+"light" "-30"
+"origin" "-384 -144 -384"
+"style" "0"
+"wait" "0.8"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-264 80 -248"
+}
+{
+"classname" "light"
+"light" "-30"
+"origin" "-400 304 -384"
+"style" "0"
+"wait" "0.8"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "-536 80 -256"
+"wait" "0.8"
+}
+{
+"classname" "light"
+"light" "125"
+"origin" "608 -208 -360"
+"wait" "0.8"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "570 -440 -224"
+"wait" "0.70"
+}
+{
+"classname" "info_tfdetect"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"hook_out" "1"
+"impulse" "4"
+"non_team_broadcast" "Capture the flag, fool.\n"
+"non_team_str_carried" "The enemy flag is being carried by "
+"non_team_str_home" "The enemy flag is the enemy base's flag room"
+"non_team_str_moved" "The enemy flag is lying around somewhere"
+"origin" "384 -640 -112"
+"team_str_carried" "Your flag is being carried by "
+"team_str_home" "Your flag is in your base's flag room"
+"team_str_moved" "Your flag has been dropped somewhere"
+}
+{
+"classname" "light"
+"light" "-30"
+"origin" "656 -208 -16"
+"wait" "0.75"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "150"
+"origin" "784 240 -352"
+"wait" "0.8"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "150"
+"origin" "784 80 -352"
+"wait" "0.8"
+}
+{
+"angle" "90"
+"classname" "light"
+"light" "150"
+"origin" "784 -80 -352"
+"wait" "0.80"
+}
+{
+"angle" "90"
+"classname" "info_player_start"
+"origin" "776 -128 -416"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"model" "*25"
+"sounds" "0"
+"style" "32"
+"target" "blue_in"
+"team_no" "1"
+"wait" "2"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "-1"
+"model" "*26"
+"sounds" "2"
+"speed" "500"
+"targetname" "blue_in"
+"wait" "1"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"model" "*27"
+"sounds" "0"
+"style" "32"
+"target" "blue_out"
+"team_no" "1"
+"wait" "2"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "-1"
+"model" "*28"
+"sounds" "2"
+"speed" "500"
+"targetname" "blue_out"
+"wait" "1"
+}
+{
+"ammo_cells" "100"
+"ammo_medikit" "10"
+"ammo_nails" "100"
+"ammo_rockets" "25"
+"ammo_shells" "50"
+"angle" "180"
+"armortype" "0.8"
+"armorvalue" "50"
+"classname" "info_tfgoal"
+"goal_activation" "25"
+"goal_effects" "1"
+"health" "50"
+"mdl" "progs/backpack.mdl"
+"message" "Loading up\n"
+"netname" "blue main room backpack"
+"no_grenades_1" "1"
+"origin" "-1040 -384 -288"
+"team_no" "1"
+"wait" "1"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "-952 -504 -248"
+}
+{
+"ammo_cells" "100"
+"ammo_medikit" "10"
+"ammo_nails" "100"
+"ammo_rockets" "25"
+"ammo_shells" "50"
+"angle" "180"
+"armortype" "0.8"
+"armorvalue" "50"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "50"
+"mdl" "progs/backpack.mdl"
+"message" "Loading up\n"
+"netname" "blue main room backpack"
+"no_grenades_1" "1"
+"origin" "-624 -384 -288"
+"team_no" "1"
+"wait" "1"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "-712 -504 -248"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "-712 -712 -248"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"netname" "blue spawn point"
+"origin" "-640 -784 -256"
+"team_no" "1"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"netname" "blue spawn point"
+"origin" "-704 -784 -256"
+"team_no" "1"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"netname" "blue spawn point"
+"origin" "-768 -784 -256"
+"team_no" "1"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"netname" "blue spawn point"
+"origin" "-832 -784 -256"
+"team_no" "1"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"netname" "blue spawn point"
+"origin" "-896 -784 -256"
+"team_no" "1"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "-952 -712 -248"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"netname" "blue spawn point"
+"origin" "-960 -784 -256"
+"team_no" "1"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"netname" "blue spawn point"
+"origin" "-1024 -784 -256"
+"team_no" "1"
+}
+{
+"angle" "270"
+"classname" "light"
+"origin" "280 -576 -416"
+}
+{
+"angle" "270"
+"classname" "light"
+"origin" "264 -928 -416"
+}
+{
+"angle" "270"
+"classname" "light"
+"origin" "584 -944 -416"
+}
+{
+"angle" "270"
+"classname" "light"
+"origin" "840 -960 -384"
+}
+{
+"classname" "func_illusionary"
+"model" "*29"
+}
+{
+"classname" "func_illusionary"
+"model" "*30"
+}
+{
+"classname" "func_illusionary"
+"model" "*31"
+}
+{
+"classname" "func_illusionary"
+"model" "*32"
+}
+{
+"classname" "func_illusionary"
+"model" "*33"
+}
+{
+"classname" "func_illusionary"
+"model" "*34"
+}
+{
+"angle" "-0"
+"classname" "light"
+"light" "180"
+"origin" "808 -776 -176"
+}
+{
+"angle" "90"
+"classname" "light"
+"origin" "584 1144 -384"
+}
+{
+"angle" "90"
+"classname" "light"
+"origin" "856 1144 -384"
+}
+{
+"classname" "func_illusionary"
+"model" "*35"
+}
+{
+"classname" "func_illusionary"
+"model" "*36"
+}
+{
+"angle" "270"
+"classname" "light"
+"origin" "1112 -960 -384"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "600"
+"origin" "1096 144 -224"
+"style" "0"
+"wait" "0.75"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "125"
+"origin" "1088 392 -360"
+"wait" "0.8"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "500"
+"origin" "1126 624 -224"
+"wait" "0.70"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "-30"
+"origin" "1040 392 -16"
+"wait" "0.75"
+}
+{
+"angle" "270"
+"classname" "light"
+"light" "150"
+"origin" "912 -56 -352"
+"wait" "0.8"
+}
+{
+"angle" "270"
+"classname" "light"
+"light" "150"
+"origin" "912 104 -352"
+"wait" "0.8"
+}
+{
+"angle" "270"
+"classname" "light"
+"light" "150"
+"origin" "912 264 -352"
+"wait" "0.80"
+}
+{
+"angle" "90"
+"classname" "light"
+"origin" "1112 1128 -416"
+}
+{
+"classname" "func_illusionary"
+"model" "*37"
+}
+{
+"classname" "func_illusionary"
+"model" "*38"
+}
+{
+"classname" "func_illusionary"
+"model" "*39"
+}
+{
+"classname" "func_illusionary"
+"model" "*40"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "180"
+"origin" "888 960 -176"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"model" "*41"
+"sounds" "0"
+"style" "32"
+"target" "red_inout"
+"team_no" "2"
+"wait" "4"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "0"
+"model" "*42"
+"sounds" "2"
+"speed" "100"
+"targetname" "red_inout"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "-360"
+"model" "*43"
+"sounds" "4"
+"speed" "200"
+"targetname" "red_flag_lift"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"model" "*44"
+"sounds" "0"
+"style" "32"
+"target" "red_flag_lift"
+"team_no" "2"
+"wait" "4"
+}
+{
+"axhitme" "1"
+"b_o" "Your flag was captured.\n"
+"b_t" "Your team captured their flag.\n"
+"classname" "info_tfgoal"
+"count" "10"
+"frags" "10"
+"g_a" "1"
+"g_e" "19"
+"items_allowed" "1"
+"message" "You captured their flag.\n"
+"n_b" " captured blue's flag.\n"
+"noise" "items/cap2.wav"
+"origin" "3760 856 -304"
+"owned_by" "1"
+"targetname" "cap2"
+}
+{
+"angle" "180"
+"classname" "item_tfgoal"
+"d_n_n" " dropped red's flag.\n"
+"delay" "60"
+"g_a" "4789"
+"goal_no" "2"
+"items" "262144"
+"mdl" "progs/tf_flag.mdl"
+"message" "You have their flag.\nTake it home!\n"
+"n_b" " picked up red's flag.\n"
+"netname" "Red Flag"
+"noise" "ogre/ogwake.wav"
+"noise3" "Your flag returned.\n"
+"noise4" "Their flag returned.\n"
+"non_team_broadcast" "Your flag was taken.\n"
+"origin" "5024 -808 -496"
+"owned_by" "2"
+"pausetime" "60"
+"skin" "2"
+"team_broadcast" "Your team got their flag.\n"
+"team_no" "1"
+}
+{
+"angle" "180"
+"classname" "info_player_teamspawn"
+"netname" "red spawn point"
+"origin" "3872 -696 -240"
+"team_no" "2"
+}
+{
+"angle" "180"
+"classname" "info_player_teamspawn"
+"netname" "red spawn point"
+"origin" "3872 -632 -240"
+"team_no" "2"
+}
+{
+"angle" "180"
+"classname" "info_player_teamspawn"
+"netname" "red spawn point"
+"origin" "3872 -552 -240"
+"team_no" "2"
+}
+{
+"angle" "180"
+"classname" "info_player_teamspawn"
+"netname" "red spawn point"
+"origin" "3872 -424 -240"
+"team_no" "2"
+}
+{
+"ammo_cells" "100"
+"ammo_medikit" "10"
+"ammo_nails" "100"
+"ammo_rockets" "25"
+"ammo_shells" "50"
+"angle" "180"
+"armortype" "0.8"
+"armorvalue" "50"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "50"
+"mdl" "progs/backpack.mdl"
+"message" "Loading up\n"
+"netname" "red side room backpack"
+"no_grenades_1" "1"
+"origin" "3808 -424 -304"
+"team_no" "2"
+"wait" "1"
+}
+{
+"ammo_cells" "100"
+"ammo_medikit" "10"
+"ammo_nails" "100"
+"ammo_rockets" "25"
+"ammo_shells" "50"
+"angle" "180"
+"armortype" "0.8"
+"armorvalue" "50"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "50"
+"mdl" "progs/backpack.mdl"
+"message" "You get the grenades\n"
+"netname" "red side room backpack (nail)"
+"no_grenades_1" "1"
+"no_grenades_2" "1"
+"origin" "3808 -824 -304"
+"team_no" "2"
+"wait" "1"
+}
+{
+"classname" "func_illusionary"
+"model" "*45"
+}
+{
+"classname" "func_illusionary"
+"model" "*46"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "0"
+"model" "*47"
+"sounds" "2"
+"speed" "250"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2280 464 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2400 472 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2528 472 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2768 472 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2656 472 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2800 400 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2800 192 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2800 104 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2800 16 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2800 -192 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2760 -264 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2528 -264 -328"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "300"
+"origin" "1400 -296 -96"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2480 -72 -624"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2736 -104 -624"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2992 -80 -624"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "3216 296 -256"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2976 296 -256"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "3224 -88 -144"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "3000 -88 -224"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "400"
+"origin" "3736 376 -112"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "400"
+"origin" "3736 168 -112"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "400"
+"origin" "3776 216 -112"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "400"
+"origin" "3776 272 -112"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "400"
+"origin" "3776 328 -112"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "400"
+"origin" "3696 328 -112"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "400"
+"origin" "3696 272 -112"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "400"
+"origin" "3696 216 -112"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4160 104 -120"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4432 104 -184"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4432 552 -280"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "5008 552 -376"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "5008 -40 -440"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4736 -40 -472"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4736 -280 -504"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4776 -400 -440"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4872 -528 -440"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4680 -528 -440"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4968 -656 -440"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4776 -656 -440"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4872 -784 -440"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4416 -568 -456"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4224 -568 -456"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4000 -568 -488"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4016 -352 -408"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4016 -352 -288"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4016 -352 -168"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4016 -352 -528"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4040 56 -440"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "3848 -96 -472"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "3552 -96 -528"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "3760 856 -232"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "150"
+"origin" "3256 -88 -288"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "3808 -504 -184"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "3808 -728 -184"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "300"
+"origin" "3136 -848 -176"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "300"
+"origin" "3392 -848 -176"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "300"
+"origin" "3136 -1080 -176"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "300"
+"origin" "3392 -1080 -176"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "300"
+"origin" "3392 -568 -176"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "300"
+"origin" "3136 -568 -176"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "300"
+"origin" "3392 -1080 -416"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "300"
+"origin" "3136 -1080 -416"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "300"
+"origin" "3392 -1080 -704"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4360 -1080 -768"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4848 -832 -688"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4632 -1040 -728"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "4080 -1096 -784"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "3784 -1072 -784"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2208 -216 40"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2488 104 72"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"lip" "0"
+"model" "*48"
+"sounds" "2"
+"speed" "250"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "0"
+"model" "*49"
+"sounds" "2"
+"speed" "250"
+}
+{
+"classname" "func_illusionary"
+"model" "*50"
+}
+{
+"classname" "func_illusionary"
+"model" "*51"
+}
+{
+"classname" "func_illusionary"
+"model" "*52"
+}
+{
+"classname" "func_illusionary"
+"model" "*53"
+}
+{
+"classname" "func_illusionary"
+"model" "*54"
+}
+{
+"classname" "func_illusionary"
+"model" "*55"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "150"
+"origin" "3736 272 -224"
+"wait" "0.5"
+}
+{
+"angle" "180"
+"classname" "info_tfgoal"
+"goal_activation" "26"
+"netname" "red det trigger"
+"origin" "3760 856 -304"
+"target" "detplats"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "-30"
+"origin" "3760 720 -312"
+"style" "0"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "120"
+"origin" "3944 736 -312"
+"style" "0"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "120"
+"origin" "3576 736 -312"
+"style" "0"
+}
+{
+"classname" "func_illusionary"
+"model" "*56"
+}
+{
+"classname" "func_illusionary"
+"model" "*57"
+}
+{
+"classname" "func_illusionary"
+"model" "*58"
+}
+{
+"classname" "func_illusionary"
+"model" "*59"
+}
+{
+"angle" "180"
+"classname" "light"
+"origin" "2096 -448 -256"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"model" "*60"
+"sounds" "0"
+"style" "32"
+"target" "red_lift"
+"team_no" "2"
+"wait" "4"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "-162"
+"model" "*61"
+"sounds" "2"
+"speed" "200"
+"targetname" "red_lift"
+"wait" "2"
+}
+{
+"classname" "func_illusionary"
+"model" "*62"
+}
+{
+"classname" "func_illusionary"
+"model" "*63"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "-30"
+"origin" "2080 328 -384"
+"style" "0"
+"wait" "0.8"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "300"
+"origin" "1960 104 -248"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "-30"
+"origin" "2096 -120 -384"
+"style" "0"
+"wait" "0.8"
+}
+{
+"angle" "180"
+"classname" "light"
+"light" "125"
+"origin" "2232 104 -256"
+"wait" "0.8"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"model" "*64"
+"sounds" "0"
+"style" "32"
+"target" "red_in"
+"team_no" "2"
+"wait" "2"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "-1"
+"model" "*65"
+"sounds" "2"
+"speed" "500"
+"targetname" "red_in"
+"wait" "1"
+}
+{
+"classname" "trigger_multiple"
+"delay" "0"
+"model" "*66"
+"sounds" "0"
+"style" "32"
+"target" "red_out"
+"team_no" "2"
+"wait" "2"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"lip" "-1"
+"model" "*67"
+"sounds" "2"
+"speed" "500"
+"targetname" "red_out"
+"wait" "1"
+}
+{
+"ammo_cells" "100"
+"ammo_medikit" "10"
+"ammo_nails" "100"
+"ammo_rockets" "25"
+"ammo_shells" "50"
+"angle" "-0"
+"armortype" "0.8"
+"armorvalue" "50"
+"classname" "info_tfgoal"
+"goal_activation" "25"
+"goal_effects" "1"
+"health" "50"
+"mdl" "progs/backpack.mdl"
+"message" "Loading up\n"
+"netname" "red main room backpack"
+"no_grenades_1" "1"
+"origin" "2736 568 -288"
+"team_no" "2"
+"wait" "1"
+}
+{
+"angle" "-0"
+"classname" "light"
+"origin" "2648 688 -248"
+}
+{
+"ammo_cells" "100"
+"ammo_medikit" "10"
+"ammo_nails" "100"
+"ammo_rockets" "25"
+"ammo_shells" "50"
+"angle" "-0"
+"armortype" "0.8"
+"armorvalue" "50"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "50"
+"mdl" "progs/backpack.mdl"
+"message" "Loading up\n"
+"netname" "red main room backpack"
+"no_grenades_1" "1"
+"origin" "2320 568 -288"
+"team_no" "2"
+"wait" "1"
+}
+{
+"angle" "-0"
+"classname" "light"
+"origin" "2408 688 -248"
+}
+{
+"angle" "-0"
+"classname" "light"
+"origin" "2408 896 -248"
+}
+{
+"angle" "270"
+"classname" "info_player_teamspawn"
+"netname" "red spawn point"
+"origin" "2336 968 -256"
+"team_no" "2"
+}
+{
+"angle" "270"
+"classname" "info_player_teamspawn"
+"netname" "red spawn point"
+"origin" "2400 968 -256"
+"team_no" "2"
+}
+{
+"angle" "270"
+"classname" "info_player_teamspawn"
+"netname" "red spawn point"
+"origin" "2464 968 -256"
+"team_no" "2"
+}
+{
+"angle" "270"
+"classname" "info_player_teamspawn"
+"netname" "red spawn point"
+"origin" "2528 968 -256"
+"team_no" "2"
+}
+{
+"angle" "270"
+"classname" "info_player_teamspawn"
+"netname" "red spawn point"
+"origin" "2592 968 -256"
+"team_no" "2"
+}
+{
+"angle" "-0"
+"classname" "light"
+"origin" "2648 896 -248"
+}
+{
+"angle" "270"
+"classname" "info_player_teamspawn"
+"netname" "red spawn point"
+"origin" "2656 968 -256"
+"team_no" "2"
+}
+{
+"angle" "270"
+"classname" "info_player_teamspawn"
+"netname" "red spawn point"
+"origin" "2720 968 -256"
+"team_no" "2"
+}
+{
+"angle" "90"
+"classname" "light"
+"origin" "1416 760 -416"
+}
+{
+"angle" "90"
+"classname" "light"
+"origin" "1432 1112 -416"
+}
+{
+"angle" "270"
+"classname" "light"
+"origin" "1056 112 -544"
+}
+{
+"angle" "270"
+"classname" "light"
+"origin" "1624 -80 -656"
+}
+{
+"angle" "270"
+"classname" "light"
+"origin" "1864 -80 -656"
+}
+{
+"angle" "90"
+"classname" "light"
+"origin" "640 72 -544"
+}
+{
+"angle" "90"
+"classname" "light"
+"origin" "72 264 -656"
+}
+{
+"angle" "90"
+"classname" "light"
+"origin" "-168 264 -656"
+}
+{
+"angle" "90"
+"classname" "func_door"
+"dmg" "200"
+"lip" "-100"
+"model" "*68"
+"targetname" "detplats"
+"wait" "5"
+}
+{
+"angle" "90"
+"classname" "info_teleport_destination"
+"origin" "-2048 -768 -280"
+"targetname" "red_tele_exit"
+}
+{
+"classname" "trigger_teleport"
+"model" "*69"
+"target" "red_tele_exit"
+}
+{
+"angle" "270"
+"classname" "info_teleport_destination"
+"origin" "3768 960 -280"
+"targetname" "blue_tele_exit"
+}
+{
+"angle" "270"
+"classname" "func_door"
+"dmg" "200"
+"lip" "-100"
+"model" "*70"
+"targetname" "detplats"
+"wait" "5"
+}
+{
+"classname" "trigger_teleport"
+"model" "*71"
+"target" "blue_tele_exit"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "500"
+"forcecloseonblock" "1"
+"lip" "-8"
+"model" "*72"
+"sounds" "4"
+"targetname" "red_door"
+}
+{
+"angle" "270"
+"classname" "func_button"
+"delay" "0"
+"health" "1"
+"model" "*73"
+"sounds" "3"
+"speed" "20"
+"target" "red_door"
+"wait" "5"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"dmg" "500"
+"forcecloseonblock" "1"
+"lip" "-8"
+"model" "*74"
+"sounds" "4"
+"targetname" "blue_door"
+}
+{
+"angle" "90"
+"classname" "func_button"
+"delay" "0"
+"health" "1"
+"model" "*75"
+"sounds" "3"
+"speed" "20"
+"target" "blue_door"
+"wait" "5"
+}

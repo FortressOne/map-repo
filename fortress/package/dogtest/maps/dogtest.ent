@@ -1,0 +1,271 @@
+{
+"message" "The Dog Test\nby DyerMaker\nClan Kavorkian\n"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"targetname" "dogdoor"
+"message" "here come the dogs!\n"
+"health" "0"
+"dmg" "0"
+"lip" "0"
+"wait" "5"
+"sounds" "0"
+"speed" "500"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"origin" "-456 0 344"
+"classname" "monster_dog"
+}
+{
+"origin" "-360 0 344"
+"classname" "monster_dog"
+}
+{
+"origin" "-264 0 344"
+"classname" "monster_dog"
+}
+{
+"origin" "-168 0 344"
+"classname" "monster_dog"
+}
+{
+"origin" "-72 0 344"
+"classname" "monster_dog"
+}
+{
+"origin" "24 0 344"
+"classname" "monster_dog"
+}
+{
+"origin" "120 0 344"
+"classname" "monster_dog"
+}
+{
+"origin" "216 0 344"
+"classname" "monster_dog"
+}
+{
+"origin" "312 0 344"
+"classname" "monster_dog"
+}
+{
+"origin" "408 0 344"
+"classname" "monster_dog"
+}
+{
+"origin" "-2 242 -60"
+"hook_out" "1"
+"classname" "info_tfdetect"
+}
+{
+"origin" "906 -96 -154"
+"team_no" "1"
+"angle" "180"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "906 112 -154"
+"team_no" "1"
+"angle" "180"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "906 56 -154"
+"team_no" "1"
+"angle" "180"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "906 -38 -154"
+"team_no" "1"
+"angle" "180"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-886 112 -154"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-886 56 -154"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-886 -38 -154"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-886 -96 -154"
+"team_no" "2"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "16 0 -160"
+"classname" "info_player_start"
+}
+{
+"model" "*2"
+"targetname" "redsafety"
+"dmg" "0"
+"lip" "0"
+"wait" "30"
+"sounds" "2"
+"speed" "600"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"targetname" "bluesafety"
+"lip" "0"
+"wait" "30"
+"sounds" "2"
+"speed" "600"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "-944 -12 -224"
+"message" "Yesss!!!\n"
+"noise" "items/inv1.wav"
+"mdl" "progs/w_g_key.mdl"
+"goal_no" "2"
+"goal_activation" "181"
+"team_no" "1"
+"items" "262144"
+"pausetime" "30"
+"delay" "30"
+"owned_by" "2"
+"non_team_broadcast" "prepare to be eaten!\n"
+"noise4" "The enemy key is home!\n"
+"noise3" "Your key is safe.\n"
+"team_broadcast" "Reds will feed the dogs!\n"
+"netname" "RedKey"
+"classname" "item_tfgoal"
+}
+{
+"origin" "948 -12 -224"
+"message" "Yesss!!!\n"
+"noise" "items/inv1.wav"
+"mdl" "progs/w_s_key.mdl"
+"goal_no" "1"
+"goal_activation" "181"
+"team_no" "2"
+"items" "131072"
+"pausetime" "30"
+"delay" "30"
+"owned_by" "1"
+"non_team_broadcast" "prepare to be eaten!\n"
+"noise4" "The enemy key is home!\n"
+"noise3" "Your key is safe.\n"
+"team_broadcast" "Blues will feed the dogs!\n"
+"netname" "BluKey"
+"classname" "item_tfgoal"
+}
+{
+"origin" "948 -12 132"
+"team_broadcast" "ten more for the blues!\n"
+"non_team_broadcast" "here come the dogs!\n"
+"goal_effects" "3"
+"goal_result" "2"
+"message" "reds are dog chow!\n"
+"noise" "misc/secret.wav"
+"frags" "10"
+"count" "10"
+"axhitme" "2"
+"items_allowed" "2"
+"target" "dogdoor"
+"g_a" "1"
+"netname" "bluescore"
+"classname" "info_tfgoal"
+}
+{
+"model" "*4"
+"items_allowed" "2"
+"height" "370"
+"angle" "-1"
+"classname" "func_plat"
+}
+{
+"model" "*5"
+"sounds" "1"
+"items_allowed" "1"
+"height" "370"
+"classname" "func_plat"
+}
+{
+"origin" "-944 -12 132"
+"team_broadcast" "ten more for the reds!\n"
+"non_team_broadcast" "here come the dogs!\n"
+"goal_effects" "3"
+"goal_result" "2"
+"message" "blues are dog chow!\n"
+"noise" "misc/secret.wav"
+"frags" "10"
+"count" "10"
+"axhitme" "1"
+"items_allowed" "1"
+"target" "dogdoor"
+"g_a" "1"
+"netname" "redscore"
+"classname" "info_tfgoal"
+}
+{
+"origin" "948 -12 -36"
+"items_allowed" "2"
+"target" "bluesafety"
+"g_a" "1"
+"netname" "bluesafety"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-944 -12 -68"
+"items_allowed" "1"
+"target" "redsafety"
+"g_a" "1"
+"netname" "redsafety"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-948 -376 -232"
+"g_e" "1"
+"wait" "1"
+"noise" "weapons/lock4.wav"
+"ammo_medikit" "50"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+"armorvalue" "300"
+"no_grenades_1" "5"
+"health" "100"
+"g_a" "1"
+"mdl" "progs/pack.mdl"
+"team_no" "2"
+"netname" "redsupply"
+"classname" "info_tfgoal"
+}
+{
+"origin" "948 344 -232"
+"g_e" "1"
+"wait" "1"
+"noise" "weapons/lock4.wav"
+"ammo_medikit" "50"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_cells" "200"
+"ammo_rockets" "150"
+"armorvalue" "300"
+"no_grenades_1" "5"
+"health" "100"
+"g_a" "1"
+"mdl" "progs/pack.mdl"
+"team_no" "1"
+"netname" "bluesupply"
+"classname" "info_tfgoal"
+}

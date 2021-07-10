@@ -1,0 +1,1323 @@
+{
+"message" "       2∆ÔÚÙ5-ÖÕÂÁ·‘∆ü\n      Entities by Zxeses\nùê⁄·–ëÖ˜˜˜ÆÓÂÙÊÚ·ÁÆ„ÔÌéê⁄·–ëü\n"
+"worldtype" "0"
+"classname" "worldspawn"
+}
+{
+"origin" "-80 -60 108"
+"non_team_broadcast" "îFort-: Capture the enemy flag!\n"
+"non_team_str_carried" "≈Œ≈ÕŸ flag: carried by"
+"non_team_str_moved" "≈Œ≈ÕŸ flag: down."
+"non_team_str_home" "≈Œ≈ÕŸ flag: base."
+"team_str_carried" "Ÿœ’“ flag: carried by"
+"team_str_moved" "Ÿœ’“ flag: down."
+"team_str_home" "Ÿœ’“ flag: base."
+"display_item_status2" "2"
+"display_item_status1" "1"
+"team_broadcast" "îFORT5\nùûü CHOOSE YOUR TEAM ùûü\n\nêëÖ BLUE TEAM\nêëÖ “≈ƒ TEAM \nê5ëÖ AutoPick\n"
+"impulse" "64"
+"hook_out" "1"
+"broadcast" "TeamFortress"
+"classname" "info_tfdetect"
+}
+{
+"origin" "-352 544 28"
+"angle" "270"
+"classname" "info_player_start"
+}
+{
+"origin" "-384 -712 20"
+"angle" "90"
+"classname" "info_player_deathmatch"
+}
+{
+"origin" "-12 -452 76"
+"angle" "110"
+"classname" "info_player_deathmatch"
+}
+{
+"spawnflags" "16"
+"origin" "820 -1220 50"
+"team_no" "1"
+"angle" "90"
+"classname" "monster_turret"
+}
+{
+"spawnflags" "16"
+"origin" "-835 1220 50"
+"team_no" "2"
+"angle" "270"
+"classname" "monster_turret"
+}
+{
+"health" "300"
+"armorvalue" "300"
+"goal_effects" "4"
+"super_damage_finished" "0"
+"targetname" "superquad"
+"wait" "1"
+"origin" "0 0 0"
+"classname" "info_tfgoal"
+}
+{
+"group_no" "1"
+"target" "removekill"
+"sounds" "4"
+"model" "*7"
+"style" "32"
+"delay" "120"
+"classname" "trigger_once"
+}
+{
+"group_no" "1"
+"target" "removekill"
+"sounds" "4"
+"model" "*15"
+"style" "32"
+"delay" "120"
+"classname" "trigger_once"
+}
+{
+"remove_group_no" "1"
+"origin" "0 0 0"
+"broadcast" "You can now cap the flag!\n"
+"targetname" "removekill"
+"classname" "info_tfgoal"
+}
+{
+"origin" "444 -3488 -388"
+"team_no" "2"
+"group_no" "1"
+"angle" "135"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "10"
+"message" "Otis says NO!\n"
+"noise" "soldier/idle.wav"
+"mdl" "progs/soldier.mdl"
+"netname" "The Otis blue"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-444 3476 -388"
+"team_no" "1"
+"group_no" "1"
+"angle" "315"
+"goal_result" "2"
+"goal_activation" "1"
+"activate_goal_no" "10"
+"message" "Otis says NO!\n"
+"noise" "soldier/idle.wav"
+"mdl" "progs/soldier.mdl"
+"netname" "The Otis red"
+"classname" "info_tfgoal"
+}
+{
+"health" "-999"
+"group_no" "1"
+"goal_no" "10"
+"goal_effects" "1"
+"netname_broadcast" " tried to grab the flag during the first 120 seconds...\n"
+"origin" "0 0 0"
+"netname" "Killer"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1 600 -150"
+"classname" "ambient_meadow"
+}
+{
+"origin" "1 -600 -150"
+"classname" "ambient_meadow"
+}
+{
+"origin" "0 -576 -128"
+"mangle" "15 90 0"
+"classname" "info_intermission"
+}
+{
+"speed" "500"
+"model" "*7"
+"sounds" "1"
+"wait" "1"
+"dmg" "50"
+"lip" "2"
+"team_no" "1"
+"angle" "-1"
+"targetname" "bluespawndoor1"
+"classname" "func_door"
+}
+{
+"target" "bluespawndoor1"
+"model" "*8"
+"style" "32"
+"lip" "2"
+"classname" "trigger_multiple"
+}
+{
+"team_no" "2"
+"angle" "360"
+"origin" "0 0 0"
+"classname" "trigger_push"
+}
+{
+"origin" "-1760 -1536 58"
+"team_no" "1"
+"angle" "4"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1760 -1280 58"
+"team_no" "1"
+"angle" "333"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1696 -1280 58"
+"team_no" "1"
+"angle" "312"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1616 -1280 66"
+"team_no" "1"
+"angle" "297"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1696 -1600 58"
+"team_no" "1"
+"angle" "16"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1616 -1600 58"
+"team_no" "1"
+"angle" "68"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1760 -1344 58"
+"team_no" "1"
+"angle" "348"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1760 -1472 58"
+"team_no" "1"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1760 -1408 58"
+"team_no" "1"
+"angle" "357"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1760 -1600 58"
+"team_no" "1"
+"angle" "19"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1760 -1536 58"
+"team_no" "1"
+"angle" "4"
+"classname" "info_player_teamspawn"
+}
+{
+"target" "btarget1"
+"netname" "resupplyin1"
+"model" "*4"
+"team_no" "1"
+"classname" "trigger_multiple"
+}
+{
+"speed" "500"
+"model" "*1"
+"sounds" "1"
+"wait" "1"
+"dmg" "50"
+"team_no" "1"
+"lip" "2"
+"targetname" "btarget1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "-1100 -1600 36"
+"target" "btarget1"
+"team_no" "1"
+"goal_activation" "1"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1100 -1650 36"
+"target" "btarget1"
+"team_no" "1"
+"goal_activation" "1"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "250"
+"message" "[ZaP] Quakeworld Mega TF\nResupplying...\n"
+"origin" "-1200 -1420 36"
+"no_grenades_1" "5"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_2" "5"
+"wait" "1"
+"goal_effects" "1"
+"ammo_medikit" "250"
+"ammo_nails" "250"
+"armorvalue" "250"
+"health" "100"
+"team_no" "1"
+"ammo_cells" "250"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "250"
+"netname" "Blue Resupply 1 left"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "250"
+"message" "[ZaP] Quakeworld Mega TF\nResupplying...\n"
+"origin" "-1200 -1552 36"
+"no_grenades_1" "5"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_2" "5"
+"wait" "1"
+"goal_effects" "1"
+"ammo_medikit" "250"
+"ammo_nails" "250"
+"armorvalue" "250"
+"health" "100"
+"team_no" "1"
+"ammo_cells" "250"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "250"
+"netname" "Blue Resupply 1 right"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-1092 -1552 36"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-1092 -1420 36"
+"classname" "light_torch_small_walltorch"
+}
+{
+"spawnflags" "1"
+"origin" "-1292 -1315 36"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "-1223 -1315 36"
+"angle" "90"
+"classname" "item_rockets"
+}
+{
+"spawnflags" "1"
+"origin" "-1200 -1315 36"
+"classname" "item_spikes"
+}
+{
+"spawnflags" "1"
+"origin" "-1150 -1315 36"
+"classname" "item_shells"
+}
+{
+"origin" "-1328 -1680 32"
+"classname" "item_armorInv"
+}
+{
+"origin" "-1280 -1696 32"
+"classname" "item_health"
+}
+{
+"origin" "-1328 -1600 50"
+"angle" "90"
+"classname" "monster_fish"
+}
+{
+"origin" "-1328 -1600 0"
+"classname" "light_flame_large_yellow"
+}
+{
+"origin" "-1320 -1606 -5"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-1336 -1606 -5"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-1320 -1594 -5"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-1336 -1594 -5"
+"classname" "light_torch_small_walltorch"
+}
+{
+"model" "*5"
+"style" "32"
+"team_no" "1"
+"target" "btarget2"
+"netname" "resupplyout1"
+"classname" "trigger_multiple"
+}
+{
+"speed" "500"
+"model" "*3"
+"sounds" "1"
+"wait" "1"
+"dmg" "50"
+"lip" "2"
+"team_no" "1"
+"angle" "-1"
+"targetname" "btarget2"
+"classname" "func_door"
+}
+{
+"target" "superquad"
+"goal_activation" "1"
+"items_allowed" "2"
+"netname_team_broadcast" " √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"message" "You √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"axhitme" "2"
+"non_team_broadcast" "Ÿœ’“ flag was √¡–‘’“≈ƒ!\n"
+"origin" "-12 -1036 64"
+"noise" "speech/cartcool.wav"
+"netname_non_team_broadcast" " √¡–‘’“≈ƒ Ÿœ’“ flag!\n"
+"team_broadcast" "Ÿœ’“ team √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"goal_effects" "19"
+"count" "10"
+"frags" "10"
+"team_no" "1"
+"netname" "Team 1 Cap"
+"classname" "info_tfgoal"
+}
+{
+"sounds" "1"
+"model" "*19"
+"style" "32"
+"delay" "0"
+"angle" "90"
+"speed" "150"
+"team_no" "2"
+"owned_by" "1"
+"netname" "Blue Sniper wind Door"
+"classname" "trigger_push"
+}
+{
+"origin" "-64 -1616 48"
+"team_no" "1"
+"angle" "89"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "28 -1616 48"
+"team_no" "1"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "535 -1460 -825"
+"team_no" "1"
+"classname" "item_artifact_envirosuit"
+}
+{
+"origin" "575 -1460 -825"
+"team_no" "1"
+"classname" "item_artifact_envirosuit"
+}
+{
+"spawnflags" "32"
+"origin" "-218 -1443 -76"
+"team_no" "1"
+"angle" "270"
+"classname" "monster_turret"
+}
+{
+"origin" "-600 -1700 25"
+"team_no" "1"
+"angle" "135"
+"classname" "monster_turret"
+}
+{
+"angle" "90"
+"origin" "444 -3550 -388"
+"spawnflags" "1"
+"classname" "monster_zombie"
+}
+{
+"angle" "180"
+"origin" "520 -3488 -388"
+"spawnflags" "1"
+"classname" "monster_zombie"
+}
+{
+"volume" "0.75"
+"origin" "444 -3488 -388"
+"classname" "ambient_chant"
+}
+{
+"volume" "0.5"
+"origin" "520 -3550 -388"
+"classname" "ambient_flagflap"
+}
+{
+"origin" "444 -3488 -388"
+"owners_team_broadcast" "\n\n\nŸœ’“ flag has been ‘¡À≈Œ!\n"
+"team_broadcast" "\n\n\nŸœ’“ team has the ≈Œ≈ÕŸ flag!\n"
+"message" "Ÿœ’ have the ≈Œ≈ÕŸ flag!\nTake it Home!\n"
+"netname_owners_team_broadcast" " ‘œœÀ Ÿœ’“ flag!\n"
+"netname_team_broadcast" " ‘œœÀ the ≈Œ≈ÕŸ flag!\n"
+"non_team_drop" "Ÿœ’“ team ÏÔÛÙ the ≈Œ≈ÕŸ flag!\n"
+"noise4" "The ≈Œ≈ÕŸ flag was returned to base!\n"
+"noise3" "Ÿœ’“ flag was returned to base!\n"
+"team_drop" "The ≈Œ≈ÕŸ ÏÔÛÙ Ÿœ’“ flag!\n"
+"items" "131072"
+"goal_no" "1"
+"owned_by" "1"
+"team_no" "2"
+"pausetime" "60"
+"skin" "1"
+"angle" "135"
+"goal_activation" "693"
+"noise" "speech/kickass.wav"
+"mdl" "progs/tf_flag.mdl"
+"netname" "Blue Flag"
+"classname" "item_tfgoal"
+}
+{
+"spawnflags" "1"
+"origin" "100 -3550 -420"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "50 -3550 -420"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "0 -3550 -420"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "490 -3100 -420"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "490 -3150 -420"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "490 -3200 -420"
+"classname" "item_cells"
+}
+{
+"speed" "500"
+"model" "*17"
+"sounds" "1"
+"wait" "1"
+"dmg" "50"
+"lip" "2"
+"team_no" "1"
+"angle" "-1"
+"targetname" "bluespawndoor2"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"style" "32"
+"lip" "2"
+"target" "bluespawndoor2"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1512 -2192 30"
+"team_no" "1"
+"angle" "147"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1432 -2192 38"
+"team_no" "1"
+"angle" "95"
+"classname" "info_player_teamspawn"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "250"
+"message" "[ZaP] Quakeworld Mega TF\nResupplying...\n"
+"origin" "940 -2020 4"
+"no_grenades_1" "5"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_2" "5"
+"wait" "1"
+"goal_effects" "1"
+"ammo_medikit" "250"
+"ammo_nails" "250"
+"armorvalue" "250"
+"health" "100"
+"team_no" "1"
+"ammo_cells" "250"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "250"
+"netname" "Blue Resupply 2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "890 -2125 24"
+"classname" "item_armorInv"
+}
+{
+"spawnflags" "1"
+"origin" "930 -2140 24"
+"classname" "item_shells"
+}
+{
+"spawnflags" "1"
+"origin" "970 -2140 24"
+"classname" "item_spikes"
+}
+{
+"origin" "1020 -2140 24"
+"classname" "item_health"
+}
+{
+"spawnflags" "1"
+"origin" "1060 -2140 24"
+"classname" "item_rockets"
+}
+{
+"spawnflags" "1"
+"origin" "1100 -2140 24"
+"classname" "item_cells"
+}
+{
+"model" "*2"
+"style" "32"
+"delay" "2"
+"angle" "-2"
+"speed" "10"
+"team_no" "2"
+"owned_by" "1"
+"netname" "Blue Resupply 2 anti-red-wind"
+"classname" "trigger_push"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "250"
+"message" "[ZaP] Quakeworld Mega TF\nResupplying...\n"
+"origin" "-1020 -3904 -420"
+"no_grenades_1" "5"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_2" "5"
+"wait" "1"
+"goal_effects" "1"
+"ammo_nails" "250"
+"ammo_medikit" "250"
+"armorvalue" "250"
+"health" "100"
+"team_no" "1"
+"ammo_cells" "250"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "250"
+"netname" "Blue Resupply 3"
+"classname" "info_tfgoal"
+}
+{
+"spawnflags" "1"
+"origin" "-908 -4008 -416"
+"classname" "item_shells"
+}
+{
+"spawnflags" "1"
+"origin" "-908 -3944 -416"
+"classname" "item_spikes"
+}
+{
+"spawnflags" "1"
+"origin" "-908 -3888 -416"
+"classname" "item_rockets"
+}
+{
+"spawnflags" "1"
+"origin" "-908 -3832 -416"
+"classname" "item_cells"
+}
+{
+"origin" "-1160 -4024 -416"
+"classname" "item_armorInv"
+}
+{
+"origin" "-1160 -3844 -416"
+"classname" "item_armorInv"
+}
+{
+"origin" "-1176 -3912 -416"
+"classname" "item_health"
+}
+{
+"speed" "500"
+"model" "*23"
+"sounds" "1"
+"wait" "1"
+"team_no" "1"
+"angle" "-1"
+"netname" "Blue Resupply 3 door"
+"classname" "func_door"
+}
+{
+"speed" "1500"
+"model" "*6"
+"sounds" "1"
+"wait" "1"
+"height" "464"
+"team_no" "1"
+"netname" "Blue Elevator"
+"classname" "func_plat"
+}
+{
+"origin" "-767 -1411 36"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-716 -2074 36"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-1297 -1905 10"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-1297 -2290 -60"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-716 -1940 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-950 -2380 -115"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-250 -1411 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-527 -1725 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-10 -1669 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "385 -1669 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-149 -1315 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "99 -1315 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"speed" "500"
+"model" "*15"
+"sounds" "1"
+"wait" "1"
+"dmg" "50"
+"lip" "2"
+"team_no" "2"
+"targetname" "redspawndoor1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"target" "redspawndoor1"
+"model" "*16"
+"style" "32"
+"team_no" "2"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1752 1520 58"
+"team_no" "2"
+"angle" "184"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1752 1328 58"
+"team_no" "2"
+"angle" "162"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1752 1392 58"
+"team_no" "2"
+"angle" "171"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1688 1264 58"
+"team_no" "2"
+"angle" "159"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1608 1264 66"
+"team_no" "2"
+"angle" "159"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1752 1328 58"
+"team_no" "2"
+"angle" "162"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1752 1392 58"
+"team_no" "2"
+"angle" "171"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1752 1456 58"
+"team_no" "2"
+"angle" "183"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1752 1584 58"
+"team_no" "2"
+"angle" "213"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1752 1264 58"
+"team_no" "2"
+"angle" "155"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1608 1584 58"
+"team_no" "2"
+"angle" "237"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1688 1584 58"
+"team_no" "2"
+"angle" "214"
+"classname" "info_player_teamspawn"
+}
+{
+"target" "rtarget1"
+"model" "*12"
+"team_no" "2"
+"netname" "resupplyin2"
+"classname" "trigger_multiple"
+}
+{
+"speed" "500"
+"model" "*9"
+"sounds" "1"
+"wait" "1"
+"dmg" "50"
+"team_no" "2"
+"lip" "2"
+"targetname" "rtarget1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "1088 1600 32"
+"target" "rtarget1"
+"goal_activation" "1"
+"team_no" "2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1093 1635 36"
+"target" "rtarget1"
+"goal_activation" "1"
+"team_no" "2"
+"classname" "info_tfgoal"
+}
+{
+"no_grenades_2" "5"
+"no_grenades_1" "5"
+"goal_effects" "1"
+"ammo_medikit" "250"
+"armortype" "0.8"
+"armorvalue" "250"
+"health" "100"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+"ammo_nails" "250"
+"ammo_shells" "250"
+"wait" "1"
+"goal_activation" "1"
+"message" "[ZaP] Quakeworld Mega TF\nResupplying...\n"
+"origin" "1200 1400 28"
+"noise" "weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"team_no" "2"
+"netname" "Red Resupply 1 left"
+"classname" "info_tfgoal"
+}
+{
+"no_grenades_2" "5"
+"no_grenades_1" "5"
+"goal_effects" "1"
+"ammo_medikit" "250"
+"armortype" "0.8"
+"armorvalue" "250"
+"health" "100"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+"ammo_nails" "250"
+"ammo_shells" "250"
+"wait" "1"
+"goal_activation" "1"
+"message" "[ZaP] Quakeworld Mega TF\nResupplying...\n"
+"origin" "1200 1540 28"
+"noise" "weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"team_no" "2"
+"netname" "Red Resupply 1 right"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1083 1540 36"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1083 1400 36"
+"classname" "light_torch_small_walltorch"
+}
+{
+"spawnflags" "1"
+"origin" "1242 1268 32"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "1220 1268 32"
+"angle" "90"
+"classname" "item_rockets"
+}
+{
+"spawnflags" "1"
+"origin" "1150 1268 32"
+"classname" "item_spikes"
+}
+{
+"spawnflags" "1"
+"origin" "1100 1268 32"
+"classname" "item_shells"
+}
+{
+"origin" "1316 1660 32"
+"classname" "item_armorInv"
+}
+{
+"origin" "1240 1644 32"
+"classname" "item_health"
+}
+{
+"model" "*13"
+"team_no" "2"
+"target" "rtarget2"
+"netname" "resupplyout2"
+"classname" "trigger_multiple"
+}
+{
+"speed" "500"
+"model" "*11"
+"sounds" "1"
+"wait" "1"
+"dmg" "50"
+"lip" "2"
+"team_no" "2"
+"angle" "-1"
+"targetname" "rtarget2"
+"classname" "func_door"
+}
+{
+"target" "superquad"
+"goal_activation" "1"
+"owned_by" "2"
+"items_allowed" "1"
+"netname_team_broadcast" " √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"message" "You √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"axhitme" "1"
+"non_team_broadcast" "Ÿœ’“ flag was √¡–‘’“≈ƒ!\n"
+"origin" "4 1020 64"
+"noise" "speech/cartcool.wav"
+"netname_non_team_broadcast" " √¡–‘’“≈ƒ Ÿœ’“ flag!\n"
+"team_broadcast" "Ÿœ’“ team √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"goal_effects" "19"
+"count" "10"
+"frags" "10"
+"team_no" "2"
+"netname" "Team 2 Cap"
+"classname" "info_tfgoal"
+}
+{
+"sounds" "1"
+"model" "*22"
+"style" "32"
+"delay" "0"
+"angle" "270"
+"speed" "150"
+"team_no" "1"
+"owned_by" "2"
+"netname" "Red Sniper wind Door"
+"classname" "trigger_push"
+}
+{
+"origin" "56 1600 48"
+"team_no" "2"
+"angle" "272"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-36 1600 48"
+"team_no" "2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-535 1450 -825"
+"team_no" "2"
+"classname" "item_artifact_envirosuit"
+}
+{
+"origin" "-575 1450 -825"
+"team_no" "2"
+"classname" "item_artifact_envirosuit"
+}
+{
+"spawnflags" "32"
+"origin" "218 1443 -76"
+"team_no" "2"
+"angle" "90"
+"classname" "monster_turret"
+}
+{
+"origin" "600 1680 25"
+"team_no" "2"
+"angle" "315"
+"classname" "monster_turret"
+}
+{
+"angle" "270"
+"origin" "-444 3530 -388"
+"spawnflags" "1"
+"classname" "monster_zombie"
+}
+{
+"angle" "0"
+"origin" "-528 3476 -388"
+"spawnflags" "1"
+"classname" "monster_zombie"
+}
+{
+"volume" "0.75"
+"origin" "-444 3476 -388"
+"classname" "ambient_chant"
+}
+{
+"volume" "0.5"
+"origin" "-520 3530 -388"
+"classname" "ambient_flagflap"
+}
+{
+"origin" "-444 3476 -388"
+"owners_team_broadcast" "\n\n\nŸœ’“ flag has been ‘¡À≈Œ!\n"
+"team_broadcast" "\n\n\nŸœ’“ team has the ≈Œ≈ÕŸ flag!\n"
+"netname_owners_team_broadcast" " ‘œœÀ Ÿœ’“ flag!\n"
+"message" "Ÿœ’ have the ≈Œ≈ÕŸ flag!\nTake it home!"
+"non_team_drop" "Ÿœ’“ team ÏÔÛÙ the ≈Œ≈ÕŸ flag!\n"
+"netname_team_broadcast" " ‘œœÀ the ≈Œ≈ÕŸ flag!\n"
+"noise4" "The ≈Œ≈ÕŸ flag returned to base!\n"
+"team_drop" "The ≈Œ≈ÕŸ ÏÔÛÙ Ÿœ’“ flag!\n"
+"noise3" "Ÿœ’“ flag returned to base!\n"
+"owned_by" "2"
+"items" "262144"
+"goal_no" "2"
+"goal_activation" "693"
+"pausetime" "60"
+"skin" "2"
+"angle" "315"
+"team_no" "1"
+"noise" "speech/kickass.wav"
+"mdl" "progs/tf_flag.mdl"
+"netname" "Red Flag"
+"classname" "item_tfgoal"
+}
+{
+"spawnflags" "1"
+"origin" "-150 3500 -420"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "-100 3500 -420"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "-50 3500 -420"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "-530 3050 -420"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "-530 3100 -420"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "-530 3150 -420"
+"classname" "item_cells"
+}
+{
+"speed" "500"
+"model" "*20"
+"sounds" "1"
+"wait" "1"
+"dmg" "50"
+"lip" "2"
+"team_no" "1"
+"angle" "-1"
+"targetname" "redspawndoor2"
+"classname" "func_door"
+}
+{
+"model" "*21"
+"style" "32"
+"lip" "2"
+"target" "redspawndoor2"
+"classname" "trigger_multiple"
+}
+{
+"origin" "-1440 1856 30"
+"team_no" "2"
+"angle" "62"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-1440 1950 30"
+"team_no" "2"
+"angle" "0"
+"classname" "info_player_teamspawn"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "250"
+"message" "[ZaP] Quakeworld Mega TF\nResupplying...\n"
+"origin" "-946 2006 2"
+"no_grenades_1" "5"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_2" "5"
+"wait" "1"
+"goal_effects" "1"
+"ammo_medikit" "250"
+"ammo_nails" "250"
+"armorvalue" "250"
+"health" "100"
+"team_no" "2"
+"ammo_cells" "250"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "250"
+"netname" "Red Resupply 2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-880 2116 24"
+"classname" "item_armorInv"
+}
+{
+"spawnflags" "1"
+"origin" "-944 2116 24"
+"classname" "item_shells"
+}
+{
+"spawnflags" "1"
+"origin" "-1008 2116 24"
+"classname" "item_spikes"
+}
+{
+"origin" "-1055 2116 24"
+"classname" "item_health"
+}
+{
+"spawnflags" "1"
+"origin" "-1104 2116 24"
+"classname" "item_rockets"
+}
+{
+"spawnflags" "1"
+"origin" "-1150 2116 24"
+"classname" "item_cells"
+}
+{
+"speed" "5"
+"model" "*10"
+"style" "32"
+"delay" "2"
+"angle" "-2"
+"team_no" "1"
+"owned_by" "2"
+"netname" "Red Resupply 2 anti-blue-wind"
+"classname" "trigger_push"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "250"
+"message" "[ZaP] Quakeworld Mega TF\nResupplying...\n"
+"origin" "1012 3874 -422"
+"no_grenades_1" "5"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_2" "5"
+"wait" "1"
+"goal_effects" "1"
+"ammo_nails" "250"
+"ammo_medikit" "250"
+"armorvalue" "250"
+"health" "100"
+"team_no" "2"
+"ammo_cells" "250"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "250"
+"netname" "Red Resupply 3"
+"classname" "info_tfgoal"
+}
+{
+"origin" "1148 3828 -416"
+"classname" "item_armorInv"
+}
+{
+"origin" "1132 3892 -416"
+"classname" "item_health"
+}
+{
+"origin" "1148 4004 -416"
+"classname" "item_armorInv"
+}
+{
+"spawnflags" "1"
+"origin" "864 3812 -416"
+"classname" "item_cells"
+}
+{
+"spawnflags" "1"
+"origin" "864 3868 -416"
+"classname" "item_rockets"
+}
+{
+"spawnflags" "1"
+"origin" "864 3924 -416"
+"classname" "item_spikes"
+}
+{
+"spawnflags" "1"
+"origin" "864 3988 -416"
+"classname" "item_shells"
+}
+{
+"speed" "500"
+"model" "*24"
+"sounds" "1"
+"wait" "1"
+"team_no" "2"
+"angle" "-1"
+"netname" "Red Resupply 3 door"
+"classname" "func_door"
+}
+{
+"speed" "1500"
+"model" "*14"
+"sounds" "1"
+"wait" "1"
+"height" "464"
+"team_no" "2"
+"netname" "Red Elevator"
+"classname" "func_plat"
+}
+{
+"origin" "758 1395 36"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "707 2058 36"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1288 1890 10"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1288 2275 -60"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "707 1925 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "943 2365 -115"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "250 1395 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "533 1709 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "19 1653 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-379 1653 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "140 1299 -110"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-109 1299 -110"
+"classname" "light_torch_small_walltorch"
+}

@@ -1,0 +1,418 @@
+{
+"message" "CrossRoads by Autofire"
+"wad" "C:\Program Files\Qoole\work\crossr.wad"
+"classname" "worldspawn"
+"worldtype" "2"
+}
+{
+"classname" "info_player_start"
+"origin" "0 0 -212"
+"angle" "90"
+}
+{
+"impulse" "68"
+"non_team_broadcast" "Capture the other teams flag and return it to your base!\n"
+"classname" "info_tfdetect"
+"origin" "0 0 224"
+"team_broadcast" "<(CROSSROADS BY AUTOFIRE)>\n=== CHOOSE YOUR TEAM ===\n\n1.. BLUE TEAM \n2.. RED TEAM\n5.. RANDOM\n"
+}
+{
+"classname" "info_intermission"
+"origin" "-472 344 200"
+"mangle" "21 -49 -22"
+}
+{
+"speed" "150"
+"model" "*1"
+"sounds" "1"
+"classname" "func_plat"
+"height" "110"
+}
+{
+"speed" "150"
+"model" "*2"
+"sounds" "1"
+"classname" "func_plat"
+"height" "110"
+}
+{
+"classname" "light"
+"origin" "0 0 176"
+"style" "0"
+"light" "2000"
+}
+{
+"classname" "light"
+"origin" "0 -2912 -112"
+"style" "10"
+"light" "200"
+}
+{
+"classname" "light_fluoro"
+"origin" "-608 -2912 -112"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light_fluoro"
+"origin" "608 -2912 -112"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "-896 0 -32"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light"
+"origin" "896 0 -32"
+"style" "0"
+"light" "800"
+}
+{
+"classname" "light"
+"origin" "0 1280 -288"
+"style" "1"
+"light" "400"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-480 928 -416"
+"style" "3"
+"light" "250"
+}
+{
+"classname" "light_fluoro"
+"origin" "0 2912 -112"
+"style" "0"
+"light" "150"
+}
+{
+"classname" "light"
+"origin" "0 2208 96"
+"style" "10"
+"light" "1000"
+}
+{
+"classname" "light_fluoro"
+"origin" "-608 2912 -112"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light_fluoro"
+"origin" "608 2912 -112"
+"style" "0"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "0 -1280 -288"
+"style" "1"
+"light" "400"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "480 -928 -416"
+"style" "3"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "0 -2208 96"
+"style" "10"
+"light" "1000"
+}
+{
+"speed" "100"
+"model" "*3"
+"sounds" "1"
+"classname" "func_door"
+"wait" "3"
+"lip" "8"
+"angle" "180"
+}
+{
+"speed" "100"
+"model" "*4"
+"sounds" "1"
+"classname" "func_door"
+"wait" "3"
+"lip" "8"
+"angle" "0"
+}
+{
+"speed" "100"
+"model" "*5"
+"sounds" "1"
+"classname" "func_door"
+"wait" "3"
+"team_no" "1"
+"lip" "8"
+"angle" "180"
+}
+{
+"speed" "100"
+"model" "*6"
+"sounds" "1"
+"classname" "func_door"
+"wait" "3"
+"team_no" "1"
+"lip" "8"
+"angle" "0"
+}
+{
+"speed" "200"
+"model" "*7"
+"sounds" "2"
+"classname" "func_door"
+"wait" "3"
+"team_no" "2"
+"lip" "8"
+"angle" "0"
+}
+{
+"speed" "125"
+"model" "*8"
+"sounds" "2"
+"classname" "func_door"
+"wait" "3"
+"delay" "2"
+"team_no" "2"
+"lip" "8"
+"angle" "180"
+}
+{
+"speed" "200"
+"model" "*9"
+"sounds" "2"
+"classname" "func_door"
+"wait" "3"
+"lip" "8"
+"angle" "0"
+}
+{
+"speed" "125"
+"model" "*10"
+"sounds" "2"
+"classname" "func_door"
+"wait" "3"
+"delay" "2"
+"lip" "8"
+"angle" "180"
+}
+{
+"netname" "Team2"
+"classname" "info_player_teamspawn"
+"origin" "320 2880 -192"
+"team_no" "2"
+}
+{
+"netname" "Team2"
+"classname" "info_player_teamspawn"
+"origin" "448 2880 -192"
+"team_no" "2"
+}
+{
+"netname" "Team2"
+"classname" "info_player_teamspawn"
+"origin" "320 2768 -192"
+"team_no" "2"
+}
+{
+"netname" "Team2"
+"classname" "info_player_teamspawn"
+"origin" "448 2768 -192"
+"team_no" "2"
+}
+{
+"netname" "Team1"
+"classname" "info_player_teamspawn"
+"origin" "-448 -2768 -192"
+"team_no" "1"
+}
+{
+"netname" "Team1"
+"classname" "info_player_teamspawn"
+"origin" "-320 -2768 -192"
+"team_no" "1"
+}
+{
+"netname" "Team1"
+"classname" "info_player_teamspawn"
+"origin" "-448 -2864 -192"
+"team_no" "1"
+}
+{
+"netname" "Team1"
+"classname" "info_player_teamspawn"
+"origin" "-320 -2864 -192"
+"team_no" "1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "50"
+"owned_by" "1"
+"message" "Time to kick some ass.\n"
+"netname" "Team1 Backpack"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"noise" "weapons/pkup.wav"
+"origin" "0 -2432 -192"
+"wait" "5"
+"goal_effects" "1"
+"ammo_medikit" "25"
+"ammo_nails" "50"
+"armorvalue" "50"
+"goal_result" "2"
+"health" "50"
+"team_no" "1"
+"ammo_cells" "50"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "25"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "50"
+"message" "Time to kick some ass.\n"
+"netname" "Team1 Backpack"
+"classname" "info_tfgoal"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"origin" "328 -960 -464"
+"wait" "5"
+"goal_effects" "1"
+"ammo_medikit" "25"
+"ammo_nails" "50"
+"armorvalue" "50"
+"goal_result" "2"
+"health" "50"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "50"
+"ammo_rockets" "25"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "50"
+"owned_by" "2"
+"message" "Time to kick some ass.\n"
+"netname" "Team2 Backpack"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"noise" "weapons/pkup.wav"
+"origin" "-328 960 -464"
+"wait" "5"
+"goal_effects" "1"
+"ammo_medikit" "25"
+"ammo_nails" "50"
+"armorvalue" "50"
+"goal_result" "2"
+"health" "50"
+"team_no" "2"
+"ammo_cells" "50"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "25"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "50"
+"owned_by" "2"
+"message" "Time to kick some ass.\n"
+"netname" "Team2 Backpack"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"noise" "weapons/pkup.wav"
+"origin" "0 2432 -192"
+"wait" "5"
+"goal_effects" "1"
+"ammo_medikit" "25"
+"ammo_nails" "50"
+"armorvalue" "50"
+"goal_result" "2"
+"health" "50"
+"team_no" "2"
+"ammo_cells" "50"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "25"
+}
+{
+"goal_activation" "1"
+"items_allowed" "1"
+"owned_by" "1"
+"message" "You captured their flag.\n"
+"netname" "Team2 Goal"
+"axhitme" "1"
+"classname" "info_tfgoal"
+"noise" "items/cap2.wav"
+"origin" "0 2816 -192"
+"team_broadcast" "Your team captured their flag.\n"
+"super_damage_finished" "5"
+"broadcast" "The Blue Team's Flag has been captured!\n"
+"goal_effects" "19"
+"owners_team_broadcast" "Your flag was captured.\n"
+"count" "10"
+"frags" "10"
+}
+{
+"goal_activation" "1"
+"items_allowed" "2"
+"owned_by" "2"
+"message" "You captured their flag.\n"
+"netname" "Team1 Goal"
+"axhitme" "2"
+"classname" "info_tfgoal"
+"noise" "items/cap1.wav"
+"origin" "0 -2816 -192"
+"team_broadcast" "Your team captured their flag.\n"
+"super_damage_finished" "5"
+"broadcast" "The Red Teams Flag has been captured!\n"
+"goal_effects" "19"
+"owners_team_broadcast" "Your flag was captured.\n"
+"count" "10"
+"frags" "10"
+}
+{
+"goal_activation" "693"
+"owned_by" "1"
+"message" "You have their flag.\nGet it out of here!\n"
+"netname" "Team1 Flag"
+"classname" "item_tfgoal"
+"noise" "shambler/ssight.wav"
+"origin" "-384 2816 -192"
+"team_broadcast" "Your team got their flag.\n"
+"owners_team_broadcast" "Your flag was taken.\n"
+"team_drop" "The enemy lost your flag.\n"
+"noise3" "Your flag returned.\n"
+"items" "131072"
+"goal_no" "1"
+"noise4" "Their flag returned.\n"
+"pausetime" "60"
+"team_no" "2"
+"skin" "1"
+"non_team_drop" "Your team lost their flag.\n"
+"mdl" "progs/tf_flag.mdl"
+}
+{
+"goal_activation" "693"
+"owned_by" "2"
+"message" "You have their flag.\nGet it outta here!\n"
+"netname" "Team2 Flag"
+"classname" "item_tfgoal"
+"noise" "ogre/ogwake.wav"
+"origin" "384 -2816 -192"
+"team_broadcast" "Your team got their flag.\n"
+"owners_team_broadcast" "Your flag was taken.\n"
+"team_drop" "The enemy lost your flag.\n"
+"noise3" "Your flag returned.\n"
+"items" "262144"
+"goal_no" "2"
+"noise4" "Their flag returned.\n"
+"pausetime" "60"
+"team_no" "1"
+"skin" "2"
+"non_team_drop" "Your team lost their flag.\n"
+"mdl" "progs/tf_flag.mdl"
+}

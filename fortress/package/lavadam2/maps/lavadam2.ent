@@ -1,0 +1,594 @@
+{
+"classname" "worldspawn"
+"wad" "Main2.wad"
+"message" "+----------+\n| LAVA DAM |\n+----------+\nby Tactician"
+}
+{
+"classname" "info_intermission"
+"origin" "0 -552 216"
+"mangle" "0 90 0"
+}
+{
+"classname" "info_player_start"
+"origin" "0 0 24"
+"angle" "90"
+}
+{
+"classname" "light"
+"origin" "-496 -912 312"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "-688 1560 368"
+"light" "10000"
+}
+{
+"classname" "func_button"
+"angle" "-2"
+"sounds" "0"
+"health" "2000"
+"speed" "1000"
+"wait" "-1"
+"target" "t4"
+"team_no" "3"
+"model" "*1"
+}
+{
+"classname" "light"
+"origin" "-640 152 264"
+"light" "10000"
+"angle" "330"
+}
+{
+"classname" "light"
+"origin" "-656 1016 344"
+"light" "1000"
+"angle" "330"
+}
+{
+"classname" "light"
+"origin" "136 1544 344"
+"light" "1000"
+"angle" "330"
+}
+{
+"netname" "blue pack"
+"origin" "1824 -288 160"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "1"
+"goal_state" "2"
+"mdl" "progs/backpack.mdl"
+"team_no" "1"
+"wait" "1"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "100"
+"armorclass" "31"
+"health" "100"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "100"
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_medikit" "100"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"message" "For the Alliance!\n"
+}
+{
+"angle" "270"
+"target" "a1"
+"wait" "0.1"
+"health" "100"
+"netname" "blue target"
+"classname" "func_button"
+"model" "*2"
+}
+{
+"goal_activation" "0"
+"goal_effects" "3"
+"target" "t1"
+"targetname" "a1"
+"origin" "2000 -624 432"
+"classname" "info_tfgoal"
+"goal_state" "2"
+"netname" "blue target"
+"goal_no" "1"
+"group_no" "1"
+"noise" "misc/alert.wav"
+"team_no" "2"
+"frags" "1"
+"owners_team_broadcast" "Alert! Alert! Alert!\n Your base is under attack!!\n"
+"message" "There's another one for red!\n"
+"netname_team_broadcast" " is scoring for you!\n"
+}
+{
+"targetname" "t1"
+"spawnflags" "3"
+"angle" "180"
+"origin" "2040 -352 336"
+"classname" "trap_spikeshooter"
+}
+{
+"targetname" "t1"
+"spawnflags" "3"
+"angle" "0"
+"origin" "1680 -400 336"
+"classname" "trap_spikeshooter"
+}
+{
+"targetname" "t1"
+"spawnflags" "3"
+"angle" "180"
+"origin" "2040 -448 336"
+"classname" "trap_spikeshooter"
+}
+{
+"targetname" "t1"
+"spawnflags" "3"
+"angle" "0"
+"origin" "1680 -496 336"
+"classname" "trap_spikeshooter"
+}
+{
+"targetname" "t1"
+"spawnflags" "3"
+"angle" "180"
+"origin" "2040 -544 336"
+"classname" "trap_spikeshooter"
+}
+{
+"targetname" "t1"
+"spawnflags" "3"
+"angle" "0"
+"origin" "1680 -592 336"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "0 0 360"
+"classname" "info_tfdetect"
+"hook_out" "1"
+"impulse" "0"
+"non_team_broadcast" "Blue: Destroy red's base target!\nRed: Destroy blue's base target!\nYellow: Destroy the d"
+"team_broadcast" "===CHOOSE YOUR TEAM===\n1. ALLIED FORCES\n2. REPUBLIC OF ZHAN\n3. MEDIATORS\n"
+"maxammo_rockets" "-1"
+"maxammo_cells" "1023"
+"ammo_shells" "0"
+"ammo_nails" "0"
+"ammo_rockets" "0"
+"ammo_cells" "0"
+"ammo_medikit" "8"
+"ammo_detpack" "8"
+"maxammo_medikit" "0"
+"maxammo_detpack" "0"
+}
+{
+"team_no" "3"
+"origin" "-224 -1320 32"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "3"
+"origin" "-360 -1320 32"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "3"
+"origin" "0 -1184 32"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "3"
+"origin" "200 -1320 32"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "3"
+"origin" "352 -1320 32"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"team_no" "1"
+"origin" "2024 -56 32"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"team_no" "1"
+"origin" "2024 56 32"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "light_globe"
+"origin" "1120 -224 40"
+"light" "500"
+}
+{
+"classname" "light_globe"
+"origin" "1576 0 40"
+"light" "500"
+}
+{
+"classname" "light_globe"
+"origin" "1120 224 40"
+"light" "500"
+}
+{
+"classname" "light_globe"
+"origin" "1344 0 368"
+"light" "1000"
+"style" "11"
+}
+{
+"classname" "light_globe"
+"origin" "1856 0 368"
+"light" "1000"
+"style" "11"
+}
+{
+"classname" "light_globe"
+"origin" "1856 -480 440"
+"light" "500"
+}
+{
+"classname" "light_globe"
+"origin" "1952 96 40"
+"light" "500"
+}
+{
+"classname" "light_globe"
+"origin" "1952 -96 40"
+"light" "500"
+}
+{
+"angle" "0"
+"team_no" "2"
+"origin" "-2024 -56 32"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"team_no" "2"
+"origin" "-2024 56 32"
+"classname" "info_player_teamspawn"
+}
+{
+"message" "Defend thy Country!\n"
+"goal_effects" "1"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"ammo_medikit" "100"
+"ammo_detpack" "1"
+"ammo_cells" "200"
+"ammo_rockets" "100"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"health" "100"
+"armorclass" "31"
+"armorvalue" "100"
+"armortype" "0.8"
+"wait" "1"
+"team_no" "2"
+"mdl" "progs/backpack.mdl"
+"goal_state" "2"
+"owned_by" "2"
+"goal_activation" "1"
+"netname" "red pack"
+"origin" "-1832 288 160"
+"classname" "info_tfgoal"
+}
+{
+"angle" "90"
+"target" "t3"
+"wait" "0.1"
+"health" "100"
+"netname" "blue target"
+"classname" "func_button"
+"model" "*3"
+}
+{
+"goal_activation" "0"
+"owned_by" "2"
+"goal_effects" "3"
+"target" "t2"
+"targetname" "t3"
+"origin" "-2008 624 432"
+"classname" "info_tfgoal"
+"goal_state" "2"
+"netname" "red target"
+"goal_no" "2"
+"group_no" "2"
+"noise" "misc/alert.wav"
+"team_no" "1"
+"frags" "1"
+"owners_team_broadcast" "Alert! Alert! Alert!\n Your base is under attack!!\n"
+"message" "There's another one for blue!\n"
+"netname_team_broadcast" " is scoring for you!\n"
+}
+{
+"targetname" "t2"
+"spawnflags" "3"
+"angle" "0"
+"origin" "-2048 352 336"
+"classname" "trap_spikeshooter"
+}
+{
+"targetname" "t2"
+"spawnflags" "3"
+"angle" "180"
+"origin" "-1688 400 336"
+"classname" "trap_spikeshooter"
+}
+{
+"targetname" "t2"
+"spawnflags" "3"
+"angle" "0"
+"origin" "-2048 448 336"
+"classname" "trap_spikeshooter"
+}
+{
+"targetname" "t2"
+"spawnflags" "3"
+"angle" "180"
+"origin" "-1688 496 336"
+"classname" "trap_spikeshooter"
+}
+{
+"targetname" "t2"
+"spawnflags" "3"
+"angle" "0"
+"origin" "-2048 544 336"
+"classname" "trap_spikeshooter"
+}
+{
+"targetname" "t2"
+"spawnflags" "3"
+"angle" "180"
+"origin" "-1688 592 336"
+"classname" "trap_spikeshooter"
+}
+{
+"classname" "light_globe"
+"origin" "-1864 480 440"
+"light" "500"
+}
+{
+"classname" "light_globe"
+"origin" "-1120 224 40"
+"light" "500"
+}
+{
+"classname" "light_globe"
+"origin" "-1576 0 40"
+"light" "500"
+}
+{
+"classname" "light_globe"
+"origin" "-1120 -224 40"
+"light" "500"
+}
+{
+"classname" "light_globe"
+"origin" "-1344 0 368"
+"light" "1000"
+"style" "11"
+}
+{
+"classname" "light_globe"
+"origin" "-1856 0 368"
+"light" "1000"
+"style" "11"
+}
+{
+"classname" "light_globe"
+"origin" "-1952 -96 40"
+"light" "500"
+}
+{
+"classname" "light_globe"
+"origin" "-1952 96 40"
+"light" "500"
+}
+{
+"netname_broadcast" " has destroyed the dam!\n"
+"frags" "100"
+"goal_effects" "0"
+"maxammo_shells" "3"
+"goal_result" "4"
+"wait" "-1"
+"goal_state" "2"
+"owned_by" "3"
+"classname" "info_tfgoal"
+"origin" "0 1576 32"
+"targetname" "t4"
+"netname" "lava_dam"
+}
+{
+"classname" "func_train"
+"targetname" "t4"
+"target" "b1"
+"speed" "100"
+"dmg" "1000"
+"spawnflags" "1"
+"model" "*4"
+}
+{
+"classname" "path_corner"
+"origin" "-128 -1472 -64"
+"targetname" "b2"
+"wait" "-1"
+"target" "b1"
+}
+{
+"sounds" "2"
+"height" "120"
+"classname" "func_plat"
+"model" "*5"
+}
+{
+"sounds" "2"
+"height" "120"
+"classname" "func_plat"
+"model" "*6"
+}
+{
+"origin" "-2038 2 36"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "2034 2 36"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1954 49 -101"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1642 186 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "1315 50 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "994 178 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "648 50 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"classname" "path_corner"
+"origin" "-128 -1472 -392"
+"targetname" "b1"
+"target" "b2"
+}
+{
+"classname" "light"
+"origin" "192 448 -240"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-352 384 -240"
+"light" "500"
+}
+{
+"origin" "-653 50 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-927 178 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-1246 50 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-1566 186 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-1886 49 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"team_no" "3"
+"origin" "-312 -1336 8"
+"classname" "item_health"
+}
+{
+"team_no" "3"
+"origin" "264 -1336 8"
+"classname" "item_health"
+}
+{
+"target" "c1"
+"netname" "red_engineer_stop"
+"classname" "trigger_multiple"
+"model" "*7"
+}
+{
+"message" "Engineers are not permitted outside.\n"
+"target" "c2"
+"netname" "red_engineer_detect"
+"targetname" "c1"
+"origin" "-736 0 296"
+"classname" "info_tfgoal"
+"goal_activation" "0"
+"goal_state" "2"
+"playerclass" "9"
+}
+{
+"target" "c3"
+"targetname" "c2"
+"netname" "red_engineer_stopper"
+"classname" "trigger_teleport"
+"model" "*8"
+}
+{
+"targetname" "c3"
+"angle" "180"
+"origin" "-840 0 16"
+"classname" "info_teleport_destination"
+}
+{
+"netname" "blue_engineer_stop"
+"target" "d1"
+"classname" "trigger_multiple"
+"model" "*9"
+}
+{
+"message" "Engineers are not permitted outside.\n"
+"target" "d2"
+"targetname" "d1"
+"netname" "blue_engineer_detect"
+"origin" "736 8 320"
+"classname" "info_tfgoal"
+"goal_activation" "0"
+"goal_state" "2"
+"playerclass" "9"
+}
+{
+"netname" "blue_engineer_stopper"
+"target" "d3"
+"targetname" "d2"
+"classname" "trigger_teleport"
+"model" "*10"
+}
+{
+"targetname" "d3"
+"angle" "0"
+"origin" "824 0 16"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "752 210 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "760 690 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "0 218 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "0 690 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-760 210 -102"
+"classname" "light_torch_small_walltorch"
+}
+{
+"origin" "-760 690 -102"
+"classname" "light_torch_small_walltorch"
+}

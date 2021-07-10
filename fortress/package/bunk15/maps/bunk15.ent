@@ -1,0 +1,899 @@
+{
+"worldtype" "2"
+"message" "Bunker Hell   - By Lordfly[NaC]"
+"classname" "worldspawn"
+"wad" "quake101.wad"
+}
+{
+"classname" "light"
+"origin" "-2152 992 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2464 808 -368"
+"light" "500"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2688 1000 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2944 672 840"
+"light" "75"
+"wait" ".001"
+}
+{
+"classname" "info_player_start"
+"origin" "-368 136 24"
+}
+{
+"classname" "light"
+"origin" "-1888 392 192"
+"light" "275"
+"wait" ".5"
+}
+{
+"model" "*1"
+"classname" "i_p_t"
+"team_no" "1"
+"goal_state" "1"
+"origin" "-3208 768 -448"
+"netname" "blue spawn"
+}
+{
+"classname" "light"
+"origin" "-2944 800 840"
+"light" "75"
+"wait" ".001"
+}
+{
+"classname" "light"
+"origin" "-2960 -1024 -800"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-2216 48 440"
+"light" "275"
+"wait" ".5"
+}
+{
+"model" "*2"
+"classname" "func_door"
+"angle" "360"
+"speed" "50"
+"sounds" "2"
+}
+{
+"classname" "light"
+"origin" "-784 112 784"
+"light" "12"
+"wait" ".0001"
+}
+{
+"model" "*3"
+"classname" "i_p_t"
+"team_no" "1"
+"goal_state" "1"
+"origin" "-3208 1008 -448"
+"netname" "blue spawn"
+}
+{
+"model" "*4"
+"netname" "Boom door"
+"wait" "-1"
+"speed" "999"
+"angle" "-1"
+"targetname" "boom1"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"classname" "i_p_t"
+"team_no" "1"
+"goal_state" "1"
+"origin" "-3208 896 -448"
+"netname" "blue spawn"
+}
+{
+"model" "*6"
+"classname" "func_door"
+"speed" "50"
+"angle" "180"
+"sounds" "2"
+}
+{
+"classname" "light"
+"origin" "-2464 -56 -120"
+"light" "500"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2944 888 840"
+"light" "75"
+"wait" ".001"
+}
+{
+"impulse" "196"
+"classname" "info_tfdetect"
+"origin" "-2720 -48 800"
+"netname" "TF thingie"
+"maxammo_rockets" "1023"
+"maxammo_cells" "1023"
+"b_t" "WELCOME TO BUNKER HELL\nPICK A TEAM:\nTEAM ONE\nTEAM TWO\nHAVE FUN, AND DONT SPARE THE GIBS! :)\n"
+"b_n" "kill shit, rinse, repeat if needed\n"
+}
+{
+"model" "*7"
+"netname" "Blue capture"
+"origin" "-3232 -912 -1576"
+"classname" "i_t_g"
+"owned_by" "1"
+"increase_team1" "10"
+"noise" "rejoicing.wav"
+"g_a" "1"
+"items_allowed" "2"
+"restore_goal_no" "2"
+"axhitme" "2"
+"g_e" "1"
+"frags" "1"
+"message" "Good cap, old chap\n"
+"n_t" " Capped the RED flag.\n"
+"n_b" "Capped the Red flag!\n"
+"n_o" " Capped your flag.... defend it better next time\n"
+"deathtype" "Died \n"
+}
+{
+"classname" "light"
+"light" "200"
+"wait" ".5"
+"origin" "-1392 384 176"
+}
+{
+"model" "*8"
+"owned_by" "1"
+"target" "boom1"
+"origin" "-3520 -760 -1584"
+"classname" "i_t_g"
+"netname" "Blue boom"
+"g_a" "2"
+"team_no" "2"
+"g_e" "1"
+"message" "You gained access to the enemy flag with your detpack\n"
+"n_t" "Gained access to the enemy flag.\n"
+"n_o" "Opened up your flag room\n"
+"goal_result" "1"
+"increase_team2" "10"
+"maxammo_shells" "1"
+"maxammo_nails" "1"
+}
+{
+"classname" "light"
+"origin" "-3536 -1024 -1016"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-3528 -584 -1256"
+"light" "250"
+}
+{
+"wait" ".0001"
+"light" "50"
+"origin" "-3256 -856 -1120"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-2224 -760 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2688 -760 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2232 192 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2688 184 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2232 992 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2216 184 440"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2864 -104 -32"
+"light" "600"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2216 152 -208"
+"light" "600"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "-2936 -592 -1528"
+"light" "250"
+}
+{
+"model" "*9"
+"angle" "90"
+"sounds" "2"
+"speed" "500"
+"classname" "func_door"
+}
+{
+"model" "*10"
+"angle" "270"
+"speed" "500"
+"sounds" "2"
+"classname" "func_door"
+}
+{
+"classname" "light"
+"origin" "1168 984 784"
+"light" "12"
+"wait" ".0001"
+}
+{
+"classname" "light"
+"origin" "1160 -768 784"
+"light" "12"
+"wait" ".0001"
+}
+{
+"classname" "light"
+"origin" "-3184 1000 784"
+"light" "12"
+"wait" ".0001"
+}
+{
+"classname" "light"
+"origin" "-784 1008 784"
+"light" "12"
+"wait" ".0001"
+}
+{
+"classname" "light"
+"origin" "-784 -768 784"
+"light" "12"
+"wait" ".0001"
+}
+{
+"classname" "light"
+"origin" "-1888 824 192"
+"light" "275"
+"wait" ".5"
+}
+{
+"wait" ".3"
+"light" "300"
+"origin" "-1392 392 448"
+"classname" "light"
+}
+{
+"remove_goal_no" "1"
+"noise" "noshoot.wav"
+"netname" "blue flag"
+"origin" "-3808 -752 -1544"
+"classname" "item_tfgoal"
+"goal_no" "1"
+"owned_by" "1"
+"mdl" "progs/tf_flag.mdl"
+"return_item_no" "2"
+"g_e" "1"
+"team_no" "2"
+"goal_result" "16"
+"g_a" "701"
+"items" "262144"
+"pausetime" "30"
+"n_t" " Is running like hell cause he got the BLUE flag! Protect his ass.\n"
+"n_b" " Took the BLUE flag.\n"
+"deathtype" " Got pasted while carrying the BLUE flag\n"
+"skin" "1"
+}
+{
+"origin" "-2712 968 -608"
+"classname" "item_cells"
+}
+{
+"origin" "-2664 968 -608"
+"classname" "item_cells"
+}
+{
+"origin" "-2712 920 -608"
+"classname" "item_cells"
+}
+{
+"origin" "-2664 920 -608"
+"classname" "item_cells"
+}
+{
+"origin" "-2616 968 -608"
+"classname" "item_cells"
+}
+{
+"origin" "-2616 920 -608"
+"classname" "item_cells"
+}
+{
+"origin" "-2568 968 -608"
+"classname" "item_cells"
+}
+{
+"origin" "-2568 920 -608"
+"classname" "item_cells"
+}
+{
+"origin" "-2760 968 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "-2808 968 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "-2760 920 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "-2808 920 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "-2856 968 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "-2856 920 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "-2904 968 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "-2904 920 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "-2952 968 -608"
+"classname" "item_shells"
+}
+{
+"origin" "-2952 920 -608"
+"classname" "item_shells"
+}
+{
+"origin" "-3000 968 -608"
+"classname" "item_shells"
+}
+{
+"origin" "-3000 920 -608"
+"classname" "item_shells"
+}
+{
+"origin" "-3048 968 -608"
+"classname" "item_shells"
+}
+{
+"origin" "-3048 920 -608"
+"classname" "item_shells"
+}
+{
+"origin" "-3096 920 -608"
+"classname" "item_shells"
+}
+{
+"origin" "-3096 968 -608"
+"classname" "item_shells"
+}
+{
+"origin" "-2520 968 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "-2520 920 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "-2472 968 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "-2472 920 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "-2424 968 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "-2424 920 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "-2376 968 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "-2376 920 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "-2328 968 -608"
+"classname" "item_health"
+}
+{
+"origin" "-2328 920 -608"
+"classname" "item_health"
+}
+{
+"origin" "-3144 968 -608"
+"classname" "item_health"
+}
+{
+"origin" "-3144 920 -608"
+"classname" "item_health"
+}
+{
+"model" "*11"
+"classname" "func_door"
+"speed" "900"
+"wait" "1"
+"angle" "360"
+}
+{
+"classname" "light"
+"origin" "584 -752 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "896 -568 -368"
+"light" "500"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "1120 -760 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "1376 -432 840"
+"light" "75"
+"wait" ".001"
+}
+{
+"classname" "light"
+"origin" "320 -152 192"
+"light" "275"
+"wait" ".5"
+}
+{
+"model" "*12"
+"classname" "i_p_t"
+"team_no" "2"
+"goal_state" "1"
+"origin" "1640 -528 -448"
+"netname" "red spawn"
+}
+{
+"classname" "light"
+"origin" "1376 -560 840"
+"light" "75"
+"wait" ".001"
+}
+{
+"classname" "light"
+"origin" "1392 1264 -800"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "648 192 440"
+"light" "275"
+"wait" ".5"
+}
+{
+"model" "*13"
+"classname" "func_door"
+"angle" "180"
+"speed" "50"
+"sounds" "2"
+}
+{
+"model" "*14"
+"classname" "i_p_t"
+"team_no" "2"
+"goal_state" "1"
+"origin" "1640 -768 -448"
+"netname" "red spawn"
+}
+{
+"model" "*15"
+"netname" "boom door"
+"wait" "-1"
+"speed" "999"
+"angle" "-1"
+"targetname" "boom2"
+"classname" "func_door"
+}
+{
+"model" "*16"
+"classname" "i_p_t"
+"team_no" "2"
+"goal_state" "1"
+"origin" "1640 -656 -448"
+"netname" "red spawn"
+}
+{
+"model" "*17"
+"classname" "func_door"
+"speed" "50"
+"angle" "360"
+"sounds" "2"
+}
+{
+"classname" "light"
+"origin" "896 296 -120"
+"light" "500"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "1376 -648 840"
+"light" "75"
+"wait" ".001"
+}
+{
+"model" "*18"
+"items_allowed" "1"
+"netname" "Red capture"
+"origin" "1664 1152 -1576"
+"classname" "i_t_g"
+"owned_by" "2"
+"noise" "rejoicing.wav"
+"g_a" "1"
+"restore_goal_no" "1"
+"axhitme" "1"
+"g_e" "1"
+"frags" "1"
+"message" "Good cap, old chap\n"
+"n_t" " Capped the RED flag.\n"
+"n_b" "Capped the Red flag!\n"
+"n_o" " Capped your flag.... defend it better next time\n"
+"deathtype" "Died \n"
+"team_no" "2"
+"increase_team2" "10"
+}
+{
+"classname" "light"
+"light" "200"
+"wait" ".5"
+"origin" "-176 -144 176"
+}
+{
+"model" "*19"
+"maxammo_nails" "1"
+"inactivate_goal_no" "1"
+"target" "boom2"
+"origin" "1952 1000 -1584"
+"classname" "i_t_g"
+"netname" "Red Boom"
+"g_a" "2"
+"team_no" "1"
+"maxammo_shells" "1"
+"message" "you opened access to the enemy flag\n"
+"n_t" "Opened up the enemy flag room\n"
+"b_b" "BOOM!\n"
+"n_o" "Opened up your flag room\n"
+"owned_by" "2"
+"targetname" "boom2"
+"goal_result" "1"
+"remove_goal_no" "1"
+"increase_team1" "10"
+}
+{
+"classname" "light"
+"origin" "1968 1264 -1016"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1960 824 -1256"
+"light" "250"
+}
+{
+"wait" ".0001"
+"light" "50"
+"origin" "1696 1032 -1120"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "656 1000 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "1120 1000 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "664 48 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "1120 56 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "664 -752 128"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "648 56 440"
+"light" "275"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "1296 344 -32"
+"light" "600"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "648 88 -208"
+"light" "600"
+"wait" ".5"
+}
+{
+"classname" "light"
+"origin" "1368 832 -1528"
+"light" "250"
+}
+{
+"model" "*20"
+"angle" "270"
+"sounds" "2"
+"speed" "500"
+"classname" "func_door"
+}
+{
+"model" "*21"
+"angle" "90"
+"speed" "500"
+"sounds" "2"
+"classname" "func_door"
+}
+{
+"classname" "light"
+"origin" "1616 -760 784"
+"light" "12"
+"wait" ".0001"
+}
+{
+"classname" "light"
+"origin" "320 -584 192"
+"light" "275"
+"wait" ".5"
+}
+{
+"wait" ".3"
+"light" "300"
+"origin" "-176 -152 448"
+"classname" "light"
+}
+{
+"noise" "noshoot.wav"
+"netname" "red flag"
+"origin" "2240 992 -1544"
+"classname" "item_tfgoal"
+"goal_no" "2"
+"owned_by" "2"
+"mdl" "progs/tf_flag.mdl"
+"g_e" "1"
+"team_no" "1"
+"goal_result" "16"
+"g_a" "671"
+"items" "262144"
+"pausetime" "5"
+"n_t" " Is running like hell cause he got the RED flag! Protect his ass.\n"
+"n_b" " Took the enemy flag.\n"
+"deathtype" " Got pasted while carrying the RED flag\n"
+"frags" "1"
+"skin" "2"
+}
+{
+"origin" "1112 -760 -608"
+"classname" "item_cells"
+}
+{
+"origin" "1064 -760 -608"
+"classname" "item_cells"
+}
+{
+"origin" "1112 -712 -608"
+"classname" "item_cells"
+}
+{
+"origin" "1064 -712 -608"
+"classname" "item_cells"
+}
+{
+"origin" "1016 -760 -608"
+"classname" "item_cells"
+}
+{
+"origin" "1016 -712 -608"
+"classname" "item_cells"
+}
+{
+"origin" "968 -760 -608"
+"classname" "item_cells"
+}
+{
+"origin" "968 -712 -608"
+"classname" "item_cells"
+}
+{
+"origin" "1160 -760 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "1208 -760 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "1160 -712 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "1208 -712 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "1256 -760 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "1256 -712 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "1304 -760 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "1304 -712 -608"
+"classname" "item_rockets"
+}
+{
+"origin" "1352 -760 -608"
+"classname" "item_shells"
+}
+{
+"origin" "1352 -712 -608"
+"classname" "item_shells"
+}
+{
+"origin" "1400 -760 -608"
+"classname" "item_shells"
+}
+{
+"origin" "1400 -712 -608"
+"classname" "item_shells"
+}
+{
+"origin" "1448 -760 -608"
+"classname" "item_shells"
+}
+{
+"origin" "1448 -712 -608"
+"classname" "item_shells"
+}
+{
+"origin" "1496 -712 -608"
+"classname" "item_shells"
+}
+{
+"origin" "1496 -760 -608"
+"classname" "item_shells"
+}
+{
+"origin" "920 -760 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "920 -712 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "872 -760 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "872 -712 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "824 -760 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "824 -712 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "776 -760 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "776 -712 -608"
+"classname" "item_spikes"
+}
+{
+"origin" "728 -760 -608"
+"classname" "item_health"
+}
+{
+"origin" "728 -712 -608"
+"classname" "item_health"
+}
+{
+"origin" "1544 -760 -608"
+"classname" "item_health"
+}
+{
+"origin" "1544 -712 -608"
+"classname" "item_health"
+}
+{
+"model" "*22"
+"classname" "func_door"
+"speed" "900"
+"wait" "1"
+"angle" "360"
+}

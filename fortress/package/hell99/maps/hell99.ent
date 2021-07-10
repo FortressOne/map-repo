@@ -1,0 +1,699 @@
+{
+"classname" "worldspawn"
+"message" "Happy Hell-O-Ween 1999!\nrev B\nby DyerMaker"
+"wad" "d:\mapping\wad\tex2.wad;d:\mapping\wad\vplay.wad;d:\mapping\wad\haloween.wad"
+}
+{
+"classname" "info_player_start"
+"angle" "182"
+"origin" "-376 220 642"
+}
+{
+"classname" "light"
+"light" "200"
+"angle" "2"
+"origin" "-496 -464 368"
+}
+{
+"classname" "light"
+"light" "100"
+"angle" "2"
+"origin" "-912 480 768"
+}
+{
+"classname" "light"
+"light" "200"
+"angle" "2"
+"origin" "1088 -160 336"
+}
+{
+"classname" "trigger_teleport"
+"team_no" "1"
+"target" "blue_side"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"team_no" "2"
+"target" "red_side"
+"model" "*2"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "88"
+"targetname" "red_side"
+"origin" "-1160 -2032 304"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "182"
+"targetname" "blue_side"
+"origin" "1656 528 288"
+}
+{
+"classname" "trigger_multiple"
+"team_no" "0"
+"wait" "1"
+"style" "32"
+"delay" "0"
+"sounds" "0"
+"target" "Lite"
+"model" "*3"
+}
+{
+"classname" "light"
+"light" "25"
+"angle" "2"
+"origin" "-936 432 360"
+}
+{
+"classname" "info_tfdetect"
+"maxammo_rockets" "0"
+"origin" "-1280 760 776"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"g_e" "1"
+"wait" "0"
+"delay" "0"
+"goal_result" "0"
+"targetname" "Lite"
+"gravity" ".1"
+"origin" "-1064 552 352"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "88"
+"targetname" "ra1"
+"gravity" "1"
+"origin" "-832 -2192 144"
+}
+{
+"classname" "trigger_teleport"
+"team_no" "0"
+"target" "ba1"
+"model" "*4"
+}
+{
+"classname" "monster_dog"
+"team_no" "2"
+"target" "dog_path2"
+"origin" "912 224 100"
+}
+{
+"classname" "monster_dog"
+"team_no" "2"
+"target" "dog_path1"
+"origin" "752 -1068 120"
+}
+{
+"classname" "monster_dog"
+"team_no" "2"
+"target" "dog_path3"
+"origin" "-672 -1312 108"
+}
+{
+"classname" "monster_dog"
+"team_no" "1"
+"target" "dog_path3"
+"origin" "-464 -1396 104"
+}
+{
+"classname" "monster_dog"
+"team_no" "1"
+"target" "dog_path1"
+"origin" "576 -1164 116"
+}
+{
+"classname" "monster_dog"
+"team_no" "1"
+"target" "dog_path2"
+"origin" "1004 400 96"
+}
+{
+"classname" "path_corner"
+"targetname" "dog_path1"
+"target" "dog_path2"
+"origin" "-736 392 16"
+}
+{
+"classname" "path_corner"
+"targetname" "dog_path2"
+"target" "dog_path3"
+"origin" "-656 -1948 20"
+}
+{
+"classname" "path_corner"
+"targetname" "dog_path3"
+"target" "dog_path1"
+"origin" "1316 -16 8"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"g_e" "1"
+"wait" "1"
+"delay" "0"
+"goal_result" "0"
+"gravity" "1"
+"team_no" "2"
+"items_allowed" "0"
+"goal_min" "-128 -128 -128"
+"goal_max" "128 128 128"
+"origin" "-780 -2220 -580"
+}
+{
+"classname" "trigger_teleport"
+"team_no" "2"
+"target" "red_out"
+"model" "*5"
+}
+{
+"classname" "light"
+"light" "250"
+"origin" "-768 -2208 -632"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "88"
+"targetname" "ba1"
+"gravity" "1"
+"origin" "1796 316 144"
+}
+{
+"classname" "info_tfgoal"
+"g_a" "1"
+"g_e" "1"
+"wait" "1"
+"delay" "0"
+"goal_result" "0"
+"gravity" "1"
+"team_no" "1"
+"items_allowed" "0"
+"goal_min" "-128 -128 -128"
+"goal_max" "128 128 128"
+"origin" "1780 318 -580"
+}
+{
+"classname" "trigger_teleport"
+"team_no" "1"
+"target" "blue_out"
+"model" "*6"
+}
+{
+"classname" "light"
+"light" "250"
+"origin" "1792 306 -632"
+}
+{
+"classname" "trigger_teleport"
+"team_no" "0"
+"target" "ra1"
+"model" "*7"
+}
+{
+"classname" "trigger_teleport"
+"team_no" "2"
+"target" "ra1"
+"model" "*8"
+}
+{
+"classname" "trigger_teleport"
+"team_no" "1"
+"target" "ba1"
+"model" "*9"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/dtree.mdl"
+"origin" "-1208 714 516"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/dtree.mdl"
+"origin" "-360 184 512"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/pumpkin.mdl"
+"skin" "1"
+"origin" "-680 212 532"
+}
+{
+"classname" "monster_zombie"
+"spawnflags" "1"
+"origin" "-1232 104 600"
+}
+{
+"classname" "path_corner"
+"targetname" "zombie_a"
+"target" "zombie_b"
+"origin" "-200 864 520"
+}
+{
+"classname" "path_corner"
+"targetname" "zombie_b"
+"target" "zombie_a"
+"origin" "-1312 864 520"
+}
+{
+"classname" "monster_zombie"
+"target" "zombie_a"
+"origin" "-776 876 546"
+}
+{
+"classname" "monster_zombie"
+"origin" "-740 210 600"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "150"
+"team_no" "1"
+"sounds" "0"
+"style" "32"
+"delay" "0"
+"model" "*10"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "2"
+"origin" "-776 -1374 632"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "2"
+"origin" "-668 -624 740"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "blue_out"
+"origin" "-1336 886 800"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "red_out"
+"origin" "-176 886 800"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "2"
+"origin" "-612 -580 734"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "150"
+"team_no" "2"
+"sounds" "0"
+"style" "32"
+"delay" "0"
+"model" "*11"
+}
+{
+"classname" "light"
+"light" "60"
+"angle" "2"
+"origin" "-774 -742 596"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "2"
+"origin" "-668 -554 740"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "2"
+"origin" "-736 -558 758"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "2"
+"origin" "-736 -628 758"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "1"
+"team_no" "2"
+"model" "*12"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "-884 -2116 740"
+}
+{
+"classname" "light"
+"light" "75"
+"angle" "2"
+"origin" "-940 -2160 734"
+}
+{
+"classname" "light"
+"light" "60"
+"angle" "2"
+"origin" "-778 -1998 596"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "-884 -2186 740"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "-816 -2182 758"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "-816 -2112 758"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "400"
+"wait" "1"
+"team_no" "1"
+"model" "*13"
+}
+{
+"classname" "info_tfgoal"
+"angle" "270"
+"g_a" "1"
+"g_e" "2"
+"team_no" "2"
+"items_allowed" "1"
+"count" "5"
+"frags" "5"
+"increase_team2" "0"
+"axhitme" "1"
+"mdl" "progs/pumpkin.mdl"
+"skin" "1"
+"goal_state" "2"
+"playerclass" "0"
+"wait" "1"
+"delay" "2"
+"goal_result" "0"
+"increase_team1" "0"
+"increase_team3" "0"
+"increase_team4" "0"
+"message" "Happy Halloween!\n"
+"team_broadcast" "Happy Halloween Red Team!\n"
+"non_team_broadcast" "the reds are having a happy halloween!\n"
+"origin" "-790 -690 530"
+}
+{
+"classname" "info_tfgoal"
+"angle" "90"
+"g_a" "1"
+"g_e" "2"
+"team_no" "1"
+"items_allowed" "2"
+"count" "5"
+"frags" "5"
+"increase_team2" "0"
+"axhitme" "2"
+"mdl" "progs/pumpkin.mdl"
+"skin" "1"
+"wait" "1"
+"delay" "1"
+"message" "Happy Halloween!\n"
+"team_broadcast" "Happy Halloween Blue Team!\n"
+"non_team_broadcast" "the reds are having a happy halloween!\n"
+"origin" "-790 -2064 530"
+}
+{
+"cnt" "100"
+"height" "8"
+"classname" "item_tfgoal"
+"angle" "182"
+"netname" "red_flag"
+"items" "262144"
+"g_a" "693"
+"team_no" "1"
+"owned_by" "2"
+"mdl" "progs/tf_stan.mdl"
+"skin" "2"
+"goal_no" "2"
+"pausetime" "30"
+"noise" "items/protect.wav"
+"origin" "-236 -390 260"
+}
+{
+"cnt" "100"
+"height" "8"
+"classname" "item_tfgoal"
+"angle" "182"
+"netname" "blue_flag"
+"items" "131072"
+"g_a" "693"
+"team_no" "2"
+"owned_by" "1"
+"mdl" "progs/tf_stan.mdl"
+"skin" "1"
+"goal_no" "1"
+"pausetime" "30"
+"noise" "items/protect.wav"
+"origin" "428 -390 260"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"mdl" "progs/invulner.mdl"
+"g_a" "1"
+"g_e" "1"
+"ammo_medikit" "10"
+"ammo_rockets" "20"
+"ammo_cells" "200"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"health" "100"
+"armorvalue" "300"
+"armorclass" "2"
+"armortype" ".8"
+"skin" "1"
+"goal_state" "2"
+"noise" "items/inv1.wav"
+"team_no" "1"
+"ammo_detpack" "-1"
+"origin" "96 0 76"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"mdl" "progs/invulner.mdl"
+"g_a" "1"
+"g_e" "1"
+"ammo_medikit" "10"
+"ammo_rockets" "20"
+"ammo_cells" "200"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"health" "100"
+"armorvalue" "300"
+"armorclass" "2"
+"armortype" ".8"
+"skin" "1"
+"goal_state" "2"
+"noise" "items/inv1.wav"
+"team_no" "2"
+"ammo_detpack" "-1"
+"origin" "96 -818 76"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/dtree.mdl"
+"origin" "-530 -1018 510"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/dtree.mdl"
+"origin" "-790 -1386 530"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/dtree.mdl"
+"origin" "-530 -1598 512"
+}
+{
+"classname" "func_illusionary"
+"model" "*14"
+}
+{
+"classname" "func_illusionary"
+"model" "*15"
+}
+{
+"classname" "func_illusionary"
+"model" "*16"
+}
+{
+"classname" "path_corner"
+"targetname" "zombie_a"
+"target" "zombie_b"
+"origin" "-200 814 520"
+}
+{
+"classname" "path_corner"
+"targetname" "zombie_b"
+"target" "zombie_a"
+"origin" "-1312 814 520"
+}
+{
+"classname" "monster_zombie"
+"target" "zombie_a"
+"origin" "-776 814 546"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "400"
+"wait" "1"
+"team_no" "1"
+"model" "*17"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "400"
+"wait" "1"
+"team_no" "2"
+"model" "*18"
+}
+{
+"option2" "6"
+"option" "0.4"
+"origin" "-1205 720 550"
+"noise" "effects/haunted/raven.wav"
+"classname" "effect_random_sound"
+}
+{
+"option2" "12"
+"option" "1"
+"origin" "-365 185 550"
+"noise" "effects/haunted/owl.wav"
+"classname" "effect_random_sound"
+}
+{
+"option2" "40"
+"option" "10"
+"origin" "-1030 -300 420"
+"noise" "effects/haunted/howling.wav"
+"classname" "effect_random_sound"
+}
+{
+"option2" "15"
+"option" "5"
+"origin" "-680 200 800"
+"noise" "effects/haunted/ghost.wav"
+"classname" "effect_random_sound"
+}
+{
+"spawnflags" "1024"
+"origin" "-680 200 800"
+"classname" "effect_lightning"
+}
+{
+"option2" "35"
+"option" "8"
+"origin" "-830 -1310 590"
+"noise" "effects/haunted/ticks.wav"
+"classname" "effect_random_sound"
+}
+{
+"option2" "25"
+"option" "8"
+"origin" "-530 -1645 550"
+"noise" "effects/haunted/rattle.wav"
+"classname" "effect_random_sound"
+}
+{
+"spawnflags" "4"
+"origin" "-800 -1300 550"
+"noise" "effects/haunted/spirits.wav"
+"classname" "ambient_sound"
+}
+{
+"option2" "6"
+"option" "0.4"
+"origin" "-550 -1040 550"
+"noise" "effects/haunted/raven.wav"
+"classname" "effect_random_sound"
+}
+{
+"spawnflags" "800"
+"origin" "-830 -1310 1000"
+"classname" "effect_lightning"
+}
+{
+"origin" "-957 501 536"
+"classname" "effect_rockfall"
+}
+{
+"origin" "-782 580 536"
+"classname" "effect_rockfall"
+}
+{
+"origin" "-724 727 536"
+"classname" "effect_rockfall"
+}
+{
+"origin" "-1169 512 536"
+"classname" "effect_rockfall"
+}
+{
+"origin" "-1243 254 536"
+"classname" "effect_rockfall"
+}
+{
+"origin" "-1049 361 536"
+"classname" "effect_rockfall"
+}
+{
+"origin" "-1000 400 300"
+"noise" "ambience/lavapit.wav"
+"classname" "ambient_sound"
+}
+{
+"origin" "-1050 350 300"
+"classname" "effect_burner"
+}
+{
+"origin" "-1075 550 350"
+"classname" "effect_burner"
+}
+{
+"origin" "-800 750 375"
+"classname" "effect_burner"
+}
+{
+"origin" "-975 550 300"
+"classname" "misc_fireball"
+"speed" "600"
+}
+{
+"spawnflags" "4"
+"noise" "ambience/peakwind.wav"
+"origin" "-830 -1311 555"
+"classname" "ambient_sound"
+}
+{
+"spawnflags" "4"
+"option2" "20"
+"option" "4.5"
+"origin" "180 -390 150"
+"noise" "effects/haunted/monster.wav"
+"classname" "effect_random_sound"
+}

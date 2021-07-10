@@ -1,0 +1,1018 @@
+{
+"message" "Operation Sly Fox v1.0 -- [DoW]Wolfmann"
+"wad" "q.wad;town4.wad;fox.wad;axl3.wad;axl11.wad;computer.wad"
+"classname" "worldspawn"
+"worldtype" "2"
+"angle" "225"
+}
+{
+"playerclass" "2"
+"message" "Kill the Iraqi Tyrant!\n"
+"classname" "i_p_t"
+"origin" "-752 80 760"
+"team_no" "3"
+"angle" "0"
+"model" "*1"
+}
+{
+"g_a" "4"
+"classname" "i_t_g"
+"noise" "items/gasmask.wav"
+"origin" "-2456 1432 28"
+"wait" "10"
+"g_e" "1"
+"invincible_finished" "8"
+"team_no" "1"
+"targetname" "gas_mask"
+"mdl" "progs/mask1.mdl"
+"angle" "0"
+"model" "*2"
+}
+{
+"g_a" "12"
+"message" "Welcome, King Hussein!\n"
+"impulse" "1"
+"netname" "The President's Notepad"
+"classname" "item_tfgoal"
+"origin" "-2464 1320 8"
+"g_e" "1"
+"noise3" "Saddam Hussein has been killed!\n"
+"goal_no" "2"
+"noise4" "Saddam Hussein has been killed!\n"
+"team_no" "1"
+}
+{
+"spawnflags" "1"
+"speed" "500"
+"sounds" "2"
+"classname" "func_door"
+"wait" "10"
+"angle" "-1"
+"targetname" "gas_respawn_door"
+"model" "*3"
+}
+{
+"netname" "gas"
+"b_n" "Die Coalition Scum!\n"
+"classname" "i_t_g"
+"origin" "-566 980 766"
+"g_e" "41"
+"deathtype" " couldn't hold his breath.\n"
+"goal_result" "16"
+"health" "-60"
+"t_length" "3500"
+"targetname" "gas_3"
+"group_no" "2"
+"model" "*4"
+}
+{
+"target" "gas_3"
+"netname" "gas"
+"b_n" "Die Coalition Scum!\n"
+"classname" "i_t_g"
+"origin" "-582 980 806"
+"g_e" "41"
+"goal_result" "16"
+"deathtype" " couldn't hold his breath.\n"
+"delay_time" "1"
+"health" "-60"
+"t_length" "3500"
+"targetname" "gas_2"
+"group_no" "2"
+"model" "*5"
+}
+{
+"target" "gas_2"
+"netname" "gas"
+"b_n" "Die Coalition Scum!\n"
+"classname" "i_t_g"
+"origin" "-598 980 846"
+"g_e" "41"
+"deathtype" " couldn't hold his breath.\n"
+"goal_result" "16"
+"delay_time" "1"
+"health" "-60"
+"t_length" "3500"
+"targetname" "gas"
+"group_no" "2"
+"model" "*6"
+}
+{
+"classname" "light"
+"origin" "-382 1302 132"
+}
+{
+"classname" "light"
+"origin" "-1278 1310 132"
+}
+{
+"classname" "light"
+"origin" "32 1334 252"
+"light" "500"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "736"
+"model" "*7"
+}
+{
+"classname" "light"
+"origin" "150 1078 84"
+"light" "200"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "544"
+"model" "*8"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "736"
+"model" "*9"
+}
+{
+"classname" "light"
+"origin" "-366 940 124"
+}
+{
+"classname" "light"
+"origin" "-662 936 124"
+}
+{
+"classname" "light"
+"origin" "-720 1086 60"
+"light" "400"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "736"
+"model" "*10"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "544"
+"model" "*11"
+}
+{
+"classname" "light"
+"origin" "-134 1082 84"
+"light" "200"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "544"
+"model" "*12"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "736"
+"model" "*13"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "544"
+"model" "*14"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "736"
+"model" "*15"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "544"
+"model" "*16"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "736"
+"model" "*17"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "544"
+"model" "*18"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "736"
+"model" "*19"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "736"
+"model" "*20"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "544"
+"model" "*21"
+}
+{
+"classname" "light"
+"origin" "-598 786 84"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-792 -6 74"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "780 -619 76"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "672 -850 314"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-500 -866 314"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "-550 -552 252"
+"light" "500"
+}
+{
+"classname" "item_armorInv"
+"origin" "56 -28 0"
+}
+{
+"classname" "item_armorInv"
+"origin" "56 4 0"
+}
+{
+"classname" "item_armorInv"
+"origin" "57 35 1"
+}
+{
+"classname" "item_health"
+"origin" "106 -228 0"
+}
+{
+"classname" "item_health"
+"origin" "106 -260 0"
+}
+{
+"classname" "item_health"
+"origin" "106 -292 0"
+}
+{
+"classname" "item_rockets"
+"origin" "40 -260 0"
+}
+{
+"classname" "item_rockets"
+"origin" "40 -292 0"
+}
+{
+"classname" "item_spikes"
+"origin" "103 13 1"
+}
+{
+"classname" "item_spikes"
+"origin" "103 -19 1"
+}
+{
+"classname" "item_spikes"
+"origin" "103 -51 1"
+}
+{
+"classname" "item_shells"
+"origin" "102 -100 0"
+}
+{
+"classname" "item_shells"
+"origin" "102 -132 0"
+}
+{
+"classname" "item_shells"
+"origin" "102 -164 0"
+}
+{
+"classname" "info_player_start"
+"origin" "34 1334 296"
+"angle" "225"
+}
+{
+"classname" "light"
+"origin" "552 552 252"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "544 -552 252"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-549 548 252"
+"light" "500"
+}
+{
+"classname" "item_rockets"
+"origin" "-408 305 185"
+}
+{
+"classname" "item_shells"
+"origin" "-408 273 185"
+}
+{
+"classname" "item_rockets"
+"origin" "375 305 177"
+}
+{
+"classname" "item_shells"
+"origin" "375 273 177"
+}
+{
+"classname" "light"
+"origin" "-9 345 158"
+"light" "750"
+}
+{
+"classname" "light"
+"origin" "-24 -317 72"
+}
+{
+"classname" "light"
+"origin" "-110 43 56"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "54 43 56"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "130 -121 56"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-186 -113 56"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-24 -120 228"
+}
+{
+"classname" "light"
+"origin" "-24 -120 56"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-24 -418 124"
+}
+{
+"speed" "400"
+"sounds" "2"
+"classname" "func_door"
+"team_no" "2"
+"lip" "-1"
+"angle" "90"
+"model" "*22"
+}
+{
+"speed" "400"
+"sounds" "2"
+"classname" "func_door"
+"wait" "1"
+"team_no" "1"
+"lip" "-1"
+"targetname" "saddam_door"
+"angle" "90"
+"model" "*23"
+}
+{
+"classname" "info_intermission"
+"origin" "84 542 974"
+"angle" "270"
+}
+{
+"classname" "light"
+"origin" "84 510 992"
+"light" "500"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "544"
+"model" "*24"
+}
+{
+"speed" "200"
+"sounds" "1"
+"classname" "func_plat"
+"height" "736"
+"model" "*25"
+}
+{
+"classname" "light"
+"origin" "-1788 1310 132"
+}
+{
+"classname" "light"
+"origin" "-726 1310 132"
+}
+{
+"classname" "light"
+"origin" "-1438 1518 132"
+}
+{
+"classname" "light"
+"origin" "-1462 1078 132"
+}
+{
+"classname" "light"
+"origin" "-790 1542 132"
+}
+{
+"classname" "light"
+"origin" "-2444 1280 54"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "-2140 1310 42"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-2016 1310 42"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "454 1382 84"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "630 786 84"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "386 934 84"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "386 1234 84"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "806 1382 84"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "802 982 84"
+"light" "200"
+}
+{
+"g_a" "1"
+"netname" "base two defence"
+"classname" "i_t_g"
+"origin" "-10 -48 792"
+"g_e" "1"
+"goal_result" "2"
+"team_no" "1"
+"health" "-500"
+"model" "*26"
+}
+{
+"message" "Welcome, King Hussein!\n"
+"netname" "Prez Spawn Point"
+"classname" "i_p_t"
+"origin" "-2464 1320 16"
+"team_no" "1"
+"angle" "0"
+"model" "*27"
+}
+{
+"classname" "i_t_g"
+"origin" "-10 -48 824"
+"increase_team3" "5"
+"b_b" "Saddam Hussein was killed!\nCoalition Assassins win!\n"
+"goal_no" "1"
+"frags" "5"
+"goal_result" "2"
+"model" "*28"
+}
+{
+"g_a" "1"
+"target" "pre_gas_1"
+"netname" "computer_launch"
+"increase_team1" "50"
+"increase_team2" "10"
+"classname" "i_t_g"
+"origin" "-119 -23 34"
+"wait" "5"
+"g_e" "1"
+"b_b" "Saddam Hussein launched the gas!!\nCoalition Assassins lose!\n"
+"goal_no" "5"
+"deathtype" "has respawned.\n"
+"frags" "5"
+"goal_result" "34"
+"team_no" "1"
+"model" "*29"
+}
+{
+"playerclass" "2"
+"message" "Kill the Iraqi Tyrant!\n"
+"netname" "Assassin Spawn Point"
+"classname" "i_p_t"
+"origin" "-776 -729 24"
+"team_no" "3"
+"angle" "0"
+"model" "*30"
+}
+{
+"g_a" "2"
+"netname" "Bodyguard Spawn Point"
+"message" "Protect King Hussein!\n"
+"classname" "i_p_t"
+"origin" "-2448 1112 16"
+"team_no" "2"
+"angle" "90"
+"model" "*31"
+}
+{
+"impulse" "148"
+"maxammo_rockets" "757"
+"classname" "info_tfdetect"
+"b_n" "Operation: Sly Fox Please read the readme.txt\n http://come.to/wolfmann\n"
+"origin" "-24 -120 840"
+"hook_out" "1"
+"maxammo_shells" "-1"
+"b_t" "=== WHO ARE YOU? ===\n\n1.. SADDAM HUSSEIN\n2.. REPUBLICAN GUARDSMAN  \n3.. COALITION ASSASSINS \n"
+"b_b" "TeamFortress v2.1"
+"maxammo_nails" "907"
+"noise2" "=== Choose your class ===\n\n3.. Soldier \n5.. Medic   \n6.. Hvwep   \n7.. Pyro    \n"
+"ammo_medikit" "1"
+"noise3" "=== Choose your class ===\n\n2.. Sniper  \n4.. Demoman \n8.. Spy"
+}
+{
+"g_a" "2"
+"message" "Protect King Hussein!\n"
+"netname" "Bodyguard Spawn Point"
+"classname" "i_p_t"
+"origin" "-2352 1112 16"
+"team_no" "2"
+"angle" "90"
+"model" "*32"
+}
+{
+"g_a" "2"
+"netname" "Bodyguard Spawn Point"
+"message" "Protect King Hussein!\n"
+"classname" "i_p_t"
+"origin" "-2248 1112 16"
+"team_no" "2"
+"angle" "90"
+"model" "*33"
+}
+{
+"g_a" "2"
+"message" "Protect King Hussein!\n"
+"netname" "Bodyguard Spawn Point"
+"classname" "i_p_t"
+"origin" "-2448 1488 16"
+"team_no" "2"
+"angle" "270"
+"model" "*34"
+}
+{
+"g_a" "2"
+"netname" "Bodyguard Spawn Point"
+"message" "Protect King Hussein!\n"
+"classname" "i_p_t"
+"origin" "-2352 1488 16"
+"team_no" "2"
+"angle" "270"
+"model" "*35"
+}
+{
+"g_a" "2"
+"message" "Protect King Hussein!\n"
+"netname" "Bodyguard Spawn Point"
+"classname" "i_p_t"
+"origin" "-2248 1488 16"
+"team_no" "2"
+"angle" "270"
+"model" "*36"
+}
+{
+"message" "Kill the Iraqi Tyrant!\n"
+"netname" "Assassin Spawn Point"
+"classname" "i_p_t"
+"origin" "804 -833 24"
+"team_no" "3"
+"angle" "135"
+"playerclass" "4"
+"model" "*37"
+}
+{
+"playerclass" "2"
+"netname" "Assassin Spawn Point"
+"message" "Kill the Iraqi Tyrant!\n"
+"classname" "i_p_t"
+"origin" "796 -297 760"
+"team_no" "3"
+"angle" "135"
+"model" "*38"
+}
+{
+"classname" "item_armorInv"
+"origin" "-2092 1224 8"
+}
+{
+"classname" "item_armorInv"
+"origin" "-2092 1392 8"
+}
+{
+"classname" "item_armorInv"
+"origin" "-2128 1392 8"
+}
+{
+"classname" "item_armorInv"
+"origin" "-2128 1224 8"
+}
+{
+"classname" "item_rockets"
+"origin" "-2184 1208 8"
+}
+{
+"classname" "item_rockets"
+"origin" "-2216 1208 8"
+}
+{
+"classname" "item_rockets"
+"origin" "-2248 1208 8"
+}
+{
+"classname" "item_rockets"
+"origin" "-2248 1376 8"
+}
+{
+"classname" "item_rockets"
+"origin" "-2216 1376 8"
+}
+{
+"classname" "item_rockets"
+"origin" "-2184 1376 8"
+}
+{
+"classname" "item_shells"
+"origin" "-2296 1208 8"
+}
+{
+"classname" "item_shells"
+"origin" "-2296 1376 8"
+}
+{
+"g_a" "5"
+"target" "bunker_doors"
+"owned_by" "3"
+"netname" "Body_Bunk_door"
+"message" "Processing.... Please Wait\n"
+"classname" "i_t_g"
+"origin" "42 -384 48"
+"n_b" " is entering the bunker\n"
+"delay_time" "3"
+"goal_result" "16"
+"team_no" "3"
+"model" "*39"
+}
+{
+"g_a" "5"
+"owned_by" "3"
+"target" "bunker_doors"
+"netname" "Body_Bunk_door"
+"classname" "i_t_g"
+"origin" "-26 -276 48"
+"goal_result" "16"
+"team_no" "3"
+"model" "*40"
+}
+{
+"g_a" "5"
+"target" "respawn_door_1"
+"owned_by" "3"
+"netname" "respawn_door"
+"classname" "i_t_g"
+"origin" "-2336 1310 42"
+"goal_result" "16"
+"team_no" "3"
+"model" "*41"
+}
+{
+"g_a" "5"
+"owned_by" "3"
+"target" "respawn_door_2"
+"netname" "respawn_door"
+"classname" "i_t_g"
+"origin" "-2094 1310 42"
+"goal_result" "16"
+"team_no" "3"
+"model" "*42"
+}
+{
+"classname" "trigger_hurt"
+"dmg" "999"
+"team_no" "3"
+"model" "*43"
+}
+{
+"g_a" "5"
+"owned_by" "3"
+"target" "respawn_door_1"
+"netname" "respawn_door"
+"classname" "i_t_g"
+"origin" "-2296 1310 42"
+"goal_result" "16"
+"delay_time" "3"
+"team_no" "3"
+"model" "*44"
+}
+{
+"classname" "light"
+"origin" "-2164 1180 40"
+}
+{
+"classname" "light"
+"origin" "-2176 1432 40"
+}
+{
+"g_a" "1"
+"message" "Processing.... Please Wait\n"
+"netname" "Body_Bunk_door"
+"classname" "i_t_g"
+"origin" "42 -384 16"
+"goal_result" "16"
+"model" "*45"
+}
+{
+"target" "pre_gas_2"
+"message" "5..."
+"classname" "trigger_relay"
+"delay" "1"
+"targetname" "pre_gas_1"
+"model" "*46"
+}
+{
+"target" "pre_gas_3"
+"message" "4..."
+"classname" "trigger_relay"
+"delay" "1"
+"targetname" "pre_gas_2"
+"model" "*47"
+}
+{
+"target" "pre_gas_4"
+"message" "3..."
+"classname" "trigger_relay"
+"noise" "sound/items/3.wav"
+"delay" "1"
+"targetname" "pre_gas_3"
+"model" "*48"
+}
+{
+"target" "gas"
+"message" "1..."
+"classname" "trigger_relay"
+"noise" "sound/items/1.wav"
+"delay" "1"
+"targetname" "pre_gas_5"
+"model" "*49"
+}
+{
+"target" "pre_gas_5"
+"message" "2..."
+"classname" "trigger_relay"
+"noise" "sound/items/2.wav"
+"delay" "1"
+"targetname" "pre_gas_4"
+"model" "*50"
+}
+{
+"target" "respawn_door_1"
+"speed" "500"
+"sounds" "2"
+"classname" "func_door"
+"wait" "1"
+"targetname" "respawn_door_1"
+"angle" "-1"
+"model" "*51"
+}
+{
+"target" "respawn_door_2"
+"speed" "500"
+"classname" "func_door"
+"wait" "1"
+"targetname" "respawn_door_2"
+"angle" "-1"
+"model" "*52"
+}
+{
+"sounds" "2"
+"classname" "func_door"
+"angle" "180"
+"targetname" "bunker_doors"
+"model" "*53"
+}
+{
+"sounds" "2"
+"classname" "func_door"
+"angle" "0"
+"targetname" "bunker_doors"
+"model" "*54"
+}
+{
+"g_a" "1"
+"message" "Access DENIED!\n"
+"netname" "ass_Bunk_door"
+"classname" "i_t_g"
+"origin" "42 -384 32"
+"g_e" "1"
+"delay_time" "3"
+"team_no" "3"
+"model" "*55"
+}
+{
+"g_a" "1"
+"target" "saddam_door"
+"message" "Launch the gas NOW!\n"
+"classname" "i_t_g"
+"origin" "-58 -126 46"
+"team_no" "1"
+"model" "*56"
+}
+{
+"g_a" "2052"
+"items_allowed" "2"
+"netname" "gasmask1"
+"classname" "i_t_g"
+"noise" "items/gasmask.wav"
+"origin" "-52 24 38"
+"n_b" " has a gas mask!\n"
+"t_s_c" "Good idea, "
+"if_group_is_active" "2"
+"wait" "10"
+"g_e" "1"
+"goal_result" "16"
+"team_no" "1"
+"invincible_finished" "10"
+"mdl" "progs/mask1.mdl"
+"angle" "270"
+"targetname" "gas_mask"
+"model" "*57"
+}
+{
+"g_a" "2052"
+"items_allowed" "2"
+"netname" "gasmask2"
+"classname" "i_t_g"
+"noise" "items/gasmask.wav"
+"if_group_is_active" "2"
+"origin" "4 24 38"
+"t_s_c" "Good idea, "
+"wait" "10"
+"g_e" "1"
+"goal_result" "16"
+"team_no" "1"
+"invincible_finished" "10"
+"targetname" "gas_mask"
+"mdl" "progs/mask1.mdl"
+"angle" "270"
+"model" "*58"
+}
+{
+"target" "gas_respawn_door"
+"classname" "trigger_relay"
+"targetname" "pre_gas_1"
+"model" "*59"
+}
+{
+"target" "gas_mask"
+"classname" "trigger_relay"
+"targetname" "pre_gas_1"
+"model" "*60"
+}
+{
+"noise" "items/gasmask.wav"
+"classname" "i_t_g"
+"origin" "-2464 1320 8"
+"wait" "2"
+"g_e" "1"
+"team_no" "1"
+"invincible_finished" "8"
+"targetname" "gas_mask"
+"model" "*61"
+}
+{
+"g_a" "4"
+"netname" "gasmask3"
+"classname" "i_t_g"
+"noise" "items/gasmask.wav"
+"origin" "-2456 1384 8"
+"wait" "2"
+"g_e" "1"
+"team_no" "1"
+"invincible_finished" "8"
+"targetname" "gas_mask"
+"angle" "0"
+"mdl" "progs/mask1.mdl"
+"model" "*62"
+}
+{
+"playerclass" "8"
+"classname" "info_player_teamspawn"
+"origin" "488 -864 80"
+"team_no" "3"
+"message" "Kill the Iraqi Tyrant!\n"
+"angle" "90"
+"no_grenades_2" "-6"
+}
+{
+"playerclass" "4"
+"angle" "90"
+"message" "Kill the Iraqi Tyrant!\n"
+"team_no" "3"
+"origin" "264 -864 80"
+"classname" "info_player_teamspawn"
+}
+{
+"playerclass" "4"
+"classname" "info_player_teamspawn"
+"origin" "64 -864 80"
+"team_no" "3"
+"message" "Kill the Iraqi Tyrant!\n"
+"angle" "90"
+}
+{
+"playerclass" "4"
+"angle" "90"
+"message" "Kill the Iraqi Tyrant!\n"
+"team_no" "3"
+"origin" "-128 -864 80"
+"classname" "info_player_teamspawn"
+}
+{
+"playerclass" "4"
+"classname" "info_player_teamspawn"
+"origin" "-320 -864 80"
+"team_no" "3"
+"message" "Kill the Iraqi Tyrant!\n"
+"angle" "90"
+}
+{
+"playerclass" "4"
+"angle" "90"
+"message" "Kill the Iraqi Tyrant!\n"
+"team_no" "3"
+"origin" "-504 -864 80"
+"classname" "info_player_teamspawn"
+}

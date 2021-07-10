@@ -1,0 +1,771 @@
+{
+"classname" "worldspawn"
+"worldtype" "2"
+"sounds" "1"
+"light" "0"
+"message" "Frags for Flags 5.b3"
+"wad" "d:\wcraft\hexen2q.wad"
+}
+{
+"classname" "func_plat"
+"sounds" "1"
+"speed" "100"
+"height" "120"
+"model" "*1"
+}
+{
+"classname" "func_plat"
+"sounds" "1"
+"speed" "100"
+"height" "120"
+"model" "*2"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "500"
+"origin" "403 -389 140"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "500"
+"origin" "395 579 140"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "200"
+"origin" "-576 96 312"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "200"
+"origin" "408 584 312"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "200"
+"origin" "408 -384 312"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "200"
+"origin" "-1560 -424 312"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "200"
+"origin" "384 64 312"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "200"
+"origin" "-1472 96 288"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "200"
+"origin" "-1560 584 312"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "200"
+"origin" "-576 584 312"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "200"
+"origin" "-576 -424 312"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "-576 -416 56"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"dmg" "2"
+"health" "0"
+"speed" "100"
+"lip" "-25"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"dmg" "2"
+"health" "0"
+"speed" "100"
+"lip" "-25"
+"model" "*4"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "500"
+"origin" "-147 7 84"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"dmg" "2"
+"health" "0"
+"speed" "100"
+"lip" "-25"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"dmg" "2"
+"health" "0"
+"speed" "100"
+"lip" "-25"
+"model" "*6"
+}
+{
+"classname" "func_plat"
+"sounds" "1"
+"speed" "100"
+"height" "120"
+"model" "*7"
+}
+{
+"classname" "func_plat"
+"sounds" "1"
+"speed" "100"
+"height" "120"
+"model" "*8"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "500"
+"origin" "-1555 539 132"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "500"
+"origin" "-1549 -421 132"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "200"
+"origin" "-1360 608 312"
+}
+{
+"classname" "info_tfdetect"
+"netname" "DETECTOR"
+"impulse" "212"
+"hook_out" "1"
+"team_broadcast" "FRAGS 4 FLAGS V.5\n-----------------\n 1. BLUE\n\n2. RED"
+"non_team_broadcast" "Frags for Flags V.5 (CTF)\n"
+"origin" "-1526 74 186"
+}
+{
+"classname" "light_globe"
+"origin" "736 64 64"
+}
+{
+"classname" "light_globe"
+"origin" "-1888 88 64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1504 60 -20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-1504 132 -20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "352 28 -20"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "352 100 -20"
+}
+{
+"classname" "item_tfgoal"
+"netname" "Blue Flag"
+"owned_by" "2"
+"mdl" "progs\ b_s_key.mdl"
+"noise" "artifact/pickup.wav"
+"team_no" "1"
+"goal_result" "18"
+"goal_activation" "670"
+"items" "262144"
+"netname_team_broadcast" " has flag and needs escorting.\n"
+"netname_non_team_broadcast" " has a flag\n"
+"netname_owners_team_broadcast" " has flag needs killing\n"
+"goal_no" "2"
+"origin" "-1888 88 -8"
+}
+{
+"classname" "item_tfgoal"
+"netname" "Red Flag"
+"owned_by" "1"
+"skin" "2"
+"mdl" "progs\ b_g_key.mdl"
+"noise" "artifact/pickup.wav"
+"team_no" "2"
+"goal_result" "18"
+"goal_activation" "670"
+"items" "262144"
+"netname_team_broadcast" " has flag and needs escorting.\n"
+"netname_non_team_broadcast" " has a flag\n"
+"netname_owners_team_broadcast" " has flag needs killing\n"
+"goal_no" "1"
+"origin" "736 64 -8"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Red goal"
+"owned_by" "1"
+"noise" "misc/runekey.wav"
+"team_no" "2"
+"goal_activation" "1"
+"netname_team_broadcast" " Scored for us.\n"
+"netname_non_team_broadcast" " Makes a touch down\n"
+"netname_owners_team_broadcast" " Got through and stole your flag.\n"
+"increase_team2" "10"
+"frags" "1"
+"health" "10"
+"goal_effects" "1"
+"message" "Welldone\n"
+"axhitme" "1"
+"items_allowed" "1"
+"origin" "-1888 88 0"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Blue goal"
+"owned_by" "2"
+"noise" "misc/runekey.wav"
+"team_no" "1"
+"goal_activation" "1"
+"netname_team_broadcast" " Scored for us.\n"
+"netname_non_team_broadcast" " Makes a touch down\n"
+"netname_owners_team_broadcast" " Got through and stole your flag.\n"
+"frags" "1"
+"health" "10"
+"goal_effects" "1"
+"message" "Welldone\n"
+"axhitme" "2"
+"increase_team1" "10"
+"items_allowed" "2"
+"origin" "736 64 2"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "500"
+"origin" "-148 120 84"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "500"
+"origin" "-1004 48 92"
+}
+{
+"classname" "light_flame_large_yellow"
+"light" "500"
+"origin" "-1004 160 92"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "Blue start"
+"goal_activation" "2"
+"team_no" "1"
+"message" "LOCATION: Surface, Baracks"
+"origin" "400 -816 64"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "100"
+"origin" "320 -1024 304"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "100"
+"origin" "320 -704 304"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"dmg" "2"
+"sounds" "4"
+"health" "0"
+"speed" "600"
+"lip" "8"
+"team_no" "1"
+"wait" ".1"
+"model" "*9"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "Blue start"
+"goal_activation" "2"
+"team_no" "1"
+"message" "LOCATION: Surface, Baracks"
+"origin" "336 -816 64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "Blue start"
+"goal_activation" "2"
+"team_no" "1"
+"message" "LOCATION: Surface, Baracks"
+"origin" "272 -816 64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "Blue start"
+"goal_activation" "2"
+"team_no" "1"
+"message" "LOCATION: Surface, Baracks"
+"origin" "208 -816 64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "Blue start"
+"goal_activation" "2"
+"team_no" "1"
+"message" "LOCATION: Surface, Baracks"
+"origin" "144 -816 64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "Blue start"
+"goal_activation" "2"
+"team_no" "1"
+"message" "LOCATION: Surface, Baracks"
+"origin" "80 -816 64"
+}
+{
+"classname" "item_armor1"
+"origin" "384 -928 64"
+}
+{
+"classname" "item_armor1"
+"origin" "384 -1232 64"
+}
+{
+"classname" "item_health"
+"origin" "368 -1184 40"
+}
+{
+"classname" "item_health"
+"origin" "368 -1120 40"
+}
+{
+"classname" "item_health"
+"origin" "368 -1072 40"
+}
+{
+"classname" "item_health"
+"origin" "368 -1008 40"
+}
+{
+"classname" "item_spikes"
+"origin" "0 -960 40"
+}
+{
+"classname" "item_spikes"
+"origin" "64 -960 40"
+}
+{
+"classname" "item_cells"
+"origin" "160 -960 40"
+}
+{
+"classname" "item_cells"
+"origin" "224 -960 40"
+}
+{
+"classname" "item_rockets"
+"origin" "224 -1232 40"
+}
+{
+"classname" "item_rockets"
+"origin" "176 -1232 40"
+}
+{
+"classname" "item_rockets"
+"origin" "128 -1232 40"
+}
+{
+"classname" "item_shells"
+"origin" "224 -1184 40"
+}
+{
+"classname" "item_shells"
+"origin" "176 -1184 40"
+}
+{
+"classname" "item_shells"
+"origin" "128 -1184 40"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "Red start"
+"goal_activation" "2"
+"team_no" "2"
+"message" "LOCATION: Surface, Baracks"
+"origin" "-1552 976 64"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "100"
+"origin" "-1472 1184 304"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"dmg" "2"
+"sounds" "4"
+"health" "0"
+"speed" "600"
+"lip" "8"
+"team_no" "2"
+"wait" ".1"
+"model" "*10"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "Red start"
+"goal_activation" "2"
+"team_no" "2"
+"message" "LOCATION: Surface, Baracks"
+"origin" "-1488 976 64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "Red start"
+"goal_activation" "2"
+"team_no" "2"
+"message" "LOCATION: Surface, Baracks"
+"origin" "-1424 976 64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "Red start"
+"goal_activation" "2"
+"team_no" "2"
+"message" "LOCATION: Surface, Baracks"
+"origin" "-1360 976 64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "Red start"
+"goal_activation" "2"
+"team_no" "2"
+"message" "LOCATION: Surface, Baracks"
+"origin" "-1296 976 64"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "Red start"
+"goal_activation" "2"
+"team_no" "2"
+"message" "LOCATION: Surface, Baracks"
+"origin" "-1232 976 64"
+}
+{
+"classname" "item_armor1"
+"origin" "-1536 1088 64"
+}
+{
+"classname" "item_armor1"
+"origin" "-1536 1392 64"
+}
+{
+"classname" "item_health"
+"origin" "-1552 1312 40"
+}
+{
+"classname" "item_health"
+"origin" "-1552 1248 40"
+}
+{
+"classname" "item_health"
+"origin" "-1552 1200 40"
+}
+{
+"classname" "item_health"
+"origin" "-1552 1136 40"
+}
+{
+"classname" "item_spikes"
+"origin" "-1216 1072 40"
+}
+{
+"classname" "item_spikes"
+"origin" "-1280 1072 40"
+}
+{
+"classname" "item_cells"
+"origin" "-1376 1072 40"
+}
+{
+"classname" "item_cells"
+"origin" "-1440 1072 40"
+}
+{
+"classname" "item_rockets"
+"origin" "-1376 1376 40"
+}
+{
+"classname" "item_rockets"
+"origin" "-1328 1376 40"
+}
+{
+"classname" "item_rockets"
+"origin" "-1280 1376 40"
+}
+{
+"classname" "item_shells"
+"origin" "-1376 1328 40"
+}
+{
+"classname" "item_shells"
+"origin" "-1328 1328 40"
+}
+{
+"classname" "item_shells"
+"origin" "-1280 1328 40"
+}
+{
+"classname" "light"
+"angle" "2"
+"light" "100"
+"origin" "-1472 864 304"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "2"
+"origin" "-1824 -472 -392"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "11"
+"origin" "672 552 -392"
+}
+{
+"classname" "func_plat"
+"sounds" "2"
+"speed" "100"
+"height" "848"
+"model" "*11"
+}
+{
+"classname" "func_plat"
+"sounds" "2"
+"speed" "100"
+"height" "848"
+"model" "*12"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "11"
+"origin" "-1208 -416 -864"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "2"
+"origin" "-576 168 -864"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "2"
+"origin" "88 592 -864"
+}
+{
+"classname" "ambient_drip"
+"origin" "672 592 -784"
+}
+{
+"classname" "ambient_drip"
+"origin" "-1824 -416 -792"
+}
+{
+"classname" "ambient_drip"
+"origin" "-568 96 -864"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "-1908 -416 -836"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "772 592 -836"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"sounds" "0"
+"speed" "1000"
+"wait" "-1"
+"dmg" "0"
+"health" "0"
+"lip" "20"
+"targetname" "bluegrate"
+"model" "*13"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"sounds" "0"
+"speed" "1000"
+"wait" "-1"
+"dmg" "0"
+"health" "0"
+"lip" "40"
+"targetname" "bluegrate"
+"model" "*14"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"sounds" "0"
+"speed" "1000"
+"wait" "-1"
+"dmg" "0"
+"health" "0"
+"lip" "30"
+"targetname" "bluegrate"
+"model" "*15"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "redgrate"
+"sounds" "1"
+"speed" "1000"
+"wait" "-1"
+"dmg" "0"
+"health" "0"
+"lip" "30"
+"model" "*16"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "redgrate"
+"sounds" "1"
+"speed" "1000"
+"wait" "-1"
+"dmg" "0"
+"health" "0"
+"lip" "20"
+"model" "*17"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "redgrate"
+"sounds" "1"
+"speed" "1000"
+"wait" "-1"
+"dmg" "0"
+"health" "0"
+"lip" "40"
+"model" "*18"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Red side"
+"goal_activation" "2"
+"message" "Tunnel cleared\n"
+"target" "redgrate"
+"goal_result" "1"
+"goal_effects" "1"
+"netname_broadcast" "has opened the RED tunnel\n"
+"origin" "-648 -432 -912"
+}
+{
+"classname" "info_tfgoal"
+"netname" "BLUE side"
+"goal_activation" "2"
+"message" "Tunnel cleared\n"
+"target" "bluegrate"
+"goal_result" "1"
+"netname_broadcast" "has opened the BLUE tunnel\n"
+"goal_effects" "1"
+"origin" "-504 576 -912"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "redgrate"
+"sounds" "1"
+"speed" "1000"
+"wait" "-1"
+"dmg" "0"
+"health" "0"
+"lip" "20"
+"model" "*19"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "redgrate"
+"sounds" "1"
+"speed" "1000"
+"wait" "-1"
+"dmg" "0"
+"health" "0"
+"lip" "40"
+"model" "*20"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"sounds" "0"
+"speed" "1000"
+"wait" "-1"
+"dmg" "0"
+"health" "0"
+"lip" "20"
+"targetname" "bluegrate"
+"model" "*21"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"sounds" "0"
+"speed" "1000"
+"wait" "-1"
+"dmg" "0"
+"health" "0"
+"lip" "40"
+"targetname" "bluegrate"
+"model" "*22"
+}

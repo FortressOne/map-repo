@@ -1,0 +1,205 @@
+{
+"message" "QuaD ParK \n By LoRd SkIppY"
+"light" "0"
+"sounds" "0"
+"classname" "worldspawn"
+}
+{
+"origin" "704 176 -96"
+"angle" "228"
+"classname" "info_player_start"
+}
+{
+"origin" "704 176 -64"
+"team_no" "1"
+"angle" "229"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "704 -752 -64"
+"team_no" "1"
+"angle" "135"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-256 -752 -64"
+"team_no" "1"
+"angle" "50"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-256 176 -64"
+"team_no" "1"
+"angle" "315"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "704 -288 -176"
+"mdl" "progs/duck.mdl"
+"goal_activation" "1"
+"ammo_shells" "500"
+"message" "LoCk 'n' LoAd!\n"
+"netname" "resupply"
+"armorclass" "27"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"no_grenades_2" "-4"
+"wait" "0.7"
+"super_damage_finished" "45"
+"goal_effects" "1"
+"ammo_medikit" "100"
+"ammo_nails" "500"
+"armorvalue" "200"
+"health" "100"
+"invincible_finished" "45"
+"ammo_cells" "500"
+"lives" "5"
+"ammo_detpack" "-5"
+"ammo_rockets" "500"
+"classname" "info_tfgoal"
+}
+{
+"origin" "224 -768 -176"
+"mdl" "progs/duck.mdl"
+"goal_activation" "1"
+"ammo_shells" "500"
+"message" "LoCk 'n' LoAd!\n"
+"netname" "resupply"
+"armorclass" "27"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"no_grenades_2" "-4"
+"wait" "0.7"
+"super_damage_finished" "45"
+"goal_effects" "1"
+"ammo_medikit" "100"
+"ammo_nails" "500"
+"armorvalue" "200"
+"health" "100"
+"invincible_finished" "45"
+"ammo_cells" "500"
+"lives" "5"
+"ammo_detpack" "-5"
+"ammo_rockets" "500"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-256 -288 -176"
+"mdl" "progs/duck.mdl"
+"goal_activation" "1"
+"ammo_shells" "500"
+"message" "LoCk 'n' LoAd!\n"
+"netname" "resupply"
+"armorclass" "27"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"no_grenades_2" "-4"
+"wait" "0.7"
+"super_damage_finished" "45"
+"goal_effects" "1"
+"ammo_medikit" "100"
+"ammo_nails" "500"
+"armorvalue" "200"
+"health" "100"
+"invincible_finished" "45"
+"ammo_cells" "500"
+"lives" "5"
+"ammo_detpack" "-5"
+"ammo_rockets" "500"
+"classname" "info_tfgoal"
+}
+{
+"origin" "224 192 -176"
+"mdl" "progs/duck.mdl"
+"goal_activation" "1"
+"ammo_shells" "500"
+"message" "LoCk 'n' LoAd!\n"
+"netname" "resupply"
+"armorclass" "27"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"no_grenades_2" "-4"
+"wait" "0.7"
+"super_damage_finished" "45"
+"goal_effects" "1"
+"ammo_medikit" "100"
+"ammo_nails" "500"
+"armorvalue" "200"
+"health" "100"
+"invincible_finished" "45"
+"ammo_cells" "500"
+"lives" "5"
+"ammo_detpack" "-5"
+"ammo_rockets" "500"
+"classname" "info_tfgoal"
+}
+{
+"origin" "240 -288 128"
+"noise1" "=== ChOOsE YoUr CLaSS ===\n\n3.. SoLDiEr \n4.. DeMoMaN\n"
+"hook_out" "1"
+"non_team_broadcast" "Try and Get up onto the platform! =)\n"
+"impulse" "4"
+"classname" "info_tfdetect"
+}
+{
+"origin" "224 -288 1472"
+"classname" "light_globe"
+}
+{
+"model" "*1"
+"delay" "2"
+"style" "32"
+"message" "You SCORE!"
+"speed" "1000"
+"angle" "-1"
+"classname" "trigger_push"
+}
+{
+"model" "*2"
+"target" "Score"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-256 -736 -64"
+"targetname" "Ground"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "-256 160 -64"
+"targetname" "Ground"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "704 160 -64"
+"targetname" "Ground"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "704 -736 -64"
+"targetname" "Ground"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*3"
+"target" "Ground"
+"classname" "trigger_teleport"
+}
+{
+"model" "*4"
+"target" "Ground"
+"classname" "trigger_teleport"
+}
+{
+"origin" "1120 -352 1792"
+"targetname" "Score"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "1120 -352 1632"
+"frags" "20"
+"goal_effects" "1"
+"wait" "0.5"
+"netname_broadcast" " shoots... HE SCORES!!!\n"
+"goal_activation" "1"
+"classname" "info_tfgoal"
+}

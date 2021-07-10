@@ -1,0 +1,537 @@
+{
+"classname" "worldspawn"
+"worldtype" "0"
+"sounds" "0"
+"light" "0"
+"message" "The Box"
+}
+{
+"classname" "info_player_start"
+"angle" "225"
+"origin" "0 -256 -128"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "138"
+"origin" "288 -544 -64"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "64"
+"origin" "-288 -544 -64"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "310"
+"origin" "-288 32 -64"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "tele1"
+"origin" "0 -640 -128"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "tele2"
+"origin" "-384 -256 -128"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "273"
+"targetname" "tele3"
+"origin" "0 128 -128"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "183"
+"targetname" "tele4"
+"origin" "384 -256 -136"
+}
+{
+"classname" "light"
+"light" "1000"
+"style" "0"
+"origin" "0 -256 -32"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "150"
+"style" "1"
+"origin" "576 -568 -136"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "150"
+"style" "1"
+"origin" "312 320 -136"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "150"
+"style" "1"
+"origin" "-576 56 -140"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "150"
+"style" "1"
+"origin" "-312 -832 -140"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "-320 -576 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "-576 -704 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "-256 -512 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "-512 -704 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "2"
+"origin" "512 192 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "2"
+"origin" "320 64 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "2"
+"origin" "256 0 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "2"
+"origin" "576 192 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "3"
+"origin" "-320 64 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "3"
+"origin" "-448 320 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "3"
+"origin" "-448 256 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "3"
+"origin" "-256 0 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "4"
+"origin" "448 -768 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "4"
+"origin" "448 -832 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "4"
+"origin" "320 -576 -34"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "4"
+"origin" "256 -512 -34"
+}
+{
+"classname" "info_tfdetect"
+"remove_group_no" "224"
+"origin" "0 -256 -64"
+}
+{
+"classname" "item_tfgoal"
+"netname" "flag"
+"message" "you have the flag\nreturn it to your base.\n"
+"mdl" "progs/flag.mdl"
+"goal_no" "1"
+"goal_activation" "693"
+"pausetime" "30"
+"delay" "60"
+"origin" "0 -256 -608"
+}
+{
+"classname" "info_tfgoal"
+"netname" "team one dropoff"
+"broadcast" "Team one has captured the flag!\n"
+"message" "Touchdown!\n"
+"count" "10"
+"goal_activation" "1"
+"goal_result" "2"
+"items_allowed" "1"
+"team_no" "1"
+"axhitme" "1"
+"wait" "2"
+"goal_effects" "3"
+"frags" "10"
+"origin" "-608 32 -160"
+}
+{
+"classname" "info_tfgoal"
+"netname" "team two dropoff"
+"broadcast" "Team two has captured the flag!\n"
+"message" "Touchdown!\n"
+"count" "10"
+"goal_activation" "1"
+"goal_result" "2"
+"items_allowed" "1"
+"team_no" "2"
+"axhitme" "1"
+"wait" "2"
+"goal_effects" "3"
+"frags" "10"
+"origin" "608 -544 -160"
+}
+{
+"classname" "info_tfgoal"
+"netname" "team three dropoff"
+"broadcast" "Team three has captured the flag!\n"
+"message" "Touchdown!\n"
+"count" "10"
+"goal_activation" "1"
+"goal_result" "2"
+"items_allowed" "1"
+"team_no" "3"
+"axhitme" "1"
+"wait" "2"
+"goal_effects" "3"
+"frags" "10"
+"origin" "288 352 -160"
+}
+{
+"classname" "info_tfgoal"
+"netname" "team four dropoff"
+"broadcast" "Team four has captured the flag!\n"
+"message" "Touchdown!\n"
+"count" "10"
+"goal_activation" "1"
+"goal_result" "2"
+"items_allowed" "1"
+"team_no" "4"
+"axhitme" "1"
+"wait" "2"
+"goal_effects" "10"
+"frags" "10"
+"origin" "-288 -864 -160"
+}
+{
+"classname" "item_health"
+"origin" "-576 -512 -32"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "-576 -448 -32"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"origin" "-576 -384 -32"
+}
+{
+"classname" "item_rockets"
+"origin" "-576 -64 -32"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"origin" "-576 -128 -32"
+}
+{
+"classname" "item_rockets"
+"origin" "192 320 -32"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"origin" "128 320 -32"
+}
+{
+"classname" "item_health"
+"origin" "-224 320 -32"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "-160 320 -32"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"origin" "-96 320 -32"
+}
+{
+"classname" "item_health"
+"origin" "576 0 -32"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "576 -64 -32"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"origin" "576 -128 -32"
+}
+{
+"classname" "item_rockets"
+"origin" "576 -448 -32"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"origin" "576 -384 -32"
+}
+{
+"classname" "item_health"
+"origin" "256 -832 -32"
+}
+{
+"classname" "item_spikes"
+"spawnflags" "1"
+"origin" "192 -832 -32"
+}
+{
+"classname" "item_shells"
+"spawnflags" "1"
+"origin" "128 -832 -32"
+}
+{
+"classname" "item_rockets"
+"origin" "-192 -832 -32"
+}
+{
+"classname" "item_cells"
+"spawnflags" "1"
+"origin" "-128 -832 -32"
+}
+{
+"classname" "item_health"
+"origin" "592 -512 -160"
+}
+{
+"classname" "item_health"
+"origin" "-256 -848 -160"
+}
+{
+"classname" "item_health"
+"origin" "-592 0 -160"
+}
+{
+"classname" "item_health"
+"origin" "256 336 -160"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "1"
+"wait" "5"
+"health" "30"
+"armorvalue" "30"
+"ammo_shells" "20"
+"ammo_nails" "40"
+"ammo_rockets" "10"
+"ammo_cells" "20"
+"ammo_medikit" "20"
+"no_grenades_2" "1"
+"origin" "-416 -768 -174"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply two"
+"message" "resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "2"
+"wait" "5"
+"health" "30"
+"armorvalue" "30"
+"ammo_shells" "20"
+"ammo_nails" "40"
+"ammo_rockets" "10"
+"ammo_cells" "20"
+"ammo_medikit" "20"
+"no_grenades_2" "1"
+"origin" "416 256 -174"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply three"
+"message" "resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "3"
+"wait" "5"
+"health" "30"
+"armorvalue" "30"
+"ammo_shells" "20"
+"ammo_nails" "40"
+"ammo_rockets" "10"
+"ammo_cells" "20"
+"ammo_medikit" "20"
+"no_grenades_2" "1"
+"origin" "-512 160 -174"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply four"
+"message" "resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "4"
+"wait" "5"
+"health" "30"
+"armorvalue" "30"
+"ammo_shells" "20"
+"ammo_nails" "40"
+"ammo_rockets" "10"
+"ammo_cells" "20"
+"ammo_medikit" "20"
+"no_grenades_2" "1"
+"origin" "512 -672 -174"
+}
+{
+"classname" "ambient_suck_wind"
+"origin" "0 -256 -192"
+}
+{
+"classname" "light_flame_small_white"
+"light" "400"
+"style" "1"
+"origin" "207 -326 -516"
+}
+{
+"classname" "light_flame_small_white"
+"light" "400"
+"style" "6"
+"origin" "207 -188 -516"
+}
+{
+"classname" "light_flame_small_white"
+"light" "400"
+"style" "1"
+"origin" "-209 -326 -516"
+}
+{
+"classname" "light_flame_small_white"
+"light" "400"
+"style" "6"
+"origin" "-209 -188 -516"
+}
+{
+"classname" "light_flame_small_white"
+"light" "400"
+"style" "1"
+"origin" "68 -49 -516"
+}
+{
+"classname" "light_flame_small_white"
+"light" "400"
+"style" "6"
+"origin" "-70 -49 -516"
+}
+{
+"classname" "light_flame_small_white"
+"light" "400"
+"style" "1"
+"origin" "68 -465 -516"
+}
+{
+"classname" "light_flame_small_white"
+"light" "400"
+"style" "6"
+"origin" "-70 -465 -516"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "310"
+"origin" "288 32 -64"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "tele3"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "tele1"
+"model" "*2"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "tele4"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"speed" "100"
+"sounds" "1"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "tele2"
+"model" "*4"
+}

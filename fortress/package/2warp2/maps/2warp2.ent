@@ -1,0 +1,1517 @@
+{
+"message" "2warp2: The TeleFragged base"
+"classname" "worldspawn"
+}
+{
+"origin" "512 256 -192"
+"classname" "info_player_start"
+}
+{
+"origin" "512 256 384"
+"targetname" "slimetrap"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "496 256 472"
+"targetname" "slimedeath"
+"spawnflags" "2"
+"angle" "-2"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "528 256 472"
+"targetname" "slimedeath"
+"spawnflags" "2"
+"angle" "-2"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "512 240 472"
+"targetname" "slimedeath"
+"spawnflags" "2"
+"angle" "-2"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "512 272 472"
+"targetname" "slimedeath"
+"spawnflags" "2"
+"angle" "-2"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "512 256 472"
+"targetname" "slimedeath"
+"spawnflags" "2"
+"angle" "-2"
+"classname" "trap_spikeshooter"
+}
+{
+"model" "*1"
+"playerclass" "0"
+"team_no" "0"
+"wait" "0"
+"delay" "0"
+"sounds" "4"
+"style" "32"
+"target" "slimedeath"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"target" "slimetrap"
+"classname" "trigger_teleport"
+}
+{
+"model" "*3"
+"playerclass" "0"
+"team_no" "0"
+"health" "0"
+"message" "Tell your friends:\n\\|/ The Slime is deadly \\|/"
+"wait" "2"
+"dmg" "0"
+"lip" "0"
+"sounds" "2"
+"speed" "600"
+"targetname" "dropbodies"
+"classname" "func_door"
+}
+{
+"model" "*4"
+"target" "dropbodies"
+"wait" "4"
+"delay" "2"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"origin" "512 256 -256"
+"classname" "info_player_deathmatch"
+}
+{
+"model" "*5"
+"delay" "0"
+"style" "32"
+"dmg" "900"
+"sounds" "4"
+"classname" "trigger_hurt"
+}
+{
+"origin" "512 256 416"
+"classname" "light"
+}
+{
+"origin" "512 256 256"
+"classname" "light"
+}
+{
+"origin" "512 256 128"
+"classname" "light"
+}
+{
+"origin" "512 256 -352"
+"light" "150"
+"classname" "light"
+}
+{
+"origin" "192 160 -384"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "192 352 -384"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "832 352 -384"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "832 160 -384"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "96 96 -352"
+"style" "5"
+"classname" "light"
+}
+{
+"origin" "96 416 -352"
+"style" "5"
+"classname" "light"
+}
+{
+"origin" "512 128 -416"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "512 384 -416"
+"light" "100"
+"classname" "light"
+}
+{
+"origin" "928 96 -352"
+"style" "5"
+"classname" "light"
+}
+{
+"origin" "928 416 -352"
+"style" "5"
+"classname" "light"
+}
+{
+"origin" "1056 64 -128"
+"classname" "item_health"
+}
+{
+"origin" "1120 64 -128"
+"classname" "item_health"
+}
+{
+"origin" "1088 64 -128"
+"classname" "item_health"
+}
+{
+"origin" "1088 96 -128"
+"classname" "item_armorInv"
+}
+{
+"origin" "-32 448 -128"
+"classname" "item_health"
+}
+{
+"origin" "-96 448 -128"
+"classname" "item_health"
+}
+{
+"origin" "-64 448 -128"
+"classname" "item_health"
+}
+{
+"origin" "-64 416 -128"
+"classname" "item_armorInv"
+}
+{
+"model" "*6"
+"target" "redexit"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*7"
+"target" "blueexit"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*8"
+"target" "blueenter"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*9"
+"target" "blueenter"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*10"
+"target" "redenter"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*11"
+"target" "redenter"
+"spawnflags" "2"
+"classname" "trigger_teleport"
+}
+{
+"origin" "-64 64 -128"
+"targetname" "redsnipe"
+"angle" "90"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "1088 448 -128"
+"targetname" "bluesnipe"
+"angle" "269"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "960 256 -320"
+"targetname" "blueexit"
+"angle" "179"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "64 256 -320"
+"targetname" "redexit"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "-64 256 -96"
+"classname" "light"
+}
+{
+"origin" "-64 448 -96"
+"classname" "light"
+}
+{
+"origin" "1088 64 -96"
+"classname" "light"
+}
+{
+"origin" "1088 256 -96"
+"classname" "light"
+}
+{
+"model" "*12"
+"lip" "-160"
+"speed" "2500"
+"team_no" "1"
+"wait" "3"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*13"
+"team_no" "1"
+"target" "bluesnipe"
+"classname" "trigger_teleport"
+}
+{
+"model" "*14"
+"target" "bluejail"
+"team_no" "2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*15"
+"target" "blueexit"
+"classname" "trigger_teleport"
+}
+{
+"model" "*16"
+"delay" "0"
+"target" "bluejailer"
+"playerclass" "9"
+"team_no" "1"
+"health" "10"
+"wait" "2"
+"sounds" "3"
+"speed" "100"
+"classname" "func_button"
+}
+{
+"model" "*17"
+"health" "0"
+"message" "You don't want to know what's\nbehind this"
+"dmg" "0"
+"lip" "0"
+"wait" "3"
+"sounds" "4"
+"speed" "500"
+"targetname" "bluejailer"
+"angle" "269"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"wait" "0"
+"sounds" "4"
+"delay" "0"
+"style" "32"
+"target" "bluejailkill"
+"playerclass" "9"
+"team_no" "1"
+"classname" "trigger_multiple"
+}
+{
+"origin" "2080 160 -448"
+"targetname" "bluejailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2080 64 -448"
+"targetname" "bluejailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2080 96 -448"
+"targetname" "bluejailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2080 128 -448"
+"targetname" "bluejailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2080 160 -416"
+"targetname" "bluejailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2080 128 -416"
+"targetname" "bluejailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2080 96 -416"
+"targetname" "bluejailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2080 64 -416"
+"targetname" "bluejailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"model" "*19"
+"message" "You are in:\nThe\nTORTURE\nChamber"
+"wait" "4"
+"sounds" "4"
+"delay" "0"
+"style" "32"
+"target" "weaponbgone"
+"playerclass" "9"
+"team_no" "1"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1408 448 -384"
+"targetname" "blueenter"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*20"
+"playerclass" "0"
+"message" "Only\nBLUEs\ncan enter"
+"team_no" "1"
+"health" "0"
+"dmg" "0"
+"lip" "0"
+"wait" "2"
+"sounds" "2"
+"speed" "900"
+"angle" "89"
+"classname" "func_door"
+}
+{
+"origin" "1984 480 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1984 512 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1984 544 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1952 480 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1952 512 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1952 544 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1920 544 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1920 512 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1920 480 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1888 480 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1888 512 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1888 544 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1856 480 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1856 512 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1856 544 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1824 480 -416"
+"spawnflags" "1"
+"classname" "item_shells"
+}
+{
+"origin" "1824 512 -416"
+"spawnflags" "1"
+"classname" "item_shells"
+}
+{
+"origin" "1824 544 -416"
+"spawnflags" "1"
+"classname" "item_shells"
+}
+{
+"origin" "1984 704 -416"
+"classname" "item_health"
+}
+{
+"origin" "1952 704 -416"
+"classname" "item_health"
+}
+{
+"origin" "1984 672 -416"
+"classname" "item_health"
+}
+{
+"origin" "1984 640 -416"
+"classname" "item_health"
+}
+{
+"origin" "1952 672 -416"
+"classname" "item_health"
+}
+{
+"origin" "1952 640 -416"
+"classname" "item_health"
+}
+{
+"origin" "1984 576 -416"
+"classname" "item_armorInv"
+}
+{
+"origin" "1952 576 -416"
+"classname" "item_armorInv"
+}
+{
+"origin" "1984 608 -416"
+"classname" "item_armorInv"
+}
+{
+"origin" "1952 608 -416"
+"classname" "item_armorInv"
+}
+{
+"origin" "1920 576 -416"
+"spawnflags" "1"
+"classname" "item_spikes"
+}
+{
+"origin" "1888 576 -416"
+"spawnflags" "1"
+"classname" "item_spikes"
+}
+{
+"origin" "1856 576 -416"
+"spawnflags" "1"
+"classname" "item_spikes"
+}
+{
+"origin" "1824 576 -416"
+"spawnflags" "1"
+"classname" "item_spikes"
+}
+{
+"origin" "1344 128 -384"
+"targetname" "bluejail"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "1376 448 -416"
+"style" "5"
+"light" "400"
+"classname" "light"
+}
+{
+"origin" "1672 128 -328"
+"classname" "light"
+}
+{
+"origin" "1928 128 -328"
+"classname" "light"
+}
+{
+"origin" "1344 672 -384"
+"classname" "light"
+}
+{
+"origin" "1448 128 -328"
+"classname" "light"
+}
+{
+"origin" "1914 352 -334"
+"classname" "light"
+}
+{
+"origin" "1914 576 -334"
+"style" "0"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "1632 384 -352"
+"classname" "light"
+}
+{
+"origin" "1338 320 -334"
+"classname" "light"
+}
+{
+"origin" "1562 704 -334"
+"light" "250"
+"classname" "light"
+}
+{
+"model" "*21"
+"wait" "0"
+"sounds" "4"
+"delay" "0"
+"style" "32"
+"target" "bluejailkill"
+"playerclass" "9"
+"team_no" "1"
+"classname" "trigger_multiple"
+}
+{
+"model" "*22"
+"playerclass" "0"
+"team_no" "0"
+"health" "0"
+"dmg" "25"
+"lip" "-192"
+"wait" "2"
+"sounds" "2"
+"speed" "1500"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*23"
+"playerclass" "0"
+"team_no" "0"
+"health" "0"
+"dmg" "25"
+"lip" "-192"
+"wait" "2"
+"sounds" "2"
+"speed" "1500"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*24"
+"height" "208"
+"angle" "-1"
+"classname" "func_plat"
+}
+{
+"model" "*25"
+"playerclass" "0"
+"team_no" "2"
+"health" "0"
+"message" "Only the enemy can enter the flag area"
+"dmg" "0"
+"lip" "-192"
+"wait" "2"
+"sounds" "2"
+"speed" "1500"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "1600 320 -56"
+"classname" "light"
+}
+{
+"origin" "1600 416 -56"
+"classname" "light"
+}
+{
+"origin" "1504 224 -108"
+"classname" "light_flame_large_yellow"
+}
+{
+"origin" "1408 128 -119"
+"classname" "light_flame_large_yellow"
+}
+{
+"origin" "1504 576 -114"
+"classname" "light_flame_large_yellow"
+}
+{
+"origin" "1408 624 -112"
+"classname" "light_flame_large_yellow"
+}
+{
+"model" "*26"
+"target" "blueenter"
+"classname" "trigger_teleport"
+}
+{
+"origin" "1632 864 -320"
+"classname" "light"
+}
+{
+"origin" "1632 992 -352"
+"classname" "light"
+}
+{
+"origin" "1632 1120 -352"
+"classname" "light"
+}
+{
+"origin" "1504 1120 -384"
+"classname" "light"
+}
+{
+"origin" "1760 1120 -384"
+"classname" "light"
+}
+{
+"origin" "1728 928 -416"
+"classname" "light"
+}
+{
+"origin" "1536 928 -416"
+"classname" "light"
+}
+{
+"origin" "1632 800 -384"
+"classname" "light"
+}
+{
+"origin" "1632 800 -160"
+"classname" "light"
+}
+{
+"origin" "1632 704 -160"
+"classname" "light"
+}
+{
+"origin" "1984 384 -224"
+"light" "200"
+"classname" "light_fluoro"
+}
+{
+"model" "*27"
+"target" "blueflagsnipe"
+"team_no" "1"
+"classname" "trigger_teleport"
+}
+{
+"origin" "1792 64 -192"
+"classname" "light"
+}
+{
+"origin" "1408 704 -93"
+"targetname" "blueflagsnipe"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "1408 192 -192"
+"classname" "ambient_drip"
+}
+{
+"origin" "1440 544 -192"
+"classname" "ambient_drip"
+}
+{
+"origin" "1632 960 -448"
+"classname" "ambient_light_buzz"
+}
+{
+"origin" "1632 896 -320"
+"classname" "ambient_light_buzz"
+}
+{
+"origin" "1088 448 -64"
+"classname" "ambient_comp_hum"
+}
+{
+"origin" "-64 64 -128"
+"classname" "ambient_comp_hum"
+}
+{
+"origin" "672 416 -416"
+"classname" "ambient_swamp1"
+}
+{
+"origin" "256 96 -416"
+"classname" "ambient_swamp1"
+}
+{
+"origin" "672 96 -416"
+"classname" "ambient_swamp1"
+}
+{
+"origin" "256 416 -416"
+"classname" "ambient_swamp1"
+}
+{
+"origin" "1984 384 -224"
+"classname" "ambient_light_buzz"
+}
+{
+"origin" "1984 96 -416"
+"classname" "ambient_suck_wind"
+}
+{
+"origin" "1856 640 -384"
+"classname" "ambient_comp_hum"
+}
+{
+"origin" "1952 480 -384"
+"classname" "ambient_comp_hum"
+}
+{
+"origin" "1440 704 -384"
+"classname" "ambient_comp_hum"
+}
+{
+"model" "*28"
+"lip" "-160"
+"speed" "2500"
+"team_no" "2"
+"wait" "3"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*29"
+"team_no" "2"
+"target" "redsnipe"
+"classname" "trigger_teleport"
+}
+{
+"model" "*30"
+"target" "redjail"
+"team_no" "1"
+"classname" "trigger_teleport"
+}
+{
+"model" "*31"
+"target" "redexit"
+"classname" "trigger_teleport"
+}
+{
+"model" "*32"
+"delay" "0"
+"target" "redjailer"
+"playerclass" "9"
+"team_no" "1"
+"health" "10"
+"wait" "2"
+"sounds" "3"
+"speed" "100"
+"classname" "func_button"
+}
+{
+"model" "*33"
+"message" "You don't want to know what's\nbehind this"
+"dmg" "0"
+"wait" "3"
+"sounds" "4"
+"speed" "500"
+"targetname" "redjailer"
+"angle" "269"
+"classname" "func_door"
+}
+{
+"model" "*34"
+"wait" "0"
+"sounds" "4"
+"delay" "0"
+"style" "32"
+"target" "redjailkill"
+"playerclass" "9"
+"team_no" "2"
+"classname" "trigger_multiple"
+}
+{
+"origin" "2072 -1088 -448"
+"targetname" "redjailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2072 -1184 -448"
+"targetname" "redjailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2072 -1152 -448"
+"targetname" "redjailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2072 -1120 -448"
+"targetname" "redjailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2072 -1088 -416"
+"targetname" "redjailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2072 -1120 -416"
+"targetname" "redjailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2072 -1152 -416"
+"targetname" "redjailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"origin" "2072 -1184 -416"
+"targetname" "redjailkill"
+"spawnflags" "1"
+"angle" "179"
+"classname" "trap_spikeshooter"
+}
+{
+"model" "*35"
+"message" "You are in:\nThe\nTORTURE\nChamber"
+"wait" "4"
+"sounds" "4"
+"delay" "0"
+"style" "32"
+"target" "weaponbgone"
+"playerclass" "9"
+"team_no" "1"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1400 -800 -384"
+"targetname" "redenter"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*36"
+"playerclass" "0"
+"message" "Only\nREDs\ncan enter"
+"team_no" "2"
+"dmg" "0"
+"wait" "2"
+"sounds" "2"
+"speed" "900"
+"angle" "89"
+"classname" "func_door"
+}
+{
+"origin" "1976 -768 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1976 -736 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1976 -704 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1944 -768 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1944 -736 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1944 -704 -416"
+"spawnflags" "1"
+"classname" "item_cells"
+}
+{
+"origin" "1912 -704 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1912 -736 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1912 -768 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1880 -768 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1880 -736 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1880 -704 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1848 -768 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1848 -736 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1848 -704 -416"
+"spawnflags" "1"
+"classname" "item_rockets"
+}
+{
+"origin" "1816 -768 -416"
+"spawnflags" "1"
+"classname" "item_shells"
+}
+{
+"origin" "1816 -736 -416"
+"spawnflags" "1"
+"classname" "item_shells"
+}
+{
+"origin" "1816 -704 -416"
+"spawnflags" "1"
+"classname" "item_shells"
+}
+{
+"origin" "1920 -608 -416"
+"classname" "item_health"
+}
+{
+"origin" "1920 -576 -416"
+"classname" "item_health"
+}
+{
+"origin" "1952 -576 -416"
+"classname" "item_health"
+}
+{
+"origin" "1952 -608 -416"
+"classname" "item_health"
+}
+{
+"origin" "1976 -672 -416"
+"classname" "item_armorInv"
+}
+{
+"origin" "1944 -672 -416"
+"classname" "item_armorInv"
+}
+{
+"origin" "1976 -640 -416"
+"classname" "item_armorInv"
+}
+{
+"origin" "1944 -640 -416"
+"classname" "item_armorInv"
+}
+{
+"origin" "1912 -672 -416"
+"spawnflags" "1"
+"classname" "item_spikes"
+}
+{
+"origin" "1880 -672 -416"
+"spawnflags" "1"
+"classname" "item_spikes"
+}
+{
+"origin" "1848 -672 -416"
+"spawnflags" "1"
+"classname" "item_spikes"
+}
+{
+"origin" "1816 -672 -416"
+"spawnflags" "1"
+"classname" "item_spikes"
+}
+{
+"origin" "1336 -1120 -384"
+"targetname" "redjail"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "1368 -800 -416"
+"style" "5"
+"light" "400"
+"classname" "light"
+}
+{
+"origin" "1664 -1120 -328"
+"classname" "light"
+}
+{
+"origin" "1920 -1120 -328"
+"classname" "light"
+}
+{
+"origin" "1336 -576 -384"
+"classname" "light"
+}
+{
+"origin" "1440 -1120 -328"
+"classname" "light"
+}
+{
+"origin" "1906 -896 -334"
+"classname" "light"
+}
+{
+"origin" "1906 -672 -334"
+"style" "0"
+"light" "300"
+"classname" "light"
+}
+{
+"origin" "1624 -864 -352"
+"classname" "light"
+}
+{
+"origin" "1330 -928 -334"
+"classname" "light"
+}
+{
+"origin" "1554 -544 -334"
+"light" "250"
+"classname" "light"
+}
+{
+"model" "*37"
+"wait" "0"
+"sounds" "4"
+"delay" "0"
+"style" "32"
+"target" "redjailkill"
+"playerclass" "9"
+"team_no" "2"
+"classname" "trigger_multiple"
+}
+{
+"model" "*38"
+"dmg" "25"
+"lip" "-192"
+"wait" "2"
+"sounds" "2"
+"speed" "1500"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*39"
+"dmg" "25"
+"lip" "-192"
+"wait" "2"
+"sounds" "2"
+"speed" "1500"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*40"
+"height" "208"
+"angle" "-1"
+"classname" "func_plat"
+}
+{
+"model" "*41"
+"team_no" "1"
+"health" "0"
+"message" "Only the enemy can enter the flag area"
+"dmg" "0"
+"lip" "-192"
+"wait" "2"
+"sounds" "2"
+"speed" "1500"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "1592 -928 -56"
+"classname" "light"
+}
+{
+"origin" "1592 -832 -56"
+"classname" "light"
+}
+{
+"origin" "1496 -1024 -108"
+"classname" "light_flame_large_yellow"
+}
+{
+"origin" "1400 -1120 -119"
+"classname" "light_flame_large_yellow"
+}
+{
+"origin" "1496 -672 -114"
+"classname" "light_flame_large_yellow"
+}
+{
+"origin" "1400 -624 -112"
+"classname" "light_flame_large_yellow"
+}
+{
+"model" "*42"
+"target" "redenter"
+"classname" "trigger_teleport"
+}
+{
+"origin" "1624 -384 -320"
+"classname" "light"
+}
+{
+"origin" "1624 -256 -352"
+"classname" "light"
+}
+{
+"origin" "1624 -128 -352"
+"classname" "light"
+}
+{
+"origin" "1496 -128 -384"
+"classname" "light"
+}
+{
+"origin" "1752 -128 -384"
+"classname" "light"
+}
+{
+"origin" "1720 -320 -416"
+"classname" "light"
+}
+{
+"origin" "1528 -320 -416"
+"classname" "light"
+}
+{
+"origin" "1624 -448 -384"
+"classname" "light"
+}
+{
+"origin" "1624 -448 -160"
+"classname" "light"
+}
+{
+"origin" "1624 -544 -160"
+"classname" "light"
+}
+{
+"origin" "1976 -864 -224"
+"light" "200"
+"classname" "light_fluoro"
+}
+{
+"model" "*43"
+"target" "redflagsnipe"
+"team_no" "1"
+"classname" "trigger_teleport"
+}
+{
+"origin" "1784 -1184 -192"
+"classname" "light"
+}
+{
+"origin" "1400 -544 -93"
+"targetname" "redflagsnipe"
+"classname" "info_teleport_destination"
+}
+{
+"origin" "1400 -1056 -192"
+"classname" "ambient_drip"
+}
+{
+"origin" "1432 -704 -192"
+"classname" "ambient_drip"
+}
+{
+"origin" "1624 -288 -448"
+"classname" "ambient_light_buzz"
+}
+{
+"origin" "1624 -352 -320"
+"classname" "ambient_light_buzz"
+}
+{
+"origin" "1976 -864 -224"
+"classname" "ambient_light_buzz"
+}
+{
+"origin" "1976 -1152 -416"
+"classname" "ambient_suck_wind"
+}
+{
+"origin" "1848 -608 -384"
+"classname" "ambient_comp_hum"
+}
+{
+"origin" "1944 -768 -384"
+"classname" "ambient_comp_hum"
+}
+{
+"origin" "1432 -544 -384"
+"classname" "ambient_comp_hum"
+}
+{
+"b_t" "WELCOME TO 2WARP2\nBY SAILOR[NAC]\nTHIS MAP WILL BE CONVERTED TO QUAKE2\n\n[PICK A TEAM]\nPRESS:\n1\nTEAM 1\n2\nTEAM 2\n"
+"b_n" "Take the flag from the enemy's upper flag room\nand take it up your upper sniper loft, and\ncap it on the pad.\n"
+"t_s_c" "Your flag is being carried by"
+"t_s_m" "Your flag is sitting around somewhere"
+"t_s_h" "Your flag is safely in the flag area of your base"
+"n_s_c" "The enemy flag is being carried by"
+"n_s_m" "The enemy flag is sitting around somewhere"
+"n_s_h" "The enemy flag is in the flag area of their base"
+"display_item_status2" "2"
+"display_item_status1" "1"
+"ammo_detpack" "16"
+"ammo_medikit" "16"
+"impulse" "4"
+"origin" "512 256 -96"
+"classname" "info_tfdetect"
+}
+{
+"n_o" " took your flag\n"
+"b_o" "Your flag was taken\n"
+"n_n" " took the blue flag\n"
+"n_t" " took the enemy flag\n"
+"b_t" "One of your team members has the flag\n"
+"message" "You got the enemy flag!\n\nTake it to your upper\nsniper area and run onto the pad to cap it!\n"
+"d_n_n" "The blue flag was dropped by\n"
+"d_n_t" "Your flag was dropped by\n"
+"d_t" "Your flag was dropped\n"
+"owned_by" "1"
+"group_no" "1"
+"goal_no" "1"
+"noise4" "The enemy flag is back in base\n"
+"noise3" "Your flag is back in base\n"
+"pausetime" "15"
+"items" "131072"
+"g_e" "1"
+"goal_result" "16"
+"team_no" "2"
+"noise" "weapons/turrspot.wav"
+"mdl" "progs/tf_flag.mdl"
+"skin" "1"
+"g_a" "693"
+"origin" "1344 384 -224"
+"netname" "blueflag"
+"angle" "89"
+"classname" "item_tfgoal"
+}
+{
+"n_n" " took the blue flag\n"
+"n_o" " took your flag\n"
+"b_o" "Your flag was taken\n"
+"n_t" " took the enemy flag\n"
+"b_t" "One of your team members has the flag\n"
+"message" "You got the enemy flag!\n\nTake it to your upper\nsniper area and run onto the pad to cap it!\n"
+"d_n_n" "The blue flag was dropped by\n"
+"d_n_t" "Your flag was dropped by\n"
+"d_t" "Your flag was dropped\n"
+"noise4" "The enemy flag is back in base\n"
+"noise3" "Your flag is back in base\n"
+"pausetime" "15"
+"items" "8126464"
+"g_e" "1"
+"goal_result" "16"
+"noise" "weapons/turrspot.wav"
+"mdl" "progs/tf_flag.mdl"
+"skin" "2"
+"group_no" "1"
+"goal_no" "2"
+"g_a" "693"
+"origin" "1344 -864 -224"
+"team_no" "1"
+"netname" "redflag"
+"angle" "89"
+"classname" "item_tfgoal"
+}
+{
+"increase_team1" "10"
+"owned_by" "1"
+"n_b" " captured the RED flag\n"
+"b_b" "The\nRED\nflag was captured!\n"
+"message" "You captured the\nRED\nflag... do it again!\n"
+"frags" "10"
+"g_e" "2"
+"remove_goal_no" "2"
+"items_allowed" "2"
+"g_a" "1"
+"noise" "weapons/turrset.wav"
+"mdl" "progs/tf_flag.mdl"
+"skin" "0"
+"origin" "1984 704 -64"
+"team_no" "1"
+"classname" "i_t_g"
+}
+{
+"increase_team2" "10"
+"noise" "weapons/turrset.wav"
+"mdl" "progs/tf_flag.mdl"
+"skin" "0"
+"owned_by" "2"
+"items_allowed" "1"
+"remove_goal_no" "1"
+"g_a" "1"
+"g_e" "2"
+"frags" "10"
+"message" "You captured the\nBLUE\nflag... do it again!\n"
+"n_b" " captured the BLUE flag\n"
+"b_b" "The\nBLUE\nflag was captured!\n"
+"origin" "1984 -544 -64"
+"team_no" "2"
+"classname" "i_t_g"
+}
+{
+"message" "You're on red team\n"
+"g_a" "2"
+"origin" "1952 -736 -448"
+"team_no" "2"
+"angle" "112"
+"classname" "i_p_t"
+}
+{
+"message" "You're on red team\n"
+"g_a" "2"
+"origin" "1888 -736 -448"
+"team_no" "2"
+"angle" "87"
+"classname" "i_p_t"
+}
+{
+"message" "You're on red team\n"
+"g_a" "2"
+"origin" "1824 -736 -448"
+"team_no" "2"
+"angle" "103"
+"classname" "i_p_t"
+}
+{
+"message" "You're on blue team\n"
+"g_a" "2"
+"origin" "1856 512 -416"
+"team_no" "1"
+"angle" "110"
+"classname" "i_p_t"
+}
+{
+"message" "You're on blue team\n"
+"g_a" "2"
+"origin" "1952 512 -416"
+"team_no" "1"
+"angle" "125"
+"classname" "i_p_t"
+}
+{
+"g_a" "2"
+"message" "You're on blue team\n"
+"origin" "1920 480 -416"
+"team_no" "1"
+"angle" "121"
+"classname" "i_p_t"
+}
+{
+"deathtype" " stayed in jail too long\n"
+"health" "-5"
+"n_b" " is in jail\n"
+"no_grenades_2" "-200"
+"no_grenades_1" "-200"
+"ammo_medikit" "-200"
+"ammo_detpack" "-200"
+"ammo_cells" "-200"
+"ammo_rockets" "-200"
+"ammo_nails" "-200"
+"ammo_shells" "-200"
+"armorvalue" "-300"
+"goal_result" "16"
+"remove_item_group" "1"
+"g_e" "1"
+"targetname" "weaponbgone"
+"origin" "512 256 -96"
+"classname" "i_t_g"
+}

@@ -1,0 +1,132 @@
+{
+"classname" "worldspawn"
+"wad" "stag.wad;toowong.wad"
+}
+{
+"model" "*1"
+"classname" "func_door"
+"wait" "10"
+"targetname" "door1"
+"angle" "-1"
+"lip" "144"
+}
+{
+"origin" "212 3876 612"
+"broadcast" "message\n"
+"increase_team2" "10"
+"targetname" "bscore"
+"classname" "info_tfgoal"
+"goal_effects" "3"
+}
+{
+"model" "*2"
+"lip" "64"
+"wait" "1"
+"health" "100"
+"classname" "func_door"
+}
+{
+"model" "*3"
+"target" "door1"
+"team_no" "2"
+"angle" "90"
+"classname" "func_button"
+"wait" "10"
+}
+{
+"model" "*4"
+"dmg" "1000"
+"lip" "16"
+"speed" "1000"
+"targetname" "bcrush"
+"angle" "0"
+"classname" "func_door"
+}
+{
+"model" "*5"
+"angle" "90"
+"speed" "80"
+"classname" "trigger_push"
+}
+{
+"model" "*6"
+"speed" "80"
+"angle" "180"
+"classname" "trigger_push"
+}
+{
+"model" "*7"
+"angle" "1"
+"speed" "80"
+"classname" "trigger_push"
+}
+{
+"model" "*8"
+"health" "100"
+"classname" "trigger_multiple"
+}
+{
+"model" "*9"
+"speed" "75"
+"angle" "-1"
+"classname" "trigger_push"
+}
+{
+"model" "*10"
+"classname" "func_wall"
+}
+{
+"classname" "info_player_start"
+"origin" "560 1536 200"
+}
+{
+"model" "*11"
+"speed" "75"
+"classname" "trigger_push"
+"angle" "-1"
+}
+{
+"model" "*12"
+"angle" "1"
+"classname" "trigger_push"
+"speed" "80"
+}
+{
+"model" "*13"
+"classname" "trigger_push"
+"angle" "180"
+"speed" "80"
+}
+{
+"model" "*14"
+"classname" "trigger_push"
+"angle" "90"
+"speed" "200"
+}
+{
+"model" "*15"
+"classname" "func_door"
+"angle" "270"
+"targetname" "bcrush"
+"speed" "1000"
+"lip" "16"
+"dmg" "1000"
+}
+{
+"model" "*16"
+"classname" "func_door"
+"angle" "180"
+"targetname" "bcrush"
+"speed" "1000"
+"lip" "16"
+"dmg" "1000"
+}
+{
+"model" "*17"
+"dmg" "1000"
+"lip" "16"
+"speed" "1000"
+"targetname" "bcrush"
+"angle" "90"
+"classname" "func_door"
+}

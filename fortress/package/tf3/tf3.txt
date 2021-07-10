@@ -1,0 +1,89 @@
+// Quake1 Bsp, TF1 mod.
+
+Built by: >V< Null
+Build time: Just over an hour?
+Built with: WC1.6
+
+//info.
+
+ A 1v1 map based on DM3.
+
+// Build Info
+
+outputfile: D:\id\Quake\ID1\maps\TF3.bsp
+--- LoadMapFile ---
+D:\id\Quake\ID1\maps\TF3.map
+  244 brushes
+   91 entities
+   12 miptex
+  289 texinfo
+building hulls sequentially...
+--- Brush_LoadEntity ---
+243 brushes read
+---- CSGFaces ----
+ 1812 brushfaces
+ 7834 csgfaces
+ 1212 mergedfaces
+--- SolidBSP ---
+ 1555 split nodes
+  699 solid leafs
+  857 empty leafs
+    0 water leafs
+ 3376 leaffaces
+ 3115 nodefaces
+----- portalize ----
+--- FillOutside ---
+1054 outleafs
+--- SolidBSP ---
+  766 split nodes
+  495 solid leafs
+  272 empty leafs
+    0 water leafs
+ 1950 leaffaces
+ 1736 nodefaces
+ 910 outleafs
+1058 outleafs
+--- MergeAll ---
+954 mergefaces
+writing D:\id\Quake\ID1\maps\TF3.prt
+MODEL: *1
+--- FinishBSPFile ---
+WriteBSPFile: D:\id\Quake\ID1\maps\TF3.bsp
+added 0 texture frames
+  546 planes        10920
+ 1852 vertexes      22224
+  438 nodes         10512
+  289 texinfo       11560
+ 1286 faces         25720
+ 1415 clipnodes     11320
+  222 leafs          6216
+ 1826 marksurfaces   3652
+ 6345 surfedges     12690
+ 3178 edges         12712
+   12 textures      72952
+      lightdata         0
+      visdata           0
+      entdata        5138
+
+** Executing...
+** Command: D:\worldcraft\Light.exe
+** Parameters: -extra D:\id\Quake\ID1\maps\TF3
+
+----- LightFaces ----
+extra sampling enabled
+91 entities read
+lightdatasize: 64684
+0 switchable light styles
+ 71.0 seconds elapsed
+
+** Executing...
+** Command: D:\worldcraft\rvis.exe
+** Parameters: D:\id\Quake\ID1\maps\TF3
+
+---- vis ----
+ 215 portalleafs
+ 562 numportals
+average leafs visible: 111
+c_chains: 789046
+visdatasize:5249  compressed from 5805
+ 57.0 seconds elapsed

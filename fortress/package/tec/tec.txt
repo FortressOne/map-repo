@@ -1,0 +1,100 @@
+==About==
+
+hmm.. well this is a QW MegaTF map.
+
+Its got colored lighting support and MegaTF entities so its best to run with a MegaTF server.
+To utilize the colored lighting get a client that supports it. Currently the two major ones are MoreQuake and QuakeForge. I recomend Quakeforge for newbies but if you know how to read a readme.txt then try MoreQuake.
+
+==Installation==
+
+tecbases.bsp goes into your quake/fortress/maps directory
+tecbases.lit goes into your quake/fortress/maps directory
+flagtaken.wav goes into your quake/fortress/sound directory
+flagcapture.wav goes into your quake/fortress/sound directory
+kup.wav goes into your quake/fortress/sound/weapons directory
+
+If you just extract the zip into your quake directory it should be ok.
+
+==Tech==
+
+final .map info;
+Map Info for [C:\chino\BSP\quake\maps\tec.map]
+.................................................
+Total Brushes       	3288
+Modifiable          	2996
+World Brushes       	2921
+Modifiable Entities 	59
+Fixed Size Entities 	292
+Lights              	269
+Sky Brushes         	19
+Water Brushes       	0
+Clip Brushes        	0
+Target Entities     	8
+Targetnames         	9
+Other Brushes       	2977
+
+BSP output;
+--- Brush_LoadEntity ---
+CSG Faces:  0
+Done processing entities.
+--- FinishBSPFile ---
+WriteBSPFile: tec.bsp
+added 4 texture frames
+WARNING: texture none not found
+WARNING: texture NONE not found
+ 3171 planes        63420
+12482 vertexes     149784
+ 3689 nodes         88536
+ 2217 texinfo       88680
+ 8857 faces        177140
+ 7376 clipnodes     59008
+ 1903 leafs         53284
+10902 marksurfaces  21804
+42911 surfedges     85822
+21891 edges         87564
+   76 textures     702648
+      lightdata         0
+      visdata           0
+      entdata       37268
+Vis Leafs          :  1492
+Total Portals      :  3840
+----------------------
+Deallocating arrays...
+----------------------
+qbsp took 157.0 seconds...
+
+Light output
+C:\chino\BSP\quake\maps>light -extra tec
+----- TomLite beta -----
+extra sampling enabled
+BSP is version 29
+using minlight value 35 from worldspawn.
+354 entities read, 269 are lights.
+Lighting face 8857 of 8857
+Lighting Completed.
+
+lightdatasize: 388597
+0 switchable light styles
+Writing BSP version 29
+656.0 seconds elapsed
+
+Vis output;
+C:\chino\BSP\quake\maps>vis -level 4 tec
+---- vis ----
+testlevel = 4
+1492 portalleafs
+3840 numportals
+average leafs visible: 77
+c_chains: 1875825
+visdatasize:50576  compressed from 279004
+117.0 seconds elapsed
+
+==bugs==
+Well, the kup.wav sound is a sound from quake3. Its used on the backpacks.. it was suposed to be just a sound from quake but mispelled it in the entity field so i decided to add a new sound with the misspelled name rather then spend another day compileing.
+
+==Endgame==
+Suggestions + Comments should go to bored108@hotmail.com
+Enjoy.
+
+
+

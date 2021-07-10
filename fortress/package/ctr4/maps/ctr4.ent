@@ -1,0 +1,316 @@
+{
+"classname" "worldspawn"
+"worldtype" "1"
+"sounds" "1"
+"light" "10"
+}
+{
+"classname" "info_player_start"
+"angle" "270"
+"origin" "624 624 88"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "-624 -624 88"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"origin" "624 -624 88"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-624 624 88"
+}
+{
+"classname" "item_tfgoal"
+"netname" "team one rune"
+"message" "You have the rune!\nReturn it to your base!\n"
+"mdl" "progs/end1.mdl"
+"goal_no" "1"
+"goal_activation" "157"
+"pausetime" "30"
+"team_no" "2"
+"delay" "60"
+"origin" "138 138 54"
+}
+{
+"classname" "item_tfgoal"
+"netname" "team two rune"
+"message" "You have the rune!\nReturn it to your base!\n"
+"mdl" "progs/end2.mdl"
+"goal_no" "2"
+"goal_activation" "157"
+"pausetime" "30"
+"team_no" "1"
+"delay" "60"
+"origin" "-138 -138 54"
+}
+{
+"classname" "item_tfgoal"
+"netname" "team three rune"
+"message" "You have the rune!\nReturn it to your base!\n"
+"mdl" "progs/end3.mdl"
+"goal_no" "3"
+"goal_activation" "157"
+"pausetime" "30"
+"team_no" "4"
+"delay" "60"
+"origin" "-138 138 54"
+}
+{
+"classname" "item_tfgoal"
+"netname" "team four rune"
+"message" "You have the rune!\nReturn it to your base!\n"
+"mdl" "progs/end4.mdl"
+"goal_no" "4"
+"goal_activation" "157"
+"pausetime" "30"
+"team_no" "3"
+"delay" "60"
+"origin" "138 -138 54"
+}
+{
+"classname" "info_tfdetect"
+"remove_group_no" "224"
+"origin" "0 0 218"
+}
+{
+"classname" "info_tfgoal"
+"netname" "team one dropoff"
+"broadcast" "Team one has captured team two's rune!\n"
+"message" "Touchdown!\n"
+"count" "2"
+"goal_activation" "1"
+"goal_result" "2"
+"items_allowed" "2"
+"team_no" "1"
+"axhitme" "2"
+"origin" "416 416 18"
+}
+{
+"classname" "info_tfgoal"
+"netname" "team two dropoff"
+"broadcast" "Team two has captured team one's rune!\n"
+"message" "Touchdown!\n"
+"count" "2"
+"goal_activation" "1"
+"goal_result" "2"
+"items_allowed" "1"
+"team_no" "2"
+"axhitme" "1"
+"origin" "-416 -416 18"
+}
+{
+"classname" "info_tfgoal"
+"netname" "team three dropoff"
+"broadcast" "Team three has captured team ones's rune!\n"
+"message" "Touchdown!\n"
+"count" "2"
+"goal_activation" "1"
+"goal_result" "2"
+"items_allowed" "4"
+"team_no" "3"
+"axhitme" "4"
+"origin" "-416 416 18"
+}
+{
+"classname" "info_tfgoal"
+"netname" "team four dropoff"
+"broadcast" "Team four has captured team three's rune!\n"
+"message" "Touchdown!\n"
+"count" "2"
+"goal_activation" "1"
+"goal_result" "2"
+"items_allowed" "3"
+"team_no" "4"
+"axhitme" "3"
+"origin" "416 -416 18"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply two"
+"message" "resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "2"
+"wait" "5"
+"health" "100"
+"armorvalue" "50"
+"ammo_shells" "50"
+"ammo_nails" "100"
+"ammo_rockets" "20"
+"ammo_cells" "10"
+"ammo_medikit" "50"
+"no_grenades_2" "10"
+"origin" "-650 -650 202"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply one"
+"message" "resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "1"
+"wait" "5"
+"health" "100"
+"armorvalue" "50"
+"ammo_shells" "50"
+"ammo_nails" "100"
+"ammo_rockets" "20"
+"ammo_cells" "30"
+"ammo_medikit" "50"
+"no_grenades_2" "10"
+"origin" "650 650 202"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply three"
+"message" "resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "3"
+"wait" "5"
+"health" "100"
+"armorvalue" "50"
+"ammo_shells" "50"
+"ammo_nails" "100"
+"ammo_rockets" "20"
+"ammo_cells" "30"
+"ammo_medikit" "50"
+"no_grenades_2" "10"
+"origin" "-650 650 202"
+}
+{
+"classname" "info_tfgoal"
+"netname" "resupply four"
+"message" "resupplying...\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "4"
+"wait" "5"
+"health" "100"
+"armorvalue" "50"
+"ammo_shells" "50"
+"ammo_nails" "100"
+"ammo_rockets" "20"
+"ammo_cells" "30"
+"ammo_medikit" "50"
+"no_grenades_2" "10"
+"origin" "650 -650 202"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "1"
+"origin" "672 288 182"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "1"
+"origin" "288 672 182"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "3"
+"origin" "-288 672 182"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "3"
+"origin" "-672 288 182"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"origin" "-672 -288 182"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "2"
+"origin" "-288 -672 182"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "4"
+"origin" "288 -672 182"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "4"
+"origin" "672 -288 182"
+}
+{
+"classname" "light"
+"light" "1500"
+"style" "0"
+"origin" "392 392 184"
+}
+{
+"classname" "light"
+"light" "1500"
+"style" "0"
+"origin" "392 -392 184"
+}
+{
+"classname" "light"
+"light" "1500"
+"style" "0"
+"origin" "-392 -392 184"
+}
+{
+"classname" "light"
+"light" "1500"
+"style" "0"
+"origin" "-392 392 184"
+}
+{
+"classname" "light"
+"light" "1500"
+"style" "0"
+"origin" "-648 -648 72"
+}
+{
+"classname" "light"
+"light" "1500"
+"style" "0"
+"origin" "-648 648 72"
+}
+{
+"classname" "light"
+"light" "1500"
+"style" "0"
+"origin" "648 648 72"
+}
+{
+"classname" "light"
+"light" "1500"
+"style" "0"
+"origin" "648 -648 72"
+}
+{
+"classname" "item_health"
+"origin" "648 -648 8"
+}
+{
+"classname" "item_health"
+"origin" "-648 -648 8"
+}
+{
+"classname" "item_health"
+"origin" "-648 648 8"
+}
+{
+"classname" "item_health"
+"origin" "648 648 8"
+}

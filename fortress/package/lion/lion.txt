@@ -1,0 +1,150 @@
+**** This map designed for the TeamFortress v2.8 quakeC mod ****
+======================= Map Information ========================
+
+Title                   : Lions Den
+Filename                : lion.bsp
+Author                  : Brandon Smith
+Email Address           : engine@eastky.net
+Description             : TeamFortress v2.8 Quake Map
+
+======================= Play Information =======================
+
+Single Player           : Yes (to look around)
+Cooperative             : No
+Deathmatch              : Yes
+TeamFortress            : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+New Music               : No
+Demos Replaced          : None
+Grappling Hook          : Yes
+
+
+========================= Construction =========================
+
+Editor(s) used          : Worldcraft Registered, EntEnd, and Quark(to get rid of those pesky Leak Files :\ )
+Known Bugs              : None Known
+Build Computer		: K6-2 300 with 64mb of sdram
+Build Time              : See below
+
+
+============================ Thanks ============================
+
+Thanks to               : TF creators, and many other TF people
+
+
+========================== Game Stuff ==========================
+1.)  This is a 1on1 map
+2.)  Please use it accordingly
+
+========================== Misc Stuff ==========================
+If you like this level mail the server operators and let them know.
+
+
+========================= How-To Stuff =========================
+Unzip the file, lion.zip, like this:
+fortress\maps: lion.bsp
+fortress\sound\player: hoo.wav
+fortress\progs\backpack.mdl
+========================== Build Stuff =========================
+
+** Executing...
+** Command: Copy File
+** Parameters: "C:\QUAKE\ID1\MAPS\1ON1.map" "c:\quake\id1\maps\1ON1.map"
+
+
+** Executing...
+** Command: C:\Program Files\WorldCraft\qtools\Qbsp.exe
+** Parameters: c:\quake\id1\maps\1ON1
+
+outputfile: c:\quake\id1\maps\1ON1.bsp
+--- LoadMapFile ---
+c:\quake\id1\maps\1ON1.map
+   63 brushes
+   55 entities
+    5 miptex
+   15 texinfo
+building hulls sequentially...
+--- Brush_LoadEntity ---
+59 brushes read
+---- CSGFaces ----
+  354 brushfaces
+ 1388 csgfaces
+  158 mergedfaces
+--- SolidBSP ---
+  277 split nodes
+  108 solid leafs
+  170 empty leafs
+    0 water leafs
+  767 leaffaces
+  749 nodefaces
+----- portalize ----
+--- FillOutside ---
+ 264 outleafs
+--- SolidBSP ---
+   95 split nodes
+   72 solid leafs
+   24 empty leafs
+    0 water leafs
+  350 leaffaces
+  346 nodefaces
+ 262 outleafs
+ 268 outleafs
+--- MergeAll ---
+137 mergefaces
+writing c:\quake\id1\maps\1ON1.prt
+MODEL: *1
+MODEL: *2
+MODEL: *3
+MODEL: *4
+--- FinishBSPFile ---
+WriteBSPFile: c:\quake\id1\maps\1ON1.bsp
+added 0 texture frames
+  150 planes         3000
+  654 vertexes       7848
+   88 nodes          2112
+   15 texinfo         600
+  478 faces          9560
+  229 clipnodes      1832
+   43 leafs          1204
+  488 marksurfaces    976
+ 2392 surfedges      4784
+ 1197 edges          4788
+    5 textures      61424
+      lightdata         0
+      visdata           0
+      entdata        3833
+
+** Executing...
+** Command: C:\Program Files\WorldCraft\qtools\Light.exe
+** Parameters: c:\quake\id1\maps\1ON1
+
+----- LightFaces ----
+55 entities read
+lightdatasize: 45552
+0 switchable light styles
+  4.0 seconds elapsed
+
+** Executing...
+** Command: C:\Program Files\WorldCraft\qtools\Vis.exe
+** Parameters: -fast c:\quake\id1\maps\1ON1
+
+---- vis ----
+fastvis = true
+  18 portalleafs
+  21 numportals
+average leafs visible: 10
+c_chains: 0
+visdatasize:54  compressed from 54
+  1.0 seconds elapsed
+
+** Executing...
+** Command: Change Directory
+** Parameters: c:\quake
+
+
+** Executing...
+** Command: c:\quake\quake.exe
+** Parameters: -game fortress +exec cool.txt +exec base.cfg +map 1on1 +map 1ON1
+

@@ -1,0 +1,935 @@
+{
+"message" "†engbat x ú by plasticity\n revised  ú original by someone\n          ú textures by tyrann\n\nùûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûûü\n"
+"wad" "textures.wad;d:\games\quake\util\wc\sewer1.wad;d:\games\quake\util\wc\4tech1.wad;d:\games\quake\util\wc\mininoheros.wad"
+"classname" "worldspawn"
+"worldtype" "0"
+"light" "30"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"classname" "i_t_g"
+"no_grenades_1" "1"
+"armortype" "0.8"
+"noise" "weapons/lock4.wav"
+"origin" "1248 1632 352"
+"no_grenades_2" "1"
+"wait" "2"
+"g_e" "1"
+"ammo_nails" "100"
+"armorvalue" "100"
+"health" "100"
+"team_no" "1"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"classname" "i_t_g"
+"no_grenades_1" "1"
+"armortype" "0.8"
+"noise" "weapons/lock4.wav"
+"origin" "1088 1632 352"
+"no_grenades_2" "1"
+"wait" "2"
+"g_e" "1"
+"ammo_nails" "100"
+"armorvalue" "100"
+"health" "100"
+"team_no" "1"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"classname" "i_t_g"
+"no_grenades_1" "2"
+"armortype" "0.8"
+"origin" "1168 1632 176"
+"no_grenades_2" "2"
+"wait" "2"
+"g_e" "1"
+"ammo_nails" "100"
+"armorvalue" "100"
+"health" "100"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "100"
+"ammo_rockets" "100"
+}
+{
+"classname" "i_p_t"
+"origin" "1256 1664 192"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "i_p_t"
+"origin" "1256 1600 192"
+"team_no" "1"
+"angle" "180"
+}
+{
+"classname" "i_p_t"
+"origin" "1096 1600 192"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "1096 1664 192"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "1088 1488 192"
+"team_no" "1"
+"angle" "90"
+}
+{
+"classname" "i_p_t"
+"origin" "1248 1488 192"
+"team_no" "1"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "1264 672 224"
+"angle" "90"
+}
+{
+"speed" "50"
+"spawnflags" "32"
+"sounds" "3"
+"model" "*14"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "500"
+"lip" "0"
+"health" "0"
+"angle" "-1"
+"targetname" "door1"
+}
+{
+"target" "startgame"
+"model" "*1"
+"sounds" "4"
+"classname" "trigger_once"
+"style" "32"
+"delay" "5"
+}
+{
+"g_a" "1"
+"target" "death"
+"owned_by" "1"
+"items_allowed" "2"
+"n_t" " captured the enemy flag\n"
+"netname" "team1cap"
+"message" "You captured the enemy flag!\n"
+"increase_team1" "15"
+"axhitme" "2"
+"classname" "i_t_g"
+"b_n" "Your flag was captured!\n"
+"noise" "items/cap1.wav"
+"origin" "1168 1456 352"
+"n_n" " captured your flag\n"
+"b_t" "Your team captured the enemy flag\n"
+"restore_goal_no" "66"
+"g_e" "3"
+"activate_group_no" "12"
+"frags" "15"
+"team_no" "1"
+"health" "-200"
+}
+{
+"speed" "100"
+"model" "*2"
+"classname" "trigger_jumper"
+"style" "32"
+"delay" "0"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "1472 1312 88"
+"style" "2"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1176 1456 272"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1176 1648 240"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "880 1312 88"
+"style" "2"
+"light" "300"
+}
+{
+"speed" "100"
+"model" "*3"
+"classname" "trigger_jumper"
+"style" "32"
+"delay" "0"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "1168 1056 360"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "848 1328 424"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "848 944 424"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1520 944 424"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1520 1328 424"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1104 1456 432"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1232 1456 432"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1232 1648 432"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1104 1648 432"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1232 1504 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1487 1504 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1615 1488 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 1360 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 1232 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 1104 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 976 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 848 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 720 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1488 720 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1360 720 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1103 1504 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "848 1504 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "848 720 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "976 720 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "753 1488 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 1360 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 1232 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 1104 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 976 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 848 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 720 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1472 464 304"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "896 464 304"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1168 704 396"
+"light" "300"
+}
+{
+"speed" "90"
+"model" "*4"
+"classname" "trigger_jumper"
+"style" "32"
+"delay" "0"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "1176 1632 -72"
+"style" "2"
+"light" "200"
+}
+{
+"speed" "500"
+"model" "*5"
+"sounds" "4"
+"classname" "func_door"
+"wait" "4"
+"dmg" "0"
+"lip" "-8"
+"health" "1"
+}
+{
+"classname" "light"
+"origin" "1112 1464 -80"
+}
+{
+"classname" "light"
+"origin" "968 1280 -80"
+"light" "125"
+}
+{
+"classname" "light"
+"origin" "928 872 -96"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"classname" "i_t_g"
+"no_grenades_1" "1"
+"armortype" "0.8"
+"noise" "weapons/lock4.wav"
+"origin" "1120 -704 352"
+"no_grenades_2" "1"
+"wait" "2"
+"g_e" "1"
+"ammo_nails" "100"
+"armorvalue" "100"
+"health" "100"
+"team_no" "2"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"classname" "i_t_g"
+"no_grenades_1" "1"
+"armortype" "0.8"
+"noise" "weapons/lock4.wav"
+"origin" "1280 -704 352"
+"no_grenades_2" "1"
+"wait" "2"
+"g_e" "1"
+"ammo_nails" "100"
+"armorvalue" "100"
+"health" "100"
+"team_no" "2"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"g_a" "1"
+"ammo_shells" "100"
+"classname" "i_t_g"
+"origin" "1200 -704 176"
+"armortype" "0.8"
+"no_grenades_1" "2"
+"wait" "2"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_nails" "100"
+"armorvalue" "100"
+"team_no" "2"
+"health" "100"
+"ammo_cells" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"classname" "i_p_t"
+"origin" "1112 -736 192"
+"team_no" "2"
+}
+{
+"classname" "i_p_t"
+"origin" "1112 -672 192"
+"team_no" "2"
+}
+{
+"classname" "i_p_t"
+"origin" "1272 -672 192"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "i_p_t"
+"origin" "1272 -736 192"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "i_p_t"
+"origin" "1280 -560 192"
+"team_no" "2"
+"angle" "90"
+}
+{
+"classname" "i_p_t"
+"origin" "1120 -560 192"
+"team_no" "2"
+"angle" "90"
+}
+{
+"classname" "info_player_start"
+"origin" "1104 256 224"
+"angle" "90"
+}
+{
+"spawnflags" "32"
+"speed" "50"
+"model" "*12"
+"sounds" "3"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "500"
+"health" "0"
+"lip" "0"
+"targetname" "door2"
+"angle" "-1"
+}
+{
+"target" "startgame"
+"sounds" "4"
+"model" "*6"
+"classname" "trigger_once"
+"style" "32"
+"delay" "5"
+}
+{
+"speed" "100"
+"model" "*7"
+"classname" "trigger_jumper"
+"style" "32"
+"delay" "0"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "896 -384 88"
+"style" "2"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1192 -528 272"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1192 -720 240"
+"light" "250"
+}
+{
+"classname" "light"
+"origin" "1488 -384 88"
+"style" "2"
+"light" "300"
+}
+{
+"speed" "100"
+"model" "*8"
+"classname" "trigger_jumper"
+"style" "32"
+"delay" "0"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "1200 -128 360"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1520 -400 424"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1520 -16 424"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "848 -16 424"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "848 -400 424"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "1264 -528 432"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1136 -528 432"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1136 -720 432"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1264 -720 432"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1136 -576 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "881 -576 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "753 -560 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 -432 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 -304 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 -176 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 -48 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 80 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "752 208 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "880 208 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1008 208 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1265 -576 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1520 -576 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1520 208 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1392 208 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1615 -560 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 -432 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 -304 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 -176 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 -48 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 80 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1616 208 80"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1200 224 396"
+"light" "300"
+}
+{
+"speed" "90"
+"model" "*9"
+"classname" "trigger_jumper"
+"style" "32"
+"delay" "0"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"classname" "light"
+"origin" "1192 -704 -72"
+"style" "2"
+"light" "200"
+}
+{
+"speed" "500"
+"model" "*10"
+"sounds" "4"
+"classname" "func_door"
+"wait" "4"
+"dmg" "0"
+"health" "1"
+"lip" "-8"
+}
+{
+"classname" "light"
+"origin" "1256 -536 -80"
+}
+{
+"classname" "light"
+"origin" "1400 -352 -80"
+"light" "125"
+}
+{
+"classname" "light"
+"origin" "1440 64 -96"
+}
+{
+"classname" "light"
+"origin" "1184 464 -48"
+"light" "300"
+}
+{
+"g_a" "1"
+"target" "death"
+"n_t" " captured the enemy flag\n"
+"items_allowed" "1"
+"owned_by" "2"
+"message" "You captured the enemy flag!\n"
+"netname" "team2cap"
+"axhitme" "1"
+"increase_team2" "15"
+"classname" "i_t_g"
+"b_n" "Your flag was captured!\n"
+"origin" "1200 -528 352"
+"noise" "items/cap2.wav"
+"n_n" " captured your flag\n"
+"b_t" "Your team captured the enemy flag\n"
+"restore_goal_no" "66"
+"activate_group_no" "12"
+"g_e" "3"
+"frags" "15"
+"team_no" "2"
+"health" "-200"
+}
+{
+"g_a" "693"
+"owned_by" "1"
+"netname" "blue flag"
+"message" "You've got the Flag!\n"
+"classname" "item_tfgoal"
+"origin" "1168 1456 336"
+"noise" "ogre/ogwake.wav"
+"n_b" " took the Blue ∆Ï·Á!\n"
+"b_t" "\n\n\nYour team has the ≈Œ≈ÕŸ flag!\n"
+"g_e" "1"
+"d_t" "the ≈Œ≈ÕŸ ÏÔÛÙ your flag!\n"
+"b_o" "\n\n\nYour flag has been ‘¡À≈Œ!\n"
+"goal_no" "1"
+"items" "131072"
+"noise3" "Your flag has returned to base!\n"
+"goal_result" "16"
+"noise4" "The enemy flag has returned to base!\n"
+"team_no" "2"
+"pausetime" "8"
+"skin" "1"
+"mdl" "progs/tf_flag.mdl"
+"d_n" "your team ÏÔÛÙ the ≈Œ≈ÕŸ flag!\n"
+"angle" "90"
+}
+{
+"g_a" "693"
+"owned_by" "2"
+"message" "You've got the Flag!\n"
+"netname" "red flag"
+"classname" "item_tfgoal"
+"n_b" " took the red ∆Ï·Á!\n"
+"noise" "ogre/ogwake.wav"
+"origin" "1200 -528 336"
+"b_t" "\n\n\nYour team has the ≈Œ≈ÕŸ flag!\n"
+"g_e" "1"
+"b_o" "\n\n\nYour flag has been ‘¡À≈Œ!\n"
+"d_t" "the ≈Œ≈ÕŸ ÏÔÛÙ your flag!\n"
+"noise3" "Your flag has returned to base!\n"
+"goal_no" "2"
+"items" "262144"
+"noise4" "The enemy flag has returned to base!\n"
+"goal_result" "16"
+"pausetime" "8"
+"team_no" "1"
+"skin" "2"
+"d_n" "your team ÏÔÛÙ the ≈Œ≈ÕŸ flag!\n"
+"mdl" "progs/tf_flag.mdl"
+"angle" "-90"
+}
+{
+"netname" "startgame"
+"classname" "i_t_g"
+"b_b" "doors will open in 2 minutes\n"
+"activate_goal_no" "66"
+"goal_result" "1"
+"targetname" "startgame"
+}
+{
+"target" "door2"
+"netname" "door2"
+"classname" "i_t_g"
+"group_no" "12"
+}
+{
+"target" "door4"
+"netname" "door4"
+"classname" "i_t_g"
+"group_no" "12"
+}
+{
+"netname" "return2"
+"classname" "i_t_g"
+"return_item_no" "2"
+"group_no" "13"
+}
+{
+"netname" "return1"
+"classname" "i_t_g"
+"return_item_no" "1"
+"group_no" "13"
+}
+{
+"netname" "returnisbuggingthisshitfornoreason"
+"classname" "i_t_g"
+"activate_group_no" "13"
+"goal_no" "69"
+}
+{
+"netname" "doortimer"
+"classname" "i_t_t"
+"noise" "fight.wav"
+"b_b" "FIGHT!\n"
+"activate_group_no" "12"
+"remove_goal_no" "66"
+"goal_no" "66"
+"search_time" "5"
+"delay_time" "120"
+"t_length" "9999"
+}
+{
+"speed" "50"
+"spawnflags" "32"
+"model" "*13"
+"sounds" "3"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "500"
+"health" "0"
+"lip" "18"
+"targetname" "door4"
+"angle" "-1"
+}
+{
+"spawnflags" "32"
+"speed" "50"
+"model" "*16"
+"sounds" "3"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "500"
+"lip" "18"
+"health" "0"
+"angle" "-1"
+"targetname" "door3"
+}
+{
+"target" "door1"
+"netname" "door1"
+"classname" "i_t_g"
+"group_no" "12"
+}
+{
+"target" "door3"
+"netname" "door3"
+"classname" "i_t_g"
+"group_no" "12"
+}
+{
+"impulse" "64"
+"message" "engbat\n"
+"classname" "info_tfdetect"
+"maxammo_shells" "511"
+"maxammo_nails" "511"
+"noise1" "=== Choose your class ===\n\n9.. Engineer\n"
+"noise2" "=== Choose your class ===\n\n9.. Engineer\n"
+}
+{
+"netname" "death"
+"classname" "i_t_g"
+"g_e" "7"
+"activate_goal_no" "69"
+"health" "-300"
+"targetname" "death"
+}
+{
+"model" "*11"
+"classname" "func_glass"
+}
+{
+"model" "*15"
+"classname" "func_glass"
+}

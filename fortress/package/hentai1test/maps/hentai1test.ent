@@ -1,0 +1,685 @@
+{
+"_bounce" "1"
+"_generator" "J.A.C.K. 1.1.1064 (vpQuake)"
+"_sun2" "150"
+"_sun2_color" "255 255 255"
+"_sun2_mangle" "0 80 0"
+"_sun_mangle" "0 -80 0"
+"_sunlight" "250"
+"_sunlight_color" "255 255 255"
+"_sunlight_penumbra" "45"
+"classname" "worldspawn"
+"mapversion" "220"
+"message" "Welcome to the Hentai Highway :p"
+"wad" "C:\QUAKE\Id1\quake.wad;C:\QUAKE\ID1\Doom3_hell.wad;C:\QUAKE\ID1\Heroes.wad;C:\QUAKE\ID1\QuakePalette.wad;C:\QUAKE\ID1\alice.wad;C:\QUAKE\ID1\alltexture.wad;C:\QUAKE\ID1\doom2.wad;C:\QUAKE\ID1\trump.wad;C:\QUAKE\ID1\dixie.wad;C:\QUAKE\ID1\moon.wad"
+"worldtype" "1"
+}
+{
+"classname" "info_player_start"
+"origin" "-1024 -224 32"
+}
+{
+"_anglescale" "0.5"
+"_color" "255 255 255"
+"_softangle" "0"
+"_surface_offset" "2"
+"angle" "40"
+"classname" "light"
+"delay" "0"
+"light" "400"
+"origin" "-2048 -1280 128"
+"wait" "1"
+}
+{
+"classname" "info_player_deathmatch"
+"origin" "-608 -416 32"
+}
+{
+"classname" "info_player_coop"
+"origin" "-256 -288 32"
+}
+{
+"angles" "0 90 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-2050.19 -1407.97 32"
+"team_no" "1"
+}
+{
+"_selfshadow" "1"
+"angles" "90 0 0"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"model" "*1"
+"sounds" "0"
+"spawnflags" "0"
+"speed" "400"
+"team_no" "1"
+"wait" "1"
+}
+{
+"_selfshadow" "1"
+"angles" "90 0 0"
+"classname" "func_door"
+"dmg" "0"
+"health" "0"
+"model" "*2"
+"sounds" "0"
+"spawnflags" "0"
+"speed" "400"
+"team_no" "2"
+"wait" "1"
+}
+{
+"classname" "item_tfgoal"
+"d_n_n" " Dropped the Red Flag.\n"
+"d_n_t" " Dropped the Red Flag.\n"
+"g_a" "693"
+"g_e" "1"
+"goal_no" "2"
+"goal_result" "18"
+"items" "262144"
+"mdl" "progs/hk_flag.mdl"
+"n_b" " Has the Red Flag\n"
+"netname" "red_flag"
+"noise" "lustmord/hs.wav"
+"noise3" "Red flag has returned.\n"
+"noise4" "Red flag has returned.\n"
+"origin" "1908 -2444 52"
+"owned_by" "2"
+"pausetime" "60"
+"skin" "0"
+"team_no" "1"
+}
+{
+"axhitme" "1"
+"b_b" "Red Team Captures The Flag.\n"
+"classname" "i_t_g"
+"frags" "10"
+"g_a" "1"
+"g_e" "3"
+"goal_result" "2"
+"increase_team2" "10"
+"items_allowed" "1"
+"n_b" " Cap's the flag for the Red team.\n"
+"netname" "red_cap"
+"noise" "lustmord/darkness.wav"
+"origin" "1920 -2432 64"
+"owned_by" "2"
+"target" "redkill"
+}
+{
+"classname" "i_t_g"
+"g_e" "5"
+"group_no" "55"
+"health" "10"
+"netname" "redkill"
+"origin" "1920 -2432 64"
+"targetname" "redkill"
+}
+{
+"b_b" "TeamFortress v2.7"
+"b_n" "Cap  The  Flag  Stupid\n"
+"classname" "info_tfdetect"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"impulse" "132"
+"n_s_c" "The enemy flag is being carried by"
+"n_s_h" "The enemy flag is in base."
+"n_s_m" "The enemy flag is lying around."
+"origin" "-268 -1100 372"
+"t_s_c" "Your flag is being carried by"
+"t_s_h" "Your flag is in your base."
+"t_s_m" "Your flag is lying around."
+}
+{
+"axhitme" "2"
+"b_b" "Blue Team Captures The Flag.\n"
+"classname" "i_t_g"
+"frags" "10"
+"g_a" "1"
+"g_e" "3"
+"goal_result" "2"
+"increase_team1" "10"
+"items_allowed" "2"
+"n_b" " Cap's the flag for the Blue team.\n"
+"netname" "blue_cap"
+"noise" "lustmord/darkness.wav"
+"origin" "-2432 384 64"
+"owned_by" "1"
+"target" "bluekill"
+}
+{
+"classname" "i_t_g"
+"g_e" "5"
+"group_no" "55"
+"health" "10"
+"netname" "bluekill"
+"origin" "-2432 384 64"
+"targetname" "bluekill"
+}
+{
+"classname" "item_tfgoal"
+"d_n_n" " Dropped the Blue Flag.\n"
+"d_n_t" " Dropped the Blue Flag.\n"
+"g_a" "693"
+"g_e" "1"
+"goal_no" "1"
+"goal_result" "18"
+"items" "131072"
+"mdl" "progs/hk_flag.mdl"
+"n_b" " Has the Blue Flag\n"
+"netname" "blue_flag"
+"noise" "lustmord/hs.wav"
+"noise3" "Blue flag has returned.\n"
+"noise4" "Blue flag has returned.\n"
+"origin" "-2444 372 52"
+"owned_by" "1"
+"pausetime" "60"
+"skin" "1"
+"team_no" "2"
+}
+{
+"angles" "0 90 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-1920 -1408 32"
+"team_no" "1"
+}
+{
+"angles" "0 90 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-2176 -1408 32"
+"team_no" "1"
+}
+{
+"angles" "0 90 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-2304 -1408 32"
+"team_no" "1"
+}
+{
+"angles" "0 90 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-2432 -1408 32"
+"team_no" "1"
+}
+{
+"angles" "0 90 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-2240 -1344 32"
+"team_no" "1"
+}
+{
+"angles" "0 90 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-2112 -1344 32"
+"team_no" "1"
+}
+{
+"angles" "0 90 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-2176 -1280 32"
+"team_no" "1"
+}
+{
+"angles" "0 270 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "1920 -640 24"
+"team_no" "2"
+}
+{
+"angles" "0 270 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "1792 -640 24"
+"team_no" "2"
+}
+{
+"angles" "0 270 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "1664 -640 24"
+"team_no" "2"
+}
+{
+"angles" "0 270 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "1536 -640 24"
+"team_no" "2"
+}
+{
+"angles" "0 270 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "1408 -640 24"
+"team_no" "2"
+}
+{
+"angles" "0 270 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "1600 -704 24"
+"team_no" "2"
+}
+{
+"angles" "0 270 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "1728 -704 24"
+"team_no" "2"
+}
+{
+"angles" "0 270 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "1664 -768 24"
+"team_no" "2"
+}
+{
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"ammo_rockets" "100"
+"ammo_shells" "200"
+"armortype" "0.8"
+"armorvalue" "300"
+"classname" "i_t_g"
+"g_a" "1"
+"g_e" "1"
+"goal_result" "16"
+"health" "100"
+"mdl" "progs/invulner.mdl"
+"message" "You are now loaded\n"
+"netname" "Resupply Bag Red"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "lustmord/icnd.wav"
+"origin" "1408 -768 28"
+"team_no" "2"
+"wait" "1"
+}
+{
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"ammo_rockets" "100"
+"ammo_shells" "200"
+"armortype" "0.8"
+"armorvalue" "300"
+"classname" "i_t_g"
+"g_a" "1"
+"g_e" "1"
+"goal_result" "16"
+"health" "100"
+"mdl" "progs/invulner.mdl"
+"message" "You are now loaded\n"
+"netname" "Resupply Bag Red"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "lustmord/icnd.wav"
+"origin" "1408 -768 28"
+"team_no" "2"
+"wait" "1"
+}
+{
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"ammo_rockets" "100"
+"ammo_shells" "200"
+"armortype" "0.8"
+"armorvalue" "300"
+"classname" "i_t_g"
+"g_a" "1"
+"g_e" "1"
+"goal_result" "16"
+"health" "100"
+"mdl" "progs/invulner.mdl"
+"message" "You are now loaded\n"
+"netname" "Resupply Bag Red"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "lustmord/icnd.wav"
+"origin" "1920 -768 28"
+"team_no" "2"
+"wait" "1"
+}
+{
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"ammo_rockets" "100"
+"ammo_shells" "200"
+"armortype" "0.8"
+"armorvalue" "300"
+"classname" "i_t_g"
+"g_a" "1"
+"g_e" "1"
+"goal_result" "16"
+"health" "100"
+"mdl" "progs/invulner.mdl"
+"message" "You are now loaded\n"
+"netname" "Resupply Bag Red"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "lustmord/icnd.wav"
+"origin" "-1920 -1280 28"
+"team_no" "1"
+"wait" "1"
+}
+{
+"ammo_cells" "200"
+"ammo_detpack" "1"
+"ammo_medikit" "200"
+"ammo_nails" "200"
+"ammo_rockets" "100"
+"ammo_shells" "200"
+"armortype" "0.8"
+"armorvalue" "300"
+"classname" "i_t_g"
+"g_a" "1"
+"g_e" "1"
+"goal_result" "16"
+"health" "100"
+"mdl" "progs/invulner.mdl"
+"message" "You are now loaded\n"
+"netname" "Resupply Bag Red"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "lustmord/icnd.wav"
+"origin" "-2432 -1280 28"
+"team_no" "1"
+"wait" "1"
+}
+{
+"angles" "0 90 0"
+"classname" "item_spikes"
+"origin" "1952 -1976 32"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_rockets"
+"origin" "2000 -1976 32"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_health"
+"origin" "2000 -1808 32"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_cells"
+"origin" "1952 -1640 32"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_shells"
+"origin" "2000 -1640 32"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_armorInv"
+"origin" "1856 -1792 32"
+}
+{
+"angles" "0 270 0"
+"classname" "item_rockets"
+"origin" "-2512 -72 32"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_spikes"
+"origin" "-2464 -72 32"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_cells"
+"origin" "-2464 -408 32"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_shells"
+"origin" "-2512 -408 32"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_health"
+"origin" "-2512 -240 32"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_armorInv"
+"origin" "-2368 -256 32"
+}
+{
+"classname" "item_artifact_super_damage"
+"origin" "-352 -2512 -168"
+"ritem" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_shells"
+"origin" "-404 -2380 -188"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_shells"
+"origin" "-276 -2380 -188"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_spikes"
+"origin" "-288 -2476 -192"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_spikes"
+"origin" "-392 -2476 -192"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_health"
+"origin" "-688 -2448 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_cells"
+"origin" "-608 -2336 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_rockets"
+"origin" "-672 -2496 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_rockets"
+"origin" "-656 -2496 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_rockets"
+"origin" "-32 -2496 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_rockets"
+"origin" "-48 -2496 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_health"
+"origin" "-48 -2448 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 90 0"
+"classname" "item_cells"
+"origin" "-96 -2336 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_cells"
+"origin" "-416 288 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_health"
+"origin" "-464 400 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_rockets"
+"origin" "-464 464 -124"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_rockets"
+"origin" "-480 464 -124"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_rockets"
+"origin" "144 448 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_rockets"
+"origin" "160 448 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_cells"
+"origin" "96 288 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_health"
+"origin" "176 400 -128"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_spikes"
+"origin" "-96 432 -192"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_spikes"
+"origin" "-240 432 -192"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_shells"
+"origin" "-224 320 -190"
+"spawnflags" "0"
+}
+{
+"angles" "0 270 0"
+"classname" "item_shells"
+"origin" "-128 320 -190"
+"spawnflags" "0"
+}
+{
+"classname" "item_artifact_invulnerability"
+"origin" "-160 432 -168"
+"ritem" "0"
+}
+{
+"_anglescale" "0.5"
+"_color" "255 255 255"
+"_softangle" "0"
+"_surface_offset" "2"
+"angle" "40"
+"classname" "light"
+"delay" "0"
+"light" "400"
+"origin" "-2304 -1280 128"
+"wait" "1"
+}
+{
+"_anglescale" "0.5"
+"_color" "255 255 255"
+"_softangle" "0"
+"_surface_offset" "2"
+"angle" "40"
+"classname" "light"
+"delay" "0"
+"light" "400"
+"origin" "1792 -768 128"
+"wait" "1"
+}
+{
+"_anglescale" "0.5"
+"_color" "255 255 255"
+"_softangle" "0"
+"_surface_offset" "2"
+"angle" "40"
+"classname" "light"
+"delay" "0"
+"light" "400"
+"origin" "1536 -768 128"
+"wait" "1"
+}

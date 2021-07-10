@@ -1,0 +1,2859 @@
+{
+"wad" "gfx/QuArK.wad"
+"message" "The DeadZone v2.1"
+"classname" "worldspawn"
+}
+{
+"model" "*1"
+"wait" "15"
+"message" "Hit the Cross to Heal your Team."
+"classname" "trigger_multiple"
+}
+{
+"message" "Your Team Has Been Healed."
+"targetname" "BlueMedic"
+"team_no" "1"
+"playerclass" "5"
+"goal_effects" "2"
+"goal_activation" "1"
+"health" "100"
+"origin" "-1368 -2016 106"
+"classname" "info_tfgoal"
+}
+{
+"model" "*2"
+"health" "1"
+"team_no" "1"
+"playerclass" "5"
+"wait" "60"
+"target" "BlueMedic"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*3"
+"wait" "15"
+"message" "Hit the Hammer to Protect your Team."
+"classname" "trigger_multiple"
+}
+{
+"armorvalue" "100"
+"message" "Your Team Has Been Protected."
+"targetname" "BlueEng"
+"team_no" "1"
+"playerclass" "9"
+"goal_effects" "2"
+"goal_activation" "1"
+"origin" "1368 -1936 66"
+"classname" "info_tfgoal"
+}
+{
+"model" "*4"
+"health" "1"
+"team_no" "1"
+"playerclass" "9"
+"wait" "60"
+"target" "BlueEng"
+"angle" "0"
+"classname" "func_button"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "1"
+"origin" "1632 -3488 226"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "1"
+"origin" "1632 -3232 226"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "1"
+"origin" "1632 -3488 66"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "1"
+"origin" "1632 -3232 66"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "1"
+"origin" "800 -3488 226"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "1"
+"origin" "800 -3232 226"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "1"
+"origin" "800 -3488 66"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "1"
+"origin" "800 -3232 66"
+"classname" "info_player_teamspawn"
+}
+{
+"skin" "2"
+"team_no" "1"
+"origin" "1328 -3440 72"
+"wait" "5"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "200"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/Pack.mdl"
+"message" "Fill 'er Up!!"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+}
+{
+"skin" "2"
+"team_no" "1"
+"origin" "1072 -3440 72"
+"wait" "5"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "200"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/Pack.mdl"
+"message" "Fill 'er Up!!"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+}
+{
+"model" "*5"
+"target" "Red"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "Blue"
+"angle" "0"
+"origin" "-2136 -2624 88"
+"classname" "info_teleport_destination"
+}
+{
+"targetname" "BlueTelePort"
+"angle" "180"
+"origin" "-1152 -2848 64"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*6"
+"playerclass" "9"
+"team_no" "1"
+"lip" "-1"
+"wait" "3"
+"sounds" "1"
+"speed" "358"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*7"
+"playerclass" "5"
+"team_no" "1"
+"lip" "-1"
+"wait" "1"
+"sounds" "1"
+"speed" "600"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"team_no" "1"
+"lip" "-1"
+"wait" "3"
+"sounds" "1"
+"speed" "358"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*9"
+"lip" "-1"
+"wait" "1"
+"sounds" "1"
+"speed" "600"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*10"
+"team_no" "1"
+"lip" "-1"
+"wait" "2"
+"sounds" "1"
+"speed" "500"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*11"
+"message" "You can't open this door\nGet a TeamMate.\n"
+"targetname" "BlueDetDoor1"
+"wait" "1"
+"sounds" "1"
+"speed" "300"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"target" "BlueDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "1"
+"origin" "-688 -3064 -326"
+"classname" "info_tfgoal"
+}
+{
+"target" "BlueDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "1"
+"origin" "-688 -3120 -326"
+"classname" "info_tfgoal"
+}
+{
+"target" "BlueDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "1"
+"origin" "-688 -3008 -326"
+"classname" "info_tfgoal"
+}
+{
+"target" "BlueDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "1"
+"origin" "-752 -3064 -326"
+"classname" "info_tfgoal"
+}
+{
+"target" "BlueDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "1"
+"origin" "-752 -3120 -326"
+"classname" "info_tfgoal"
+}
+{
+"target" "BlueDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "1"
+"origin" "-752 -3008 -326"
+"classname" "info_tfgoal"
+}
+{
+"model" "*12"
+"speed" "95"
+"angle" "-1"
+"classname" "trigger_push"
+}
+{
+"light" "250"
+"origin" "-648 -1608 -320"
+"classname" "light"
+}
+{
+"light" "250"
+"origin" "-648 -1608 -128"
+"classname" "light"
+}
+{
+"model" "*13"
+"speed" "95"
+"angle" "-1"
+"classname" "trigger_push"
+}
+{
+"light" "250"
+"origin" "648 -1628 -320"
+"classname" "light"
+}
+{
+"light" "250"
+"origin" "648 -1628 -128"
+"classname" "light"
+}
+{
+"model" "*14"
+"target" "BlueDownWater"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "BlueUpWater"
+"angle" "-1"
+"origin" "0 -2832 -496"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*15"
+"target" "BlueTelePort"
+"classname" "trigger_teleport"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "1"
+"origin" "1632 -3936 -158"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "1"
+"origin" "1632 -3680 -158"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "1"
+"origin" "1632 -3936 -318"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "1"
+"origin" "1632 -3680 -318"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "1"
+"origin" "800 -3936 -158"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "1"
+"origin" "800 -3680 -158"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "1"
+"origin" "800 -3936 -318"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "1"
+"origin" "800 -3680 -318"
+"classname" "info_player_teamspawn"
+}
+{
+"skin" "2"
+"team_no" "1"
+"origin" "1328 -3856 -312"
+"wait" "5"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "200"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/Pack.mdl"
+"message" "Fill 'er Up!!"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+}
+{
+"skin" "2"
+"team_no" "1"
+"origin" "1072 -3856 -312"
+"wait" "5"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "200"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/Pack.mdl"
+"message" "Fill 'er Up!!"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+}
+{
+"goal_result" "2"
+"owned_by" "1"
+"frags" "5"
+"count" "5"
+"team_no" "2"
+"target" "BlueStore"
+"angle" "90"
+"goal_effects" "3"
+"ammo_detpack" "1"
+"team_broadcast" "The Enemies StoreRoom has been Destroyed."
+"non_team_broadcast" "Your StoreRoom has Been Destroyed."
+"message" "You have Destroyed the StoreRoom."
+"goal_activation" "2"
+"origin" "-1168 -3728 -342"
+"classname" "info_tfgoal"
+}
+{
+"model" "*16"
+"spawnflags" "1"
+"speed" "100"
+"wait" "60"
+"targetname" "BlueStore"
+"sounds" "4"
+"target" "BlueCrates"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"model" "*17"
+"lip" "-1"
+"targetname" "BlueCrates"
+"dmg" "500"
+"health" "0"
+"wait" "60"
+"sounds" "0"
+"speed" "1000"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"targetname" "BlueCrates"
+"wait" "60"
+"sounds" "0"
+"speed" "1000"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*19"
+"lip" "-1"
+"wait" "2"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*20"
+"lip" "-1"
+"wait" "2"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*21"
+"target" "BlueUpWater"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "BlueDownWater"
+"angle" "270"
+"origin" "0 -2848 -1280"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*22"
+"lip" "-1"
+"wait" "1"
+"sounds" "1"
+"speed" "600"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"targetname" "BlueDown"
+"angle" "90"
+"origin" "512 -4024 -2048"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*23"
+"lip" "-1"
+"wait" "1"
+"sounds" "1"
+"speed" "600"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"light" "350"
+"origin" "-268 -3664 -2016"
+"classname" "light_torch_small_walltorch"
+}
+{
+"model" "*24"
+"target" "BlueDown"
+"classname" "trigger_teleport"
+}
+{
+"model" "*25"
+"speed" "95"
+"angle" "-1"
+"classname" "trigger_push"
+}
+{
+"classname" "item_tfgoal"
+"delay" "60"
+"owned_by" "1"
+"team_no" "2"
+"pausetime" "60"
+"goal_activation" "1717"
+"goal_no" "1"
+"mdl" "progs/tf_flag.mdl"
+"skin" "1"
+"items" "131072"
+"noise" "misc/medkey.wav"
+"noise4" "The enemy flag was returned to base!\n"
+"noise3" "Your flag was returned to base!\n"
+"netname_non_team_broadcast" " «œ‘ the ¬Ã’≈ flag!\n"
+"netname_team_broadcast" " «œ‘ the ¬Ã’≈ flag!\n"
+"message" "Ÿœ’ «œ‘ ‘»≈ ≈Œ≈ÕŸ ∆Ã¡«°\n“≈‘’“Œ ‘œ ¬¡”≈°\n"
+"netname_team_drop" " Ãœ”‘ the ¬Ã’≈ flag!\n"
+"netname_non_team_drop" " Ãœ”‘ the ¬Ã’≈ flag!\n"
+"non_team_broadcast" "Your flag has been taken!\n"
+"team_broadcast" "Your team has the enemy flag!\n"
+"origin" "128 -2064 -2358"
+}
+{
+"classname" "info_tfgoal"
+"frags" "10"
+"axhitme" "2"
+"team_no" "1"
+"items_allowed" "2"
+"goal_effects" "3"
+"goal_result" "2"
+"goal_activation" "1"
+"count" "10"
+"noise" "doors/meduse.wav"
+"message" "ÄThat's 10 More!Ç\n"
+"netname_broadcast" " √¡–‘’“≈ƒ the “≈ƒ flag!\n"
+"team_broadcast" "Your team captured the flag!\n"
+"non_team_broadcast" "Your flag was captured!\n"
+"origin" "144 -2056 -2352"
+}
+{
+"model" "*26"
+"wait" "15"
+"message" "Hit the Cross to Heal your Team."
+"classname" "trigger_multiple"
+}
+{
+"message" "Your Team Has Been Healed."
+"targetname" "RedMedic"
+"team_no" "2"
+"playerclass" "5"
+"goal_effects" "2"
+"goal_activation" "1"
+"health" "100"
+"origin" "1368 1888 106"
+"classname" "info_tfgoal"
+}
+{
+"model" "*27"
+"health" "1"
+"team_no" "2"
+"playerclass" "5"
+"wait" "60"
+"target" "RedMedic"
+"angle" "0"
+"classname" "func_button"
+}
+{
+"model" "*28"
+"wait" "15"
+"message" "Hit the Hammer to Protect your Team."
+"classname" "trigger_multiple"
+}
+{
+"armorvalue" "100"
+"message" "Your Team Has Been Protected."
+"targetname" "RedEng"
+"team_no" "2"
+"playerclass" "9"
+"goal_effects" "2"
+"goal_activation" "1"
+"origin" "-1368 1808 66"
+"classname" "info_tfgoal"
+}
+{
+"model" "*29"
+"health" "1"
+"team_no" "2"
+"playerclass" "9"
+"wait" "60"
+"target" "RedEng"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "2"
+"origin" "-1632 3360 226"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "2"
+"origin" "-1632 3104 226"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "2"
+"origin" "-1632 3360 66"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "2"
+"origin" "-1632 3104 66"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "2"
+"origin" "-800 3360 226"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "2"
+"origin" "-800 3104 226"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "2"
+"origin" "-800 3360 66"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "2"
+"origin" "-800 3104 66"
+"classname" "info_player_teamspawn"
+}
+{
+"skin" "1"
+"team_no" "2"
+"origin" "-1328 3312 72"
+"wait" "5"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "200"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/Pack.mdl"
+"message" "Fill 'er Up!!"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+}
+{
+"skin" "1"
+"team_no" "2"
+"origin" "-1072 3312 72"
+"wait" "5"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "200"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/Pack.mdl"
+"message" "Fill 'er Up!!"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+}
+{
+"model" "*30"
+"target" "Blue"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "Red"
+"angle" "180"
+"origin" "2136 2496 88"
+"classname" "info_teleport_destination"
+}
+{
+"targetname" "RedTelePort"
+"angle" "0"
+"origin" "1152 2720 64"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*31"
+"playerclass" "9"
+"team_no" "2"
+"lip" "-1"
+"wait" "3"
+"sounds" "1"
+"speed" "358"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*32"
+"playerclass" "5"
+"team_no" "2"
+"lip" "-1"
+"wait" "1"
+"sounds" "1"
+"speed" "600"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*33"
+"team_no" "2"
+"lip" "-1"
+"wait" "3"
+"sounds" "1"
+"speed" "358"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*34"
+"lip" "-1"
+"wait" "1"
+"sounds" "1"
+"speed" "600"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"light" "350"
+"origin" "-692 1856 232"
+"classname" "light"
+}
+{
+"model" "*35"
+"team_no" "2"
+"lip" "-1"
+"wait" "2"
+"sounds" "1"
+"speed" "500"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*36"
+"message" "You can't open this door\nGet a TeamMate.\n"
+"targetname" "RedDetDoor1"
+"wait" "1"
+"sounds" "1"
+"speed" "250"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"target" "RedDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "2"
+"origin" "688 2936 -326"
+"classname" "info_tfgoal"
+}
+{
+"target" "RedDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "2"
+"origin" "688 2992 -326"
+"classname" "info_tfgoal"
+}
+{
+"target" "RedDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "2"
+"origin" "688 2880 -326"
+"classname" "info_tfgoal"
+}
+{
+"target" "RedDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "2"
+"origin" "752 2936 -326"
+"classname" "info_tfgoal"
+}
+{
+"target" "RedDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "2"
+"origin" "752 2992 -326"
+"classname" "info_tfgoal"
+}
+{
+"target" "RedDetDoor1"
+"goal_effects" "16"
+"playerclass" "4"
+"goal_activation" "5"
+"goal_state" "2"
+"owned_by" "2"
+"origin" "752 2880 -326"
+"classname" "info_tfgoal"
+}
+{
+"model" "*37"
+"speed" "95"
+"angle" "-1"
+"classname" "trigger_push"
+}
+{
+"light" "250"
+"origin" "648 1480 -320"
+"classname" "light"
+}
+{
+"light" "250"
+"origin" "648 1480 -128"
+"classname" "light"
+}
+{
+"model" "*38"
+"speed" "95"
+"angle" "-1"
+"classname" "trigger_push"
+}
+{
+"light" "250"
+"origin" "-648 1500 -320"
+"classname" "light"
+}
+{
+"light" "250"
+"origin" "-648 1500 -128"
+"classname" "light"
+}
+{
+"model" "*39"
+"target" "RedDownWater"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "RedUpWater"
+"angle" "-1"
+"origin" "0 2704 -496"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*40"
+"target" "RedTelePort"
+"classname" "trigger_teleport"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "2"
+"origin" "-1632 3808 -158"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "2"
+"origin" "-1632 3552 -158"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "2"
+"origin" "-1632 3808 -318"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "0"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "2"
+"origin" "-1632 3552 -318"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "2"
+"origin" "-800 3808 -158"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "2"
+"origin" "-800 3552 -158"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Quick, Go Help Your Team!!\n"
+"items" ""
+"team_no" "2"
+"origin" "-800 3808 -318"
+"classname" "info_player_teamspawn"
+}
+{
+"angle" "180"
+"goal_activation" "2"
+"message" "Your Team is in\nneed of assitance\n\n"
+"items" ""
+"team_no" "2"
+"origin" "-800 3552 -318"
+"classname" "info_player_teamspawn"
+}
+{
+"skin" "1"
+"team_no" "2"
+"origin" "-1328 3728 -312"
+"wait" "5"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "200"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/Pack.mdl"
+"message" "Fill 'er Up!!"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+}
+{
+"skin" "1"
+"team_no" "2"
+"origin" "-1072 3728 -312"
+"wait" "5"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"ammo_nails" "100"
+"ammo_shells" "100"
+"health" "100"
+"armorvalue" "200"
+"goal_effects" "1"
+"goal_activation" "1"
+"mdl" "progs/Pack.mdl"
+"message" "Fill 'er Up!!"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+}
+{
+"goal_result" "2"
+"owned_by" "2"
+"frags" "5"
+"count" "5"
+"team_no" "1"
+"target" "RedStore"
+"angle" "90"
+"goal_effects" "3"
+"ammo_detpack" "1"
+"team_broadcast" "The Enemies StoreRoom has been Destroyed."
+"non_team_broadcast" "Your StoreRoom has Been Destroyed."
+"message" "You have Destroyed the StoreRoom."
+"goal_activation" "2"
+"origin" "1168 3600 -342"
+"classname" "info_tfgoal"
+}
+{
+"model" "*41"
+"spawnflags" "1"
+"speed" "100"
+"wait" "60"
+"targetname" "RedStore"
+"sounds" "4"
+"target" "RedCrates"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"model" "*42"
+"lip" "-1"
+"targetname" "RedCrates"
+"dmg" "500"
+"health" "0"
+"wait" "60"
+"sounds" "0"
+"speed" "1000"
+"angle" "-2"
+"classname" "func_door"
+}
+{
+"model" "*43"
+"targetname" "RedCrates"
+"wait" "60"
+"sounds" "0"
+"speed" "1000"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*44"
+"lip" "-1"
+"wait" "2"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*45"
+"lip" "-1"
+"wait" "2"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*46"
+"target" "RedUpWater"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "RedDownWater"
+"angle" "90"
+"origin" "0 2720 -1280"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*47"
+"lip" "-1"
+"wait" "1"
+"sounds" "1"
+"speed" "600"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"targetname" "RedDown"
+"angle" "270"
+"origin" "-512 3896 -2048"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*48"
+"lip" "-1"
+"wait" "1"
+"sounds" "1"
+"speed" "600"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"light" "350"
+"origin" "268 3536 -2016"
+"classname" "light_torch_small_walltorch"
+}
+{
+"model" "*49"
+"target" "RedDown"
+"classname" "trigger_teleport"
+}
+{
+"model" "*50"
+"speed" "95"
+"angle" "-1"
+"classname" "trigger_push"
+}
+{
+"classname" "info_tfgoal"
+"frags" "10"
+"axhitme" "1"
+"team_no" "2"
+"items_allowed" "1"
+"goal_effects" "3"
+"goal_result" "2"
+"goal_activation" "1"
+"count" "10"
+"noise" "doors/meduse.wav"
+"message" "ÄThat's 10 More!Ç\n"
+"netname_broadcast" " √¡–‘’“≈ƒ the ¬Ã’≈ flag!\n"
+"team_broadcast" "Your team captured the flag!\n"
+"non_team_broadcast" "Your flag was captured!\n"
+"origin" "-136 1936 -2356"
+}
+{
+"classname" "item_tfgoal"
+"delay" "60"
+"owned_by" "2"
+"team_no" "1"
+"pausetime" "60"
+"goal_activation" "1717"
+"goal_no" "2"
+"mdl" "progs/tf_flag.mdl"
+"skin" "2"
+"items" "262144"
+"noise" "misc/medkey.wav"
+"noise4" "The enemy flag was returned to base!\n"
+"noise3" "Your flag was returned to base!\n"
+"netname_team_broadcast" " «œ‘ the “≈ƒ flag!\n"
+"netname_non_team_broadcast" " «œ‘ the “≈ƒ flag!\n"
+"netname_team_drop" " Ãœ”‘ the “≈ƒ flag!\n"
+"netname_non_team_drop" " Ãœ”‘ the “≈ƒ flag!\n"
+"message" "Ÿœ’ «œ‘ ‘»≈ ≈Œ≈ÕŸ ∆Ã¡«°\n“≈‘’“Œ ‘œ ¬¡”≈°\n"
+"non_team_broadcast" "Your flag has been taken!\n"
+"team_broadcast" "Your team has the enemy flag!\n"
+"origin" "-136 1936 -2358"
+}
+{
+"classname" "info_tfdetect"
+"hook_out" "1"
+"broadcast" "TeamFortress v2.5"
+"team_broadcast" "TeamFortress v2.5\n\n Choose your team \n\nì.. Blue Team\nî.. Red Team \n\n\nô.. Bind Keys\n"
+"non_team_broadcast" "\nÄÅ ¡ıÙËÔÚ ÅÇ\n[CG]DeadPool2\n\nÄÅ ”Â„È·Ï ‘Ë·ÓÎÛ ÅÇ\nServer Testing By Clan Gangrene\n\n"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"team_str_home" "ÄYOUR FLAGÇ ÈÓ ˘ÔıÚ ‚·ÛÂÆ"
+"team_str_moved" "ÄYOUR FLAGÇ Ï˘ÈÓÁ ·ÚÔıÓ‰Æ"
+"team_str_carried" "ÄYOUR FLAGÇ „·ÚÚÈÂ‰ ‚˘"
+"non_team_str_home" "ÄENEMY FLAGÇ ÈÓ ÙËÂÈÚ ‚·ÛÂÆ"
+"non_team_str_moved" "ÄENEMY FLAGÇ Ï˘ÈÓÁ ·ÚÔıÓ‰Æ"
+"non_team_str_carried" "ÄENEMY FLAGÇ „·ÚÚÈÂ‰ ‚˘"
+"origin" "512 104 240"
+}
+{
+"angle" "90"
+"origin" "0 624 177"
+"classname" "info_player_start"
+}
+{
+"angle" "270"
+"origin" "0 -640 160"
+"classname" "info_player_deathmatch"
+}
+{
+"light" "300"
+"origin" "0 -1408 192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 -1792 192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "384 -1984 192"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "32 -2080 192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-384 -2016 192"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "-576 -2272 128"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "-32 -2272 128"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "640 -2240 128"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "608 -2432 128"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "0 -2464 128"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "-512 -2432 128"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "-544 -2656 128"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "0 -2656 128"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "576 -2656 128"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "928 -1984 96"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1248 -1984 96"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-864 -1984 96"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1184 -1984 -32"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-832 -2624 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1184 -2624 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1472 -2848 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1760 -2624 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-2208 -2816 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-2400 -2816 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-2400 -2432 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-2176 -2432 192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "896 -2624 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1184 -2624 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1184 -3040 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "1632 -3360 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "800 -3328 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "1248 -3328 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "1152 -3328 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "1632 -3360 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "768 -3360 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "1184 -3520 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "448 -1472 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "448 -1792 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "672 -1600 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "224 -1600 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-224 -1600 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-672 -1632 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-448 -1472 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-448 -1760 288"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "640 -1984 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-640 -1984 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-576 -1632 -192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-608 -1984 -192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-608 -2368 -192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-608 -2912 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-448 -3104 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-192 -2848 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "0 -3136 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "224 -2848 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "512 -3136 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "608 -2784 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "608 -2400 -192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "608 -1952 -192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "576 -1632 -192"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "0 -2848 -192"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "0 -2816 -576"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "-640 -1632 -128"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "-640 -1632 96"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "640 -1600 96"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "640 -1600 -160"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "640 -1600 -320"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "-640 -1600 -320"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-896 -3072 -320"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-1184 -3072 -320"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-1152 -3264 -320"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-1152 -3520 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "-960 -3904 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "-992 -3552 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "-1312 -3552 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "-1312 -3904 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "-1152 -3680 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "-1152 -3840 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "-1056 -3744 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "-1248 -3744 -320"
+"classname" "light"
+}
+{
+"light" "330"
+"origin" "832 -3072 -320"
+"classname" "light"
+}
+{
+"light" "330"
+"origin" "1024 -3072 -320"
+"classname" "light"
+}
+{
+"light" "330"
+"origin" "1216 -3072 -320"
+"classname" "light"
+}
+{
+"light" "330"
+"origin" "1184 -3424 -320"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "1472 -3776 -320"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "1632 -3808 -320"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "800 -3776 -320"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "1632 -3808 -160"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "800 -3808 -160"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "1184 -3968 -160"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "1184 -3616 -160"
+"classname" "light"
+}
+{
+"light" "360"
+"origin" "672 -3072 -288"
+"classname" "light"
+}
+{
+"light" "360"
+"origin" "-640 -3072 -288"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "0 -2752 -1248"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "0 -2880 -1248"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "0 -3040 -1248"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "0 -3264 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "0 -3456 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "256 -3456 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "576 -3456 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "576 -3968 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "-576 -3968 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "-704 -3744 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "-576 -3456 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "-288 -3456 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "-32 -3584 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "-384 -3616 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "384 -3616 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "320 -3776 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "0 -3776 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-320 -3776 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "0 -4000 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-320 -3968 -1056"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "288 -4000 -1056"
+"classname" "light"
+}
+{
+"light" "333"
+"origin" "224 -3968 -1248"
+"classname" "light"
+}
+{
+"light" "333"
+"origin" "-224 -3968 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-224 -3968 -1504"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-224 -3968 -1792"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-224 -3968 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-224 -3840 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-224 -3648 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-224 -3520 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "512 -3488 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "512 -3648 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "512 -3840 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "512 -3968 -2048"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "512 -3200 -2048"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "160 -3232 -2048"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-224 -3232 -2048"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-320 -2912 -2144"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "576 -2944 -2144"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "576 -2720 -2240"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-352 -2720 -2240"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-352 -2368 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "576 -2400 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "576 -2080 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "96 -2080 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-320 -2048 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-544 -1888 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "800 -1920 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "128 -2624 -2432"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "160 -2976 -2496"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "576 -2400 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "576 -2976 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "-288 -2912 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "-288 -2400 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "128 -3104 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "128 -2368 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "608 -1888 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "-320 -1888 -2560"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 1280 192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 1664 192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-384 1856 192"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-32 1952 192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "384 1888 192"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "576 2144 64"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "32 2144 64"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "-640 2112 64"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "-608 2304 64"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "0 2336 64"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "512 2304 64"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "544 2528 64"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "0 2528 64"
+"classname" "light"
+}
+{
+"light" "325"
+"origin" "-576 2528 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-928 1856 96"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1248 1856 96"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "864 1856 96"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1184 1856 96"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "832 2496 96"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1184 2496 96"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1472 2720 96"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "1760 2496 96"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "2208 2688 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "2400 2688 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "2400 2304 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "2176 2304 192"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-896 2496 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1184 2496 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-1184 2912 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-1632 3232 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-800 3200 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-1248 3200 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-1152 3200 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-1632 3232 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-768 3232 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-1184 3392 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "448 1632 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "448 1312 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "672 1504 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "224 1504 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-224 1504 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-672 1472 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-448 1632 288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-448 1344 288"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "608 1856 -2560"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "672 1856 64"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-672 1856 64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "576 1504 -192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "608 1856 -192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "608 2240 -192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "608 2784 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "448 2976 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "192 2720 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "0 3008 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-224 2720 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-512 3008 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-608 2656 -288"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-608 2272 -192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-608 1824 -192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-576 1504 -192"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "0 2720 -192"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "0 2688 -576"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "640 1504 -128"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "640 1504 96"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "-640 1472 96"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "-640 1472 -160"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "-640 1472 -320"
+"classname" "light"
+}
+{
+"light" "375"
+"origin" "640 1472 -320"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "896 2944 -320"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "1184 2944 -320"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "1152 3136 -320"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "1152 3392 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "960 3776 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "992 3424 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "1312 3424 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "1312 3776 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "1152 3552 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "1152 3712 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "1056 3616 -320"
+"classname" "light"
+}
+{
+"light" "225"
+"origin" "1248 3616 -320"
+"classname" "light"
+}
+{
+"light" "330"
+"origin" "-832 2944 -320"
+"classname" "light"
+}
+{
+"light" "330"
+"origin" "-1024 2944 -320"
+"classname" "light"
+}
+{
+"light" "330"
+"origin" "-1216 2944 -320"
+"classname" "light"
+}
+{
+"light" "330"
+"origin" "-1184 3296 -320"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "-1472 3648 -320"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "-1632 3680 -320"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "-800 3648 -320"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "-1632 3680 -160"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "-800 3680 -160"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "-1184 3840 -160"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "-1184 3488 -160"
+"classname" "light"
+}
+{
+"light" "360"
+"origin" "-672 2944 -288"
+"classname" "light"
+}
+{
+"light" "360"
+"origin" "640 2944 -288"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "0 2624 -1248"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "0 2752 -1248"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "0 2912 -1248"
+"classname" "light"
+}
+{
+"light" "345"
+"origin" "0 3136 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "0 3328 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "-256 3328 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "-576 3328 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "-576 3840 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "576 3840 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "704 3616 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "576 3328 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "288 3328 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "32 3456 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "384 3488 -1248"
+"classname" "light"
+}
+{
+"light" "315"
+"origin" "-384 3488 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-320 3648 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "0 3648 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "320 3648 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "0 3872 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "320 3840 -1056"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-288 3872 -1056"
+"classname" "light"
+}
+{
+"light" "333"
+"origin" "-224 3840 -1248"
+"classname" "light"
+}
+{
+"light" "333"
+"origin" "224 3840 -1248"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "224 3840 -1504"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "224 3840 -1792"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "224 3840 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "224 3712 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "224 3520 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "224 3392 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-512 3360 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-512 3520 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-512 3712 -2048"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-512 3840 -2048"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-512 3072 -2048"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-160 3104 -2048"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "224 3104 -2048"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "320 2784 -2144"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-576 2816 -2144"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-576 2592 -2240"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "352 2592 -2240"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "352 2240 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-576 2272 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-576 1952 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-96 1952 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "320 1920 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "544 1760 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-800 1792 -2304"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-128 2496 -2432"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-160 2848 -2496"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "-576 2272 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "-576 2848 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "288 2784 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "288 2272 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "-128 2976 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "-128 2240 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "-608 1760 -2560"
+"classname" "light"
+}
+{
+"light" "550"
+"origin" "320 1760 -2560"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "448 960 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-448 960 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "0 640 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-448 576 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "448 512 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "128 128 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-256 128 -64"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-448 768 192"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "448 768 192"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-448 -1088 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "448 -1088 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "0 -768 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "448 -704 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-448 -640 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "-128 -256 -64"
+"classname" "light"
+}
+{
+"light" "350"
+"origin" "256 -256 -64"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "448 -896 192"
+"classname" "light"
+}
+{
+"light" "400"
+"origin" "-448 -896 192"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "0 960 128"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "0 -1088 128"
+"classname" "light"
+}

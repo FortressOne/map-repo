@@ -1,0 +1,196 @@
+****            THIS TEXT FILE HAS BEEN UPDATED              ****
+**** This map designed for the TeamFortress v2.5+ quakeC mod ****
+
+Release Date: September 6, 1997
+================================================================
+Title                   : Two Forts: SinTheTiK 1.5
+Filename                : 2fort_SK.bsp
+Authors                 : Gene Jones (SK-Imaginos) <father>
+                        : Gene Jones (SK-realistik) <son>
+   Original Map Design  : John Cook <TeamFortress Software>
+Email Addresses         : real@tyler.net (realistik)
+                          imaginos@tyler.net (Imaginos)
+                          cookj@king.cts.com (Jojie)
+URLs                    : http://maggie.runt.net/users/SKreal/
+                           (realistik's foxhole)
+			  http://www.tyler.net/imaginos/index.htm 
+                           (Clan SinTheTiK's Web of Despair)
+                          http://www.teamfortress.com/
+                           (TeamFortress Software's Website)
+Description             : TeamFortress v2.5+ Capture the Flag style map
+
+Additional Credits to   : -id for making Quake
+                          -TFS for TF of course...
+			  -Ben Morris for WorldCraft
+			  -Imaginos for many innumerable hours of
+                           stress relief and instruction.
+                                           (I'm learning, Pop...)
+			  -The TF Community for keeping this game alive
+                          -John Cook of TFS for all his hard work on
+                           the early versions of Two Forts
+
+Dedications             : -This map is dedicated to the memory of
+                           Brad Gentry, a founding member of Clan
+                           SinTheTiK, and a good friend. We miss
+                           SK-s0uNd_mAn dearly. 
+                          -This map is also dedicated to everyone
+                           who has a love-hate relationship with
+                           2fort4.bsp. (BY John Cook) :)
+================================================================
+
+* Play Information *
+
+This map does not work properly without the TeamFortress v2.5 or 
+higher QuakeC patch, which can be downloaded from 
+http://www.planetquake.com/teamfortress or from ftp.cdrom.com
+
+TeamFortress		: Yes, up to 32 players supported for QW
+Single Player           : Nothing to kill, no guns
+Cooperative             : No
+Deathmatch (2-16)       : No
+Difficulty Settings     : No
+New Sounds              : No
+New Models              : No
+New Textures            : A few
+New Music               : No
+Demos Replaced          : None
+AutoTeam		: No
+Hook			: No
+
+* Construction *
+
+Base                    : Imaginos started off by rebuilding 2fort23.map
+                          (BY John Cook) when my 2fortSK was taking too
+                          long to VIS (I let it run for 2 days at level 4
+                          before I stopped it, then another 1.5 days with
+                          just regular VIS...I needed my computer)
+                          Most of the stuff from 2fort23.map (BY John Cook)
+                          was scrapped and replaced. Then it was handed to 
+                          me and I finished it off and did some texturing
+                          and lighting. I also designed the resupplies, 
+                          which I'll be releasing for Worldcraft pretty 
+                          soon. I did all the TF ent stuff.
+
+Editor(s) used          : WorldCraft
+                          UltraEdit-32 4.40
+                          QBSP
+                          Light (Arghlite crashed on me at the last moment)
+                          rVIS 1.0
+
+Known Bugs              : None. There was 1 bug reported, and a few small
+                          things that people wanted changed which I agreed
+                          with. The bug was fixed, changes were made, and
+                          this map is now 100% ready for QuakeWorld. Serve 
+                          it up, y'all! :)
+                        
+                          There were bugs reported about respawn points 
+                          and players being stuck. I quickly found, after
+                          running the map on a QW server, that the problem
+                          was because the teamspawn points in the upper red
+                          resupply were too close to the ceiling. 
+                           --FIXED
+
+                          I also received a few messages about people not
+                          liking the elevator from the ramp room to the 
+                          basement. I didn't build that elevator, so I just
+                          scrapped it and redid it. People should be happier
+                          with it now.
+                           --FIXED
+
+                          A few areas were deemed too dark. The main was the
+                          quicktrip elevator in the blue lobby. You couldn't
+                          see it because it was so dark. I put lights in it
+                          to match the lights in the red one. Also, I put 
+                          lights in the "duck-ins" in the flag rooms.
+                           --FIXED
+
+Build Time              : About 2.5 weeks
+                   QBSP : <5 minutes
+           light -extra : 1084 secs
+          rVIS -level 4 : 152 secs
+
+* Other Info *
+Description: 
+
+Well, I've been working on this one for a while. I love 2fort4.bsp (BY John 
+Cook), but it DOES have some problems. Mostly I just didn't like the way it
+LOOKED. The textures didn't bring it to life enough for me, so I decided to
+build my own version. 
+
+There was no way I was gonna get my hands on 2fort4.map to play with, because
+I didn't know Network had it on his page so I could plagarize a LATER version
+of John Cook's work instead. The whole point to begin with was I wanted to
+build the stuff that was in 2fort4.bsp (by John Cook) myself instead of just 
+fixing up 2fort4, which I've already done via a new .ent file (Original ents
+by John Cook, I'm pretty sure) So I dug around on my old floppies and found a
+copy of tfmaps.zip, which I believe was released to the public domain by TFS, 
+there's no text file with it, which contained fastflag.map, 2fort23.map, 
+havoc.map, storm1.map and deathx3.map. I set to work retexturing 2fort23.map
+immediately, and in a couple of days, with a little reconstruction in some 
+places, I had a GOOD looking 2fort23. That wasn't enough...there were no 
+elevators from the basement, no direct ramp in the ramp room...lots of little
+things missing. I rebuilt EVERYTHING that was missing, including adding in 
+the upper respawn from 2fort_32.bsp. (By Network and TyR, based on Two Forts 
+by John Cook)
+
+I was finally done. All the entities were working right, the lights looked
+good, and the textures were beautiful. Now all I had to do was run:
+LIGHT -extra 2fortSK.bsp
+VIS -level 4 2fortSK.bsp
+...
+Sure...right. No problem, right? Wrong. Light took 2 hours. No problem, I'd
+expected at LEAST that. VIS on the other hand...I let it run for 7 hours 
+before I had to shut down and take my system home. Then I started it again.
+It ran another 8 hours before a power outage. Then another 40 minutes before
+ANOTHER power outage. Then I got drunk. Early the next morning, I started it
+AGAIN. This time, I let it run over 2 days before I finally needed my system
+more than I needed this level VIS'd. After I'd updated my website, checked 
+all my email, and played a quick couple levels of TF, I started regular VIS
+with no -level ANYTHING. I let that run over 36 hours before I finally just
+gave up. We had a LAN game and I wasn't cancelling for that. Depression set 
+in...
+
+A couple days later, while talking to my dad (SK-Imaginos), he mentioned 
+that he'd spent the weekend rebuilding 2for23.map (by John Cook) with big
+brushes, so it would compile. I begged him EMAIL IT!! So he did, he had to 
+go back to work the next day, so he told me to have my way with it. I loaded
+it up and played it. It looked great, so I started looking for problems...I 
+found some. 
+
+<shortening of story...hehe>
+
+I fixed the problems, added what was missing, designed a new resupply room
+system to cut down on the entity count, and polished it off. Then I compiled
+it. Then we played it. :) Now you can play it too!
+
+
+How to use this map:
+
+Unpack 2fortSK.bsp to your quake\fortress\maps directory. If you want to run
+it on a LAN server or just take a peek at it, load quake with -game fortress
+and type MAP 2fortSK in the console to load it. 
+
+If you want to play on a QW server running this map, copy the 2fortSK.bsp
+file into your quake\fortress\maps directory.
+
+* COPYRIGHT NOTICES and PERMISSIONS *
+
+Donate to TeamFortress Software:
+http://www.teamfortress.com/register.html
+
+Don't charge anybody for this map in any way.
+
+Understand that according to who you ask, you might be told that we didn't
+do ANY real work on this map, it was all already done and we just put our
+names on it and zipped it up. Everyone's still entitled to their own opinion
+as far as I'm concerned. God Bless America...
+
+Feel free to link this file for download on your website or FTP site, run it
+on any public (or private) Quake or QuakeWorld server. If you run this map on
+a public (especially QW) server, please email me and let me know, I'd like to
+come play it. :)
+
+You may NOT put this level on any commercial CD or diskette set without my 
+EXPRESS WRITTEN PERMISSION. If I find out you've done it, I'll come hunt you
+down and do very evil things to parts of your body you may have up until then
+thought safe from harm. 

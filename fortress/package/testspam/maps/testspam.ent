@@ -1,0 +1,220 @@
+{
+"message" "-Spam Forts!-"
+"light" "300"
+"wad" "c:\quake\id1\textures\alltxt.wad"
+"worldtype" "0"
+"classname" "worldspawn"
+}
+{
+"ammo_detpack" "5"
+"no_grenades_2" "5"
+"no_grenades_1" "5"
+"ammo_nails" "50"
+"ammo_shells" "30"
+"netname" "The Spam"
+"classname" "i_t_t"
+"origin" "260 -436 816"
+"wait" "1"
+"ammo_medikit" "6"
+"goal_no" "2"
+"search_time" "5"
+"if_goal_is_inactive" "2"
+"t_length" "9999"
+"ammo_cells" "30"
+"ammo_rockets" "10"
+}
+{
+"classname" "light"
+"origin" "384 -108 658"
+"light" "500"
+"_color" ".0 .5 .8"
+}
+{
+"_color" ".0 .5 .8"
+"light" "500"
+"origin" "164 -108 660"
+"classname" "light"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "296 -200 824"
+"angle" "270"
+"team_no" "1"
+}
+{
+"team_no" "2"
+"angle" "90"
+"origin" "280 -1400 312"
+"classname" "info_player_teamspawn"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "270"
+"targetname" "d2"
+"speed" "200"
+"wait" "1"
+"sounds" "2"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"spawnflags" "4"
+"angle" "90"
+"targetname" "d2"
+"speed" "200"
+"wait" "1"
+"sounds" "2"
+"model" "*2"
+}
+{
+"team_no" "1"
+"classname" "info_tfgoal"
+"origin" "-24 -88 750"
+"g_a" "1"
+"target" "d2"
+}
+{
+"team_no" "1"
+"target" "d2"
+"g_a" "1"
+"origin" "-118 -88 748"
+"classname" "info_tfgoal"
+}
+{
+"team_no" "1"
+"classname" "info_tfgoal"
+"origin" "610 -88 748"
+"g_a" "1"
+"target" "d1"
+}
+{
+"team_no" "1"
+"target" "d1"
+"g_a" "1"
+"origin" "704 -88 750"
+"classname" "info_tfgoal"
+}
+{
+"sounds" "2"
+"wait" "1"
+"speed" "200"
+"targetname" "d1"
+"angle" "90"
+"spawnflags" "4"
+"classname" "func_door"
+"model" "*3"
+}
+{
+"sounds" "2"
+"wait" "1"
+"speed" "200"
+"targetname" "d1"
+"angle" "270"
+"spawnflags" "4"
+"classname" "func_door"
+"model" "*4"
+}
+{
+"health" "1"
+"classname" "func_glass"
+"model" "*5"
+}
+{
+"health" "1"
+"classname" "func_glass"
+"model" "*6"
+}
+{
+"health" "1"
+"classname" "func_glass"
+"model" "*7"
+}
+{
+"classname" "info_player_start"
+"origin" "240 -120 792"
+}
+{
+"classname" "info_tfdetect"
+"origin" "472 -216 812"
+"impulse" "64"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "252 -8 276"
+"angle" "270"
+"spawnflags" "4"
+"targetname" "bluemissle"
+"deathtype" " got blown up by blue base.\n"
+}
+{
+"classname" "trap_spikeshooter"
+"origin" "308 -8 276"
+"angle" "270"
+"spawnflags" "4"
+"targetname" "bluemissle"
+"deathtype" " got blown up by blue base.\n"
+}
+{
+"classname" "func_button"
+"health" "1"
+"lip" "4"
+"target" "bluemissle"
+"angle" "270"
+"message" "Firing Main Cannon!"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"targetname" "bluemissle"
+"speed" "600"
+"wait" "1"
+"model" "*9"
+}
+{
+"classname" "func_door"
+"angle" "360"
+"speed" "600"
+"wait" "1"
+"targetname" "bluemissle"
+"model" "*10"
+}
+{
+"classname" "func_illusionary"
+"model" "*11"
+}
+{
+"classname" "func_plat"
+"model" "*12"
+}
+{
+"classname" "func_door"
+"angle" "360"
+"targetname" "bluesnipe1"
+"speed" "900"
+"wait" "1"
+"model" "*13"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-261 45 456"
+"g_a" "1"
+"target" "bluesnipe1"
+"wait" "3"
+}
+{
+"wait" "1"
+"speed" "900"
+"targetname" "bluesnipe2"
+"angle" "360"
+"classname" "func_door"
+"model" "*14"
+}
+{
+"classname" "info_tfgoal"
+"origin" "853 45 456"
+"g_a" "1"
+"target" "bluesnipe2"
+"wait" "3"
+}

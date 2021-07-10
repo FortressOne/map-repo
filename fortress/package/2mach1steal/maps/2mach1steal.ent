@@ -1,0 +1,238 @@
+{
+"message" "              Two Mach\n            æVºÖ”omeíneÖ\n    Packs fixed by êè”H¡RÀèëêŒHë\n Keepaway modification by: é“ende“Ö\n"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"classname" "i_t_g"
+"origin" "154 -421 300"
+"skin" "1"
+"angle" "70"
+"mdl" "progs/wave.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-612 -421 300"
+"skin" "2"
+"mdl" "progs/wave.mdl"
+"angle" "70"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -192 64"
+"angle" "90"
+}
+{
+"model" "*1"
+"sounds" "2"
+"classname" "func_plat"
+"height" "224"
+}
+{
+"model" "*2"
+"classname" "func_plat"
+"height" "262"
+}
+{
+"g_a" "1"
+"ammo_shells" "999"
+"netname" "Red Backpack"
+"classname" "i_t_g"
+"noise" "weapons/lock4.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"origin" "0 -2024 311"
+"wait" "4"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_nails" "999"
+"ammo_medikit" "999"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "999"
+"ammo_rockets" "999"
+}
+{
+"g_a" "1"
+"ammo_shells" "999"
+"netname" "Blue Backpack"
+"classname" "i_t_g"
+"noise" "weapons/lock4.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"origin" "0 1130 311"
+"wait" "4"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_nails" "999"
+"ammo_medikit" "999"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "999"
+"ammo_rockets" "999"
+}
+{
+"classname" "i_p_t"
+"origin" "-160 1120 320"
+"team_no" "1"
+"angle" "270"
+}
+{
+"classname" "i_p_t"
+"origin" "-64 1120 320"
+"team_no" "1"
+"angle" "270"
+}
+{
+"classname" "i_p_t"
+"origin" "64 1120 320"
+"team_no" "1"
+"angle" "270"
+}
+{
+"classname" "i_p_t"
+"origin" "128 1120 320"
+"team_no" "1"
+"angle" "270"
+}
+{
+"classname" "info_intermission"
+"origin" "64 -320 128"
+"mangle" "0 100 0"
+}
+{
+"model" "*3"
+"sounds" "2"
+"classname" "func_plat"
+"height" "224"
+}
+{
+"model" "*4"
+"classname" "func_plat"
+"height" "262"
+}
+{
+"classname" "i_p_t"
+"origin" "-160 -2016 320"
+"team_no" "2"
+"angle" "90"
+}
+{
+"classname" "i_p_t"
+"origin" "-64 -2016 320"
+"team_no" "2"
+"angle" "90"
+}
+{
+"classname" "i_p_t"
+"origin" "64 -2016 320"
+"team_no" "2"
+"angle" "90"
+}
+{
+"classname" "i_p_t"
+"origin" "128 -2016 320"
+"team_no" "2"
+"angle" "90"
+}
+{
+"model" "*5"
+"classname" "func_plat"
+"height" "220"
+}
+{
+"impulse" "64"
+"b_n" "î2mach1 Keepaway\n ó: Grab the flag and keep it!\n Modified by: é“ende“Ö\n"
+"classname" "info_tfdetect"
+"origin" "0 16 0"
+"hook_out" "1"
+"b_b" "TeamFortress"
+}
+{
+"g_a" "693"
+"netname" "Flag"
+"impulse" "9"
+"message" "You have the flag, don't drop it!\n"
+"d_n_n" " dropped the Flag! \n"
+"classname" "item_tfgoal"
+"origin" "-160 -416 80"
+"noise" "shalrath/attack2.wav"
+"goal_no" "1"
+"activate_goal_no" "6"
+"goal_result" "16"
+"noise4" "The Flag has returned to center!\n"
+"pausetime" "5"
+"mdl" "progs/tf_flag.mdl"
+"angle" "0"
+}
+{
+"items_allowed" "1"
+"netname" "Blue Timer"
+"increase_team1" "1"
+"classname" "i_t_t"
+"noise" "boss2/pop2.wav"
+"origin" "0 16 16"
+"maxammo_shells" "1"
+"b_b" "Blue retains their hold on the flag\n"
+"goal_no" "2"
+"frags" "1"
+"search_time" "30"
+"team_no" "1"
+"angle" "0"
+"group_no" "7"
+"goal_state" "3"
+}
+{
+"items_allowed" "1"
+"netname" "Red Timer"
+"classname" "i_t_t"
+"increase_team2" "1"
+"origin" "0 -16 16"
+"noise" "boss2/pop2.wav"
+"maxammo_shells" "2"
+"b_b" "Red retains their hold on the flag\n"
+"goal_no" "3"
+"search_time" "30"
+"frags" "1"
+"team_no" "2"
+"goal_state" "3"
+"group_no" "7"
+"angle" "0"
+}
+{
+"netname" "Flag Toggle"
+"classname" "i_t_g"
+"b_n" "The enemy has the flag\n"
+"origin" "-32 0 16"
+"b_t" "Your team has the flag\n"
+"restore_goal_no" "3"
+"g_e" "1"
+"remove_goal_no" "2"
+"goal_no" "5"
+"team_no" "2"
+"angle" "0"
+}
+{
+"netname" "Activator"
+"classname" "i_t_g"
+"b_n" "The enemy has the flag\n"
+"origin" "32 0 16"
+"b_t" "Your team has the flag\n"
+"restore_goal_no" "2"
+"g_e" "1"
+"remove_goal_no" "3"
+"else_goal" "5"
+"goal_no" "6"
+"team_no" "1"
+"angle" "0"
+}
+{
+"netname" "Timer Toggle"
+"classname" "i_t_g"
+"origin" "0 0 16"
+"remove_group_no" "7"
+"goal_no" "9"
+"angle" "0"
+}

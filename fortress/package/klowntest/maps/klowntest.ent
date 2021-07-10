@@ -1,0 +1,147 @@
+{
+"_sun_mangle" "130 -60 0"
+"_sunlight" "255"
+"classname" "worldspawn"
+"message" "klowntest"
+"wad" "C:/Games/Quake/TB/games/Quake/Q.wad;C:/Games/Quake/TB/games/Quake/nmtrees.wad"
+}
+{
+"angle" "-0"
+"classname" "info_player_start"
+"origin" "-1560 -0 296"
+}
+{
+"angle" "90"
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+"netname" "Red Spawn 1"
+"origin" "-928 -80 296"
+"team_no" "2"
+}
+{
+"angle" "-90"
+"classname" "info_player_teamspawn"
+"goal_activation" "2"
+"netname" "Red Spawn 2"
+"origin" "-928 80 296"
+"team_no" "2"
+}
+{
+"ammo_cells" "999"
+"ammo_detpack" "1"
+"ammo_nails" "999"
+"ammo_rockets" "999"
+"ammo_shells" "999"
+"angle" "-0"
+"armortype" "0.8"
+"armorvalue" "200"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "redbag1"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "backpack.wav"
+"origin" "-928 -136 309"
+"team_no" "2"
+"wait" "1"
+}
+{
+"angle" "-0"
+"classname" "light"
+"light" "500"
+"origin" "-1160 -40 536"
+}
+{
+"angle" "-0"
+"classname" "light"
+"light" "500"
+"origin" "-1096 -312 536"
+}
+{
+"angle" "-0"
+"classname" "light"
+"light" "200"
+"origin" "-931 122 296"
+}
+{
+"angle" "-0"
+"classname" "light"
+"light" "200"
+"origin" "-928 -104 296"
+}
+{
+"ammo_cells" "999"
+"ammo_detpack" "1"
+"ammo_nails" "999"
+"ammo_rockets" "999"
+"ammo_shells" "999"
+"angle" "-0"
+"armortype" "0.8"
+"armorvalue" "200"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"netname" "redbag2"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"noise" "backpack.wav"
+"origin" "-927 139 309"
+"team_no" "2"
+"wait" "1"
+}
+{
+"angle" "-1"
+"classname" "func_door"
+"model" "*1"
+"sounds" "4"
+"spawnflags" "32"
+"speed" "999"
+"targetname" "detbox"
+}
+{
+"angle" "-0"
+"classname" "info_tfdetect"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"hook_out" "1"
+"impulse" "64"
+"non_team_broadcast" "Steal the other teams flag and return it to your base\n"
+"non_team_str_carried" "Ʈ殹 flag is being carried by"
+"non_team_str_home" "Ʈ殹 flag is at home"
+"non_team_str_moved" "Ʈ殹 flag is down"
+"origin" "-1000 -0 500"
+"team_str_carried" "Your flag is being carried by"
+"team_str_home" "Your flag is at home"
+"team_str_moved" "Your flag is down"
+}
+{
+"angle" "0"
+"classname" "info_tfgoal"
+"goal_activation" "2"
+"origin" "-1263 10 296"
+"target" "detbox"
+"team_no" "1"
+}
+{
+"angle" "-2"
+"classname" "func_door"
+"model" "*2"
+"targetname" "mediumbox"
+}
+{
+"angle" "-1"
+"classname" "func_button"
+"delay" "0"
+"goal_activation" "8"
+"lip" "30"
+"model" "*3"
+"sounds" "1"
+"speed" "100"
+"target" "detbox"
+"team_no" "2"
+}

@@ -1,0 +1,942 @@
+{
+"message" "STA MTF Division sewer1\n Entities by ëé«oldeŒéê\n"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"g_a" "1"
+"classname" "i_t_g"
+"origin" "-3264 -96 -112"
+"playerclass" "4"
+"g_e" "1"
+"ammo_detpack" "-1"
+}
+{
+"g_a" "1"
+"classname" "i_t_g"
+"origin" "96 1600 -112"
+"playerclass" "4"
+"g_e" "1"
+"ammo_detpack" "-1"
+}
+{
+"classname" "i_t_g"
+"origin" "-2913 1593 0"
+"mdl" "progs/dtree.mdl"
+}
+{
+"classname" "i_t_g"
+"origin" "-2136 1676 64"
+"mdl" "progs/dtree.mdl"
+"angle" "135"
+}
+{
+"classname" "i_t_g"
+"origin" "-1028 1557 64"
+"mdl" "progs/dtree.mdl"
+"angle" "270"
+}
+{
+"classname" "i_t_g"
+"origin" "-2336 2694 128"
+"mdl" "progs/dtree.mdl"
+"angle" "35"
+}
+{
+"speed" "100"
+"model" "*1"
+"classname" "func_door"
+"wait" "4"
+"angle" "-2"
+}
+{
+"speed" "100"
+"model" "*2"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"angle" "-1"
+}
+{
+"speed" "100"
+"model" "*3"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"angle" "-1"
+}
+{
+"speed" "100"
+"model" "*4"
+"classname" "func_door"
+"wait" "4"
+"angle" "-2"
+}
+{
+"g_a" "2"
+"owned_by" "1"
+"message" "Their pipe was blown\n"
+"killtarget" "det"
+"classname" "i_t_g"
+"origin" "-1920 -2536 112"
+"wait" "-1"
+"b_t" "Their pipe was blown\n"
+"b_o" "Your pipe was blown\n"
+}
+{
+"model" "*5"
+"classname" "func_wall"
+"targetname" "det"
+}
+{
+"model" "*6"
+"classname" "func_wall"
+"targetname" "blast1"
+}
+{
+"model" "*7"
+"classname" "func_wall"
+"targetname" "blast2"
+}
+{
+"model" "*8"
+"classname" "func_wall"
+"targetname" "blast3"
+}
+{
+"g_a" "2"
+"killtarget" "blast1"
+"classname" "i_t_g"
+"origin" "-1408 -2032 128"
+}
+{
+"classname" "item_armorInv"
+"origin" "-1184 -2304 128"
+}
+{
+"classname" "item_health"
+"origin" "-1200 -2352 128"
+}
+{
+"classname" "item_health"
+"origin" "-1200 -2384 128"
+}
+{
+"spawnflags" "1"
+"classname" "item_spikes"
+"origin" "-1232 -2352 128"
+}
+{
+"spawnflags" "1"
+"classname" "item_rockets"
+"origin" "-1232 -2384 128"
+}
+{
+"spawnflags" "1"
+"classname" "item_shells"
+"origin" "-1232 -2320 128"
+}
+{
+"spawnflags" "1"
+"classname" "item_rockets"
+"origin" "-1232 -2368 128"
+}
+{
+"speed" "100"
+"model" "*9"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"lip" "48"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"speed" "100"
+"model" "*10"
+"classname" "func_door"
+"wait" "4"
+"team_no" "1"
+"angle" "-2"
+}
+{
+"g_a" "2"
+"killtarget" "blast2"
+"classname" "i_t_g"
+"origin" "-1408 -2176 160"
+}
+{
+"g_a" "2"
+"owned_by" "1"
+"message" "Their wall was blown\n"
+"killtarget" "blast3"
+"classname" "i_t_g"
+"origin" "-1408 -2232 160"
+"wait" "-1"
+"b_t" "Their wall was blown\n"
+"b_o" "Your wall was blown\n"
+}
+{
+"classname" "i_p_t"
+"origin" "-2240 -992 160"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-2240 -1120 160"
+"team_no" "1"
+}
+{
+"classname" "info_player_start"
+"origin" "-3072 704 160"
+"angle" "315"
+}
+{
+"g_a" "4789"
+"owned_by" "1"
+"message" "You have their flag.\nTake it home!\n"
+"netname" "Blue Flag"
+"d_n_n" " ‰ÚÔÂ‰ ‚ÏıÂßÛ ÊÏ·ÁÆ\n"
+"classname" "item_tfgoal"
+"origin" "-2368 -3200 -416"
+"n_b" " ÁÔÙ ‚ÏıÂßÛ ÊÏ·ÁÆ\n"
+"noise" "shambler/ssight.wav"
+"d_n_t" " ‰ÚÔÂ‰ ‚ÏıÂßÛ ÊÏ·ÁÆ\n"
+"b_t" "Your team got their flag.\n"
+"b_o" "Your flag was taken.\n"
+"d_t" "The enemy lost your flag.\n"
+"goal_no" "1"
+"noise3" "Your flag returned.\n"
+"items" "131072"
+"delay" "60"
+"noise4" "Their flag returned.\n"
+"team_no" "2"
+"pausetime" "60"
+"skin" "1"
+"mdl" "progs/tf_flag.mdl"
+"d_n" "Your team lost their flag.\n"
+"angle" "135"
+}
+{
+"g_a" "1"
+"target" "capfill"
+"items_allowed" "1"
+"owned_by" "1"
+"netname" "Team 2 Cap"
+"message" "You captured their flag.\n"
+"axhitme" "1"
+"classname" "i_t_g"
+"origin" "-96 2496 364"
+"n_b" " „·ÙıÚÂ‰ ‚ÏıÂßÛ ÊÏ·ÁÆ\n"
+"noise" "items/cap2.wav"
+"b_t" "Your team captured their flag.\n"
+"g_e" "19"
+"b_o" "Your flag was captured.\n"
+"count" "10"
+"frags" "10"
+"mdl" "progs/tpad.mdl"
+}
+{
+"classname" "i_p_t"
+"origin" "-2944 -384 512"
+"team_no" "1"
+"angle" "270"
+}
+{
+"classname" "i_p_t"
+"origin" "-3264 -384 512"
+"team_no" "1"
+"angle" "340"
+}
+{
+"speed" "100"
+"model" "*11"
+"classname" "func_door"
+"wait" "4"
+"angle" "-2"
+}
+{
+"speed" "100"
+"model" "*12"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"angle" "-1"
+}
+{
+"speed" "100"
+"model" "*13"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"angle" "-1"
+}
+{
+"speed" "100"
+"model" "*14"
+"classname" "func_door"
+"wait" "4"
+"angle" "-2"
+}
+{
+"model" "*15"
+"classname" "func_wall"
+"targetname" "ablast1"
+}
+{
+"model" "*16"
+"classname" "func_wall"
+"targetname" "ablast2"
+}
+{
+"model" "*17"
+"classname" "func_wall"
+"targetname" "ablast3"
+}
+{
+"g_a" "2"
+"killtarget" "ablast1"
+"classname" "i_t_g"
+"origin" "2032 3456 128"
+}
+{
+"classname" "item_armorInv"
+"origin" "2304 3680 128"
+}
+{
+"classname" "item_health"
+"origin" "2320 3664 128"
+}
+{
+"classname" "item_health"
+"origin" "2352 3664 128"
+}
+{
+"spawnflags" "1"
+"classname" "item_spikes"
+"origin" "2320 3632 128"
+}
+{
+"spawnflags" "1"
+"classname" "item_rockets"
+"origin" "2384 3632 128"
+"angle" "90"
+}
+{
+"spawnflags" "1"
+"classname" "item_shells"
+"origin" "2288 3632 128"
+}
+{
+"spawnflags" "1"
+"classname" "item_rockets"
+"origin" "2368 3632 128"
+"angle" "90"
+}
+{
+"speed" "32"
+"model" "*18"
+"classname" "trigger_push"
+"style" "32"
+"angle" "270"
+}
+{
+"n_s_c" "≈ÓÂÌ˘ flag is carried by"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"impulse" "64"
+"t_s_h" "Your flag is at base."
+"b_n" "Ö”Â˜ÂÚÖ ... Capture the flag.\n"
+"classname" "info_tfdetect"
+"origin" "-864 1888 256"
+"t_s_c" "Your flag is carried by"
+"n_s_h" "≈ÓÂÌ˘ flag is at base."
+"hook_out" "1"
+"b_t" "Ö”≈˜≈“Ö BY EV”œÕ≈œŒ≈Ö\nÖCHOOSE YOUR TEAMÖ\n\nêë BLUE TEAM\n"
+"n_s_m" "≈ÓÂÌ˘ flag is down."
+"t_s_m" "Your flag is down."
+}
+{
+"speed" "100"
+"model" "*19"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"lip" "48"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"speed" "100"
+"model" "*20"
+"classname" "func_door"
+"wait" "4"
+"team_no" "2"
+"angle" "-2"
+}
+{
+"g_a" "2"
+"killtarget" "ablast2"
+"classname" "i_t_g"
+"origin" "2176 3456 160"
+}
+{
+"g_a" "2"
+"owned_by" "2"
+"message" "Their wall was blown\n"
+"killtarget" "ablast3"
+"classname" "i_t_g"
+"origin" "2232 3456 160"
+"wait" "-1"
+"b_t" "Their wall was blown\n"
+"b_o" "Your wall was blown\n"
+}
+{
+"classname" "i_p_t"
+"origin" "992 2624 160"
+"team_no" "2"
+"angle" "90"
+}
+{
+"classname" "i_p_t"
+"origin" "1120 2624 160"
+"team_no" "2"
+"angle" "90"
+}
+{
+"classname" "i_p_t"
+"origin" "384 1920 512"
+"team_no" "2"
+"angle" "270"
+}
+{
+"classname" "i_p_t"
+"origin" "384 1600 512"
+"team_no" "2"
+"angle" "75"
+}
+{
+"g_a" "1"
+"items_allowed" "2"
+"owned_by" "2"
+"target" "capfill"
+"message" "You captured their flag.\n"
+"netname" "Team 1 Cap"
+"axhitme" "2"
+"classname" "i_t_g"
+"noise" "items/cap1.wav"
+"n_b" " „·ÙıÚÂ‰ ÚÂ‰ßÛ ÊÏ·ÁÆ\n"
+"origin" "-2368 96 364"
+"b_t" "Your team captured their flag.\n"
+"g_e" "19"
+"count" "10"
+"b_o" "Your flag was captured.\n"
+"frags" "10"
+"mdl" "progs/tpad.mdl"
+}
+{
+"g_a" "4789"
+"owned_by" "2"
+"netname" "Red Flag"
+"message" "You have their flag.\nTake it home!\n"
+"d_n_n" " ‰ÚÔÂ‰ ÚÂ‰ßÛ ÊÏ·ÁÆ\n"
+"classname" "item_tfgoal"
+"origin" "3200 2496 -416"
+"noise" "ogre/ogwake.wav"
+"n_b" " ÁÔÙ ÚÂ‰ßÛ ÊÏ·ÁÆ\n"
+"d_n_t" " ‰ÚÔÂ‰ ÚÂ‰ßÛ ÊÏ·ÁÆ\n"
+"b_t" "Your team got their flag.\n"
+"b_o" "Your flag was taken.\n"
+"d_t" "The enemy lost your flag.\n"
+"items" "262144"
+"noise3" "Your flag returned.\n"
+"goal_no" "2"
+"noise4" "Their flag returned.\n"
+"delay" "60"
+"pausetime" "60"
+"team_no" "1"
+"skin" "2"
+"mdl" "progs/tf_flag.mdl"
+"d_n" "Your team lost their flag.\n"
+"angle" "315"
+}
+{
+"g_a" "1"
+"ammo_shells" "500"
+"message" "Refilling...\n"
+"classname" "i_t_g"
+"origin" "-2240 -1056 160"
+"noise" "weapons/lock4.wav"
+"armortype" ".8"
+"no_grenades_1" "2"
+"wait" "4"
+"no_grenades_2" "1"
+"g_e" "1"
+"ammo_nails" "500"
+"armorvalue" "100"
+"health" "50"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "500"
+"ammo_rockets" "500"
+}
+{
+"g_a" "1"
+"ammo_shells" "500"
+"message" "Refilling...\n"
+"classname" "i_t_g"
+"no_grenades_1" "2"
+"origin" "1056 2624 160"
+"noise" "weapons/lock4.wav"
+"armortype" ".8"
+"no_grenades_2" "1"
+"wait" "4"
+"g_e" "1"
+"ammo_nails" "500"
+"armorvalue" "100"
+"health" "50"
+"team_no" "2"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "500"
+"ammo_rockets" "500"
+}
+{
+"classname" "ambient_drip"
+"origin" "3200 2368 -384"
+}
+{
+"classname" "ambient_drip"
+"origin" "-2560 -3200 -384"
+}
+{
+"classname" "ambient_drip"
+"origin" "-1984 -3008 -96"
+}
+{
+"classname" "ambient_drip"
+"origin" "3008 2880 -96"
+}
+{
+"classname" "i_p_t"
+"origin" "992 2816 160"
+"team_no" "2"
+}
+{
+"classname" "i_p_t"
+"origin" "384 1664 512"
+"team_no" "2"
+"angle" "75"
+}
+{
+"classname" "i_p_t"
+"origin" "-2048 -992 160"
+"team_no" "1"
+"angle" "270"
+}
+{
+"classname" "i_p_t"
+"origin" "-3200 -384 512"
+"team_no" "1"
+"angle" "340"
+}
+{
+"classname" "i_p_t"
+"origin" "-2144 -992 160"
+"team_no" "1"
+"angle" "270"
+}
+{
+"classname" "i_p_t"
+"origin" "-3008 -384 512"
+"team_no" "1"
+"angle" "160"
+}
+{
+"classname" "i_p_t"
+"origin" "992 2720 160"
+"team_no" "2"
+}
+{
+"classname" "i_p_t"
+"origin" "384 1856 512"
+"team_no" "2"
+"angle" "240"
+}
+{
+"speed" "24"
+"model" "*21"
+"classname" "trigger_push"
+"style" "32"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"speed" "24"
+"model" "*22"
+"classname" "trigger_push"
+"style" "32"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"classname" "info_intermission"
+"origin" "-3008 -2016 64"
+"mangle" "-15 0 0"
+}
+{
+"speed" "32"
+"model" "*23"
+"classname" "trigger_push"
+"style" "32"
+"angle" "180"
+}
+{
+"g_a" "2"
+"owned_by" "2"
+"message" "Their pipe was blown\n"
+"killtarget" "adet"
+"classname" "i_t_g"
+"origin" "2536 2944 112"
+"wait" "-1"
+"b_t" "Their pipe was blown\n"
+"b_o" "Your pipe was blown\n"
+}
+{
+"model" "*24"
+"classname" "func_wall"
+"targetname" "adet"
+}
+{
+"spawnflags" "32"
+"speed" "100"
+"model" "*25"
+"sounds" "1"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "256"
+"angle" "180"
+"targetname" "te1"
+}
+{
+"target" "tt1"
+"model" "*26"
+"classname" "trigger_teleport"
+"style" "32"
+"team_no" "2"
+}
+{
+"target" "te1"
+"sounds" "4"
+"classname" "trigger_relay"
+"origin" "-2080 -1472 432"
+"style" "32"
+"delay" "0"
+"targetname" "tt1"
+"angle" "180"
+}
+{
+"spawnflags" "32"
+"speed" "400"
+"model" "*27"
+"sounds" "3"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "256"
+"lip" "64"
+"angle" "-1"
+"targetname" "te1"
+}
+{
+"target" "te1"
+"speed" "100"
+"model" "*28"
+"classname" "func_button"
+"wait" "8"
+"team_no" "2"
+}
+{
+"speed" "100"
+"target" "te2"
+"model" "*29"
+"classname" "func_button"
+"wait" "8"
+"team_no" "1"
+"angle" "90"
+}
+{
+"spawnflags" "32"
+"speed" "400"
+"model" "*30"
+"sounds" "3"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "256"
+"lip" "64"
+"angle" "-1"
+"targetname" "te2"
+}
+{
+"target" "te2"
+"sounds" "4"
+"classname" "trigger_relay"
+"origin" "1472 2768 432"
+"style" "32"
+"delay" "0"
+"targetname" "tt2"
+"angle" "270"
+}
+{
+"spawnflags" "32"
+"speed" "100"
+"model" "*31"
+"sounds" "1"
+"classname" "func_door"
+"wait" "-1"
+"dmg" "256"
+"angle" "90"
+"targetname" "te2"
+}
+{
+"target" "tt2"
+"model" "*32"
+"classname" "trigger_teleport"
+"style" "32"
+"team_no" "1"
+}
+{
+"classname" "i_p_t"
+"origin" "-3904 -192 512"
+"team_no" "1"
+"angle" "345"
+}
+{
+"classname" "i_p_t"
+"origin" "-3904 -448 512"
+"team_no" "1"
+}
+{
+"g_a" "1"
+"ammo_shells" "500"
+"message" "Refilling...\n"
+"classname" "i_t_g"
+"no_grenades_1" "2"
+"origin" "-3904 -320 448"
+"noise" "weapons/lock4.wav"
+"armortype" ".8"
+"no_grenades_2" "1"
+"wait" "4"
+"g_e" "1"
+"ammo_nails" "500"
+"armorvalue" "100"
+"health" "50"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "500"
+"ammo_rockets" "500"
+}
+{
+"classname" "i_p_t"
+"origin" "192 960 512"
+"team_no" "2"
+"angle" "345"
+}
+{
+"classname" "i_p_t"
+"origin" "448 960 512"
+"team_no" "2"
+}
+{
+"g_a" "1"
+"ammo_shells" "500"
+"message" "Refilling...\n"
+"classname" "i_t_g"
+"no_grenades_1" "2"
+"origin" "320 960 448"
+"noise" "weapons/lock4.wav"
+"armortype" ".8"
+"no_grenades_2" "1"
+"wait" "4"
+"g_e" "1"
+"ammo_nails" "500"
+"armorvalue" "100"
+"health" "50"
+"team_no" "2"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "500"
+"ammo_rockets" "500"
+}
+{
+"classname" "i_p_t"
+"origin" "608 3040 424"
+"team_no" "2"
+"angle" "270"
+}
+{
+"classname" "i_p_t"
+"origin" "704 3040 424"
+"team_no" "2"
+"angle" "260"
+}
+{
+"g_a" "1"
+"ammo_shells" "500"
+"message" "Refilling...\n"
+"classname" "i_t_g"
+"no_grenades_1" "2"
+"armortype" ".8"
+"noise" "weapons/lock4.wav"
+"origin" "656 3040 416"
+"no_grenades_2" "1"
+"wait" "4"
+"g_e" "1"
+"ammo_nails" "500"
+"armorvalue" "100"
+"team_no" "2"
+"health" "50"
+"ammo_cells" "500"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "500"
+}
+{
+"model" "*33"
+"classname" "func_door"
+"team_no" "2"
+"angle" "-1"
+}
+{
+"classname" "i_p_t"
+"origin" "-1824 -608 424"
+"team_no" "1"
+"angle" "180"
+}
+{
+"g_a" "1"
+"ammo_shells" "500"
+"message" "Refilling...\n"
+"classname" "i_t_g"
+"origin" "-1824 -656 416"
+"noise" "weapons/lock4.wav"
+"armortype" ".8"
+"no_grenades_1" "2"
+"wait" "4"
+"no_grenades_2" "1"
+"g_e" "1"
+"ammo_nails" "500"
+"armorvalue" "100"
+"health" "50"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "500"
+"ammo_rockets" "500"
+}
+{
+"classname" "i_p_t"
+"origin" "-1824 -704 424"
+"team_no" "1"
+"angle" "170"
+}
+{
+"speed" "100"
+"model" "*34"
+"sounds" "1"
+"classname" "func_door"
+"wait" "4"
+"team_no" "1"
+"angle" "-1"
+}
+{
+"speed" "100"
+"model" "*35"
+"classname" "func_door"
+"wait" "8"
+"dmg" "16"
+"lip" "-32"
+"angle" "-2"
+"targetname" "bar1"
+}
+{
+"classname" "item_armorInv"
+"armorclass" "4"
+"origin" "-3824 -2560 -384"
+}
+{
+"g_a" "2"
+"target" "bar1"
+"classname" "i_t_g"
+"origin" "-3699 -2560 -320"
+}
+{
+"classname" "item_armorInv"
+"armorclass" "4"
+"origin" "2560 1040 -384"
+}
+{
+"speed" "100"
+"model" "*36"
+"classname" "func_door"
+"wait" "8"
+"dmg" "16"
+"lip" "-32"
+"angle" "-2"
+"targetname" "bar2"
+}
+{
+"g_a" "2"
+"target" "bar2"
+"classname" "i_t_g"
+"origin" "2560 1165 -320"
+}
+{
+"speed" "100"
+"target" "bar1"
+"model" "*37"
+"classname" "func_button"
+"wait" "8"
+"angle" "270"
+}
+{
+"target" "bar2"
+"speed" "100"
+"model" "*38"
+"classname" "func_button"
+"wait" "8"
+}
+{
+"g_a" "1"
+"message" "Detpack.\n"
+"classname" "i_t_g"
+"origin" "2635 2775 32"
+"wait" "16"
+"playerclass" "4"
+"g_e" "1"
+"mdl" "progs/detpack.mdl"
+"ammo_detpack" "1"
+}
+{
+"g_a" "1"
+"message" "Detpack.\n"
+"classname" "i_t_g"
+"origin" "-2083 -2638 32"
+"wait" "16"
+"playerclass" "4"
+"g_e" "1"
+"mdl" "progs/detpack.mdl"
+"ammo_detpack" "1"
+}
+{
+"ammo_shells" "200"
+"netname" "CapFill"
+"classname" "i_t_g"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"no_grenades_2" "4"
+"g_e" "1"
+"ammo_nails" "200"
+"ammo_medikit" "100"
+"armorvalue" "300"
+"health" "100"
+"targetname" "capfill"
+"ammo_cells" "200"
+"ammo_rockets" "60"
+"ammo_detpack" "1"
+}

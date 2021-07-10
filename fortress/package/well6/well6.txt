@@ -1,0 +1,115 @@
+**** This map designed for the TeamFortress v2.14 quakeC mod ****
+4/13/97
+================================================================
+Title                   : The Well
+Filename                : well6.zip
+Author                  : Jim Kaufman (Sgt.Thundercok)
+Email Address           : jek19@idt.net
+Description             : TeamFortress v2.14 Quake Map
+
+               Check out the TeamFortress homepage at:
+               http://www.telefragged.com/teamfortress
+================================================================
+* Play Information *
+
+This map does not work properly without the TeamFortress v2.14 QuakeC
+patch, which can be downloaded from http://www.telefragged.com/teamfortress
+or from ftp.cdrom.com
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes
+TeamFortress            : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : Revision of The Well
+Editor(s) used          : Worldcraft Registered , EntEd 
+Known Bugs              : None
+Build Time              : 3 weeks.  The full compile time was about 1.5
+                          hours on a P120 with 40 megs of ram.
+
+Thanks to               :Id, Robin and John of Team Fortress for answering
+                         my questions and fixing the code so the grates could
+                         explode, The Nugget for just being a damn nice guy,
+                         The Toecutter, Captain Action, and Captain Lazer
+                         for playtesting.
+*well6*
+-This version was necessary to get rid of the detpack bug.
+   This was not a well bug but a TF/QW32 bug.
+-Also, the torches are gone so it doesn't crash servers with the new
+   quakeworld (man these things get old).
+
+*well5*
+-Pack in spawn room can't be picked up by other team
+-No grappling hook
+-Lifts in tower room trigger quicker
+-Flag returns to base in half the time
+-Added lift to outside roof
+
+*well3*
+This revision is due to the large quantity of ammo/armor/health boxes
+ I put in the level and the fact that it may be causing players to get
+ dumped.  I have removed all  the boxes and replaced them with a few
+ backpacks that regenerate frequently.  I do not know if this is what
+ is causing the problem, but I was reminded by Captain Action of a Id
+ made map modified for CTF that would dump me whenever I got near an
+ area that a lot of ammo etc. had been placed by the CTF designer.
+
+*Overview*
+This is my re-hashed version of The Well.  It is still called The Well although the
+ well is gone.  Overall the level should play better for 12 to 16 players.  You
+ can now see from fortress to fortress and the well room is gone, replaced by
+ just a wall in the middle of the open area.  The lobby is much smaller, as are
+ the hallways connecting everything.  It is still a large level, in both filesize
+ and area, but I feel it will play much better with smaller numbers.
+
+New features include-
+*Pipe grates that have to be blown by a detpack to
+ gain access to the secret way to the tower room(the server must be running at
+ least TF version 2.14 for the grates to work).
+*A pipe from the other side of the tower rooms stream into the ammo room
+ (enemy team should be very careful).
+*Doors that open and close very quickly to the ammo and spawn rooms.  They will
+ inflict a large amount of damage(certain death).  The ammo and spawn rooms are
+ so well stocked I didn't feel it should be that safe to try and get in.
+*Even more anal retentive lighting and texture placement then before!
+
+* Other Info *
+If you like this level mail the server operators and let them know.
+
+This is a large level.  2 fortresses with a central wall between
+the two.  The flags are in the rooms at the top of the towers and you return
+the flag to the bottom of the tower.
+
+Please use the ammo room for resupply so there will be ammo when your teammates
+respawn in the respawn room.  Also, if your armor is maxed don't keep running
+over armor.
+
+I built this level with the poly count in mind.  I have noticed some TF levels
+get up to 1000 or more and this gets really bogged.  The grappling hook is
+enabled but I built the level so you can still go to all parts of the map
+without it.
+
+The scoring is 10 points for the capturing team and 1 frag per kill.
+There are major base ammo roomsand also some backpacks available to each team
+at both bases.
+
+One nice feature is all the clips I used to keep you from gettin snagged on walls,
+edges etc.  I put a clip wall in the middle of the open space(over the wall) to
+prevent grappling from fortress to fortress.  I did not like doing this but
+someone needs to change the grapple to limit its distance!!!!
+You can still grapple halfway, drop on the wall roof, and run across.
+
+How to use this map:
+Copy the well6.bsp file into your quake\id1\maps or quake\fortress\maps
+directory. Then run quake.
+In the console, type "map well6" (without the quotes)
+
+If you want to play on a QW server running this map, copy the well6.bsp
+file into your quake\qw\maps directory.

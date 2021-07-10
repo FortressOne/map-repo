@@ -1,0 +1,319 @@
+{
+"classname" "worldspawn"
+"wad" "E:\Qoole\work\2fortmrc.wad"
+"sounds" "4"
+"message" "2 Forts. 1 Flag."
+"worldtype" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"netname" "team1_spawn"
+"team_no" "1"
+"origin" "0 -896 144"
+}
+{
+"classname" "info_tfdetect"
+"hook_out" "1"
+"impulse" "4"
+"team_broadcast" "SELECT YOUR TEAM\n*-=========-*\n1- Blue Team\n2-  Red Team\n\n2 Forts, 1 Flag - By MeRCeNaRy[PK]"
+"origin" "0 464 320"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -704 296"
+"angle" "90"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/backpack.mdl"
+"netname" "re-supply_pack"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "300"
+"health" "25"
+"ammo_shells" "100"
+"ammo_nails" "200"
+"ammo_rockets" "60"
+"ammo_cells" "200"
+"ammo_medikit" "50"
+"no_grenades_1" "4"
+"no_grenades_2" "2"
+"goal_activation" "1"
+"message" "Resupplying."
+"wait" "2"
+"origin" "64 -1208 144"
+"team_no" "1"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/backpack.mdl"
+"netname" "re-supply_pack"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "300"
+"health" "25"
+"ammo_shells" "100"
+"ammo_nails" "200"
+"ammo_rockets" "60"
+"ammo_cells" "200"
+"ammo_medikit" "50"
+"no_grenades_1" "4"
+"no_grenades_2" "2"
+"goal_activation" "1"
+"message" "Resupplying..."
+"wait" "2"
+"origin" "-64 -1208 144"
+"team_no" "1"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"model" "*1"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"model" "*2"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "500"
+"model" "*3"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "500"
+"model" "*4"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"netname" "team2_spawn"
+"team_no" "2"
+"origin" "0 1920 144"
+}
+{
+"classname" "info_player_start"
+"origin" "0 1728 296"
+"angle" "270"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/backpack.mdl"
+"netname" "re-supply_pack"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "300"
+"health" "25"
+"ammo_shells" "100"
+"ammo_nails" "200"
+"ammo_rockets" "60"
+"ammo_cells" "200"
+"ammo_medikit" "50"
+"no_grenades_1" "4"
+"no_grenades_2" "2"
+"goal_activation" "1"
+"message" "Resupplying..."
+"wait" "2"
+"origin" "64 2232 160"
+"team_no" "2"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/backpack.mdl"
+"netname" "re-supply_pack"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "300"
+"health" "25"
+"ammo_shells" "100"
+"ammo_nails" "200"
+"ammo_rockets" "60"
+"ammo_cells" "200"
+"ammo_medikit" "50"
+"no_grenades_1" "4"
+"no_grenades_2" "2"
+"goal_activation" "1"
+"message" "Resupplying..."
+"wait" "2"
+"origin" "-64 2232 160"
+"team_no" "2"
+}
+{
+"classname" "item_tfgoal"
+"goal_activation" "693"
+"skin" "3"
+"mdl" "progs/tf_flag.mdl"
+"netname" "theflag"
+"goal_result" "16"
+"pausetime" "10"
+"message" "You have the flag!\n Take it to the underwater chamber!\n"
+"goal_no" "1"
+"goal_effects" "1"
+"delay" "10"
+"items" "131072"
+"origin" "0 512 320"
+"broadcast" "The flag has been taken!"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Flag Capture"
+"goal_activation" "1"
+"items_allowed" "1"
+"axhitme" "1"
+"message" "You have captured the flag!\n"
+"frags" "15"
+"goal_effects" "1"
+"origin" "0 512 -236"
+"broadcast" "The flag has been captured!"
+"count" "10"
+}
+{
+"classname" "light"
+"origin" "-144 -1176 56"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "168 -1176 56"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -1156 164"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -800 164"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-296 -608 164"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "304 -608 164"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "80 -976 56"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-80 -980 56"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -384 56"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 0 56"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 1024 56"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 1408 56"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 1980 56"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "0 2208 56"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "0 1856 156"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "-296 1632 188"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "296 1636 188"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 1024 -52"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "0 -4 -52"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "0 -1056 -132"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "0 2112 -52"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "0 512 -192"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "-360 512 56"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "352 512 56"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "352 -384 56"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "-352 -356 56"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "-352 1376 56"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "352 1376 56"
+"light" "512"
+}
+{
+"classname" "light"
+"origin" "0 512 364"
+"light" "512"
+"style" "7"
+}

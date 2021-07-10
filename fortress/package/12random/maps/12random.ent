@@ -1,0 +1,758 @@
+{
+"classname" "worldspawn"
+"worldtype" "2"
+"message" "[I'm 12] random? vote\n(its small, please download it)"
+}
+{
+"classname" "info_player_start"
+"origin" "-3808 -3584 3680"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "0"
+"hook_out" "1"
+"origin" "-3808 -3776 3792"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "-3280 -3408 3664"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "-3776 -3408 3648"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "-3776 -3776 3648"
+}
+{
+"classname" "light"
+"light" "400"
+"style" "0"
+"origin" "-3280 -3776 3664"
+}
+{
+"classname" "func_train"
+"speed" "50"
+"sounds" "0"
+"dmg" "0"
+"target" "p1"
+"model" "*1"
+}
+{
+"classname" "path_corner"
+"targetname" "p1"
+"target" "p2"
+"origin" "-3328 -3712 3424"
+}
+{
+"classname" "path_corner"
+"targetname" "p2"
+"target" "p1"
+"delay" "2"
+"wait" "2"
+"origin" "-3440 -3696 3424"
+}
+{
+"classname" "func_train"
+"speed" "80"
+"target" "o1"
+"sounds" "0"
+"model" "*2"
+}
+{
+"classname" "path_corner"
+"targetname" "o2"
+"target" "o1"
+"delay" "2"
+"wait" "2"
+"origin" "-3440 -3568 3424"
+}
+{
+"classname" "path_corner"
+"targetname" "o1"
+"target" "o2"
+"delay" "2"
+"wait" "2"
+"origin" "-3344 -3472 3424"
+}
+{
+"classname" "path_corner"
+"targetname" "i2"
+"target" "i1"
+"origin" "-3568 -3696 3424"
+}
+{
+"classname" "func_train"
+"speed" "30"
+"sounds" "0"
+"target" "i1"
+"model" "*3"
+}
+{
+"classname" "path_corner"
+"targetname" "i1"
+"target" "i2"
+"origin" "-3552 -3824 3424"
+}
+{
+"classname" "func_train"
+"speed" "100"
+"target" "u1"
+"dmg" "0"
+"sounds" "0"
+"model" "*4"
+}
+{
+"classname" "path_corner"
+"targetname" "u2"
+"target" "u1"
+"origin" "-3568 -3568 3424"
+}
+{
+"classname" "path_corner"
+"targetname" "u1"
+"target" "u2"
+"origin" "-3600 -3360 3424"
+}
+{
+"classname" "func_train"
+"speed" "20"
+"sounds" "0"
+"target" "y1"
+"model" "*5"
+}
+{
+"classname" "func_train"
+"speed" "900"
+"sounds" "0"
+"target" "t1"
+"delay" "1"
+"wait" "1"
+"model" "*6"
+}
+{
+"classname" "path_corner"
+"targetname" "y2"
+"target" "y1"
+"origin" "-3696 -3568 3424"
+}
+{
+"classname" "path_corner"
+"targetname" "y1"
+"target" "y2"
+"origin" "-3792 -3552 3424"
+}
+{
+"classname" "path_corner"
+"targetname" "t2"
+"target" "t1"
+"origin" "-3696 -3696 3424"
+}
+{
+"classname" "path_corner"
+"targetname" "t1"
+"target" "t2"
+"origin" "-3808 -3808 3424"
+}
+{
+"classname" "trigger_teleport"
+"target" "te1"
+"model" "*7"
+}
+{
+"classname" "trigger_teleport"
+"target" "te7"
+"model" "*8"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "canalzon"
+"model" "*9"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m1"
+"origin" "64 192 128"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"netname_broadcast" " wants to play CanalZone\n"
+"wait" "2"
+"delay" "2"
+"origin" "64 192 64"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "2fort5"
+"model" "*10"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m2"
+"origin" "64 -64 128"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"wait" "2"
+"delay" "2"
+"netname_broadcast" " wants to play 2fort5\n"
+"origin" "64 -64 64"
+}
+{
+"classname" "trigger_teleport"
+"target" "m1"
+"model" "*11"
+}
+{
+"classname" "trigger_teleport"
+"target" "m2"
+"model" "*12"
+}
+{
+"classname" "trigger_teleport"
+"target" "m3"
+"model" "*13"
+}
+{
+"classname" "trigger_teleport"
+"target" "m4"
+"model" "*14"
+}
+{
+"classname" "trigger_teleport"
+"target" "m5"
+"model" "*15"
+}
+{
+"classname" "trigger_teleport"
+"target" "m6"
+"model" "*16"
+}
+{
+"classname" "trigger_teleport"
+"target" "m7"
+"model" "*17"
+}
+{
+"classname" "trigger_teleport"
+"target" "m8"
+"model" "*18"
+}
+{
+"classname" "trigger_teleport"
+"target" "m9"
+"model" "*19"
+}
+{
+"classname" "trigger_teleport"
+"target" "m10"
+"model" "*20"
+}
+{
+"classname" "trigger_teleport"
+"target" "m11"
+"model" "*21"
+}
+{
+"classname" "trigger_teleport"
+"target" "m12"
+"model" "*22"
+}
+{
+"classname" "path_corner"
+"targetname" "xw2"
+"target" "xw1"
+"origin" "-2304 -3840 3328"
+}
+{
+"classname" "path_corner"
+"targetname" "xw1"
+"target" "xw2"
+"origin" "-2304 -2560 3328"
+}
+{
+"classname" "func_train"
+"target" "xw1"
+"speed" "100"
+"model" "*23"
+}
+{
+"classname" "path_corner"
+"targetname" "zq1"
+"target" "zq2"
+"origin" "-2304 -2560 3456"
+}
+{
+"classname" "path_corner"
+"targetname" "zq2"
+"target" "zq1"
+"origin" "-2304 -3840 3456"
+}
+{
+"classname" "func_train"
+"speed" "64"
+"target" "zq1"
+"dmg" "0"
+"model" "*24"
+}
+{
+"classname" "path_corner"
+"targetname" "ce1"
+"target" "ce2"
+"origin" "-2304 -2560 3200"
+}
+{
+"classname" "path_corner"
+"targetname" "ce2"
+"target" "ce1"
+"origin" "-2304 -3840 3200"
+}
+{
+"classname" "func_train"
+"target" "ce1"
+"speed" "150"
+"model" "*25"
+}
+{
+"classname" "path_corner"
+"targetname" "vr1"
+"target" "vr2"
+"origin" "-2304 -2560 3072"
+}
+{
+"classname" "path_corner"
+"targetname" "vr2"
+"target" "vr1"
+"origin" "-2304 -3840 3072"
+}
+{
+"classname" "func_train"
+"target" "vr1"
+"speed" "80"
+"model" "*26"
+}
+{
+"classname" "path_corner"
+"targetname" "bt1"
+"target" "bt2"
+"origin" "-2304 -2560 2944"
+}
+{
+"classname" "path_corner"
+"targetname" "bt2"
+"target" "bt1"
+"origin" "-2304 -3840 2944"
+}
+{
+"classname" "func_train"
+"target" "bt1"
+"speed" "125"
+"model" "*27"
+}
+{
+"classname" "trigger_teleport"
+"target" "te8"
+"model" "*28"
+}
+{
+"classname" "trigger_teleport"
+"target" "te2"
+"model" "*29"
+}
+{
+"classname" "trigger_teleport"
+"target" "te9"
+"model" "*30"
+}
+{
+"classname" "trigger_teleport"
+"target" "te3"
+"model" "*31"
+}
+{
+"classname" "trigger_teleport"
+"target" "te10"
+"model" "*32"
+}
+{
+"classname" "trigger_teleport"
+"target" "te4"
+"model" "*33"
+}
+{
+"classname" "trigger_teleport"
+"target" "te11"
+"model" "*34"
+}
+{
+"classname" "trigger_teleport"
+"target" "te12"
+"model" "*35"
+}
+{
+"classname" "trigger_teleport"
+"target" "te5"
+"model" "*36"
+}
+{
+"classname" "trigger_teleport"
+"target" "te6"
+"model" "*37"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "360"
+"targetname" "te1"
+"origin" "-2112 -3760 3680"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "180"
+"targetname" "te2"
+"origin" "-2112 -3632 3680"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "330"
+"targetname" "te3"
+"origin" "-2112 -3504 3680"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "150"
+"targetname" "te4"
+"origin" "-2112 -3360 3680"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "300"
+"targetname" "te5"
+"origin" "-2112 -3248 3680"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "120"
+"targetname" "te6"
+"origin" "-2112 -3120 3680"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "te7"
+"origin" "-2112 -2976 3680"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "te8"
+"origin" "-2112 -2848 3680"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "240"
+"targetname" "te9"
+"origin" "-2112 -2720 3680"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "60"
+"targetname" "te10"
+"origin" "-2112 -2576 3680"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "210"
+"targetname" "te11"
+"origin" "-2112 -2432 3680"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "30"
+"targetname" "te12"
+"origin" "-2112 -2304 3680"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "street1"
+"model" "*38"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m3"
+"origin" "64 -320 128"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"delay" "2"
+"goal_activation" "1"
+"netname_broadcast" " wants to play street1\n"
+"origin" "64 -320 64"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "2fort4r"
+"model" "*39"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m4"
+"origin" "64 -576 128"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"delay" "2"
+"goal_activation" "1"
+"netname_broadcast" " wants to play 2fort4r\n"
+"origin" "64 -576 64"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "well6"
+"model" "*40"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m5"
+"origin" "64 -832 128"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"delay" "2"
+"goal_activation" "1"
+"netname_broadcast" " wants to play well6\n"
+"origin" "64 -832 64"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "32smooth"
+"model" "*41"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m6"
+"origin" "64 -1088 128"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"delay" "2"
+"goal_activation" "1"
+"netname_broadcast" " wants to play 32smooth\n"
+"origin" "64 -1088 64"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "bam4"
+"model" "*42"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m7"
+"origin" "64 -1344 128"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"delay" "2"
+"goal_activation" "1"
+"netname_broadcast" " wants to play bam4\n"
+"origin" "64 -1344 64"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "2brave1"
+"model" "*43"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m8"
+"origin" "64 -1600 128"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"delay" "2"
+"goal_activation" "1"
+"netname_broadcast" " wants to play 2brave1\n"
+"origin" "64 -1600 64"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "spaz4"
+"model" "*44"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m9"
+"origin" "64 -1856 128"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"delay" "2"
+"goal_activation" "1"
+"netname_broadcast" " wants to play spaz4\n"
+"origin" "64 -1856 64"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "2tech4"
+"model" "*45"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m10"
+"origin" "64 -2112 128"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"delay" "2"
+"goal_activation" "1"
+"netname_broadcast" " wants to play 2tech4\n"
+"origin" "64 -2112 64"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "mbase_tf"
+"model" "*46"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m11"
+"origin" "64 -2368 128"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"delay" "2"
+"goal_activation" "1"
+"netname_broadcast" " wants to play Marks Water Base\n"
+"origin" "64 -2368 64"
+}
+{
+"classname" "trigger_changelevel"
+"spawnflags" "1"
+"map" "civsaw3"
+"model" "*47"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "m12"
+"origin" "64 -2624 128"
+}
+{
+"classname" "info_tfgoal"
+"wait" "2"
+"delay" "2"
+"goal_activation" "1"
+"netname_broadcast" " wants to play civsaw3\n"
+"origin" "64 -2624 64"
+}
+{
+"classname" "trigger_teleport"
+"target" "te1"
+"model" "*48"
+}
+{
+"classname" "trigger_teleport"
+"target" "te2"
+"model" "*49"
+}
+{
+"classname" "trigger_teleport"
+"target" "te3"
+"model" "*50"
+}
+{
+"classname" "trigger_teleport"
+"target" "te4"
+"model" "*51"
+}
+{
+"classname" "trigger_teleport"
+"target" "te5"
+"model" "*52"
+}
+{
+"classname" "trigger_teleport"
+"target" "te6"
+"model" "*53"
+}
+{
+"classname" "trigger_teleport"
+"target" "te7"
+"model" "*54"
+}
+{
+"classname" "trigger_teleport"
+"target" "te8"
+"model" "*55"
+}
+{
+"classname" "trigger_teleport"
+"target" "te9"
+"model" "*56"
+}
+{
+"classname" "trigger_teleport"
+"target" "te10"
+"model" "*57"
+}
+{
+"classname" "trigger_teleport"
+"target" "te11"
+"model" "*58"
+}
+{
+"classname" "trigger_teleport"
+"target" "te12"
+"model" "*59"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "321"
+"team_no" "1"
+"origin" "-3728 -3392 3656"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "51"
+"team_no" "1"
+"origin" "-3744 -3776 3658"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "133"
+"team_no" "1"
+"origin" "-3280 -3776 3658"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "220"
+"team_no" "1"
+"origin" "-3264 -3376 3658"
+}

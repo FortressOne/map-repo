@@ -1,0 +1,537 @@
+{
+"classname" "worldspawn"
+"message" "TF GeoWorld by цwр█дriззt84"
+"sounds" "1"
+"worldtype" "0"
+"light" "50"
+}
+{
+"classname" "i_p_t"
+"netname" "Blue Spawnpoint"
+"message" "Get their flag!\n"
+"team_no" "1"
+"origin" "-64 64 -160"
+}
+{
+"classname" "i_p_t"
+"netname" "Blue Spawnpoint"
+"message" "Get their flag!\n"
+"team_no" "1"
+"origin" "320 64 -160"
+}
+{
+"classname" "i_p_t"
+"netname" "Blue Spawnpoint"
+"message" "Get their flag!\n"
+"team_no" "1"
+"origin" "704 64 -160"
+}
+{
+"classname" "i_p_t"
+"netname" "Red Spawnpoint"
+"message" "Get their flag!\n"
+"team_no" "2"
+"origin" "-64 -1216 -160"
+}
+{
+"classname" "i_p_t"
+"netname" "Red Spawnpoint"
+"message" "Get their flag!\n"
+"team_no" "2"
+"origin" "320 -1215 -160"
+}
+{
+"classname" "i_p_t"
+"message" "Get their flag!\n"
+"netname" "Red Spawnpoint"
+"team_no" "2"
+"origin" "704 -1216 -160"
+}
+{
+"classname" "info_player_start"
+"origin" "320 -576 -64"
+}
+{
+"classname" "info_tfdetect"
+"netname" "TF Detection Entity"
+"impulse" "64"
+"b_n" "A Maze With TF CTF!\n"
+"hook_out" "1"
+"b_t" "--= CHOOSE YOUR TEAM =--\n\n1 : TEAM BLUE\n 2 : TEAM RED\n\n"
+"origin" "308 -584 -56"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"items_allowed" "2"
+"message" "Touchdown! \n"
+"netname" "Blue Capturepoint"
+"axhitme" "2"
+"b_n" "DOH! Your flag has been captured! \n"
+"noise" "misc/secret.wav"
+"b_t" "Your team has capped! \n"
+"g_e" "2"
+"count" "10"
+"frags" "10"
+"team_no" "1"
+"origin" "320 268 -164"
+}
+{
+"classname" "item_tfgoal"
+"g_a" "181"
+"owned_by" "1"
+"netname" "Blue Flag"
+"message" "ыоу гот тхе енемы флаг║\nретурн то басе║\n"
+"d_n_n" "лост the блуе flag!\n"
+"b_n" "Your flag has been taken!\n"
+"noise" "ogre/ogwake.wav"
+"n_b" " гот the блуе flag!\n"
+"d_n_t" "лост the блуе flag!\n"
+"b_t" "Your team has the flag! \n"
+"g_e" "1"
+"goal_no" "1"
+"items" "131072"
+"team_no" "2"
+"pausetime" "75"
+"skin" "1"
+"mdl" "progs/tf_flag.mdl"
+"origin" "308 280 -136"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"items_allowed" "1"
+"netname" "Red Capturepoint"
+"message" "Touchdown! \n"
+"axhitme" "1"
+"b_n" "DOH! The enemy has captured your flag! \n"
+"noise" "misc/secret.wav"
+"b_t" "You have captured the flag! \n"
+"g_e" "2"
+"count" "10"
+"frags" "10"
+"team_no" "2"
+"origin" "320 -1420 -164"
+}
+{
+"classname" "item_tfgoal"
+"g_a" "181"
+"owned_by" "2"
+"netname" "Red Flag"
+"message" "ыоу гот тхе енемы флаг║\nретурн то басе║\n"
+"d_n_n" "лост the ред flag!\n"
+"b_n" "Your flag has been taken!\n"
+"noise" "ogre/ogwake.wav"
+"n_b" " гот the ред flag!\n"
+"d_n_t" "лост the ред flag!\n"
+"b_t" "Your team has the flag! \n"
+"g_e" "1"
+"goal_no" "2"
+"items" "262144"
+"team_no" "1"
+"pausetime" "75"
+"skin" "2"
+"mdl" "progs/tf_flag.mdl"
+"origin" "308 -1456 -136"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "BluePack"
+"message" "GO BLUE!!\n"
+"noise" "items/inv1.wav"
+"no_grenades_1" "5"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_nails" "200"
+"armorvalue" "100"
+"team_no" "1"
+"health" "100"
+"skin" "1"
+"mdl" "progs/geopack1.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"origin" "128 128 -160"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "RedPack"
+"message" "GO RED!!\n"
+"no_grenades_1" "5"
+"noise" "items/inv1.wav"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_nails" "200"
+"armorvalue" "100"
+"team_no" "2"
+"health" "100"
+"skin" "0"
+"mdl" "progs/geopack1.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"origin" "128 -1280 -160"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "BluePack"
+"message" "GO BLUE!!\n"
+"no_grenades_1" "5"
+"noise" "items/inv1.wav"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_nails" "200"
+"armorvalue" "100"
+"team_no" "1"
+"health" "100"
+"skin" "1"
+"mdl" "progs/geopack1.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"origin" "512 128 -160"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"ammo_shells" "200"
+"netname" "RedPack"
+"message" "GO RED!!\n"
+"no_grenades_1" "5"
+"noise" "items/inv1.wav"
+"no_grenades_2" "2"
+"g_e" "1"
+"ammo_nails" "200"
+"armorvalue" "100"
+"team_no" "2"
+"health" "100"
+"skin" "0"
+"mdl" "progs/geopack1.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "50"
+"origin" "512 -1280 -160"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "256 160 -128"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "384 160 -128"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "400 -64 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "240 -64 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "528 -64 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "672 -64 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "112 -64 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-32 -64 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-160 -64 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "800 -64 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "128 160 -96"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "512 160 -96"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "320 336 -128"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "320 -1488 -128"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "384 -1312 -128"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "256 -1312 -128"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "128 -1312 -96"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "512 -1312 -96"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "800 -1088 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "672 -1088 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "528 -1088 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "400 -1088 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "240 -1088 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "112 -1088 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-32 -1088 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-160 -1088 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "320 -768 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "320 -384 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "224 -576 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "416 -576 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "128 -576 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "512 -576 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "320 -512 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "384 -576 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "256 -576 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "320 -640 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "672 -576 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "576 -576 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "64 -576 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-32 -576 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "736 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "640 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "576 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "480 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "448 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "368 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "272 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "192 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "160 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "64 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "0 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-96 -832 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-96 -320 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "0 -320 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "64 -320 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "160 -320 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "272 -320 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "368 -320 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "448 -320 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "480 -320 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "576 -320 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "640 -320 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "736 -320 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "800 -576 96"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "800 -384 96"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "800 -768 96"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-160 -576 96"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-160 -384 96"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-160 -768 96"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "400 -576 32"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "240 -576 32"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "544 -576 16"
+}
+{
+"classname" "light_flame_large_yellow"
+"origin" "96 -576 32"
+}
+{
+"classname" "i_p_t"
+"angle" "180"
+"message" "Get their flag!\n"
+"netname" "Red Spawnpoint"
+"team_no" "2"
+"origin" "768 -768 48"
+}
+{
+"classname" "i_p_t"
+"message" "Get their flag!\n"
+"netname" "Red Spawnpoint"
+"team_no" "2"
+"origin" "-128 -768 48"
+}
+{
+"classname" "i_p_t"
+"netname" "Blue Spawnpoint"
+"message" "Get their flag!\n"
+"team_no" "1"
+"origin" "768 -384 48"
+}
+{
+"classname" "i_p_t"
+"netname" "Blue Spawnpoint"
+"message" "Get their flag!\n"
+"team_no" "1"
+"origin" "-128 -384 48"
+}

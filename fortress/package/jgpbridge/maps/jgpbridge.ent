@@ -1,0 +1,1443 @@
+{
+"message" "\n  JGPbridge v1.1 by Jean-Guy Poulin\n\n  www.altern.org/jgpoulin/JGPbridge\n\n\n            ùûûûûûûûûûûûü\n"
+"wad" "C:\jgpbridge\jgpbridge.wad"
+"classname" "worldspawn"
+}
+{
+"goal_no" "20"
+"items_allowed" "10"
+"axhitme" "10"
+"goal_effects" "1"
+"goal_activation" "1"
+"target" "s"
+"origin" "144 -432 48"
+"classname" "info_tfgoal"
+}
+{
+"light" "300"
+"origin" "0 -401 -8"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 -320 -30"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 -64 -30"
+"classname" "light"
+}
+{
+"wait" "20"
+"message" "Activate bridge..."
+"goal_activation" "1"
+"target" "s"
+"team_no" "1"
+"origin" "144 32 48"
+"classname" "info_tfgoal"
+}
+{
+"light" "300"
+"origin" "216 -352 136"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "204 -84 136"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-180 -52 136"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-196 -336 136"
+"classname" "light"
+}
+{
+"team_no" "0"
+"angle" "210"
+"origin" "-120 -136 -152"
+"classname" "monster_fish"
+}
+{
+"team_no" "0"
+"angle" "330"
+"origin" "-8 -280 -152"
+"classname" "monster_fish"
+}
+{
+"team_no" "0"
+"angle" "270"
+"origin" "152 -104 -152"
+"classname" "monster_fish"
+}
+{
+"angle" "360"
+"targetname" "pont"
+"origin" "0 0 0"
+"classname" "info_rotate"
+}
+{
+"model" "*1"
+"sounds" "2"
+"speed" "16"
+"angles" "0 0 -60"
+"rotate" "0 0 0"
+"target" "pont"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_door"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "25"
+"spawnflags" "4"
+"targetname" "x1"
+"target" "y1"
+"origin" "0 -384 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "23"
+"spawnflags" "4"
+"targetname" "x2"
+"target" "y2"
+"origin" "0 -352 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "21"
+"spawnflags" "4"
+"targetname" "x3"
+"target" "y3"
+"origin" "0 -320 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "19"
+"spawnflags" "4"
+"targetname" "x4"
+"target" "y4"
+"origin" "0 -288 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "17"
+"spawnflags" "4"
+"targetname" "x5"
+"target" "y5"
+"origin" "0 -256 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "15"
+"spawnflags" "4"
+"targetname" "x6"
+"target" "y6"
+"origin" "0 -224 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "13"
+"spawnflags" "4"
+"targetname" "x7"
+"target" "y7"
+"origin" "0 -192 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "11"
+"spawnflags" "4"
+"targetname" "x8"
+"target" "y8"
+"origin" "0 -160 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "9"
+"spawnflags" "4"
+"targetname" "x9"
+"target" "y9"
+"origin" "0 -128 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "7"
+"spawnflags" "4"
+"targetname" "x10"
+"target" "y10"
+"origin" "0 -96 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "5"
+"spawnflags" "4"
+"targetname" "x11"
+"target" "y11"
+"origin" "0 -64 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "3"
+"spawnflags" "4"
+"targetname" "x12"
+"target" "y12"
+"origin" "0 -32 -16"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "1"
+"spawnflags" "4"
+"targetname" "x13"
+"target" "y13"
+"origin" "0 0 -16"
+"classname" "path_rotate"
+}
+{
+"model" "*2"
+"targetname" "p1"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*3"
+"targetname" "p2"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*4"
+"targetname" "p4"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*5"
+"targetname" "p5"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*6"
+"targetname" "p3"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*7"
+"targetname" "p6"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*8"
+"targetname" "p7"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*9"
+"targetname" "p8"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*10"
+"targetname" "p9"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*11"
+"targetname" "p10"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*12"
+"targetname" "p11"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*13"
+"targetname" "p12"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"model" "*14"
+"targetname" "p13"
+"origin" "0 0 0"
+"classname" "func_movewall"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "25"
+"spawnflags" "4"
+"targetname" "y1"
+"target" "x1"
+"origin" "0 -200 328"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "23"
+"spawnflags" "4"
+"targetname" "y2"
+"target" "x2"
+"origin" "0 -184 300"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "21"
+"spawnflags" "4"
+"targetname" "y3"
+"target" "x3"
+"origin" "0 -168 272"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "19"
+"spawnflags" "4"
+"targetname" "y4"
+"target" "x4"
+"origin" "0 -152 244"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "17"
+"spawnflags" "4"
+"targetname" "y5"
+"target" "x5"
+"origin" "0 -136 216"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "15"
+"spawnflags" "4"
+"targetname" "y6"
+"target" "x6"
+"origin" "0 -120 192"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "13"
+"spawnflags" "4"
+"targetname" "y7"
+"target" "x7"
+"origin" "0 -104 164"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "11"
+"spawnflags" "4"
+"targetname" "y8"
+"target" "x8"
+"origin" "0 -88 136"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "9"
+"spawnflags" "4"
+"targetname" "y9"
+"target" "x9"
+"origin" "0 -72 108"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "7"
+"spawnflags" "4"
+"targetname" "y10"
+"target" "x10"
+"origin" "0 -56 80"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "5"
+"spawnflags" "4"
+"targetname" "y11"
+"target" "x11"
+"origin" "0 -40 52"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "3"
+"spawnflags" "4"
+"targetname" "y12"
+"target" "x12"
+"origin" "0 -24 24"
+"classname" "path_rotate"
+}
+{
+"rotate" "0"
+"owned_by" "1"
+"speed" "1"
+"spawnflags" "4"
+"targetname" "y13"
+"target" "x13"
+"origin" "0 0 -8"
+"classname" "path_rotate"
+}
+{
+"model" "*15"
+"path" "x4"
+"speed" "100"
+"target" "p4"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*16"
+"path" "x1"
+"speed" "100"
+"target" "p1"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*17"
+"path" "x2"
+"speed" "100"
+"target" "p2"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*18"
+"path" "x3"
+"speed" "100"
+"target" "p3"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*19"
+"path" "x5"
+"speed" "100"
+"target" "p5"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*20"
+"path" "x6"
+"speed" "100"
+"target" "p6"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*21"
+"path" "x7"
+"speed" "100"
+"target" "p7"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*22"
+"path" "x8"
+"speed" "100"
+"target" "p8"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*23"
+"path" "x9"
+"speed" "100"
+"target" "p9"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*24"
+"path" "x10"
+"speed" "100"
+"target" "p10"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*25"
+"path" "x11"
+"speed" "100"
+"target" "p11"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*26"
+"path" "x12"
+"speed" "100"
+"target" "p12"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*27"
+"path" "x13"
+"speed" "100"
+"target" "p13"
+"targetname" "s"
+"origin" "0 0 0"
+"classname" "func_rotate_train"
+}
+{
+"model" "*28"
+"classname" "func_illusionary"
+}
+{
+"model" "*29"
+"classname" "func_illusionary"
+}
+{
+"model" "*30"
+"classname" "func_illusionary"
+}
+{
+"model" "*31"
+"classname" "func_illusionary"
+}
+{
+"model" "*32"
+"classname" "func_illusionary"
+}
+{
+"origin" "-42 1776 304"
+"classname" "item_armorInv"
+}
+{
+"angle" "90"
+"origin" "-214 1756 304"
+"classname" "item_shells"
+}
+{
+"light" "250"
+"origin" "-226 1728 368"
+"classname" "light_torch_small_walltorch"
+}
+{
+"angle" "90"
+"origin" "-178 1720 304"
+"classname" "item_rockets"
+}
+{
+"angle" "90"
+"origin" "-210 1864 304"
+"classname" "item_health"
+}
+{
+"angle" "90"
+"origin" "-178 1912 304"
+"classname" "item_rockets"
+}
+{
+"light" "250"
+"origin" "-34 1920 368"
+"classname" "light_torch_small_walltorch"
+}
+{
+"model" "*33"
+"classname" "func_illusionary"
+}
+{
+"model" "*34"
+"classname" "func_illusionary"
+}
+{
+"model" "*35"
+"classname" "func_illusionary"
+}
+{
+"angle" "90"
+"origin" "-544 -592 158"
+"classname" "info_player_deathmatch"
+}
+{
+"angle" "90"
+"origin" "-592 -640 158"
+"classname" "info_player_start2"
+}
+{
+"angle" "90"
+"origin" "-496 -640 158"
+"classname" "info_player_start"
+}
+{
+"angle" "90"
+"origin" "-544 -688 158"
+"classname" "info_player_deathmatch"
+}
+{
+"ammo_shells" "0"
+"ammo_nails" "0"
+"ammo_rockets" "0"
+"ammo_cells" "0"
+"ammo_medikit" "0"
+"ammo_detpack" "0"
+"maxammo_medikit" "6"
+"maxammo_detpack" "0"
+"maxammo_shells" "386"
+"maxammo_nails" "-1"
+"maxammo_rockets" "1021"
+"noise1" "Choose your class\n1. Scout   \n3. Soldier \n4. Demoman \n6. Hwguy   \n7. Piro    \n9. Engineer\n"
+"noise3" "Choose your class\n2. Sniper  \n"
+"broadcast" "Mega Team Fortress\n"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"origin" "-544 -640 128"
+"team_broadcast" " «–bridge êÕ≈«¡≠‘∆ë\n\nChoose your team\n\n1.. The Guardians \n2.. The Prisoners \n3.. The Protectors\n"
+"impulse" "0"
+"hook_out" "1"
+"classname" "info_tfdetect"
+}
+{
+"model" "*36"
+"lip" "4"
+"health" "300"
+"wait" "10"
+"sounds" "4"
+"speed" "100"
+"angle" "270"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"non_team_broadcast" "The prisoners got the pass!\nStop them!\nThey will lower the bridge!\n"
+"owners_team_broadcast" "The prisoners got the pass!\nProtect the prisoners who try to escape!\n"
+"netname_team_drop" " ÏÔÛÙ the pass!\n"
+"non_team_drop" "The prisoners ÏÔÛÙ the pass!\n"
+"owned_by" "3"
+"team_no" "2"
+"goal_effects" "1"
+"noise3" "The pass has returned!\n"
+"noise4" "The pass has returned!\n"
+"netname_team_broadcast" " got the pass, i'm coming!\nWait for me at the bridge!\n"
+"message" "You've got the pass!\nUse the pass to lower the bridge!\n"
+"pausetime" "10"
+"goal_activation" "4276"
+"mdl" "progs/b_s_key.mdl"
+"items" "131072"
+"goal_no" "10"
+"netname" "key"
+"origin" "592 -728 12"
+"classname" "item_tfgoal"
+}
+{
+"light" "300"
+"origin" "568 -616 80"
+"classname" "light"
+}
+{
+"model" "*37"
+"wait" "3"
+"armorclass" "0"
+"targetname" "f1"
+"lip" "2"
+"sounds" "4"
+"speed" "200"
+"angle" "-1"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*38"
+"lip" "8"
+"wait" "3"
+"speed" "100"
+"sounds" "1"
+"angle" "90"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*39"
+"classname" "func_illusionary"
+}
+{
+"model" "*40"
+"classname" "func_illusionary"
+}
+{
+"model" "*41"
+"classname" "func_illusionary"
+}
+{
+"model" "*42"
+"lip" "8"
+"wait" "3"
+"speed" "100"
+"sounds" "1"
+"angle" "270"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*43"
+"lip" "8"
+"wait" "3"
+"speed" "100"
+"sounds" "1"
+"angle" "90"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"light" "200"
+"origin" "-112 -952 104"
+"classname" "light_torch_small_walltorch"
+}
+{
+"light" "200"
+"origin" "112 -952 104"
+"classname" "light_torch_small_walltorch"
+}
+{
+"model" "*44"
+"armorclass" "0"
+"targetname" "f2"
+"lip" "2"
+"wait" "2"
+"sounds" "4"
+"speed" "200"
+"angle" "-1"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*45"
+"armorclass" "0"
+"targetname" "f3"
+"lip" "2"
+"wait" "2"
+"sounds" "4"
+"speed" "200"
+"angle" "-1"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*46"
+"armorclass" "0"
+"targetname" "f4"
+"lip" "2"
+"wait" "2"
+"sounds" "4"
+"speed" "200"
+"angle" "-1"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*47"
+"armorclass" "0"
+"targetname" "f5"
+"lip" "2"
+"wait" "2"
+"sounds" "4"
+"speed" "200"
+"angle" "-1"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*48"
+"armorclass" "0"
+"targetname" "f6"
+"lip" "2"
+"wait" "2"
+"sounds" "4"
+"speed" "200"
+"angle" "-1"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*49"
+"armorclass" "0"
+"targetname" "f7"
+"lip" "2"
+"wait" "2"
+"sounds" "4"
+"speed" "200"
+"angle" "-1"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*50"
+"armorclass" "0"
+"targetname" "f8"
+"lip" "2"
+"wait" "2"
+"sounds" "4"
+"speed" "200"
+"angle" "-1"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*51"
+"lip" "8"
+"wait" "3"
+"speed" "100"
+"targetname" "porte"
+"sounds" "1"
+"angle" "0"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"model" "*52"
+"lip" "8"
+"wait" "3"
+"speed" "100"
+"targetname" "porte"
+"sounds" "1"
+"angle" "180"
+"origin" "0 0 0"
+"classname" "func_door"
+}
+{
+"message" "What a chance!!! No the guard. Try to\nescape to you by the well.\n"
+"origin" "352 -1240 104"
+"team_no" "2"
+"netname" "team2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"targetname" "r"
+"angle" "180"
+"origin" "536 -1408 96"
+"classname" "info_teleport_destination"
+}
+{
+"message" "You have a weapon, protect the other\nprisoners who try to escape.\n"
+"origin" "520 -1136 120"
+"team_no" "3"
+"netname" "team3"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"origin" "168 -1224 56"
+"wait" "1"
+"message" "Resupplying...\n"
+"goal_activation" "1"
+"health" "200"
+"goal_effects" "1"
+"noise" "weapons/pkup.wav"
+"mdl" "progs/medpack.mdl"
+"classname" "info_tfgoal"
+}
+{
+"team_no" "3"
+"origin" "-472 -1464 56"
+"wait" "1"
+"message" "Resupplying...\n"
+"goal_activation" "1"
+"no_grenades_2" "1"
+"no_grenades_1" "1"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "50"
+"ammo_nails" "50"
+"ammo_shells" "50"
+"health" "25"
+"armorvalue" "300"
+"armortype" "0.8"
+"goal_effects" "1"
+"noise" "weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"classname" "info_tfgoal"
+}
+{
+"model" "*53"
+"target" "r"
+"targetname" "s"
+"classname" "trigger_teleport"
+}
+{
+"model" "*54"
+"target" "d"
+"classname" "trigger_teleport"
+}
+{
+"goal_effects" "3"
+"frags" "1"
+"goal_activation" "1"
+"target" "s"
+"team_no" "3"
+"origin" "-336 2464 -48"
+"classname" "info_tfgoal"
+}
+{
+"goal_effects" "3"
+"increase_team3" "1"
+"frags" "4"
+"goal_activation" "1"
+"target" "s"
+"team_no" "2"
+"origin" "-336 2464 -48"
+"classname" "info_tfgoal"
+}
+{
+"targetname" "d"
+"angle" "180"
+"origin" "-160 1824 368"
+"classname" "info_teleport_destination"
+}
+{
+"message" "You have a weapon, protect the other\nprisoners who try to escape.\n"
+"origin" "448 -1136 120"
+"team_no" "3"
+"netname" "team3"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"message" "What a chance!!! No the guard. Try to\nescape to you by the well.\n"
+"origin" "464 -1240 104"
+"team_no" "2"
+"netname" "team2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"message" "You have the command to kill all the\nprisoners who try to escape.\n"
+"origin" "-72 1880 376"
+"team_no" "1"
+"netname" "team1"
+"angle" "45"
+"classname" "info_player_teamspawn"
+}
+{
+"message" "You have the command to kill all the\nprisoners who try to escape.\n"
+"origin" "-184 1880 376"
+"team_no" "1"
+"netname" "team1"
+"angle" "135"
+"classname" "info_player_teamspawn"
+}
+{
+"message" "You have the command to kill all the\nprisoners who try to escape.\n"
+"origin" "-72 1768 376"
+"team_no" "1"
+"netname" "team1"
+"angle" "315"
+"classname" "info_player_teamspawn"
+}
+{
+"message" "You have the command to kill all the\nprisoners who try to escape.\n"
+"origin" "-184 1768 376"
+"team_no" "1"
+"netname" "team1"
+"angle" "225"
+"classname" "info_player_teamspawn"
+}
+{
+"light" "300"
+"origin" "-144 -416 76"
+"classname" "light_globe"
+}
+{
+"light" "300"
+"origin" "144 -416 76"
+"classname" "light_globe"
+}
+{
+"light" "300"
+"origin" "-144 16 76"
+"classname" "light_globe"
+}
+{
+"light" "300"
+"origin" "144 16 76"
+"classname" "light_globe"
+}
+{
+"light" "300"
+"origin" "576 -1256 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "464 -1256 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "352 -1256 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "208 -1256 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "464 -1408 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "256 -1408 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 -1344 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-240 -1392 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 -1152 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "128 -1064 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "256 -1064 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "448 -1136 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "520 -1136 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "592 -1136 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-128 -1040 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-320 -1040 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-528 -1040 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-240 -1232 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-400 -1232 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-400 -1392 152"
+"classname" "light"
+}
+{
+"team_no" "3"
+"origin" "-472 -1160 56"
+"wait" "1"
+"message" "Resupplying...\n"
+"goal_activation" "1"
+"no_grenades_2" "1"
+"no_grenades_1" "1"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "50"
+"ammo_nails" "50"
+"ammo_shells" "50"
+"health" "25"
+"armorvalue" "300"
+"armortype" "0.8"
+"goal_effects" "1"
+"noise" "weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"classname" "info_tfgoal"
+}
+{
+"light" "300"
+"origin" "-576 -1168 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-88 -872 152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "88 -872 152"
+"classname" "light"
+}
+{
+"light" "500"
+"origin" "-128 1824 160"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "704 1552 -160"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "704 896 -160"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "704 256 -160"
+"classname" "light"
+}
+{
+"team_no" "0"
+"angle" "210"
+"origin" "32 1880 -136"
+"classname" "monster_fish"
+}
+{
+"team_no" "0"
+"angle" "330"
+"origin" "144 1736 -136"
+"classname" "monster_fish"
+}
+{
+"team_no" "0"
+"angle" "270"
+"origin" "304 1912 -136"
+"classname" "monster_fish"
+}
+{
+"light" "600"
+"origin" "-320 -192 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "320 -192 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "-320 -704 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "320 -704 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "-320 256 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "320 256 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "-320 832 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "320 832 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "-320 1280 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "320 1280 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "-320 1792 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "320 1792 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "-320 2304 448"
+"classname" "light"
+}
+{
+"light" "600"
+"origin" "320 2304 448"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-416 1824 320"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "352 -1064 152"
+"classname" "light"
+}
+{
+"team_no" "1"
+"origin" "-130 1824 344"
+"wait" "1"
+"message" "Resupplying...\n"
+"goal_activation" "1"
+"no_grenades_2" "1"
+"no_grenades_1" "1"
+"ammo_medikit" "50"
+"ammo_cells" "50"
+"ammo_rockets" "50"
+"ammo_nails" "250"
+"ammo_shells" "250"
+"health" "50"
+"armorvalue" "300"
+"armortype" "0.8"
+"goal_effects" "1"
+"noise" "weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"netname" "triggerjaune1"
+"target" "f1"
+"team_no" "3"
+"origin" "-576 -968 80"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"netname" "triggerjaune2"
+"target" "f2"
+"team_no" "3"
+"origin" "-448 -968 80"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"netname" "triggerjaune3"
+"target" "f3"
+"team_no" "3"
+"origin" "-320 -968 80"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"netname" "triggerjaune4"
+"target" "f4"
+"team_no" "3"
+"origin" "-192 -968 80"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"netname" "triggerjaune5"
+"target" "f5"
+"team_no" "3"
+"origin" "192 -968 80"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"netname" "triggerjaune6"
+"target" "f6"
+"team_no" "3"
+"origin" "320 -968 80"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"netname" "triggerjaune7"
+"target" "f7"
+"team_no" "3"
+"origin" "448 -968 80"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"netname" "triggerjaune8"
+"target" "f8"
+"team_no" "3"
+"origin" "576 -968 80"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"netname" "triggerjaune9"
+"target" "porte"
+"team_no" "3"
+"origin" "0 -968 72"
+"classname" "info_tfgoal"
+}
+{
+"goal_activation" "1"
+"netname" "triggerrouge1"
+"target" "porte"
+"team_no" "2"
+"origin" "0 -968 72"
+"classname" "info_tfgoal"
+}
+{
+"message" "You have a weapon, protect the other\nprisoners who try to escape.\n"
+"origin" "592 -1136 120"
+"team_no" "3"
+"netname" "team3"
+"angle" "90"
+"classname" "info_player_teamspawn"
+}
+{
+"message" "What a chance!!! No the guard. Try to\nescape to you by the well.\n"
+"origin" "576 -1240 104"
+"team_no" "2"
+"netname" "team2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"light" "300"
+"origin" "-128 1536 320"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "160 1824 320"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-128 2112 320"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "-208 1744 352"
+"classname" "light"
+}
+{
+"light" "200"
+"origin" "-48 1904 352"
+"classname" "light"
+}
+{
+"model" "*55"
+"origin" "0 0 0"
+"team_no" "1"
+"angle" "-1"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*56"
+"origin" "0 0 0"
+"team_no" "1"
+"angle" "90"
+"speed" "100"
+"classname" "trigger_push"
+}
+{
+"model" "*57"
+"message" "Open the chest and get the pass!\n"
+"team_no" "2"
+"wait" "30"
+"classname" "trigger_multiple"
+}

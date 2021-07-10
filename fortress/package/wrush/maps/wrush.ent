@@ -1,0 +1,201 @@
+{
+"classname" "worldspawn"
+"worldtype" "0"
+"message" "Weenie Rush!! v1.0b By )ohnny Ringo   Thanks to Jako for the idea =^)"
+"sounds" "1"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "500"
+"wait" "2"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"team_no" "1"
+"model" "*1"
+}
+{
+"classname" "light"
+"light" "1000"
+"origin" "204 812 -2040"
+}
+{
+"classname" "trigger_hurt"
+"angle" "114"
+"sounds" "4"
+"dmg" "200"
+"message" "You are not allowed to cross the bridge! That would be cheap! =-) Keep your sentries in the boundries please."
+"style" "32"
+"delay" "2"
+"team_no" "1"
+"model" "*2"
+}
+{
+"classname" "trigger_teleport"
+"target" "win"
+"team_no" "2"
+"broadcast" "The weenies aren't so weeniesh anymore! They made it across!"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"team_no" "2"
+"target" "win"
+"broadcast" "The weenies aren't so weeniesh anymore! They made it across!"
+"model" "*4"
+}
+{
+"classname" "light"
+"light" "5000"
+"style" "0"
+"origin" "216 -52 -1944"
+}
+{
+"classname" "info_player_start"
+"angle" "272"
+"origin" "208 32 -1772"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "5"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"model" "*5"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"netname" "weenie1"
+"origin" "-108 -548 -2020"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"netname" "weenie2"
+"origin" "-20 -552 -2016"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "2"
+"netname" "weenie3"
+"origin" "60 -548 -2020"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "/progs/pack.mdl"
+"netname" "engsup1"
+"goal_activation" "1"
+"team_no" "1"
+"goal_effects" "1"
+"ammo_cells" "200"
+"ammo_shells" "50"
+"ammo_rockets" "20"
+"invisible_finished" "1"
+"message" "Refilling Sentry Components...\n"
+"origin" "296 468 -2064"
+}
+{
+"classname" "info_tfgoal"
+"netname" "engsup2"
+"goal_activation" "1"
+"team_no" "1"
+"goal_effects" "1"
+"ammo_shells" "50"
+"ammo_rockets" "20"
+"ammo_cells" "200"
+"invisible_finished" "1"
+"message" "Refilling sentry componentes...\n"
+"origin" "136 480 -2064"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "win"
+"origin" "416 -608 -1760"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"netname" "def1"
+"origin" "100 812 -2040"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"netname" "def2"
+"origin" "376 800 -2042"
+}
+{
+"classname" "info_tfdetect"
+"netname" "wrush"
+"hook_out" "1"
+"impulse" "66"
+"team_broadcast" "-=:|WELCOME TO WEENIE RUSH!|:=-\n1. -:THE TOUGH GUYS:-\n2. -:THE WEENIES!:-\n"
+"maxammo_shells" "511"
+"maxammo_nails" "-1"
+"ammo_medikit" "2"
+"noise1" "   -=:|Press 9 to play|:=-"
+"origin" "192 -608 -1856"
+}
+{
+"classname" "light"
+"light" "500"
+"origin" "-12 -672 -2040"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "400"
+"sounds" "3"
+"lip" "0"
+"wait" "2"
+"dmg" "0"
+"health" "0"
+"team_no" "1"
+"model" "*6"
+}
+{
+"classname" "info_tfgoal"
+"netname" "weeniewin"
+"goal_activation" "1"
+"team_no" "2"
+"maxammo_shells" "2"
+"goal_effects" "2"
+"frags" "10"
+"health" "50"
+"no_grenades_1" "1"
+"invisible_finished" "5"
+"message" " You made it! Your on your way to not being a weenie anymore!\n"
+"netname_broadcast" " has made it through!\n"
+"origin" "406 -622 -1780"
+}
+{
+"classname" "light"
+"origin" "768 -208 -2048"
+}
+{
+"classname" "light"
+"origin" "672 -96 -2048"
+}
+{
+"classname" "light"
+"origin" "768 -400 -2048"
+}
+{
+"classname" "light"
+"origin" "688 -496 -2048"
+}
+{
+"classname" "trigger_hurt"
+"angle" "114"
+"sounds" "4"
+"dmg" "200"
+"message" "You are not allowed to cross the bridge! That would be cheap! =-) Keep your sentries in the boundries please."
+"style" "32"
+"delay" "2"
+"team_no" "1"
+"model" "*7"
+}

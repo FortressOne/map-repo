@@ -1,0 +1,228 @@
+{
+"message" "Entering THREDLEVEL"
+"wad" "MYWAD.WAD"
+"classname" "worldspawn"
+}
+{
+"classname" "light"
+"origin" "0 -277 -107"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "0 293 -81"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "0 3 -167"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "0 -1117 8"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "0 1203 2"
+"light" "1000"
+}
+{
+"classname" "info_player_start"
+"origin" "1 2 -8"
+}
+{
+"classname" "item_shells"
+"origin" "1 810 -102"
+}
+{
+"classname" "item_shells"
+"origin" "1 -760 -100"
+}
+{
+"classname" "item_cells"
+"origin" "188 957 -90"
+}
+{
+"classname" "item_cells"
+"origin" "-187 960 -90"
+}
+{
+"classname" "item_cells"
+"origin" "-122 -952 -86"
+}
+{
+"classname" "item_cells"
+"origin" "133 -952 -72"
+}
+{
+"classname" "item_rockets"
+"origin" "1 857 36"
+}
+{
+"classname" "item_rockets"
+"origin" "1 1055 47"
+}
+{
+"classname" "item_rockets"
+"origin" "1 -809 34"
+}
+{
+"classname" "item_rockets"
+"origin" "1 -989 35"
+}
+{
+"classname" "item_spikes"
+"origin" "-113 -897 45"
+}
+{
+"classname" "item_spikes"
+"origin" "117 -897 51"
+}
+{
+"classname" "item_spikes"
+"origin" "-113 965 51"
+}
+{
+"classname" "item_spikes"
+"origin" "107 954 51"
+}
+{
+"classname" "info_tfgoal"
+"origin" "0 -1051 -73"
+"netname" "resupply point"
+"message" "You just got a shit load of ammo..\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "25"
+"health" "50"
+"armorvalue" "50"
+"ammo_shells" "50"
+"ammo_rockets" "50"
+"ammo_cells" "50"
+"ammo_nails" "50"
+"ammo_medikit" "NewValue"
+"no_grenades_2" "2"
+"team_no" "1"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-6 1133 -49"
+"netname" "resupply point"
+"message" "You just got a shit load of ammo..\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "25"
+"health" "50"
+"armorvalue" "50"
+"ammo_shells" "50"
+"ammo_rockets" "50"
+"ammo_cells" "50"
+"ammo_nails" "50"
+"ammo_medikit" "NewValue"
+"no_grenades_2" "2"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 -1181 -124"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 -694 -22"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 -791 75"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 -767 -181"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 -1035 100"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 646 -130"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 756 -33"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 1108 -173"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "0 1085 108"
+"team_no" "2"
+}
+{
+"classname" "info_tfdetect"
+"origin" "1 1 1"
+"broadcast" "TeamFortress v1.3"
+}
+{
+"classname" "item_tfgoal"
+"origin" "0 952 224"
+"netname" "team 2 flag"
+"message" "Ok you got the enemy flag\n Now what ya going to do with it?\n You could take it back to you base\n"
+"mdl" "progs/b_s_key.mdl"
+"goal_no" "2"
+"goal_activation" "157"
+"pausetime" "30"
+"team_no" "1"
+"delay" "60"
+}
+{
+"classname" "item_tfgoal"
+"origin" "0 -894 223"
+"netname" "team one flag"
+"message" "Ok you got the enemy flag\n Now what ya going to do with it?\n You could take it back to you base\n"
+"mdl" "progs/b_g_key.mdl"
+"goal_no" "1"
+"goal_activation" "157"
+"pausetime" "30"
+"team_no" "2"
+"delay" "60"
+}
+{
+"classname" "info_tfgoal"
+"origin" "1 965 -192"
+"netname" "team 2 dropoff"
+"broadcast" "Listen team 1 get it together, team 2 has captured you flag\n"
+"message" "HaHaHa\n"
+"count" "2"
+"goal_activation" "1"
+"goal_result" "2"
+"items_allowed" "1"
+"axhitme" "1"
+"team_no" "2"
+}
+{
+"classname" "info_tfgoal"
+"origin" "1 -898 -182"
+"netname" "team one dropoff"
+"broadcast" "Listen team 2 get it together, team 1 has captured you flag\n"
+"message" "HaHaHa\n"
+"count" "2"
+"goal_activation" "1"
+"goal_result" "2"
+"items_allowed" "2"
+"axhitme" "2"
+"team_no" "1"
+}

@@ -1,0 +1,635 @@
+{
+"light" "20"
+"sounds" "1"
+"worldtype" "0"
+"message" "Welcome to KidFort.\nkidfort@fairgame.org"
+"classname" "worldspawn"
+}
+{
+"origin" "128 -296 -32"
+"style" "0"
+"light" "300"
+"angle" "135"
+"classname" "light"
+}
+{
+"origin" "838 -296 -32"
+"style" "0"
+"light" "300"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "-176 -320 -224"
+"team_no" "1"
+"netname" "Player 1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "1136 -336 -224"
+"team_no" "2"
+"netname" "Player 2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "976 128 32"
+"increase_team2" "10"
+"targetname" "team2off"
+"axhitme" "1"
+"owners_team_broadcast" "Your enemys scored a goal.\n"
+"team_broadcast" "Your team scores.\n"
+"message" "Score!\n"
+"owned_by" "2"
+"goal_activation" "1"
+"frags" "10"
+"goal_effects" "3"
+"items_allowed" "1"
+"team_no" "2"
+"netname" "Team 2 Drop Off"
+"delay" "0"
+"classname" "info_tfgoal"
+}
+{
+"origin" "32 112 0"
+"increase_team1" "10"
+"targetname" "team1off"
+"owners_team_broadcast" "Your enemys scored a goal.\n"
+"team_broadcast" "Your team scores.\n"
+"message" "Score!\n"
+"team_no" "1"
+"goal_activation" "1"
+"axhitme" "2"
+"frags" "10"
+"goal_effects" "3"
+"items_allowed" "2"
+"owned_by" "1"
+"netname" "Team 1 Drop Off"
+"delay" "0"
+"classname" "info_tfgoal"
+}
+{
+"origin" "910 -304 -208"
+"non_team_drop" "The Team 2 flag is lying around.\n"
+"team_drop" "Your flag is lying around.\n"
+"noise4" "The Team 2 flag was returned.\n"
+"noise3" "Your flag has been returned.\n"
+"mdl" "progs/b_g_key.mdl"
+"owned_by" "2"
+"goal_no" "2"
+"team_no" "1"
+"goal_result" "0"
+"goal_effects" "1"
+"pausetime" "180"
+"goal_activation" "181"
+"netname_owners_team_broadcast" " has taken your key. Go get um.\n"
+"netname_team_broadcast" " has the enemy key.\n"
+"message" "You have the key. Run, run, run.\n"
+"netname" "team2flag"
+"classname" "item_tfgoal"
+}
+{
+"origin" "496 192 32"
+"non_team_broadcast" "email tinyteam@fairgame.org for help\n"
+"team_str_carried" "Your flag is being carried by"
+"team_str_moved" "Your flag is lying around."
+"team_str_home" "Your flag is home."
+"non_team_str_carried" "Enemy flag is being carried by"
+"non_team_str_moved" "Enemy flag is lying around."
+"non_team_str_home" "Enemy flag is at home."
+"display_item_status2" "2"
+"display_item_status1" "1"
+"team_broadcast" "TINY TEAM TF -- KIDFORT\n\n1 BLUE\n2  RED \n\nWWW.FAIRGAME.ORG\n"
+"impulse" "132"
+"hook_out" "1"
+"classname" "info_tfdetect"
+}
+{
+"origin" "82 -320 -208"
+"angle" "20"
+"classname" "info_player_start"
+}
+{
+"model" "*1"
+"delay" "0"
+"style" "32"
+"target" "team1off"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"delay" "0"
+"style" "32"
+"target" "team2off"
+"classname" "trigger_multiple"
+}
+{
+"origin" "942 -368 32"
+"no_grenades_2" "-4"
+"no_grenades_1" "-4"
+"ammo_detpack" "-1"
+"health" "100"
+"armorvalue" "100"
+"message" "Full Health & Ammo\n"
+"targetname" "fillteam2"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "2"
+"wait" "1"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "40"
+"ammo_cells" "100"
+"ammo_medikit" "200"
+"netname" "Fill Team 2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "942 -336 32"
+"health" "-35"
+"netname_broadcast" " took a wrong turn.\n"
+"message" "Don't go this way.\n"
+"ammo_detpack" "-2"
+"targetname" "stripteam1"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "1"
+"wait" "1"
+"ammo_shells" "-200"
+"ammo_nails" "-200"
+"ammo_rockets" "-100"
+"ammo_cells" "-100"
+"ammo_medikit" "-100"
+"no_grenades_1" "-10"
+"no_grenades_2" "-10"
+"netname" "Strip Team 1"
+"classname" "info_tfgoal"
+}
+{
+"model" "*3"
+"wait" "1"
+"target" "stripteam1"
+"delay" "0"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"model" "*4"
+"wait" "1"
+"target" "stripteam2"
+"delay" "0"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"origin" "16 -336 32"
+"health" "-35"
+"netname_broadcast" " took a wrong turn.\n"
+"message" "Don't go this way.\n"
+"ammo_detpack" "-2"
+"targetname" "stripteam2"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "2"
+"wait" "1"
+"ammo_shells" "-200"
+"ammo_nails" "-200"
+"ammo_rockets" "-100"
+"ammo_cells" "-100"
+"ammo_medikit" "-100"
+"no_grenades_1" "-10"
+"no_grenades_2" "-10"
+"netname" "Strip Team 2"
+"classname" "info_tfgoal"
+}
+{
+"origin" "16 -368 32"
+"no_grenades_2" "-4"
+"no_grenades_1" "-4"
+"ammo_detpack" "-2"
+"message" "Full Health & Ammo.\n"
+"health" "100"
+"armorvalue" "100"
+"targetname" "fillteam1"
+"goal_activation" "1"
+"goal_effects" "1"
+"team_no" "1"
+"wait" "1"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "40"
+"ammo_cells" "100"
+"ammo_medikit" "200"
+"netname" "Fill Team 1"
+"classname" "info_tfgoal"
+}
+{
+"model" "*5"
+"wait" "1"
+"target" "fillteam1"
+"delay" "0"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"model" "*6"
+"wait" "1"
+"target" "fillteam2"
+"delay" "0"
+"style" "32"
+"classname" "trigger_multiple"
+}
+{
+"origin" "1136 -80 -224"
+"team_no" "2"
+"netname" "Player 2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "80 -320 -128"
+"mangle" "-15 20 0"
+"classname" "info_intermission"
+}
+{
+"origin" "96 -32 -80"
+"style" "0"
+"light" "300"
+"angle" "135"
+"classname" "light"
+}
+{
+"origin" "896 -32 -64"
+"style" "0"
+"light" "300"
+"angle" "135"
+"classname" "light"
+}
+{
+"origin" "256 -160 -24"
+"style" "0"
+"light" "300"
+"angle" "215"
+"classname" "light"
+}
+{
+"origin" "768 -160 8"
+"style" "0"
+"light" "300"
+"angle" "315"
+"classname" "light"
+}
+{
+"model" "*7"
+"sounds" "2"
+"team_no" "1"
+"lip" "0"
+"speed" "200"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*8"
+"health" "0"
+"dmg" "0"
+"sounds" "2"
+"team_no" "2"
+"speed" "200"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"origin" "488 -472 -48"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "1136 -176 -224"
+"team_no" "2"
+"netname" "Player 2"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-176 -192 -224"
+"team_no" "1"
+"netname" "Player 1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "-176 -64 -224"
+"team_no" "1"
+"netname" "Player 1"
+"angle" "270"
+"classname" "info_player_teamspawn"
+}
+{
+"origin" "488 -568 16"
+"style" "0"
+"light" "100"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "1136 80 -176"
+"style" "0"
+"light" "170"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "1136 288 -176"
+"style" "0"
+"light" "170"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "1008 304 -304"
+"style" "0"
+"light" "170"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "768 304 -304"
+"style" "0"
+"light" "170"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "208 304 -304"
+"style" "0"
+"light" "170"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "-176 288 -176"
+"style" "0"
+"light" "170"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "-16 304 -304"
+"style" "0"
+"light" "170"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "-176 -464 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "-16 -464 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "224 -464 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "768 -464 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "1136 -48 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "-176 80 -176"
+"style" "0"
+"light" "170"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "48 -306 -174"
+"non_team_drop" "The Team 1 flag is lying around.\n"
+"team_drop" "Your flag is lying around.\n"
+"noise4" "The Team 1 flag was returned.\n"
+"noise3" "Your flag has been returned.\n"
+"mdl" "progs/b_s_key.mdl"
+"netname_owners_team_broadcast" " has taken your key...Go get um.\n"
+"netname_team_broadcast" " has the key\n"
+"message" "You have the key run, run, run.\n"
+"pausetime" "180"
+"goal_effects" "1"
+"team_no" "2"
+"owned_by" "1"
+"goal_no" "1"
+"goal_activation" "181"
+"netname" "team1flag"
+"classname" "item_tfgoal"
+}
+{
+"origin" "832 128 -80"
+"style" "0"
+"light" "240"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "496 128 -32"
+"style" "0"
+"light" "200"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "160 128 -32"
+"style" "0"
+"light" "200"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "160 -128 -32"
+"style" "0"
+"light" "200"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "384 -128 -32"
+"style" "0"
+"light" "200"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "640 -128 -32"
+"style" "0"
+"light" "200"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "960 -464 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "488 -472 -160"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "1136 -256 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "640 -464 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "320 -464 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "32 -464 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "-176 -128 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "976 -128 -160"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "896 -128 -160"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "640 -128 -160"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "384 -128 -160"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "160 -128 -160"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "488 -568 -160"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}
+{
+"origin" "656 128 -24"
+"style" "0"
+"light" "240"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "576 128 -160"
+"style" "0"
+"light" "240"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "448 128 -160"
+"style" "0"
+"light" "240"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "352 128 -80"
+"style" "0"
+"light" "240"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "384 -256 -160"
+"style" "0"
+"light" "240"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "640 -256 -160"
+"style" "0"
+"light" "240"
+"angle" "45"
+"classname" "light"
+}
+{
+"origin" "496 -288 -32"
+"style" "0"
+"light" "300"
+"angle" "135"
+"classname" "light"
+}
+{
+"origin" "-176 -256 -176"
+"style" "0"
+"light" "200"
+"angle" "180"
+"classname" "light"
+}

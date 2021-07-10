@@ -1,0 +1,1103 @@
+{
+"wad" "gfx/QuArK.wad"
+"worldtype" "0"
+"message" "ÖùÄ ÀÏ·Ó ◊·ÚÛ Çüé\n¬˘∫ ë∆¯êú√ñrboŒöïú\n\nFlaginfofix ‚˘ JapesÖëC“ê\nFinal BugFix ‚˘  Â·Ö|RA\n"
+"classname" "worldspawn"
+}
+{
+"spawnflags" "2"
+"origin" "-1600 -736 32"
+"classname" "item_health"
+}
+{
+"armorclass" "0"
+"origin" "-1648 -720 42"
+"classname" "item_armorInv"
+}
+{
+"spawnflags" "2"
+"origin" "1632 112 32"
+"classname" "item_health"
+}
+{
+"origin" "1648 80 32"
+"classname" "item_armorInv"
+}
+{
+"noise" "weapons/pkup.wav"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "ATTACK!\n"
+"team_no" "2"
+"armorvalue" "100"
+"ammo_detpack" "1"
+"ammo_medikit" "100"
+"ammo_cells" "100"
+"ammo_rockets" "20"
+"ammo_nails" "100"
+"ammo_shells" "50"
+"armorclass" "0"
+"health" "100"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"wait" "2"
+"netname" "red resupply 3"
+"mdl" "progs/backpack.mdl"
+"origin" "-624 448 34"
+"classname" "info_tfgoal"
+}
+{
+"model" "*1"
+"target" "blutele"
+"classname" "trigger_teleport"
+}
+{
+"model" "*2"
+"target" "redtele"
+"classname" "trigger_teleport"
+}
+{
+"model" "*3"
+"target" "outsec"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "outsec"
+"angle" "90"
+"origin" "0 -32 32"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*4"
+"lip" "250"
+"height" "250"
+"angle" "180"
+"wait" "180"
+"sounds" "1"
+"targetname" "666"
+"classname" "func_door_secret"
+}
+{
+"origin" "950 -5 200"
+"target" "666"
+"message" "Secret found!\nOpening...!"
+"g_e" "1"
+"g_a" "1"
+"goal_max" "64 16 64"
+"goal_min" "-64 -16 64"
+"classname" "i_t_g"
+}
+{
+"model" "*5"
+"spawnflags" "1"
+"sounds" "1"
+"speed" "100"
+"wait" "1"
+"classname" "func_plat"
+}
+{
+"model" "*6"
+"spawnflags" "1"
+"sounds" "1"
+"speed" "100"
+"wait" "2"
+"classname" "func_plat"
+}
+{
+"super_damage_finished" "60"
+"invincible_finished" "60"
+"invisible_finished" "60"
+"noise" "weapons/pkup.wav"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "Hell Yeah!"
+"armorvalue" "200"
+"ammo_detpack" "4"
+"ammo_medikit" "200"
+"ammo_cells" "200"
+"ammo_rockets" "200"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorclass" "31"
+"health" "200"
+"no_grenades_2" "8"
+"no_grenades_1" "8"
+"wait" "120"
+"netname" "red/blue secret resupply"
+"mdl" "progs/backpack.mdl"
+"origin" "944 -672 226"
+"classname" "info_tfgoal"
+}
+{
+"model" "*7"
+"target" "outsec"
+"classname" "trigger_teleport"
+}
+{
+"model" "*8"
+"wait" "300"
+"message" "You got lucky"
+"classname" "trigger_multiple"
+}
+{
+"targetname" "redsec1"
+"angle" "90"
+"origin" "-880 80 0"
+"classname" "info_teleport_destination"
+}
+{
+"light" "200"
+"origin" "-968 504 48"
+"classname" "light_flame_large_yellow"
+}
+{
+"light" "200"
+"origin" "-792 504 48"
+"classname" "light_flame_large_yellow"
+}
+{
+"mdl" "progs/backpack.mdl"
+"noise" "weapons/pkup.wav"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "Go whip some ass"
+"team_no" "2"
+"armorvalue" "100"
+"ammo_detpack" "1"
+"ammo_medikit" "100"
+"ammo_cells" "100"
+"ammo_rockets" "20"
+"ammo_nails" "100"
+"ammo_shells" "50"
+"armorclass" "0"
+"health" "100"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"wait" "2"
+"netname" "red resupply 2"
+"origin" "-144 1856 34"
+"classname" "info_tfgoal"
+}
+{
+"angle" "360"
+"origin" "1056 544 56"
+"classname" "info_player_start"
+}
+{
+"angle" "276"
+"goal_activation" "0"
+"team_no" "2"
+"origin" "-224 2112 90"
+"classname" "i_p_t"
+}
+{
+"angle" "270"
+"goal_activation" "0"
+"team_no" "2"
+"origin" "0 2112 88"
+"classname" "i_p_t"
+}
+{
+"angle" "264"
+"goal_activation" "0"
+"team_no" "2"
+"origin" "224 2112 90"
+"classname" "i_p_t"
+}
+{
+"angle" "276"
+"goal_activation" "0"
+"team_no" "2"
+"origin" "-224 2062 90"
+"classname" "i_p_t"
+}
+{
+"angle" "270"
+"goal_activation" "0"
+"team_no" "2"
+"origin" "0 2062 88"
+"classname" "i_p_t"
+}
+{
+"angle" "264"
+"goal_activation" "0"
+"team_no" "2"
+"origin" "224 2062 90"
+"classname" "i_p_t"
+}
+{
+"angle" "270"
+"goal_activation" "0"
+"team_no" "2"
+"origin" "112 2112 88"
+"classname" "i_p_t"
+}
+{
+"angle" "264"
+"goal_activation" "0"
+"team_no" "2"
+"origin" "-112 2112 90"
+"classname" "i_p_t"
+}
+{
+"model" "*9"
+"team_no" "2"
+"wait" "1"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*10"
+"team_no" "2"
+"wait" "1"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*11"
+"targetname" "mainred"
+"wait" "2"
+"sounds" "3"
+"speed" "100"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*12"
+"targetname" "mainred"
+"wait" "2"
+"sounds" "3"
+"speed" "100"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"light" "300"
+"origin" "-240 1200 48"
+"classname" "light_flame_small_white"
+}
+{
+"light" "300"
+"origin" "240 1200 48"
+"classname" "light_flame_small_white"
+}
+{
+"targetname" "redtele"
+"angle" "90"
+"origin" "0 1376 16"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*13"
+"target" "mainred"
+"classname" "trigger_multiple"
+}
+{
+"model" "*14"
+"spawnflags" "1"
+"sounds" "1"
+"speed" "100"
+"wait" "1"
+"classname" "func_plat"
+}
+{
+"model" "*15"
+"spawnflags" "1"
+"sounds" "1"
+"speed" "100"
+"wait" "1"
+"classname" "func_plat"
+}
+{
+"model" "*16"
+"target" "redsec1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "redsec2"
+"angle" "270"
+"origin" "0 112 112"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*17"
+"spawnflags" "1"
+"targetname" "redsecdoor"
+"wait" "300"
+"sounds" "4"
+"speed" "50"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*18"
+"wait" "30"
+"message" "\n\n     Conratulations,\n  You founcd my secret!\n\nHere's some goodies for ya..."
+"classname" "trigger_multiple"
+}
+{
+"model" "*19"
+"target" "redsec2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*20"
+"target" "redsecdoor"
+"classname" "trigger_multiple"
+}
+{
+"classname" "item_tfgoal"
+"angle" "270"
+"netname" "Team 2 flag"
+"mdl" "progs/tf_flag.mdl"
+"goal_no" "2"
+"goal_activation" "2741"
+"pausetime" "60"
+"team_no" "1"
+"owned_by" "2"
+"delay" "60"
+"noise" "ogre/ogwake.wav"
+"goal_effects" "17"
+"items" "262144"
+"netname_team_broadcast" " «œ‘ the ≈Œ≈ÕŸ flag!\n"
+"owners_team_broadcast" "\n\n\nYour flag has been ‘¡À≈Œ!\n"
+"team_drop" "the ≈Œ≈ÕŸ ÏÔÛÙ your flag!\n"
+"non_team_drop" "your team ÏÔÛÙ the ≈Œ≈ÕŸ flag!\n"
+"skin" "2"
+"team_broadcast" "\n\n\nYour team has the ≈Œ≈ÕŸ flag!\n"
+"message" "You have the enemy flag!\nReturn it to your battlement!"
+"origin" "-928 2352 336"
+}
+{
+"target" "redsecblock1"
+"classname" "info_tfgoal"
+"netname" "Team 2 dropoff"
+"message" "You √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"count" "10"
+"goal_result" "2"
+"goal_effects" "3"
+"items_allowed" "1"
+"team_no" "2"
+"axhitme" "1"
+"frags" "10"
+"goal_activation" "1"
+"netname_team_broadcast" " √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"owners_team_broadcast" "\n\n\nYour flag was  √¡–‘’“≈ƒ!\n"
+"team_broadcast" "\n\n\nYour team √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"noise" "doors/meduse.wav"
+"origin" "4 892 208"
+}
+{
+"model" "*21"
+"classname" "func_illusionary"
+}
+{
+"model" "*22"
+"team_no" "2"
+"wait" "1"
+"sounds" "1"
+"speed" "600"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"super_damage_finished" "60"
+"invincible_finished" "60"
+"invisible_finished" "60"
+"noise" "weapons/pkup.wav"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "Kick Ass!"
+"armorvalue" "200"
+"ammo_detpack" "4"
+"ammo_medikit" "200"
+"ammo_cells" "200"
+"ammo_rockets" "200"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorclass" "31"
+"health" "200"
+"no_grenades_2" "8"
+"no_grenades_1" "8"
+"wait" "120"
+"netname" "blue secret resupply  "
+"mdl" "progs/backpack.mdl"
+"origin" "-784 288 18"
+"classname" "info_tfgoal"
+}
+{
+"model" "*23"
+"targetname" "flagdoor2"
+"dmg" "0"
+"lip" "16"
+"spawnflags" "4"
+"wait" "7"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"model" "*24"
+"targetname" "flagdoor2"
+"dmg" "0"
+"lip" "16"
+"spawnflags" "4"
+"wait" "7"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"g_e" "1"
+"g_a" "1"
+"target" "trig2"
+"health" "1"
+"delay" "1"
+"wait" "6"
+"origin" "100 1915 430"
+"classname" "info_tfgoal"
+}
+{
+"model" "*25"
+"message" "hurry!"
+"sounds" "1"
+"speed" "100"
+"delay" "0"
+"dmg" "0"
+"lip" "32"
+"spawnflags" "6"
+"wait" "05"
+"targetname" "trig2"
+"target" "flagdoor2"
+"classname" "func_button"
+}
+{
+"mdl" "progs/backpack.mdl"
+"noise" "weapons/pkup.wav"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "Frag 'em All!"
+"team_no" "2"
+"armorvalue" "100"
+"ammo_detpack" "1"
+"ammo_medikit" "100"
+"ammo_cells" "100"
+"ammo_rockets" "20"
+"ammo_nails" "100"
+"ammo_shells" "50"
+"armorclass" "0"
+"health" "100"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"wait" "2"
+"netname" "red resupply 1"
+"origin" "144 1856 34"
+"classname" "info_tfgoal"
+}
+{
+"model" "*26"
+"target" "bigsecdest"
+"classname" "trigger_teleport"
+}
+{
+"model" "*28"
+"targetname" "redsecblock1"
+"wait" "120"
+"sounds" "1"
+"speed" "20"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "725 -2000 110"
+"ammo_rockets" "-200"
+"goal_min" "-100 -100 -24"
+"goal_max" "100 100 32"
+"g_a" "1"
+"g_e" "17"
+"message" "You can try, but I doubt it!"
+"classname" "info_tfgoal"
+}
+{
+"origin" "-720 1930 110"
+"ammo_rockets" "-200"
+"goal_min" "-100 -100 -24"
+"goal_max" "100 100 32"
+"g_a" "1"
+"g_e" "17"
+"message" "You can try, but I doubt it!"
+"classname" "info_tfgoal"
+}
+{
+"model" "*29"
+"delay" "0"
+"health" "300"
+"team_no" "2"
+"wait" "30"
+"target" "dummy"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*30"
+"delay" "0"
+"health" "300"
+"team_no" "2"
+"wait" "30"
+"target" "dummy"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*27"
+"delay" "0"
+"health" "300"
+"team_no" "2"
+"wait" "30"
+"target" "dummy"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"targetname" "blusec1"
+"angle" "270"
+"origin" "672 -224 0"
+"classname" "info_teleport_destination"
+}
+{
+"light" "200"
+"origin" "760 -648 48"
+"classname" "light_flame_large_yellow"
+}
+{
+"light" "200"
+"origin" "584 -648 48"
+"classname" "light_flame_large_yellow"
+}
+{
+"mdl" "progs/backpack.mdl"
+"noise" "weapons/pkup.wav"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "You Loser, go kill someone"
+"team_no" "1"
+"armorvalue" "100"
+"ammo_detpack" "1"
+"ammo_medikit" "100"
+"ammo_cells" "100"
+"ammo_rockets" "20"
+"ammo_nails" "100"
+"ammo_shells" "50"
+"armorclass" "0"
+"health" "100"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"wait" "2"
+"netname" "blue resupply 2"
+"origin" "144 -1920 34"
+"classname" "info_tfgoal"
+}
+{
+"mdl" "progs/backpack.mdl"
+"noise" "weapons/pkup.wav"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "Kill, Kill NOW!"
+"team_no" "1"
+"armorvalue" "100"
+"ammo_detpack" "1"
+"ammo_medikit" "100"
+"ammo_cells" "100"
+"ammo_rockets" "20"
+"ammo_nails" "100"
+"ammo_shells" "50"
+"armorclass" "0"
+"health" "100"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"wait" "2"
+"netname" "blue resupply 1"
+"origin" "-144 -1920 34"
+"classname" "info_tfgoal"
+}
+{
+"angle" "96"
+"goal_activation" "0"
+"team_no" "1"
+"origin" "224 -2176 90"
+"classname" "i_p_t"
+}
+{
+"angle" "90"
+"goal_activation" "0"
+"team_no" "1"
+"origin" "0 -2176 88"
+"classname" "i_p_t"
+}
+{
+"angle" "84"
+"goal_activation" "0"
+"team_no" "1"
+"origin" "-224 -2176 90"
+"classname" "i_p_t"
+}
+{
+"angle" "96"
+"goal_activation" "0"
+"team_no" "1"
+"origin" "224 -2126 90"
+"classname" "i_p_t"
+}
+{
+"angle" "90"
+"goal_activation" "0"
+"team_no" "1"
+"origin" "0 -2126 88"
+"classname" "i_p_t"
+}
+{
+"angle" "84"
+"goal_activation" "0"
+"team_no" "1"
+"origin" "-224 -2126 90"
+"classname" "i_p_t"
+}
+{
+"angle" "90"
+"goal_activation" "0"
+"team_no" "1"
+"origin" "112 -2176 88"
+"classname" "i_p_t"
+}
+{
+"angle" "84"
+"goal_activation" "0"
+"team_no" "1"
+"origin" "-112 -2176 90"
+"classname" "i_p_t"
+}
+{
+"model" "*35"
+"team_no" "1"
+"wait" "1"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*36"
+"team_no" "1"
+"wait" "1"
+"sounds" "1"
+"speed" "400"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*37"
+"targetname" "mainblu"
+"wait" "2"
+"sounds" "3"
+"speed" "100"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*38"
+"targetname" "mainblu"
+"wait" "2"
+"sounds" "3"
+"speed" "100"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"light" "300"
+"origin" "240 -1264 48"
+"classname" "light_flame_small_white"
+}
+{
+"light" "300"
+"origin" "-240 -1264 48"
+"classname" "light_flame_small_white"
+}
+{
+"targetname" "blutele"
+"angle" "270"
+"origin" "0 -1440 16"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*39"
+"target" "mainblu"
+"classname" "trigger_multiple"
+}
+{
+"model" "*40"
+"spawnflags" "1"
+"sounds" "1"
+"speed" "100"
+"wait" "1"
+"classname" "func_plat"
+}
+{
+"model" "*41"
+"spawnflags" "1"
+"sounds" "1"
+"speed" "100"
+"wait" "1"
+"classname" "func_plat"
+}
+{
+"model" "*42"
+"spawnflags" "1"
+"sounds" "1"
+"speed" "100"
+"wait" "1"
+"classname" "func_plat"
+}
+{
+"model" "*43"
+"target" "blusec1"
+"classname" "trigger_teleport"
+}
+{
+"targetname" "blusec2"
+"angle" "90"
+"origin" "0 -176 192"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*44"
+"spawnflags" "1"
+"targetname" "blusecdoor"
+"wait" "300"
+"sounds" "4"
+"speed" "50"
+"angle" "180"
+"classname" "func_door"
+}
+{
+"model" "*45"
+"wait" "30"
+"message" "\n\n\n    Congratulations,\nYou found my secret!\n\nHere's some goodies for ya..."
+"classname" "trigger_multiple"
+}
+{
+"model" "*46"
+"target" "blusec2"
+"classname" "trigger_teleport"
+}
+{
+"model" "*47"
+"target" "blusecdoor"
+"classname" "trigger_multiple"
+}
+{
+"noise" "weapons/pkup.wav"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "Damn! You must be desperate"
+"team_no" "1"
+"armorvalue" "100"
+"ammo_detpack" "5"
+"ammo_medikit" "100"
+"ammo_cells" "100"
+"ammo_rockets" "20"
+"ammo_nails" "100"
+"ammo_shells" "50"
+"armorclass" "0"
+"health" "100"
+"no_grenades_2" "4"
+"no_grenades_1" "4"
+"wait" "2"
+"netname" "blue resupply 3"
+"mdl" "progs/backpack.mdl"
+"origin" "-496 -1024 32"
+"classname" "info_tfgoal"
+}
+{
+"classname" "item_tfgoal"
+"angle" "90"
+"netname" "Team 1 flag"
+"mdl" "progs/tf_flag.mdl"
+"goal_no" "1"
+"goal_activation" "2741"
+"pausetime" "60"
+"team_no" "2"
+"owned_by" "1"
+"delay" "60"
+"noise" "ogre/ogwake.wav"
+"goal_effects" "17"
+"items" "131072"
+"netname_team_broadcast" " «œ‘ the ≈Œ≈ÕŸ flag!\n"
+"owners_team_broadcast" "\n\n\nYour flag has been ‘¡À≈Œ!\n"
+"team_drop" "the ≈Œ≈ÕŸ ÏÔÛÙ your flag!\n"
+"non_team_drop" "your team ÏÔÛÙ the ≈Œ≈ÕŸ flag!\n"
+"skin" "1"
+"team_broadcast" "\n\n\nYour team has the ≈Œ≈ÕŸ flag!\n"
+"message" "You have the enemy flag!\nReturn it to your battlement!"
+"origin" "928 -2424 336"
+}
+{
+"target" "blusecblock1"
+"classname" "info_tfgoal"
+"netname" "Team 1 dropoff"
+"message" "You √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"count" "10"
+"goal_result" "2"
+"goal_effects" "3"
+"items_allowed" "2"
+"team_no" "1"
+"axhitme" "2"
+"frags" "10"
+"goal_activation" "1"
+"netname_team_broadcast" " √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"owners_team_broadcast" "\n\n\nYour flag was  √¡–‘’“≈ƒ!\n"
+"team_broadcast" "\n\n\nYour team √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"noise" "doors/meduse.wav"
+"origin" "4 -956 208"
+}
+{
+"model" "*48"
+"classname" "func_illusionary"
+}
+{
+"model" "*49"
+"team_no" "1"
+"wait" "1"
+"sounds" "1"
+"speed" "600"
+"angle" "360"
+"classname" "func_door"
+}
+{
+"model" "*50"
+"targetname" "flagdoor1"
+"dmg" "0"
+"lip" "16"
+"spawnflags" "4"
+"wait" "7"
+"angle" "90"
+"classname" "func_door"
+}
+{
+"super_damage_finished" "60"
+"invincible_finished" "60"
+"invisible_finished" "60"
+"noise" "weapons/pkup.wav"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "Lucky bastard"
+"armorvalue" "200"
+"ammo_detpack" "4"
+"ammo_medikit" "200"
+"ammo_cells" "200"
+"ammo_rockets" "200"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorclass" "31"
+"health" "200"
+"no_grenades_2" "8"
+"no_grenades_1" "8"
+"wait" "120"
+"netname" "blue secret resupply  "
+"mdl" "progs/backpack.mdl"
+"origin" "576 -432 18"
+"classname" "info_tfgoal"
+}
+{
+"model" "*51"
+"targetname" "flagdoor1"
+"dmg" "0"
+"lip" "16"
+"spawnflags" "4"
+"wait" "7"
+"angle" "270"
+"classname" "func_door"
+}
+{
+"g_e" "1"
+"g_a" "1"
+"target" "trig1"
+"health" "1"
+"delay" "1"
+"wait" "6"
+"origin" "-100 -1975 430"
+"classname" "info_tfgoal"
+}
+{
+"model" "*52"
+"message" "hurry!"
+"sounds" "1"
+"speed" "100"
+"delay" "0"
+"dmg" "0"
+"lip" "32"
+"spawnflags" "6"
+"wait" "05"
+"targetname" "trig1"
+"target" "flagdoor1"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"origin" "-528 -1904 320"
+"classname" "item_rockets"
+}
+{
+"model" "*54"
+"targetname" "blusecblock1"
+"wait" "120"
+"sounds" "1"
+"speed" "20"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*55"
+"delay" "0"
+"health" "300"
+"team_no" "1"
+"wait" "30"
+"target" "dummy"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*58"
+"delay" "0"
+"health" "300"
+"team_no" "1"
+"wait" "30"
+"target" "dummy"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*53"
+"delay" "0"
+"health" "300"
+"team_no" "1"
+"wait" "30"
+"target" "dummy"
+"angle" "-1"
+"classname" "func_button"
+}
+{
+"model" "*60"
+"targetname" "bigblusec1"
+"wait" "5"
+"sounds" "1"
+"speed" "10"
+"angle" "-2"
+"classname" "func_door_secret"
+}
+{
+"model" "*61"
+"target" "bigsecdest"
+"classname" "trigger_teleport"
+}
+{
+"model" "*62"
+"delay" "0"
+"health" "100"
+"message" "found it!"
+"wait" "600"
+"target" "bigblusec1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"origin" "672 -672 54"
+"target" "bigblusec1"
+"message" "Big Secret found!\nOpening...!"
+"g_e" "1"
+"g_a" "1"
+"goal_max" "64 64 1"
+"goal_min" "-64 -64 -1"
+"classname" "i_t_g"
+}
+{
+"origin" "-880 527 54"
+"target" "bigredsec1"
+"message" "Big Secret found!\nOpening...!"
+"g_e" "1"
+"g_a" "1"
+"goal_max" "64 64 1"
+"goal_min" "-64 -64 -1"
+"classname" "i_t_g"
+}
+{
+"model" "*63"
+"delay" "0"
+"health" "100"
+"message" "found it!!"
+"wait" "600"
+"target" "bigredsec1"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"targetname" "bigsecdest"
+"angle" "360"
+"origin" "784 544 32"
+"classname" "info_teleport_destination"
+}
+{
+"model" "*64"
+"targetname" "bigredsec1"
+"wait" "5"
+"sounds" "1"
+"speed" "10"
+"angle" "-2"
+"classname" "func_door_secret"
+}
+{
+"super_damage_finished" "180"
+"invincible_finished" "180"
+"invisible_finished" "180"
+"noise" "weapons/pkup.wav"
+"goal_effects" "1"
+"goal_activation" "1"
+"message" "You got 3 minutes of Assrockin to do!"
+"armorvalue" "200"
+"ammo_detpack" "4"
+"ammo_medikit" "200"
+"ammo_cells" "200"
+"ammo_rockets" "200"
+"ammo_nails" "200"
+"ammo_shells" "200"
+"armorclass" "31"
+"health" "200"
+"no_grenades_2" "8"
+"no_grenades_1" "8"
+"wait" "120"
+"netname" "blue secret resupply"
+"mdl" "progs/backpack.mdl"
+"origin" "992 544 50"
+"classname" "info_tfgoal"
+}
+{
+"t_s_c" "Your flag is being carried by"
+"t_s_m" "Your flag is lying around."
+"t_s_h" "Your flag is home."
+"n_s_c" "Enemy flag is being carried by"
+"n_s_m" "Enemy flag is lying around."
+"n_s_h" "Enemy flag is at home."
+"display_item_status2" "2"
+"display_item_status1" "1"
+"classname" "info_tfdetect"
+"origin" "0 -32 176"
+"hook_out" "1"
+"impulse" "0"
+"b_n" "Map was fixed and ’‰·ÙÂ‰ ‚˘  Â·ÖëC“ê and JapesÖëC“ê\n"
+"team_broadcast" "◊ÂÏ„ÔÌÂ ‘Ô Klan Wars\n√ËÔÔÛÂ ŸÔıÚ ‘Â·Ì∫\n\nêìë Ice √Ï·Ó\nêîë ∆ÈÚÂ √Ï·Ó\n\n¡ Ì· Ì·‰Â ‚˘ ë∆xêú√ñrboŒöïú\n"
+}
+{
+"targetname" "dummy"
+"classname" "trigger_multiple"
+}

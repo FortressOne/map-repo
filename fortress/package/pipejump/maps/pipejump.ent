@@ -1,0 +1,700 @@
+{
+"classname" "worldspawn"
+"message" "Demoman Pipe Jump Course\n By êaÿë÷i“u”è¬o¬è\n"
+"sounds" "7"
+"worldtype" "2"
+"light" "1"
+}
+{
+"classname" "info_player_start"
+"angle" "90"
+"origin" "0 -352 208"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "89"
+"netname" "respawn"
+"playerclass" "4"
+"team_no" "3"
+"origin" "-320 -352 208"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "respawn"
+"playerclass" "4"
+"team_no" "3"
+"origin" "320 -352 208"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "89"
+"netname" "respawn"
+"playerclass" "4"
+"team_no" "3"
+"origin" "-192 -256 208"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "respawn"
+"playerclass" "4"
+"team_no" "3"
+"origin" "192 -256 208"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "respawn"
+"playerclass" "4"
+"team_no" "3"
+"origin" "0 -256 208"
+}
+{
+"classname" "trigger_teleport"
+"target" "level2"
+"playerclass" "4"
+"team_no" "3"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "level3"
+"playerclass" "4"
+"team_no" "3"
+"model" "*2"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "87"
+"targetname" "level2"
+"origin" "768 464 256"
+}
+{
+"classname" "trigger_teleport"
+"angle" "89"
+"target" "level4"
+"playerclass" "4"
+"team_no" "3"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"target" "backto3"
+"playerclass" "4"
+"team_no" "3"
+"model" "*4"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "89"
+"targetname" "level3"
+"origin" "1232 1280 240"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "backto3"
+"origin" "1856 1280 240"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "backto3"
+"origin" "1376 1280 240"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "88"
+"targetname" "level3"
+"origin" "1744 1280 240"
+}
+{
+"classname" "trigger_teleport"
+"target" "backto4"
+"playerclass" "4"
+"team_no" "3"
+"model" "*5"
+}
+{
+"classname" "trigger_teleport"
+"target" "level5"
+"playerclass" "4"
+"team_no" "3"
+"model" "*6"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "271"
+"targetname" "level4"
+"origin" "1968 2976 240"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "88"
+"targetname" "level4"
+"origin" "2640 2976 240"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "358"
+"targetname" "backto4"
+"origin" "2304 3344 240"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "181"
+"targetname" "backto4"
+"origin" "2304 2608 240"
+}
+{
+"classname" "info_tfdetect"
+"maxammo_rockets" "1015"
+"impulse" "4"
+"pipes\n Level 7 - The End\n" "Level 1 - 3 pipes\n Level 2 - 4 pipes or gernade\n Level 3 - 4 pipes\n Level 4 - 3 pipes\n Level 5 - 4 pipes\n Level 6 - 1 or 2 pipes\n Level 7 - The End\n"
+"hook_out" "1"
+"team_broadcast" "-=[ SELECT  TEAM ]=-\n\n3. YELLOW\n"
+"noise3" "=== Choose your class ===\n\n4.. Demoman \n"
+"origin" "0 -48 528"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "3"
+"ammo_shells" "999"
+"netname" "resupply1"
+"message" "Have a fun day!\n"
+"armorclass" "4"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "5"
+"no_grenades_2" "-4"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_nails" "999"
+"armorvalue" "120"
+"team_no" "3"
+"health" "90"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "999"
+"ammo_rockets" "999"
+"ammo_detpack" "-1"
+"origin" "-256 -128 96"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "999"
+"owned_by" "3"
+"message" "Have a nice day!\n"
+"netname" "resupply1"
+"armorclass" "4"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"no_grenades_2" "-4"
+"wait" "5"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_nails" "999"
+"armorvalue" "120"
+"health" "90"
+"team_no" "3"
+"skin" "0"
+"ammo_cells" "999"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "-1"
+"ammo_rockets" "999"
+"origin" "256 -128 96"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "999"
+"owned_by" "3"
+"message" "Hope you can swim!\n"
+"netname" "resupply2"
+"armorclass" "4"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"no_grenades_2" "4"
+"wait" "5"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_nails" "999"
+"armorvalue" "120"
+"health" "90"
+"team_no" "3"
+"skin" "0"
+"ammo_cells" "999"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "-1"
+"ammo_rockets" "999"
+"origin" "496 480 96"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "3"
+"ammo_shells" "999"
+"netname" "resupply2"
+"message" "Hope you can swim!\n"
+"armorclass" "4"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"wait" "5"
+"no_grenades_2" "4"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_nails" "999"
+"armorvalue" "120"
+"team_no" "3"
+"health" "90"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "999"
+"ammo_rockets" "999"
+"ammo_detpack" "-1"
+"origin" "1056 480 96"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "3"
+"ammo_shells" "999"
+"netname" "resupply3"
+"message" "Hope you can jump!\n"
+"armorclass" "4"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "5"
+"no_grenades_2" "-4"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_nails" "999"
+"armorvalue" "120"
+"team_no" "3"
+"health" "90"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "999"
+"ammo_rockets" "999"
+"ammo_detpack" "-1"
+"origin" "1536 1376 160"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "999"
+"owned_by" "3"
+"message" "Have a good life!\n"
+"netname" "resupply4"
+"armorclass" "4"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"no_grenades_2" "-4"
+"wait" "5"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_nails" "999"
+"armorvalue" "120"
+"health" "90"
+"team_no" "3"
+"skin" "0"
+"ammo_cells" "999"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "-1"
+"ammo_rockets" "999"
+"origin" "1984 2640 160"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "999"
+"owned_by" "3"
+"message" "Have a nice day!\n"
+"netname" "resupply4"
+"armorclass" "4"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"no_grenades_2" "-4"
+"wait" "-1"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_nails" "999"
+"armorvalue" "120"
+"health" "90"
+"team_no" "3"
+"skin" "0"
+"ammo_cells" "999"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "-1"
+"ammo_rockets" "999"
+"origin" "2624 3328 160"
+}
+{
+"classname" "func_button"
+"angle" "-1"
+"speed" "100"
+"target" "level4lift"
+"sounds" "3"
+"wait" "5"
+"delay" "1"
+"health" "5"
+"model" "*7"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "2"
+"wait" "2"
+"playerclass" "4"
+"dmg" "0"
+"health" "0"
+"lip" "-600"
+"team_no" "3"
+"targetname" "level4lift"
+"model" "*8"
+}
+{
+"classname" "trigger_teleport"
+"target" "level6"
+"playerclass" "4"
+"team_no" "3"
+"model" "*9"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "999"
+"owned_by" "3"
+"message" "Have a nice day!\n"
+"netname" "resupply5"
+"armorclass" "4"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"no_grenades_2" "-4"
+"wait" "5"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_nails" "999"
+"armorvalue" "120"
+"health" "90"
+"team_no" "3"
+"skin" "0"
+"ammo_cells" "999"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "-1"
+"ammo_rockets" "999"
+"origin" "2912 3632 48"
+}
+{
+"classname" "trigger_teleport"
+"target" "level7"
+"playerclass" "4"
+"team_no" "3"
+"model" "*10"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "999"
+"owned_by" "3"
+"message" "Have a nice day!\n"
+"netname" "resupply6"
+"armorclass" "4"
+"no_grenades_1" "-4"
+"armortype" "0.8"
+"no_grenades_2" "-4"
+"wait" "5"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_nails" "999"
+"armorvalue" "120"
+"health" "90"
+"team_no" "3"
+"skin" "0"
+"ammo_cells" "999"
+"mdl" "progs/backpack.mdl"
+"ammo_detpack" "-1"
+"ammo_rockets" "999"
+"origin" "576 -144 -416"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "3"
+"ammo_shells" "999"
+"netname" "resupply6"
+"message" "Have a nice day!\n"
+"armorclass" "4"
+"armortype" "0.8"
+"no_grenades_1" "-4"
+"wait" "5"
+"no_grenades_2" "-4"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_nails" "999"
+"armorvalue" "120"
+"team_no" "3"
+"health" "90"
+"skin" "0"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "999"
+"ammo_rockets" "999"
+"ammo_detpack" "-1"
+"origin" "1040 -144 -416"
+}
+{
+"classname" "item_tfgoal"
+"angle" "273"
+"netname" "scout"
+"goal_no" "1"
+"skin" "1"
+"mdl" "progs/player.mdl"
+"origin" "1264 1056 -224"
+}
+{
+"classname" "item_tfgoal"
+"angle" "272"
+"netname" "engineer"
+"goal_no" "9"
+"skin" "9"
+"mdl" "progs/player.mdl"
+"origin" "1344 1024 -224"
+}
+{
+"classname" "item_tfgoal"
+"angle" "272"
+"netname" "pyro"
+"goal_no" "7"
+"skin" "7"
+"mdl" "progs/player.mdl"
+"origin" "1376 944 -224"
+}
+{
+"classname" "item_tfgoal"
+"angle" "273"
+"netname" "sniper"
+"goal_no" "2"
+"skin" "2"
+"mdl" "progs/player.mdl"
+"origin" "1488 944 -224"
+}
+{
+"classname" "item_tfgoal"
+"angle" "272"
+"goal_activation" "28"
+"netname" "spy"
+"goal_no" "8"
+"skin" "8"
+"mdl" "progs/player.mdl"
+"origin" "1520 1024 -224"
+}
+{
+"classname" "item_tfgoal"
+"angle" "272"
+"netname" "medic"
+"goal_no" "5"
+"skin" "5"
+"mdl" "progs/player.mdl"
+"origin" "1616 1040 -224"
+}
+{
+"classname" "item_tfgoal"
+"angle" "271"
+"netname" "hwguy"
+"goal_no" "6"
+"skin" "6"
+"mdl" "progs/player.mdl"
+"origin" "1552 912 -224"
+}
+{
+"classname" "item_tfgoal"
+"angle" "272"
+"netname" "soldier"
+"goal_no" "3"
+"skin" "3"
+"mdl" "progs/player.mdl"
+"origin" "1312 928 -224"
+}
+{
+"classname" "item_tfgoal"
+"angle" "272"
+"goal_activation" "28"
+"netname" "demoman"
+"armorclass" "4"
+"armortype" "0.8"
+"goal_no" "4"
+"armorvalue" "120"
+"skin" "4"
+"mdl" "progs/player.mdl"
+"origin" "1440 880 -224"
+}
+{
+"classname" "info_intermission"
+"angle" "90"
+"origin" "1440 672 -128"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "level5"
+"origin" "2752 3776 160"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "level5"
+"origin" "2768 3456 272"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "87"
+"targetname" "level6"
+"origin" "576 -384 -336"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "89"
+"targetname" "level6"
+"origin" "1040 -384 -336"
+}
+{
+"classname" "info_tfgoal"
+"invisible_finished" "25"
+"goal_activation" "1"
+"ammo_shells" "999"
+"target" "finishme"
+"message" "CONGRADULATIONS! YOU BEAT PIPEJUMP!\n"
+"netname" "The End"
+"armorclass" "4"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"increase_team3" "25"
+"no_grenades_2" "4"
+"wait" "5"
+"super_damage_finished" "25"
+"playerclass" "4"
+"goal_effects" "1"
+"ammo_nails" "999"
+"frags" "25"
+"radsuit_finished" "25"
+"armorvalue" "120"
+"health" "90"
+"invincible_finished" "25"
+"team_no" "3"
+"ammo_cells" "999"
+"ammo_detpack" "-1"
+"ammo_rockets" "999"
+"origin" "2192 2416 -144"
+}
+{
+"classname" "trigger_teleport"
+"target" "imdone"
+"playerclass" "4"
+"team_no" "3"
+"targetname" "finishme"
+"model" "*11"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "89"
+"targetname" "imdone"
+"origin" "-96 -304 208"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "88"
+"targetname" "level7"
+"origin" "2048 1600 -128"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "level7"
+"origin" "2368 1600 -128"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "1000"
+"style" "0"
+"origin" "224 -48 528"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "1000"
+"style" "0"
+"origin" "-304 -48 512"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "300"
+"style" "0"
+"origin" "0 208 512"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "800"
+"origin" "768 720 528"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "700"
+"origin" "1504 1376 512"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "600"
+"origin" "1536 2400 496"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "900"
+"origin" "2304 2976 832"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "1000"
+"origin" "3040 3648 864"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "600"
+"origin" "800 -64 -352"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "300"
+"origin" "576 208 -96"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "300"
+"origin" "1040 224 -128"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "800"
+"origin" "1440 1008 -96"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "800"
+"origin" "2208 2016 -112"
+}
+{
+"classname" "light"
+"angle" "273"
+"light" "300"
+"origin" "768 -368 -144"
+}

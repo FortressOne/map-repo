@@ -1,0 +1,516 @@
+{
+"sounds" "3"
+"classname" "worldspawn"
+"wad" "Main2.wad"
+"message" "Ender's Game"
+"light" "150"
+}
+{
+"angle" "0"
+"origin" "56 24 104"
+"classname" "info_player_start"
+}
+{
+"team_no" "2"
+"angle" "180"
+"origin" "1952 16 24"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"angle" "180"
+"origin" "1952 16 1024"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"angle" "180"
+"origin" "1968 16 -1024"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"angle" "180"
+"origin" "1952 1040 24"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"angle" "180"
+"origin" "1952 1040 1024"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"angle" "180"
+"origin" "1968 1040 -1024"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"angle" "180"
+"origin" "1952 -1008 24"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"angle" "180"
+"origin" "1952 -1008 1024"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "2"
+"angle" "180"
+"origin" "1968 -1008 -1024"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"angle" "0"
+"origin" "-1920 16 24"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"angle" "0"
+"origin" "-1904 8 1024"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"angle" "0"
+"origin" "-1904 16 -1024"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"angle" "0"
+"origin" "-1920 1040 24"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"angle" "0"
+"origin" "-1904 1032 1024"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"angle" "0"
+"origin" "-1904 1040 -1024"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"angle" "0"
+"origin" "-1920 -1008 24"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"angle" "0"
+"origin" "-1904 -1016 1024"
+"classname" "info_player_teamspawn"
+}
+{
+"team_no" "1"
+"angle" "0"
+"origin" "-1904 -1008 -1024"
+"classname" "info_player_teamspawn"
+}
+{
+"message" "sv_gravity 0.001\n"
+"non_team_broadcast" "Pass through your opponents' alcove to win!\n"
+"team_broadcast" "=== CHOOSE YOUR TEAM ===\n\n1.. BLUE TEAM \n2.. RED TEAM  \n\n\n\n"
+"impulse" "192"
+"broadcast" "TeamFortress v2.1"
+"origin" "-16 44 164"
+"classname" "info_tfdetect"
+"maxammo_rockets" "1023"
+"maxammo_cells" "1023"
+"ammo_shells" "0"
+"ammo_nails" "0"
+"ammo_rockets" "0"
+"ammo_cells" "0"
+"ammo_medikit" "0"
+"ammo_detpack" "0"
+"maxammo_medikit" "0"
+"maxammo_detpack" "0"
+"maxammo_shells" "2"
+"maxammo_nails" "2"
+}
+{
+"model" "*1"
+"sounds" "4"
+"wait" "-1"
+"targetname" "bad"
+"angle" "-1"
+"classname" "func_door"
+}
+{
+"model" "*2"
+"health" "100"
+"target" "bac"
+"wait" "-1"
+"lip" "1"
+"angle" "180"
+"classname" "func_button"
+}
+{
+"model" "*3"
+"health" "100"
+"wait" "-1"
+"target" "bac"
+"lip" "1"
+"classname" "func_button"
+"angle" "180"
+}
+{
+"model" "*4"
+"health" "100"
+"wait" "-1"
+"lip" "1"
+"target" "bac"
+"classname" "func_button"
+"angle" "180"
+}
+{
+"model" "*5"
+"target" "bac"
+"wait" "-1"
+"lip" "1"
+"health" "100"
+"classname" "func_button"
+"angle" "180"
+}
+{
+"model" "*6"
+"targetname" "bac"
+"target" "bad"
+"message" "''"
+"count" "4"
+"classname" "trigger_counter"
+}
+{
+"model" "*7"
+"classname" "trigger_once"
+"team_no" "2"
+"target" "bae"
+}
+{
+"goal_activation" "0"
+"netname_broadcast" " has penetrated the blue alcove!!\n"
+"frags" "10"
+"goal_effects" "1"
+"target" "bae2"
+"goal_result" "17"
+"wait" "-1"
+"goal_state" "2"
+"group_no" "1"
+"goal_no" "2"
+"classname" "info_tfgoal"
+"origin" "-2064 16 -32"
+"targetname" "bae"
+"netname" "Red Wins"
+}
+{
+"goal_activation" "0"
+"goal_effects" "0"
+"frags" "15"
+"delay_time" "3"
+"origin" "-2056 16 -32"
+"maxammo_shells" "2"
+"goal_result" "21"
+"wait" "-1"
+"targetname" "bae2"
+"goal_state" "2"
+"group_no" "1"
+"goal_no" "4"
+"netname" "Red Wins Complete"
+"classname" "info_tfgoal"
+}
+{
+"model" "*8"
+"classname" "func_door"
+"angle" "-1"
+"targetname" "rad"
+"sounds" "4"
+"wait" "-1"
+}
+{
+"model" "*9"
+"classname" "func_button"
+"angle" "0"
+"lip" "1"
+"health" "100"
+"target" "rac"
+"wait" "-1"
+}
+{
+"model" "*10"
+"classname" "func_button"
+"angle" "0"
+"health" "100"
+"lip" "1"
+"target" "rac"
+"wait" "-1"
+}
+{
+"model" "*11"
+"classname" "func_button"
+"angle" "0"
+"target" "rac"
+"health" "100"
+"lip" "1"
+"wait" "-1"
+}
+{
+"model" "*12"
+"classname" "func_button"
+"angle" "0"
+"health" "100"
+"lip" "1"
+"wait" "-1"
+"target" "rac"
+}
+{
+"model" "*13"
+"classname" "trigger_counter"
+"targetname" "rac"
+"target" "rad"
+"count" "4"
+"message" "''"
+}
+{
+"model" "*14"
+"classname" "trigger_once"
+"team_no" "1"
+"target" "rae"
+}
+{
+"goal_activation" "0"
+"netname_broadcast" " has penetrated the blue alcove!!\n"
+"frags" "10"
+"goal_effects" "1"
+"goal_result" "17"
+"wait" "-1"
+"goal_state" "2"
+"group_no" "1"
+"goal_no" "1"
+"classname" "info_tfgoal"
+"origin" "2096 16 -32"
+"targetname" "rae"
+"netname" "Blue Wins"
+"target" "rae2"
+}
+{
+"goal_activation" "0"
+"goal_effects" "0"
+"frags" "15"
+"delay_time" "3"
+"origin" "2128 16 -32"
+"maxammo_shells" "1"
+"goal_result" "21"
+"wait" "-1"
+"targetname" "rae2"
+"goal_state" "2"
+"group_no" "1"
+"goal_no" "3"
+"netname" "Blue Wins Complete"
+"classname" "info_tfgoal"
+}
+{
+"netname" "backpack 1"
+"origin" "1432 -1416 1600"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_state" "2"
+"mdl" "progs/backpack.mdl"
+"wait" "3"
+"armorvalue" "15"
+"health" "15"
+"ammo_shells" "20"
+"ammo_nails" "25"
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"goal_effects" "1"
+"message" "Lock\n&\nLoad!\n"
+}
+{
+"netname" "backpack 2"
+"origin" "1432 -1424 -1280"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_state" "2"
+"mdl" "progs/backpack.mdl"
+"wait" "3"
+"armorvalue" "15"
+"health" "15"
+"ammo_shells" "20"
+"ammo_nails" "25"
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"goal_effects" "1"
+"message" "Lock\n&\nLoad!\n"
+}
+{
+"origin" "1456 1464 -1280"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_state" "2"
+"mdl" "progs/backpack.mdl"
+"wait" "3"
+"armorvalue" "15"
+"health" "15"
+"ammo_shells" "20"
+"ammo_nails" "25"
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"goal_effects" "1"
+"message" "Lock\n&\nLoad!\n"
+}
+{
+"netname" "backpack 4"
+"origin" "1456 1448 1576"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_state" "2"
+"wait" "3"
+"armorvalue" "15"
+"health" "15"
+"ammo_shells" "20"
+"ammo_nails" "25"
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"goal_effects" "1"
+"message" "Lock\n&\nLoad!\n"
+"mdl" "progs/backpack.mdl"
+}
+{
+"netname" "backpack 5"
+"origin" "16 8 104"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_state" "2"
+"mdl" "progs/backpack.mdl"
+"wait" "3"
+"goal_effects" "1"
+"armorvalue" "10"
+"health" "10"
+"ammo_shells" "20"
+"ammo_nails" "25"
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"ammo_detpack" "1"
+"no_grenades_1" "1"
+"no_grenades_2" "1"
+"message" "Lock\n&\nLoad!\n"
+}
+{
+"origin" "-1424 -1432 1592"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_state" "2"
+"mdl" "progs/backpack.mdl"
+"wait" "3"
+"armorvalue" "15"
+"health" "15"
+"ammo_shells" "20"
+"ammo_nails" "25"
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"goal_effects" "1"
+"message" "Lock\n&\nLoad!\n"
+}
+{
+"origin" "-1424 -1424 -1280"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_state" "2"
+"mdl" "progs/backpack.mdl"
+"wait" "3"
+"armorvalue" "15"
+"health" "15"
+"ammo_shells" "20"
+"ammo_nails" "25"
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"goal_effects" "1"
+"message" "Lock\n&\nLoad!\n"
+}
+{
+"netname" "backpack 8"
+"origin" "-1424 1464 -1280"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_state" "2"
+"mdl" "progs/backpack.mdl"
+"wait" "3"
+"armorvalue" "15"
+"health" "15"
+"ammo_shells" "20"
+"ammo_nails" "25"
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"goal_effects" "1"
+"message" "Lock\n&\nLoad!\n"
+}
+{
+"netname" "backpack 9"
+"origin" "-1424 1448 1592"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_state" "2"
+"mdl" "progs/backpack.mdl"
+"wait" "3"
+"armorvalue" "15"
+"health" "15"
+"ammo_shells" "20"
+"ammo_nails" "25"
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"goal_effects" "1"
+"message" "Lock\n&\nLoad!\n"
+}
+{
+"netname" "Blue Open Alert"
+"targetname" "bad"
+"origin" "-2056 24 8"
+"classname" "info_tfgoal"
+"goal_activation" "0"
+"goal_state" "2"
+"wait" "-1"
+"goal_result" "1"
+"broadcast" "BLUE'S ALCOVE IS OPEN!!!\n"
+}
+{
+"targetname" "rad"
+"netname" "Red Open Alert"
+"origin" "2112 24 16"
+"classname" "info_tfgoal"
+"goal_activation" "0"
+"goal_state" "2"
+"wait" "-1"
+"goal_result" "1"
+"broadcast" "RED'S ALCOVE IS OPEN!!!\n"
+}
+{
+"netname" "backpack 10"
+"origin" "-64 -1280 1456"
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_state" "2"
+"mdl" "progs/backpack.mdl"
+"wait" "3"
+"goal_effects" "1"
+"armorvalue" "10"
+"health" "10"
+"ammo_shells" "20"
+"ammo_nails" "25"
+"ammo_rockets" "10"
+"ammo_cells" "25"
+"ammo_detpack" "1"
+"no_grenades_1" "1"
+"no_grenades_2" "1"
+"message" "Lock\n&\nLoad!\n"
+}

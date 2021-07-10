@@ -1,0 +1,4577 @@
+{
+"classname" "worldspawn"
+"message" "*** Spaz-Ball ***\nby Sgt.Thundercok"
+"light" "0"
+"worldtype" "2"
+"sounds" "0"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "2 2164 24"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "4 1864 24"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "10 2488 65"
+}
+{
+"classname" "i_t_g"
+"target" "bsawpass"
+"g_a" "5"
+"goal_state" "2"
+"goal_max" "256 32 200"
+"team_no" "1"
+"wait" "4"
+"g_e" "0"
+"origin" "-116 2316 -48"
+}
+{
+"classname" "func_door"
+"spawnflags" "1"
+"speed" "1200"
+"sounds" "3"
+"wait" "1"
+"lip" "0"
+"dmg" "500"
+"health" "0"
+"targetname" "bsaw1"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"spawnflags" "1"
+"speed" "1200"
+"sounds" "3"
+"wait" "1"
+"lip" "0"
+"dmg" "500"
+"health" "0"
+"targetname" "bsaw1"
+"model" "*2"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "120"
+"style" "32"
+"model" "*3"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "0 1392 -104"
+}
+{
+"classname" "trigger_push"
+"angle" "90"
+"speed" "30"
+"style" "32"
+"model" "*4"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "-80 1768 384"
+}
+{
+"classname" "trigger_push"
+"angle" "-2"
+"speed" "40"
+"style" "32"
+"model" "*5"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "0 3352 78"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "56 -56 -408"
+}
+{
+"classname" "light"
+"light" "700"
+"origin" "0 416 -368"
+}
+{
+"classname" "light"
+"light" "700"
+"style" "0"
+"origin" "416 0 -368"
+}
+{
+"classname" "light"
+"light" "700"
+"style" "0"
+"origin" "0 -416 -368"
+}
+{
+"classname" "light"
+"light" "700"
+"style" "0"
+"origin" "-416 0 -368"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "80"
+"style" "32"
+"model" "*6"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "-64 3072 96"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "-64 3072 16"
+}
+{
+"classname" "trigger_push"
+"angle" "270"
+"speed" "150"
+"style" "32"
+"model" "*7"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "0"
+"hook_out" "1"
+"team_broadcast" "CHOOSE\nYOUR\nTEAM\n\n1>Blue\n\n2>Red\n\n3>Yellow\n\n4>Green\n"
+"non_team_str_carried" "The Spaz-Ball is held by"
+"non_team_str_moved" "The Spaz-Ball is Down!"
+"non_team_str_home" "The Spaz-Ball Awaits....."
+"team_str_carried" "test 4"
+"team_str_moved" "test 5"
+"team_str_home" "test 6"
+"display_item_status1" "1"
+"ammo_medikit" "8"
+"ammo_detpack" "8"
+"maxammo_medikit" "8"
+"maxammo_detpack" "8"
+"origin" "48 -4 -84"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "300"
+"sounds" "2"
+"wait" "3"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "hatch"
+"model" "*8"
+}
+{
+"classname" "func_door"
+"speed" "300"
+"sounds" "0"
+"wait" "3"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "hatch"
+"model" "*9"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"speed" "300"
+"sounds" "0"
+"wait" "3"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "hatch"
+"model" "*10"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "300"
+"sounds" "0"
+"wait" "3"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "hatch"
+"model" "*11"
+}
+{
+"classname" "trigger_multiple"
+"speed" "100"
+"sounds" "4"
+"wait" "3"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"target" "hatch"
+"style" "32"
+"delay" "0"
+"model" "*12"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "0 3552 80"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "0 3552 448"
+}
+{
+"classname" "info_null"
+"style" "0"
+"targetname" "bsl"
+"origin" "-64 3552 776"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "32"
+"speed" "10"
+"model" "*13"
+}
+{
+"classname" "trigger_hurt"
+"sounds" "4"
+"dmg" "500"
+"style" "32"
+"delay" "0"
+"model" "*14"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "32"
+"speed" "120"
+"model" "*15"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "400"
+"sounds" "2"
+"wait" "3"
+"lip" "8"
+"dmg" "0"
+"health" "0"
+"team_no" "1"
+"targetname" "bair1"
+"model" "*16"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "600"
+"sounds" "0"
+"wait" "10"
+"lip" "-4"
+"dmg" "200"
+"health" "0"
+"targetname" "bair1"
+"model" "*17"
+}
+{
+"classname" "func_door"
+"speed" "600"
+"sounds" "0"
+"wait" "10"
+"lip" "-4"
+"dmg" "200"
+"targetname" "bair1"
+"model" "*18"
+}
+{
+"classname" "light"
+"light" "140"
+"style" "0"
+"origin" "0 3552 168"
+}
+{
+"classname" "ambient_drone"
+"origin" "0 3552 720"
+}
+{
+"classname" "info_null"
+"targetname" "bsl2"
+"origin" "64 3552 776"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "0 3552 640"
+}
+{
+"classname" "light"
+"target" "bsl"
+"light" "350"
+"origin" "-64 3552 624"
+}
+{
+"classname" "light"
+"light" "350"
+"target" "bsl2"
+"origin" "64 3552 624"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "5"
+"sounds" "0"
+"wait" "-1"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "b-once"
+"model" "*19"
+}
+{
+"classname" "light"
+"light" "330"
+"origin" "0 1048 -672"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "0 1392 -656"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "56 56 -408"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-56 56 -408"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-56 -56 -408"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "0 0 -204"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "0 0 -832"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "0 0 -1000"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"delay" "0"
+"target" "hatch"
+"sounds" "4"
+"wait" "0"
+"model" "*20"
+}
+{
+"classname" "item_tfgoal"
+"message" "You Are Now In Control of SPAZ-BALL!!!!\n"
+"noise" "items/suit.wav"
+"mdl" "progs/ball2.mdl"
+"goal_no" "1"
+"g_a" "181"
+"delay" "10"
+"pausetime" "8"
+"n_b" " has the SPAZ-BALL!\n"
+"noise4" "The Spaz-Ball has returned..\n"
+"impulse" "7"
+"g_e" "1"
+"items" "131072"
+"origin" "0 0 104"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "b1"
+"targetname" "bg1"
+"count" "1"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "12"
+"model" "*21"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "b2"
+"targetname" "bg1"
+"count" "2"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "13"
+"model" "*22"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "b3"
+"targetname" "bg1"
+"count" "3"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "14"
+"model" "*23"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "b4"
+"targetname" "bg1"
+"count" "4"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "15"
+"model" "*24"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "b5"
+"targetname" "bg1"
+"count" "5"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"remove_goal_no" "301"
+"model" "*25"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "0 4016 40"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "100"
+"style" "32"
+"model" "*26"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "100"
+"style" "32"
+"model" "*27"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "8000"
+"style" "32"
+"targetname" "blite1"
+"origin" "0 3960 40"
+}
+{
+"classname" "trigger_relay"
+"target" "blite1"
+"targetname" "bg1"
+"delay" ".8"
+"style" "32"
+"sounds" "4"
+"origin" "64 4016 40"
+}
+{
+"classname" "trigger_relay"
+"target" "blite1"
+"targetname" "bg1"
+"delay" "0"
+"style" "32"
+"sounds" "4"
+"origin" "48 4016 40"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"target" "bg1"
+"g_a" "1"
+"items_allowed" "1"
+"axhitme" "1"
+"n_b" " slams the Spaz-Ball on BLUE!\n"
+"noise" "weapons/lstart.wav"
+"g_e" "1"
+"origin" "0 4010 28"
+}
+{
+"classname" "func_door"
+"speed" "600"
+"sounds" "2"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "bpit1"
+"model" "*28"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "600"
+"sounds" "2"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "bpit1"
+"model" "*29"
+}
+{
+"classname" "i_t_g"
+"targetname" "bg1"
+"maxammo_shells" "1"
+"armortype" "0.8"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "50"
+"ammo_medikit" "2"
+"delay_time" "2"
+"increase_team1" "1"
+"origin" "-38 4034 76"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 1720 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 1320 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 920 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 520 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 120 -1280"
+}
+{
+"classname" "trap_spikeshooter"
+"spawnflags" "2"
+"style" "0"
+"targetname" "blaser"
+"origin" "-116 2696 -144"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "120 0 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-120 0 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 -120 -1280"
+}
+{
+"classname" "light"
+"light" "380"
+"style" "0"
+"origin" "-104 2912 80"
+}
+{
+"classname" "light"
+"light" "380"
+"style" "0"
+"origin" "104 2912 80"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "150"
+"style" "32"
+"model" "*30"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "0 0 -1200"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "80"
+"style" "32"
+"model" "*31"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"delay" "0"
+"target" "hatch"
+"sounds" "4"
+"wait" "0"
+"model" "*32"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "64 3072 96"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "64 3072 16"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "-760 550 -520"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "-552 760 -521"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "550 760 -520"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "760 552 -521"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "760 -550 -520"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "552 -760 -521"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "-550 -760 -520"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "-760 -552 -521"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "-656 -656 -520"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "656 -656 -520"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "656 656 -520"
+}
+{
+"classname" "light"
+"light" "210"
+"origin" "-656 656 -520"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "216 864 -512"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "0 864 -512"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "-216 864 -512"
+}
+{
+"classname" "light"
+"light" "180"
+"style" "0"
+"origin" "864 -216 -512"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "864 0 -512"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "864 216 -512"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "-216 -864 -512"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "0 -864 -512"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "216 -864 -512"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "-864 216 -512"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "-864 0 -512"
+}
+{
+"classname" "light"
+"light" "180"
+"origin" "-864 -216 -512"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"target" "lightning"
+"speed" "100"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "nothing"
+"model" "*33"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"target" "lightning"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "nothing"
+"wait" "4"
+"model" "*34"
+}
+{
+"classname" "event_lightning"
+"targetname" "flashit"
+"origin" "0 0 -636"
+}
+{
+"classname" "info_null"
+"targetname" "lightning"
+"origin" "0 0 -620"
+}
+{
+"classname" "func_door"
+"speed" "600"
+"sounds" "2"
+"wait" "8"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "bfloor1"
+"model" "*35"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "600"
+"sounds" "2"
+"wait" "8"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "bfloor1"
+"model" "*36"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 1864 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 1936 -1224"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 1936 -280"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "0 1936 -960"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "0 1936 -640"
+}
+{
+"classname" "trigger_push"
+"angle" "270"
+"speed" "100"
+"style" "32"
+"model" "*37"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"wait" "6"
+"target" "bfloorpass"
+"goal_state" "2"
+"origin" "118 3012 94"
+}
+{
+"classname" "i_t_g"
+"target" "bfloor1"
+"goal_state" "3"
+"group_no" "12"
+"targetname" "bfloorpass"
+"noise" "buttons/switch02.wav"
+"origin" "116 3002 134"
+}
+{
+"classname" "i_t_g"
+"target" "bsaw1"
+"goal_state" "3"
+"group_no" "14"
+"targetname" "bsawpass"
+"noise" "ogre/ogsawatk.wav"
+"origin" "-134 2278 14"
+}
+{
+"classname" "i_t_g"
+"target" "flashit"
+"goal_state" "2"
+"g_e" "0"
+"goal_no" "7"
+"origin" "-96 -16 -368"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "3"
+"target" "balarm1"
+"style" "32"
+"delay" "0"
+"g_a" "1"
+"items_allowed" "1"
+"model" "*38"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "1"
+"targetname" "balarm1"
+"speed" "100"
+"sounds" "0"
+"wait" "4"
+"lip" "-4"
+"dmg" "0"
+"health" "0"
+"model" "*39"
+}
+{
+"classname" "func_door"
+"spawnflags" "37"
+"targetname" "b3"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "-10"
+"model" "*40"
+}
+{
+"classname" "func_door"
+"spawnflags" "37"
+"targetname" "b1"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "-10"
+"health" "0"
+"model" "*41"
+}
+{
+"classname" "func_door"
+"spawnflags" "37"
+"targetname" "b2"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*42"
+}
+{
+"classname" "func_door"
+"spawnflags" "37"
+"targetname" "b4"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*43"
+}
+{
+"classname" "func_door"
+"spawnflags" "5"
+"targetname" "b5"
+"wait" "-1"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*44"
+}
+{
+"classname" "trigger_once"
+"target" "b1"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "b2"
+"model" "*45"
+}
+{
+"classname" "trigger_once"
+"target" "b2"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "b3"
+"model" "*46"
+}
+{
+"classname" "trigger_once"
+"target" "b3"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "b4"
+"model" "*47"
+}
+{
+"classname" "trigger_once"
+"target" "b4"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "b5"
+"model" "*48"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "5"
+"speed" "1000"
+"sounds" "2"
+"wait" "-1"
+"lip" "-8"
+"dmg" "500"
+"health" "0"
+"targetname" "b5"
+"model" "*49"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"wait" "6"
+"target" "bpitpass"
+"goal_state" "2"
+"origin" "-126 3008 94"
+}
+{
+"classname" "i_t_g"
+"target" "bpit1"
+"goal_state" "3"
+"group_no" "13"
+"targetname" "bpitpass"
+"noise" "buttons/switch02.wav"
+"origin" "-142 2994 134"
+}
+{
+"classname" "trap_spikeshooter"
+"spawnflags" "2"
+"targetname" "blaser"
+"origin" "-116 2744 -144"
+}
+{
+"classname" "i_t_g"
+"target" "bair1"
+"goal_state" "3"
+"group_no" "15"
+"targetname" "bairpass"
+"origin" "-132 3552 2"
+}
+{
+"classname" "i_t_g"
+"target" "bairpass"
+"g_a" "5"
+"goal_state" "2"
+"goal_max" "256 192 200"
+"team_no" "1"
+"wait" "6"
+"g_e" "0"
+"origin" "-116 3466 -60"
+}
+{
+"classname" "light"
+"light" "350"
+"style" "0"
+"origin" "0 3856 32"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "180"
+"spawnflags" "2"
+"style" "0"
+"targetname" "blaser"
+"origin" "116 2672 -144"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"target" "blaser"
+"style" "32"
+"delay" "0"
+"model" "*50"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "180"
+"spawnflags" "2"
+"style" "0"
+"targetname" "blaser"
+"origin" "116 2720 -144"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "180"
+"spawnflags" "2"
+"style" "0"
+"targetname" "blaser"
+"origin" "116 2768 -144"
+}
+{
+"classname" "i_p_t"
+"angle" "270"
+"team_no" "1"
+"origin" "80 1744 448"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"goal_max" "256 16 96"
+"no_grenades_1" "-5"
+"playerclass" "1"
+"origin" "-128 1656 192"
+}
+{
+"classname" "i_p_t"
+"angle" "270"
+"team_no" "1"
+"origin" "-80 1744 448"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"armortype" "0.8"
+"armorvalue" "400"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_medikit" "5"
+"message" "Rock and Roll!!\n"
+"g_a" "1"
+"no_grenades_2" "-5"
+"goal_max" "256 96 32"
+"ammo_detpack" "-2"
+"ammo_cells" "-300"
+"origin" "-128 1696 192"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "b5"
+"speed" "400"
+"wait" "-1"
+"lip" "-4"
+"dmg" "0"
+"health" "0"
+"sounds" "1"
+"model" "*51"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"target" "btele1"
+"model" "*52"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "0 1392 168"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "btele1"
+"origin" "-544 864 -384"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"ammo_rockets" "-100"
+"ammo_shells" "-300"
+"ammo_nails" "-300"
+"no_grenades_1" "-5"
+"g_a" "1"
+"message" "Welcome to the Blue Room...\n"
+"axhitme" "1"
+"origin" "-540 836 -400"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "80 1768 384"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"target" "bg1"
+"targetname" "bsr"
+"goal_no" "190"
+"origin" "48 4048 8"
+}
+{
+"classname" "i_t_g"
+"targetname" "rg1"
+"maxammo_shells" "2"
+"armortype" "0.8"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "50"
+"ammo_medikit" "2"
+"delay_time" "2"
+"increase_team2" "1"
+"origin" "24 -4060 122"
+}
+{
+"classname" "i_t_g"
+"target" "rg1"
+"g_a" "1"
+"items_allowed" "1"
+"axhitme" "1"
+"n_b" " Shows RED How It's Done!\n"
+"noise" "weapons/lstart.wav"
+"g_e" "1"
+"origin" "0 -4010 28"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "r1"
+"targetname" "rg1"
+"count" "1"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "22"
+"model" "*53"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "r2"
+"targetname" "rg1"
+"count" "2"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "23"
+"model" "*54"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "r3"
+"targetname" "rg1"
+"count" "3"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "24"
+"model" "*55"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "r4"
+"targetname" "rg1"
+"count" "4"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "25"
+"model" "*56"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "r5"
+"targetname" "rg1"
+"count" "5"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"remove_goal_no" "302"
+"model" "*57"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"sounds" "4"
+"delay" "1"
+"targetname" "rg1"
+"target" "mass1"
+"origin" "-168 -648 -528"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"sounds" "4"
+"delay" "2"
+"targetname" "yg1"
+"target" "mass1"
+"origin" "-136 -648 -528"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"sounds" "4"
+"delay" "3"
+"targetname" "gg1"
+"target" "mass1"
+"origin" "-104 -648 -528"
+}
+{
+"classname" "i_t_g"
+"target" "rg1"
+"targetname" "rsr"
+"goal_no" "191"
+"origin" "96 -4060 122"
+}
+{
+"classname" "trigger_once"
+"sounds" "4"
+"target" "b-once"
+"style" "32"
+"delay" "0"
+"model" "*58"
+}
+{
+"classname" "i_t_g"
+"targetname" "b-once"
+"remove_goal_no" "190"
+"b_b" "Blue Is In!"
+"origin" "96 4048 8"
+}
+{
+"classname" "func_door"
+"spawnflags" "37"
+"targetname" "r3"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "-10"
+"model" "*59"
+}
+{
+"classname" "func_door"
+"spawnflags" "37"
+"targetname" "r1"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "-10"
+"health" "0"
+"model" "*60"
+}
+{
+"classname" "func_door"
+"spawnflags" "37"
+"targetname" "r2"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*61"
+}
+{
+"classname" "func_door"
+"spawnflags" "37"
+"targetname" "r4"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*62"
+}
+{
+"classname" "func_door"
+"spawnflags" "5"
+"targetname" "r5"
+"wait" "-1"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*63"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "37"
+"targetname" "g3"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "-10"
+"model" "*64"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "37"
+"targetname" "g1"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "-10"
+"health" "0"
+"model" "*65"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "37"
+"targetname" "g2"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*66"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "37"
+"targetname" "g4"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*67"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "5"
+"targetname" "g5"
+"wait" "-1"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*68"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"spawnflags" "37"
+"targetname" "y3"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "-10"
+"model" "*69"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"spawnflags" "37"
+"targetname" "y1"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"dmg" "0"
+"lip" "-10"
+"health" "0"
+"model" "*70"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"spawnflags" "37"
+"targetname" "y2"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*71"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"spawnflags" "37"
+"targetname" "y4"
+"wait" "4"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*72"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"spawnflags" "5"
+"targetname" "y5"
+"wait" "-1"
+"speed" "1000"
+"sounds" "1"
+"lip" "-10"
+"dmg" "0"
+"health" "0"
+"model" "*73"
+}
+{
+"classname" "trigger_once"
+"target" "r1"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "r2"
+"model" "*74"
+}
+{
+"classname" "trigger_once"
+"target" "r2"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "r3"
+"model" "*75"
+}
+{
+"classname" "trigger_once"
+"target" "r3"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "r4"
+"model" "*76"
+}
+{
+"classname" "trigger_once"
+"target" "r4"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "r5"
+"model" "*77"
+}
+{
+"classname" "trigger_once"
+"target" "y1"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "y2"
+"model" "*78"
+}
+{
+"classname" "trigger_once"
+"target" "y2"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "y3"
+"model" "*79"
+}
+{
+"classname" "trigger_once"
+"target" "y3"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "y4"
+"model" "*80"
+}
+{
+"classname" "trigger_once"
+"target" "y4"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "y5"
+"model" "*81"
+}
+{
+"classname" "trigger_once"
+"target" "g1"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "g2"
+"model" "*82"
+}
+{
+"classname" "trigger_once"
+"target" "g2"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "g3"
+"model" "*83"
+}
+{
+"classname" "trigger_once"
+"target" "g3"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "g4"
+"model" "*84"
+}
+{
+"classname" "trigger_once"
+"target" "g4"
+"style" "32"
+"delay" "0"
+"sounds" "4"
+"targetname" "g5"
+"model" "*85"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"targetname" "b5"
+"maxammo_shells" "1"
+"delay_time" "4"
+"b_b" "Blue is out....\n"
+"goal_result" "32"
+"remove_goal_no" "190"
+"target" "end1"
+"origin" "-40 4060 76"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "g2"
+"targetname" "gg1"
+"count" "2"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "43"
+"model" "*86"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "g1"
+"targetname" "gg1"
+"count" "1"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "42"
+"model" "*87"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "g3"
+"targetname" "gg1"
+"count" "3"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "44"
+"model" "*88"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "g4"
+"targetname" "gg1"
+"count" "4"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "45"
+"model" "*89"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "g5"
+"targetname" "gg1"
+"count" "5"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"remove_goal_no" "304"
+"model" "*90"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"target" "gg1"
+"targetname" "gsr"
+"goal_no" "193"
+"origin" "-4024 -82 106"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"target" "gg1"
+"g_a" "1"
+"items_allowed" "1"
+"axhitme" "1"
+"n_b" " Shoves It Up GREENS Backside!\n"
+"noise" "weapons/lstart.wav"
+"g_e" "1"
+"origin" "-4010 0 28"
+}
+{
+"classname" "i_t_g"
+"targetname" "gg1"
+"maxammo_shells" "4"
+"armortype" "0.8"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "50"
+"ammo_medikit" "2"
+"delay_time" "2"
+"increase_team4" "1"
+"origin" "-4064 -108 18"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"sounds" "4"
+"delay" "0"
+"targetname" "bg1"
+"target" "mass1"
+"origin" "-192 -648 -536"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"sounds" "4"
+"delay" "0"
+"targetname" "mass2"
+"target" "bsr"
+"origin" "-192 -688 -536"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"sounds" "4"
+"delay" "0"
+"targetname" "mass2"
+"target" "rsr"
+"origin" "-168 -688 -536"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"targetname" "r5"
+"maxammo_shells" "2"
+"delay_time" "4"
+"b_b" "Red is out....\n"
+"goal_result" "32"
+"remove_goal_no" "191"
+"target" "end1"
+"origin" "72 -4060 122"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"targetname" "g5"
+"maxammo_shells" "4"
+"delay_time" "4"
+"b_b" "Green is out....\n"
+"goal_result" "32"
+"remove_goal_no" "193"
+"target" "end1"
+"origin" "-4052 -82 98"
+}
+{
+"classname" "i_t_g"
+"targetname" "r-once"
+"remove_goal_no" "191"
+"b_b" "Red Is In!"
+"origin" "48 -4060 122"
+}
+{
+"classname" "i_t_g"
+"targetname" "g-once"
+"remove_goal_no" "193"
+"b_b" "Green Is In!"
+"origin" "-4076 -82 98"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"sounds" "4"
+"delay" "0"
+"targetname" "mass2"
+"target" "ysr"
+"origin" "-136 -688 -536"
+}
+{
+"classname" "trigger_relay"
+"style" "32"
+"sounds" "4"
+"delay" "0"
+"targetname" "mass2"
+"target" "gsr"
+"origin" "-104 -688 -536"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "y1"
+"targetname" "yg1"
+"count" "1"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "32"
+"model" "*91"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "y2"
+"targetname" "yg1"
+"count" "2"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "33"
+"model" "*92"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "y3"
+"targetname" "yg1"
+"count" "3"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "34"
+"model" "*93"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"target" "yg1"
+"g_a" "1"
+"items_allowed" "1"
+"axhitme" "1"
+"n_b" " Decides YELLOW Must Lose!\n"
+"noise" "weapons/lstart.wav"
+"g_e" "1"
+"origin" "4010 0 28"
+}
+{
+"classname" "i_t_g"
+"targetname" "yg1"
+"maxammo_shells" "3"
+"armortype" "0.8"
+"armorvalue" "300"
+"health" "300"
+"ammo_shells" "200"
+"ammo_nails" "200"
+"ammo_rockets" "50"
+"ammo_medikit" "2"
+"delay_time" "2"
+"increase_team3" "1"
+"origin" "4004 96 -2"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"target" "yg1"
+"targetname" "ysr"
+"goal_no" "192"
+"origin" "3976 72 86"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"targetname" "y5"
+"maxammo_shells" "3"
+"delay_time" "4"
+"b_b" "Yellow is out....\n"
+"goal_result" "32"
+"remove_goal_no" "192"
+"target" "end1"
+"origin" "4004 72 78"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "y4"
+"targetname" "yg1"
+"count" "4"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"restore_group_no" "35"
+"model" "*94"
+}
+{
+"classname" "trigger_counter"
+"angle" "-1"
+"spawnflags" "1"
+"target" "y5"
+"targetname" "yg1"
+"count" "5"
+"wait" "4"
+"speed" "100"
+"sounds" "1"
+"lip" "0"
+"dmg" "0"
+"delay" "0"
+"style" "32"
+"remove_goal_no" "303"
+"model" "*95"
+}
+{
+"classname" "i_t_g"
+"targetname" "y-once"
+"remove_goal_no" "192"
+"b_b" "Yellow Is In!"
+"origin" "4028 72 82"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "-2 -2164 24"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "-4 -1864 24"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "-10 -2488 65"
+}
+{
+"classname" "i_t_g"
+"target" "rsawpass"
+"g_a" "5"
+"goal_state" "2"
+"goal_max" "256 32 200"
+"team_no" "2"
+"wait" "4"
+"g_e" "0"
+"origin" "-116 -2330 -48"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"spawnflags" "1"
+"speed" "1200"
+"sounds" "3"
+"wait" "1"
+"lip" "0"
+"dmg" "500"
+"health" "0"
+"targetname" "rsaw1"
+"model" "*96"
+}
+{
+"classname" "func_door"
+"spawnflags" "1"
+"speed" "1200"
+"sounds" "3"
+"wait" "1"
+"lip" "0"
+"dmg" "500"
+"health" "0"
+"targetname" "rsaw1"
+"model" "*97"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "120"
+"style" "32"
+"model" "*98"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "0 -1392 -104"
+}
+{
+"classname" "trigger_push"
+"angle" "270"
+"speed" "30"
+"style" "32"
+"model" "*99"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "80 -1768 384"
+}
+{
+"classname" "trigger_push"
+"angle" "-2"
+"speed" "40"
+"style" "32"
+"model" "*100"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "0 -3352 78"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "80"
+"style" "32"
+"model" "*101"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "64 -3072 96"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "64 -3072 16"
+}
+{
+"classname" "trigger_push"
+"angle" "271"
+"speed" "150"
+"style" "32"
+"model" "*102"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "0 -3552 80"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "0 -3552 448"
+}
+{
+"classname" "info_null"
+"style" "0"
+"targetname" "rsl"
+"origin" "64 -3552 776"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "32"
+"speed" "10"
+"model" "*103"
+}
+{
+"classname" "trigger_hurt"
+"sounds" "4"
+"dmg" "500"
+"style" "32"
+"delay" "0"
+"model" "*104"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "32"
+"speed" "120"
+"model" "*105"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "400"
+"sounds" "2"
+"wait" "3"
+"lip" "8"
+"dmg" "0"
+"health" "0"
+"team_no" "1"
+"targetname" "rair1"
+"model" "*106"
+}
+{
+"classname" "func_door"
+"speed" "600"
+"sounds" "0"
+"wait" "10"
+"lip" "-4"
+"dmg" "200"
+"health" "0"
+"targetname" "rair1"
+"model" "*107"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "600"
+"sounds" "0"
+"wait" "10"
+"lip" "-4"
+"dmg" "200"
+"targetname" "rair1"
+"model" "*108"
+}
+{
+"classname" "light"
+"light" "140"
+"style" "0"
+"origin" "0 -3552 168"
+}
+{
+"classname" "ambient_drone"
+"origin" "0 -3552 720"
+}
+{
+"classname" "info_null"
+"targetname" "rsl2"
+"origin" "-64 -3552 776"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "0 -3552 640"
+}
+{
+"classname" "light"
+"target" "rsl"
+"light" "350"
+"origin" "64 -3552 624"
+}
+{
+"classname" "light"
+"light" "350"
+"target" "rsl2"
+"origin" "-64 -3552 624"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "5"
+"sounds" "0"
+"wait" "-1"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "r-once"
+"model" "*109"
+}
+{
+"classname" "light"
+"light" "330"
+"origin" "0 -1048 -672"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "0 -1392 -656"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "0 -4016 40"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "100"
+"style" "32"
+"model" "*110"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "100"
+"style" "32"
+"model" "*111"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "8000"
+"style" "33"
+"targetname" "rlite1"
+"origin" "0 -3960 40"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "600"
+"sounds" "2"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "rpit1"
+"model" "*112"
+}
+{
+"classname" "func_door"
+"speed" "600"
+"sounds" "2"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "rpit1"
+"model" "*113"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 -1720 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 -1320 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 -920 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 -520 -1280"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "180"
+"spawnflags" "2"
+"style" "0"
+"targetname" "rlaser"
+"origin" "116 -2696 -144"
+}
+{
+"classname" "light"
+"light" "380"
+"style" "0"
+"origin" "104 -2912 80"
+}
+{
+"classname" "light"
+"light" "380"
+"style" "0"
+"origin" "-104 -2912 80"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "-64 -3072 96"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "-64 -3072 16"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "600"
+"sounds" "2"
+"wait" "8"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "rfloor1"
+"model" "*114"
+}
+{
+"classname" "func_door"
+"speed" "600"
+"sounds" "2"
+"wait" "8"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "rfloor1"
+"model" "*115"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 -1864 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 -1936 -1224"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "0 -1936 -280"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "0 -1936 -960"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "0 -1936 -640"
+}
+{
+"classname" "trigger_push"
+"angle" "90"
+"speed" "100"
+"style" "32"
+"model" "*116"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"wait" "6"
+"target" "rfloorpass"
+"goal_state" "2"
+"origin" "-118 -3012 94"
+}
+{
+"classname" "i_t_g"
+"target" "rfloor1"
+"goal_state" "3"
+"group_no" "22"
+"targetname" "rfloorpass"
+"noise" "buttons/switch02.wav"
+"origin" "-116 -3002 134"
+}
+{
+"classname" "i_t_g"
+"target" "rsaw1"
+"goal_state" "3"
+"group_no" "24"
+"targetname" "rsawpass"
+"noise" "ogre/ogsawatk.wav"
+"origin" "-138 -2312 14"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "1"
+"targetname" "ralarm1"
+"speed" "100"
+"sounds" "0"
+"wait" "4"
+"lip" "-4"
+"dmg" "0"
+"health" "0"
+"model" "*117"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "5"
+"speed" "1000"
+"sounds" "2"
+"wait" "-1"
+"lip" "-8"
+"dmg" "500"
+"health" "0"
+"targetname" "r5"
+"model" "*118"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"wait" "6"
+"target" "rpitpass"
+"goal_state" "2"
+"origin" "118 -3014 94"
+}
+{
+"classname" "i_t_g"
+"target" "rpit1"
+"goal_state" "3"
+"group_no" "23"
+"targetname" "rpitpass"
+"noise" "buttons/switch02.wav"
+"origin" "118 -3012 134"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "180"
+"spawnflags" "2"
+"targetname" "rlaser"
+"origin" "116 -2744 -144"
+}
+{
+"classname" "i_t_g"
+"target" "rair1"
+"goal_state" "3"
+"group_no" "25"
+"targetname" "rairpass"
+"origin" "-132 -3550 2"
+}
+{
+"classname" "i_t_g"
+"target" "rairpass"
+"g_a" "5"
+"goal_state" "2"
+"goal_max" "256 192 200"
+"team_no" "2"
+"wait" "6"
+"g_e" "0"
+"origin" "-116 -3638 -60"
+}
+{
+"classname" "light"
+"light" "350"
+"style" "0"
+"origin" "0 -3856 32"
+}
+{
+"classname" "trap_spikeshooter"
+"spawnflags" "2"
+"style" "0"
+"targetname" "rlaser"
+"origin" "-116 -2672 -144"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"target" "rlaser"
+"style" "32"
+"delay" "0"
+"model" "*119"
+}
+{
+"classname" "trap_spikeshooter"
+"spawnflags" "2"
+"style" "0"
+"targetname" "rlaser"
+"origin" "-116 -2720 -144"
+}
+{
+"classname" "trap_spikeshooter"
+"spawnflags" "2"
+"style" "0"
+"targetname" "rlaser"
+"origin" "-116 -2768 -144"
+}
+{
+"classname" "i_p_t"
+"angle" "90"
+"team_no" "2"
+"origin" "-80 -1744 448"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"armortype" "0.8"
+"armorvalue" "400"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_medikit" "5"
+"message" "Kick Ass!!!!\n"
+"g_a" "1"
+"no_grenades_2" "-5"
+"goal_max" "256 96 32"
+"ammo_detpack" "-2"
+"ammo_cells" "-300"
+"origin" "-128 -1792 192"
+}
+{
+"classname" "i_p_t"
+"angle" "90"
+"team_no" "2"
+"origin" "80 -1744 448"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"goal_max" "256 16 96"
+"no_grenades_1" "-5"
+"playerclass" "1"
+"origin" "-128 -1680 192"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "r5"
+"speed" "400"
+"wait" "-1"
+"lip" "-4"
+"dmg" "0"
+"health" "0"
+"sounds" "1"
+"model" "*120"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"target" "rtele1"
+"model" "*121"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "0 -1392 168"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "-80 -1768 384"
+}
+{
+"classname" "trigger_once"
+"sounds" "4"
+"target" "r-once"
+"style" "32"
+"delay" "0"
+"model" "*122"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "3"
+"target" "ralarm1"
+"style" "32"
+"delay" "0"
+"g_a" "1"
+"items_allowed" "1"
+"model" "*123"
+}
+{
+"classname" "trigger_relay"
+"target" "rlite1"
+"targetname" "rg1"
+"delay" "0"
+"style" "33"
+"sounds" "4"
+"origin" "-108 -3990 118"
+}
+{
+"classname" "trigger_relay"
+"target" "rlite1"
+"targetname" "rg1"
+"delay" ".8"
+"style" "33"
+"sounds" "4"
+"origin" "-92 -3990 118"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "rtele1"
+"origin" "544 -874 -430"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"ammo_rockets" "-100"
+"ammo_shells" "-300"
+"ammo_nails" "-300"
+"no_grenades_1" "-5"
+"g_a" "1"
+"message" "Welcome to the Red Room...\n"
+"axhitme" "1"
+"origin" "548 -848 -446"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "-2164 2 24"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "-1864 4 24"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "-2488 10 65"
+}
+{
+"classname" "i_t_g"
+"target" "gsawpass"
+"g_a" "5"
+"goal_state" "2"
+"goal_max" "32 256 200"
+"team_no" "4"
+"wait" "4"
+"g_e" "0"
+"origin" "-2330 -116 -48"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "1"
+"speed" "1200"
+"sounds" "3"
+"wait" "1"
+"lip" "0"
+"dmg" "500"
+"health" "0"
+"targetname" "gsaw1"
+"model" "*124"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"spawnflags" "1"
+"speed" "1200"
+"sounds" "3"
+"wait" "1"
+"lip" "0"
+"dmg" "500"
+"health" "0"
+"targetname" "gsaw1"
+"model" "*125"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "120"
+"style" "32"
+"model" "*126"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-1392 0 -104"
+}
+{
+"classname" "trigger_push"
+"angle" "180"
+"speed" "30"
+"style" "32"
+"model" "*127"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "-1768 -80 384"
+}
+{
+"classname" "trigger_push"
+"angle" "-2"
+"speed" "40"
+"style" "32"
+"model" "*128"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "-3352 0 78"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "80"
+"style" "32"
+"model" "*129"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "-3072 -64 96"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "-3072 -64 16"
+}
+{
+"classname" "trigger_push"
+"angle" "1"
+"speed" "150"
+"style" "32"
+"model" "*130"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "-3552 0 80"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "-3552 0 448"
+}
+{
+"classname" "info_null"
+"style" "0"
+"targetname" "gsl"
+"origin" "-3552 -64 776"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "32"
+"speed" "10"
+"model" "*131"
+}
+{
+"classname" "trigger_hurt"
+"sounds" "4"
+"dmg" "500"
+"style" "32"
+"delay" "0"
+"model" "*132"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "32"
+"speed" "120"
+"model" "*133"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "400"
+"sounds" "2"
+"wait" "3"
+"lip" "8"
+"dmg" "0"
+"health" "0"
+"targetname" "gair1"
+"model" "*134"
+}
+{
+"classname" "func_door"
+"angle" "180"
+"speed" "600"
+"sounds" "0"
+"wait" "10"
+"lip" "-4"
+"dmg" "200"
+"health" "0"
+"targetname" "gair1"
+"model" "*135"
+}
+{
+"classname" "func_door"
+"speed" "600"
+"sounds" "0"
+"wait" "10"
+"lip" "-4"
+"dmg" "200"
+"targetname" "gair1"
+"model" "*136"
+}
+{
+"classname" "light"
+"light" "140"
+"style" "0"
+"origin" "-3552 0 168"
+}
+{
+"classname" "ambient_drone"
+"origin" "-3552 0 720"
+}
+{
+"classname" "info_null"
+"targetname" "gsl2"
+"origin" "-3552 64 776"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "-3552 0 640"
+}
+{
+"classname" "light"
+"target" "gsl"
+"light" "350"
+"origin" "-3552 -64 624"
+}
+{
+"classname" "light"
+"light" "350"
+"target" "gsl2"
+"origin" "-3552 64 624"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "5"
+"sounds" "0"
+"wait" "-1"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "g-once"
+"model" "*137"
+}
+{
+"classname" "light"
+"light" "330"
+"origin" "-1048 0 -672"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1392 0 -656"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "-4016 0 40"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "100"
+"style" "32"
+"model" "*138"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "100"
+"style" "32"
+"model" "*139"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "8000"
+"style" "34"
+"targetname" "glite1"
+"origin" "-3960 0 40"
+}
+{
+"classname" "trigger_relay"
+"target" "glite1"
+"targetname" "gg1"
+"delay" ".8"
+"style" "34"
+"sounds" "4"
+"origin" "-4016 64 40"
+}
+{
+"classname" "trigger_relay"
+"target" "glite1"
+"targetname" "gg1"
+"delay" "0"
+"style" "34"
+"sounds" "4"
+"origin" "-4016 48 40"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "600"
+"sounds" "2"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "gpit1"
+"model" "*140"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"speed" "600"
+"sounds" "2"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "gpit1"
+"model" "*141"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-1720 0 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-1320 0 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-920 0 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-520 0 -1280"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "90"
+"spawnflags" "2"
+"style" "0"
+"targetname" "glaser"
+"origin" "-2696 -116 -144"
+}
+{
+"classname" "light"
+"light" "380"
+"style" "0"
+"origin" "-2912 -104 80"
+}
+{
+"classname" "light"
+"light" "380"
+"style" "0"
+"origin" "-2912 104 80"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "-3072 64 96"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "-3072 64 16"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "600"
+"sounds" "2"
+"wait" "8"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "gfloor1"
+"model" "*142"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"speed" "600"
+"sounds" "2"
+"wait" "8"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "gfloor1"
+"model" "*143"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-1864 0 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-1936 0 -1224"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "-1936 0 -280"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "-1936 0 -960"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "-1936 0 -640"
+}
+{
+"classname" "trigger_push"
+"angle" "1"
+"speed" "110"
+"style" "32"
+"model" "*144"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"wait" "6"
+"target" "gfloorpass"
+"goal_state" "2"
+"origin" "-3012 118 94"
+}
+{
+"classname" "i_t_g"
+"target" "gfloor1"
+"goal_state" "3"
+"group_no" "42"
+"targetname" "gfloorpass"
+"noise" "buttons/switch02.wav"
+"origin" "-3002 116 134"
+}
+{
+"classname" "i_t_g"
+"target" "gsaw1"
+"goal_state" "3"
+"group_no" "44"
+"targetname" "gsawpass"
+"noise" "ogre/ogsawatk.wav"
+"origin" "-2328 -156 -24"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "1"
+"targetname" "galarm1"
+"speed" "100"
+"sounds" "0"
+"wait" "4"
+"lip" "-4"
+"dmg" "0"
+"health" "0"
+"model" "*145"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "5"
+"speed" "1000"
+"sounds" "2"
+"wait" "-1"
+"lip" "-8"
+"dmg" "500"
+"health" "0"
+"targetname" "g5"
+"model" "*146"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"wait" "6"
+"target" "gpitpass"
+"goal_state" "2"
+"origin" "-3012 -126 94"
+}
+{
+"classname" "i_t_g"
+"target" "gpit1"
+"goal_state" "3"
+"group_no" "43"
+"targetname" "gpitpass"
+"noise" "buttons/switch02.wav"
+"origin" "-2994 -142 134"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "90"
+"spawnflags" "2"
+"targetname" "glaser"
+"origin" "-2744 -116 -144"
+}
+{
+"classname" "i_t_g"
+"target" "gair1"
+"goal_state" "3"
+"group_no" "45"
+"targetname" "gairpass"
+"origin" "-3552 -132 2"
+}
+{
+"classname" "i_t_g"
+"target" "gairpass"
+"g_a" "5"
+"goal_state" "2"
+"goal_max" "192 256 200"
+"team_no" "4"
+"wait" "6"
+"g_e" "0"
+"origin" "-3638 -116 -60"
+}
+{
+"classname" "light"
+"light" "350"
+"style" "0"
+"origin" "-3856 0 32"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "270"
+"spawnflags" "2"
+"style" "0"
+"targetname" "glaser"
+"origin" "-2672 116 -144"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"target" "glaser"
+"style" "32"
+"delay" "0"
+"model" "*147"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "270"
+"spawnflags" "2"
+"style" "0"
+"targetname" "glaser"
+"origin" "-2720 116 -144"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "270"
+"spawnflags" "2"
+"style" "0"
+"targetname" "glaser"
+"origin" "-2768 116 -144"
+}
+{
+"classname" "i_p_t"
+"team_no" "4"
+"origin" "-1744 80 448"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"goal_max" "16 256 96"
+"no_grenades_1" "-5"
+"playerclass" "1"
+"origin" "-1680 -120 192"
+}
+{
+"classname" "i_p_t"
+"team_no" "4"
+"origin" "-1744 -80 448"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"armortype" "0.8"
+"armorvalue" "400"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_medikit" "5"
+"message" "Make Em' Pay!!\n"
+"g_a" "1"
+"no_grenades_2" "-5"
+"goal_max" "96 256 32"
+"ammo_detpack" "-2"
+"ammo_cells" "-300"
+"origin" "-1792 -120 192"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "g5"
+"speed" "400"
+"wait" "-1"
+"lip" "-4"
+"dmg" "0"
+"health" "0"
+"sounds" "1"
+"model" "*148"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"target" "gtele1"
+"model" "*149"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "-1392 0 168"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "-1768 80 384"
+}
+{
+"classname" "trigger_once"
+"sounds" "4"
+"target" "g-once"
+"style" "32"
+"delay" "0"
+"model" "*150"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "2164 -2 24"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "1864 -4 24"
+}
+{
+"classname" "light"
+"light" "370"
+"style" "0"
+"origin" "2488 -10 65"
+}
+{
+"classname" "i_t_g"
+"target" "ysawpass"
+"g_a" "5"
+"goal_state" "2"
+"goal_max" "32 256 200"
+"team_no" "3"
+"wait" "4"
+"g_e" "0"
+"origin" "2318 -116 -48"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"spawnflags" "1"
+"speed" "1200"
+"sounds" "3"
+"wait" "1"
+"lip" "0"
+"dmg" "500"
+"health" "0"
+"targetname" "ysaw1"
+"model" "*151"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"spawnflags" "1"
+"speed" "1200"
+"sounds" "3"
+"wait" "1"
+"lip" "0"
+"dmg" "500"
+"health" "0"
+"targetname" "ysaw1"
+"model" "*152"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "120"
+"style" "32"
+"model" "*153"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "1392 0 -104"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "1768 80 384"
+}
+{
+"classname" "trigger_push"
+"angle" "-2"
+"speed" "40"
+"style" "32"
+"model" "*154"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "3352 0 78"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "80"
+"style" "32"
+"model" "*155"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "3072 64 96"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "3072 64 16"
+}
+{
+"classname" "trigger_push"
+"angle" "180"
+"speed" "150"
+"style" "32"
+"model" "*156"
+}
+{
+"classname" "light"
+"light" "250"
+"style" "0"
+"origin" "3552 0 80"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "3552 0 448"
+}
+{
+"classname" "info_null"
+"style" "0"
+"targetname" "ysl"
+"origin" "3552 64 776"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "32"
+"speed" "10"
+"model" "*157"
+}
+{
+"classname" "trigger_hurt"
+"sounds" "4"
+"dmg" "500"
+"style" "32"
+"delay" "0"
+"model" "*158"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"style" "32"
+"speed" "120"
+"model" "*159"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"speed" "400"
+"sounds" "2"
+"wait" "3"
+"lip" "8"
+"dmg" "0"
+"health" "0"
+"targetname" "yair1"
+"model" "*160"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "600"
+"sounds" "0"
+"wait" "10"
+"lip" "-4"
+"dmg" "200"
+"health" "0"
+"targetname" "yair1"
+"model" "*161"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"speed" "600"
+"sounds" "0"
+"wait" "10"
+"lip" "-4"
+"dmg" "200"
+"targetname" "yair1"
+"model" "*162"
+}
+{
+"classname" "light"
+"light" "140"
+"style" "0"
+"origin" "3552 0 168"
+}
+{
+"classname" "ambient_drone"
+"origin" "3552 0 720"
+}
+{
+"classname" "info_null"
+"targetname" "ysl2"
+"origin" "3552 -64 776"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "3552 0 640"
+}
+{
+"classname" "light"
+"target" "ysl"
+"light" "350"
+"origin" "3552 64 624"
+}
+{
+"classname" "light"
+"light" "350"
+"target" "ysl2"
+"origin" "3552 -64 624"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "5"
+"sounds" "0"
+"wait" "-1"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "y-once"
+"model" "*163"
+}
+{
+"classname" "light"
+"light" "330"
+"origin" "1048 0 -672"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "1392 0 -656"
+}
+{
+"classname" "light"
+"light" "300"
+"style" "0"
+"origin" "4016 0 40"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "100"
+"style" "32"
+"model" "*164"
+}
+{
+"classname" "trigger_push"
+"angle" "-1"
+"speed" "100"
+"style" "32"
+"model" "*165"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "8000"
+"style" "35"
+"targetname" "ylite1"
+"origin" "3960 0 40"
+}
+{
+"classname" "trigger_relay"
+"target" "ylite1"
+"targetname" "yg1"
+"delay" ".8"
+"style" "35"
+"sounds" "4"
+"origin" "4016 -64 40"
+}
+{
+"classname" "trigger_relay"
+"target" "ylite1"
+"targetname" "yg1"
+"delay" "0"
+"style" "35"
+"sounds" "4"
+"origin" "4016 -48 40"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"speed" "600"
+"sounds" "2"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "ypit1"
+"model" "*166"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "600"
+"sounds" "2"
+"wait" "4"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "ypit1"
+"model" "*167"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1720 0 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1320 0 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "920 0 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "520 0 -1280"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "270"
+"spawnflags" "2"
+"style" "0"
+"targetname" "ylaser"
+"origin" "2696 116 -144"
+}
+{
+"classname" "light"
+"light" "380"
+"style" "0"
+"origin" "2912 104 80"
+}
+{
+"classname" "light"
+"light" "380"
+"style" "0"
+"origin" "2912 -104 80"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"origin" "3072 -64 96"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "0"
+"origin" "3072 -64 16"
+}
+{
+"classname" "func_door"
+"angle" "270"
+"speed" "600"
+"sounds" "2"
+"wait" "8"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "yfloor1"
+"model" "*168"
+}
+{
+"classname" "func_door"
+"angle" "90"
+"speed" "600"
+"sounds" "2"
+"wait" "8"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"targetname" "yfloor1"
+"model" "*169"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1864 0 -1280"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1936 0 -1224"
+}
+{
+"classname" "light"
+"light" "200"
+"origin" "1936 0 -280"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "1936 0 -960"
+}
+{
+"classname" "light"
+"light" "150"
+"origin" "1936 0 -640"
+}
+{
+"classname" "trigger_push"
+"angle" "180"
+"speed" "100"
+"style" "32"
+"model" "*170"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"wait" "6"
+"target" "yfloorpass"
+"goal_state" "2"
+"origin" "3004 -126 94"
+}
+{
+"classname" "i_t_g"
+"target" "yfloor1"
+"goal_state" "3"
+"group_no" "32"
+"targetname" "yfloorpass"
+"noise" "buttons/switch02.wav"
+"origin" "3010 -142 134"
+}
+{
+"classname" "i_t_g"
+"target" "ysaw1"
+"goal_state" "3"
+"group_no" "34"
+"targetname" "ysawpass"
+"noise" "ogre/ogsawatk.wav"
+"origin" "2316 -168 14"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "1"
+"targetname" "yalarm1"
+"speed" "100"
+"sounds" "0"
+"wait" "4"
+"lip" "-4"
+"dmg" "0"
+"health" "0"
+"model" "*171"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"spawnflags" "5"
+"speed" "1000"
+"sounds" "2"
+"wait" "-1"
+"lip" "-8"
+"dmg" "500"
+"health" "0"
+"targetname" "y5"
+"model" "*172"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"wait" "6"
+"target" "ypitpass"
+"goal_state" "2"
+"origin" "3004 118 94"
+}
+{
+"classname" "i_t_g"
+"target" "ypit1"
+"goal_state" "3"
+"group_no" "33"
+"targetname" "ypitpass"
+"noise" "buttons/switch02.wav"
+"origin" "2996 118 134"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "270"
+"spawnflags" "2"
+"targetname" "ylaser"
+"origin" "2744 116 -144"
+}
+{
+"classname" "i_t_g"
+"target" "yair1"
+"goal_state" "3"
+"group_no" "35"
+"targetname" "yairpass"
+"origin" "3554 -132 2"
+}
+{
+"classname" "i_t_g"
+"target" "yairpass"
+"g_a" "5"
+"goal_state" "2"
+"goal_max" "192 256 200"
+"team_no" "3"
+"wait" "6"
+"g_e" "0"
+"origin" "3466 -116 -60"
+}
+{
+"classname" "light"
+"light" "350"
+"style" "0"
+"origin" "3856 0 32"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "90"
+"spawnflags" "2"
+"style" "0"
+"targetname" "ylaser"
+"origin" "2672 -116 -144"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"target" "ylaser"
+"style" "32"
+"delay" "0"
+"model" "*173"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "90"
+"spawnflags" "2"
+"style" "0"
+"targetname" "ylaser"
+"origin" "2720 -116 -144"
+}
+{
+"classname" "trap_spikeshooter"
+"angle" "90"
+"spawnflags" "2"
+"style" "0"
+"targetname" "ylaser"
+"origin" "2768 -116 -144"
+}
+{
+"classname" "i_p_t"
+"angle" "180"
+"team_no" "3"
+"origin" "1744 -80 448"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"goal_max" "16 256 96"
+"no_grenades_1" "-5"
+"playerclass" "1"
+"origin" "1648 -120 192"
+}
+{
+"classname" "i_p_t"
+"angle" "180"
+"team_no" "3"
+"origin" "1744 80 448"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"armortype" "0.8"
+"armorvalue" "400"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "300"
+"ammo_medikit" "5"
+"message" "Kill Em' All!!\n"
+"g_a" "1"
+"no_grenades_2" "-5"
+"goal_max" "96 265 32"
+"ammo_detpack" "-2"
+"ammo_cells" "-300"
+"origin" "1696 -120 192"
+}
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "y5"
+"speed" "400"
+"wait" "-1"
+"lip" "-4"
+"dmg" "0"
+"health" "0"
+"sounds" "1"
+"model" "*174"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"target" "ytele1"
+"model" "*175"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"origin" "1392 0 168"
+}
+{
+"classname" "light"
+"light" "500"
+"style" "0"
+"origin" "1768 -80 384"
+}
+{
+"classname" "trigger_once"
+"sounds" "4"
+"target" "y-once"
+"style" "32"
+"delay" "0"
+"model" "*176"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "3"
+"target" "yalarm1"
+"style" "32"
+"delay" "0"
+"g_a" "1"
+"items_allowed" "1"
+"model" "*177"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "3"
+"target" "galarm1"
+"style" "32"
+"delay" "0"
+"g_a" "1"
+"items_allowed" "1"
+"model" "*178"
+}
+{
+"classname" "info_teleport_destination"
+"targetname" "gtele1"
+"origin" "-868 -554 -430"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"ammo_rockets" "-100"
+"ammo_shells" "-300"
+"ammo_nails" "-300"
+"no_grenades_1" "-5"
+"g_a" "1"
+"message" "Welcome to the Green Room...\n"
+"axhitme" "1"
+"origin" "-840 -556 -446"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "180"
+"targetname" "ytele1"
+"origin" "864 550 -430"
+}
+{
+"classname" "i_t_g"
+"g_e" "1"
+"ammo_rockets" "-100"
+"ammo_shells" "-300"
+"ammo_nails" "-300"
+"no_grenades_1" "-5"
+"g_a" "1"
+"message" "Welcome to the Yellow Room...\n"
+"axhitme" "1"
+"origin" "836 552 -446"
+}
+{
+"classname" "trigger_counter"
+"spawnflags" "1"
+"style" "32"
+"delay" "4"
+"count" "3"
+"target" "end2"
+"sounds" "4"
+"targetname" "end1"
+"message" "GAME OVER"
+"model" "*179"
+}
+{
+"classname" "i_t_g"
+"targetname" "end2"
+"goal_result" "4"
+"delay_time" "8"
+"origin" "-84 4036 -42"
+}
+{
+"classname" "i_t_g"
+"items_allowed" "1"
+"g_a" "1"
+"g_e" "1"
+"armortype" "0.8"
+"armorvalue" "400"
+"health" "300"
+"ammo_shells" "300"
+"ammo_nails" "300"
+"ammo_rockets" "50"
+"ammo_cells" "20"
+"wait" "8"
+"goal_result" "2"
+"noise" "misc/power.wav"
+"delay_time" "3"
+"message" "Juiced!!\n"
+"origin" "8 8 132"
+}
+{
+"classname" "trigger_push"
+"angle" "1"
+"speed" "35"
+"style" "32"
+"model" "*180"
+}
+{
+"classname" "info_player_start"
+"angle" "88"
+"origin" "1280 340 152"
+}
+{
+"classname" "light"
+"light" "450"
+"style" "0"
+"origin" "1280 352 175"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "b1"
+"skin" "0"
+"mdl" "progs/score1.mdl"
+"group_no" "100"
+"restore_group_no" "101"
+"goal_result" "1"
+"origin" "1344 465 216"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "b2"
+"skin" "1"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"goal_result" "1"
+"group_no" "101"
+"restore_group_no" "102"
+"origin" "1344 465 216"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "b3"
+"skin" "2"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "102"
+"goal_result" "1"
+"restore_group_no" "103"
+"origin" "1344 465 216"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "b4"
+"skin" "3"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "103"
+"goal_result" "1"
+"restore_group_no" "104"
+"origin" "1344 465 216"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "b5"
+"skin" "4"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "104"
+"goal_result" "1"
+"restore_group_no" "105"
+"origin" "1344 465 216"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"skin" "5"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "105"
+"origin" "1344 465 216"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "r1"
+"mdl" "progs/score1.mdl"
+"restore_group_no" "201"
+"origin" "1344 465 186"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "r2"
+"skin" "1"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"goal_result" "1"
+"group_no" "201"
+"restore_group_no" "202"
+"origin" "1344 465 186"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "r3"
+"skin" "2"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "202"
+"goal_result" "1"
+"restore_group_no" "203"
+"origin" "1344 465 186"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "r4"
+"skin" "3"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "203"
+"goal_result" "1"
+"restore_group_no" "204"
+"origin" "1344 465 186"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "r5"
+"skin" "4"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "204"
+"goal_result" "1"
+"restore_group_no" "205"
+"origin" "1344 465 186"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"skin" "5"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "205"
+"goal_result" "0"
+"origin" "1344 465 186"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "y1"
+"skin" "0"
+"mdl" "progs/score1.mdl"
+"group_no" "300"
+"restore_group_no" "301"
+"goal_result" "1"
+"origin" "1344 465 156"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "y2"
+"skin" "1"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"goal_result" "1"
+"group_no" "301"
+"restore_group_no" "302"
+"origin" "1344 465 156"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "y3"
+"skin" "2"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "302"
+"goal_result" "1"
+"restore_group_no" "303"
+"origin" "1344 465 156"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "y4"
+"skin" "3"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "303"
+"goal_result" "1"
+"restore_group_no" "304"
+"origin" "1344 465 156"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "y5"
+"skin" "4"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "304"
+"goal_result" "1"
+"restore_group_no" "305"
+"origin" "1344 465 156"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"skin" "5"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "305"
+"origin" "1344 465 156"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "g1"
+"skin" "0"
+"mdl" "progs/score1.mdl"
+"group_no" "400"
+"restore_group_no" "401"
+"goal_result" "1"
+"origin" "1344 465 126"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "g2"
+"skin" "1"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"goal_result" "1"
+"group_no" "401"
+"restore_group_no" "402"
+"origin" "1344 465 126"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "g3"
+"skin" "2"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "402"
+"goal_result" "1"
+"restore_group_no" "403"
+"origin" "1344 465 126"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "g4"
+"skin" "3"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "403"
+"goal_result" "1"
+"restore_group_no" "404"
+"origin" "1344 465 126"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"targetname" "g5"
+"skin" "4"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "404"
+"goal_result" "1"
+"restore_group_no" "405"
+"origin" "1344 465 126"
+}
+{
+"classname" "i_t_g"
+"angle" "270"
+"skin" "5"
+"goal_state" "3"
+"mdl" "progs/score1.mdl"
+"group_no" "405"
+"origin" "1344 465 126"
+}
+{
+"classname" "info_intermission"
+"mangle" "0 90 0"
+"origin" "1280 348 168"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"items_allowed" "1"
+"n_b" " Realizes The Error Of His Ways\n"
+"g_e" "1"
+"health" "-300"
+"team_no" "1"
+"wait" "8"
+"goal_max" "96 16 96"
+"origin" "-38 3978 16"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"items_allowed" "1"
+"n_b" " Loses His Sense Of Direction\n"
+"g_e" "1"
+"health" "-300"
+"team_no" "2"
+"wait" "8"
+"goal_max" "96 16 96"
+"origin" "-50 -3942 6"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"items_allowed" "1"
+"n_b" " Wishes He Hadn't Done That\n"
+"g_e" "1"
+"health" "-300"
+"team_no" "3"
+"wait" "8"
+"goal_max" "16 96 96"
+"origin" "3964 -40 12"
+}
+{
+"classname" "i_t_g"
+"g_a" "1"
+"items_allowed" "1"
+"n_b" " Kisses The Sky!!"
+"g_e" "1"
+"health" "-300"
+"team_no" "4"
+"wait" "8"
+"goal_max" "16 96 96"
+"origin" "-3942 -54 6"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "-1568 0 40"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "1584 0 40"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "0 -1568 40"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "0 1568 40"
+}
+{
+"classname" "func_door"
+"spawnflags" "1"
+"speed" "100"
+"sounds" "1"
+"wait" "-1"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "b5"
+"model" "*181"
+}
+{
+"classname" "func_door"
+"spawnflags" "1"
+"speed" "100"
+"sounds" "1"
+"wait" "-1"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "r5"
+"model" "*182"
+}
+{
+"classname" "func_door"
+"spawnflags" "1"
+"speed" "100"
+"sounds" "1"
+"wait" "-1"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "y5"
+"model" "*183"
+}
+{
+"classname" "func_door"
+"spawnflags" "1"
+"speed" "100"
+"sounds" "1"
+"wait" "-1"
+"lip" "-8"
+"dmg" "0"
+"health" "0"
+"targetname" "g5"
+"model" "*184"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"goal_max" "256 208 4"
+"playerclass" "6"
+"ammo_cells" "60"
+"wait" "2"
+"origin" "-128 1264 128"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"goal_max" "256 208 4"
+"playerclass" "6"
+"ammo_cells" "60"
+"wait" "2"
+"origin" "-128 -1472 128"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"goal_max" "208 256 4"
+"playerclass" "6"
+"ammo_cells" "60"
+"wait" "2"
+"origin" "1264 -128 128"
+}
+{
+"classname" "info_tfgoal"
+"g_e" "1"
+"g_a" "1"
+"goal_max" "208 256 4"
+"playerclass" "6"
+"ammo_cells" "60"
+"wait" "2"
+"origin" "-1472 -128 128"
+}
+{
+"style" "32"
+"classname" "i_t_g"
+"targetname" "mass1"
+"wait" "10"
+"target" "mass2"
+"origin" "-156 -668 -544"
+}
+{
+"classname" "i_t_g"
+"targetname" "end2"
+"goal_no" "301"
+"b_b" "BLUE IS VICTORIOUS"
+"delay_time" "4"
+"origin" "-188 -720 -516"
+}
+{
+"classname" "i_t_g"
+"targetname" "end2"
+"goal_no" "302"
+"b_b" "RED WINS THE MATCH"
+"delay_time" "4"
+"origin" "-160 -720 -516"
+}
+{
+"classname" "i_t_g"
+"targetname" "end2"
+"goal_no" "303"
+"b_b" "YELLOW CRUSHES ITS OPPONENTS"
+"delay_time" "4"
+"origin" "-132 -720 -516"
+}
+{
+"classname" "i_t_g"
+"targetname" "end2"
+"goal_no" "304"
+"b_b" "GREEN STANDS ALONE....."
+"delay_time" "4"
+"origin" "-104 -720 -516"
+}

@@ -1,0 +1,125 @@
+**** This map designed for the TeamFortress v2.5 quakeC mod ****
+7/1/97
+================================================================
+Title                   : The Canal Zone
+Filename                : canalzon.zip
+Author                  : David Sawyer (Ramirez)
+Email Address           : sawyer@execpc.com
+Web Page		: www.lockandload.com/urbanwarfare
+Description             : TeamFortress v2.5 Quake Map
+
+               Check out the TeamFortress homepage at:
+               http://www.planetquake.com/teamfortress
+================================================================
+* Play Information *
+
+This map does not work properly without the TeamFortress v2.5 QuakeC
+patch, which can be downloaded from http://www.planetquake.com/teamfortress
+or from ftp.cdrom.com
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+TeamFortress            : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+
+Editor(s) used          : Worldcraft
+Known Bugs              : 1 bug which shows up in QuakeWorld only. On occasion,
+			  when a command point is captured, the key model does
+			  not appear properly over the newly captured spot.
+			  Sometimes it shows up after about 5 seconds, sometimes
+			  longer, sometimes not at all. Fortunately, this _does not_ 
+			  effect scoring, and future versions of Team Fortress
+			  might be able to correct this bug. There is nothing that
+			  can be done about it from my end. *8-(
+Build Time              : Too damn long. *8-) 3-4 weeks of intensive work
+			  spread out over several months. Now that I have the
+			  hang of things, my next levels should go much faster.
+			  Compile time of roughly 2.5 hours on a P200 w/128 meg 
+			  of RAM. (borrowed computer, heh)
+
+Thanks to               - id software of course for Quake
+			- all of the Team Fortress guys for a great patch
+			- most especially Robin of TF for his tons of help
+			  with learning the TF entities and getting them working
+			  properly
+			- Vortex and Clan Gothic Terror for helping me test this
+			  map on their QW server
+			- Clan Phantasm for the idea for the intermission scene. Heh.
+			- Regi for letting me use his office computers for compiling
+			  and testing.
+			- Matt Armstrong for general brainstorming and various good
+			  ideas. *8-)
+			- Apologies if I missed anyone.
+
+General overview:
+
+ This is a two-team Team Fortress map using an entirely new scoring system that
+I call my Command Point System. Scoring is based on the idea of territorial control
+of a level, centered around a number of command points spread throughout the map.
+Control of a command point signifies general control of the surrounding area of
+the map. There are eight command points in the Canal Zone, and the scoring works
+like this:
+
+	- Each command point can only be controlled by one team at a time (duh).
+
+	- Once a team takes control of a command point, that team gets 1 point
+	  for every 30 seconds they remain in control.
+
+	- To take control of a command point, someone must take one of the four
+	  command markers (they look like keys) from their own base, and take it
+	  to the command point they want to control. While carrying a command
+	  marker, the player runs at half speed and glows. The half speed feature
+	  is intended to make it very difficult for lone runners to just dash in
+	  and claim a command point by simply dodging the defense.
+
+	- As soon as a command marker touches a command point, the command point
+	  is under control of whichever team just claimed it. An appropriately
+	  colored key appears above the command point to show who is in control.
+	  The command marker is taken from the carrying player and reappears back
+	  at base for further use.
+
+	- In addition to getting points for owning a command point, most command
+	  points also have ammo packs and healing pads nearby which become
+	  accessible to the controlling team. Future versions of the Canal Zone
+	  (once v2.6 is released) should also include new respawn points which
+	  become accessible through control of a command point.
+
+	- Control of all of a team's command points can be broken at once by
+	  setting a detpack in the control room of their base.
+
+Other nifty features:
+
+ That funny looking thing on the wall of each base with blue, red, and white spots
+is a fairly general map of the level. Since there's no real detail, it's no good
+for navigation. It's there so that teams can see who is control of which command
+points without having to scout the whole level. As soon as a team captures a command
+point, the 30 second score timer is activated. 30 seconds after a command point is
+taken, the corresponding white dot (representing a command point) on the map changes
+color to show who owns it. I didn't originally intend the 30-second delay, but I
+don't think it really hurts things at all, and I've actually decided I kinda like it.
+
+ There are two spots on this level where detpacks can be used to create an alternate
+path to a command point.
+
+
+Random notes:
+
+ I know I'm missing some general messages that should be activated when you do
+things like pick up a command marker, but I discovered that there's a very annoying 
+entity size limit in Quake levels, and I blew right past it the first time I tried 
+to do a full compile with all the entities. As a result, I had to condense things 
+a lot and take out things that weren't absolutely necessary. Fortunately, version 
+2.6 of Team Fortress should include new abbreviations for entities that I can use, 
+and that'll give me a little more space to work with, so hopefully I'll be able to 
+flesh things out a little.
+
+ The file size of this level is a bit too large to run with the standard 8mb ram
+limit. You'll either need to use the -winmem command or just use winquake. QuakeWorld
+users shouldn't have a problem since I believe it already requires 16mb of ram.

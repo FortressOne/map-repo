@@ -1,0 +1,1353 @@
+{
+"classname" "worldspawn"
+"worldtype" "0"
+"message" "       2∆ÔÚÙ5-ÖÕÂÁ·‘∆ü\nùê⁄·–ëÖ˜˜˜ÆÓÂÙÊÚ·ÁÆ„ÔÌéê⁄·–ëü\n"
+}
+{
+"classname" "info_tfdetect"
+"t_s_m" "Ÿœ’“ flag: down."
+"n_s_m" "≈Œ≈ÕŸ flag: down."
+"b_b" "TeamFortress"
+"b_t" "îFORT5\nùûü CHOOSE YOUR TEAM ùûü\n\nêëÖ BLUE TEAM\nêëÖ “≈ƒ TEAM \nê5ëÖ AutoPick\n"
+"hook_out" "1"
+"n_s_h" "≈Œ≈ÕŸ flag: base."
+"t_s_c" "Ÿœ’“ flag: carried by"
+"origin" "-80 -60 108"
+"t_s_h" "Ÿœ’“ flag: base."
+"b_n" "îFort-: Capture the enemy flag!\n"
+"impulse" "64"
+"display_item_status2" "2"
+"display_item_status1" "1"
+"n_s_c" "≈Œ≈ÕŸ flag: carried by"
+}
+{
+"classname" "info_player_start"
+"angle" "270"
+"origin" "-352 544 28"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"origin" "-384 -712 20"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "110"
+"origin" "-12 -452 76"
+}
+{
+"classname" "i_t_g"
+"targetname" "superquad"
+"health" "300"
+"armorvalue" "300"
+"armortype" "0.8"
+"g_e" "4"
+"super_damage_finished" "0"
+"wait" "1"
+"origin" "0 0 0"
+}
+{
+"classname" "trigger_once"
+"group_no" "1"
+"delay" "120"
+"style" "32"
+"model" "*7"
+"sounds" "4"
+"target" "removekill"
+}
+{
+"classname" "trigger_once"
+"group_no" "1"
+"delay" "120"
+"style" "32"
+"model" "*15"
+"sounds" "4"
+"target" "removekill"
+}
+{
+"classname" "i_t_g"
+"targetname" "removekill"
+"b_b" "You can now cap the flag!\n"
+"remove_group_no" "1"
+"origin" "0 0 0"
+}
+{
+"classname" "i_t_g"
+"mdl" "progs/soldier.mdl"
+"angle" "135"
+"group_no" "1"
+"team_no" "2"
+"goal_result" "2"
+"activate_goal_no" "10"
+"noise" "soldier/idle.wav"
+"origin" "444 -3488 -388"
+"netname" "The Otis Blue"
+"message" "Otis says NO!\n"
+"g_a" "1"
+}
+{
+"classname" "i_t_g"
+"mdl" "progs/soldier.mdl"
+"angle" "315"
+"group_no" "1"
+"team_no" "1"
+"goal_result" "2"
+"activate_goal_no" "10"
+"noise" "soldier/idle.wav"
+"origin" "-444 3476 -388"
+"netname" "The Otis Red"
+"message" "Otis says NO!\n"
+"g_a" "1"
+}
+{
+"classname" "i_t_g"
+"group_no" "1"
+"health" "-999"
+"goal_no" "10"
+"g_e" "1"
+"origin" "0 0 0"
+"n_b" " tried to grab the flag during the first 120 seconds...\n"
+"netname" "Premature Cap Killer"
+}
+{
+"classname" "ambient_meadow"
+"origin" "1 600 -150"
+}
+{
+"classname" "ambient_meadow"
+"origin" "1 -600 -150"
+}
+{
+"classname" "info_intermission"
+"mangle" "15 90 0"
+"origin" "0 -576 -128"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "bluespawndoor1"
+"lip" "2"
+"team_no" "1"
+"dmg" "50"
+"wait" "1"
+"model" "*7"
+"sounds" "1"
+"speed" "500"
+}
+{
+"classname" "trigger_multiple"
+"lip" "2"
+"style" "32"
+"model" "*8"
+"target" "bluespawndoor1"
+}
+{
+"classname" "i_p_t"
+"angle" "4"
+"team_no" "1"
+"origin" "-1760 -1536 58"
+}
+{
+"classname" "i_p_t"
+"angle" "333"
+"team_no" "1"
+"origin" "-1760 -1280 58"
+}
+{
+"classname" "i_p_t"
+"angle" "312"
+"team_no" "1"
+"origin" "-1696 -1280 58"
+}
+{
+"classname" "i_p_t"
+"angle" "297"
+"team_no" "1"
+"origin" "-1616 -1280 66"
+}
+{
+"classname" "i_p_t"
+"angle" "16"
+"team_no" "1"
+"origin" "-1696 -1600 58"
+}
+{
+"classname" "i_p_t"
+"angle" "68"
+"team_no" "1"
+"origin" "-1616 -1600 58"
+}
+{
+"classname" "i_p_t"
+"angle" "348"
+"team_no" "1"
+"origin" "-1760 -1344 58"
+}
+{
+"classname" "i_p_t"
+"team_no" "1"
+"origin" "-1760 -1472 58"
+}
+{
+"classname" "i_p_t"
+"angle" "357"
+"team_no" "1"
+"origin" "-1760 -1408 58"
+}
+{
+"classname" "i_p_t"
+"angle" "19"
+"team_no" "1"
+"origin" "-1760 -1600 58"
+}
+{
+"classname" "i_p_t"
+"angle" "4"
+"team_no" "1"
+"origin" "-1760 -1536 58"
+}
+{
+"classname" "trigger_multiple"
+"team_no" "1"
+"model" "*4"
+"netname" "resupplyin1"
+"target" "btarget1"
+}
+{
+"classname" "func_door"
+"targetname" "btarget1"
+"angle" "-1"
+"team_no" "1"
+"lip" "2"
+"dmg" "50"
+"wait" "1"
+"model" "*1"
+"sounds" "1"
+"speed" "500"
+}
+{
+"classname" "i_t_g"
+"team_no" "1"
+"origin" "-1100 -1600 36"
+"netname" "info_tfgoal"
+"target" "btarget1"
+"g_a" "1"
+}
+{
+"classname" "i_t_g"
+"team_no" "1"
+"origin" "-1100 -1650 36"
+"target" "btarget1"
+"g_a" "1"
+}
+{
+"classname" "item_cells"
+"origin" "-1292 -1315 36"
+"spawnflags" "1"
+}
+{
+"classname" "item_rockets"
+"angle" "90"
+"origin" "-1223 -1315 36"
+"spawnflags" "1"
+}
+{
+"classname" "item_spikes"
+"origin" "-1200 -1315 36"
+"spawnflags" "1"
+}
+{
+"classname" "item_shells"
+"origin" "-1150 -1315 36"
+"spawnflags" "1"
+}
+{
+"classname" "item_armorInv"
+"origin" "-1328 -1680 32"
+}
+{
+"classname" "item_health"
+"origin" "-1280 -1696 32"
+}
+{
+"classname" "trigger_multiple"
+"team_no" "1"
+"style" "32"
+"model" "*5"
+"netname" "resupplyout1"
+"target" "btarget2"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "btarget2"
+"lip" "2"
+"team_no" "1"
+"dmg" "50"
+"wait" "1"
+"model" "*3"
+"sounds" "1"
+"speed" "500"
+}
+{
+"classname" "i_t_g"
+"team_no" "1"
+"frags" "10"
+"count" "10"
+"g_e" "19"
+"b_t" "Ÿœ’“ team √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"n_n" " √¡–‘’“≈ƒ Ÿœ’“ flag!\n"
+"origin" "-12 -1036 64"
+"noise" "speech/cartcool.wav"
+"b_n" "Ÿœ’“ flag was √¡–‘’“≈ƒ!\n"
+"axhitme" "2"
+"message" "You √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"netname" "Blue Capture"
+"target" "superquad"
+"items_allowed" "2"
+"n_t" " √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"g_a" "1"
+}
+{
+"classname" "trigger_push"
+"angle" "90"
+"team_no" "2"
+"delay" "0"
+"style" "32"
+"model" "*19"
+"sounds" "1"
+"netname" "Blue Sniper wind Door"
+"owned_by" "1"
+"speed" "150"
+}
+{
+"classname" "i_p_t"
+"angle" "89"
+"team_no" "1"
+"origin" "-64 -1616 48"
+}
+{
+"classname" "i_p_t"
+"angle" "90"
+"team_no" "1"
+"origin" "28 -1616 48"
+}
+{
+"classname" "item_artifact_envirosuit"
+"team_no" "1"
+"origin" "535 -1460 -825"
+}
+{
+"classname" "item_artifact_envirosuit"
+"team_no" "1"
+"origin" "575 -1460 -825"
+}
+{
+"classname" "ambient_flagflap"
+"volume" "0.5"
+"origin" "520 -3550 -388"
+}
+{
+"classname" "item_tfgoal"
+"mdl" "progs/tf_flag.mdl"
+"angle" "135"
+"d_n" "Ÿœ’“ team ÏÔÛÙ the ≈Œ≈ÕŸ flag!\n"
+"skin" "1"
+"pausetime" "60"
+"team_no" "2"
+"noise4" "The ≈Œ≈ÕŸ flag was returned to base!\n"
+"n_o" " ‘œœÀ Ÿœ’“ flag!\n"
+"goal_no" "1"
+"items" "131072"
+"noise3" "Ÿœ’“ flag was returned to base!\n"
+"d_t" "The ≈Œ≈ÕŸ ÏÔÛÙ Ÿœ’“ flag!\n"
+"b_o" "\n\n\nŸœ’“ flag has been ‘¡À≈Œ!\n"
+"b_t" "\n\n\nŸœ’“ team has the ≈Œ≈ÕŸ flag!\n"
+"noise" "speech/yoink.wav"
+"origin" "444 -3488 -388"
+"netname" "Blue Flag"
+"message" "Ÿœ’ have the ≈Œ≈ÕŸ flag!\nTake it Home!\n"
+"owned_by" "1"
+"n_t" " ‘œœÀ the ≈Œ≈ÕŸ flag!\n"
+"g_a" "693"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "bluespawndoor2"
+"lip" "2"
+"team_no" "1"
+"dmg" "50"
+"wait" "1"
+"model" "*17"
+"sounds" "1"
+"speed" "500"
+}
+{
+"classname" "trigger_multiple"
+"lip" "2"
+"style" "32"
+"model" "*18"
+"target" "bluespawndoor2"
+}
+{
+"classname" "i_p_t"
+"angle" "147"
+"team_no" "1"
+"origin" "1512 -2192 30"
+}
+{
+"classname" "i_p_t"
+"angle" "95"
+"team_no" "1"
+"origin" "1432 -2192 38"
+}
+{
+"classname" "item_armorInv"
+"origin" "890 -2125 24"
+}
+{
+"classname" "item_shells"
+"origin" "930 -2140 24"
+"spawnflags" "1"
+}
+{
+"classname" "item_spikes"
+"origin" "970 -2140 24"
+"spawnflags" "1"
+}
+{
+"classname" "item_health"
+"origin" "1020 -2140 24"
+}
+{
+"classname" "item_rockets"
+"origin" "1060 -2140 24"
+"spawnflags" "1"
+}
+{
+"classname" "item_cells"
+"origin" "1100 -2140 24"
+"spawnflags" "1"
+}
+{
+"classname" "trigger_push"
+"angle" "-2"
+"team_no" "2"
+"delay" "2"
+"style" "32"
+"model" "*2"
+"netname" "Blue Resupply 2 anti-red-wind"
+"owned_by" "1"
+"speed" "5"
+}
+{
+"classname" "item_shells"
+"origin" "-908 -4008 -416"
+"spawnflags" "1"
+}
+{
+"classname" "item_spikes"
+"origin" "-908 -3944 -416"
+"spawnflags" "1"
+}
+{
+"classname" "item_rockets"
+"origin" "-908 -3888 -416"
+"spawnflags" "1"
+}
+{
+"classname" "item_cells"
+"origin" "-908 -3832 -416"
+"spawnflags" "1"
+}
+{
+"classname" "item_armorInv"
+"origin" "-1160 -4024 -416"
+}
+{
+"classname" "item_armorInv"
+"origin" "-1160 -3844 -416"
+}
+{
+"classname" "item_health"
+"origin" "-1176 -3912 -416"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"team_no" "1"
+"wait" "1"
+"model" "*23"
+"sounds" "1"
+"netname" "Blue Resupply 3 door"
+"speed" "500"
+}
+{
+"classname" "func_plat"
+"team_no" "1"
+"height" "464"
+"wait" "1"
+"sounds" "1"
+"model" "*6"
+"netname" "Blue Elevator"
+"speed" "1500"
+}
+{
+"classname" "func_door"
+"targetname" "redspawndoor1"
+"angle" "-1"
+"lip" "2"
+"team_no" "2"
+"dmg" "50"
+"wait" "1"
+"model" "*15"
+"sounds" "1"
+"speed" "500"
+}
+{
+"classname" "trigger_multiple"
+"team_no" "2"
+"style" "32"
+"model" "*16"
+"target" "redspawndoor1"
+}
+{
+"classname" "i_p_t"
+"angle" "184"
+"team_no" "2"
+"origin" "1752 1520 58"
+}
+{
+"classname" "i_p_t"
+"angle" "162"
+"team_no" "2"
+"origin" "1752 1328 58"
+}
+{
+"classname" "i_p_t"
+"angle" "171"
+"team_no" "2"
+"origin" "1752 1392 58"
+}
+{
+"classname" "i_p_t"
+"angle" "159"
+"team_no" "2"
+"origin" "1688 1264 58"
+}
+{
+"classname" "i_p_t"
+"angle" "159"
+"team_no" "2"
+"origin" "1608 1264 66"
+}
+{
+"classname" "i_p_t"
+"angle" "162"
+"team_no" "2"
+"origin" "1752 1328 58"
+}
+{
+"classname" "i_p_t"
+"angle" "171"
+"team_no" "2"
+"origin" "1752 1392 58"
+}
+{
+"classname" "i_p_t"
+"angle" "183"
+"team_no" "2"
+"origin" "1752 1456 58"
+}
+{
+"classname" "i_p_t"
+"angle" "213"
+"team_no" "2"
+"origin" "1752 1584 58"
+}
+{
+"classname" "i_p_t"
+"angle" "155"
+"team_no" "2"
+"origin" "1752 1264 58"
+}
+{
+"classname" "i_p_t"
+"angle" "237"
+"team_no" "2"
+"origin" "1608 1584 58"
+}
+{
+"classname" "i_p_t"
+"angle" "214"
+"team_no" "2"
+"origin" "1688 1584 58"
+}
+{
+"classname" "trigger_multiple"
+"team_no" "2"
+"model" "*12"
+"netname" "resupplyin2"
+"target" "rtarget1"
+}
+{
+"classname" "func_door"
+"targetname" "rtarget1"
+"angle" "-1"
+"team_no" "2"
+"lip" "2"
+"dmg" "50"
+"wait" "1"
+"model" "*9"
+"sounds" "1"
+"speed" "500"
+}
+{
+"classname" "i_t_g"
+"team_no" "2"
+"origin" "1093 1585 36"
+"target" "rtarget1"
+"g_a" "1"
+}
+{
+"classname" "i_t_g"
+"team_no" "2"
+"origin" "1093 1635 36"
+"target" "rtarget1"
+"g_a" "1"
+}
+{
+"classname" "item_cells"
+"origin" "1242 1268 32"
+"spawnflags" "1"
+}
+{
+"classname" "item_rockets"
+"angle" "90"
+"origin" "1220 1268 32"
+"spawnflags" "1"
+}
+{
+"classname" "item_spikes"
+"origin" "1150 1268 32"
+"spawnflags" "1"
+}
+{
+"classname" "item_shells"
+"origin" "1100 1268 32"
+"spawnflags" "1"
+}
+{
+"classname" "item_armorInv"
+"origin" "1316 1660 32"
+}
+{
+"classname" "item_health"
+"origin" "1240 1644 32"
+}
+{
+"classname" "trigger_multiple"
+"team_no" "2"
+"model" "*13"
+"netname" "resupplyout2"
+"target" "rtarget2"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "rtarget2"
+"lip" "2"
+"team_no" "2"
+"dmg" "50"
+"wait" "1"
+"model" "*11"
+"sounds" "1"
+"speed" "500"
+}
+{
+"classname" "i_t_g"
+"team_no" "2"
+"frags" "10"
+"count" "10"
+"g_e" "19"
+"b_t" "Ÿœ’“ team √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"n_n" " √¡–‘’“≈ƒ Ÿœ’“ flag!\n"
+"noise" "speech/cartcool.wav"
+"origin" "4 1020 64"
+"b_n" "Ÿœ’“ flag was √¡–‘’“≈ƒ!\n"
+"axhitme" "1"
+"netname" "Red Capture"
+"message" "You √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"n_t" " √¡–‘’“≈ƒ the ≈Œ≈ÕŸ flag!\n"
+"items_allowed" "1"
+"owned_by" "2"
+"target" "superquad"
+"g_a" "1"
+}
+{
+"classname" "trigger_push"
+"angle" "270"
+"team_no" "1"
+"delay" "0"
+"style" "32"
+"model" "*22"
+"sounds" "1"
+"netname" "Red Sniper wind Door"
+"owned_by" "2"
+"speed" "150"
+}
+{
+"classname" "i_p_t"
+"angle" "272"
+"team_no" "2"
+"origin" "56 1600 48"
+}
+{
+"classname" "i_p_t"
+"angle" "270"
+"team_no" "2"
+"origin" "-36 1600 48"
+}
+{
+"classname" "item_artifact_envirosuit"
+"team_no" "2"
+"origin" "-535 1450 -825"
+}
+{
+"classname" "item_artifact_envirosuit"
+"team_no" "2"
+"origin" "-575 1450 -825"
+}
+{
+"classname" "ambient_flagflap"
+"volume" "0.5"
+"origin" "-520 3530 -388"
+}
+{
+"classname" "item_tfgoal"
+"mdl" "progs/tf_flag.mdl"
+"angle" "315"
+"d_n" "Ÿœ’“ team ÏÔÛÙ the ≈Œ≈ÕŸ flag!\n"
+"skin" "2"
+"team_no" "1"
+"pausetime" "60"
+"noise4" "The ≈Œ≈ÕŸ flag returned to base!\n"
+"n_o" " ‘œœÀ Ÿœ’“ flag!\n"
+"goal_no" "2"
+"items" "262144"
+"noise3" "Ÿœ’“ flag returned to base!\n"
+"d_t" "The ≈Œ≈ÕŸ ÏÔÛÙ Ÿœ’“ flag!\n"
+"b_o" "\n\n\nŸœ’“ flag has been ‘¡À≈Œ!\n"
+"b_t" "\n\n\nŸœ’“ team has the ≈Œ≈ÕŸ flag!\n"
+"noise" "speech/yoink.wav"
+"origin" "-444 3476 -388"
+"netname" "Red Flag"
+"message" "Ÿœ’ have the ≈Œ≈ÕŸ flag!\nTake it home!"
+"owned_by" "2"
+"n_t" " ‘œœÀ the ≈Œ≈ÕŸ flag!\n"
+"g_a" "693"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"targetname" "redspawndoor2"
+"lip" "2"
+"team_no" "1"
+"dmg" "50"
+"wait" "1"
+"model" "*20"
+"sounds" "1"
+"speed" "500"
+}
+{
+"classname" "trigger_multiple"
+"lip" "2"
+"style" "32"
+"model" "*21"
+"target" "redspawndoor2"
+}
+{
+"classname" "i_p_t"
+"angle" "62"
+"team_no" "2"
+"origin" "-1440 1856 30"
+}
+{
+"classname" "i_p_t"
+"angle" "0"
+"team_no" "2"
+"origin" "-1440 1950 30"
+}
+{
+"classname" "item_armorInv"
+"origin" "-880 2116 24"
+}
+{
+"classname" "item_shells"
+"origin" "-944 2116 24"
+"spawnflags" "1"
+}
+{
+"classname" "item_spikes"
+"origin" "-1008 2116 24"
+"spawnflags" "1"
+}
+{
+"classname" "item_health"
+"origin" "-1055 2116 24"
+}
+{
+"classname" "item_rockets"
+"origin" "-1104 2116 24"
+"spawnflags" "1"
+}
+{
+"classname" "item_cells"
+"origin" "-1150 2116 24"
+"spawnflags" "1"
+}
+{
+"classname" "trigger_push"
+"angle" "-2"
+"team_no" "1"
+"delay" "2"
+"style" "32"
+"model" "*10"
+"netname" "Red Resupply 2 anti-blue-wind"
+"owned_by" "2"
+"speed" "5"
+}
+{
+"classname" "item_armorInv"
+"origin" "1148 3828 -416"
+}
+{
+"classname" "item_health"
+"origin" "1132 3892 -416"
+}
+{
+"classname" "item_armorInv"
+"origin" "1148 4004 -416"
+}
+{
+"classname" "item_cells"
+"origin" "864 3812 -416"
+"spawnflags" "1"
+}
+{
+"classname" "item_rockets"
+"origin" "864 3868 -416"
+"spawnflags" "1"
+}
+{
+"classname" "item_spikes"
+"origin" "864 3924 -416"
+"spawnflags" "1"
+}
+{
+"classname" "item_shells"
+"origin" "864 3988 -416"
+"spawnflags" "1"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"team_no" "2"
+"wait" "1"
+"model" "*24"
+"sounds" "1"
+"netname" "Red Resupply 3 door"
+"speed" "500"
+}
+{
+"classname" "func_plat"
+"team_no" "2"
+"height" "464"
+"wait" "1"
+"sounds" "1"
+"model" "*14"
+"netname" "Red Elevator"
+"speed" "1500"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "300"
+"message" "ê⁄apë\n \nResupplying...\n"
+"netname" "Blue Resupply 1"
+"origin" "-1120 -1552 36"
+"no_grenades_1" "2"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"wait" "2"
+"no_grenades_2" "2"
+"goal_effects" "1"
+"ammo_medikit" "200"
+"ammo_nails" "500"
+"armorvalue" "100"
+"team_no" "1"
+"health" "50"
+"ammo_cells" "300"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "300"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "300"
+"message" "ê⁄apë\n \nResupplying...\n"
+"netname" "Blue Resupply 2"
+"origin" "1124 -1908 4"
+"no_grenades_1" "2"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"wait" "2"
+"no_grenades_2" "2"
+"goal_effects" "1"
+"ammo_nails" "500"
+"ammo_medikit" "200"
+"armorvalue" "100"
+"team_no" "1"
+"health" "50"
+"ammo_cells" "300"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "300"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "300"
+"message" "ê⁄apë\n \nResupplying...\n"
+"netname" "Red Resupply 1"
+"armortype" "0.8"
+"origin" "1108 1540 28"
+"no_grenades_1" "2"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "2"
+"wait" "2"
+"goal_effects" "1"
+"ammo_medikit" "200"
+"ammo_nails" "500"
+"armorvalue" "100"
+"health" "50"
+"team_no" "2"
+"ammo_cells" "300"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "300"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "300"
+"netname" "Red Resupply 2"
+"message" "ê⁄apë\n \nResupplying...\n"
+"armortype" "0.8"
+"noise" "weapons/pkup.wav"
+"no_grenades_1" "2"
+"origin" "-946 2006 2"
+"no_grenades_2" "2"
+"wait" "2"
+"goal_effects" "1"
+"ammo_nails" "500"
+"ammo_medikit" "200"
+"armorvalue" "100"
+"health" "50"
+"team_no" "2"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "300"
+"ammo_rockets" "300"
+}
+{
+"classname" "ambient_meadow"
+"origin" "1 400 -90"
+}
+{
+"classname" "ambient_meadow"
+"origin" "1 -400 -90"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "250"
+"netname" "Blue Resupply 1"
+"message" "ê⁄apë\n \nResupplying...\n"
+"armortype" "0.8"
+"noise" "weapons/pkup.wav"
+"no_grenades_1" "2"
+"origin" "-1120 -1416 36"
+"no_grenades_2" "2"
+"wait" "2"
+"goal_effects" "1"
+"ammo_nails" "500"
+"ammo_medikit" "200"
+"armorvalue" "100"
+"health" "50"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "500"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "300"
+"netname" "Blue Resupply 2"
+"message" "ê⁄apë\n \nResupplying...\n"
+"armortype" "0.8"
+"noise" "weapons/pkup.wav"
+"no_grenades_1" "2"
+"origin" "940 -2020 4"
+"no_grenades_2" "2"
+"wait" "2"
+"goal_effects" "1"
+"ammo_medikit" "200"
+"ammo_nails" "500"
+"armorvalue" "100"
+"health" "50"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "300"
+"ammo_rockets" "300"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "300"
+"message" "ê⁄apë\n \nResupplying...\n"
+"netname" "Red Resupply 1"
+"armortype" "0.8"
+"origin" "1108 1396 28"
+"no_grenades_1" "2"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "2"
+"wait" "2"
+"goal_effects" "1"
+"ammo_medikit" "200"
+"ammo_nails" "500"
+"armorvalue" "100"
+"health" "50"
+"team_no" "2"
+"ammo_cells" "300"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "300"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "300"
+"message" "ê⁄apë\n \nResupplying...\n"
+"netname" "Red Resupply 2"
+"origin" "-1132 1892 2"
+"no_grenades_1" "2"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"wait" "2"
+"no_grenades_2" "2"
+"goal_effects" "1"
+"ammo_medikit" "200"
+"ammo_nails" "500"
+"armorvalue" "100"
+"team_no" "2"
+"health" "50"
+"ammo_cells" "300"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "300"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "250"
+"netname" "Blue BM Resupply 2"
+"message" "ê⁄apë\n \nResupplying...\n"
+"armortype" "0.8"
+"noise" "weapons/pkup.wav"
+"no_grenades_1" "2"
+"origin" "-1024 -3976 -436"
+"no_grenades_2" "2"
+"wait" "2"
+"goal_effects" "1"
+"ammo_nails" "500"
+"ammo_medikit" "200"
+"armorvalue" "100"
+"health" "50"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "500"
+"ammo_detpack" "1"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "250"
+"netname" "Blue BM Resupply 1"
+"message" "ê⁄apë\n \nResupplying...\n"
+"armortype" "0.8"
+"noise" "weapons/pkup.wav"
+"no_grenades_1" "2"
+"origin" "-1024 -3848 -436"
+"no_grenades_2" "2"
+"wait" "2"
+"goal_effects" "1"
+"ammo_nails" "500"
+"ammo_medikit" "200"
+"armorvalue" "100"
+"health" "50"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "200"
+"ammo_rockets" "500"
+"ammo_detpack" "1"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "300"
+"message" "ê⁄apë\n \nResupplying...\n"
+"netname" "Red BM Resupply 2"
+"armortype" "0.8"
+"origin" "1004 3860 -436"
+"no_grenades_1" "2"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "2"
+"wait" "2"
+"goal_effects" "1"
+"ammo_medikit" "200"
+"ammo_nails" "500"
+"armorvalue" "100"
+"health" "50"
+"team_no" "2"
+"ammo_cells" "300"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "300"
+"ammo_detpack" "1"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "300"
+"message" "ê⁄apë\n \nResupplying...\n"
+"netname" "Red BM Resupply 1"
+"armortype" "0.8"
+"origin" "1004 3972 -436"
+"no_grenades_1" "2"
+"noise" "weapons/pkup.wav"
+"no_grenades_2" "2"
+"wait" "2"
+"goal_effects" "1"
+"ammo_medikit" "200"
+"ammo_nails" "500"
+"armorvalue" "100"
+"health" "50"
+"team_no" "2"
+"ammo_cells" "300"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "300"
+"ammo_detpack" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "1768 1600 92"
+"angle" "223"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "1768 1248 88"
+"angle" "135"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "1112 1268 88"
+"angle" "65"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "-1136 2120 104"
+"angle" "319"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "-1136 1888 104"
+"angle" "41"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "-884 2092 64"
+"angle" "270"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "-836 1920 64"
+"angle" "275"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "-1600 2192 64"
+"angle" "323"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "-1600 1840 64"
+"angle" "46"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "1112 1536 88"
+"angle" "2"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "1304 1268 88"
+"angle" "168"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "896 3992 -364"
+"angle" "323"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "monster_turret"
+"origin" "1136 3992 -364"
+"angle" "233"
+"spawnflags" "18"
+"team_no" "2"
+}
+{
+"classname" "func_door"
+"speed" "800"
+"sounds" "1"
+"model" "*19"
+"wait" "1"
+"dmg" "500"
+"delay" "2"
+"team_no" "1"
+"angle" "-1"
+"netname" "blue sniper door"
+}
+{
+"classname" "func_door"
+"speed" "800"
+"sounds" "1"
+"model" "*22"
+"team_no" "2"
+"wait" "1"
+"dmg" "500"
+"angle" "-1"
+"netname" "red sniper door"
+}
+{
+"classname" "monster_turret"
+"origin" "-1776 -1264 92"
+"angle" "316"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "-1776 -1616 92"
+"angle" "44"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "-1312 -1284 88"
+"angle" "318"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "-1312 -1664 88"
+"angle" "43"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "-1120 -1552 92"
+"angle" "159"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "1592 -1856 60"
+"angle" "210"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "1592 -2208 60"
+"angle" "148"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "868 -2108 60"
+"angle" "90"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "828 -1924 60"
+"angle" "37"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "1128 -1904 104"
+"angle" "209"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "1128 -2136 120"
+"angle" "141"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "-1144 -4008 -320"
+"angle" "58"
+"spawnflags" "18"
+"team_no" "1"
+}
+{
+"classname" "monster_turret"
+"origin" "-904 -4008 -324"
+"angle" "129"
+"spawnflags" "18"
+"team_no" "1"
+}

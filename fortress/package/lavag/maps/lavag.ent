@@ -1,0 +1,507 @@
+{
+"message" "Lava Giant - Harb!ngeR Edition"
+"wad" "mbases.wad;q2.wad"
+"classname" "worldspawn"
+}
+{
+"classname" "light"
+"origin" "-368 -368 -48"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-752 -416 -16"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-1008 -496 -16"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-1264 -528 -16"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-1616 -504 -56"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-440 520 -64"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-752 552 -16"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-1008 488 -16"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-1288 424 -16"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-1656 368 -16"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-352 -4 108"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-544 -4 132"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-704 -4 260"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-888 -4 260"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-1112 12 260"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-1664 20 116"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-1312 20 260"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-1440 20 148"
+"light" "32"
+"wait" "0.1"
+}
+{
+"classname" "light"
+"origin" "-3344 160 16"
+"light" "192"
+}
+{
+"classname" "light"
+"origin" "-3344 -144 16"
+"light" "192"
+}
+{
+"classname" "light"
+"origin" "-3344 160 80"
+"light" "192"
+}
+{
+"classname" "light"
+"origin" "-3344 -144 80"
+"light" "192"
+}
+{
+"classname" "light"
+"origin" "-3968 776 768"
+"wait" "0.2"
+"light" "256"
+}
+{
+"classname" "light"
+"origin" "-3920 -640 768"
+"wait" "0.2"
+"light" "256"
+}
+{
+"classname" "light"
+"origin" "-3224 816 768"
+"wait" "0.2"
+"light" "256"
+}
+{
+"classname" "light"
+"origin" "-3112 -856 768"
+"wait" "0.2"
+"light" "256"
+}
+{
+"classname" "light"
+"origin" "-3320 8 768"
+"wait" "0.2"
+"light" "128"
+}
+{
+"classname" "light"
+"origin" "-2688 800 768"
+"wait" "0.1"
+"light" "160"
+}
+{
+"classname" "light"
+"origin" "-2448 -680 768"
+"wait" "0.1"
+"light" "160"
+}
+{
+"classname" "light"
+"origin" "-3496 0 112"
+"wait" "0.1"
+"light" "64"
+}
+{
+"classname" "light"
+"origin" "1328 -144 16"
+"light" "192"
+}
+{
+"classname" "light"
+"origin" "1328 160 16"
+"light" "192"
+}
+{
+"classname" "info_player_start"
+"origin" "1512 0 32"
+}
+{
+"classname" "light"
+"origin" "1328 -144 80"
+"light" "192"
+}
+{
+"classname" "light"
+"origin" "1328 160 80"
+"light" "192"
+}
+{
+"classname" "light"
+"origin" "1952 -760 768"
+"wait" "0.2"
+"light" "256"
+}
+{
+"classname" "light"
+"origin" "1904 656 768"
+"wait" "0.2"
+"light" "256"
+}
+{
+"classname" "light"
+"origin" "1208 -800 768"
+"wait" "0.2"
+"light" "256"
+}
+{
+"classname" "light"
+"origin" "1096 872 768"
+"wait" "0.2"
+"light" "256"
+}
+{
+"classname" "light"
+"origin" "1304 8 768"
+"wait" "0.2"
+"light" "128"
+}
+{
+"classname" "light"
+"origin" "672 -784 768"
+"wait" "0.1"
+"light" "160"
+}
+{
+"classname" "light"
+"origin" "432 696 768"
+"wait" "0.1"
+"light" "160"
+}
+{
+"classname" "light"
+"origin" "1480 16 112"
+"wait" "0.1"
+"light" "64"
+}
+{
+"model" "*1"
+"target" "fall"
+"classname" "trigger_multiple"
+}
+{
+"model" "*2"
+"target" "fall"
+"classname" "trigger_multiple"
+}
+{
+"message" "You bloody fool\n"
+"classname" "info_tfgoal"
+"netname_broadcast" " visited the abyss Gods\n"
+"origin" "-2152 -208 168"
+"goal_effects" "1"
+"health" "-800"
+"targetname" "fall"
+}
+{
+"impulse" "64"
+"classname" "info_tfdetect"
+"origin" "-2160 -104 176"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "40"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"noise" "harbmaps/backpack.wav"
+"no_grenades_1" "1"
+"origin" "-3344 160 24"
+"wait" "4"
+"no_grenades_2" "1"
+"goal_effects" "1"
+"ammo_nails" "40"
+"ammo_medikit" "4"
+"armorvalue" "100"
+"team_no" "1"
+"health" "50"
+"skin" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "40"
+"ammo_rockets" "40"
+"ammo_detpack" "1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "40"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"noise" "harbmaps/backpack.wav"
+"no_grenades_1" "1"
+"origin" "-3344 -144 24"
+"wait" "4"
+"no_grenades_2" "1"
+"goal_effects" "1"
+"ammo_nails" "40"
+"ammo_medikit" "4"
+"armorvalue" "100"
+"team_no" "1"
+"health" "50"
+"skin" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "40"
+"ammo_rockets" "40"
+"ammo_detpack" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3552 400 32"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3552 -384 32"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3296 -384 32"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3296 400 32"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3424 -416 32"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-3424 432 32"
+"team_no" "1"
+}
+{
+"goal_activation" "1"
+"items_allowed" "2"
+"netname" "Cap point red"
+"message" "You captured the enemy flag!\n"
+"axhitme" "2"
+"model" "*5"
+"classname" "info_tfgoal"
+"non_team_broadcast" "Your flag was captured!\n"
+"origin" "-3344 8 32"
+"noise" "harbmaps/captured.wav"
+"team_broadcast" "Your team captured the enemy flag!\n"
+"goal_effects" "3"
+"count" "10"
+"goal_result" "2"
+"frags" "10"
+"team_no" "1"
+}
+{
+"goal_activation" "693"
+"owned_by" "1"
+"message" "you have the flag!\nreturn it to your base.\n"
+"netname" "blue flag"
+"non_team_broadcast" "Your flag has been taken!\n"
+"classname" "item_tfgoal"
+"noise" "harbmaps/taken.wav"
+"origin" "-3344 8 32"
+"team_broadcast" "Your team has the enemy flag!\n"
+"goal_no" "1"
+"noise3" "Your flag was returned to base!\n"
+"delay" "60"
+"noise4" "The enemy flag was returned to base!\n"
+"team_no" "2"
+"pausetime" "60"
+"skin" "1"
+"mdl" "progs/tf_flag.mdl"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1536 -392 32"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1312 -392 32"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1424 -424 32"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1536 408 32"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1312 408 32"
+"team_no" "2"
+"angle" "180"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1424 472 32"
+"team_no" "2"
+"angle" "180"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "40"
+"netname" "red pack"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"noise" "harbmaps/backpack.wav"
+"no_grenades_1" "1"
+"origin" "1328 160 24"
+"wait" "4"
+"no_grenades_2" "1"
+"goal_effects" "1"
+"ammo_nails" "40"
+"ammo_medikit" "4"
+"armorvalue" "100"
+"team_no" "2"
+"health" "50"
+"skin" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "40"
+"ammo_rockets" "40"
+"ammo_detpack" "1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "40"
+"netname" "red pack"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"noise" "harbmaps/backpack.wav"
+"no_grenades_1" "1"
+"origin" "1328 -144 24"
+"wait" "4"
+"no_grenades_2" "1"
+"goal_effects" "1"
+"ammo_nails" "40"
+"ammo_medikit" "4"
+"armorvalue" "100"
+"team_no" "2"
+"health" "50"
+"skin" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "40"
+"ammo_rockets" "40"
+"ammo_detpack" "1"
+}
+{
+"goal_activation" "693"
+"owned_by" "2"
+"message" "you have the flag\nreturn it to your base.\n"
+"netname" "red flag"
+"non_team_broadcast" "Your flag has been taken!\n"
+"classname" "item_tfgoal"
+"noise" "harbmaps/taken.wav"
+"origin" "1328 8 32"
+"team_broadcast" "Your team has the enemy flag!\n"
+"goal_no" "2"
+"noise3" "Your flag was returned to base!"
+"delay" "60"
+"noise4" "The enemy flag was returned to base!"
+"team_no" "1"
+"pausetime" "60"
+"skin" "2"
+"mdl" "progs/tf_flag.mdl"
+}
+{
+"goal_activation" "1"
+"items_allowed" "1"
+"message" "You captured the enemy Flag!\n"
+"netname" "cap point blue"
+"axhitme" "1"
+"model" "*6"
+"non_team_broadcast" "Your flag was captured!\n"
+"classname" "info_tfgoal"
+"noise" "harbmaps/captured.wav"
+"origin" "1328 8 32"
+"team_broadcast" "Your team captured the enemy flag!\n"
+"goal_effects" "3"
+"count" "10"
+"goal_result" "2"
+"frags" "10"
+"team_no" "2"
+}

@@ -1,0 +1,781 @@
+{
+"classname" "worldspawn"
+"worldtype" "2"
+"sounds" "5"
+"light" "0"
+"message" "Skyward -=- [sg]Llama2000"
+"wad" "textures.wad"
+}
+{
+"classname" "info_player_start"
+"angle" "225"
+"origin" "3872 256 -32"
+}
+{
+"classname" "light"
+"light" "140"
+"wait" ".35"
+"origin" "3232 -3424 -160"
+}
+{
+"classname" "light"
+"light" "140"
+"wait" ".35"
+"origin" "3424 -3424 -160"
+}
+{
+"classname" "light"
+"light" "140"
+"wait" ".35"
+"origin" "3424 -3232 -160"
+}
+{
+"classname" "light"
+"light" "100"
+"wait" ".35"
+"style" "10"
+"origin" "3232 -3232 -160"
+}
+{
+"classname" "light"
+"light" "200"
+"wait" ".7"
+"origin" "3872 -3168 -160"
+}
+{
+"classname" "light"
+"light" "100"
+"wait" ".35"
+"origin" "3872 -2944 -192"
+}
+{
+"classname" "light"
+"light" "100"
+"wait" ".35"
+"origin" "3872 -2688 -96"
+}
+{
+"classname" "light"
+"light" "120"
+"wait" ".1"
+"origin" "3872 -2368 320"
+}
+{
+"classname" "light"
+"light" "120"
+"wait" ".1"
+"origin" "3296 -2368 320"
+}
+{
+"classname" "light"
+"light" "120"
+"wait" ".1"
+"origin" "3392 -2048 192"
+}
+{
+"classname" "light"
+"light" "120"
+"wait" ".1"
+"origin" "3840 -2048 192"
+}
+{
+"classname" "light"
+"light" "100"
+"wait" ".35"
+"origin" "3904 -2496 -56"
+}
+{
+"classname" "light"
+"light" "180"
+"wait" ".7"
+"origin" "3872 -2528 -56"
+}
+{
+"classname" "light"
+"light" "120"
+"wait" ".1"
+"origin" "3760 -1664 320"
+}
+{
+"classname" "light"
+"light" "120"
+"wait" ".1"
+"origin" "3296 -1664 320"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "45"
+"team_no" "1"
+"origin" "3136 -3520 -192"
+}
+{
+"classname" "info_tfdetect"
+"hook_out" "1"
+"impulse" "64"
+"maxammo_shells" "1019"
+"origin" "3520 -3136 -160"
+}
+{
+"classname" "light"
+"light" "140"
+"wait" ".1"
+"origin" "3520 -1216 320"
+}
+{
+"classname" "light"
+"light" "90"
+"wait" ".1"
+"origin" "3936 -1376 192"
+}
+{
+"classname" "light"
+"light" "90"
+"wait" ".1"
+"origin" "3936 -928 192"
+}
+{
+"classname" "light"
+"light" "90"
+"wait" ".1"
+"origin" "3104 -1376 192"
+}
+{
+"classname" "light"
+"light" "90"
+"wait" ".1"
+"origin" "3104 -928 192"
+}
+{
+"classname" "light"
+"light" "200"
+"wait" "1.2"
+"origin" "3936 -1376 232"
+}
+{
+"classname" "light"
+"light" "200"
+"wait" "1.2"
+"origin" "3104 -1376 232"
+}
+{
+"classname" "light"
+"light" "200"
+"wait" "1.2"
+"origin" "3104 -928 232"
+}
+{
+"classname" "light"
+"light" "200"
+"wait" "1.2"
+"origin" "3936 -928 232"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"health" "1"
+"wait" "99999999999999"
+"delay" "2"
+"model" "*1"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "2"
+"wait" "0"
+"target" "jump1a"
+"style" "32"
+"delay" "0"
+"model" "*2"
+}
+{
+"classname" "info_tfgoal"
+"netname" "jump1inf"
+"goal_no" "1"
+"targetname" "jump1a"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "200"
+"health" "100"
+"ammo_shells" "-100"
+"ammo_rockets" "50"
+"no_grenades_1" "-4"
+"message" "-= Jump One =-\nMind Over Muscle\n1 Rocket\nEasy\n"
+"no_grenades_2" "-4"
+"origin" "3520 -2752 192"
+}
+{
+"classname" "info_tfgoal"
+"netname" "jump1resup"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "200"
+"health" "100"
+"ammo_shells" "-100"
+"ammo_rockets" "50"
+"no_grenades_1" "-4"
+"message" "Remember that jumping on a sufficiantly\nsteep slope boosts height"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"origin" "3216 -1808 -48"
+}
+{
+"classname" "light"
+"light" "200"
+"wait" "1.2"
+"origin" "3520 -928 224"
+}
+{
+"classname" "light"
+"light" "90"
+"wait" ".1"
+"origin" "3520 -928 168"
+}
+{
+"classname" "light"
+"light" "100"
+"wait" ".3"
+"origin" "3520 -1504 -64"
+}
+{
+"classname" "light"
+"light" "90"
+"wait" ".1"
+"origin" "3520 -928 -64"
+}
+{
+"classname" "light"
+"light" "90"
+"wait" ".1"
+"origin" "3520 -288 -32"
+}
+{
+"classname" "light"
+"light" "90"
+"wait" ".1"
+"origin" "3520 384 -32"
+}
+{
+"classname" "light"
+"light" "300"
+"wait" ".6"
+"origin" "3520 0 -864"
+}
+{
+"classname" "light"
+"light" "150"
+"wait" ".2"
+"origin" "3520 0 896"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"target" "jump2a"
+"style" "32"
+"delay" "0"
+"model" "*3"
+}
+{
+"classname" "info_tfgoal"
+"netname" "jump2inf"
+"targetname" "jump2a"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "200"
+"health" "100"
+"ammo_shells" "-100"
+"ammo_rockets" "50"
+"no_grenades_1" "-4"
+"message" "-= Jump Two =-\nReverse Gear\n1 Rocket\nEasy\n"
+"origin" "3680 224 704"
+}
+{
+"classname" "trigger_teleport"
+"spawnflags" "2"
+"target" "jump2tdest"
+"model" "*4"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "jump2tdest"
+"origin" "3520 -1312 -128"
+}
+{
+"classname" "info_tfgoal"
+"netname" "jump2resup"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "200"
+"health" "100"
+"ammo_shells" "-100"
+"ammo_rockets" "50"
+"no_grenades_1" "-4"
+"message" "Rocket jump backwards for extra\ndistance at the expense of height"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"origin" "3520 -1104 -144"
+}
+{
+"classname" "light"
+"light" "180"
+"style" "2"
+"origin" "3280 -208 1072"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"target" "jump3a"
+"style" "32"
+"delay" "0"
+"model" "*5"
+}
+{
+"classname" "info_tfgoal"
+"netname" "jump3inf"
+"targetname" "jump3a"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "200"
+"health" "100"
+"ammo_shells" "-100"
+"ammo_rockets" "50"
+"no_grenades_1" "4"
+"message" "-= Jump Three =-\nLesser Ascent\n1 Gren + 1 Rocket\nModerate\n"
+"origin" "3680 192 704"
+}
+{
+"classname" "light"
+"light" "200"
+"wait" ".2"
+"origin" "3520 880 1088"
+}
+{
+"classname" "light"
+"light" "140"
+"wait" ".2"
+"origin" "3520 880 -48"
+}
+{
+"classname" "info_tfgoal"
+"netname" "jump3resup"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "200"
+"health" "100"
+"ammo_shells" "-100"
+"ammo_rockets" "50"
+"no_grenades_1" "4"
+"message" "Your rockets alone wont make the height\nhere, try adding a grenade into the mix"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"origin" "3440 480 -144"
+}
+{
+"classname" "light"
+"style" "2"
+"light" "200"
+"wait" "2.5"
+"origin" "3440 480 -128"
+}
+{
+"classname" "light"
+"style" "2"
+"light" "200"
+"wait" "2.5"
+"origin" "3520 -1104 -128"
+}
+{
+"classname" "light"
+"style" "2"
+"light" "200"
+"wait" "2.5"
+"origin" "3216 -1808 -32"
+}
+{
+"classname" "light"
+"light" "130"
+"wait" ".4"
+"origin" "3248 656 1072"
+}
+{
+"classname" "light"
+"light" "130"
+"wait" ".4"
+"origin" "3824 656 1072"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "1"
+"origin" "3328 -3520 -192"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "1"
+"origin" "3520 -3520 -192"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "3136 -3328 -192"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "315"
+"team_no" "1"
+"origin" "3136 -3136 -192"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"team_no" "1"
+"origin" "3328 -3136 -192"
+}
+{
+"classname" "light"
+"light" "150"
+"wait" ".4"
+"origin" "3560 416 160"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"wait" ".15"
+"origin" "3232 1536 1408"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"wait" ".15"
+"origin" "3232 2048 1408"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"wait" ".15"
+"origin" "3232 2560 1408"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"wait" ".15"
+"origin" "3232 3072 1408"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"target" "jump4a"
+"style" "32"
+"delay" "0"
+"model" "*6"
+}
+{
+"classname" "light"
+"style" "2"
+"light" "200"
+"wait" "2.5"
+"origin" "3520 1088 992"
+}
+{
+"classname" "info_tfgoal"
+"netname" "jump3resup"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "200"
+"health" "100"
+"ammo_shells" "-100"
+"ammo_rockets" "-50"
+"no_grenades_1" "4"
+"message" "No rockets for you Mr Woo!\nJust try to time the grenade so that it goes off just as you "
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"origin" "3520 1088 976"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"target" "jump4a"
+"style" "32"
+"delay" "0"
+"model" "*7"
+}
+{
+"classname" "info_tfgoal"
+"netname" "jump4inf"
+"targetname" "jump4a"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "200"
+"health" "100"
+"ammo_shells" "-100"
+"ammo_rockets" "-50"
+"no_grenades_1" "4"
+"message" "-= Jump Four =-\nMach 1\n1 Gren\nModerate\n"
+"origin" "3040 1056 1504"
+}
+{
+"classname" "light"
+"light" "130"
+"wait" ".4"
+"origin" "3200 928 1088"
+}
+{
+"classname" "light"
+"light" "130"
+"wait" ".4"
+"origin" "3840 928 1088"
+}
+{
+"classname" "trigger_teleport"
+"target" "jump4tele"
+"model" "*8"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "135"
+"targetname" "jump4tele"
+"origin" "3888 592 1056"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"wait" ".15"
+"origin" "3808 1536 1408"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"wait" ".15"
+"origin" "3808 2048 1408"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"wait" ".15"
+"origin" "3808 2560 1408"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"wait" ".15"
+"origin" "3808 3072 1408"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"wait" ".15"
+"origin" "3808 3776 1312"
+}
+{
+"classname" "light"
+"light" "160"
+"style" "0"
+"wait" ".15"
+"origin" "3232 3776 1312"
+}
+{
+"classname" "light"
+"light" "110"
+"style" "0"
+"wait" ".4"
+"origin" "3008 3776 832"
+}
+{
+"classname" "light"
+"light" "120"
+"style" "0"
+"wait" ".5"
+"origin" "3936 2656 960"
+}
+{
+"classname" "light"
+"light" "130"
+"style" "0"
+"wait" ".15"
+"origin" "2784 3776 864"
+}
+{
+"classname" "light"
+"light" "130"
+"style" "0"
+"wait" ".15"
+"origin" "2016 3776 864"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" ".7"
+"origin" "2784 3776 832"
+}
+{
+"classname" "light"
+"light" "200"
+"style" "0"
+"wait" ".7"
+"origin" "2016 3776 832"
+}
+{
+"classname" "light"
+"light" "130"
+"style" "0"
+"wait" ".15"
+"origin" "2560 3392 1600"
+}
+{
+"classname" "light"
+"light" "130"
+"style" "0"
+"wait" ".15"
+"origin" "2560 3392 800"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"delay" "2"
+"sounds" "3"
+"wait" "99999999999999"
+"health" "1"
+"model" "*9"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"delay" "2"
+"sounds" "3"
+"wait" "99999999999999"
+"health" "1"
+"model" "*10"
+}
+{
+"classname" "trigger_multiple"
+"style" "32"
+"delay" "2"
+"sounds" "3"
+"wait" "99999999999999"
+"health" "1"
+"model" "*11"
+}
+{
+"classname" "light"
+"light" "130"
+"style" "0"
+"wait" ".15"
+"origin" "2496 3296 448"
+}
+{
+"classname" "light"
+"light" "130"
+"style" "0"
+"wait" ".15"
+"origin" "2208 3336 192"
+}
+{
+"classname" "light"
+"light" "130"
+"style" "0"
+"wait" ".15"
+"origin" "1696 3296 128"
+}
+{
+"classname" "light"
+"light" "130"
+"style" "0"
+"wait" ".15"
+"origin" "1664 3776 128"
+}
+{
+"classname" "info_tfgoal"
+"netname" "jump3resup"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "200"
+"health" "100"
+"ammo_shells" "-100"
+"ammo_rockets" "50"
+"no_grenades_1" "4"
+"message" "You'll need timing and\nprecision to make this one"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"origin" "2022 3546 80"
+}
+{
+"classname" "light"
+"style" "2"
+"light" "200"
+"wait" "2.5"
+"origin" "2022 3546 96"
+}
+{
+"classname" "light"
+"light" "130"
+"style" "0"
+"wait" ".15"
+"origin" "1664 3776 832"
+}
+{
+"classname" "trigger_multiple"
+"sounds" "4"
+"wait" "0"
+"target" "jump5a"
+"style" "32"
+"delay" "0"
+"model" "*12"
+}
+{
+"classname" "info_tfgoal"
+"netname" "jump5inf"
+"targetname" "jump5a"
+"goal_effects" "1"
+"armortype" "0.8"
+"armorvalue" "200"
+"health" "100"
+"ammo_shells" "-100"
+"ammo_rockets" "50"
+"no_grenades_1" "4"
+"message" "-= Jump Five =-\nGreater Ascent\n1 Rocket + 2 Grens\nModerate\n"
+"origin" "2304 3552 832"
+}
+{
+"classname" "light"
+"light" "120"
+"wait" ".3"
+"origin" "2496 3328 2048"
+}
+{
+"classname" "light"
+"light" "120"
+"wait" ".3"
+"origin" "2336 3488 2048"
+}
+{
+"classname" "light"
+"light" "120"
+"wait" ".3"
+"origin" "2656 3488 2048"
+}
+{
+"classname" "light"
+"light" "120"
+"wait" ".3"
+"origin" "2656 3168 2048"
+}
+{
+"classname" "light"
+"light" "120"
+"wait" ".3"
+"origin" "2336 3168 2048"
+}

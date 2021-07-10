@@ -1,0 +1,560 @@
+{
+"message" "2SURGE2 Revised\nBy NightMare    mtoth@wcoil.com\n"
+"classname" "worldspawn"
+"angle" "90"
+}
+{
+"goal_activation" "757"
+"netname" "Green Flag"
+"message" "You Have The Green Flag!\nTake It To The Yellow Base!\n"
+"netname_non_team_drop" " dropped the green flag.\n"
+"classname" "item_tfgoal"
+"origin" "-64 1376 192"
+"netname_team_drop" " dropped your flag.\n"
+"goal_effects" "33"
+"broadcast" "The Green Flag Has Been Taken!\n"
+"goal_no" "4"
+"noise3" "Your Flag Returned\n"
+"goal_result" "16"
+"noise4" "The Green Flag Returned\n"
+"team_no" "4"
+"pausetime" "30"
+"skin" "4"
+"mdl" "progs/tf_flag.mdl"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "50"
+"message" "Full Up!\n"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-480 1376 192"
+"armortype" "200"
+"no_grenades_1" "2"
+"wait" "4"
+"no_grenades_2" "-2"
+"goal_effects" "1"
+"ammo_nails" "50"
+"armorvalue" "200"
+"team_no" "4"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "50"
+"ammo_rockets" "50"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-320 896 192"
+"team_no" "4"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "320 896 192"
+"team_no" "4"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "50"
+"message" "Filled Up!\n"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "0 -1376 192"
+"armortype" "200"
+"wait" "4"
+"goal_effects" "1"
+"ammo_nails" "50"
+"armorvalue" "200"
+"team_no" "3"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "50"
+"ammo_rockets" "50"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "128 -1376 192"
+"team_no" "3"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-384 -1600 192"
+"team_no" "3"
+}
+{
+"goal_activation" "1"
+"items_allowed" "4"
+"owned_by" "1"
+"message" "You Captured The Green Flag!\n"
+"netname" "Blue Capture Point"
+"axhitme" "4"
+"classname" "info_tfgoal"
+"origin" "-384 -1760 176"
+"broadcast" "Blues Captured The Green Flag!\n"
+"goal_effects" "35"
+"count" "10"
+"frags" "10"
+"team_no" "1"
+}
+{
+"classname" "info_player_start"
+"origin" "0 -896 64"
+"angle" "90"
+}
+{
+"goal_activation" "3"
+"classname" "info_tfgoal"
+"origin" "-1216 64 544"
+"netname_broadcast" " tried to leave home base.\n"
+"goal_effects" "3"
+"health" "-100"
+"targetname" "death"
+}
+{
+"target" "death"
+"model" "*1"
+"sounds" "4"
+"classname" "trigger_multiple"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"team_no" "4"
+}
+{
+"target" "death"
+"model" "*2"
+"sounds" "4"
+"classname" "trigger_multiple"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"team_no" "4"
+}
+{
+"target" "death2"
+"model" "*3"
+"sounds" "4"
+"classname" "trigger_multiple"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"team_no" "3"
+}
+{
+"goal_activation" "3"
+"classname" "info_tfgoal"
+"origin" "-1248 32 544"
+"netname_broadcast" " tried to run away.\n"
+"goal_effects" "3"
+"health" "-100"
+"targetname" "death2"
+}
+{
+"target" "shaft1"
+"speed" "50"
+"model" "*4"
+"sounds" "0"
+"classname" "func_train"
+"dmg" "0"
+}
+{
+"target" "shaft2"
+"classname" "path_corner"
+"origin" "-1312 -448 -240"
+"wait" "4"
+"targetname" "shaft1"
+}
+{
+"target" "shaft1"
+"classname" "path_corner"
+"origin" "-1312 -448 -8"
+"wait" "4"
+"targetname" "shaft2"
+}
+{
+"target" "death3"
+"model" "*5"
+"sounds" "4"
+"classname" "trigger_multiple"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"team_no" "2"
+}
+{
+"goal_activation" "3"
+"classname" "info_tfgoal"
+"origin" "-1248 64 544"
+"netname_broadcast" " tried to enter the blue base.\n"
+"goal_effects" "3"
+"health" "-100"
+"targetname" "death3"
+}
+{
+"target" "death4"
+"model" "*6"
+"sounds" "4"
+"classname" "trigger_multiple"
+"wait" "0"
+"style" "32"
+"delay" "0"
+"team_no" "1"
+}
+{
+"goal_activation" "3"
+"classname" "info_tfgoal"
+"origin" "-1216 32 544"
+"netname_broadcast" " tried to enter the red base.\n"
+"goal_effects" "3"
+"health" "-100"
+"targetname" "death4"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1216 -192 32"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "1216 -576 32"
+"team_no" "2"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1504 -256 -192"
+"team_no" "1"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-1504 -512 -192"
+"team_no" "1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "20"
+"message" "Reloading...\n"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-1280 -272 -160"
+"armortype" "200"
+"wait" "1"
+"goal_effects" "1"
+"ammo_nails" "20"
+"armorvalue" "200"
+"team_no" "1"
+"health" "20"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "20"
+"ammo_rockets" "20"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "20"
+"message" "Reloading...\n"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "-1280 -496 -160"
+"armortype" "200"
+"wait" "1"
+"goal_effects" "1"
+"ammo_nails" "20"
+"armorvalue" "200"
+"team_no" "1"
+"health" "20"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "20"
+"ammo_rockets" "20"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "20"
+"message" "Reloading...\n"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "1088 -256 64"
+"armortype" "200"
+"wait" "1"
+"goal_effects" "1"
+"ammo_nails" "20"
+"armorvalue" "200"
+"team_no" "2"
+"health" "20"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "20"
+"ammo_rockets" "20"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "20"
+"message" "Reloading...\n"
+"armorclass" "200"
+"classname" "info_tfgoal"
+"origin" "1088 -512 64"
+"armortype" "200"
+"wait" "1"
+"goal_effects" "1"
+"ammo_nails" "20"
+"armorvalue" "200"
+"team_no" "2"
+"health" "20"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "20"
+"ammo_rockets" "20"
+}
+{
+"maxammo_rockets" "419"
+"netname" "TF Detector"
+"non_team_broadcast" "Blue and Red take the green flag and cap it in the yellow base.\n\n"
+"classname" "info_tfdetect"
+"origin" "0 -416 224"
+"maxammo_shells" "419"
+"team_broadcast" "SURGE FOR POWER\n\nêìë Attacker \nêîë Attacker \nêïë Defender \nêñë Protector\n"
+"broadcast" "Team Fortress v2.5"
+"maxammo_nails" "419"
+"noise1" "Select A Class\n\nï.. Soldier\nñ.. Demoman\nó.. Medic\nô.. Pyro\nõ.. Engineer\n"
+"ammo_medikit" "4"
+"noise2" "Select A Class\n\nï.. Soldier\nñ.. Demoman\nó.. Medic\nô.. Pyro\nõ.. Engineer\n"
+"noise3" "Select A Class\n\nï.. Soldier\nñ.. Demoman\nó.. Medic\nô.. Pyro\nõ.. Engineer\n"
+"noise4" "Select A Class\n\nï.. Soldier\nñ.. Demoman\nó.. Medic\nô.. Pyro\nõ.. Engineer\n"
+"maxammo_cells" "419"
+"ammo_detpack" "4"
+}
+{
+"classname" "light"
+"origin" "-256 -256 -192"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "256 -256 -192"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "256 -512 -192"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-256 -512 -192"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-256 -256 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-256 -512 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "256 -256 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "256 -512 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "256 192 128"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "0 192 128"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-256 192 128"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "704 -256 128"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "704 -512 128"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "256 -960 128"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "0 -960 128"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-256 -960 128"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-704 -512 128"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-704 -256 128"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-1120 -384 128"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-1376 -384 -128"
+"light" "350"
+}
+{
+"classname" "light"
+"origin" "1152 -256 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "1152 -512 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "960 -384 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -1248 96"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "256 -1632 160"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-128 -1536 192"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "0 256 -256"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "0 512 -256"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "0 768 -256"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "0 960 -192"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "160 704 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-160 704 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "352 544 192"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-352 544 192"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "256 1184 224"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "0 1184 224"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-256 1184 224"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "0 -416 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -640 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "352 -416 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -160 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-352 -416 128"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "288 -1248 224"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-288 -1248 224"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "0 -1248 224"
+"light" "300"
+}
+{
+"goal_activation" "1"
+"owned_by" "2"
+"items_allowed" "4"
+"netname" "Red Capture Point"
+"message" "You Captured The Green Flag!\n"
+"axhitme" "4"
+"classname" "info_tfgoal"
+"origin" "-384 -1760 176"
+"goal_effects" "35"
+"broadcast" "Reds Captured The Green Flag!\n"
+"count" "10"
+"frags" "10"
+"team_no" "2"
+}

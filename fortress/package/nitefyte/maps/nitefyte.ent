@@ -1,0 +1,815 @@
+{
+"classname" "worldspawn"
+"worldtype" "0"
+"sounds" "4"
+"light" "0"
+"message" "**********************\nWelcome to Night Fight\nBy ”tarÃordãê«Pë\n**********************\n"
+}
+{
+"classname" "info_player_start"
+"angle" "270"
+"netname" "ps1"
+"origin" "256 448 -464"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t3 1"
+"team_no" "3"
+"origin" "-424 -1200 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t3 2"
+"team_no" "3"
+"origin" "-424 -1152 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t3 3"
+"team_no" "3"
+"origin" "936 -1200 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "t3 4"
+"team_no" "3"
+"origin" "936 -1152 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "t4 1"
+"team_no" "4"
+"origin" "936 688 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "t4 2"
+"team_no" "4"
+"origin" "936 640 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "t4 3"
+"team_no" "4"
+"origin" "-424 688 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "t4 4"
+"team_no" "4"
+"origin" "-424 640 48"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "t1 1"
+"team_no" "1"
+"origin" "-688 424 48"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "t1 2"
+"team_no" "1"
+"origin" "-640 424 48"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "t1 3"
+"team_no" "1"
+"origin" "-688 -936 48"
+}
+{
+"classname" "info_player_teamspawn"
+"netname" "t1 4"
+"team_no" "1"
+"origin" "-640 -936 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"netname" "t2 3"
+"team_no" "2"
+"origin" "1200 -936 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"netname" "t2 4"
+"team_no" "2"
+"origin" "1152 -936 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"netname" "t2 2"
+"team_no" "2"
+"origin" "1200 424 48"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"netname" "t2 1"
+"team_no" "2"
+"origin" "1152 424 48"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "270"
+"netname" "dm1"
+"origin" "256 128 -432"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "90"
+"netname" "dm2"
+"origin" "256 -640 -432"
+}
+{
+"classname" "info_player_deathmatch"
+"angle" "180"
+"netname" "dm3"
+"origin" "640 -256 -432"
+}
+{
+"classname" "info_player_deathmatch"
+"netname" "dm4"
+"origin" "-128 -256 -432"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Pack"
+"message" "You got the pack.\n Don't stand in one spot too long.\n"
+"mdl" "progs/backpack.mdl"
+"wait" "45"
+"ammo_shells" "100"
+"ammo_nails" "200"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_medikit" "100"
+"health" "100"
+"armorvalue" "300"
+"super_damage_finished" "15"
+"goal_activation" "1"
+"goal_effects" "1"
+"no_grenades_1" "4"
+"no_grenades_2" "1"
+"noise" "ambient/thunder1.wav"
+"origin" "256 -256 -96"
+}
+{
+"classname" "light"
+"light" "175"
+"targetname" "pl"
+"style" "5"
+"origin" "256 -256 -64"
+}
+{
+"classname" "info_tfgoal"
+"angle" "180"
+"netname" "t2 p1"
+"message" "Resupplying...\nGo get them.\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"team_no" "2"
+"armorvalue" "300"
+"health" "100"
+"ammo_shells" "100"
+"ammo_nails" "250"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_medikit" "100"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"origin" "1096 424 48"
+}
+{
+"classname" "info_tfgoal"
+"angle" "180"
+"netname" "t2 p2"
+"message" "Resupplying...\nGo get them.\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"team_no" "2"
+"armorvalue" "300"
+"health" "100"
+"ammo_shells" "100"
+"ammo_nails" "250"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_medikit" "100"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"origin" "1096 -936 48"
+}
+{
+"classname" "info_tfgoal"
+"netname" "t1 p1"
+"message" "Resupplying...\nGo get them.\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"team_no" "1"
+"armorvalue" "300"
+"health" "100"
+"ammo_shells" "100"
+"ammo_nails" "250"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_medikit" "100"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"origin" "-584 -936 48"
+}
+{
+"classname" "info_tfgoal"
+"netname" "t1 p2"
+"message" "Resupplying...\nGo get them.\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"team_no" "1"
+"armorvalue" "300"
+"health" "100"
+"ammo_shells" "100"
+"ammo_nails" "250"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_medikit" "100"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"origin" "-584 424 48"
+}
+{
+"classname" "info_tfgoal"
+"angle" "270"
+"netname" "t4 p1"
+"message" "Resupplying...\nGo get them.\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"team_no" "4"
+"armorvalue" "300"
+"health" "100"
+"ammo_shells" "100"
+"ammo_nails" "250"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_medikit" "100"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"origin" "-424 584 48"
+}
+{
+"classname" "info_tfgoal"
+"angle" "270"
+"netname" "t4 p2"
+"message" "Resupplying...\nGo get them.\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"team_no" "4"
+"armorvalue" "300"
+"health" "100"
+"ammo_shells" "100"
+"ammo_nails" "250"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_medikit" "100"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"origin" "936 584 48"
+}
+{
+"classname" "info_tfgoal"
+"angle" "90"
+"netname" "t3 p1"
+"message" "Resupplying...\nGo get them.\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"team_no" "3"
+"armorvalue" "300"
+"health" "100"
+"ammo_shells" "100"
+"ammo_nails" "250"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_medikit" "100"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"origin" "936 -1096 48"
+}
+{
+"classname" "info_tfgoal"
+"angle" "90"
+"netname" "t3 p2"
+"message" "Resupplying...\nGo get them.\n"
+"mdl" "progs/backpack.mdl"
+"goal_activation" "1"
+"team_no" "3"
+"armorvalue" "300"
+"health" "100"
+"ammo_shells" "100"
+"ammo_nails" "250"
+"ammo_rockets" "50"
+"ammo_cells" "200"
+"ammo_medikit" "100"
+"no_grenades_1" "4"
+"no_grenades_2" "-4"
+"goal_effects" "1"
+"origin" "-424 -1096 48"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "5"
+"targetname" "t4 l1"
+"origin" "-424 600 88"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "5"
+"targetname" "t1 l1"
+"origin" "-600 424 88"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "5"
+"targetname" "t4 l2"
+"origin" "-600 -936 88"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "5"
+"targetname" "t3 l1"
+"origin" "-424 -1112 88"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "5"
+"targetname" "t1 l2"
+"origin" "936 600 88"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "5"
+"targetname" "t2 l1"
+"origin" "1112 424 88"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "5"
+"targetname" "t2 l2"
+"origin" "1112 -936 88"
+}
+{
+"classname" "light"
+"light" "150"
+"style" "5"
+"targetname" "t3 l2"
+"origin" "936 -1112 88"
+}
+{
+"classname" "info_tfdetect"
+"broadcast" "TeamFortress v2.6"
+"playerclass" "640"
+"impulse" "68"
+"non_team_broadcast" "4-Team DM with alternating day & night cycle.\n"
+"hook_out" "1"
+"noise1" "===Pick a class===\n\nì.. Scout  \nî.. Sniper \nï.. Soldier\nñ.. Demoman\nó.. Medic  \nò.. Hvwep  \nô.. Pyro   \nö.. Spy    \n"
+"noise2" "===Pick a class===\n\nì.. Scout  \nî.. Sniper \nï.. Soldier\nñ.. Demoman\nó.. Medic  \nò.. Hvwep  \nô.. Pyro   \nö.. Spy    \n"
+"noise3" "===Pick a class===\n\nì.. Scout  \nî.. Sniper \nï.. Soldier\nñ.. Demoman\nó.. Medic  \nò.. Hvwep  \nô.. Pyro   \nö.. Spy    \n"
+"noise4" "===Pick a class===\n\nì.. Scout  \nî.. Sniper \nï.. Soldier\nñ.. Demoman\nó.. Medic  \nò.. Hvwep  \nô.. Pyro   \nö.. Spy    \n"
+"origin" "256 -960 -64"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "256 -184 -448"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "328 -256 -448"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "256 -328 -448"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "184 -256 -448"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "256 488 -256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "1000 -256 -256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "-488 -256 -256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "256 -1000 -256"
+}
+{
+"classname" "light_flame_small_white"
+"light" "50"
+"origin" "544 -832 -448"
+}
+{
+"classname" "light_flame_small_white"
+"light" "50"
+"style" "0"
+"origin" "832 -544 -448"
+}
+{
+"classname" "light_flame_small_yellow"
+"light" "50"
+"origin" "640 -256 -448"
+}
+{
+"classname" "light_flame_small_yellow"
+"light" "50"
+"origin" "832 32 -448"
+}
+{
+"classname" "light_flame_small_white"
+"light" "50"
+"origin" "544 320 -448"
+}
+{
+"classname" "light_flame_small_white"
+"light" "50"
+"style" "0"
+"origin" "-32 320 -448"
+}
+{
+"classname" "light_flame_small_yellow"
+"light" "50"
+"origin" "256 128 -448"
+}
+{
+"classname" "light_flame_small_yellow"
+"light" "50"
+"origin" "256 -640 -448"
+}
+{
+"classname" "light_flame_small_white"
+"light" "50"
+"origin" "-32 -832 -448"
+}
+{
+"classname" "light_flame_small_white"
+"light" "50"
+"origin" "-320 -544 -448"
+}
+{
+"classname" "light_flame_small_yellow"
+"light" "50"
+"origin" "-128 -256 -448"
+}
+{
+"classname" "light_flame_small_white"
+"light" "50"
+"origin" "-320 32 -448"
+}
+{
+"classname" "light_flame_small_white"
+"light" "100"
+"style" "0"
+"origin" "-120 -632 -264"
+}
+{
+"classname" "light_flame_small_white"
+"light" "100"
+"style" "0"
+"origin" "-120 120 -264"
+}
+{
+"classname" "light_flame_small_white"
+"light" "100"
+"style" "0"
+"origin" "632 120 -264"
+}
+{
+"classname" "light_flame_small_white"
+"light" "100"
+"style" "0"
+"origin" "632 -632 -264"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "-128 -1000 -256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "640 -1000 -256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "640 488 -256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "-128 488 -256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "1000 128 -256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "1000 -640 -256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "-488 -640 -256"
+}
+{
+"classname" "light_torch_small_walltorch"
+"light" "200"
+"origin" "-488 128 -256"
+}
+{
+"classname" "light_flame_small_white"
+"light" "100"
+"style" "0"
+"origin" "-8 -256 -264"
+}
+{
+"classname" "light_flame_small_white"
+"light" "100"
+"style" "0"
+"origin" "520 -256 -264"
+}
+{
+"classname" "light_flame_small_white"
+"light" "100"
+"style" "0"
+"origin" "256 8 -264"
+}
+{
+"classname" "light_flame_small_white"
+"light" "100"
+"style" "0"
+"origin" "256 -520 -264"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "25"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "10"
+"origin" "832 32 -432"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "8"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "10"
+"origin" "832 -544 -432"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"ammo_nails" "50"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "10"
+"origin" "544 -832 -432"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"ammo_shells" "32"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "10"
+"origin" "544 320 -432"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"ammo_nails" "50"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "10"
+"origin" "-32 320 -432"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"ammo_shells" "32"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "10"
+"origin" "-32 -832 -432"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "25"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "10"
+"origin" "-320 -544 -432"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/weapons/pkup.wav"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "8"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "10"
+"origin" "-320 32 -432"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/items/r_item1.wav"
+"mdl" "progs/backpack.mdl"
+"no_grenades_1" "1"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "15"
+"armorvalue" "20"
+"health" "10"
+"ammo_shells" "16"
+"origin" "256 128 -432"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/items/r_item1.wav"
+"mdl" "progs/backpack.mdl"
+"no_grenades_1" "1"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "15"
+"armorvalue" "20"
+"health" "10"
+"ammo_shells" "16"
+"origin" "640 -256 -432"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/items/r_item1.wav"
+"mdl" "progs/backpack.mdl"
+"no_grenades_1" "1"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "15"
+"armorvalue" "20"
+"health" "10"
+"ammo_shells" "16"
+"origin" "256 -640 -432"
+}
+{
+"classname" "info_tfgoal"
+"noise" "/items/r_item1.wav"
+"mdl" "progs/backpack.mdl"
+"no_grenades_1" "1"
+"goal_activation" "1"
+"goal_effects" "1"
+"wait" "15"
+"armorvalue" "20"
+"health" "10"
+"ammo_shells" "16"
+"origin" "-128 -256 -432"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "2500"
+"style" "32"
+"targetname" "lightning"
+"origin" "256 -256 -32"
+}
+{
+"classname" "info_tfgoal_timer"
+"netname" "lc"
+"search_time" "60"
+"restore_goal_no" "5"
+"goal_result" "1"
+"origin" "448 -256 -64"
+}
+{
+"classname" "info_tfgoal_timer"
+"netname" "quadgiver2"
+"search_time" "150"
+"super_damage_finished" "10"
+"goal_effects" "16"
+"t_length" "5000"
+"origin" "256 -832 -64"
+}
+{
+"classname" "info_tfgoal_timer"
+"netname" "quadgiver"
+"search_time" "150"
+"super_damage_finished" "10"
+"goal_effects" "16"
+"t_length" "5000"
+"noise" "/items/damage.wav"
+"broadcast" "It's GIBBING time!\n"
+"origin" "256 320 -64"
+}
+{
+"classname" "info_tfgoal_timer"
+"netname" "quadgiver4"
+"search_time" "150"
+"super_damage_finished" "10"
+"goal_effects" "16"
+"t_length" "5000"
+"origin" "832 -256 -64"
+}
+{
+"classname" "info_tfgoal_timer"
+"netname" "quadgiver3"
+"search_time" "150"
+"super_damage_finished" "10"
+"goal_effects" "16"
+"t_length" "5000"
+"origin" "-320 -256 -64"
+}
+{
+"style" "32"
+"classname" "info_tfgoal_timer"
+"netname" "li1"
+"search_time" "120"
+"target" "lightning"
+"broadcast" "Night is Day\n"
+"origin" "576 -256 -64"
+}
+{
+"style" "32"
+"classname" "info_tfgoal_timer"
+"netname" "li2"
+"search_time" "120"
+"target" "lightning"
+"broadcast" "Day is Night.\n"
+"goal_no" "5"
+"goal_state" "3"
+"origin" "512 -256 -64"
+}
+{
+"classname" "info_tfgoal"
+"netname" "Resupply Pack 2"
+"message" "You are GOD!\nWell, for a few seconds anyways.\n: )\n"
+"mdl" "progs/backpack.mdl"
+"wait" "45"
+"goal_activation" "1"
+"goal_effects" "1"
+"noise" "ambient/thunder1.wav"
+"invincible_finished" "10"
+"origin" "256 -256 -584"
+}
+{
+"classname" "light"
+"spawnflags" "1"
+"light" "1000"
+"targetname" "lightning"
+"style" "32"
+"origin" "256 -256 -556"
+}

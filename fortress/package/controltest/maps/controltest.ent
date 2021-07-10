@@ -1,0 +1,662 @@
+{
+"_anglescale" "0.5"
+"_bounce" "2"
+"_bouncecolorscale" "0"
+"_bouncescale" "1"
+"_dirt" "-1"
+"_dirtdepth" "128"
+"_dirtgain" "1"
+"_dirtmode" "2"
+"_dirtscale" "1"
+"_dist" "1"
+"_gamma" "1"
+"_generator" "J.A.C.K. 1.1.1064 (vpQuake)"
+"_minlight_dirt" "-1"
+"_range" "0.5"
+"_sun_mangle" "0 -90 0"
+"_sunlight" "0"
+"_sunlight2" "300"
+"_sunlight2_dirt" "-1"
+"_sunlight3" "0"
+"_sunlight_color" "255 255 255"
+"_sunlight_color2" "255 255 255"
+"_sunlight_color3" "255 255 255"
+"_sunlight_dirt" "-1"
+"_sunlight_penumbra" "0"
+"classname" "worldspawn"
+"corpse_time" "0"
+"keep_keys" "0"
+"light" "0"
+"lose_items" "0"
+"mapversion" "220"
+"message" "Control Point Test Map\n\n"
+"sounds" "1"
+"wad" "C:\Program Files\J.A.C.K\Ctf40.wad;C:\Program Files\J.A.C.K\Hexen_Full.wad;C:\Program Files\J.A.C.K\QuakeOrig.wad;C:\Program Files\J.A.C.K\QuakePalette.wad;C:\Program Files\J.A.C.K\Stones.wad;C:\Program Files\J.A.C.K\Xatrix.wad;C:\Program Files\J.A.C.K\Zerstorer.wad;C:\Program Files\J.A.C.K\deadmeat.wad;C:\Program Files\J.A.C.K\prototype.wad;C:\Program Files\J.A.C.K\klown.wad;C:\Program Files\J.A.C.K\Aphasia.wad;C:\Program Files\J.A.C.K\Armagon.wad;C:\Program Files\J.A.C.K\HalfLife_Full.wad;C:\Program Files\J.A.C.K\Japanese.wad;C:\Program Files\J.A.C.K\Maps.wad;C:\Program Files\J.A.C.K\Merged1.wad;C:\Program Files\J.A.C.K\Merged2.wad;C:\Program Files\J.A.C.K\OtherCustoms.wad;C:\Program Files\J.A.C.K\PanAbbey.wad;C:\Program Files\J.A.C.K\Praevus.wad;C:\Program Files\J.A.C.K\RoofTiles.wad;C:\Program Files\J.A.C.K\SiN.wad;C:\Program Files\J.A.C.K\TonyCTF8.wad;C:\Program Files\J.A.C.K\hk4.wad;C:\Program Files\J.A.C.K\hkmoon.wad"
+"worldtype" "0"
+}
+{
+"classname" "info_tfdetect"
+"hook_out" "0"
+"origin" "-2456 2568 624"
+}
+{
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-2144 2624.5 295"
+"team_no" "1"
+}
+{
+"angles" "0 180 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-1216 2368.5 295"
+"team_no" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"netname" "BlueCap1Activator"
+"origin" "-3204 3580 916"
+"remove_goal_no" "2"
+"restore_goal_no" "1"
+"team_no" "1"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"netname" "RedCap1Activator"
+"origin" "-3204 3580 916"
+"remove_goal_no" "1"
+"restore_goal_no" "2"
+"team_no" "2"
+}
+{
+"broadcast" "BLUE has control of the MOUNTAIN.\n"
+"classname" "info_tfgoal_timer"
+"goal_no" "1"
+"goal_state" "3"
+"increase_team1" "1"
+"mdl" "progs/tf_flag.mdl"
+"origin" "-3204 3580 916"
+"search_time" "30"
+"skin" "1"
+}
+{
+"broadcast" "RED has control of the MOUNTAIN.\n"
+"classname" "info_tfgoal_timer"
+"goal_no" "2"
+"goal_state" "3"
+"increase_team2" "1"
+"mdl" "progs/tf_flag.mdl"
+"origin" "-3204 3580 916"
+"search_time" "30"
+"skin" "2"
+}
+{
+"classname" "monster_zombie"
+"corpse_time" "0"
+"origin" "768 512 88"
+"quothflags" "0"
+"spawndelay" "0"
+"spawnflags" "0"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "768 512 3600"
+"quothflags" "0"
+"targetname" "ztp"
+}
+{
+"classname" "trigger_teleport"
+"model" "*1"
+"notelefrag" "0"
+"onlymonster" "0"
+"state" "0"
+"target" "ztp"
+}
+{
+"broadcast" "BLUE has control of the HEDGE MAZE.\n"
+"classname" "info_tfgoal_timer"
+"goal_no" "3"
+"goal_state" "3"
+"increase_team1" "1"
+"mdl" "progs/tf_flag.mdl"
+"origin" "-580 3516 287"
+"search_time" "30"
+"skin" "1"
+}
+{
+"broadcast" "RED has control of the HEDGE MAZE.\n"
+"classname" "info_tfgoal_timer"
+"goal_no" "4"
+"goal_state" "3"
+"increase_team2" "1"
+"mdl" "progs/tf_flag.mdl"
+"origin" "-580 3516 287"
+"search_time" "30"
+"skin" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"netname" "RedCap1Activator"
+"origin" "-580 3516 287"
+"remove_goal_no" "3"
+"restore_goal_no" "4"
+"team_no" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"netname" "BlueCap1Activator"
+"origin" "-580 3516 287"
+"remove_goal_no" "4"
+"restore_goal_no" "3 "
+"team_no" "1"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"netname" "BlueCap1Activator"
+"origin" "-676 1212 287"
+"remove_goal_no" "6"
+"restore_goal_no" "5"
+"team_no" "1"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"netname" "RedCap1Activator"
+"origin" "-676 1212 287"
+"remove_goal_no" "5"
+"restore_goal_no" "6"
+"team_no" "2"
+}
+{
+"broadcast" "RED has control of the LAKE.\n"
+"classname" "info_tfgoal_timer"
+"goal_no" "6"
+"goal_state" "3"
+"increase_team2" "1"
+"mdl" "progs/tf_flag.mdl"
+"origin" "-676 1212 287"
+"search_time" "30"
+"skin" "2"
+}
+{
+"broadcast" "BLUE has control of the LAKE.\n"
+"classname" "info_tfgoal_timer"
+"goal_no" "5"
+"goal_state" "3"
+"increase_team1" "1"
+"mdl" "progs/tf_flag.mdl"
+"origin" "-676 1212 287"
+"search_time" "30"
+"skin" "1"
+}
+{
+"broadcast" "BLUE has control of the CITADEL.\n"
+"classname" "info_tfgoal_timer"
+"goal_no" "7"
+"goal_state" "3"
+"increase_team1" "1"
+"mdl" "progs/tf_flag.mdl"
+"origin" "-3588 572 280"
+"search_time" "30"
+"skin" "1"
+}
+{
+"broadcast" "RED has control of the CITADEL.\n"
+"classname" "info_tfgoal_timer"
+"goal_no" "8"
+"goal_state" "3"
+"increase_team2" "1"
+"mdl" "progs/tf_flag.mdl"
+"origin" "-3588 572 280"
+"search_time" "30"
+"skin" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"netname" "RedCap1Activator"
+"origin" "-3588 572 280"
+"remove_goal_no" "7"
+"restore_goal_no" "8"
+"team_no" "2"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"goal_effects" "1"
+"netname" "BlueCap1Activator"
+"origin" "-3588 572 280"
+"remove_goal_no" "8"
+"restore_goal_no" "7"
+"team_no" "1"
+}
+{
+"_anglescale" "0.5"
+"_color" "255 255 255"
+"_softangle" "0"
+"_surface_offset" "2"
+"angle" "40"
+"classname" "light"
+"delay" "3"
+"light" "100"
+"origin" "768 512 0"
+"wait" "1"
+}
+{
+"angles" "0 90 0"
+"classname" "info_player_start"
+"origin" "-3392 640 278"
+"quothflags" "0"
+}
+{
+"classname" "info_player_start"
+"origin" "-2442 3767 726"
+"quothflags" "0"
+}
+{
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-1984 3328.5 295"
+"team_no" "1"
+}
+{
+"angles" "0 180 0"
+"armorclass" "0"
+"classname" "info_player_teamspawn"
+"goal_effects" "0"
+"origin" "-1600 1920.5 295"
+"team_no" "2"
+}
+{
+"classname" "item_health"
+"origin" "-3404 930 255"
+"quothflags" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_health"
+"origin" "-2792 3741 895"
+"quothflags" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_health"
+"origin" "-1528 3763 256"
+"quothflags" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_health"
+"origin" "-354 1223 63"
+"quothflags" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_armor2"
+"origin" "-2529 678 256"
+"quothflags" "0"
+"ritem" "0"
+}
+{
+"classname" "item_armor2"
+"origin" "-3750 3676 895"
+"quothflags" "0"
+"ritem" "0"
+}
+{
+"classname" "item_armor2"
+"origin" "-951 3237 256"
+"quothflags" "0"
+"ritem" "0"
+}
+{
+"classname" "item_armor2"
+"origin" "-764 633 191"
+"quothflags" "0"
+"ritem" "0"
+}
+{
+"classname" "item_artifact_super_damage"
+"origin" "-748 658 88"
+"quothflags" "0"
+"ritem" "0"
+}
+{
+"classname" "item_artifact_invisibility"
+"origin" "-3126 3549 727"
+"quothflags" "0"
+"ritem" "0"
+}
+{
+"_anglescale" "0.5"
+"_color" "255 255 255"
+"_softangle" "0"
+"_surface_offset" "2"
+"angle" "40"
+"classname" "light_torch_small_walltorch"
+"delay" "0"
+"light" "300"
+"origin" "-3071 3328 731"
+"wait" "1"
+}
+{
+"_anglescale" "0.5"
+"_color" "255 255 255"
+"_softangle" "0"
+"_surface_offset" "2"
+"angle" "40"
+"classname" "light_torch_small_walltorch"
+"delay" "0"
+"light" "300"
+"origin" "-3140 3776 731"
+"wait" "1"
+}
+{
+"classname" "item_rockets"
+"origin" "-2006 554 254"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_rockets"
+"origin" "-1997 841 254"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_rockets"
+"origin" "-2345 2208 255"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_rockets"
+"origin" "-1931 2610 255"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_rockets"
+"origin" "-1281 2945 254"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_rockets"
+"origin" "-812 2995 255"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_rockets"
+"origin" "-1261 1743 63"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_rockets"
+"origin" "-689 1886 63"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_rockets"
+"origin" "-3532 1612 255"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_shells"
+"origin" "-2511 1296 255"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_shells"
+"origin" "-2495 1390 255"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_shells"
+"origin" "-769 732 191"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_shells"
+"origin" "-755 514 191"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_shells"
+"origin" "-951 3729 256"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_shells"
+"origin" "-843 3740 256"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_shells"
+"origin" "-1966 3737 256"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_shells"
+"origin" "-1709 3751 256"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-1184 741 61"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-1206 1032 61"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-2901 1579 255"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-2897 1486 254"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-3735 1695 576"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-3694 1676 576"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-2669 613 575"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-2601 568 575"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-2588 687 575"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-2939 3352 894"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-2850 3298 894"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-1309 3783 702"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-1339 3753 702"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-1297 3732 702"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-1306 3065 575"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-1305 3104 576"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-1177 2738 640"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-1204 2691 640"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-794 2840 639"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-530 2539 768"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-579 2502 768"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-378 2492 768"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-464 2433 768"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-432 1634 62"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}
+{
+"classname" "item_cells"
+"origin" "-527 1655 62"
+"quothflags" "0"
+"ritem" "0"
+"spawnflags" "0"
+}

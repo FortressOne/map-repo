@@ -1,0 +1,367 @@
+{
+"noise3" "call2"
+"classname" "worldspawn"
+"wad" "wad.wad"
+"message" "lms_alamode map concept by avirox \nLast man standing Defend the alamo Mode \nI did not know about the alamo btw"
+}
+{
+"classname" "info_player_start"
+"origin" "64 64 128"
+}
+{
+"origin" "48 136 136"
+"classname" "info_player_coop"
+}
+{
+"classname" "info_player_coop"
+"origin" "48 -32 136"
+}
+{
+"origin" "64 64 200"
+"classname" "info_player_deathmatch"
+}
+{
+"damage_attr" "60"
+"classname" "info_lmsdetect"
+"model" "*1"
+}
+{
+"origin" "64 0 304"
+"classname" "info_tfgoal"
+"ammo_rockets" "50"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "250"
+"team_no" "1"
+"health" "100"
+"armorvalue" "300"
+"ammo_nails" "500"
+"ammo_medikit" "50"
+"goal_effects" "1"
+"wait" "2"
+"noise" "weapons/lock4.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"no_grenades_2" "2"
+"netname" "lower_pack_1"
+"ammo_shells" "250"
+"goal_activation" "1"
+}
+{
+"target" "chill"
+"targetname" "l3"
+"origin" "72 568 720"
+"classname" "func_monsterspawn"
+}
+{
+"target" "chill"
+"targetname" "l3"
+"classname" "func_monsterspawn"
+"origin" "80 -440 720"
+}
+{
+"target" "chill"
+"classname" "func_monsterspawn"
+"origin" "-488 192 720"
+"targetname" "l1"
+}
+{
+"target" "chill"
+"targetname" "l2"
+"origin" "640 192 720"
+"classname" "func_monsterspawn"
+}
+{
+"target" "chill"
+"targetname" "l4"
+"origin" "784 704 720"
+"classname" "func_monsterspawn"
+}
+{
+"height" "1000"
+"speed" "480"
+"angle" "225"
+"classname" "trigger_monsterjump"
+"model" "*2"
+}
+{
+"targetname" "chill"
+"origin" "88 64 112"
+"classname" "path_corner"
+}
+{
+"targetname" "a1"
+"angle" "225"
+"origin" "216 -168 72"
+"classname" "item_aagun"
+"dmg" "250"
+"spawnflags" "196608"
+}
+{
+"targetname" "a2"
+"angle" "45"
+"classname" "item_aagun"
+"origin" "-88 296 72"
+"dmg" "250"
+"spawnflags" "196608"
+}
+{
+"volume" "30"
+"origin" "-72 48 312"
+"classname" "item_helo"
+}
+{
+"light" "800"
+"origin" "-512 592 680"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-512 -448 680"
+"light" "800"
+}
+{
+"light" "800"
+"origin" "376 600 680"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "640 -448 680"
+"light" "800"
+}
+{
+"light" "800"
+"origin" "64 -448 680"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "-48 600 680"
+"light" "800"
+}
+{
+"light" "600"
+"origin" "64 64 384"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "72 56 160"
+"light" "450"
+}
+{
+"origin" "-192 -704 48"
+"noise4" "l4"
+"noise3" "l3"
+"noise2" "l2"
+"noise1" "l1"
+"targetname" "start"
+"classname" "trigger_usemany"
+}
+{
+"health" "1000"
+"target" "door4"
+"classname" "func_monstergoal"
+"team_no" "1"
+"noise3" "No.4 gate is attacked by monster NOW!!\n"
+"model" "*3"
+}
+{
+"health" "1000"
+"target" "door2"
+"classname" "func_monstergoal"
+"team_no" "1"
+"noise4" "No.2 gate is attacked by monster NOW!!\n"
+"noise3" "No.2 gate is attacked by monster NOW!!\n"
+"model" "*4"
+}
+{
+"health" "1000"
+"target" "door3"
+"classname" "func_monstergoal"
+"team_no" "1"
+"noise3" "No.3 gate is attacked by monster NOW!!\n"
+"model" "*5"
+}
+{
+"health" "1000"
+"target" "door1"
+"classname" "func_monstergoal"
+"team_no" "1"
+"noise3" "No.1 gate is attacked by monster NOW!!\n"
+"noise4" "No.1 gate is attacked by monster NOW!!\n"
+"model" "*6"
+}
+{
+"noise4" "Defend the room!\nmonster in the base!\n"
+"noise3" "defend the room!\nmonster in the base!\n"
+"netname_broadcast" "FIGHT FOR FREEDOM!\n"
+"targetname" "alamo"
+"cnt" "4"
+"classname" "func_alamo"
+"model" "*7"
+}
+{
+"light" "800"
+"origin" "-512 64 680"
+"classname" "light"
+}
+{
+"classname" "light"
+"origin" "640 96 680"
+"light" "800"
+}
+{
+"classname" "func_monsterspawn"
+"origin" "640 -64 720"
+"targetname" "l2"
+"target" "chill"
+}
+{
+"classname" "monster_trigger_multiple"
+"target" "chillmon"
+"model" "*8"
+}
+{
+"targetname" "chillmon"
+"classname" "func_monsterkill"
+"model" "*9"
+}
+{
+"classname" "trigger_control"
+"target" "a1"
+"spawnflags" "196608"
+"origin" "216 -120 80"
+}
+{
+"classname" "trigger_control"
+"target" "a2"
+"spawnflags" "196608"
+"origin" "-120 216 80"
+}
+{
+"classname" "monster_ubs"
+"origin" "608 -448 472"
+"targetname" "ubs"
+"spawnflags" "1"
+}
+{
+"targetname" "l1"
+"origin" "-488 -64 720"
+"classname" "func_monsterspawn"
+"target" "chill"
+}
+{
+"speed" "110"
+"spawnflags" "2"
+"classname" "func_pushable"
+"model" "*10"
+}
+{
+"classname" "func_pushable"
+"spawnflags" "2"
+"speed" "110"
+"model" "*11"
+}
+{
+"classname" "func_pushable"
+"spawnflags" "2"
+"speed" "110"
+"model" "*12"
+}
+{
+"speed" "110"
+"spawnflags" "2"
+"classname" "func_pushable"
+"model" "*13"
+}
+{
+"classname" "monster_ubs"
+"origin" "504 68 172"
+"targetname" "ubs4"
+}
+{
+"classname" "monster_ubs"
+"origin" "52 -376 180"
+"targetname" "ubs2"
+}
+{
+"targetname" "ubs3"
+"origin" "-460 68 180"
+"classname" "monster_ubs"
+}
+{
+"classname" "monster_baron"
+"origin" "72 500 80"
+}
+{
+"noise3" "call2"
+"classname" "trigger_usemany"
+"origin" "-160 -680 120"
+"targetname" "door2"
+"noise1" "alamo"
+"noise2" "ubs2"
+}
+{
+"noise3" "call3"
+"targetname" "door3"
+"origin" "-124 -680 120"
+"classname" "trigger_usemany"
+"noise1" "alamo"
+"noise2" "ubs3"
+}
+{
+"noise3" "call4"
+"classname" "trigger_usemany"
+"origin" "-88 -680 120"
+"targetname" "door4"
+"noise1" "alamo"
+"noise2" "ubs4"
+}
+{
+"origin" "-216 -704 0"
+"noise1" "=== Disabled class ===\n\n... spy"
+"maxammo_shells" "256"
+"classname" "info_tfdetect"
+"impulse" "64"
+}
+{
+"noise2" "call1"
+"noise1" "alamo"
+"targetname" "door1"
+"origin" "-192 -680 120"
+"classname" "trigger_usemany"
+}
+{
+"spawnflags" "1"
+"message" "No.1 gate is broken!"
+"targetname" "call1"
+"classname" "trigger_multiple"
+"model" "*14"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "call2"
+"message" "No.2 gate is broken!"
+"spawnflags" "1"
+"model" "*15"
+}
+{
+"spawnflags" "1"
+"message" "No.3 gate is broken!"
+"targetname" "call3"
+"classname" "trigger_multiple"
+"model" "*16"
+}
+{
+"classname" "trigger_multiple"
+"targetname" "call4"
+"message" "No.4 gate is broken!"
+"spawnflags" "1"
+"model" "*17"
+}
+{
+"target" "chill"
+"classname" "func_monsterspawn"
+"origin" "320 568 720"
+}

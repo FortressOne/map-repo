@@ -1,0 +1,211 @@
+{
+"spawnflags" "0"
+"classname" "worldspawn"
+"_def" ""
+"wad" "C:/AGR/fortress/MAPS/omc_2019.wad;C:/AGR/fortress/MAPS/mce.wad;C:/AGR/fortress/MAPS/prototype.wad;C:/AGR/DEV STUFF/wads/intermiss2.wad;C:/AGR/fortress/MAPS/QUAKE101.WAD"
+"_tb_def" "builtin:Quake.fgd"
+}
+{
+"classname" "info_player_start"
+"origin" "103 -40 -28"
+"angle" "180"
+"spawnflags" "0"
+"angles" "15 155 0"
+}
+{
+"classname" "light"
+"origin" "-543 50 28"
+"_sun" "1"
+"light" "200"
+"wait" "0.2"
+"delay" "4"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*1"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*2"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*3"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*4"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*5"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*6"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*7"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*8"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*9"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*10"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*11"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*12"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*13"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*14"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*15"
+}
+{
+"classname" "func_rotate_object"
+"target" "rotatorr"
+"spawnflags" "2"
+"targetname" "windmill"
+"origin" "-51 180 -109"
+"model" "*16"
+}
+{
+"classname" "func_rotate_door"
+"speed" "2"
+"target" "dunnyrotator"
+"origin" "185 644 -209"
+"angles" "0 -90 0"
+"targetname" "dunny_door"
+"model" "*17"
+}
+{
+"classname" "info_rotate"
+"origin" "117 644 -209"
+"targetname" "dunny_rotator"
+}
+{
+"classname" "func_movewall"
+"origin" "185 644 -209"
+"target" "dunny_door"
+"targetname" "dunnyrotator"
+}
+{
+"classname" "rotate_object"
+"origin" "185 644 -109"
+"target" "dunny_rotator"
+"targetname" "dunnyrotator"
+}
+{
+"classname" "trigger_multiple"
+"target" "dunny_door_relay"
+"model" "*18"
+}
+{
+"classname" "trigger_relay"
+"origin" "100 700 -273"
+"targetname" "dunny_door_relay"
+"target" "dunny_door"
+}
+{
+"classname" "trigger_relay"
+"origin" "48 700 -273"
+"targetname" "dunny_door_relay"
+"target" "dunny_door"
+"delay" "5"
+}
+{
+"classname" "trigger_hurt"
+"model" "*19"
+}
+{
+"classname" "info_rotate"
+"origin" "-51 180 -109"
+"targetname" "rotatorr"
+}
+{
+"classname" "func_rotate_entity"
+"origin" "-51 180 -109"
+"target" "windmill"
+"rotate" "0 0 90"
+"spawnflags" "2"
+"speed" "1"
+}

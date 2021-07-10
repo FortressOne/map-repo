@@ -1,0 +1,270 @@
+{
+"classname" "worldspawn"
+"message" "Rust - Arena 1\nBy P u r g e\nIn memory of Joan"
+"sounds" "0"
+"worldtype" "2"
+"light" "0"
+}
+{
+"classname" "info_player_start"
+"angle" "270"
+"origin" "64 -80 -224"
+}
+{
+"classname" "light"
+"light" "800"
+"origin" "64 -768 -176"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "64 -1856 -176"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "64 320 -168"
+}
+{
+"classname" "light"
+"origin" "-192 -40 -232"
+}
+{
+"classname" "light"
+"origin" "320 -40 -232"
+}
+{
+"classname" "light"
+"origin" "-192 -1512 -232"
+}
+{
+"classname" "light"
+"origin" "320 -1520 -232"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-64 -1728 -144"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "192 -1728 -144"
+}
+{
+"classname" "light"
+"origin" "-416 -1360 -144"
+}
+{
+"classname" "light"
+"origin" "544 -1360 -152"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "64 -64 -152"
+}
+{
+"classname" "light"
+"light" "300"
+"origin" "64 -1472 -192"
+}
+{
+"classname" "light"
+"origin" "-416 -168 -144"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "-64 200 -144"
+}
+{
+"classname" "light"
+"light" "400"
+"origin" "192 200 -144"
+}
+{
+"classname" "light"
+"origin" "544 -168 -152"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "270"
+"netname" "Teamspawn 1"
+"playerclass" "3"
+"goal_no" "1"
+"team_no" "1"
+"goal_state" "1"
+"group_no" "1"
+"origin" "0 1152 -768"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"netname" "Teamspawn 2"
+"playerclass" "3"
+"goal_no" "2"
+"team_no" "2"
+"goal_state" "1"
+"origin" "320 768 -776"
+}
+{
+"classname" "info_tfdetect"
+"impulse" "4"
+"message" "Frag it HARD !\n"
+"hook_out" "1"
+"maxammo_shells" "1019"
+"team_broadcast" "*************\nPICK A TEAM\n*************\n1.BLUE TEAM\n2.RED TEAM \n"
+"maxammo_nails" "1019"
+"noise1" "=== Choose your class ===\n\n3.. Soldier \n"
+"noise2" "=== Choose your class ===\n\n3.. Soldier \n"
+"origin" "0 -864 -200"
+}
+{
+"classname" "item_tfgoal"
+"goal_activation" "28"
+"owned_by" "1"
+"message" "Go kick some ass Soldier!\n"
+"netname" "Blueflag"
+"netname_non_team_drop" "MuHhaha\n"
+"netname_team_drop" "You got your butt kicked that time\n"
+"no_grenades_2" "4"
+"playerclass" "3"
+"goal_effects" "17"
+"owners_team_broadcast" "Your enemy is ready...\n"
+"goal_no" "1"
+"goal_result" "2"
+"invincible_finished" "5"
+"team_no" "2"
+"origin" "312 760 -800"
+}
+{
+"classname" "item_tfgoal"
+"goal_activation" "28"
+"owned_by" "2"
+"message" "Go kick some ass Soldier!\n"
+"netname" "Redflag"
+"netname_non_team_drop" "MuHhaha\n"
+"netname_team_drop" "You got your butt kicked that time\n"
+"no_grenades_2" "4"
+"playerclass" "3"
+"goal_effects" "17"
+"owners_team_broadcast" "Your enemy is ready...\n"
+"goal_no" "2"
+"goal_result" "2"
+"team_no" "1"
+"invincible_finished" "5"
+"origin" "0 1144 -792"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"ammo_shells" "100"
+"owned_by" "1"
+"items_allowed" "2"
+"netname" "Blue capture"
+"axhitme" "2"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"maxammo_shells" "2"
+"goal_effects" "17"
+"armorvalue" "200"
+"invincible_finished" "5"
+"health" "100"
+"team_no" "1"
+"ammo_rockets" "100"
+"origin" "72 328 -216"
+}
+{
+"classname" "info_tfgoal"
+"goal_activation" "1"
+"owned_by" "2"
+"items_allowed" "1"
+"ammo_shells" "100"
+"netname" "Red capture"
+"axhitme" "1"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"maxammo_shells" "1"
+"goal_effects" "17"
+"goal_no" "2"
+"armorvalue" "200"
+"health" "100"
+"invincible_finished" "5"
+"team_no" "2"
+"ammo_rockets" "100"
+"origin" "64 -1856 -216"
+}
+{
+"classname" "light_fluorospark"
+"style" "10"
+"light" "200"
+"origin" "320 1160 -768"
+}
+{
+"classname" "light_fluorospark"
+"style" "10"
+"light" "200"
+"origin" "0 768 -768"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "tele1"
+"origin" "64 328 -200"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "tele2"
+"origin" "64 -1856 -200"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele1"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele2"
+"model" "*2"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele3"
+"model" "*3"
+}
+{
+"classname" "trigger_teleport"
+"target" "tele4"
+"model" "*4"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "270"
+"targetname" "tele4"
+"origin" "64 256 -200"
+}
+{
+"classname" "info_teleport_destination"
+"angle" "90"
+"targetname" "tele3"
+"origin" "64 -1784 -200"
+}
+{
+"classname" "light"
+"style" "2"
+"light" "100"
+"origin" "72 336 -384"
+}
+{
+"classname" "light"
+"style" "2"
+"light" "100"
+"origin" "64 -1864 -392"
+}
+{
+"classname" "info_intermission"
+"angle" "90"
+"origin" "-416 -776 -224"
+}

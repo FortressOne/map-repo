@@ -1,0 +1,226 @@
+{
+"classname" "worldspawn"
+"qlsky" "night"
+"light" "0"
+"sounds" "1"
+"message" "VoteMap1\nby DyerMaker\nClan Kavorkian\n"
+"worldtype" "2"
+}
+{
+"classname" "info_player_start"
+"angle" "270"
+"origin" "0 192 8"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "2"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"message" "Z7\n"
+"health" "4000"
+"netname" "door_1"
+"model" "*4"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "2"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "4000"
+"message" "Unholy\nKingdoms\n"
+"netname" "Door_2"
+"model" "*2"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "2"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"message" "FrontLine\n"
+"health" "4000"
+"netname" "door_3"
+"model" "*5"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "2"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"health" "4000"
+"message" "BaM4\n"
+"netname" "Door_4"
+"model" "*1"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"speed" "100"
+"sounds" "2"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"message" "Sandball!\n"
+"health" "4000"
+"netname" "door_5"
+"model" "*3"
+}
+{
+"classname" "func_door"
+"angle" "-1"
+"sounds" "2"
+"wait" "-1"
+"lip" "0"
+"dmg" "0"
+"message" "Well 6\n"
+"health" "4000"
+"netname" "Door_6"
+"model" "*6"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "180"
+"team_no" "1"
+"origin" "224 0 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "198"
+"team_no" "1"
+"origin" "192 112 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "226"
+"team_no" "1"
+"origin" "112 192 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "272"
+"team_no" "1"
+"origin" "0 224 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "305"
+"team_no" "1"
+"origin" "-96 192 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "332"
+"team_no" "1"
+"origin" "-176 112 16"
+}
+{
+"classname" "info_player_teamspawn"
+"team_no" "1"
+"origin" "-224 0 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "42"
+"team_no" "1"
+"origin" "-192 -96 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "59"
+"team_no" "1"
+"origin" "-112 -192 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "90"
+"team_no" "1"
+"origin" "0 -224 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "101"
+"team_no" "1"
+"origin" "112 -192 16"
+}
+{
+"classname" "info_player_teamspawn"
+"angle" "126"
+"team_no" "1"
+"origin" "192 -112 16"
+}
+{
+"classname" "info_tfdetect"
+"team_broadcast" "Vote For the Next Map!\n\nPress 1 to Continue.\n"
+"hook_out" "1"
+"noise1" "Shoot the Door\n of your Choice Map.\nKeep Shooting!\n\nPress 1 to Begin!"
+"ammo_medikit" "0"
+"maxammo_shells" "1022"
+"impulse" "0"
+"origin" "88 -108 16"
+}
+{
+"classname" "trigger_changelevel"
+"netname" "trigger_1"
+"spawnflags" "1"
+"map" "Z7"
+"model" "*7"
+}
+{
+"classname" "trigger_changelevel"
+"netname" "trigger_2"
+"spawnflags" "1"
+"map" "unholyk"
+"model" "*12"
+}
+{
+"classname" "trigger_changelevel"
+"netname" "trigger_3"
+"spawnflags" "1"
+"map" "frontlin"
+"model" "*10"
+}
+{
+"classname" "trigger_changelevel"
+"netname" "trigger_4"
+"spawnflags" "1"
+"map" "Bam4"
+"model" "*8"
+}
+{
+"classname" "trigger_changelevel"
+"netname" "trigger_5"
+"spawnflags" "1"
+"map" "sandball"
+"model" "*11"
+}
+{
+"classname" "trigger_changelevel"
+"netname" "trigger_6"
+"spawnflags" "1"
+"map" "well6"
+"model" "*9"
+}
+{
+"classname" "info_tfgoal"
+"mdl" "progs/backpack.mdl"
+"message" "Nails!"
+"goal_activation" "1"
+"goal_effects" "1"
+"no_grenades_2" "-4"
+"no_grenades_1" "-4"
+"ammo_nails" "300"
+"armorvalue" "300"
+"wait" "3"
+"origin" "-12 -12 -128"
+}

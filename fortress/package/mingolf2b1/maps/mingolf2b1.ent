@@ -1,0 +1,89 @@
+{
+"classname" "worldspawn"
+"message" "Golf course #2\nby [IcE].C4rboN83."
+"worldtype" "0"
+"hook_out" "1"
+"wad" "gfx/QuArK.wad"
+}
+{
+"classname" "info_player_start"
+"origin" "-912 384 256"
+"angle" "340"
+}
+{
+"classname" "trigger_teleport"
+"target" "hole1_tee"
+"model" "*1"
+}
+{
+"classname" "trigger_teleport"
+"target" "hole1"
+"model" "*2"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"message" "Golfer"
+"model" "*3"
+}
+{
+"classname" "trigger_multiple"
+"wait" "1"
+"message" "Ball"
+"model" "*4"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-912 224 266"
+"team_no" "1"
+"goal_activation" "0"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-912 160 266"
+"team_no" "1"
+"goal_activation" "0"
+"angle" "0"
+}
+{
+"classname" "info_player_teamspawn"
+"origin" "-912 96 266"
+"team_no" "1"
+"goal_activation" "0"
+"angle" "0"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-96 -80 432"
+"angle" "360"
+"targetname" "hole1_tee"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-224 144 400"
+"angle" "348"
+"targetname" "hole1"
+}
+{
+"classname" "info_tfgoal"
+"origin" "-64 -80 394"
+"goal_activation" "1"
+"goal_effects" "1"
+"ammo_shells" "-999"
+"ammo_nails" "-999"
+"health" "100"
+"ammo_rockets" "-999"
+"ammo_cells" "-999"
+"armorvalue" "-999"
+}
+{
+"classname" "info_tfdetect"
+"broadcast" "TeamFortress v1.35"
+"impulse" "0"
+"ammo_shells" "0"
+"ammo_nails" "0"
+"ammo_rockets" "0"
+"ammo_cells" "0"
+"playerclass" "0"
+}

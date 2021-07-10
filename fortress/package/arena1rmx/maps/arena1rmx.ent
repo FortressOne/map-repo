@@ -1,0 +1,369 @@
+{
+"message" "Rust - Arena1 RMX\nRemixed for NZTF 2v2 by P U R G E\nRMX dedicated to Janetta\nOriginal in Memory of Joan\n\n"
+"classname" "worldspawn"
+"worldtype" "0"
+}
+{
+"classname" "info_player_start"
+"origin" "64 184 176"
+"angle" "270"
+}
+{
+"classname" "light"
+"origin" "64 -504 224"
+"light" "800"
+}
+{
+"classname" "light"
+"origin" "64 -1592 224"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "64 584 232"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-192 224 168"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "320 224 168"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-192 -1248 168"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "320 -1256 168"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-64 -1464 256"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "192 -1464 256"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "-416 -1096 256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "544 -1096 248"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "64 200 248"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "64 -1208 208"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-416 96 256"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "-64 464 256"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "192 464 256"
+"light" "400"
+}
+{
+"classname" "light"
+"origin" "544 96 248"
+"light" "300"
+}
+{
+"netname" "Teamspawn 1"
+"classname" "info_player_teamspawn"
+"origin" "0 1416 -368"
+"playerclass" "3"
+"goal_no" "1"
+"team_no" "1"
+"angle" "270"
+"group_no" "1"
+"goal_state" "1"
+}
+{
+"netname" "Teamspawn 2"
+"classname" "info_player_teamspawn"
+"origin" "320 1032 -376"
+"playerclass" "3"
+"goal_no" "2"
+"team_no" "2"
+"angle" "90"
+"goal_state" "1"
+}
+{
+"goal_activation" "28"
+"owned_by" "1"
+"netname" "Blueflag"
+"message" "Go kick some ass Soldier!\n"
+"netname_non_team_drop" "MuHhaha\n"
+"classname" "item_tfgoal"
+"origin" "312 1024 -400"
+"no_grenades_2" "-1"
+"netname_team_drop" "You got your butt kicked that time\n"
+"playerclass" "3"
+"goal_effects" "17"
+"owners_team_broadcast" "Your enemy is ready...\n"
+"goal_no" "1"
+"goal_result" "2"
+"team_no" "2"
+}
+{
+"goal_activation" "28"
+"owned_by" "2"
+"netname" "Redflag"
+"message" "Go kick some ass Soldier!\n"
+"netname_non_team_drop" "MuHhaha\n"
+"classname" "item_tfgoal"
+"origin" "0 1408 -392"
+"no_grenades_2" "-1"
+"netname_team_drop" "You got your butt kicked that time\n"
+"playerclass" "3"
+"goal_effects" "17"
+"owners_team_broadcast" "Your enemy is ready...\n"
+"goal_no" "2"
+"goal_result" "2"
+"team_no" "1"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"owned_by" "1"
+"items_allowed" "2"
+"netname" "Blue capture"
+"axhitme" "2"
+"classname" "info_tfgoal"
+"origin" "72 592 184"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"no_grenades_2" "-1"
+"maxammo_shells" "2"
+"goal_effects" "17"
+"armorvalue" "200"
+"health" "25"
+"team_no" "1"
+"ammo_rockets" "100"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "100"
+"items_allowed" "1"
+"owned_by" "2"
+"netname" "Red capture"
+"axhitme" "1"
+"classname" "info_tfgoal"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "64 -1592 184"
+"maxammo_shells" "1"
+"no_grenades_2" "-1"
+"goal_effects" "17"
+"goal_no" "2"
+"armorvalue" "200"
+"team_no" "2"
+"health" "25"
+"ammo_rockets" "100"
+}
+{
+"classname" "light_fluorospark"
+"origin" "320 1424 -368"
+"style" "10"
+"light" "200"
+}
+{
+"classname" "light_fluorospark"
+"origin" "0 1032 -368"
+"style" "10"
+"light" "200"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "64 592 200"
+"angle" "270"
+"targetname" "tele1"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "64 -1592 200"
+"angle" "90"
+"targetname" "tele2"
+}
+{
+"target" "tele1"
+"model" "*1"
+"classname" "trigger_teleport"
+}
+{
+"target" "tele2"
+"model" "*2"
+"classname" "trigger_teleport"
+}
+{
+"target" "tele3"
+"model" "*3"
+"classname" "trigger_teleport"
+}
+{
+"target" "tele4"
+"model" "*4"
+"classname" "trigger_teleport"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "64 520 200"
+"angle" "270"
+"targetname" "tele4"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "64 -1520 200"
+"angle" "90"
+"targetname" "tele3"
+}
+{
+"classname" "light"
+"origin" "72 600 16"
+"style" "2"
+"light" "100"
+}
+{
+"classname" "light"
+"origin" "64 -1600 8"
+"style" "2"
+"light" "100"
+}
+{
+"classname" "info_intermission"
+"origin" "-528 272 416"
+"mangle" "13 -59 8"
+"angle" "90"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"message" "Time For A little chaos...\n"
+"netname" "re-supply_pack"
+"classname" "info_tfgoal"
+"noise" "items/damage.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"origin" "68 104 16"
+"no_grenades_2" "-1"
+"wait" "180"
+"super_damage_finished" "10"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"ammo_nails" "500"
+"health" "100"
+"ammo_cells" "500"
+"mdl" "progs/quaddama.mdl"
+"ammo_rockets" "100"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"netname" "re-supply_pack"
+"message" "Time For A little chaos...\n"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"noise" "items/damage.wav"
+"origin" "64 -1116 16"
+"wait" "180"
+"no_grenades_2" "-1"
+"super_damage_finished" "10"
+"goal_effects" "1"
+"ammo_nails" "500"
+"ammo_medikit" "50"
+"health" "100"
+"mdl" "progs/quaddama.mdl"
+"ammo_cells" "500"
+"ammo_rockets" "100"
+}
+{
+"classname" "light"
+"origin" "68 104 16"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "64 -1116 16"
+"light" "200"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"message" "Resupplied!\n"
+"netname" "pack"
+"classname" "info_tfgoal"
+"origin" "448 -512 144"
+"noise" "items/r_item2.wav"
+"no_grenades_1" "4"
+"armortype" "0.8"
+"no_grenades_2" "-1"
+"wait" "15"
+"goal_effects" "1"
+"ammo_medikit" "50"
+"ammo_nails" "500"
+"armorvalue" "300"
+"health" "100"
+"ammo_cells" "500"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "100"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "500"
+"netname" "pack"
+"message" "Resupplied!\n"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"noise" "items/r_item2.wav"
+"origin" "-320 -512 144"
+"wait" "15"
+"no_grenades_2" "-1"
+"goal_effects" "1"
+"ammo_nails" "500"
+"ammo_medikit" "50"
+"armorvalue" "300"
+"health" "100"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "500"
+"ammo_rockets" "100"
+}
+{
+"impulse" "4"
+"message" "Frag it HARD !\n"
+"classname" "info_tfdetect"
+"origin" "0 -600 200"
+"hook_out" "1"
+"maxammo_shells" "1019"
+"team_broadcast" "------------------\nPICK A TEAM\n------------------\n1 - BLUE SQUAD\n2 - RED SQUAD\n"
+"noise1" "Dial 3 for Violence!\n\n3.. Soldier \n"
+"maxammo_nails" "1019"
+"noise2" "Dial 3 for Violence!\n\n3 - Soldier \n"
+}

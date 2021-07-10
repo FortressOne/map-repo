@@ -1,0 +1,487 @@
+{
+"message" "GNATS!!\n By [SS] Jahandar\n THEME: AirScout Combat"
+"wad" "C:\Program Files\Qoole\work\scout3f.wad"
+"classname" "worldspawn"
+"worldtype" "2"
+"light" "700"
+}
+{
+"classname" "info_player_start"
+"origin" "-119.4 -990.9 -225.0"
+"team_no" "2"
+"angle" "33"
+}
+{
+"classname" "light"
+"origin" "-17 -238 -71"
+"light" "700"
+}
+{
+"classname" "light"
+"origin" "2531 -898 -71"
+"light" "700"
+}
+{
+"target" "trapbutton"
+"message" "uh oh!"
+"model" "*1"
+"sounds" "2"
+"classname" "trigger_once"
+"delay" "1"
+"health" "0"
+}
+{
+"goal_activation" "2"
+"netname" "bluespawn 1"
+"message" "Damn Gnats!\n"
+"classname" "info_player_teamspawn"
+"origin" "2701 -1085 -184"
+"team_no" "1"
+}
+{
+"goal_activation" "2"
+"netname" "redspawn 1"
+"message" "Damn Gnats!\n"
+"classname" "info_player_teamspawn"
+"origin" "-164 -29 -158"
+"team_no" "2"
+}
+{
+"classname" "info_intermission"
+"origin" "111 3 -18"
+"mangle" "21 -49 -22"
+}
+{
+"classname" "light"
+"origin" "-78 -1247 -238"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "2602 119 -236"
+"light" "1000"
+}
+{
+"classname" "light"
+"origin" "1273 -576 -651"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1532 -823 -1060"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "999 -336 -1059"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "1532 -336 -1060"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "999 -822 -1060"
+"light" "500"
+}
+{
+"classname" "light"
+"origin" "-69 -118 -67"
+"light" "300"
+}
+{
+"classname" "light"
+"origin" "2593 -1026 -67"
+"light" "300"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "388 -1260 -509"
+"light" "700"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1283 -1257 -512"
+"style" "0"
+"light" "700"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "2129 -1261 -512"
+"light" "700"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "2128 113 -509"
+"light" "700"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "1286 110 -512"
+"light" "700"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "393 114 -512"
+"light" "700"
+}
+{
+"classname" "light"
+"origin" "-105 -182 -239"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "2624 -980 -235"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "1260 -567 -546"
+"light" "500"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-282 -236 -509"
+"light" "700"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-278 -942 -509"
+"light" "700"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "2800 -976 -509"
+"light" "700"
+}
+{
+"classname" "light_torch_small_walltorch"
+"origin" "2796 -270 -509"
+"light" "700"
+}
+{
+"target" "bluesidedest"
+"model" "*2"
+"classname" "trigger_teleport"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "315 -12 -181"
+"targetname" "redsidedest"
+"angle" "270"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "2202 -1128 -182"
+"targetname" "bluesidedest"
+"angle" "90"
+}
+{
+"target" "redsidedest"
+"model" "*3"
+"classname" "trigger_teleport"
+}
+{
+"target" "redarena"
+"model" "*4"
+"classname" "trigger_teleport"
+}
+{
+"target" "bluearena"
+"model" "*5"
+"classname" "trigger_teleport"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "-248 -612 -495"
+"angle" "0"
+"targetname" "redarena"
+}
+{
+"classname" "info_teleport_destination"
+"origin" "2759 -571 -494"
+"angle" "180"
+"targetname" "bluearena"
+}
+{
+"goal_activation" "1"
+"display_item_status1" "0"
+"netname_team_broadcast" " controls the funny looking tower thing!\n+5 FOR ALL!!\n"
+"netname" "Control Point"
+"message" "You have control of\nthe funny looking tower thing!\n"
+"classname" "info_tfgoal"
+"origin" "1278.5 -583.7 -1015.0"
+"wait" "5"
+"netname_non_team_broadcast" " controls the funny looking tower thing!\nGo annoy him to death!\n"
+"goal_effects" "3"
+"count" "5"
+"frags" "5"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "250"
+"netname" "Blue Resupply 1"
+"message" "Yummy!\n"
+"classname" "info_tfgoal"
+"armortype" "0.8"
+"noise" "weapons/pkup.wav"
+"no_grenades_1" "4"
+"origin" "2697.2 -1154.8 -223.0"
+"wait" "5"
+"no_grenades_2" "4"
+"playerclass" "1"
+"goal_effects" "1"
+"ammo_nails" "250"
+"ammo_medikit" "250"
+"armorvalue" "120"
+"health" "100"
+"team_no" "1"
+"mdl" "progs/backpack.mdl"
+"ammo_cells" "250"
+"ammo_rockets" "250"
+}
+{
+"goal_activation" "1"
+"ammo_shells" "250"
+"message" "Yummy!\n"
+"netname" "Red Resupply 1"
+"classname" "info_tfgoal"
+"origin" "-181.9 22.2 -225.0"
+"no_grenades_1" "4"
+"noise" "weapons/pkup.wav"
+"armortype" "0.8"
+"no_grenades_2" "4"
+"wait" "5"
+"playerclass" "1"
+"goal_effects" "1"
+"ammo_medikit" "250"
+"ammo_nails" "250"
+"armorvalue" "100"
+"health" "100"
+"team_no" "2"
+"ammo_cells" "250"
+"mdl" "progs/backpack.mdl"
+"ammo_rockets" "250"
+}
+{
+"maxammo_rockets" "1023"
+"impulse" "64"
+"classname" "info_tfdetect"
+"origin" "768 -448 -544"
+"maxammo_shells" "1022"
+"maxammo_nails" "1022"
+"noise1" "Press 1 to play!"
+"noise2" "Press 1 to play!"
+"noise3" "Dumbass, you can't play on this team!\nNow you get to reconnect!\nMuahahaha!"
+"noise4" "Dumbass, you can't play on this team!\nNow you get to reconnect!\nMuahahaha!"
+"maxammo_cells" "1023"
+}
+{
+"classname" "light"
+"origin" "2697.2 -1154.8 -223.0"
+"light" "200"
+}
+{
+"classname" "light"
+"origin" "-180.8 2.0 -225.0"
+"light" "200"
+}
+{
+"owned_by" "1"
+"netname" "Blue Timer"
+"classname" "info_tfgoal_timer"
+"origin" "0 0 256"
+"maxammo_shells" "1"
+"wait" "3"
+"super_damage_finished" "4"
+"search_time" "10"
+"team_no" "1"
+"ammo_cells" "200"
+}
+{
+"owned_by" "2"
+"netname" "Red Timer"
+"classname" "info_tfgoal_timer"
+"origin" "0 0 256"
+"maxammo_shells" "2"
+"wait" "3"
+"super_damage_finished" "4"
+"search_time" "10"
+"team_no" "1"
+"ammo_cells" "200"
+}
+{
+"goal_activation" "2"
+"message" "Go get 'em, Tiger!\n"
+"netname" "bluespawn 11"
+"classname" "info_player_teamspawn"
+"origin" "2701 -1085 -174"
+"team_no" "1"
+}
+{
+"goal_activation" "2"
+"message" "Is that the best you can do?\n"
+"netname" "bluespawn 3"
+"classname" "info_player_teamspawn"
+"origin" "2701 -1085 -174"
+"team_no" "1"
+}
+{
+"goal_activation" "2"
+"message" "um... You died.\n"
+"netname" "bluespawn 4"
+"classname" "info_player_teamspawn"
+"origin" "2701 -1085 -154"
+"team_no" "1"
+}
+{
+"goal_activation" "2"
+"message" "Let me guess...\nHe has AutoAim, eh?\n"
+"netname" "bluespawn 5"
+"classname" "info_player_teamspawn"
+"origin" "2701 -1085 -154"
+"team_no" "1"
+}
+{
+"goal_activation" "2"
+"message" "Damn that jetpack is loud!\nWhat is that, Santa's Sleigh?\n"
+"netname" "bluespawn 6"
+"classname" "info_player_teamspawn"
+"origin" "2701 -1085 -134"
+"team_no" "1"
+}
+{
+"goal_activation" "2"
+"netname" "bluespawn 7"
+"message" "Let's go kick Blue Team's ASS!!!\nerr, wait...That's Your team\n"
+"classname" "info_player_teamspawn"
+"origin" "2701 -1085 -124"
+"team_no" "1"
+}
+{
+"goal_activation" "2"
+"message" "Type Gamma Gnats to learn the\nhidden secrets within this map!\n"
+"netname" "bluespawn 8"
+"classname" "info_player_teamspawn"
+"origin" "2701 -1085 -114"
+"team_no" "1"
+}
+{
+"goal_activation" "2"
+"message" "*YAWN*\nYou're starting to bore me.\n"
+"netname" "bluespawn 9"
+"classname" "info_player_teamspawn"
+"origin" "2701 -1085 -104"
+"team_no" "1"
+}
+{
+"goal_activation" "2"
+"message" "DAMN GNATS!!!\n"
+"netname" "bluespawn 2"
+"classname" "info_player_teamspawn"
+"origin" "2701 -1085 -94"
+"team_no" "1"
+}
+{
+"goal_activation" "2"
+"message" "Go get 'em, Tiger!\n"
+"netname" "redspawn 11"
+"classname" "info_player_teamspawn"
+"origin" "-164 -29 -148"
+"team_no" "2"
+}
+{
+"goal_activation" "2"
+"message" "Is that the best you can do?\n"
+"netname" "redspawn 3"
+"classname" "info_player_teamspawn"
+"origin" "-164 -29 -138"
+"team_no" "2"
+}
+{
+"goal_activation" "2"
+"message" "um... You died.\n"
+"netname" "redspawn 4"
+"classname" "info_player_teamspawn"
+"origin" "-164 -29 -128"
+"team_no" "2"
+}
+{
+"goal_activation" "2"
+"message" "Let me guess...\nHe has AutoAim, eh?\n"
+"netname" "redspawn 5"
+"classname" "info_player_teamspawn"
+"origin" "-164 -29 -118"
+"team_no" "2"
+}
+{
+"goal_activation" "2"
+"message" "Damn that jetpack is loud!\nWhat is that, Santa's Sleigh?\n"
+"netname" "redspawn 6"
+"classname" "info_player_teamspawn"
+"origin" "-164 -29 -108"
+"team_no" "2"
+}
+{
+"goal_activation" "2"
+"message" "Let's go kick Red Team's ASS!!!\nerr, wait...That's Your team\n"
+"netname" "redspawn 7"
+"classname" "info_player_teamspawn"
+"origin" "-164 -29 -98"
+"team_no" "2"
+}
+{
+"goal_activation" "2"
+"message" "Type Gamma Gnats to learn the\nhidden secrets within this map!\n"
+"netname" "redspawn 8"
+"classname" "info_player_teamspawn"
+"origin" "-164 -29 -88"
+"team_no" "2"
+}
+{
+"goal_activation" "2"
+"netname" "redspawn 9"
+"message" "*YAWN*\nYou're starting to bore me.\n"
+"classname" "info_player_teamspawn"
+"origin" "-164 -29 -78"
+"team_no" "2"
+}
+{
+"goal_activation" "2"
+"message" "DAMN GNATS!!!\n"
+"netname" "redspawn 2"
+"classname" "info_player_teamspawn"
+"origin" "-164 -29 -68"
+"team_no" "2"
+}
+{
+"goal_activation" "2"
+"message" "Bonus points for killing Jahandar!\n"
+"netname" "bluespawn 0"
+"classname" "info_player_teamspawn"
+"origin" "2701 -1085 -94"
+"team_no" "1"
+}
+{
+"goal_activation" "2"
+"message" "Bonus points for killing Jahandar!\n"
+"netname" "redspawn 0"
+"classname" "info_player_teamspawn"
+"origin" "-164 -29 -68"
+"team_no" "2"
+}
+{
+"classname" "ambient_eerie"
+"origin" "1287.4 -523.0 -875.6"
+"volume" "50"
+}
+{
+"spawnflags" "4"
+"classname" "trap_spikeshooter"
+"origin" "1346.8 -524.0 -1015.0"
+"targetname" "shoot"
+"angle" "45"
+}
