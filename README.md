@@ -27,10 +27,10 @@ docker push fortressone/map-repo:latest
 ```
 
 
-## Compile fortress/package to gz archives in fortress/maps
+## Append map assets zip to bsp for clients that support this (FTE)
 
 ```
-./gzip.sh
+./package_bsps.sh
 ```
 
 

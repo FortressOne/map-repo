@@ -1,7 +1,7 @@
 FROM ubuntu:18.04
 WORKDIR /map-repo
 COPY fortress/package /map-repo/fortress/package
-COPY gzip.sh /map-repo
+COPY package_bsps.sh /map-repo
 COPY entrypoint.sh /map-repo
 RUN apt-get update \
  && apt-get install -y \
@@ -14,5 +14,5 @@ RUN apt-get update \
  && curl -O https://bootstrap.pypa.io/get-pip.py \
  && python3 get-pip.py \
  && pip3 install awscli --upgrade \
- && ./gzip.sh
+ && ./package_bsps.sh
 CMD ["/map-repo/entrypoint.sh"]
