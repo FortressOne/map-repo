@@ -12,7 +12,7 @@ jobs:
       - name: Package into packaged bsps and upload to S3
         uses: ./
         id: map-repo
-        with:
+        env:
           s3-package-bucket: ${{ secrets.AWS_S3_PACKAGE_BUCKET }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-access-key: ${{ secrets.AWS_ACCESS_KEY_ID }}
