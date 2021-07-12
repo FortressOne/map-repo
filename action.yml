@@ -1,7 +1,7 @@
 name: 'Map Repo'
 description: 'Upload map packages to S3'
 inputs:
-  s3-package-bucket:
+  aws-s3-package-bucket:
     description: 'FortressOne AWS S3 package bucket URI'
     required: true
   aws-secret-access-key:
@@ -14,6 +14,6 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   env:
-    - ${{ inputs.s3-package-bucket }}
+    - ${{ inputs.aws-s3-package-bucket }}
     - ${{ inputs.aws-secret-access-key }}
     - ${{ inputs.aws-access-key }}
