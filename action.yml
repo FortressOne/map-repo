@@ -13,3 +13,7 @@ inputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  env:
+    - ${{ inputs.s3-package-bucket }}
+    - ${{ inputs.aws-secret-access-key }}
+    - ${{ inputs.aws-access-key }}
