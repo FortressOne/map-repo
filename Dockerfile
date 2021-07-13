@@ -1,8 +1,7 @@
 FROM ubuntu:18.04
-WORKDIR /map-repo
-COPY fortress/package /map-repo/fortress/package
-COPY package_bsps.sh /map-repo
-COPY entrypoint.sh /map-repo
+COPY fortress/package /fortress/package
+COPY package_bsps.sh /package_bsps.sh
+COPY entrypoint.sh /entrypoint.sh
 RUN apt-get update \
  && apt-get install -y \
     cron \
@@ -13,6 +12,5 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/* \
  && curl -O https://bootstrap.pypa.io/get-pip.py \
  && python3 get-pip.py \
- && pip3 install awscli --upgrade \
- && ./package_bsps.sh
-CMD ["/map-repo/entrypoint.sh"]
+ && pip3 install awscli --upgrade
+CMD ["/entrypoint.sh"]
