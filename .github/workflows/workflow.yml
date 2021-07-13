@@ -13,6 +13,6 @@ jobs:
         uses: ./
         id: map-repo
         env:
-          AWS-S3-PACKAGE-BUCKET: ${{ secrets.AWS_S3_PACKAGE_BUCKET }}
-          AWS-SECRET-ACCESS-KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS-ACCESS-KEY: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_S3_PACKAGE_BUCKET: ${{ secrets.AWS_S3_PACKAGE_BUCKET }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY_ID }}
