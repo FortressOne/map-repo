@@ -20,13 +20,6 @@ docker push fortressone/map-repo:latest
 ```
 
 
-## Compile for GitHub release
-
-```
-./build.sh
-```
-
-
 ## Append map assets zip to bsp for clients that support this (FTE)
 
 ```
@@ -36,15 +29,15 @@ docker push fortressone/map-repo:latest
 
 ## Deploy
 
-GitHub actions automatically syncs to S3. See `.github/workflows/workflow.yml`.
+GitHub actions automatically packages maps and syncs to S3. See `.github/workflows/workflow.yml`.
 
 
 ## Package map file structure
 
-.gz maps are a .bsp concatenated with a .pk3 file, gzipped. pk3 files are shaped like this:
+Maps packages uploaded to s3 are a bsp file concatenated with a zip file. zip files are shaped like this:
 
 ```
-<mapname>.pk3
+<mapname>.zip
 	lits/<mapname>.lit
 	locs/<mapname>.loc
 	maps/
