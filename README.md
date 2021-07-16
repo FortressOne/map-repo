@@ -29,7 +29,11 @@ docker push fortressone/map-repo:latest
 
 ## Deploy
 
-GitHub actions automatically packages maps and syncs to S3. See `.github/workflows/workflow.yml`.
+GitHub actions automatically packages maps and syncs to S3. See:
+
+- .github/workflows/workflow.yml
+- action.yml
+- Dockerfile
 
 
 ## Package map file structure
