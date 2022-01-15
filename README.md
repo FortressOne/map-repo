@@ -18,14 +18,12 @@ Contains all known QWTF maps and their assets, as well as lits, locs and skins. 
 	```
 	fortress/package/<mapname>/
 		<mapname>.txt
-		maps/
-			<mapname>.ent
-			<mapname>.rtlights
+		maps/<mapname>.ent
+		maps/<mapname>.rtlights
 		lits/<mapname>.lit
 		locs/<mapname>.loc
-		textures/
-			<mapname>/*.(png|jpg)
-			levelshots/<mapname>.(png|jpg)
+		textures/<mapname>/*.(png|jpg)
+		textures/levelshots/<mapname>.(png|jpg)
 	```
 - Push changes to your fork
 - Submit pull request
