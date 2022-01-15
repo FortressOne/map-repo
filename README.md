@@ -3,6 +3,34 @@
 Contains all known QWTF maps and their assets, as well as lits, locs and skins. If any are missing please submit a PR.
 
 
+## How to submit a map
+
+- Set up a local server for development: https://github.com/FortressOne/fortressonesv
+- Fork this repo
+- Commit files in format:
+    ```
+	fortress/package/<mapname>/
+		maps/<mapname>.bsp
+		sound/*.wav
+		progs/*.(mdl|bsp)
+	```
+- Optionally include:
+	```
+	fortress/package/<mapname>/
+		<mapname>.txt
+		maps/
+			<mapname>.ent
+			<mapname>.rtlights
+		lits/<mapname>.lit
+		locs/<mapname>.loc
+		textures/
+			<mapname>/*.(png|jpg)
+			levelshots/<mapname>.(png|jpg)
+	```
+- Push changes to your fork
+- Submit pull request
+
+
 ## Docker
 
 ### Build map-repo
