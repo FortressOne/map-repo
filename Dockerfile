@@ -10,7 +10,7 @@ RUN apt-get update \
     python3-distutils \
     zip \
  && rm -rf /var/lib/apt/lists/* \
- && curl -O https://bootstrap.pypa.io/get-pip.py \
+ && curl -O https://bootstrap.pypa.io/pip/3.6/get-pip.py \
  && python3 get-pip.py \
  && pip3 install awscli --upgrade \
  && ./package_bsps.sh
