@@ -1,0 +1,164 @@
+**** This map designed for the TeamFortress v2.65 quakeC mod ****
+11/04/97
+================================================================
+Title                   : Navajo32 version 1b
+
+Filename                : navajo32b.zip  
+
+Files			: navajo32.bsp goes in your map dir (duh!)
+			  tf_stan.mdl goes in your progs dir 
+			  backpack.mdl goes in your progs dir
+			  navtour.dem goes in you fortress dir
+			  navajo32b.txt.. your reading it.. place anywhere
+
+Author                  :  ]SWAT[HaXMephiT (Marc Anthony DeLegge)
+
+Email Address           : hax@samadhi.com
+
+Description             : TeamFortress v2.65 Quake Map
+
+
+               Check out the TeamFortress homepage at:
+               http://www.planetquake.com/teamfortress
+================================================================
+* Play Information *
+
+This map does not work properly without the TeamFortress v2.65 QuakeC
+patch, which can be downloaded from http://www.planetquake.com/teamfortress
+or from ftp.cdrom.com
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+TeamFortress            : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+New Music               : No
+Demos Replaced          : I included a tour of the map demo.. navtour.dem
+
+* Construction *
+
+Editor(s) used          : WinQoole2.10 /GLQoole 2.11
+			  QBSP256C (the one that actually worked!)
+			  crowlite
+			  Vis-ts (leetvis) - sky/water/lava sounds turned off for performance.
+
+Known Bugs              : couple places might give you a RAM icon.. 
+			  it means little.. disable with showram 0 at the console
+			  and be sure to start with -heapsize 20000 or more
+
+Build Time              : 4 months in the making.. on and off 
+			  QBSP - 4 1/2 hours 
+			  LIGHT - 34 minutes light -extra, 
+			  VIS - 17 or so hours GL/water vis'd -level 4
+
+GLVis'd			: YES
+
+Grapple			: removed
+
+Build Machine		: P200MMX 48Megs RAM.. Monster3D/Verite 1000  combo
+Tested With:		: P200MMX, 486DX4-100, P90, P120
+			  Vquake , WinQuake, Quake, QWCL, GLQWCL
+
+Optimal CLient		: GLQWCL.exe on at least a P120 with 32 megs
+
+Thanks to               - id software of course for Quake
+			- all of the Team Fortress guys for the only quake i play!!
+			- My chick, PsychoWendy, for dealing with my obsessions ~=)
+			- [SWAT]SteelHeed, [SWAT]Nman, [SWAT]Mundania, [SWAT]Haubitz, [SWAT]-Q-,
+			  [SWAT]Drizzt of Clan SWAT and _all_ the SWAT boyz
+			- .]HG[.SeaBass of Hired Guns.. and the Hired Guns Clan
+			- various boyz of clan [OO] for helping playtest/debug the thing.
+			- Chris at TFNewbies (http://www.warzone.com/tfnewbies/) for his help,
+			  suggestions and great webpage =)
+			- Apologies if I missed anyone.
+
+General overview:
+
+Startup/Performance	
+---------
+
+	If you like to run this map at resolutions higher than 320x240 ... YOUR SYSTEM IS UNDER_CONFIGURED!!!  
+most peoples QuakeWorld setups are not configured for what thier machine can easily handle.. if you got a p120 
+or better and 32 RAM... i advise you add these to your config files
+.. the ones that execute on startup and before you enter maps
+
+	r_maxsurfs 1200
+	r_maxedges 3200
+	// mainly cause these are annoying and obvious
+	showram 0	
+	showturtle 0
+			
+	If not and you use regular QWCL.exe .. itsd best to add this to your cammand line +"showram 0;r_maxedges 3200;r_maxsurfs 1200" -heapsize 20000 (or more)
+or type these at the console and reconnect... if you use GLQuakeWorld.. then +"showram 0" -heapsize 20000 (or more) will do fine.  This map
+was designed and playtested mostly with GLQuake and GLQuakeWorld as regular QWCL crashes my machine for no reason... so I didnt really notice
+many of the poly problems (which are small and only just out of range) until later... most systems are under configured though, and a P120 can
+easily handle r_maxsurfs 1200;r_maxedges 3200... so set this in your config file and you'll probably solve problems in alot of maps (like Street1, which
+gives me tons of grey-out if I dont.)
+
+Tour
+---------
+	I included a tour for ppl who have trouble figureing out the map.. its not tough, but I know your out there =)
+startup in fortress dir and type playdemo navtour at console.
+
+
+Point System		
+---------
+	This map is a simple Capture the Flag system, with a little bonus to add some extra fun. 
+Grab the enemies flag, its above the largest waterfall, and return it to your Capture Point for 10 team points, which 
+is the misty ball located in a lava-pit room off the side of the main lobbies.  On the way, why not 
+enable the Team Quad (15 seconds) by taking the flag to the enemies Capture Point... you wont be 
+stripped of the flag, but it should be sufficiently difficult to do this =)
+
+Architecture
+---------
+	There is two spawn rooms per team. Spawn One has a defensive teleport that leads directly to your flag.. 
+or at least close to it =). Spawn Two has a back entrance that leads to the snipers nest. The central 
+are, between the spawn rooms is the main lobby which also has a hallway (behind wall opposite entrance)
+that leads to the Capture Room...
+	
+	Leaving Spawn One.. too the right is a hall that leads to the Inner Canyon ... follow the paths to the large
+waterfall.. above which is Your Flag... thier are Platforms in the water, some obvious, some not that will lift you
+back up to the ledges if you fall off. Under the water, there is a tunnel that leads to your well room (disrectly under 
+Spawn Two)...  and from there to the outside or an underground passage, depending whether you take the vertical passage
+up or down.
+
+	The outside is simple... you have two battlefields, connected at the ground level by a tunnel, and at the road level 
+by another tunnel... the road level is gaurded by the sniper nests, but the ground level takes a little longer.. your choice=)
+
+
+Errors
+---------
+	Some people with regular QWCL.exe get "some" grey-out and slow down in the main lobbies at higher resolutions... I dont get these personally..
+and they dont seem to be an issue at lower resolutions, but this can mostly be fixed at your end by starting with +"r_maxedges 3200;r_maxsurfs 1200;showram 0".. 
+or typing each of those at the console and reconnecting.. a GLQWCL user would only need to use showram 0, and then only if it gives them problems.. I use GLQW, 
+so these issues didnt crop up until final testing... next release, Ill try to minimize them, shouldnt be a big deal =)
+
+	Some ppl seem to think things are errors when i intentionally made them that way... like the outside floor texture
+being pixilated somewhat... deal with it.. I liked it.. and if you dont Im sorry... play anyways and dont be so picky =)
+
+(this was FIXED in 1b)
+	removed the grapple.. as it is a heinous and grossly implemented device.. 
+	resupply packs now give less grenades.. to prevent a soldier and demoman from locking up the whole base with just grenades
+	fixed some of the messages so that you actually get to see when your flag is taken.. sometimes it would go by too quickly or be overwritten with other Stuff and youd miss it
+	added some noise to the resupply packs
+
+(this was FIXED in 1a)
+	Had some ppl report an odd texture problem when viewing the floor just outside the entrances at a certain angle... turned out to be the
+Megahealth, so it is removed... interestingly enough... this error no longer happened when QWCL 2.1 was released (the day after i took out the megahealth =)
+bu I left it out just in case...
+	
+	
+
+Final Note
+---------
+
+DONT CHEAT... its demeaning to yourself and to TF. It implies Emotional and Intellectaul Imaturity, which
+for some reason in this day and age is a "FAD".. people have hard lives, just like you, and find some small escape
+when playing quake.. try being a part of something rather than the misquitto that bites a few times, then gets swatted 
+to a pulp..  youll go farther in life that way, i gaurantee it.~=)
+
+Peace be the Journey...
+
+
