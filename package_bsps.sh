@@ -5,7 +5,7 @@ package_map () {
 	local map=$(basename ${package_path})
 
 	(cd ${package_path} && zip -0 /tmp/temp.zip -x maps/${map}.bsp -r .)
-	cat ${package_path}/maps/${map}.bsp /tmp/temp.zip > ${package_path}/maps/${map}.bsp
+	cat ${package_path}/maps/${map}.bsp /tmp/temp.zip > fortress/maps/${map}.bsp
 	rm /tmp/temp.zip
 }
 
