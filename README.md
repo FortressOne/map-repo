@@ -48,9 +48,17 @@ docker push fortressone/map-repo:latest
 
 ## Append map assets zip to bsp for clients that support this (FTE)
 
+For all packages:
 ```
 ./package_bsps.sh
 ```
+
+For a single package:
+```
+./package_bsps.sh fortress/package/<mapdir>
+```
+
+Maps will be built in fortress/maps/
 
 
 ## Deploy
