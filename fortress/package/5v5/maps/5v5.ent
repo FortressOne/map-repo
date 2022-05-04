@@ -1,0 +1,1991 @@
+{
+"worldtype" "2"
+"classname" "worldspawn"
+"message" "Welcome to the Asylum!\n5v5 Tournament Map\nBy Gunther\nFall 99 Edition"
+}
+{
+"targetname" "suprise1"
+"angle" "180"
+"lip" "-1"
+"wait" "5"
+"armorclass" "2"
+"classname" "func_door"
+"model" "*1"
+"sounds" "4"
+"speed" "100"
+}
+{
+"angle" "180"
+"health" "1"
+"lip" "-1"
+"delay" "2"
+"wait" "10"
+"classname" "func_button"
+"sounds" "1"
+"model" "*2"
+"target" "suprise1"
+}
+{
+"angle" "0"
+"origin" "1120 0 0"
+"classname" "info_player_start"
+}
+{
+"angle" "0"
+"origin" "1120 0 0"
+"classname" "info_player_deathmatch"
+}
+{
+"light" "350"
+"style" "5"
+"origin" "1280 0 0"
+"classname" "light"
+}
+{
+"mangle" "0 180 0"
+"origin" "1280 0 0"
+"classname" "info_intermission"
+}
+{
+"light" "350"
+"targetname" "lighton"
+"style" "32"
+"origin" "160 416 144"
+"classname" "light"
+}
+{
+"light" "350"
+"targetname" "lighton"
+"style" "32"
+"origin" "-160 416 144"
+"classname" "light"
+}
+{
+"targetname" "light1"
+"delay" "0"
+"style" "32"
+"origin" "0 0 0"
+"classname" "trigger_relay"
+"model" "*3"
+"target" "lighton"
+}
+{
+"targetname" "light1"
+"delay" "15"
+"style" "32"
+"origin" "0 0 0"
+"classname" "trigger_relay"
+"model" "*4"
+"target" "lighton"
+}
+{
+"light" "350"
+"targetname" "lighton"
+"style" "32"
+"origin" "160 -416 144"
+"classname" "light"
+}
+{
+"light" "350"
+"targetname" "lighton"
+"style" "32"
+"origin" "-160 -416 144"
+"classname" "light"
+}
+{
+"angle" "-2"
+"health" "1"
+"lip" "72"
+"style" "32"
+"wait" "15"
+"classname" "func_button"
+"sounds" "2"
+"model" "*5"
+"speed" "1"
+"target" "light1"
+}
+{
+"origin" "-256 -288 -64"
+"classname" "ambient_swamp1"
+}
+{
+"origin" "256 256 -64"
+"classname" "ambient_swamp1"
+}
+{
+"light" "300"
+"targetname" "lighton"
+"style" "32"
+"origin" "-320 0 144"
+"classname" "light"
+}
+{
+"light" "300"
+"targetname" "lighton"
+"style" "32"
+"origin" "320 0 144"
+"classname" "light"
+}
+{
+"angle" "0"
+"targetname" "suprise2"
+"lip" "-1"
+"wait" "5"
+"classname" "func_door"
+"armorclass" "2"
+"sounds" "4"
+"model" "*6"
+"speed" "100"
+}
+{
+"angle" "0"
+"health" "1"
+"lip" "-1"
+"delay" "2"
+"wait" "10"
+"classname" "func_button"
+"sounds" "1"
+"model" "*7"
+"target" "suprise2"
+}
+{
+"targetname" "door4"
+"angle" "-1"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*8"
+"sounds" "1"
+"speed" "100"
+}
+{
+"targetname" "door1"
+"angle" "-1"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*9"
+"sounds" "1"
+"speed" "100"
+}
+{
+"team_no" "1"
+"height" "352"
+"classname" "func_plat"
+"sounds" "1"
+"model" "*10"
+"speed" "250"
+}
+{
+"team_no" "1"
+"height" "224"
+"classname" "func_plat"
+"sounds" "1"
+"model" "*12"
+"speed" "150"
+}
+{
+"targetname" "door3"
+"angle" "-1"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*14"
+"sounds" "1"
+"speed" "100"
+}
+{
+"light" "300"
+"origin" "-464 -1592 -88"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-816 -1544 -88"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-864 -1976 -88"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-544 -1976 -88"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-496 -2312 -152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-848 -2312 -152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-464 -2808 -152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-880 -2808 -152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-672 -2816 -176"
+"classname" "light"
+}
+{
+"angle" "90"
+"targetname" "teleportblue1"
+"origin" "-672 -2704 -48"
+"classname" "info_teleport_destination"
+}
+{
+"mdl" "progs/a-flag.mdl"
+"non_team_drop" "Blue lost their Sanity!\n"
+"skin" "1"
+"team_no" "2"
+"pausetime" "20"
+"goal_result" "16"
+"noise4" "Blue calmed down...\n"
+"netname_owners_team_broadcast" " stole your Sanity!\n"
+"goal_no" "1"
+"items" "131072"
+"noise3" "You calmed down...\n"
+"team_drop" "You lost your Sanity!\n"
+"goal_effects" "1"
+"netname_non_team_broadcast" " took Blue's Sanity!\n"
+"origin" "-672 -2816 -192"
+"noise" "effects/asylum/taken3.wav"
+"classname" "item_tfgoal"
+"netname" "Blue's Sanity"
+"message" "You crazy fool!\nTake it to your basement!\n"
+"owned_by" "1"
+"netname_team_broadcast" " is running off with Blue's Sanity!\n"
+"goal_activation" "693"
+}
+{
+"team_no" "1"
+"frags" "15"
+"count" "15"
+"maxammo_shells" "1"
+"wait" "3"
+"netname_broadcast" " Got away with Red's Sanity!\n"
+"noise" "effects/asylum/cap2.wav"
+"origin" "-672 -2808 -200"
+"classname" "info_tfgoal"
+"axhitme" "2"
+"netname" "blue score"
+"items_allowed" "2"
+"goal_activation" "1"
+}
+{
+"light" "300"
+"origin" "-704 -2784 -40"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-864 -2368 -72"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-480 -2368 -72"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-864 -1568 8"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-480 -1504 -8"
+"classname" "light"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "1"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"armortype" "0.8"
+"origin" "-736 -2816 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "1"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"armortype" "0.8"
+"origin" "-736 -2752 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "1"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"armortype" "0.8"
+"origin" "-672 -2752 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "1"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"armortype" "0.8"
+"origin" "-608 -2752 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "1"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"armortype" "0.8"
+"origin" "-608 -2816 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "4"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "1"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"armortype" "0.8"
+"origin" "-544 -2816 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"origin" "-672 -2816 -192"
+"classname" "ambient_drip"
+}
+{
+"angle" "90"
+"targetname" "bluejail"
+"origin" "-672 -2496 -320"
+"classname" "info_teleport_destination"
+}
+{
+"angle" "-1"
+"targetname" "door2"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"sounds" "1"
+"model" "*15"
+"speed" "100"
+}
+{
+"team_no" "2"
+"playerclass" "8"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*16"
+"netname" "door1-3spy"
+"target" "door3"
+}
+{
+"team_no" "2"
+"playerclass" "8"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*17"
+"netname" "door1-4spy"
+"target" "door4"
+}
+{
+"light" "300"
+"origin" "448 -2176 64"
+"classname" "light_fluoro"
+}
+{
+"light" "300"
+"origin" "-352 -2176 0"
+"classname" "light_fluoro"
+}
+{
+"angle" "180"
+"targetname" "health1"
+"lip" "-72"
+"wait" "30"
+"classname" "func_door"
+"sounds" "0"
+"model" "*18"
+"speed" "999"
+}
+{
+"team_no" "1"
+"height" "128"
+"classname" "func_plat"
+"sounds" "1"
+"model" "*19"
+"speed" "100"
+}
+{
+"targetname" "liftdoor1"
+"angle" "0"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*20"
+"sounds" "4"
+"speed" "300"
+}
+{
+"team_no" "1"
+"wait" "3"
+"classname" "trigger_multiple"
+"model" "*21"
+"message" "going up..."
+"netname" "liftdoor1"
+"target" "liftdoor1"
+}
+{
+"angle" "90"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"sounds" "2"
+"model" "*22"
+"speed" "100"
+}
+{
+"angle" "270"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*23"
+"sounds" "2"
+"speed" "100"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "480 -1008 216"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "736 -1384 216"
+"classname" "light_fluorospark"
+}
+{
+"angle" "180"
+"targetname" "health2"
+"lip" "-72"
+"wait" "30"
+"classname" "func_door"
+"sounds" "0"
+"model" "*24"
+"speed" "999"
+}
+{
+"angle" "180"
+"targetname" "health3"
+"lip" "-72"
+"wait" "30"
+"classname" "func_door"
+"sounds" "0"
+"model" "*25"
+"speed" "999"
+}
+{
+"light" "300"
+"origin" "768 -1088 176"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "768 -1216 176"
+"classname" "light"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "736 -920 216"
+"classname" "light_fluorospark"
+}
+{
+"ammo_rockets" "300"
+"ammo_detpack" "300"
+"ammo_cells" "300"
+"health" "100"
+"team_no" "1"
+"armorvalue" "300"
+"ammo_nails" "300"
+"ammo_medikit" "300"
+"goal_effects" "1"
+"wait" "30"
+"no_grenades_2" "4"
+"origin" "840 -1344 168"
+"noise" "effects/asylum/supply1.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "supply1-1"
+"message" "Supply station Activated!\n"
+"target" "health1"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "300"
+"ammo_detpack" "300"
+"ammo_cells" "300"
+"health" "100"
+"team_no" "1"
+"armorvalue" "300"
+"ammo_nails" "300"
+"ammo_medikit" "300"
+"goal_effects" "1"
+"wait" "30"
+"no_grenades_2" "4"
+"origin" "840 -1216 168"
+"noise" "effects/asylum/supply7.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "supply1-2"
+"message" "Supply station Activated!\n"
+"target" "health2"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "300"
+"ammo_detpack" "300"
+"ammo_cells" "300"
+"health" "100"
+"team_no" "1"
+"armorvalue" "300"
+"ammo_nails" "300"
+"ammo_medikit" "300"
+"goal_effects" "1"
+"wait" "30"
+"no_grenades_2" "4"
+"origin" "840 -1088 168"
+"noise" "effects/asylum/supply10.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "supply1-3"
+"message" "Supply station Activated!\n"
+"target" "health3"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"angle" "180"
+"targetname" "teleportblue2"
+"origin" "864 -960 160"
+"classname" "info_teleport_destination"
+}
+{
+"targetname" "gotobluejail"
+"team_no" "2"
+"classname" "trigger_teleport"
+"model" "*26"
+"target" "bluejail"
+"spawnflags" "3"
+}
+{
+"angle" "90"
+"lip" "8"
+"health" "0"
+"delay" "2"
+"wait" "5"
+"classname" "func_button"
+"model" "*27"
+"sounds" "3"
+"message" "Anti-Camper System\nActivated!"
+"target" "gotobluejail"
+}
+{
+"team_no" "2"
+"wait" "3"
+"classname" "trigger_multiple"
+"model" "*28"
+"sounds" "0"
+"message" "You won't feel a thing..."
+"netname" "liftsquish1"
+"target" "bluesquish"
+}
+{
+"targetname" "bluesquish"
+"angle" "-1"
+"lip" "-96"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*29"
+"sounds" "4"
+"speed" "100"
+}
+{
+"origin" "640 -1184 192"
+"classname" "ambient_comp_hum"
+}
+{
+"angle" "270"
+"team_no" "1"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*30"
+"sounds" "4"
+"speed" "100"
+}
+{
+"angle" "90"
+"team_no" "1"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*31"
+"sounds" "4"
+"speed" "100"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-704 -1296 216"
+"classname" "light_fluorospark"
+}
+{
+"light" "400"
+"origin" "0 -912 216"
+"classname" "light"
+"target" "point1"
+}
+{
+"angle" "90"
+"targetname" "point1"
+"origin" "0 -1120 160"
+"classname" "info_null"
+}
+{
+"light" "300"
+"origin" "0 -912 184"
+"classname" "light"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "344 -960 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "104 -736 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-104 -736 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"origin" "448 -1504 192"
+"classname" "light_fluoro"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "408 -1280 224"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "344 -1280 224"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "80 -1464 224"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-1088 -1424 216"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "0 -1232 216"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "0 -1360 216"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-648 -1024 168"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-760 -1024 168"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"origin" "72 -1544 -152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 -1232 -144"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 -1360 -144"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-752 -1024 -80"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-656 -1024 -80"
+"classname" "light"
+}
+{
+"classname" "func_illusionary"
+"model" "*32"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "1064 -2400 -256"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "728 -2400 -256"
+"classname" "light_fluorospark"
+}
+{
+"classname" "func_illusionary"
+"model" "*33"
+}
+{
+"ammo_rockets" "300"
+"ammo_detpack" "4"
+"ammo_cells" "300"
+"mdl" "progs/jacket.mdl"
+"armorvalue" "300"
+"ammo_nails" "300"
+"ammo_medikit" "300"
+"goal_effects" "1"
+"wait" "3"
+"no_grenades_2" "4"
+"origin" "896 -2464 -320"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"noise" "effects/asylum/supply2.wav"
+"classname" "info_tfgoal"
+"message" "Lets get CRAZY!\nHere's your Straightjacket!\n"
+"netname" "spawn1"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"angle" "90"
+"team_no" "1"
+"origin" "736 -2656 -288"
+"classname" "info_player_teamspawn"
+"message" "Checking in?\n"
+"goal_activation" "2"
+}
+{
+"angle" "90"
+"team_no" "1"
+"origin" "896 -2656 -288"
+"classname" "info_player_teamspawn"
+"message" "Checking in?\n"
+"goal_activation" "2"
+}
+{
+"angle" "90"
+"team_no" "1"
+"origin" "1056 -2656 -288"
+"classname" "info_player_teamspawn"
+"message" "Checking in?\n"
+"goal_activation" "2"
+}
+{
+"classname" "trigger_teleport"
+"model" "*34"
+"spawnflags" "3"
+"target" "teleportblue1"
+}
+{
+"classname" "trigger_teleport"
+"model" "*35"
+"spawnflags" "3"
+"target" "teleportblue2"
+}
+{
+"delay" "60"
+"classname" "trigger_once"
+"model" "*36"
+"message" "Let the Insanity Begin!"
+"target" "prematch"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "344 -1888 224"
+"classname" "light_fluorospark"
+}
+{
+"targetname" "boom1"
+"angle" "180"
+"lip" "-320"
+"dmg" "999"
+"wait" "45"
+"classname" "func_door"
+"model" "*37"
+"sounds" "0"
+"speed" "999"
+}
+{
+"frags" "2"
+"count" "2"
+"goal_effects" "3"
+"wait" "45"
+"origin" "-704 -1520 144"
+"netname_broadcast" "took a bite out of Blue's Base!\n"
+"noise" "effects/asylum/cap1.wav"
+"classname" "info_tfgoal"
+"netname" "Blue wall"
+"target" "boom1"
+"goal_activation" "2"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-496 -1464 224"
+"classname" "light_fluorospark"
+}
+{
+"angle" "-2"
+"targetname" "prematch"
+"lip" "-999"
+"wait" "-1"
+"classname" "func_door"
+"model" "*38"
+"sounds" "0"
+"message" "Prematch time..."
+"speed" "999"
+}
+{
+"origin" "0 -1504 -192"
+"classname" "ambient_light_buzz"
+}
+{
+"light" "300"
+"origin" "-416 -1280 192"
+"classname" "light"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-242 -1462 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "90 -1454 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "224 -2056 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "344 -1888 224"
+"classname" "light_fluorospark"
+}
+{
+"health" "10"
+"goal_effects" "1"
+"wait" "8"
+"origin" "-32 -1488 32"
+"noise" "effects/asylum/cola.wav"
+"classname" "info_tfgoal"
+"netname" "cola"
+"message" "Ahh!\nRefreshing!\n"
+"goal_activation" "1"
+}
+{
+"light" "300"
+"origin" "-32 -1504 64"
+"classname" "light"
+}
+{
+"ammo_detpack" "5"
+"team_str_moved" "You lost your Sanity!"
+"non_team_str_moved" "The Enemy lost their Sanity!"
+"ammo_medikit" "5"
+"team_broadcast" "5V5 TOURNAMENT MAP\nCHOSE YOUR INSANITY\n\n1: PSYCHOTIC\n2: NEUROTIC\n"
+"non_team_str_home" "The Enemy is perfectly calm..."
+"team_str_carried" "You're being driven crazy by "
+"origin" "0 0 0"
+"non_team_broadcast" "Bring the flag to your flag.\n"
+"team_str_home" "Your mind is perfectly clear..."
+"classname" "info_tfdetect"
+"impulse" "64"
+"display_item_status2" "2"
+"non_team_str_carried" "The Enemy is being driven crazy by "
+"display_item_status1" "1"
+}
+{
+"angle" "-1"
+"targetname" "door10"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"sounds" "1"
+"model" "*39"
+"speed" "100"
+}
+{
+"targetname" "door11"
+"angle" "-1"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*40"
+"sounds" "1"
+"speed" "100"
+}
+{
+"team_no" "2"
+"height" "352"
+"classname" "func_plat"
+"sounds" "1"
+"model" "*41"
+"speed" "250"
+}
+{
+"team_no" "2"
+"height" "224"
+"classname" "func_plat"
+"sounds" "1"
+"model" "*43"
+"speed" "150"
+}
+{
+"targetname" "door13"
+"angle" "-1"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*45"
+"sounds" "1"
+"speed" "100"
+}
+{
+"targetname" "door12"
+"angle" "-1"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*46"
+"sounds" "1"
+"speed" "100"
+}
+{
+"team_no" "1"
+"playerclass" "8"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*47"
+"netname" "door2-13spy"
+"target" "door13"
+}
+{
+"team_no" "1"
+"playerclass" "8"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*48"
+"netname" "door2-10spy"
+"target" "door10"
+}
+{
+"light" "300"
+"origin" "-448 2176 64"
+"classname" "light_fluoro"
+}
+{
+"light" "300"
+"origin" "352 2176 0"
+"classname" "light_fluoro"
+}
+{
+"targetname" "health8"
+"angle" "0"
+"lip" "-72"
+"wait" "30"
+"classname" "func_door"
+"model" "*49"
+"sounds" "0"
+"speed" "999"
+}
+{
+"team_no" "2"
+"height" "128"
+"classname" "func_plat"
+"sounds" "1"
+"model" "*50"
+"speed" "100"
+}
+{
+"angle" "0"
+"targetname" "liftdoor2"
+"lip" "-1"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"sounds" "4"
+"model" "*51"
+"speed" "300"
+}
+{
+"team_no" "2"
+"wait" "3"
+"classname" "trigger_multiple"
+"model" "*52"
+"message" "going up..."
+"netname" "liftdoor2"
+"target" "liftdoor2"
+}
+{
+"angle" "270"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*53"
+"sounds" "2"
+"speed" "100"
+}
+{
+"angle" "90"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*54"
+"sounds" "2"
+"speed" "100"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-480 1008 216"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-736 1384 216"
+"classname" "light_fluorospark"
+}
+{
+"targetname" "health7"
+"angle" "0"
+"lip" "-72"
+"wait" "30"
+"classname" "func_door"
+"model" "*55"
+"sounds" "0"
+"speed" "999"
+}
+{
+"targetname" "health6"
+"angle" "0"
+"lip" "-72"
+"wait" "30"
+"classname" "func_door"
+"model" "*56"
+"sounds" "0"
+"speed" "999"
+}
+{
+"light" "300"
+"origin" "-768 1088 176"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "-768 1216 176"
+"classname" "light"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-736 920 216"
+"classname" "light_fluorospark"
+}
+{
+"ammo_rockets" "300"
+"ammo_detpack" "300"
+"ammo_cells" "300"
+"health" "100"
+"team_no" "2"
+"armorvalue" "300"
+"ammo_nails" "300"
+"ammo_medikit" "300"
+"goal_effects" "1"
+"wait" "30"
+"no_grenades_2" "4"
+"origin" "-840 1344 168"
+"noise" "effects/asylum/supply1.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "supply2-1"
+"message" "Supply station Activated!\n"
+"target" "health8"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "300"
+"ammo_detpack" "300"
+"ammo_cells" "300"
+"health" "100"
+"team_no" "2"
+"armorvalue" "300"
+"ammo_nails" "300"
+"ammo_medikit" "300"
+"goal_effects" "1"
+"wait" "30"
+"no_grenades_2" "4"
+"origin" "-840 1216 168"
+"noise" "effects/asylum/supply7.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "supply2-2"
+"message" "Supply station Activated!\n"
+"target" "health7"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "300"
+"ammo_detpack" "300"
+"ammo_cells" "300"
+"health" "100"
+"team_no" "2"
+"armorvalue" "300"
+"ammo_nails" "300"
+"ammo_medikit" "300"
+"goal_effects" "1"
+"wait" "30"
+"no_grenades_2" "4"
+"origin" "-840 1088 168"
+"noise" "effects/asylum/supply10.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "supply2-3"
+"message" "Supply station Activated!\n"
+"target" "health6"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"angle" "0"
+"targetname" "teleportred2"
+"origin" "-848 960 160"
+"classname" "info_teleport_destination"
+}
+{
+"angle" "270"
+"lip" "8"
+"health" "0"
+"delay" "2"
+"wait" "5"
+"classname" "func_button"
+"model" "*57"
+"sounds" "3"
+"message" "Anti-Camper System\nActivated!"
+"target" "gotoredjail"
+}
+{
+"team_no" "1"
+"delay" "1"
+"wait" "3"
+"classname" "trigger_multiple"
+"model" "*58"
+"sounds" "0"
+"message" "You won't feel a thing..."
+"netname" "liftsquish2"
+"target" "redsquish"
+}
+{
+"targetname" "redsquish"
+"angle" "-1"
+"lip" "-96"
+"dmg" "999"
+"wait" "1"
+"classname" "func_door"
+"model" "*59"
+"sounds" "4"
+"speed" "100"
+}
+{
+"targetname" "gotoredjail"
+"team_no" "1"
+"classname" "trigger_teleport"
+"model" "*60"
+"target" "redjail"
+"spawnflags" "3"
+}
+{
+"origin" "-640 1184 160"
+"classname" "ambient_comp_hum"
+}
+{
+"angle" "90"
+"team_no" "2"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*61"
+"sounds" "4"
+"speed" "100"
+}
+{
+"angle" "270"
+"team_no" "2"
+"lip" "-1"
+"dmg" "999"
+"wait" "2"
+"classname" "func_door"
+"model" "*62"
+"sounds" "4"
+"speed" "100"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "704 1296 216"
+"classname" "light_fluorospark"
+}
+{
+"light" "400"
+"origin" "0 912 216"
+"classname" "light"
+"target" "point2"
+}
+{
+"angle" "270"
+"targetname" "point2"
+"origin" "0 1120 160"
+"classname" "info_null"
+}
+{
+"light" "300"
+"origin" "0 912 184"
+"classname" "light"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-344 960 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-104 736 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "104 736 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"origin" "-448 1504 192"
+"classname" "light_fluoro"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-408 1280 224"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-344 1280 224"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-80 1464 224"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "1088 1424 216"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "0 1232 216"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "0 1360 216"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "648 1024 168"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "760 1024 168"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"origin" "-72 1544 -152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 1232 -144"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "0 1360 -144"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "752 1024 -80"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "656 1024 -80"
+"classname" "light"
+}
+{
+"classname" "func_illusionary"
+"model" "*63"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-1064 2400 -256"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-728 2400 -256"
+"classname" "light_fluorospark"
+}
+{
+"classname" "func_illusionary"
+"model" "*64"
+}
+{
+"ammo_rockets" "300"
+"ammo_detpack" "300"
+"mdl" "progs/jacket.mdl"
+"ammo_cells" "300"
+"armorvalue" "300"
+"ammo_nails" "300"
+"ammo_medikit" "300"
+"goal_effects" "1"
+"wait" "3"
+"no_grenades_2" "4"
+"origin" "-896 2464 -320"
+"noise" "effects/asylum/supply2.wav"
+"armortype" "0.8"
+"no_grenades_1" "4"
+"classname" "info_tfgoal"
+"netname" "spawn2"
+"message" "Lets get CRAZY!\nHere's your Straightjacket!\n"
+"ammo_shells" "300"
+"goal_activation" "1"
+}
+{
+"angle" "270"
+"team_no" "2"
+"origin" "-736 2656 -288"
+"classname" "info_player_teamspawn"
+"message" "Checking in?\n"
+"goal_activation" "2"
+}
+{
+"angle" "270"
+"team_no" "2"
+"origin" "-896 2656 -288"
+"classname" "info_player_teamspawn"
+"message" "Checking in?\n"
+"goal_activation" "2"
+}
+{
+"angle" "270"
+"team_no" "2"
+"origin" "-1056 2656 -288"
+"classname" "info_player_teamspawn"
+"message" "Checking in?\n"
+"goal_activation" "2"
+}
+{
+"classname" "trigger_teleport"
+"model" "*65"
+"target" "teleportred1"
+"spawnflags" "3"
+}
+{
+"classname" "trigger_teleport"
+"model" "*66"
+"spawnflags" "3"
+"target" "teleportred2"
+}
+{
+"targetname" "boom2"
+"angle" "180"
+"lip" "-320"
+"dmg" "999"
+"wait" "45"
+"classname" "func_door"
+"model" "*67"
+"sounds" "0"
+"speed" "999"
+}
+{
+"frags" "2"
+"count" "2"
+"goal_effects" "3"
+"wait" "45"
+"origin" "704 1520 144"
+"netname_broadcast" "took a bite out of Red's Base!\n"
+"noise" "effects/asylum/cap1.wav"
+"classname" "info_tfgoal"
+"netname" "Red wall"
+"target" "boom2"
+"goal_activation" "2"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "496 1464 224"
+"classname" "light_fluorospark"
+}
+{
+"targetname" "prematch"
+"angle" "-2"
+"lip" "-999"
+"wait" "-1"
+"classname" "func_door"
+"sounds" "0"
+"model" "*68"
+"message" "Prematch time..."
+"speed" "999"
+}
+{
+"origin" "0 1504 -192"
+"classname" "ambient_light_buzz"
+}
+{
+"light" "300"
+"origin" "416 1280 160"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "464 1592 -88"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "816 1544 -88"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "864 1976 -88"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "544 1976 -88"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "496 2312 -152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "848 2312 -152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "464 2808 -152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "880 2808 -152"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "672 2816 -176"
+"classname" "light"
+}
+{
+"angle" "270"
+"targetname" "teleportred1"
+"origin" "672 2704 -48"
+"classname" "info_teleport_destination"
+}
+{
+"mdl" "progs/a-flag.mdl"
+"non_team_drop" "Red lost their Sanity!\n"
+"skin" "2"
+"team_no" "1"
+"pausetime" "20"
+"goal_result" "16"
+"noise4" "Red calmed down...\n"
+"netname_owners_team_broadcast" " stole your Sanity!\n"
+"goal_no" "2"
+"items" "262144"
+"noise3" "You calmed down...\n"
+"team_drop" "You lost your Sanity!\n"
+"goal_effects" "1"
+"netname_non_team_broadcast" " took Red's Sanity!\n"
+"origin" "672 2816 -192"
+"noise" "effects/asylum/taken3.wav"
+"classname" "item_tfgoal"
+"netname" "Red's Sanity"
+"message" "You crazy fool!\nTake it to your basement!\n"
+"owned_by" "2"
+"netname_team_broadcast" " is running off with Red's Sanity!\n"
+"goal_activation" "693"
+}
+{
+"team_no" "2"
+"frags" "15"
+"count" "15"
+"maxammo_shells" "2"
+"wait" "3"
+"noise" "effects/asylum/cap2.wav"
+"netname_broadcast" " Got away with Blue's Sanity!\n"
+"origin" "672 2808 -200"
+"classname" "info_tfgoal"
+"axhitme" "1"
+"netname" "Red score"
+"items_allowed" "1"
+"goal_activation" "1"
+}
+{
+"light" "300"
+"origin" "704 2784 -40"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "864 2368 -72"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "480 2368 -72"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "864 1568 8"
+"classname" "light"
+}
+{
+"light" "300"
+"origin" "480 1504 -8"
+"classname" "light"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "2"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"armortype" "0.8"
+"origin" "800 2816 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "2"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"armortype" "0.8"
+"origin" "736 2816 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "2"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"armortype" "0.8"
+"origin" "736 2752 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "2"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"armortype" "0.8"
+"origin" "672 2752 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "2"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "3"
+"armortype" "0.8"
+"origin" "608 2752 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "2"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"armortype" "0.8"
+"origin" "608 2816 -208"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "2"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"origin" "544 2816 -208"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"origin" "672 2816 -192"
+"classname" "ambient_drip"
+}
+{
+"angle" "270"
+"targetname" "redjail"
+"origin" "672 2496 -320"
+"classname" "info_teleport_destination"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "232 1472 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-80 1464 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-224 2056 96"
+"classname" "light_fluorospark"
+}
+{
+"light" "300"
+"style" "0"
+"origin" "-344 1888 224"
+"classname" "light_fluorospark"
+}
+{
+"health" "10"
+"goal_effects" "1"
+"wait" "8"
+"origin" "32 1488 32"
+"noise" "effects/asylum/cola.wav"
+"classname" "info_tfgoal"
+"netname" "cola"
+"message" "Ahh!\nRefreshing!\n"
+"goal_activation" "1"
+}
+{
+"light" "300"
+"origin" "32 1504 64"
+"classname" "light"
+}
+{
+"origin" "-670 -1719 -124"
+"classname" "ambient_eerie"
+}
+{
+"origin" "670 1719 -124"
+"classname" "ambient_eerie"
+}
+{
+"origin" "-346 -2178 0"
+"classname" "ambient_peakwind"
+}
+{
+"origin" "346 2178 0"
+"classname" "ambient_peakwind"
+}
+{
+"origin" "0 -1025 64"
+"classname" "ambient_high_wind"
+}
+{
+"origin" "0 1025 64"
+"classname" "ambient_high_wind"
+}
+{
+"ammo_rockets" "1"
+"ammo_cells" "1"
+"health" "1"
+"team_no" "1"
+"armorvalue" "1"
+"ammo_nails" "1"
+"goal_effects" "1"
+"wait" "1"
+"origin" "-800 -2816 -208"
+"armortype" "0.8"
+"classname" "info_tfgoal"
+"netname" "water"
+"ammo_shells" "1"
+"goal_activation" "1"
+}
+{
+"team_no" "1"
+"wait" "3"
+"classname" "trigger_multiple"
+"model" "*11"
+"netname" "door1-1"
+"target" "door1"
+"spawnflags" "0"
+}
+{
+"team_no" "1"
+"wait" "3"
+"classname" "trigger_multiple"
+"model" "*13"
+"netname" "door1-2"
+"spawnflags" "0"
+"target" "door2"
+}
+{
+"team_no" "1"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*16"
+"netname" "door1-3"
+"target" "door3"
+}
+{
+"team_no" "1"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*17"
+"netname" "door1-4"
+"target" "door4"
+}
+{
+"team_no" "2"
+"wait" "3"
+"classname" "trigger_multiple"
+"model" "*42"
+"netname" "door2-11"
+"target" "door11"
+"spawnflags" "0"
+}
+{
+"team_no" "2"
+"wait" "3"
+"classname" "trigger_multiple"
+"model" "*44"
+"netname" "door2-12"
+"spawnflags" "0"
+"target" "door12"
+}
+{
+"team_no" "2"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*47"
+"netname" "door2-13"
+"target" "door13"
+}
+{
+"team_no" "2"
+"wait" "1"
+"classname" "trigger_multiple"
+"model" "*48"
+"netname" "door2-10"
+"target" "door10"
+}
