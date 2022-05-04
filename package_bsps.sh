@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -eu
 
 package_map () {
 	local package_path=$1
