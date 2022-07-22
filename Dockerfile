@@ -13,5 +13,4 @@ RUN apt-get update \
  && curl -O https://bootstrap.pypa.io/pip/3.6/get-pip.py \
  && python3 get-pip.py \
  && pip3 install awscli --upgrade \
- && ./package_bsps.sh
 CMD ["/entrypoint.sh"]
