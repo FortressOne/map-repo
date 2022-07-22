@@ -12,5 +12,5 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/* \
  && curl -O https://bootstrap.pypa.io/pip/3.6/get-pip.py \
  && python3 get-pip.py \
- && pip3 install awscli --upgrade \
+ && pip3 install awscli --upgrade
 CMD ["/entrypoint.sh"]
