@@ -1,5 +1,13 @@
 #!/bin/bash
 
+for image in $(find -name '*.tga'); do
+	echo "${image}"
+
+	echo "converting $image to png"
+	mogrify -format png "${image}"
+	rm "${image}"
+done
+
 for image in $(find -name '*.png'); do
 	echo "${image}"
 
