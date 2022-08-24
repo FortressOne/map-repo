@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          lfs: true
       - name: Package into packaged bsps and upload to S3
         uses: ./
         id: map-repo
