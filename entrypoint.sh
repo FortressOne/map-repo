@@ -2,7 +2,7 @@
 
 if [ ! -z "${AWS_SECRET_ACCESS_KEY}" ] && [ ! -z "${AWS_ACCESS_KEY_ID}" ] && [ ! -z "${AWS_S3_PACKAGE_BUCKET}" ]; then
   for package_path in fortress/package/*; do
-    ./package_bsp ${package_path}
+    ./package_bsps.sh ${package_path}
     rm -rf ${package_path}
   done
 
