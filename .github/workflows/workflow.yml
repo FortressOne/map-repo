@@ -41,7 +41,7 @@ jobs:
             rm -rf ${package_path}
           done
           pwd
-          /usr/local/bin/aws s3 sync --size-only fortress/maps ${{ secrets.AWS_S3_PACKAGE_BUCKET }} --delete
+          /usr/local/bin/aws s3 sync --size-only fortress/maps ${{ secrets.AWS_S3_PACKAGE_BUCKET }} --delete --debug
         env:
           AWS_S3_PACKAGE_BUCKET: ${{ secrets.AWS_S3_PACKAGE_BUCKET }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
