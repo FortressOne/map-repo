@@ -1,0 +1,143 @@
+**** This map designed for the TeamFortress QuakeC patch ****
+			https://qwtf.org
+
+Version 7 made 14 Dec 2023
+Version 6 made 12 Jun 1997
+================================================================
+Title                   : 2Sphinx7
+Filename                : 2sphinx7.bsp
+Author                  : Horus/Baby Spice and Arc
+Description             : An ent revision of Horus/Baby Spice's 2sphinx6.bsp.
+Where to get it         : https://github.com/FortressOne/map-repo
+================================================================
+* Play Information *
+
+Single Player           : For practicing moves
+Cooperative             : No
+Deathmatch              : No
+TeamFortress            : Yes, ideal for 4s
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : Yes, custom Egyptian textures and ankh models                          
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Construction *
+Version 7 Author	: Arc
+Base                    : 2sphinx6                              
+Editor(s) used          : EntEd
+Known Bugs              : Blue water doorway partially transparent in FO client
+			  Pipes fall through part of blue water doorway (can still pipe area)
+Build Time              : A few hours editing and testing
+Changes from 2sphinx6	: -Your ankh (flag) no longer needs to be at its default spot to cap
+			  -Rebuilt all ankh (flag) entities from scratch (deleted originals)
+			  -Ankh (flag) return time increased to 60 seconds
+			  -Moved ankh (flag) to sarcophagus lid (still cap in sarcophagus)
+			  -Removed blast armor from supply packs
+			  -Removed all quad and invisibility powerups
+			  -All doors open instantly so players don't stop
+			  -Moved resupply packs so players can grenjump through them
+			  -Added secret cells pack behind pyramid for Engineers
+			  -Limited cells from resupply packs to slow sentry upgrades
+			  -Dropitems (toss flag) now works
+			  -SPEEDstats will count all touches, drops, and captures
+			  -Cleaned up text/message issues
+Release Notes V7	: 2sphinx6 was one of the maps chosen for The Second Fifth Element 
+			  Team Fortress Open (TFO2), which was held on 22 Mar 1998. 8 matches 
+			  were scheduled on the map, involving historic clans like AOA, CE, DOW,  
+			  GP, UVM, and more. Unfortunately, those matches exposed numerous ent 
+			  problems with 2sphinx6 that made it generally unplayable, and the map 
+			  was forgotten. Now, 26 years later, I've resurrected it with fixed ents.
+================================================================
+Versions 1-6 Author	: Horus/Baby Spice
+Base                    : From scratch                              
+Editor(s) used          : Worldcraft and EntEd
+Known Bugs              : There's a slight grey-out when you jump off the ramps right at the
+			  back of the top level. You can solve this by doing that r_maxsurfs
+			  thing...er or something. Don't look at me! :)
+Build Time              : DAYS! Nay, weeks even. Had to learn Worldcraft for a start.
+			  This is my first map etc.
+                          The full compile time was about 2 hours on a P90 with 32 megs ram
+Thanks to               : The guys who wrote the Teamfort thing. Cool.
+                          
+			  Dr.Debug.MA (AKA Posh Spice) for total and unfailing
+			  technical support while I was still learning. Without him 
+		          this map would still be nothing but leaks and duplicate planes.                     
+			 
+			  Jord, for some good constructive criticism gameplay-wise. This is
+			  my first map after all, so I won't learn anything unless you tell
+			  me people!! :) Check out his cool website: http:\\jord.sbc.edu
+ 			  
+			  Ben Morris for Worldcraft. Had me tearing my hair out at times,
+			  but I'm sure that was just me!
+				
+			  Raistlan for Ented. In the end it saved more stress than it
+			  caused. I think :) Definitely with the last beta.
+
+			  Ritalin Boy [Clandestine] for some help with entities for version
+			  six and for suggesting the Ankh models, and the Caulfields or 
+			  whoever they are for inspiring him :) Also for letting me test
+			  version 6 on his server, run by Zephyre.
+
+                          Clan Spice Girls! And the Spice Girls themselves, 'course.
+                          ('specially Emma :)
+
+			  id software for er, that thing, erm. I forget.
+Release Notes V6	: 26th May 97: Beginning to think I'm jinxed. Apparently the extra 
+			  stuff was too much too close together. At any rate there were vis 
+			  errors and the flag sometimes just vanished altogether, never to return. 
+			  I've taken out one of the extra corridors at each end. Hopefully it now 
+			  works. All of it. Perfectly. I've also done some extra models for the 
+			  Ankhs, which look pretty good I reckon, but then I would :) Also upped 
+			  the recharge packs to give maximum, which is more convenient.
+Release Notes V5	: 15th May 97: Version 5 already! People didn't like getting stuck behind 
+			  the sarcophagus lid, so I've moved it. Also the flag room was turning out 
+			  to be something of a death trap, so added a couple more entrances and exits, 
+			  and changed the lava in there to water. The flag is now droppable. It'll 
+			  hang around for about 30 secs after death of carrier. There is also more 
+			  sniper potential on the top level with a balcony in front of the sphinx. 
+			  I also built in a huge statue of Anubis but the map was getting too greedy 
+			  in terms of memory for it to stay. Maybe in a later map... Erm, I think 
+			  that's it. Oh, in case anyone gets the impression from this version that 
+			  I like dropping people from great heights, it's not true :) 
+Release Notes V4	: 12th May 97: DOH! That dang respawn somehow crept back into the wall. 
+		 	  Definitely fixed now. Cuh, computers, eh?
+Release Notes V3	: 9th May 97: Version 3. Widened corridors downstairs: they could get blocked 
+			  too easily by sentry guns etc. Score increase for flag capture wasn't 
+			  working. Extra backpack behind Sphinx. More team-colours around. Thanks to 
+			  Jord for some constructive criticism.
+Release Notes V2	: 8th May 97: Kinda OD'ed on quake recently, so only got round to doing this 
+			  version a bit later than planned. Moved a respawn in the wall, re-aligned 
+			  some textures, got rid of one crater and one tank, put in an extra step 
+			  somewhere, er, that's it I think. Oh, also removed a fullbright colour from 
+			  the Pharaoh texture, and the Team 2 backpacks now work for Team 2 (Doh!).
+Release Notes V1	: 25th April 97: First test map released...
+================================================================
+* General Guide (V1-6, mostly removed in V7) *
+
+Ok basically it's simple. You gotta get the other guys' flag and shoot them a lot. In order
+to capture the other flag <"The Ankh of Isis, or of Osiris"> you have to take it back
+to your own flag, WHICH MUST BE THERE: you gotta "reunite" them, see? Successful capture 
+nets the whole team 10 frags, 45 secs of Quad and Invis, and also maxes out health, ammo and
+armour.
+
+There is a team Quad damage in the crater in the middle: it gives the whole of your team
+Quad damage for 30 secs. Likewise, there is a Team Shadowring.
+
+There's also some magic jumpy-off things on the top level that...well, jump off them and
+see. Er thats it I guess. Good fragging, people, and enjoy the map!
+
+Horus.
+
+"I really really really wanna Gib-a-Gib-Argggh!"
+================================================================
+* LEGAL STUFF *
+
+Blah blah permission etc.
+Waffle waffle distribute this map or sommit.
+Don't rip bits out 'n stuff.
+
+Basically, give it to who you like, but include this text file. And don't stick it in any
+compilation or anything without asking me. Erm, you know the rest. If you wanna use the 
+models in anything, ask me.
+================================================================
