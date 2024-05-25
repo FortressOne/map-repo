@@ -1,0 +1,109 @@
+*** This map designed for the Team Fortress QuakeC patch ***
+		https://qwtf.org
+
+25 May 2024
+================================================================
+Title                   : Dragon God III
+Filename                : dragongod3.bsp
+Author                  : Arc
+Description             : Blue and Red try to capture the flag, with tricks and dragons.
+Where to get it         : https://github.com/FortressOne/map-repo
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch		: No
+Team Fortress           : Yes, intended for 3-4 attackers and 3-4 defenders.
+Difficulty Settings     : No
+New Sounds              : dgcap.wav
+			  dgpack.wav
+			  dgsecret.wav
+			  dgtake.wav
+New Graphics            : Blue and red crosses taken from marics_ctf14
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : dragongod2.bsp
+Editor(s) used          : TrenchBroom v2024.1
+			  ericw-tools 2.0.0-alpha6
+			  ne_q1spCompilingGui103
+			  EntEd 2.0 Registered
+Known Bugs              : None                        
+Build Time              : 19–25 May 2024
+================================================================
+* Changes from Dragon God II *
+
+-Removed team refill on capture.
+-Team can now open their own spawn door from yard.
+-Added faster way to get out of bridge water.
+-No more roof access (except at the water secret area).
+-Moved spawn door from flag room to upper ramp room.
+-Added another ramp in flag room corner.
+-Added secret lift up to the water secret area.
+-Added dragon cave at lava jump corner.
+-Slightly increased difficulty of lava jump.
+-Remade double dragon doors.
+-Centered blue packs properly.
+-Moved spawn points slightly up spawn ramp.
+
+* Changes from Dragon God I *
+
+-Added lights and shadows.
+-Added locs.
+-The wall at the end of the capture corridor now pushes you in the opposite direction at 600 speed.
+-The spawn doors will no longer teleport enemies to lava (must enter opened spawn to trigger teleporter).
+-Fixed spy's undisguising issue.
+-Fixed flag capture message.
+-Minor texture changes.
+
+* Story *
+
+The Water Dragon and the Fire Dragon are two of the six dragons that make up the Dragon God. They have time-traveled to the year 1997—two years before the Day of Lavos—in order to prevent Lavos from ultimately becoming the Time Devourer. Both dragons have a plan to destroy Lavos before Crono's party can (leading to the Time Devourer timeline), but each dragon's plan requires utilizing the power of the other. Thus, water and fire element users have been directed by the dragons to capture each other's flags as much as possible.
+
+* Details *
+
+Dragon God was intentionally made with only Quake101.wad textures and has some visual similarities to 2fort5r, but it is designed for modern gameplay. While making my guide to every QWTF map (qwtf.org/Maps), the three most common flaws I saw in map design were (1) lack of space to move freely, (2) lack of creative inspiration, and (3) too much concern about the technical details of mapmaking. Before making Dragon God, I had the basic layout in mind, with the goal of making a map that would be fun to play for every class.
+
+Dragon colors indicate which team can open a door. Blue can open blue, red can open red, and either team can open yellow (the Earth Dragon is neutral). There is also spawn-camping protection to stop attacking players from trying to enter the enemy spawn.
+
+* Inspiration *
+
+These maps directly or indirectly influenced the creation of dragongod: 2fort5r, poop, shoop, excel, japanc, openfirer, h4rdcore, preskool, canalzon, caverns, well6, impact1, optics6, civsaw1, 32smooth, cyanr, fatta2, 2sphinx6, 8-1, r123, fo_smartbases_b2, tfc-demolish_b2, ff-schtop, ff-phantomr, blitzkrieg2, rs_zzr, genders2, ff-siege, rcktjump, mountdoom, utumno.
+
+* Research *
+
+Dragon God is intended to have similar timing to the maps that are most frequently played in FortressOne. Thus I went through each of the top maps as Spy and tested how long it takes to bunnyhop from my spawn to (1) my own flag (simulating defense timing) and (2) the enemy flag (simulating offense timing). The results show that the expectation is that it should take about 9 seconds for the defense and 17 seconds for the attack to 'feel' right. Dragon God is close to the average of the most-played maps, slightly on the faster side.
+
+MAP			TIMES PLAYED		TOUCH OWN FLAG	TOUCH ENEMY FLAG
+dragongod		∞			8		16
+ff-destroy3 		332			11		18
+ff-schtop 		304			9		17 
+ff-phantomr 		277			8		15
+blitzkrieg2 		236			9		20
+openfirer 		228			9		15
+ff-swoop 		225			8		19
+rs_zzr 			215			9		18
+h5rdcore_b2 		193			9		17
+japanc 			156			6		13 (outlier)
+turtler 		154			8		17
+------------------------------------------------------------------
+tf2day_b2 		58			9		20
+ff-2fort 		58			12		23
+tfc-demolish_b2 	39			13		20
+genders2		32			11		20
+33smooth_b1 		30			10		27 (outlier)
+ff-siege		22			11		16
+etf-bigzag_b1 		8			11		15
+------------------------------------------------------------------
+AVERAGE	(150+)		X			8.9		17.3
+AVERAGE	(ALL)		X			9.8		18
+	
+=================================================================
+* Copyright and Legal Notices *
+
+This map is property of Arc. Permission is granted to distribute dragongod.bsp in a public forum as long as this text file (dragongod3.txt) is always distributed with it. This map is considered part of the Team Fortress QuakeC patch and comes under any legal agreements regarding Team Fortress.
+
+This map is a non-commercial, transformative derivative work created solely for entertainment purposes. It is not endorsed by, affiliated with, or sponsored by Square Enix or any other entity associated with the Chrono Trigger and Chrono Cross video game series. All copyrighted characters, settings, and other elements from the Chrono Trigger and Chrono Cross games are the property of their respective owners. No copyright infringement is intended, and no profit is being made from the distribution of this map.
