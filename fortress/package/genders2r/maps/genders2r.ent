@@ -2,10 +2,10 @@
 // http://www.erinyes.com/ented
 //
 {
-"message" "Genders II ▌ by ╜I╜J.кИЛЛЕР\n\nEnt revision by Arc\nNo yard spawn\n"
+"message" "Genders II ▌ By ╜I╜J.кИЛЛЕР\n\n"
 "sounds" "1"
 "classname" "worldspawn"
-"worldtype" "0"
+"light" "0"
 }
 {
 "classname" "item_cells"
@@ -106,9 +106,9 @@
 {
 "netname" "team1_spawn"
 "classname" "i_p_t"
-"origin" "816 2260 2"
+"origin" "1816 1960 80"
 "team_no" "1"
-"angle" "90"
+"angle" "270"
 }
 {
 "g_a" "1"
@@ -144,9 +144,9 @@
 {
 "netname" "team1_spawn"
 "classname" "i_p_t"
-"origin" "816 2356 2"
+"origin" "1640 1960 80"
 "team_no" "1"
-"angle" "90"
+"angle" "270"
 }
 {
 "netname" "team1_spawn"
@@ -157,9 +157,9 @@
 {
 "netname" "team1_spawn"
 "classname" "i_p_t"
-"origin" "816 2260 2"
+"origin" "1728 2016 80"
 "team_no" "1"
-"angle" "90"
+"angle" "270"
 }
 {
 "netname" "team1_spawn"
@@ -176,9 +176,9 @@
 {
 "netname" "team1_spawn"
 "classname" "i_p_t"
-"origin" "816 2356 2"
+"origin" "1816 2072 80"
 "team_no" "1"
-"angle" "90"
+"angle" "270"
 }
 {
 "netname" "team1_spawn"
@@ -200,27 +200,25 @@
 {
 "g_a" "1"
 "ammo_shells" "50"
+"netname" "re-supply_pack"
 "message" "Be careful out there"
-"netname" "re-supply_pack 1G"
 "classname" "i_t_g"
-"origin" "816 2764 6"
-"no_grenades_1" "2"
 "armortype" "0.8"
+"no_grenades_1" "2"
+"origin" "1728 1960 32"
 "wait" "2"
 "g_e" "1"
-"ammo_medikit" "50"
 "ammo_nails" "50"
+"ammo_medikit" "50"
 "armorvalue" "200"
-"team_no" "1"
-"health" "100"
-"ammo_cells" "50"
 "mdl" "progs/backpack.mdl"
+"ammo_cells" "50"
 "ammo_rockets" "50"
 }
 {
 "g_a" "1"
 "ammo_shells" "16"
-"netname" "re-supply_pack 1S"
+"netname" "re-supply_pack"
 "message" "Go Go Go"
 "classname" "i_t_g"
 "no_grenades_1" "1"
@@ -513,14 +511,12 @@
 {
 "g_a" "2"
 "target" "_1_vesi1"
-"message" "You blew up blue's grate!\n"
+"message" "You blew up Blues grate!\n"
 "netname" "Blues grate"
 "classname" "i_t_g"
 "origin" "332 2196 84"
-"n_b" " blew a hole in blue's grate!\n"
+"n_b" " blew a hole in Blues grate!\n"
 "g_e" "3"
-"count" "2"
-"frags" "2"
 "goal_result" "1"
 "team_no" "2"
 }
@@ -550,33 +546,33 @@
 }
 {
 "g_a" "693"
-"n_t" " тоок the енемы flag!\n"
 "owned_by" "1"
-"message" "ыоу have the енемы flag!\nTake it Home!\n"
+"n_t" " тоок the енемы flag!\n"
 "netname" "theflag"
+"message" "ыоу have the енемы flag!\nTake it Home!"
 "classname" "item_tfgoal"
-"origin" "2272 2992 -152"
 "noise" "shambler/ssight.wav"
+"origin" "2272 2992 -152"
 "b_t" "\n\n\nыоур team has the енемы flag!\n"
-"d_t" "The енемы ЛОСТ ыоур flag!\n"
 "b_o" "\n\n\nыоур flag has been такен!\n"
-"noise3" "ыоур flag was returned to base!\n"
-"items" "131072"
+"d_t" "The енемы ЛОСТ ыоур flag!\n"
 "goal_no" "1"
-"n_o" " тоок ыоур flag!\n"
-"noise4" "The енемы flag was returned to base!\n"
+"items" "131072"
+"noise3" "ыоур flag was returned to base!"
 "delay" "60"
-"team_no" "2"
+"noise4" "The енемы flag was returned to base!"
+"n_o" " тоок ыоур flag!\n"
 "pausetime" "60"
+"team_no" "2"
 "skin" "1"
-"d_n" "ыоур team ЛОСТ the енемы flag!\n"
 "mdl" "progs/tf_stan.mdl"
+"d_n" "ыоур team ЛОСТ the енемы flag!\n"
 }
 {
 "classname" "info_teleport_destination"
 "origin" "1624 3784 -128"
-"targetname" "_1_tele1"
 "angle" "183"
+"targetname" "_1_tele1"
 }
 {
 "speed" "1000"
@@ -604,9 +600,9 @@
 {
 "netname" "team1_spawn"
 "classname" "i_p_t"
-"origin" "816 2452 2"
+"origin" "1640 2072 80"
 "team_no" "1"
-"angle" "90"
+"angle" "270"
 }
 {
 "classname" "item_rockets"
@@ -773,9 +769,9 @@
 {
 "netname" "team2_spawn"
 "classname" "i_p_t"
-"origin" "912 -596 2"
+"origin" "-88 -296 80"
 "team_no" "2"
-"angle" "270"
+"angle" "90"
 }
 {
 "g_a" "1"
@@ -813,9 +809,9 @@
 {
 "netname" "team2_spawn"
 "classname" "i_p_t"
-"origin" "912 -692 2"
+"origin" "88 -296 80"
 "team_no" "2"
-"angle" "270"
+"angle" "90"
 }
 {
 "netname" "team2_spawn"
@@ -827,9 +823,9 @@
 {
 "netname" "team2_spawn"
 "classname" "i_p_t"
-"origin" "912 -596 2"
+"origin" "0 -352 80"
 "team_no" "2"
-"angle" "270"
+"angle" "90"
 }
 {
 "netname" "team2_spawn"
@@ -848,9 +844,9 @@
 {
 "netname" "team2_spawn"
 "classname" "i_p_t"
-"origin" "912 -692 2"
+"origin" "-88 -408 80"
 "team_no" "2"
-"angle" "270"
+"angle" "90"
 }
 {
 "netname" "team2_spawn"
@@ -874,36 +870,34 @@
 {
 "g_a" "1"
 "ammo_shells" "50"
+"netname" "re-supply_pack"
 "message" "Be careful out there"
-"netname" "re-supply_pack 2G"
 "classname" "i_t_g"
-"origin" "912 -1100 6"
-"no_grenades_1" "2"
 "armortype" "0.8"
+"no_grenades_1" "2"
+"origin" "0 -296 32"
 "wait" "2"
 "g_e" "1"
-"ammo_medikit" "50"
 "ammo_nails" "50"
+"ammo_medikit" "50"
 "armorvalue" "200"
-"health" "100"
-"team_no" "2"
-"ammo_cells" "50"
 "mdl" "progs/backpack.mdl"
+"ammo_cells" "50"
 "ammo_rockets" "50"
 }
 {
 "g_a" "1"
 "ammo_shells" "16"
+"netname" "re-supply_pack"
 "message" "Go Go Go"
-"netname" "re-supply_pack 2S"
 "classname" "i_t_g"
-"origin" "448 -696 116"
 "no_grenades_1" "1"
+"origin" "448 -696 116"
 "wait" "10"
 "g_e" "1"
 "ammo_nails" "25"
-"ammo_cells" "25"
 "mdl" "progs/backpack.mdl"
+"ammo_cells" "25"
 "ammo_rockets" "8"
 }
 {
@@ -1181,14 +1175,12 @@
 {
 "g_a" "2"
 "target" "_2_vesi1"
-"message" "You blew up red's grate!\n"
 "netname" "Reds grate"
+"message" "You blew up Reds grate!\n"
 "classname" "i_t_g"
+"n_b" " blew a hole in Reds grate!\n"
 "origin" "1396 -532 84"
-"n_b" " blew a hole in red's grate!\n"
 "g_e" "3"
-"count" "2"
-"frags" "2"
 "goal_result" "1"
 "team_no" "1"
 }
@@ -1248,9 +1240,9 @@
 {
 "netname" "team2_spawn"
 "classname" "i_p_t"
-"origin" "912 -788 2"
+"origin" "88 -408 80"
 "team_no" "2"
-"angle" "270"
+"angle" "90"
 }
 {
 "speed" "1000"
