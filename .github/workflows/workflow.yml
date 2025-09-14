@@ -34,8 +34,8 @@ jobs:
           python3 get-pip.py
           pip3 install awscli --upgrade
 
-       - name: Grab AWS JS S3 explorer
-         run: |
+      - name: Grab AWS JS S3 explorer
+        run: |
           curl -O https://raw.githubusercontent.com/FortressOne/aws-js-s3-explorer/master/index.html
           mv index.html fortress/maps/
 
