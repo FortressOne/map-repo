@@ -37,6 +37,7 @@ jobs:
       - name: Grab AWS JS S3 explorer
         run: |
           curl -O https://raw.githubusercontent.com/FortressOne/aws-js-s3-explorer/master/index.html
+          mkdir -p fortress/maps
           mv index.html fortress/maps/
 
       - name: Package into packaged bsps and upload to S3
