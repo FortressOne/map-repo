@@ -1,13 +1,13 @@
 {
 "classname" "worldspawn"
 "mapversion" "220"
-"wad" "C:/Quake/wad/Q.wad;C:/Quake/wad/ETF.wad;C:/Quake/wad/ff256.wad;C:/Quake/wad/button.wad;C:/Quake/wad/clock3.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/ff-swoop.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/pro-swoop.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/ff-swoop.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/pro-swoop.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/pro-swoop.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/pro-swoop.wad"
+"wad" "C:/Quake/wad/Q.wad;C:/Quake/wad/ETF.wad;C:/Quake/wad/ff256.wad;C:/Quake/wad/button.wad;C:/Quake/wad/clock3.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/ff-swoop.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/pro-swoop.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/pro-swoop.wad"
 "_generator" "J.A.C.K. 1.1.1064 (vpQuake)"
-"message" "==============================
-Swoop revised by bigcoins
-Ported by klown
-/Original by lansir/
-=============================="
+"message" "=========================
+Swoop revised by bigcoins
+Ported by klown
+/Original by lansir/
+========================="
 }
 {
 "classname" "func_door"
@@ -41,7 +41,7 @@ Ported by klown
 }
 {
 "classname" "func_button"
-"angle" "135"
+"angle" "-45"
 "lip" "-1"
 "target" "redoff"
 "team_no" "1"
@@ -50,6 +50,47 @@ Ported by klown
 "wait" "31.5"
 "non_team_broadcast" "Your security doors are offline for 30 seconds!\nProtect your flag!"
 "model" "*4"
+}
+{
+"classname" "light"
+"origin" "-2491 1728 299"
+"light" "75"
+"targetname" "redlight"
+"_color" "255 255 0"
+"delay" "2"
+"wait" "5"
+"angle" "225"
+"style" "32"
+}
+{
+"classname" "info_tfgoal"
+"goal_no" "202"
+"targetname" "redoff"
+"remove_group_no" "201"
+"activate_goal_no" "203"
+"noise" "red_down.wav"
+"g_e" "39"
+"volume" "1"
+"distance" "8192"
+"maxammo_nails" "4"
+"origin" "-2524 1692 286"
+"non_team_broadcast" "Red security is offline for 30 seconds!\nProtect your flag!"
+"n_b" " disabled red's security for 30 seconds\n"
+"target" "redlight"
+}
+{
+"classname" "info_tfgoal"
+"goal_no" "203"
+"targetname" "redon"
+"restore_group_no" "201"
+"delay_time" "31.5"
+"origin" "-2538 1707 286"
+"noise" "red_up.wav"
+"distance" "8192"
+"volume" "1"
+"team_broadcast" "Red security is back online!\n"
+"broadcast" "Red security is back online!\n"
+"target" "redlight"
 }
 {
 "classname" "func_illusionary"
@@ -633,19 +674,6 @@ Ported by klown
 "model" "*21"
 }
 {
-"classname" "info_tfdetect"
-"origin" "-1148 -80 -20"
-"display_item_status1" "1"
-"display_item_status2" "2"
-"team_str_home" "Your flag is in your base.\n"
-"team_str_moved" "Your flag is lying around."
-"team_str_carried" "Your flag is being carried by\n"
-"non_team_str_home" "The енемы flag is in their base.\n"
-"non_team_str_moved" "The енемы flag is lying around."
-"non_team_str_carried" "The енемы flag is being carried by\n"
-"non_team_broadcast" "Get the enemy flag and take it to your battlement!\n"
-}
-{
 "classname" "info_intermission"
 "origin" "-1960 1172 248"
 }
@@ -680,7 +708,6 @@ Ported by klown
 "angle" "0"
 "origin" "-944 1840 432"
 "mdl" "progs/ff_backpack.mdl"
-"wad" "C:/Quake/wad/Q.wad;C:/Quake/wad/ETF.wad;C:/Quake/wad/ff256.wad;C:/Quake/wad/button.wad;C:/Quake/wad/clock3.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/ff-swoop.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/ff-swoop.wad"
 }
 {
 "classname" "info_tfgoal"
@@ -1101,7 +1128,7 @@ Ported by klown
 }
 {
 "classname" "func_button"
-"angle" "315"
+"angle" "135"
 "lip" "-1"
 "target" "blueoff"
 "team_no" "2"
@@ -1113,13 +1140,14 @@ Ported by klown
 }
 {
 "classname" "light"
-"origin" "2651 -1864 299"
+"origin" "2491 -1736 299"
 "light" "75"
 "targetname" "bluelight"
 "_color" "255 255 0"
 "delay" "2"
 "wait" "5"
 "angle" "45"
+"wad" "C:/Quake/wad/Q.wad;C:/Quake/wad/ETF.wad;C:/Quake/wad/ff256.wad;C:/Quake/wad/button.wad;C:/Quake/wad/clock3.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/ff-swoop.wad;C:/Users/JONATHAN DE GUZMAN/OneDrive/Desktop/quaketest/pro-swoop.wad"
 "style" "33"
 }
 {
@@ -2236,7 +2264,7 @@ Ported by klown
 "volume" "1"
 "distance" "8192"
 "maxammo_nails" "4"
-"origin" "2664 -1856 296"
+"origin" "2536 -1728 296"
 "non_team_broadcast" "Blue security is offline for 30 seconds!\nProtect your flag!"
 "n_b" " disabled blue's security for 30 seconds\n"
 "target" "bluelight"
@@ -2248,7 +2276,7 @@ Ported by klown
 "targetname" "blueon"
 "restore_group_no" "101"
 "delay_time" "31.5"
-"origin" "2664 -1840 296"
+"origin" "2536 -1712 296"
 "noise" "blue_up.wav"
 "distance" "8192"
 "volume" "1"
@@ -3564,216 +3592,355 @@ Ported by klown
 }
 {
 "classname" "func_wall"
-"targetname" "1a"
+"targetname" "a1a"
 "model" "*69"
 }
 {
 "classname" "func_wall"
-"targetname" "a5a"
+"targetname" "a3a"
 "model" "*70"
 }
 {
 "classname" "func_wall"
-"targetname" "7a"
+"targetname" "a6a"
 "model" "*71"
 }
 {
 "classname" "func_wall"
-"targetname" "2a"
+"targetname" "a7a"
 "model" "*72"
 }
 {
 "classname" "func_wall"
-"targetname" "a7a"
+"targetname" "a5a"
 "model" "*73"
 }
 {
 "classname" "func_wall"
-"targetname" "a1a"
+"targetname" ""
 "model" "*74"
 }
 {
 "classname" "func_wall"
-"targetname" "a6a"
+"targetname" "a4a"
 "model" "*75"
 }
 {
 "classname" "func_wall"
-"targetname" "6a"
+"targetname" "3a"
 "model" "*76"
 }
 {
 "classname" "func_wall"
-"targetname" "a3a"
+"targetname" "1a"
 "model" "*77"
 }
 {
 "classname" "func_wall"
-"targetname" "a4a"
+"targetname" "2a"
 "model" "*78"
 }
 {
 "classname" "func_wall"
-"targetname" "5a"
+"targetname" "4a"
 "model" "*79"
 }
 {
 "classname" "func_wall"
-"targetname" ""
+"targetname" "5a"
 "model" "*80"
 }
 {
 "classname" "func_wall"
-"targetname" "4a"
+"targetname" "7a"
 "model" "*81"
 }
 {
 "classname" "func_wall"
-"targetname" "3a"
+"targetname" "6a"
 "model" "*82"
 }
 {
 "classname" "func_wall"
-"targetname" "6az"
+"targetname" "1a"
 "model" "*83"
 }
 {
 "classname" "func_wall"
-"targetname" "3az"
+"targetname" "a5a"
 "model" "*84"
 }
 {
 "classname" "func_wall"
-"targetname" "a3az"
+"targetname" "7a"
 "model" "*85"
 }
 {
 "classname" "func_wall"
-"targetname" "a5az"
+"targetname" "2a"
 "model" "*86"
 }
 {
 "classname" "func_wall"
-"targetname" "a6az"
+"targetname" "a7a"
 "model" "*87"
 }
 {
 "classname" "func_wall"
-"targetname" "5az"
+"targetname" "a1a"
 "model" "*88"
 }
 {
 "classname" "func_wall"
-"targetname" "2az"
+"targetname" "a6a"
 "model" "*89"
 }
 {
 "classname" "func_wall"
-"targetname" "1az"
+"targetname" "6a"
 "model" "*90"
 }
 {
 "classname" "func_wall"
-"targetname" "4az"
+"targetname" "a3a"
 "model" "*91"
 }
 {
 "classname" "func_wall"
-"targetname" "a7az"
+"targetname" "a4a"
 "model" "*92"
 }
 {
 "classname" "func_wall"
-"targetname" "7az"
+"targetname" "5a"
 "model" "*93"
 }
 {
 "classname" "func_wall"
-"targetname" "a1az"
+"targetname" ""
 "model" "*94"
 }
 {
 "classname" "func_wall"
-"targetname" "a4az"
+"targetname" "4a"
 "model" "*95"
 }
 {
 "classname" "func_wall"
+"targetname" "3a"
 "model" "*96"
 }
 {
 "classname" "func_wall"
-"targetname" "a6az"
+"targetname" "6az"
 "model" "*97"
 }
 {
 "classname" "func_wall"
-"targetname" "2az"
+"targetname" "3az"
 "model" "*98"
 }
 {
 "classname" "func_wall"
-"targetname" "4az"
+"targetname" "a3az"
 "model" "*99"
 }
 {
 "classname" "func_wall"
-"targetname" "a3az"
+"targetname" "a5az"
 "model" "*100"
 }
 {
 "classname" "func_wall"
-"targetname" "a4az"
+"targetname" "a6az"
 "model" "*101"
 }
 {
 "classname" "func_wall"
-"targetname" "1az"
+"targetname" "5az"
 "model" "*102"
 }
 {
 "classname" "func_wall"
+"targetname" "2az"
 "model" "*103"
 }
 {
 "classname" "func_wall"
-"targetname" "a7az"
+"targetname" "1az"
 "model" "*104"
 }
 {
 "classname" "func_wall"
-"targetname" "5az"
+"targetname" "4az"
 "model" "*105"
 }
 {
 "classname" "func_wall"
-"targetname" "a1az"
+"targetname" "a7az"
 "model" "*106"
 }
 {
 "classname" "func_wall"
-"targetname" "6az"
+"targetname" "7az"
 "model" "*107"
 }
 {
 "classname" "func_wall"
-"targetname" "3az"
+"targetname" "a1az"
 "model" "*108"
 }
 {
 "classname" "func_wall"
-"targetname" "a5az"
+"targetname" "a4az"
 "model" "*109"
 }
 {
 "classname" "func_wall"
-"targetname" "7az"
 "model" "*110"
+}
+{
+"classname" "func_wall"
+"targetname" "a6az"
+"model" "*111"
+}
+{
+"classname" "func_wall"
+"targetname" "2az"
+"model" "*112"
+}
+{
+"classname" "func_wall"
+"targetname" "4az"
+"model" "*113"
+}
+{
+"classname" "func_wall"
+"targetname" "a3az"
+"model" "*114"
+}
+{
+"classname" "func_wall"
+"targetname" "a4az"
+"model" "*115"
+}
+{
+"classname" "func_wall"
+"targetname" "1az"
+"model" "*116"
+}
+{
+"classname" "func_wall"
+"model" "*117"
+}
+{
+"classname" "func_wall"
+"targetname" "a7az"
+"model" "*118"
+}
+{
+"classname" "func_wall"
+"targetname" "5az"
+"model" "*119"
+}
+{
+"classname" "func_wall"
+"targetname" "a1az"
+"model" "*120"
+}
+{
+"classname" "func_wall"
+"targetname" "6az"
+"model" "*121"
+}
+{
+"classname" "func_wall"
+"targetname" "3az"
+"model" "*122"
+}
+{
+"classname" "func_wall"
+"targetname" "a5az"
+"model" "*123"
+}
+{
+"classname" "func_wall"
+"targetname" "7az"
+"model" "*124"
+}
+{
+"classname" "func_wall"
+"targetname" "a3az"
+"model" "*125"
+}
+{
+"classname" "func_wall"
+"targetname" "a5az"
+"model" "*126"
+}
+{
+"classname" "func_wall"
+"targetname" "a7az"
+"model" "*127"
+}
+{
+"classname" "func_wall"
+"targetname" "a6az"
+"model" "*128"
+}
+{
+"classname" "func_wall"
+"targetname" "3az"
+"model" "*129"
+}
+{
+"classname" "func_wall"
+"targetname" "1az"
+"model" "*130"
+}
+{
+"classname" "func_wall"
+"targetname" "2az"
+"model" "*131"
+}
+{
+"classname" "func_wall"
+"targetname" "5az"
+"model" "*132"
+}
+{
+"classname" "func_wall"
+"targetname" "7az"
+"model" "*133"
+}
+{
+"classname" "func_wall"
+"targetname" "6az"
+"model" "*134"
+}
+{
+"classname" "func_wall"
+"targetname" "4az"
+"model" "*135"
 }
 {
 "classname" "info_player_start"
 "origin" "-1552 464 -31"
 "angle" "90"
+}
+{
+"classname" "func_wall"
+"targetname" "a4az"
+"model" "*136"
+}
+{
+"classname" "func_wall"
+"model" "*137"
+}
+{
+"classname" "func_wall"
+"targetname" "a1az"
+"model" "*138"
 }
 {
 "classname" "light"
@@ -3909,7 +4076,7 @@ Ported by klown
 }
 {
 "classname" "func_illusionary"
-"model" "*111"
+"model" "*139"
 }
 {
 "classname" "func_door"
@@ -3919,7 +4086,7 @@ Ported by klown
 "dmg" "999"
 "speed" "400"
 "angle" "180"
-"model" "*112"
+"model" "*140"
 }
 {
 "classname" "func_door"
@@ -3929,7 +4096,7 @@ Ported by klown
 "sounds" "4"
 "wait" ".3"
 "targetname" "bluerespawn2"
-"model" "*113"
+"model" "*141"
 }
 {
 "classname" "func_door"
@@ -3939,7 +4106,7 @@ Ported by klown
 "dmg" "999"
 "speed" "400"
 "angle" "180"
-"model" "*114"
+"model" "*142"
 }
 {
 "classname" "func_door"
@@ -3949,7 +4116,7 @@ Ported by klown
 "sounds" "4"
 "wait" ".3"
 "targetname" "bluerespawn"
-"model" "*115"
+"model" "*143"
 }
 {
 "classname" "light"
@@ -3964,7 +4131,7 @@ Ported by klown
 "classname" "trigger_multiple"
 "target" "bluerespawn2"
 "team_no" "1"
-"model" "*116"
+"model" "*144"
 }
 {
 "classname" "info_tfgoal"
@@ -4041,7 +4208,7 @@ Ported by klown
 "dmg" "999"
 "speed" "400"
 "angle" "0"
-"model" "*117"
+"model" "*145"
 }
 {
 "classname" "func_door"
@@ -4051,7 +4218,7 @@ Ported by klown
 "sounds" "4"
 "wait" ".3"
 "targetname" "redrespawn2"
-"model" "*118"
+"model" "*146"
 }
 {
 "classname" "func_door"
@@ -4061,7 +4228,7 @@ Ported by klown
 "dmg" "999"
 "speed" "400"
 "angle" "180"
-"model" "*119"
+"model" "*147"
 }
 {
 "classname" "func_door"
@@ -4071,7 +4238,7 @@ Ported by klown
 "sounds" "4"
 "wait" ".3"
 "targetname" "bluerespawn"
-"model" "*120"
+"model" "*148"
 }
 {
 "classname" "light"
@@ -4086,7 +4253,7 @@ Ported by klown
 "classname" "trigger_multiple"
 "target" "redrespawn2"
 "team_no" "2"
-"model" "*121"
+"model" "*149"
 }
 {
 "classname" "info_tfgoal"
@@ -4282,43 +4449,16 @@ Ported by klown
 "angle" "90"
 }
 {
-"classname" "light"
-"origin" "-2651 1872 299"
-"light" "75"
-"targetname" "redlight"
-"_color" "255 255 0"
-"delay" "2"
-"wait" "5"
-"angle" "225"
-"style" "32"
-}
-{
-"classname" "info_tfgoal"
-"goal_no" "202"
-"targetname" "redoff"
-"remove_group_no" "201"
-"activate_goal_no" "203"
-"noise" "red_down.wav"
-"g_e" "39"
-"volume" "1"
-"distance" "8192"
-"maxammo_nails" "4"
-"origin" "-2684 1836 286"
-"non_team_broadcast" "Red security is offline for 30 seconds!\nProtect your flag!"
-"n_b" " disabled red's security for 30 seconds\n"
-"target" "redlight"
-}
-{
-"classname" "info_tfgoal"
-"goal_no" "203"
-"targetname" "redon"
-"restore_group_no" "201"
-"delay_time" "31.5"
-"origin" "-2698 1835 286"
-"noise" "red_up.wav"
-"distance" "8192"
-"volume" "1"
-"team_broadcast" "Red security is back online!\n"
-"broadcast" "Red security is back online!\n"
-"target" "redlight"
+"classname" "info_tfdetect"
+"origin" "-16 8 16"
+"display_item_status1" "1"
+"display_item_status2" "2"
+"team_str_home" "Your flag is in your base.\n"
+"team_str_moved" "Your flag is lying around."
+"team_str_carried" "Your flag is being carried by\n"
+"non_team_str_carried" "The @#@#@ flag is being carried by\n"
+"non_team_str_moved" "The @#@#@ flag is lying around."
+"non_team_str_home" "The @#@#@ flag is in their base.\n"
+"non_team_broadcast" "Get the enemy flag and take it to your base!\n"
+"hook_out" "1"
 }
